@@ -2184,4 +2184,172 @@ The citation, bench composition, and precise holding of *H.N. Rishbud v. State o
 
 ---
 
+## Section 192 — Diary of proceedings in investigation
+
+### The dispute this solves
+
+::: oneminute The document everyone has heard of and almost no one is allowed to read
+Every practitioner has heard of the "case diary" — the investigating officer's day-by-day record of an investigation, the thing defence counsel always seems to want and almost never gets. Bharat's counsel, cross-examining the investigating officer who arrested him, asks the officer to produce the case diary so the defence can check it for inconsistencies. The prosecution objects. The Magistrate has to decide, on the spot, whether the defence has any right to see it — and the answer under section 192 is layered, not a flat yes or no.
+
+The case diary is not evidence, and the accused has no general right to call for it or inspect it. But the moment the investigating officer uses the diary to refresh his memory while testifying, or the moment the court itself uses an entry to contradict him, a narrow door opens — and knowing exactly how wide that door is, and how to get a foot in it, is the entire skill this section demands.
+:::
+
+::: story A privilege built for the investigation, with two precisely engineered exceptions
+Section 192 protects the case diary from becoming a second, informal chargesheet that the defence can pick apart line by line — investigating officers need room to record hunches, dead ends, and tentative theories without every entry becoming fodder for cross-examination. That protection is the default rule in sub-section (5). But the section does not make the diary untouchable. Sub-section (4) lets any criminal court call for it to aid an inquiry or trial — not as evidence, but as a tool for the court's own understanding. And sub-section (5)'s own proviso-like final clause opens the diary to the ordinary rules on refreshing memory and contradicting a witness the moment the investigating officer, not the defence, chooses to rely on it. The privilege belongs to the investigation, not to the officer personally — and it lasts only as long as the officer does not use the diary as a shield and a sword at the same time.
+:::
+
+### The Act, decompiled
+
+> **192. Diary of proceedings in investigation.** (1) Every police officer making an investigation under this Chapter shall [[!day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation]].
+>
+> (2) [[!The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary]].
+>
+> (3) [[!The diary referred to in sub-section (1) shall be a volume and duly paginated]].
+>
+> (4) [[?Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial]].
+>
+> (5) [[!Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court]]; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, [[!the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 192(1) "shall day by day enter his proceedings" | Mandatory, contemporaneous discipline | The diary is meant to be a running record made as the investigation unfolds, not a retrospective narrative composed once the outcome is known |
+| s. 192(2) "shall be inserted in the case diary" | Mandatory | Section 180 witness statements are not a separate, free-floating record — they must physically become part of the case diary itself |
+| s. 192(3) "shall be a volume and duly paginated" | Mandatory, integrity safeguard | Pagination is what makes insertion, removal, or reordering of pages detectable — a diary without it invites a tampering challenge that a properly paginated one forecloses |
+| s. 192(4) "may send for… may use… not as evidence… but to aid it" | Discretionary power, with a fixed limit on use | The court's access is broader than the accused's, but even the court cannot treat diary entries as substantive proof of the facts they record |
+| s. 192(5), main clause | Mandatory bar | The default position is a flat prohibition on defence access, whether by demand or merely because the court referred to an entry |
+| s. 192(5), closing clause | Conditional gateway | The bar lifts specifically and only where the officer uses the diary to refresh memory, or the court uses it to contradict him — at which point the ordinary BSA mechanism for refreshing memory and contradiction by previous writing takes over |
+
+::: proviso The section 192(5) bar and its gateway are not mirror images of each other — the gateway is narrower
+It is tempting to read section 192(5) as "the defence cannot see the diary, unless the court refers to it, in which case they can." That is not what the text says. Being referred to by the court does not, by itself, open the diary — the closing clause is triggered only by the specific acts of the officer refreshing his memory from it, or the court using it to contradict him. A Magistrate who reads an entry aloud, or a judgment that quotes from a diary the court called for under sub-section (4), does not automatically entitle the defence to inspect the underlying pages — the gateway opens on the officer's or the court's *use* of the diary in one of the two specified ways, not on the diary having been mentioned.
+:::
+
+::: proviso Pagination is a small-sounding requirement that can decide a case
+Sub-section (3)'s demand that the diary "be a volume and duly paginated" is easy to treat as a clerical footnote next to the more dramatic sub-sections around it. It is not. A loose-leaf or unpaginated diary cannot itself demonstrate that no page has been added, removed, or substituted after the fact — which is precisely the integrity concern the case-diary privilege in sub-section (5) is built to manage. Where a diary produced at trial is not a bound, paginated volume, that is not a minor formatting objection; it is a live challenge to whether the document the court is being asked to rely on (even in the limited sub-section (4) sense) is the same document the investigating officer actually kept.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Bharat's counsel, cross-examining the investigating officer, asks the court to direct production of the case diary for inspection by the defence. Should the court grant this?"
+  :gates="[
+    { q: 'Has the investigating officer, while testifying, actually used the case diary to refresh his memory on the point in question?', note: 'This is one of exactly two events that open the section 192(5) gateway — a general demand to inspect the diary is not one of them.', no: 'Check the second gateway below before concluding the diary remains closed to the defence.' },
+    { q: 'Alternatively, has the court itself used a specific diary entry to contradict the officer’s testimony?', note: 'This is the second, and only other, trigger for the gateway.', no: 'Neither gateway is open — sub-section (5)’s main bar continues to apply in full, and the defence has no right to inspect the diary generally.' }
+  ]"
+  result="If either gateway is open, the ordinary BSA mechanism for refreshing memory and contradiction by previous writing governs the extent of defence access to the relevant entries — not a general right to read the diary cover to cover."
+  resultKind="discretionary"
+  caveat="Even where the gateway opens, access is confined to what the refreshing-memory or contradiction mechanism itself permits — typically the specific passage relied upon, not the entire volume, and the diary entries remain unusable as substantive evidence of the facts they record."
+/>
+
+### In plain English
+
+**The case diary occupies a deliberately narrow evidentiary space: not evidence, not fully secret, and not freely available to anyone.** Sub-section (4) lets a court use it to aid understanding without treating it as proof; sub-section (5) locks it away from the defence except through two specifically engineered doors. Neither the prosecution nor the defence can treat the diary as an ordinary document that "belongs" to one side or the other.
+
+**The mandatory, contemporaneous, paginated form of the diary is what makes the privilege defensible.** A privilege against disclosure is much harder to justify for a document assembled loosely, after the fact, with pages that can be added or dropped unnoticed. Sub-sections (1) through (3) are what earn the diary the protection sub-section (5) then gives it — and a diary that does not actually satisfy those requirements has a correspondingly weaker claim to that protection.
+
+**The defence's access is a function of what the prosecution does with the diary, not a function of what the defence wants from it.** This inverts the instinct many newer practitioners bring to the provision — the door does not open because the defence asks hard enough or the case is serious enough; it opens only because the investigating officer chose to refresh his memory from the diary, or the court chose to use an entry against him. A defence strategy built around demanding the diary outright will fail; one built around watching for, and immediately seizing on, the officer's own use of the diary on the stand will not.
+
+**Section 180's witness statements travelling into the case diary under sub-section (2) means the diary is not merely the officer's personal notes — it is the container for statutory material with its own separate rules.** A challenge to how those statements were recorded, or to their consistency with trial testimony, may well require engaging with the diary in some form even though the diary itself remains privileged — practitioners should not conflate a challenge to a section 180 statement's recording with a demand to inspect the diary generally, since the former does not require the latter.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 172 → BNSS 2023, s. 192.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only.*
+
+**Delta bucket: renumbered with drafting changes.** The core structure — mandatory day-by-day entries, the court's limited aid-not-evidence access, the accused's default exclusion, and the refresh-memory/contradiction gateway — carries forward from the CrPC framework the drafter recalls. The most visible textual change is sub-section (2)'s express instruction that section 180 witness statements be inserted into the case diary, and the closing clause's cross-reference to the Bharatiya Sakshya Adhiniyam, 2023 in place of the Indian Evidence Act, 1872 — a renaming consistent with the wider three-statute replacement rather than a substantive change to the refresh-memory/contradiction mechanism itself.
+
+::: info Verify before citing
+The mapping to CrPC s. 172 is given from the drafter's working knowledge and has not been checked against a CrPC bare Act text held in this repository. Separately, the description of BSA ss. 148 and 164 as governing "refreshing memory" and "contradiction by previous writing" respectively is drawn from the drafter's working knowledge of the equivalent, longstanding Evidence Act mechanism and has not been checked against a BSA bare Act text, which this repository does not hold — confirm the precise content of both BSA sections before relying on this description in argument.
+:::
+
+**What a practitioner must now do differently.** First, when a section 180 statement's contents are disputed, remember it now sits inside the case diary by sub-section (2)'s express direction — engaging with it may require navigating the sub-section (5) privilege even though the statement itself is a distinct object from the diary as a whole. Second, treat an unpaginated or loose-leaf case diary produced at trial as a live integrity objection, not a formatting quibble — sub-section (3) is not decorative. Third, watch for the precise moment an investigating officer reaches for the diary to refresh his memory during testimony — that is the trigger point for the sub-section (5) gateway, and the objection or the access request needs to be made in that moment, not planned for in the abstract beforehand.
+
+### Test your instinct
+
+::::instinct The officer who glances at his notes without calling them the "case diary"
+
+While testifying, the investigating officer pauses, looks down at a bound, paginated notebook on the witness stand, and continues his answer with noticeably more precise dates and times than he had been giving moments before. He does not use the words "case diary" or expressly state that he is refreshing his memory.
+
+Has the section 192(5) gateway opened?
+
+:::ruling Reveal the ruling
+On these facts, very likely yes, regardless of the label used. The gateway in sub-section (5) is triggered by the officer's *use* of the diary to refresh his memory, not by his announcing that he is doing so in those exact words. A witness consulting a document on the stand and visibly relying on it to produce more precise testimony than he could otherwise give is the substance of "refreshing memory," and defence counsel should press the point immediately — asking the officer directly whether the document he consulted is the case diary, and if so, invoking the BSA's refreshing-memory mechanism to seek access to the relevant entry. Waiting until after the testimony concludes to raise the point risks losing the moment at which the gateway was actually open.
+::::
+
+::::instinct The unpaginated diary produced at trial
+
+At trial, the case diary produced by the prosecution consists of loose sheets, not a bound volume, with page numbers added by hand in a different pen from the entries themselves. The defence has no specific evidence that any page was altered, but points to the format itself.
+
+Is the format objection, standing alone, a sufficient basis to challenge the diary's reliability?
+
+:::ruling Reveal the ruling
+It is a legitimate and worth-pressing objection, though its ultimate weight depends on what else the record shows. Sub-section (3)'s requirement that the diary "be a volume and duly paginated" exists precisely to make the kind of undetected alteration the defence is worried about difficult to accomplish — a diary that does not meet this form has lost that built-in safeguard, and the defence is entitled to argue that any reliance the court places on such a diary under sub-section (4), or any refresh-memory episode under sub-section (5), should be assessed with correspondingly greater caution. This is not, by itself, proof of tampering, and the defence should not overstate it as such — but it shifts the practical burden onto the prosecution to explain the diary's actual provenance and integrity, rather than leaving the defence to prove alteration affirmatively from a blank slate.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Balakram v. State of Uttarakhand**, (2017) 7 SCC 668. ⚠️ *Verify bench strength and precise holding before citing — recorded from working knowledge, not independently confirmed against the official report.*
+
+**Ratio.** A court is entitled — and in an appropriate case, obliged — to call for and examine the case diary to test the veracity of the prosecution's account, including matters such as delay in recording or forwarding the first information or the general course of the investigation, even without a specific request from either party; this power exists independently of, and is not defeated by, the general bar on the accused calling for or inspecting the diary. The case diary nonetheless remains inadmissible as substantive evidence of the facts it records, and the accused acquires no free-standing right to inspect it merely because the court has exercised this power.
+
+**Practitioner takeaway.** *"Section 192(4) is a live, usable tool, not a dead letter — where the investigation's own case diary would expose a material inconsistency (a delayed FIR, an unexplained gap in the timeline), ask the court to call for and examine the diary itself under Balakram, rather than assuming the defence's only route to the diary is through the narrower sub-section (5) gateway."*
+
+**BNSS caveat.** *Balakram* construes CrPC s. 172, which s. 192 carries forward in the **renumbered with drafting changes** bucket identified above, preserving the same court-access-without-evidentiary-status structure the judgment relies on. Its ratio — that the court's own power to call for and examine the diary is independent of, and broader than, the accused's narrow refresh-memory/contradiction gateway — applies with undiminished force to s. 192(4), since the operative language is materially unchanged.
+
+#### Sword and shield
+
+| | Offensive use (defence) | Defensive use (prosecution) |
+|---|---|---|
+| On the refresh-memory gateway | Watch closely for any moment the investigating officer consults the diary while testifying, and invoke the BSA mechanism immediately to seek access to the relevant entry. | Prepare the investigating officer to testify from independent recollection where possible, minimising reliance on the diary during testimony and thereby minimising the gateway's application. |
+| On section 192(4) | Where the diary would expose a material inconsistency, ask the court to call for and examine it directly under *Balakram*, rather than relying solely on the narrower sub-section (5) gateway. | Ensure the diary is complete, contemporaneous, and internally consistent before trial, since a court exercising its *Balakram* power will scrutinise exactly the kind of gaps the diary might otherwise reveal. |
+| On pagination and form | Challenge an unpaginated or loose-leaf diary's integrity as a threshold objection before any substantive reliance is placed on it. | Maintain the diary as a properly bound, paginated volume as a matter of routine practice, foreclosing this objection before it can be raised. |
+| On section 180 statements inside the diary | Where a witness's trial testimony departs from the section 180 statement recorded in the diary, use the departure to attack credibility through the ordinary contradiction mechanism, once the statement itself is properly before the court. | Ensure section 180 statements are accurately and promptly inserted into the diary as sub-section (2) requires, avoiding a credibility gap between what was recorded and what is later shown to the court. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Making diary entries | Day by day, contemporaneously with the investigation | s. 192(1) | Entries made well after the fact undermine the diary's claim to being a genuine contemporaneous record, weakening its reliability even where the court examines it under sub-section (4) |
+| Inserting section 180 witness statements into the diary | During the course of investigation, as statements are recorded | s. 192(2) | A delay or omission here creates a gap between the statement's existence and its incorporation into the diary, worth probing on cross-examination |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 180** | Supplies the witness statements that sub-section (2) expressly requires to be inserted into the case diary — a challenge to the manner or timing of section 180 recording often surfaces through the diary itself. |
+| **BNSS s. 193** | The case diary is the working record from which the final report under s. 193 is ultimately drawn — inconsistencies between the diary and the report are a natural point of cross-examination once both are before the court. |
+| **BSA 2023, ss. 148 and 164** | Supply the operative mechanism — refreshing memory and contradiction by previous writing — that governs the limited access the section 192(5) gateway opens; s. 192 does not restate these rules but incorporates them by cross-reference. |
+| **Applicable forms / filings** | An objection to production or use of the case diary beyond what sub-section (5)'s gateway permits; a request that the court exercise its s. 192(4) power to call for and examine the diary directly, per *Balakram*; a challenge to the diary's pagination or form as a threshold integrity objection. |
+
+#### The authorities
+
+No independently confirmed second authority is added here beyond *Balakram* — the operative mechanism for the narrower sub-section (5) gateway is the BSA's own refreshing-memory and contradiction provisions, cross-referenced directly in the statutory text itself rather than requiring separate case law to establish.
+
+::: info Verify before citing
+The citation and precise holding of *Balakram v. State of Uttarakhand* are recorded from the drafter's working knowledge and secondary-source research conducted while writing this page, and should be independently verified against the official SCC report before being placed before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not demand production of the case diary outright as a general discovery request — sub-section (5)'s bar is the default, and an undifferentiated demand invites a straightforward, correct rejection.
+2. Do not miss the moment an investigating officer consults the diary on the stand — the objection or the access request must be made contemporaneously with that use, not reconstructed afterward from the transcript.
+3. Do not overlook section 192(4) as an independent tool distinct from the sub-section (5) gateway — where a case has a genuine timeline or delay problem, asking the court to exercise its own *Balakram* power can succeed even where the narrower defence-access gateway has not opened.
+4. Do not treat an unpaginated diary's format defect as fatal to the prosecution's case on its own — it is a serious integrity objection that shifts scrutiny, not an automatic basis for exclusion.
+
+**Timing.** There is no external limitation period governing case-diary objections distinct from the trial timeline itself, but the refresh-memory gateway is inherently time-sensitive — it must be raised at the point in testimony where the officer actually consults the diary, since the objection loses much of its force if raised only after the officer has already left the stand.
+
+**Model checklist for handling the case diary at trial:**
+
+1. Confirm the diary is a bound, paginated volume, and raise a format objection if it is not.
+2. Confirm section 180 witness statements were properly and promptly inserted under sub-section (2).
+3. Watch the investigating officer's testimony closely for any use of the diary to refresh memory, and invoke the BSA mechanism immediately if it occurs.
+4. Where the case has a timeline or delay problem the diary might expose, consider affirmatively requesting the court exercise its section 192(4) power under *Balakram*.
+5. Do not treat any court reference to, or use of, the diary as automatically opening defence access — confirm the reference falls within one of the two specific sub-section (5) gateway triggers before pressing for inspection.
+
+---
+
 
