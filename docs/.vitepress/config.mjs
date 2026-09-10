@@ -74,7 +74,7 @@ export default defineConfig({
           text: 'Information and investigation',
           collapsed: false,
           items: [
-            { text: 'Chapter XIII — Police powers to investigate (ss. 173–183)', link: '/chapters/chapter-13' }
+            { text: 'Chapter XIII — Police powers to investigate (ss. 173–196)', link: '/chapters/chapter-13' }
           ]
         },
         { text: 'Cognizance, commitment and charge', collapsed: true, items: [] },
