@@ -2551,4 +2551,175 @@ The citation for *Satya Narain Musadi v. State of Bihar* is recorded from the dr
 
 ---
 
+## Sections 194–196 — Inquest into unnatural death, and the mandatory inquiry where death or rape occurs in custody
+
+::: oneminute Sections 194–196 in plain words
+These three sections close Chapter XIII with a different kind of investigation altogether — not "who committed a crime," but "how did this person die." Section 194 requires a police officer who learns of a suicide, an accidental death, or a death under suspicious circumstances to go to the spot, hold an inquest with two or more local witnesses, and record the apparent cause of death. Certain categories — a woman dead or by suicide within seven years of marriage, any doubtful death — trigger a mandatory forwarding of the body for medical examination. Section 195 gives the officer power to summon witnesses for that inquest, with built-in protections for the young, the old, women, and the unwell. Section 196 is the constitutional safety valve: where a person dies, disappears, or a woman is raped **while in police or other authorised custody**, a Magistrate's inquiry is mandatory, run independently of — and in addition to — anything the police do.
+:::
+
+::: story A death in the lock-up
+A man named Dinesh is arrested on a theft complaint and lodged overnight in the police lock-up. By morning he is found dead in his cell. Under section 194 alone, the station house officer would hold an inquest like any other unnatural death — intimate the Executive Magistrate, assemble two respectable local witnesses, draw up a report of apparent injuries, forward the body for medical examination. But because Dinesh died in police custody, section 196(2) engages independently: the police inquiry is not the end of it. A Magistrate with local jurisdiction must hold his own inquiry into the death — not as a formality layered on top of the police version, but as a check specifically built for the situation where the very institution investigating the death is the one that had custody of the body when it happened.
+:::
+
+> **194. Police to enquire and report on suicide, etc.**—(1) When the officer in charge of a police station or some other police officer specially empowered by the State Government in that behalf receives information that a person has committed suicide, or has been killed by another or by an animal or by machinery or by an accident, or has died under circumstances raising a reasonable suspicion that some other person has committed an offence, he [[!shall]] immediately give intimation thereof to the nearest Executive Magistrate empowered to hold inquests, and, unless otherwise directed by any rule made by the State Government, or by any general or special order of the District or Sub-divisional Magistrate, shall proceed to the place where the body of such deceased person is, and there, in the presence of two or more respectable inhabitants of the neighbourhood, shall make an investigation, and draw up a report of the apparent cause of death, describing such wounds, fractures, bruises, and other marks of injury as may be found on the body, and stating in what manner, or by what weapon or instrument (if any), such marks appear to have been inflicted.
+>
+> (2) The report [[!shall]] be signed by such police officer and other persons, or by so many of them as concur therein, and shall be forwarded to the District Magistrate or the Sub-divisional Magistrate within twenty-four hours.
+>
+> (3) When—
+>
+> (i) the case involves suicide by a woman within seven years of her marriage; or
+>
+> (ii) the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
+>
+> (iii) the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
+>
+> (iv) there is any doubt regarding the cause of death; or
+>
+> (v) the police officer for any other reason considers it expedient so to do,
+>
+> he [[!shall]], subject to such rules as the State Government may prescribe in this behalf, forward the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified medical person appointed in this behalf by the State Government, if the state of the weather and the distance admit of its being so forwarded without risk of such putrefaction on the road as would render such examination useless.
+>
+> ::: proviso Five triggers, and the first three all protect the same category
+> Clauses (i) through (iii) of sub-section (3) each independently mandate forwarding the body for medical examination wherever the deceased is a woman within seven years of marriage — dead by her own hand, dead in suspicious circumstances, or dead where a relative simply asks for it. A practitioner acting for the woman's natal family need only establish the seven-year marriage window and one of these three factual triggers; clause (iii) in particular does not require any suspicion at all, only a relative's request. Clauses (iv) and (v) are residual and apply regardless of the deceased's sex or marital history — "doubt" and the officer's own sense of expediency are lower, more general thresholds.
+> :::
+>
+> (4) The following Magistrates are empowered to hold inquests, namely, any District Magistrate or Sub-divisional Magistrate and any other Executive Magistrate specially empowered in this behalf by the State Government or the District Magistrate.
+>
+> **195. Power to summon persons.**—(1) A police officer proceeding under section 194 [[?may]], by order in writing, summon two or more persons as aforesaid for the purpose of the said investigation, and any other person who appears to be acquainted with the facts of the case and every person so summoned [[!shall]] be bound to attend and to answer truly all questions other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture:
+>
+> Provided that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place where such person resides:
+>
+> Provided further that if such person is willing to attend and answer at the police station, such person may be permitted so to do.
+>
+> (2) If the facts do not disclose a cognizable offence to which section 190 applies, such persons [[!shall]] not be required by the police officer to attend a Magistrate's Court.
+>
+> **196. Inquiry by Magistrate into cause of death.**—(1) When the case is of the nature referred to in clause (i) or clause (ii) of sub-section (3) of section 194, the nearest Magistrate empowered to hold inquests [[!shall]], and in any other case mentioned in sub-section (1) of section 194, any Magistrate so empowered [[?may]] hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
+>
+> (2) Where—
+>
+> (a) any person dies or disappears; or
+>
+> (b) rape is alleged to have been committed on any woman,
+>
+> while such person or woman is in the custody of the police or in any other custody authorised by the Magistrate or the Court, under this Sanhita in addition to the inquiry or investigation held by the police, an inquiry [[!shall]] be held by the Magistrate within whose local jurisdiction the offence has been committed.
+>
+> ::: proviso The custody inquiry is mandatory and stands apart from the police's own version
+> Sub-section (2)'s Magistrate inquiry is not discretionary and is not a review of the police inquiry — it is an independent, mandatory proceeding triggered the moment the factual predicate is met: a death, a disappearance, or an allegation of rape, occurring while the person was in police custody or any other Sanhita-authorised custody. "In addition to" is the operative phrase — the police's own section 194 inquest does not substitute for it, and the existence of a police report on the same death does not discharge the Magistrate's separate statutory obligation.
+> :::
+>
+> (3) The Magistrate holding such an inquiry [[!shall]] record the evidence taken by him in connection therewith in any manner hereinafter specified according to the circumstances of the case.
+>
+> (4) Whenever such Magistrate considers it expedient to make an examination of the dead body of any person who has been already interred, in order to discover the cause of his death, the Magistrate [[?may]] cause the body to be disinterred and examined.
+>
+> (5) Where an inquiry is to be held under this section, the Magistrate [[!shall]], wherever practicable, inform the relatives of the deceased whose names and addresses are known, and shall allow them to remain present at the inquiry.
+>
+> (6) The Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section (2) [[!shall]], within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
+>
+> *Explanation.*—In this section, the expression [[="relative"]] means parents, children, brothers, sisters and spouse.
+
+<MicroTree
+  input="A death has occurred. Who investigates it, and does a Magistrate have to get involved?"
+  :gates="[
+    { q: 'Did the death occur while the deceased was in police custody or other Sanhita-authorised custody, or has the person disappeared, or is a custodial rape alleged, under sub-section (2)?', note: 'A Magistrate’s inquiry under section 196(2) is mandatory, held independently of and in addition to the police’s own section 194 inquest — this is not discretionary and is not satisfied by a police report alone.', no: 'The section 196(2) mandatory custody-inquiry does not engage; the case proceeds under section 194’s ordinary inquest framework and section 196(1)’s narrower, more conditional Magistrate-inquiry power.' },
+    { q: 'Is the death that of a woman within seven years of marriage, by suicide or otherwise suspicious, per section 194(3)(i)–(iii)?', note: 'Forwarding the body for medical examination is mandatory — and under clause (iii), a relative’s mere request is independently sufficient to trigger it, with no further threshold of suspicion required.', no: 'The body is forwarded for examination only if there is doubt about the cause of death, or the officer otherwise considers it expedient, under clauses (iv) and (v).' },
+    { q: 'Is section 196(1) engaged because the death falls under section 194(3)(i) or (ii) specifically?', note: 'The Magistrate’s inquiry under 196(1) is then mandatory (“shall”), not merely available.', no: 'For any other section 194(1) case, a Magistrate’s inquiry under 196(1) is discretionary (“may”) — available instead of, or in addition to, the police investigation, but not compelled by this sub-section alone.' }
+  ]"
+  result="The correct inquiry track is identified — ordinary police inquest, conditional Magistrate inquiry, or the mandatory independent custody-death/custody-rape inquiry — and the body is routed for medical examination if any of the section 194(3) triggers is met."
+  resultKind="mandatory"
+  caveat="The section 196(2) custody-inquiry duty and the section 194(3) medical-examination duty are independent triggers — a case can engage one, the other, both, or neither, and each must be checked on its own facts."
+/>
+
+### In plain English
+
+Read these three sections as concentric circles. The outer circle, section 194, is the ordinary machinery for any unnatural death — an inquest by the local police officer, witnessed by two or more neighbours, with a mandatory medical-examination referral for a defined set of higher-risk categories, most prominently deaths and suicides of women early in marriage. The middle circle, section 195, is a housekeeping power — the officer can compel witnesses to that inquest, subject to the same protective carve-outs for the young, the old, the unwell, and women that recur throughout this Sanhita's summons provisions. The inner circle, section 196, is where the law stops trusting the police to mark their own homework: wherever a death, a disappearance, or an alleged rape occurs while the person was in custody, a Magistrate — a judicial officer, not a police officer — must hold an independent inquiry, in addition to whatever the police have done, with the power to disinter a body already buried if that is what discovering the truth requires.
+
+The structural point for a practitioner is that sub-section (2) of section 196 is not a heightened version of the ordinary inquest — it is a categorically different proceeding, judicial rather than executive, and its mandatory character ("shall be held") admits no discretion once the custody predicate is established.
+
+### What changed from the CrPC
+
+BNSS sections 194, 195 and 196 correspond to CrPC sections 174, 175 and 176 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, not substantively new — the custodial-death and custodial-rape mandatory-inquiry mechanism in what is now section 196(2) already existed in the unamended CrPC's section 176(1A). The BNSS text reorganises and modernises drafting (for example, the explicit definition of "relative" at the end of section 196), but the core architecture — ordinary inquest, summons power, and the independent mandatory custody inquiry — carries forward without a structural break.
+
+### Test your instinct
+
+:::: instinct A death during transit to court
+An undertrial prisoner being transported from jail to the trial court for a hearing collapses and dies during the journey, while still handcuffed and under police escort. The investigating agency argues that because the death did not occur inside a police station or lock-up, section 196(2)'s custody-inquiry duty does not apply, and an ordinary section 194 inquest suffices.
+::: ruling What actually happens
+Section 196(2)'s trigger is custody — "in the custody of the police or in any other custody authorised by the Magistrate or the Court" — not a particular physical location. A prisoner under police escort during transit remains in custody in every meaningful sense the provision contemplates; confining the mandatory inquiry to deaths within the four walls of a lock-up would defeat the entire purpose of building an independent check around the fact of custody itself, which is precisely when a person is most dependent on and vulnerable to the custodian. The mandatory Magistrate's inquiry applies.
+:::
+::::
+
+:::: instinct The relative's request, disputed by the police
+A woman dies four years into her marriage. The police officer's preliminary view is that the death was a straightforward accident with no suspicious circumstances, and he is inclined to skip forwarding the body for medical examination. The deceased's brother formally requests, in writing, that the body be sent for examination.
+::: ruling What actually happens
+Clause (iii) of section 194(3) does not ask the officer to agree with the relative's suspicion — it makes the relative's request itself the trigger, independent of the officer's own assessment of the circumstances. The officer's view that the death looks accidental is not a basis for declining a request properly made under clause (iii); the body must be forwarded for examination, subject only to the weather-and-distance/putrefaction proviso, which addresses practicability, not the officer's opinion on the merits.
+:::
+::::
+
+:::: instinct Two inquiries, two different findings
+A death occurs in police custody. The police complete their section 194 inquest and record a finding of death by natural causes. The Magistrate's independent section 196(2) inquiry, conducted separately, records a different finding — that the injuries are inconsistent with a natural death. The investigating agency argues its own report, filed first, should prevail as the more contemporaneous account.
+::: ruling What actually happens
+There is no textual hierarchy in section 196 making the police inquest's findings binding on, or superior to, the Magistrate's independent inquiry — the entire design of sub-section (2) is that the Magistrate's inquiry stands "in addition to" the police version precisely because the police version cannot be assumed reliable where the police themselves had custody at the relevant time. A conflict between the two findings is not resolved by chronological priority; it is resolved by the ordinary evidentiary weight a judicial inquiry commands over an executive one in exactly the situation the sub-section was built to address.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**D.K. Basu v. State of West Bengal**, (1997) 1 SCC 416. The Supreme Court laid down binding guidelines on arrest and custodial procedure to curb custodial death and custodial violence, holding that custodial crime is one of the worst kinds of crime in a civilised society governed by the rule of law, and that the deficiency of the investigative machinery when the police investigate the police calls for institutional safeguards independent of the police themselves.
+
+::: info Verify before citing
+The citation for *D.K. Basu v. State of West Bengal* is recorded from the drafter's working knowledge and should be independently verified against the official SCC report before being relied upon in a filing. Note also that *D.K. Basu* is not a judgment interpreting section 196(2) or its CrPC predecessor directly — it is cited here for the underlying constitutional rationale that the mandatory independent-inquiry mechanism is designed to operationalise, and should be pleaded as supporting context for the *purpose* of section 196(2), not as authority construing its text.
+:::
+
+**Practitioner takeaway.** When a custodial death or custodial rape inquiry is resisted, delayed, or treated as a formality subordinate to the police's own inquest, the *D.K. Basu* rationale — that the police cannot be the sole judge of their own custody — supplies the constitutional register in which to press for section 196(2)'s independent inquiry to actually be independent, not nominal.
+
+#### Sword and shield
+
+**As a sword (family of the deceased / complainant):** section 194(3)(iii)'s relative's-request trigger requires no showing of suspicion at all — use it directly and in writing the moment a marriage-related death occurs within the seven-year window, rather than waiting to see whether the police form their own suspicion. Where custody is even arguably established — including during transit, as the first scenario above shows — insist on section 196(2)'s mandatory inquiry as a matter of right, not a discretionary favour from the Magistrate.
+
+**As a shield (accused / investigating agency facing scrutiny):** section 196(1)'s Magistrate inquiry outside the custody-death/custody-rape categories is discretionary ("may"), not mandatory — resist attempts to treat it as automatically required in every death case; the mandatory track is confined to the specific sub-section (3)(i)/(ii) categories and to sub-section (2)'s custody predicate.
+
+#### The limitation clock
+
+There is no limitation period in the Limitation Act sense governing these inquiries, but two hard clocks recur: the section 194(2) inquest report must reach the District or Sub-divisional Magistrate within **twenty-four hours**, and under section 196(6), the body must be forwarded for medical examination within **twenty-four hours of the death**, subject only to a recorded-reasons exception where forwarding is not possible.
+
+#### Interlocking matrix
+
+| Trigger | Linked provision | Practical consequence |
+|---|---|---|
+| Any unnatural death (suicide, accident, suspicious circumstances) | Section 194(1)–(2) | Police inquest; report to District/Sub-divisional Magistrate within 24 hours |
+| Woman's death/suicide within 7 years of marriage, or relative's request | Section 194(3)(i)–(iii) | Mandatory forwarding of body for medical examination |
+| Inquest witnesses needed | Section 195 | Summons power, with age/health/gender-based attendance protections |
+| Death/disappearance/rape while in custody | Section 196(2) | Mandatory, independent Magistrate inquiry, in addition to police inquiry |
+| Death of the section 194(3)(i)/(ii) category | Section 196(1) | Mandatory Magistrate inquiry (as opposed to the general discretionary power) |
+| Any death under section 196 inquiry | Section 196(6) | Body forwarded for medical examination within 24 hours of death |
+
+#### The authorities
+
+No second case is added here — the drafter is confident of the *D.K. Basu* rationale but does not have an independently confirmed citation for a Supreme Court judgment construing section 176(1A) CrPC (this section's direct predecessor) with sufficient certainty to promote it without risk of misattribution. Locate and verify a section 176(1A)-specific authority before treating this HUD as complete for a custodial-death filing.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume section 196(2)'s custody-inquiry duty is confined to police-station deaths — as the transit scenario above shows, custody is a functional, not a locational, test.
+2. Do not let a section 194(3)(iii) relative's request get absorbed into, or made contingent on, the officer's own suspicion — the clause is self-standing and requires no independent showing of doubt.
+3. Do not treat a completed police inquest under section 194 as satisfying section 196(2)'s separate obligation where the custody predicate is met — the two are cumulative, not alternative.
+4. Do not overlook the twenty-four-hour clocks in sections 194(2) and 196(6) — a late-forwarded report or a late-forwarded body, without recorded reasons, is itself a procedural irregularity worth placing on record.
+
+**Timing.** Both twenty-four-hour clocks run from concrete factual events — the completion of the inquest for section 194(2)'s reporting duty, and the death itself for section 196(6)'s medical-forwarding duty — and should be checked against the police record at the earliest opportunity, since a late compliance recorded without reasons is far easier to establish soon after the event than months later at trial.
+
+**Model checklist for a custodial-death matter:**
+
+1. Establish custody at the time of death — including transit, escort, or any other Sanhita-authorised custody, not only lock-up confinement.
+2. Confirm whether a Magistrate's section 196(2) inquiry was in fact held independently of the police inquest, and was not merely a formal endorsement of the police's own findings.
+3. Check the twenty-four-hour clocks under sections 194(2) and 196(6) against the actual record, and flag any unexplained delay.
+4. Where the deceased is a woman within the seven-year marriage window, confirm which of the section 194(3)(i)–(iii) triggers applies, and whether the mandatory medical examination in fact followed.
+5. Press for the Magistrate's inquiry findings to be treated with the evidentiary weight *D.K. Basu*'s underlying rationale demands, particularly where they diverge from the police's own account.
+
+---
+
 
