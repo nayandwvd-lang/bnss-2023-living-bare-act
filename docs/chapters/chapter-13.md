@@ -1566,7 +1566,7 @@ Section 185 governs the ordinary case: an officer searching within the limits of
 >
 > (5) Copies of any record made under sub-section (1) or sub-section (3) shall forthwith, but not later than [[!forty-eight hours]], be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be [[!furnished, free of cost, with a copy of the same]] by the Magistrate.
 
-**186.** *(No marginal heading is recoverable from the page-break-anchored extraction used in this repository; the description below is the drafter's own, not a verbatim statutory caption — verify against a paginated bare Act before treating it as the official heading.)*
+> **186. When officer in charge of police station may require another to issue search-warrant.** *(Heading recovered from the page-break marginal-note block in the extraction, not from immediately beside the section text itself — cross-check against a paginated bare Act before treating it as certain.)*
 
 > (1) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation [[?may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place]], in any case in which the former officer might cause such search to be made, within the limits of his own station.
 >
@@ -1638,7 +1638,7 @@ Nothing in the CrPC's equivalent provision required a warrantless search to be f
 
 > **CrPC 1973, s. 165 → BNSS 2023, s. 185.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only.*
 >
-> **CrPC 1973, s. 166 → BNSS 2023, s. 186.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only, and no marginal heading for s. 186 could be recovered from the extraction used in this repository.*
+> **CrPC 1973, s. 166 → BNSS 2023, s. 186.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only. The BNSS s. 186 heading recovered from the page-break marginal-note block — "When officer in charge of police station may require another to issue search-warrant" — matches the drafter's recollection of the CrPC s. 166 heading closely enough to support this mapping, but the mapping itself remains unconfirmed against an actual CrPC text.*
 
 **Delta bucket: s. 185 is substantively amended; s. 186 is renumbered with drafting changes.** The core architecture of both sections — a written, pre-search record substituting for a warrant, the mechanism to depute a subordinate officer, the borrowing of general search safeguards, and the request-versus-urgency structure for cross-station searches — carries forward from the CrPC framework the drafter recalls. What is new to s. 185 is the sub-section (2) proviso mandating audio-video recording of the search: nothing resembling it existed in the CrPC-era provision. That single addition is significant enough, and specific enough to the BNSS's broader electronic-accountability pattern, to place s. 185 in the **substantively amended** bucket rather than treating it as a mere renumbering.
 
