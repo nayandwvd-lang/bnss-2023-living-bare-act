@@ -569,6 +569,251 @@ The citation, bench composition and date for *Sakiri Vasu v. State of U.P.*, (20
 
 ---
 
+## Sections 176–178 — Investigation procedure, the forensic-evidence duty and the Magistrate's preliminary options
+
+### The dispute this solves
+
+::: oneminute The station that never sent anyone to the spot, and the one that sent a forensic van nobody asked for
+Two complaints land at Inspector Farhan's desk on the same day. The first: a minor scuffle outside a tea stall, informant known, no weapon, no injury beyond a bruised knuckle — Farhan reads it, decides it isn't serious, and does not send anyone to the spot. The second: a house-breaking with a laptop and jewellery taken, offence punishable with imprisonment of seven years — and this time, along with the constable he deputes to the spot, a forensic team arrives to photograph and swab the point of entry before anyone has even finished taking Bharat's statement about what's missing.
+
+Bharat is mildly startled by the forensic van — nobody explained that this is now compulsory for his case and was never compulsory before. And the tea-stall complainant, when he hears about it, wants to know why Farhan gets to just decide his scuffle isn't worth a visit. Both reactions trace back to the same three sections: one fixes what the police must actually do once a cognizable case is registered, one fixes how that gets reported upward, and one fixes what the Magistrate can do with the report once it lands on his desk.
+:::
+
+::: story The forensic van is not a courtesy — for the right offence, it is now the law
+Section 176 does two structurally different things, and conflating them is the most common misreading. Sub-sections (1) and (2) are the direct descendant of the old duty to proceed to the spot and investigate — carried forward with its two long-standing escape hatches (a minor named-accused case, or no sufficient ground to investigate at all) intact. Sub-section (3) is not a descendant of anything. It is a wholly new, forward-looking mandate: for any offence punishable with seven years or more, once the State Government notifies the commencement date, a forensic expert **must** visit the crime scene and the visit **must** be videographed. Bharat's case crosses the seven-year threshold; the tea-stall scuffle almost certainly does not, which is a separate reason — beyond the proviso (a) discretion — that no forensic van shows up there.
+
+Sections 177 and 178 are shorter, and easy to skim past, but they answer two questions a practitioner is asked constantly: who does the report reach, and what can that recipient actually do with it. Section 177 is pure routing — the State Government may insert a superior police officer into the chain between the station and the Magistrate. Section 178 is where the real power sits: on receiving the section 176 report, the Magistrate has three distinct options, not one, and which of the three he takes has consequences that outlast the report itself.
+:::
+
+### The Act, decompiled
+
+> **176. Procedure for investigation.** (1) If, from information received or otherwise, an officer in charge of a police station has reason to suspect the commission of an offence which he is empowered under section 175 to investigate, [[!he shall forthwith send a report of the same to a Magistrate empowered to take cognizance of such offence upon a police report]] and [[!shall proceed in person, or shall depute one of his subordinate officers]] not being below such rank as the State Government may, by general or special order, prescribe in this behalf, to proceed, to the spot, to investigate the facts and circumstances of the case, and, if necessary, to take measures for the discovery and arrest of the offender:
+>
+> Provided that—
+>
+> (a) [[?when information as to the commission of any such offence is given against any person by name and the case is not of a serious nature, the officer in charge of a police station need not proceed in person or depute a subordinate officer]] to make an investigation on the spot;
+>
+> (b) [[?if it appears to the officer in charge of a police station that there is no sufficient ground for entering on an investigation, he shall not investigate the case]]:
+>
+> Provided further that in relation to an offence of rape, [[!the recording of statement of the victim shall be conducted at the residence of the victim or in the place of her choice]] and as far as practicable by a woman police officer in the presence of her parents or guardian or near relatives or social worker of the locality and such statement may also be recorded through any audio-video electronic means including mobile phone.
+>
+> (2) In each of the cases mentioned in clauses (a) and (b) of the first proviso to sub-section (1), the officer in charge of the police station shall state in his report the reasons for not fully complying with the requirements of that sub-section by him, and, [[!forward the daily diary report fortnightly to the Magistrate]] and in the case mentioned in clause (b) of the said proviso, [[!the officer shall also forthwith notify to the informant, if any]], in such manner as may be prescribed by rules made by the State Government.
+>
+> (3) On receipt of every information relating to the commission of an offence which is made punishable for seven years or more, the officer in charge of a police station shall, from such date, as may be notified within a period of five years by the State Government in this regard, [[!cause the forensic expert to visit the crime scene to collect forensic evidence in the offence and also cause videography of the process]] on mobile phone or any other electronic device:
+>
+> Provided that where forensic facility is not available in respect of any such offence, the State Government shall, until the facility in respect of that matter is developed or made in the State, notify the utilisation of such facility of any other State.
+
+> **177. Report how submitted.** (1) Every report sent to a Magistrate under section 176 shall, if the State Government so directs, be submitted through such superior officer of police as the State Government, by general or special order, appoints in that behalf.
+>
+> (2) Such superior officer may give such instructions to the officer in charge of the police station as he thinks fit, and shall, after recording such instructions on such report, transmit the same without delay to the Magistrate.
+
+> **178. Power to hold investigation or preliminary inquiry.** The Magistrate, on receiving a report under section 176, [[?may direct an investigation]], or, if he thinks fit, [[?at once proceed, or depute any Magistrate subordinate to him to proceed, to hold a preliminary inquiry into]], or otherwise [[?to dispose of, the case in the manner provided in this Sanhita]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 176(1) "shall forthwith send a report… and shall proceed in person, or shall depute…" | Mandatory | The default position is a report to the Magistrate *and* someone going to the spot — the two provisos are the only lawful ways out of the second half of that duty |
+| s. 176(1), proviso (a) | Discretionary escape hatch | Available only where **both** conditions hold — the accused is named **and** the case is not serious. Either condition failing puts the officer back under the mandatory duty |
+| s. 176(1), proviso (b) | Discretionary escape hatch | A distinct, broader ground — no sufficient ground to investigate at all — but it still triggers the sub-section (2) reasons-and-reporting duty |
+| s. 176(1), second proviso | Mandatory, offence-specific | Applies to rape specifically; fixes *where* and, as far as practicable, *by whom* the victim's statement is recorded — this is a location-and-gender rule layered onto the general statement-recording power, not a separate statement-recording power |
+| s. 176(2) "shall state in his report the reasons… forward the daily diary report fortnightly… shall also forthwith notify to the informant" | Mandatory | Invoking either proviso is not the end of the officer's duty — it generates its own paper trail and, for proviso (b) specifically, a duty to tell the informant |
+| s. 176(3) "shall… cause the forensic expert to visit the crime scene… and also cause videography" | Mandatory, but conditional on notification | The duty exists on the face of the text, but only bites for offences carrying seven years or more, and only from the date the State Government actually notifies — silent until notified, then absolute |
+| s. 177(1)–(2) | Discretionary at the State Government level, mandatory once directed | The State Government's choice to interpose a superior officer is discretionary; once made, the superior officer's onward transmission "without delay" is not |
+| s. 178 | Discretionary, three-way | The Magistrate is not confined to a binary "investigate or don't" — direct investigation, personally (or by deputy) hold a preliminary inquiry, or dispose of the case in some other manner the Sanhita provides for |
+
+::: proviso Proviso (a) and proviso (b) are not the same door, and using the wrong one is a recorded defect
+Proviso (a) requires two things together — a named accused *and* a case that is not of a serious nature. Proviso (b) requires only one — no sufficient ground to investigate at all — but it is a materially harder finding to defend, because it says, in effect, that the complaint does not deserve investigation, not merely that a spot visit is unnecessary. An officer who wants the lighter route of proviso (a) but whose case does not actually qualify — because the accused is unnamed, or the offence is objectively serious — cannot borrow proviso (b)'s broader language to cover the gap. Sub-section (2) requires the officer to "state in his report the reasons" for whichever proviso was invoked, which means the choice of door is itself a recorded, reviewable fact, not an internal judgment call that disappears once made.
+:::
+
+::: proviso The forensic-visit duty is not optional once notified, and "facility not available" has its own narrow escape
+Sub-section (3) reads as an absolute duty — "shall… cause the forensic expert to visit" — for any offence carrying seven years or more, once the State Government has notified the commencement date for it (a notification the text permits within a five-year window from enactment). The only recognised excuse is the proviso: where forensic facility is genuinely unavailable in the State, the State Government itself must notify that another State's facility is to be used, until local capacity catches up. That is a systemic gap-filling mechanism, not a station-level discretion — an individual officer cannot decide on his own that "the lab is backed up" excuses non-compliance; the excuse has to come from a State Government notification, exactly as the underlying duty does.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Information reaches Inspector Farhan of an offence he is empowered under section 175 to investigate. What does section 176 require him to do next, and what could excuse him from part of it?"
+  :gates="[
+    { q: 'Is the accused named, and is the case genuinely not of a serious nature?', note: 'Both conditions must hold together for proviso (a) — a named accused in a serious case does not qualify.', no: 'Proviso (a) is unavailable. Move to the next gate.' },
+    { q: 'Does it appear to Farhan that there is no sufficient ground for entering on an investigation at all?', note: 'This is a broader, and more consequential, finding than proviso (a) — it says the complaint itself does not warrant investigation.', no: 'Neither proviso applies. Farhan must send the section 176 report to the Magistrate and either proceed to the spot himself or depute a qualifying subordinate officer.' }
+  ]"
+  result="A proviso applies — Farhan need not proceed to the spot or depute a subordinate, but he must record his reasons in the report, and if it was proviso (b), notify the informant."
+  resultKind="discretionary"
+  caveat="Both provisos still leave the sub-section (1) reporting duty to the Magistrate intact — nothing in either proviso excuses that half of the duty, only the spot-visit half."
+/>
+
+<MicroTree
+  input="Bharat's house-breaking is punishable with imprisonment of seven years. Does the section 176(3) forensic-visit duty actually apply to his case, on these facts?"
+  :gates="[
+    { q: 'Is the offence punishable with imprisonment of seven years or more?', note: 'This is a threshold fixed on the face of sub-section (3) — it is not calibrated to the actual facts of how serious the particular incident feels.', no: 'Sub-section (3) does not apply to this offence at all, regardless of how the State Government has notified elsewhere.' },
+    { q: 'Has the State Government notified the commencement date for this duty in this State?', note: 'The duty is silent — not merely discretionary, genuinely inoperative — until this notification exists. The text permits notification any time within five years of enactment.', no: 'The duty has not yet come into force for this State. No defect arises from its absence.' },
+    { q: 'Is forensic facility actually available for this category of offence in the State?', note: 'If not, the escape is the State Government’s own notification directing use of another State’s facility — not a station-level judgment call.', no: 'Compliance is achieved through the notified alternative facility, not through simply skipping the visit.' }
+  ]"
+  result="The forensic expert must visit the crime scene and the visit must be videographed — an omission at this point, once all three gates are satisfied, is a recorded statutory default, not a resourcing choice left to the investigating officer."
+  resultKind="mandatory"
+  caveat="This mandate has no CrPC ancestor. Until the notified-facility exception is tested in reported litigation, treat the consequence of an unexplained omission as a genuinely open question to be argued from the text and from Lalita Kumari-style mandatory-duty reasoning, not as settled by direct authority."
+/>
+
+<MicroTree
+  input="The section 176 report has reached Magistrate Gokhale, routed through a superior officer as section 177 permits. What can Gokhale actually do with it under section 178?"
+  :gates="[
+    { q: 'Does Gokhale consider the report sufficient to direct an investigation outright?', note: 'This is the most common course, and simply sets in motion (or confirms) the investigation already contemplated by section 176.', no: 'Move to the next option — Gokhale is not confined to a binary investigate-or-dismiss choice.' },
+    { q: 'Does Gokhale instead think it fit to hold, or depute a subordinate Magistrate to hold, a preliminary inquiry into the case himself?', note: 'This is a judicial inquiry conducted by or under the Magistrate’s own supervision — a materially different track from directing the police to investigate.', no: 'Move to the residual option.' }
+  ]"
+  result="Failing both of the above, Gokhale may otherwise dispose of the case in whatever manner the Sanhita elsewhere provides for — the section confers a genuine three-way discretion, not merely a power to rubber-stamp or reject the police report."
+  resultKind="discretionary"
+  caveat="What section 178 does not give Gokhale is the power to compel the police to reach a particular conclusion or to personally conduct the investigation in the police's place — Abhinandan Jha marks that outer boundary under the CrPC-era equivalent, and nothing in the BNSS text widens it."
+/>
+
+### In plain English
+
+**Section 176 has two different personalities living in one section, and treating them as one duty is where practitioners go wrong.** Sub-sections (1) and (2) are the familiar spot-investigation duty with its two long-standing escape hatches. Sub-section (3) is a completely different animal — a forward-dated, threshold-triggered, State-notification-dependent mandate for forensic evidence collection that simply did not exist before. A case can lawfully skip the spot visit under proviso (a) or (b) and still be squarely caught by the forensic-visit duty if it clears the seven-year threshold and the notification has issued — the two questions are asked independently of each other.
+
+**The two provisos to sub-section (1) are not interchangeable, and the choice between them is now a documented fact, not a private judgment call.** An officer invoking proviso (a) is saying "the accused is named and this isn't serious"; an officer invoking proviso (b) is saying "there is no sufficient ground to investigate this at all." Sub-section (2) requires the reasons to be stated in the report either way, which means a defence lawyer or a complainant's counsel can later test whether the officer actually had grounds for the proviso invoked, rather than treating "he decided not to visit" as unreviewable.
+
+**The forensic-visit mandate is the single biggest addition in this cluster, and it will not be operative everywhere on the same day.** The State Government has up to five years from enactment to notify the commencement date, and can notify different dates for different offence categories or, in practice, different States. A practitioner cannot assume the duty applies simply because the offence clears seven years — the notification itself has to be checked, state by state, before arguing that its absence was a default.
+
+**Section 177 is a pure conduit, and should be read as nothing more.** It lets the State Government insert a superior officer between the station and the Magistrate, and requires that officer to forward the report "without delay" once he has recorded whatever instructions he thinks fit. Nothing in section 177 gives that superior officer a veto over what reaches the Magistrate — his instructions travel with the report, they do not replace it.
+
+**Section 178 gives the Magistrate three genuine options, and the choice between them matters for what happens next.** Directing an investigation keeps the matter with the police. Holding, or deputing, a preliminary inquiry brings it under direct judicial supervision. The residual "otherwise dispose of the case" option covers whatever else the Sanhita elsewhere contemplates. What the Magistrate cannot do, under any of the three, is dictate what the police must conclude or personally step into the investigator's shoes — the power to choose the track is not a power to control the outcome on that track.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 157 → BNSS 2023, s. 176.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 158 → BNSS 2023, s. 177.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 159 → BNSS 2023, s. 178.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+
+**Delta bucket for s. 176: substantively amended.** The sub-section (1)–(2) machinery — the spot-investigation duty, the two provisos, the reasons-and-reporting requirement — survives from CrPC s. 157 essentially intact. Two additions change what the section actually does: the second proviso fixing where, and as far as practicable by whom, a rape victim's statement is recorded, and the wholly new sub-section (3) forensic-visit mandate with its own notification mechanism. Neither addition is a drafting tidy-up; each creates an obligation, tied to specific facts, that did not exist under the CrPC at all.
+
+**Delta bucket for s. 177: renumbered with drafting changes.** The superior-officer routing mechanism carries over from CrPC s. 158 without a substantive change to what it empowers or requires.
+
+**Delta bucket for s. 178: renumbered with drafting changes.** The Magistrate's three-way power — direct investigation, hold or depute a preliminary inquiry, or otherwise dispose of the case — carries over from CrPC s. 159 in substantially the same terms.
+
+**The words actually changed — s. 176 against CrPC s. 157:**
+
+| CrPC 1973, s. 157 | BNSS 2023, s. 176 |
+|---|---|
+| (1)–(2): the spot-investigation duty and its two provisos, without any offence-specific rule for how or where a rape victim's statement is recorded | (1), second proviso — **new**: "the recording of statement of the victim shall be conducted at the residence of the victim or in the place of her choice and as far as practicable by a woman police officer…" |
+| *(no equivalent)* | (3) — **new in its entirety**: the notified, threshold-triggered duty to cause a forensic expert to visit the crime scene and videograph the process, for offences punishable with seven years or more |
+
+**What a practitioner must now do differently.** First, in any offence carrying seven years or more, check whether the State Government has actually notified the sub-section (3) commencement date before either relying on forensic evidence collection as a matter of course or arguing its absence as a defect — the duty's existence on the page is not the same as its being in force on the facts. Second, where the informant is a rape victim, confirm as a matter of course whether her statement was recorded at her residence or a place of her choosing, and as far as practicable by a woman officer — a statement recorded at the station by a male officer, without any explanation of impracticability, is now a point on which the second proviso can be squarely invoked. Third, when a proviso under sub-section (1) has been invoked to avoid a spot visit, ask for the recorded reasons specifically — sub-section (2) makes them a documented, reviewable fact, not folklore about why the police "didn't bother."
+
+::: info Verify before citing
+The CrPC ss. 157–159 texts referenced above are reproduced from the drafter's working knowledge of the corresponding CrPC provisions and secondary legal-reference sources, not from a CrPC bare Act text held in this repository, and should be checked against an official CrPC text before being placed before a court.
+:::
+
+### Test your instinct
+
+::::instinct The officer who calls a house-breaking "not serious" because nothing was taken by force
+
+Farhan receives a complaint that Deepak's flat was broken into while he was at work; a laptop and some jewellery are missing, but there was no confrontation and no one was hurt. Farhan tells Deepak the accused is unnamed anyway, so he'll "just log it under proviso (a) and move on" without sending anyone to the spot.
+
+Is Farhan's invocation of proviso (a) sound?
+
+:::ruling Reveal the ruling
+No. Proviso (a) requires that "information… is given against any person by name" — Deepak's complaint names no one. Proviso (a) is simply not engaged on these facts, whatever view Farhan takes of the offence's seriousness; the "not of a serious nature" limb never gets tested because the naming limb has already failed. If Farhan wants to avoid the spot visit, his only available route is proviso (b) — that there is no sufficient ground for entering on an investigation at all — a materially harder claim to defend for a house-breaking with items actually taken, and one that still requires him to record his reasons and, because it is proviso (b), notify Deepak of the decision.
+::::
+
+::::instinct The rape complainant whose statement was recorded at the station by a male sub-inspector
+
+Anita reports being raped by an acquaintance. Because the investigating sub-inspector on duty that evening is male and the station is a twenty-minute drive from Anita's home, her statement is recorded that same night in an interview room at the station, by him, with no woman officer present and no note in the file explaining why.
+
+Does this recording comply with section 176(1)'s second proviso?
+
+:::ruling Reveal the ruling
+No, on the facts as given — and the absence of any recorded explanation is itself the problem, not merely the outcome. The second proviso requires the statement to be recorded "at the residence of the victim or in the place of her choice," and, as far as practicable, by a woman police officer. Neither condition was met, and nothing in the file explains why it was impracticable to do otherwise — "as far as practicable" is not a phrase that excuses non-compliance by itself; it requires the police to show that compliance was genuinely not practicable on the facts, not merely inconvenient given who was on duty. A defence or prosecution argument resting on this statement should anticipate the proviso being raised, and a complainant's counsel should press for the reasons for departure to be placed on record.
+::::
+
+::::instinct The seven-year offence in a State that has not yet notified the forensic-visit duty
+
+Chetan is charged with an offence punishable with imprisonment of eight years. No forensic team visited the scene. His lawyer wants to argue that the investigation is fatally defective for want of compliance with section 176(3). On checking, the State Government in question has not yet issued any notification bringing sub-section (3) into force for offences of this category.
+
+Does the omission taint the investigation?
+
+:::ruling Reveal the ruling
+No — not on this ground. Sub-section (3)'s duty is expressly tied to "such date, as may be notified within a period of five years by the State Government." Until that notification issues, the duty is not merely discretionary; it is not yet in force at all in that State. An investigation conducted before the operative date cannot be faulted for non-compliance with a duty that did not yet exist on the facts. The lawyer's first step, before building any argument on section 176(3), has to be confirming whether and when the relevant State notification issued — arguing the point without that check risks an easily corrected rebuttal from the prosecution.
+::::
+
+::::instinct The complainant who asks the Magistrate to name a specific officer to investigate
+
+Frustrated that his complaint has gone nowhere, Bharat's counsel files an application before Magistrate Gokhale on receipt of the section 176 report, asking Gokhale to "direct that Sub-Inspector Farhan personally conduct the investigation and report back to this Court weekly."
+
+Can Gokhale grant this application as framed?
+
+:::ruling Reveal the ruling
+Only in part. Section 178 empowers Gokhale to "direct an investigation" — a general power to set the police investigative machinery in motion — but naming a specific officer and prescribing the manner and frequency of his reporting goes beyond what the section, read with the settled limits on a Magistrate's power over how the police conduct an investigation, actually confers. Gokhale can direct that an investigation take place, and, if he considers it appropriate, choose instead to hold or depute a preliminary inquiry himself — but dictating which named officer must conduct the police investigation and on what reporting schedule intrudes into the police's own domain in a way the section does not authorise. Counsel's application should be reframed to seek a direction that a proper investigation be conducted, leaving the choice of officer to the police hierarchy.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Abhinandan Jha v. Dinesh Mishra**, AIR 1968 SC 117 — deciding whether a Magistrate, on receiving a police report that no case is made out, can direct the police to instead submit a charge-sheet.
+
+**Ratio.** A Magistrate has no power to direct the police to submit a report in a particular form or to reach a particular conclusion — the formation of an opinion on whether a case is made out is exclusively the province of the investigating agency. If the Magistrate disagrees with the police's conclusion, his remedies lie elsewhere in the scheme of the Code — he may, among other things, take cognizance himself on the material available, or direct further investigation, or (on the provision now numbered s. 178) proceed to hold or depute a preliminary inquiry — but he cannot simply command the police to arrive at a different opinion.
+
+**Practitioner takeaway.** *"Section 178 gives the Magistrate the power to choose the track — investigation, preliminary inquiry, or other disposal — not the power to dictate what an investigation on that track must conclude."*
+
+**BNSS caveat.** *Abhinandan Jha* was decided under the 1898 Code's provisions on the Magistrate's powers over a police report, carried forward into CrPC s. 159 and now BNSS s. 178 in the **renumbered with drafting changes** bucket identified above. Because the operative language of the Magistrate's three-way power is substantially unchanged, the ratio's core boundary — no power to dictate the substance of the police's conclusion — transfers cleanly. Cite the case for that boundary; do not extend it to the genuinely new s. 176(3) forensic-visit duty, on which there is no comparable settled authority yet.
+
+#### Sword and shield
+
+| | Offensive use (complainant) | Defensive use (police / accused) |
+|---|---|---|
+| On a proviso (a) invocation | Test whether the accused was actually named and the case genuinely minor — a mismatch on either limb defeats the proviso outright, as in the house-breaking scenario above. | Where both limbs of proviso (a) are genuinely satisfied, rely on it as a complete answer to a complaint that no spot visit occurred. |
+| On the forensic-visit duty | Where the offence clears the seven-year threshold and the relevant State notification has issued, press for the forensic visit and videography as a matter of statutory entitlement, not a favour. | Where no notification has yet issued for the State and offence category in question, that is a complete answer to an argument built on s. 176(3) non-compliance — confirm the notification status before conceding the point. |
+| On the rape-victim statement proviso | Press for the statement to be recorded at the victim's residence or place of choice, by a woman officer as far as practicable, and require any departure to be justified on record. | Where genuine impracticability existed and is documented, rely on the "as far as practicable" qualifier — but an undocumented departure is a real vulnerability, not a formality. |
+| On the s. 178 Magistrate route | Ask the Magistrate to direct an investigation or hold a preliminary inquiry — a general request within the section's scope. | Resist any application that asks the Magistrate to name a specific officer or dictate the substance of the investigation's conclusion, citing *Abhinandan Jha*'s boundary. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Sending the section 176 report to the Magistrate and proceeding to the spot (or deputing) | Forthwith | s. 176(1) | Delay beyond what "forthwith" reasonably allows is itself a fact that can be pleaded, separate from whether a proviso was properly invoked |
+| Forwarding the daily diary report where a proviso was invoked | Fortnightly | s. 176(2) | A standing, complainant-independent check — the same discipline already noted at s. 174(1)(ii) |
+| Forensic expert's crime-scene visit and videography, once the duty is in force | On receipt of the information — no separate grace period once the notified date has passed | s. 176(3) | An unexplained omission after the notified date is a recorded statutory default, though its downstream evidentiary consequence remains to be settled by reported authority |
+| Superior officer's onward transmission of the report | Without delay | s. 177(2) | Delay at this stage is attributable to the routing officer, not the investigating station, and should be identified as such when reconstructing a timeline |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 173, ss. 174–175** | Section 176 operates on a case already registered as cognizable under s. 173 and investigable under s. 175 — it is the next procedural step, not an independent trigger. |
+| **BNSS ss. 179–182** | Statements taken during the spot investigation, including the rape-victim statement under the second proviso, feed directly into the statement-recording regime covered next in this chapter. |
+| **BNSS s. 193** | The investigation this section sets in motion is subject to the same completion-of-investigation clock that governs every investigation under this Chapter. |
+| **BNSS s. 210** | The Magistrate "empowered to take cognizance… upon a police report" in s. 176(1), and the Magistrate exercising the s. 178 power, are identified by the same jurisdictional provision used throughout this chapter. |
+| **BSA 2023** | Forensic evidence collected under s. 176(3), once gathered, is assessed for admissibility and weight under the BSA's general evidentiary provisions, not under s. 176 itself, which governs only the duty to collect it. |
+| **Applicable forms / filings** | The officer's own report under s. 176(1)–(2), with its recorded reasons where a proviso is invoked; any State Government notification under s. 176(3) or its proviso, which should be exhibited rather than assumed; an application under s. 178 seeking a Magistrate's direction, framed to seek a track rather than a specific outcome. |
+
+#### The authorities
+
+**Lalita Kumari v. Government of Uttar Pradesh**, (2014) 2 SCC 1 — already the leading authority, at s. 173, for the categories in which a preliminary inquiry may precede formal registration; the same reasoning on the limited, time-bound nature of preliminary inquiry is the natural reference point for how a s. 178 preliminary inquiry, once a Magistrate elects that track, ought to be conducted and concluded without becoming a substitute for investigation.
+
+::: info Verify before citing
+The proposition attributed to *Abhinandan Jha v. Dinesh Mishra*, AIR 1968 SC 117, reflects the drafter's confident recollection of a well-established textbook holding; the bench composition has not been independently re-verified against the official report and should be confirmed before the case is cited in a filing.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not invoke proviso (a) where the accused is unnamed — check both limbs independently before relying on it, and expect the choice of proviso to be tested against the reasons recorded under sub-section (2).
+2. Do not assume the section 176(3) forensic-visit duty applies simply because the offence clears seven years — confirm the State Government's notification for that offence category and that State before either relying on the duty or arguing its breach.
+3. Where a rape victim's statement was not recorded at her residence or place of choice, or not by a woman officer, do not let the file's silence on impracticability go unchallenged — "as far as practicable" is a standard to be met and documented, not a default excuse.
+4. Do not frame an application under section 178 as a request for the Magistrate to name an officer or dictate an outcome — frame it as a request to direct an investigation or a preliminary inquiry, which is what the section actually empowers.
+
+**Timing.** There is no separate limitation period distinct from the general investigation clock at s. 193, but delay in the section 176(1) "forthwith" duty, in the fortnightly diary report, or in the superior officer's "without delay" transmission under s. 177(2) are each independently datable and worth pleading as discrete facts rather than folded into a general complaint of "delay."
+
+**Model grounds checklist for challenging an unexplained departure from the section 176(1) or second-proviso obligations:**
+
+1. Identify precisely which duty was allegedly not complied with — the spot visit, the reasons-and-reporting duty, or the rape-victim statement location/gender requirement — and plead each separately.
+2. Where a proviso is relied on by the police, obtain the recorded reasons under sub-section (2) and test each limb of the proviso invoked against the actual facts.
+3. Where the forensic-visit duty is in issue, first establish whether the relevant State notification under sub-section (3) had issued as of the date of the offence, before arguing non-compliance.
+4. Where the rape-victim statement was not recorded at her residence or place of choice, or not by a woman officer, call for the file to disclose any recorded explanation of impracticability, and argue the absence of one as a live defect rather than a technicality.
+
+---
+
 ## Sections 179–182 — Statements to police during investigation
 
 ### The dispute this solves
