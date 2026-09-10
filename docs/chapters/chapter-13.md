@@ -843,6 +843,237 @@ The bench composition for *Tahsildar Singh v. State of U.P.*, AIR 1959 SC 1012, 
 
 ---
 
+## Section 183 — Recording of confessions and statements
 
+### The dispute this solves
+
+::: oneminute Why a confession recorded by a Magistrate is worth more than one recorded by police
+Anita, arrested on suspicion of cheating Bharat over a fake investment scheme, is taken before Magistrate Gokhale three days into custody. The investigating officer wants her to "make a clean breast of it" before him — but the law will not let a police officer record that confession at all. Only a Magistrate can, and only after he has personally satisfied himself, by questioning her himself, that she is not being pressured and understands exactly what she is giving up by speaking. Section 183 is the gate through which a confession must pass before it can carry any real evidentiary weight — and it is built to be a gate a frightened, coerced or confused person can still walk back out of.
+:::
+
+::: story The confession Anita almost made, and the one she did not
+Farhan brings Anita before Magistrate Gokhale, hopeful she will confirm what she told him at the station. Gokhale sends the police out of the room, explains to Anita — in words she actually understands — that she need say nothing, and that anything she does say can be used against her. Anita hesitates, then says she does not want to confess after all. Gokhale does not press her, does not send her back to police custody, and instead has her statement of unwillingness noted and sends her to judicial custody. Three weeks later, in a different case, Deepak — this time a witness, not an accused — is brought before Gokhale to have his account of the generator theft recorded as a statement, not a confession; Gokhale administers an oath and records it in the manner used for recording evidence. Two very different procedures, triggered by the same section, depending entirely on whether what is being recorded is an admission of guilt or an account of facts.
+:::
+
+### The Act, decompiled
+
+Section 183 is the Magistrate-recorded counterpart to the police-recorded statement of sections 179–182 — and where those sections make a statement largely unusable, this section exists precisely so that what is recorded under it *can* be used, provided the safeguards built into every sub-section are actually followed.
+
+> **183. Recording of confessions and statements.** (1) Any Magistrate of the District in which the information about commission of any offence has been registered, [[?may, whether or not he has jurisdiction in the case, record any confession or statement made to him]] in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards but before the commencement of the inquiry or trial:
+>
+> Provided that any confession or statement made under this sub-section may also be recorded by audio-video electronic means in the presence of the advocate of the person accused of an offence:
+>
+> Provided further that [[!no confession shall be recorded by a police officer on whom any power of a Magistrate has been conferred under any law for the time being in force]].
+>
+> (2) The Magistrate shall, before recording any such confession, explain to the person making it that [[!he is not bound to make a confession and that, if he does so, it may be used as evidence against him]]; and [[!the Magistrate shall not record any such confession unless, upon questioning the person making it, he has reason to believe that it is being made voluntarily]].
+>
+> (3) If at any time before the confession is recorded, the person appearing before the Magistrate states that he is not willing to make the confession, [[!the Magistrate shall not authorise the detention of such person in police custody]].
+>
+> (4) Any such confession shall be recorded in the manner provided in section 316 for recording the examination of an accused person and [[!shall be signed by the person making the confession]]; and the Magistrate shall make a memorandum at the foot of such record to the following effect:—
+>
+> "I have explained to (name) that he is not bound to make a confession and that, if he does so, any confession he may make may be used as evidence against him and I believe that this confession was voluntarily made. It was taken in my presence and hearing, and was read over to the person making it and admitted by him to be correct, and it contains a full and true account of the statement made by him.
+> (Signed) A. B. Magistrate."
+>
+> (5) Any statement (other than a confession) made under sub-section (1) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Magistrate, best fitted to the circumstances of the case; and [[?the Magistrate shall have power to administer oath to the person whose statement is so recorded]].
+>
+> (6) (a) In cases punishable under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023, [[!the Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section (5), as soon as the commission of the offence is brought to the notice of the police]]:
+>
+> Provided that such statement shall, as far as practicable, be recorded by a woman Magistrate and in her absence by a male Magistrate in the presence of a woman:
+>
+> Provided further that in cases relating to the offences punishable with imprisonment for ten years or more or with imprisonment for life or with death, the Magistrate shall record the statement of the witness brought before him by the police officer:
+>
+> Provided also that if the person making the statement is temporarily or permanently, mentally or physically disabled, [[!the Magistrate shall take the assistance of an interpreter or a special educator in recording the statement]]:
+>
+> Provided also that if the person making the statement is temporarily or permanently, mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, [[!shall be recorded through audio-video electronic means preferably by mobile phone]];
+>
+> (b) a statement recorded under clause (a) of a person, who is temporarily or permanently, mentally or physically disabled, [[!shall be considered a statement in lieu of]] [[=examination-in-chief]], as specified in section 142 of the Bharatiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
+>
+> (7) The Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 183(1) "may… record any confession or statement" | Discretionary power, jurisdiction-agnostic | Any District Magistrate may record it, whether or not he has jurisdiction over the eventual trial — recording and trying are deliberately decoupled |
+| s. 183(1), second proviso | Mandatory prohibition | A police officer who happens to hold conferred Magistrate powers is still barred from recording a confession — the disqualification tracks the officer's police identity, not merely the absence of a magisterial designation |
+| s. 183(2) "shall… explain… not bound to make a confession" | Mandatory precondition | The caution must actually be given and understood before recording proceeds — a caution given as a formality without engagement does not satisfy the sub-section |
+| s. 183(2) "shall not record… unless… he has reason to believe that it is being made voluntarily" | Mandatory gate | The Magistrate's own satisfaction, arrived at by his own questioning, is the condition precedent to recording at all |
+| s. 183(3) "shall not authorise the detention of such person in police custody" | Mandatory prohibition | Refusal to confess carries an automatic consequence protecting the person from being sent back to the very custody where pressure to confess may have originated |
+| s. 183(4) "shall be signed by the person making the confession" | Mandatory formality | Unlike the police statement under section 181, a Magistrate-recorded confession is deliberately signed — this document is built to be used, not merely to test a witness later |
+| s. 183(5) "may administer oath" | Discretionary power | Statements other than confessions may be recorded on oath, at the Magistrate's discretion, calibrated to the circumstances of the case |
+| s. 183(6)(a) "the Magistrate shall record the statement… as soon as the commission of the offence is brought to the notice of the police" | Mandatory duty, triggered by a defined offence list | Once the offence falls within the listed BNS sections, the Magistrate's duty to record is immediate and not discretionary |
+| s. 183(6)(a), third and fourth provisos | Mandatory accommodation | A disabled person's statement must be taken with interpreter or special-educator assistance and preferably recorded via mobile-phone audio-video — accessibility is not optional once the disability is apparent |
+| s. 183(6)(b) "shall be considered a statement in lieu of examination-in-chief" | Deeming provision | The recorded statement itself stands in for live examination-in-chief at trial, sparing a vulnerable witness from repeating the ordeal, while preserving the opposing side's right to cross-examine |
+
+::: proviso Why refusal to confess triggers an automatic custody protection
+Sub-section (3) is not a minor procedural footnote — it is the section's answer to the obvious risk that a Magistrate's questioning happens in the shadow of the police custody the person came from and may return to. If refusing to confess could still land the person back in police hands, the "voluntariness" the Magistrate is meant to test would be illusory: anyone accurately advised of the consequences of refusal would simply confess to avoid returning to custody. The prohibition on police-custody detention after refusal removes exactly that pressure from the decision.
+:::
+
+::: proviso The disability accommodation is not new generosity — it closes a gap the CrPC had already recognised needed closing
+The interpreter, special-educator and audio-video safeguards in sub-section (6)(a)'s later provisos, and the examination-in-chief substitution in (6)(b), are not a BNSS invention grafted onto an older, indifferent framework — they carry forward, in substance, safeguards CrPC section 164(5A) already contained after the 2013 amendment. The practical significance is continuity: a practitioner relying on the pre-BNSS jurisprudence around these protections is not relying on obsolete law.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Farhan brings Anita before Magistrate Gokhale to record a confession three days into her custody. Gokhale sends the police out, questions Anita himself, and she confirms she wants to confess. Can Gokhale go ahead and record it?"
+  :gates="[
+    { q: 'Has the Magistrate explained to Anita that she is not bound to confess, and that a confession may be used as evidence against her?', note: 'This explanation is not a formality read off a card — it must actually be given, in terms the person understands, before recording proceeds.', no: 'Recording cannot lawfully proceed until this explanation is given and understood.' },
+    { q: 'Upon questioning Anita himself, does the Magistrate have reason to believe the confession is being made voluntarily?', note: 'This is the Magistrate’s own satisfaction, reached through his own questioning — not a satisfaction he may borrow from the police officer’s assurance that Anita is willing.', no: 'The Magistrate must not record the confession. Sub-section (2) bars it outright until his own belief in voluntariness is formed.' }
+  ]"
+  result="Only if both gates are cleared may Gokhale record Anita’s confession — and even then, sub-section (4)’s signature and memorandum requirements must still be completed for the record to be in the form the section demands."
+  resultKind="mandatory"
+  caveat="A confession recorded in a hurry, without the Magistrate genuinely testing voluntariness through his own questions, is vulnerable to challenge later — the safeguard is worth nothing if treated as a script to read rather than an inquiry to conduct."
+/>
+
+<MicroTree
+  input="Midway through Gokhale’s questioning, Anita says she has changed her mind and does not want to confess after all. What must Gokhale do next?"
+  :gates="[
+    { q: 'Has Anita, before the confession is recorded, stated she is unwilling to make it?', note: 'The timing matters — this protection operates only before recording, at the point of refusal itself.', no: 'If she had already confessed and only later regretted it, sub-section (3) would not apply in the same way; retraction after recording is a different question from refusal before it.' }
+  ]"
+  result="Gokhale must not authorise Anita’s detention in police custody. Sub-section (3) removes exactly the pressure that would otherwise make her refusal costly, by foreclosing a return to the custody she may have wanted to avoid by confessing in the first place."
+  resultKind="mandatory"
+  caveat="This is not a discretionary courtesy — the prohibition is absolute once Anita has stated her unwillingness before recording. Sending her back to police custody at this point is itself an irregularity, not merely poor practice."
+/>
+
+<MicroTree
+  input="Chetan is the victim of an offence listed in section 183(6)(a) and is also temporarily unable to communicate without assistance because of a physical disability. The police bring the case to Magistrate Gokhale’s notice. What must Gokhale do differently from an ordinary witness statement?"
+  :gates="[
+    { q: 'Does the offence fall within the specific BNS sections listed in sub-section (6)(a)?', note: 'The mandatory-recording duty is triggered only by this defined offence list — not by the general seriousness of the case.', no: 'Sub-section (6)(a)’s specific mandatory timeline does not apply; the statement may still be recorded under sub-section (1) or (5) in the ordinary course.' },
+    { q: 'Is Chetan, the person making the statement, temporarily or permanently mentally or physically disabled?', note: 'This status triggers the third and fourth provisos specifically — interpreter or special-educator assistance, and audio-video recording preferably by mobile phone.', no: 'The ordinary sub-section (6)(a) safeguards apply — as far as practicable a woman Magistrate, or, for the gravest offences, recording the statement of the witness brought before him — without the disability-specific provisos.' }
+  ]"
+  result="Gokhale must record Chetan’s statement as soon as the offence is brought to the notice of the police, with the assistance of an interpreter or special educator, and preferably through audio-video means by mobile phone — and that statement then stands in for Chetan’s examination-in-chief at trial under sub-section (6)(b), sparing him from repeating the account in open court while preserving the defence’s right to cross-examine him on it."
+  resultKind="mandatory"
+  caveat="Treating the disability accommodation as optional — recording an ordinary unassisted statement because it is more convenient — defeats the purpose sub-section (6) exists to serve and risks the statement’s later use being challenged."
+/>
+
+### In plain English
+
+**Section 183 is where the law finally allows a statement to be more than a contradiction tool.** Everything in sections 179–182 is built around near-inadmissibility — a police statement exists mainly to be checked against later testimony. Section 183 is the opposite design: a Magistrate-recorded confession is signed, memorandum-backed, and built to be relied upon at trial, precisely because it comes with the independent safeguard of a judicial officer's own satisfaction rather than a police officer's say-so.
+
+**Voluntariness under section 183 is not a box the Magistrate ticks — it is a belief he must actually form.** The statute requires the Magistrate to question the person himself and to have "reason to believe" the confession is voluntary before he may record it at all. A Magistrate who records first and reflects on voluntariness afterward has inverted the sequence the section requires.
+
+**The custody protection in sub-section (3) is the section's quiet safeguard against coerced compliance.** Without it, a person who understood that refusing to confess meant returning to the same custody where pressure originated would have every incentive to confess regardless of guilt. The prohibition on police-custody detention after refusal is what makes the earlier "not bound to confess" caution meaningful rather than hollow.
+
+**A confession and a statement are recorded differently because they do different work.** A confession follows the section 316 examination-of-accused procedure, is signed, and carries a specific memorandum. A statement — evidence from someone who is not admitting guilt — is recorded in whatever manner best fits the circumstances, and may be taken on oath. Conflating the two procedures, or applying confession-formality to an ordinary witness statement, misreads what sub-sections (4) and (5) each separately require.
+
+**The disability and sexual-offence safeguards in sub-section (6) exist because a courtroom repetition can itself be a harm.** Treating a vulnerable victim's recorded statement as standing in for live examination-in-chief is not a shortcut for the prosecution — it is a deliberate choice to spare the witness an ordeal, while sub-section (6)(b) preserves the accused's right to test that account through cross-examination. Both interests are served by the same mechanism, not traded off against each other.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 164 → BNSS 2023, s. 183.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+
+**Delta bucket: renumbered with drafting changes.** Every structural element of section 183 — the Magistrate's power to record regardless of territorial jurisdiction over the eventual trial, the mandatory voluntariness caution and inquiry, the custody protection on refusal, the section-316 examination-of-accused recording procedure with its memorandum, the discretionary oath for ordinary statements, and the disability-accommodation and examination-in-chief-substitution scheme for listed sexual offences — already existed in CrPC section 164 in substance, the last of these having been inserted into the CrPC itself by the 2013 amendment following sub-section (5A). What changed is largely cross-reference and cosmetic drafting: the CrPC's IPC offence list (ss. 354, 354A–D, 376, 376A–E, 509) becomes the BNS list (ss. 64, 65, 66, 67, 68, 69, 70, 71, 74–79, 124); "section 281" (examination of accused) becomes "section 316"; "Indian Evidence Act section 137" becomes "Bharatiya Sakshya Adhiniyam, 2023, section 142"; and the audio-video recording for disabled persons' statements is now specified as "preferably by mobile phone," a practical refinement rather than a new safeguard.
+
+**What a practitioner must now do differently.** First, when citing the disability-accommodation and examination-in-chief-substitution safeguards, cite them as continuing law — the pre-BNSS jurisprudence interpreting CrPC section 164(5A) remains directly applicable, subject only to updating the statutory citation itself. Second, check the BNS offence list rather than the IPC list when determining whether the mandatory-recording timeline in sub-section (6)(a) is triggered — the offences are the same in substance but now carry different section numbers. Third, where a disabled person's statement will be offered as a substitute for examination-in-chief, confirm the BSA section 142 cross-reference is used in the application or objection, not the now-superseded Evidence Act section 137.
+
+### Test your instinct
+
+::::instinct The confession recorded in a hurry, with no real questions asked
+Anita is brought before a Magistrate who is overloaded with a long list for the day. He reads out the standard caution from a printed card, does not ask Anita any questions of his own, and records her confession within two minutes on her nod. At trial, the confession becomes the principal evidence against her.
+
+Is this confession properly recorded under section 183?
+
+:::ruling Reveal the ruling
+No. Sub-section (2) requires the Magistrate to question the person making the confession and to arrive at his own reason to believe it is voluntary — a printed caution read aloud, without engagement, does not satisfy this. The safeguard exists precisely to prevent recording from becoming a rubber-stamp exercise under docket pressure. A confession recorded this way is vulnerable to exclusion on the ground that the statutory safeguard was never actually applied, whatever the confession's content might otherwise suggest about guilt.
+::::
+
+::::instinct The witness who wants to confess to something he was never asked about
+Deepak is brought before Magistrate Gokhale to have his statement about the generator theft recorded as a witness, not an accused. Partway through, Deepak volunteers that he was also involved in an unrelated earlier theft from a different shop, and offers to confess to that as well. Gokhale is inclined to record it there and then, since Deepak is already before him and willing to speak.
+
+Should Gokhale record this as a confession under section 183?
+
+:::ruling Reveal the ruling
+Not without first switching procedural gears entirely. Recording a confession triggers sub-section (2)'s explanation-and-voluntariness inquiry and sub-section (4)'s signature-and-memorandum procedure — none of which Gokhale has yet undertaken, because he began this session expecting to record a witness statement, not a confession. Deepak's enthusiasm to speak does not substitute for the Magistrate's own independent questioning on voluntariness, freshly directed at this new subject matter. Gokhale should pause, explain the confession-specific caution afresh, question Deepak on this specific admission, and only then decide whether to record it as a confession — treating it as an extension of the witness statement already underway would blur two procedures the section keeps deliberately separate.
+::::
+
+::::instinct The disabled victim whose statement was recorded without an interpreter, because none was available that day
+Chetan is the victim of a listed offence and has a speech disability requiring an interpreter to communicate reliably. No interpreter is available on the day the police bring him to Magistrate Gokhale, so Gokhale proceeds to record the statement as best he can through gestures and Chetan's own halting attempts at spoken words, reasoning that recording something promptly is better than further delay.
+
+Was Gokhale right to proceed without the interpreter?
+
+:::ruling Reveal the ruling
+No. The third proviso to sub-section (6)(a) makes interpreter or special-educator assistance a condition of properly recording a disabled person's statement under this sub-section — it is not a best-efforts aspiration to be dispensed with when logistics are inconvenient. Proceeding without that assistance risks producing a statement that inaccurately captures what Chetan actually meant to say, undermining the very purpose sub-section (6) exists to serve. The correct course was to arrange for an interpreter and record the statement once that assistance was available, even at the cost of some delay — promptness cannot come at the cost of accuracy for the very safeguard the sub-section was written to guarantee.
+::::
+
+::::instinct The retracted confession, and what the trial judge is actually allowed to do with it
+Anita's confession, properly recorded by Magistrate Gokhale after full compliance with sub-sections (2) through (4), is later retracted by her at trial — she claims she was pressured by police before ever reaching the Magistrate, despite Gokhale's own satisfaction of voluntariness at the time. The trial judge is inclined to disregard the confession entirely simply because it has been retracted.
+
+Is retraction alone sufficient to strip the confession of all evidentiary value?
+
+:::ruling Reveal the ruling
+No. A retracted confession does not become inadmissible merely by being retracted — it remains evidence that the trial court may act upon if satisfied, on the whole record, that it was true and voluntarily made, though prudence generally calls for some corroboration before a conviction rests on it. The Magistrate's own recorded satisfaction of voluntariness under sub-section (2), and full compliance with the recording procedure, are exactly the record a trial judge should scrutinise in weighing a later retraction — not treat as automatically nullified by the fact of retraction itself. Anita's bare claim of prior police pressure, unsupported by anything in Gokhale's own contemporaneous record, does not by itself defeat a confession that was properly taken.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Shivappa v. State of Karnataka**, (1995) 2 SCC 76 (also AIR 1995 SC 980) — two-judge bench (A.S. Anand and M.K. Mukherjee, JJ.), deciding what compliance with the CrPC's Magistrate-recorded-confession safeguards (now section 183) actually demands, beyond mechanical recitation of the caution.
+
+**Ratio.** Section 164's safeguards (now section 183's) must be complied with not merely in letter but in spirit. A Magistrate recording a confession must personally, genuinely satisfy himself — through his own questioning of the person before him, not through reliance on the police officer's assurance or a printed caution mechanically read out — that the confession is being made voluntarily, and that satisfaction must be reflected in a record capable of showing it was actually formed. A confession recorded without this genuine engagement fails the safeguard even where its content appears reliable.
+
+**Practitioner takeaway.** *"Compliance with section 183 is not measured by whether the prescribed words were spoken, but by whether the Magistrate actually formed, through his own questioning, the belief the sub-section requires him to form — and the record must show that engagement, not merely recite it."*
+
+**BNSS caveat.** *Shivappa* construes CrPC section 164(2)-(3), which the BNSS re-enacts as section 183(2)-(3) with no substantive change to the voluntariness-inquiry and custody-protection scheme — only the enclosing section number has moved. The ratio transfers without qualification; update only the section citation.
+
+#### Sword and shield
+
+| | Offensive use (prosecution) | Defensive use (accused) |
+|---|---|---|
+| Relying on a recorded confession | Show full compliance with sub-sections (2)-(4) — the caution given and understood, the Magistrate's own genuine questioning and resulting belief in voluntariness, and the signature-and-memorandum procedure completed — before asking the trial court to place weight on it. | Challenge non-genuine compliance under *Shivappa* — a caution read but not engaged with, or a belief in voluntariness not actually tested by questioning, is a ground to exclude the confession regardless of its content. |
+| A retraction at trial | Point to the Magistrate's own contemporaneous record of voluntariness as the primary safeguard against a later, unsupported claim of coercion — retraction alone does not nullify a properly recorded confession. | Where retraction is genuine, marshal any corroborating circumstance available, since prudence counsels against resting a conviction on a retracted confession without some corroboration, however voluntarily it was originally made. |
+| A disabled victim's recorded statement | Rely on sub-section (6)(b)'s deeming provision to use the recorded statement in lieu of examination-in-chief, sparing the witness a second ordeal at trial. | Insist on the full interpreter/special-educator and audio-video safeguards having been actually observed before the statement is accepted as a substitute for live examination-in-chief — a shortcut in recording is a ground to challenge the substitution itself. |
+| Timing of recording relative to custody | Bring the person promptly before the Magistrate once willingness to confess is indicated, to avoid any suggestion that delay itself created room for pressure. | Where an accused refused to confess and was nonetheless returned to police custody, raise the sub-section (3) violation as a distinct procedural defect, independent of whatever was eventually recorded. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Recording of a confession or statement under s. 183(1) | No fixed period — "at any time" during investigation or before commencement of inquiry/trial | s. 183(1) | A confession recorded after commencement of inquiry or trial falls outside the sub-section's own window and its procedural basis becomes open to challenge |
+| Mandatory recording of a listed-offence victim's statement under s. 183(6)(a) | "As soon as the commission of the offence is brought to the notice of the police" — no fixed number of days, but immediacy is the statutory standard | s. 183(6)(a) | Unexplained delay in bringing the victim before a Magistrate once the offence is known is itself a ground of complaint, independent of the statement's eventual content |
+| Forwarding of the recorded confession or statement to the trial Magistrate | No fixed period specified | s. 183(7) | Delay in forwarding does not itself void the recording, but an unexplained gap invites scrutiny of custody and chain-of-record during the interval |
+| Investigation-completion clock carried over from s. 173 registration | Two months for the listed BNS/POCSO offences, running from the FIR date | s. 193(2) (cross-referenced from the s. 173 HUD above) | A confession or statement recorded under s. 183 is part of the same investigation this clock governs; recording it does not independently pause or extend the clock |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS ss. 179–182** | Section 183 is the escalated, evidentially stronger counterpart to a police-recorded statement — where s. 181 makes a police statement largely unusable, a s. 183 confession or statement is recorded precisely so it can be relied upon more fully at trial, subject to its own independent safeguards. |
+| **BNSS s. 173, ss. 174–175** | A s. 183 recording typically occurs in the course of, or arising out of, an investigation opened under s. 173 registration or a s. 175 order — it has no independent investigative trigger of its own. |
+| **BNSS s. 316** | Fixes the manner in which a confession must be recorded — the examination-of-accused procedure, cross-referenced directly by s. 183(4). |
+| **BNSS s. 193** | The investigation-completion clock that a s. 183 recording, like the statements gathered under ss. 179–182, feeds into rather than independently tolls. |
+| **BNS 2023 offence provisions** | Fix the specific offence list in s. 183(6)(a) (ss. 64, 65, 66, 67, 68, 69, 70, 71, 74–79, 124) that triggers the mandatory immediate-recording duty for a victim's statement. |
+| **BSA 2023** | Section 183(6)(b)'s examination-in-chief substitution operates through BSA s. 142 (replacing Evidence Act s. 137); the confession itself, once properly recorded, is assessed for reliability under the BSA's general evidentiary principles at trial. |
+| **Applicable forms / filings** | The Magistrate's own recorded memorandum under s. 183(4); an application by the defence to exclude a confession for non-genuine compliance with sub-sections (2)-(3); an application to use a disabled victim's s. 183(6) statement in lieu of examination-in-chief. |
+
+#### The authorities
+
+**R. Shaji v. State of Kerala**, (2013) 14 SCC 266. Held that a statement (as distinct from a confession) recorded under section 164 is not substantive evidence in itself, since it is untested by cross-examination at the time it is recorded, and its proper courtroom use is to corroborate the maker's later testimony under section 157 of the Evidence Act (now BSA's corresponding corroboration provision) or to contradict it under section 145 (now BSA s. 148), not to be read in as proof of the facts it describes. **How it is used:** the authority for resisting an attempt to treat a s. 183(5) witness statement as if it were itself proof of the matters stated — the same discipline that governs a police statement under s. 181 applies, by a different statutory route, to a Magistrate-recorded witness statement that is not a confession.
+
+::: info Verify before citing
+The citation *R. Shaji v. State of Kerala*, (2013) 14 SCC 266, is recorded from secondary-source research conducted during drafting and has not been cross-checked against the official SCC report; verify the volume and page before placing it before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume a Magistrate's recitation of the sub-section (2) caution, without genuine questioning, satisfies section 183 — *Shivappa* is the authority for demanding actual engagement, and a confession recorded as a formality is vulnerable on exactly this ground.
+2. Do not treat a section 183(5) witness statement as substantive evidence of the facts it describes when arguing a case — its proper use, per *R. Shaji*, is corroboration or contradiction of the maker's trial testimony, not proof in itself.
+3. Do not overlook sub-section (3)'s custody protection when a client has refused to confess before a Magistrate — an unlawful return to police custody after refusal is a distinct, independently pleadable defect, not merely background to whatever happened afterward.
+4. Where a disabled victim's statement is to be used under sub-section (6)(b) as a substitute for examination-in-chief, confirm at the earliest stage that the interpreter/special-educator and audio-video safeguards were actually observed — raising this after the statement has already been relied upon at trial is far weaker than raising it before.
+
+**Timing.** There is no external limitation period for recording a confession or statement under section 183 — the operative discipline is promptness relative to the triggering event (arrest, or an offence coming to police notice for the mandatory sub-section (6)(a) category), and contemporaneous objection if the recording procedure itself was deficient, rather than a calendar deadline to track.
+
+**Model prayer/checklist for challenging a section 183 confession's voluntariness:**
+
+1. Obtain the Magistrate's own record and memorandum under sub-section (4) — the contemporaneous document is the primary evidence of what inquiry was actually made.
+2. Identify specifically what questions, if any, the Magistrate put to the accused beyond reciting the caution — silence in the record on this point is itself significant.
+3. Establish the custody conditions and time gap between the police first indicating willingness to confess and the actual recording — an unexplained short gap invites scrutiny of how "voluntary" the willingness really was.
+4. If retraction is being addressed at trial, gather any corroborating circumstance independently of the confession itself, since prudence — not a rule of exclusion — counsels against resting solely on a retracted confession.
+5. Frame the challenge as one to the genuineness of compliance with sub-sections (2)-(3), invoking *Shivappa* directly, rather than a bare assertion that the confession is untrue.
+
+---
 
 
