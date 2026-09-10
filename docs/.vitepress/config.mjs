@@ -58,14 +58,18 @@ export default defineConfig({
     ],
 
     // Chapter-based, NOT the CPC's sections + orders split. BNSS has no Orders.
-    // Group the 39 chapters into the functional parts in reference/05.
+    // The 12 functional parts below are verified against the real chapter
+    // list (39 chapters, confirmed titles) in reference/05 — do not add a
+    // group back to hypothesis-only chapter numbers.
     sidebar: {
       '/chapters/': [
+        { text: 'Preliminary and the machinery of criminal courts', collapsed: true, items: [] },
         {
           text: 'Police powers',
           collapsed: false,
           items: []
         },
+        { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] },
         {
           text: 'Information and investigation',
           collapsed: false,
@@ -73,12 +77,12 @@ export default defineConfig({
             // { text: 'FIR and registration of information', link: '/chapters/investigation' }
           ]
         },
-        { text: 'Arrest and appearance', collapsed: true, items: [] },
-        { text: 'Bail and bonds', collapsed: true, items: [] },
-        { text: 'Cognizance and charge', collapsed: true, items: [] },
+        { text: 'Cognizance, commitment and charge', collapsed: true, items: [] },
         { text: 'Trial', collapsed: true, items: [] },
-        { text: 'Judgment, sentence and appeal', collapsed: true, items: [] },
-        { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] }
+        { text: 'Bail and bonds', collapsed: true, items: [] },
+        { text: 'Judgment, sentence and disposal of property', collapsed: true, items: [] },
+        { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
+        { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
       ],
       '/drafts/': [
         { text: 'Drafting toolkit', collapsed: false, items: [] }

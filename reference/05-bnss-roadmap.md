@@ -71,24 +71,68 @@ Consequences:
 - The sidebar is **chapter-based**, grouped into functional parts.
 - Do not reproduce the CPC's `sec-*` / `order-*` filename convention. Use `chapter-<n>.md` or `chapter-<n>-<m>.md` for clustered chapters.
 
+### The 39 chapters, verified against the bare Act
+
+Extracted directly from `reference/bare-act/bnss-2023-full-text.txt` (source: MHA Gazette PDF, Act No. 46 of 2023). This is the actual chapter list — the numbering and titles below are confirmed text, not a hypothesis.
+
+| # | Chapter | Title |
+|---|---|---|
+| 1 | I | Preliminary |
+| 2 | II | Constitution of Criminal Courts and Offices |
+| 3 | III | Power of Courts |
+| 4 | IV | Powers of Superior Officers of Police and Aid to the Magistrates and the Police |
+| 5 | V | Arrest of Persons |
+| 6 | VI | Processes to Compel Appearance |
+| 7 | VII | Processes to Compel the Production of Things |
+| 8 | VIII | Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property |
+| 9 | IX | Security for Keeping the Peace and for Good Behaviour |
+| 10 | X | Order for Maintenance of Wives, Children and Parents |
+| 11 | XI | Maintenance of Public Order and Tranquillity |
+| 12 | XII | Preventive Action of the Police |
+| 13 | XIII | Information to the Police and Their Powers to Investigate |
+| 14 | XIV | Jurisdiction of the Criminal Courts in Inquiries and Trials |
+| 15 | XV | Conditions Requisite for Initiation of Proceedings |
+| 16 | XVI | Complaints to Magistrates |
+| 17 | XVII | Commencement of Proceedings Before Magistrates |
+| 18 | XVIII | The Charge |
+| 19 | XIX | Trial Before a Court of Session |
+| 20 | XX | Trial of Warrant-Cases by Magistrates |
+| 21 | XXI | Trial of Summons-Cases by Magistrates |
+| 22 | XXII | Summary Trials |
+| 23 | XXIII | Plea Bargaining |
+| 24 | XXIV | Attendance of Persons Confined or Detained in Prisons |
+| 25 | XXV | Evidence in Inquiries and Trials |
+| 26 | XXVI | General Provisions as to Inquiries and Trials |
+| 27 | XXVII | Provisions as to Accused Persons of Unsound Mind |
+| 28 | XXVIII | Provisions as to Offences Affecting the Administration of Justice |
+| 29 | XXIX | The Judgment |
+| 30 | XXX | Submission of Death Sentences for Confirmation |
+| 31 | XXXI | Appeals |
+| 32 | XXXII | Reference and Revision |
+| 33 | XXXIII | Transfer of Criminal Cases |
+| 34 | XXXIV | Execution, Suspension, Remission and Commutation of Sentences |
+| 35 | XXXV | Provisions as to Bail and Bonds |
+| 36 | XXXVI | Disposal of Property |
+| 37 | XXXVII | Irregular Proceedings |
+| 38 | XXXVIII | Limitation for Taking Cognizance of Certain Offences |
+| 39 | XXXIX | Miscellaneous |
+
 ### Sidebar architecture
 
-Group the 39 chapters into functional parts. This is the reader's mental model of a criminal case, and it should map onto how a matter actually moves:
+The functional grouping below is the reader's mental model of a criminal case, corrected against the verified chapter list above (chapter numbers are no longer a hypothesis):
 
-1. **Preliminary and the machinery of criminal courts** — definitions, classes of courts, powers, the classification of offences
-2. **Police powers** — arrest, notice of appearance, search and seizure, processes to compel appearance and production
-3. **Preventive and maintenance jurisdiction** — security for keeping the peace, public nuisance and urgent orders, maintenance of dependants
-4. **Information and investigation** — FIR, zero FIR and electronic registration, investigation, statements, forensic requirements, the police report
-5. **Cognizance, commitment and charge** — cognizance, complaints, commitment to Sessions, framing of charge, discharge
-6. **Trial** — Sessions trial, warrant cases, summons cases, summary trial, trial in absentia
-7. **Bail and bonds** — bail, anticipatory bail, bonds and sureties, default bail
-8. **Judgment, sentence and disposal of property** — judgment, sentencing, compensation, plea bargaining, disposal
-9. **Appeals, reference, revision and inherent powers**
-10. **Execution, transfer and miscellaneous**
-11. **Electronic and technology provisions** — treated as a cross-cutting part, because they run through the whole statute
-12. **Drafting toolkit** — model applications
-
-**Verify the chapter numbering and the chapter titles against the bare Act before writing the sidebar.** The grouping above is functional and safe; the chapter numbers behind it are not something to assert from memory.
+1. **Preliminary and the machinery of criminal courts** — Ch. I (Preliminary), Ch. II (Constitution of Criminal Courts and Offices), Ch. III (Power of Courts)
+2. **Police powers** — Ch. IV (Powers of Superior Officers of Police and Aid to the Magistrates and the Police), Ch. V (Arrest of Persons), Ch. VI (Processes to Compel Appearance), Ch. VII (Processes to Compel the Production of Things), Ch. VIII (Reciprocal Arrangements... Attachment and Forfeiture of Property), Ch. XII (Preventive Action of the Police)
+3. **Preventive and maintenance jurisdiction** — Ch. IX (Security for Keeping the Peace and for Good Behaviour), Ch. X (Order for Maintenance of Wives, Children and Parents), Ch. XI (Maintenance of Public Order and Tranquillity)
+4. **Information and investigation** — Ch. XIII (Information to the Police and Their Powers to Investigate) — FIR, zero FIR and electronic registration, investigation, statements, forensic requirements, the police report
+5. **Cognizance, commitment and charge** — Ch. XIV (Jurisdiction of the Criminal Courts in Inquiries and Trials), Ch. XV (Conditions Requisite for Initiation of Proceedings), Ch. XVI (Complaints to Magistrates), Ch. XVII (Commencement of Proceedings Before Magistrates), Ch. XVIII (The Charge)
+6. **Trial** — Ch. XIX (Trial Before a Court of Session), Ch. XX (Trial of Warrant-Cases by Magistrates), Ch. XXI (Trial of Summons-Cases by Magistrates), Ch. XXII (Summary Trials), Ch. XXIII (Plea Bargaining), Ch. XXIV (Attendance of Persons Confined or Detained in Prisons), Ch. XXV (Evidence in Inquiries and Trials), Ch. XXVI (General Provisions as to Inquiries and Trials), Ch. XXVII (Provisions as to Accused Persons of Unsound Mind), Ch. XXVIII (Provisions as to Offences Affecting the Administration of Justice)
+7. **Bail and bonds** — Ch. XXXV (Provisions as to Bail and Bonds)
+8. **Judgment, sentence and disposal of property** — Ch. XXIX (The Judgment), Ch. XXX (Submission of Death Sentences for Confirmation), Ch. XXXIV (Execution, Suspension, Remission and Commutation of Sentences), Ch. XXXVI (Disposal of Property)
+9. **Appeals, reference, revision and inherent powers** — Ch. XXXI (Appeals), Ch. XXXII (Reference and Revision). Inherent powers (s. 528) sit in Ch. XXXIX (Miscellaneous) — cross-link rather than misfile.
+10. **Execution, transfer and miscellaneous** — Ch. XXXIII (Transfer of Criminal Cases), Ch. XXXVII (Irregular Proceedings), Ch. XXXVIII (Limitation for Taking Cognizance of Certain Offences), Ch. XXXIX (Miscellaneous)
+11. **Electronic and technology provisions** — cross-cutting, no dedicated chapter; provisions are distributed across Ch. V, VI, XIII, XXV and others
+12. **Drafting toolkit** — model applications, no chapter
 
 ---
 
