@@ -1538,4 +1538,217 @@ The citations, bench compositions and precise holdings for *Lillu v. State of Ha
 
 ---
 
+## Sections 185–186 — Search by a police officer, and search beyond his own station's limits
+
+### The dispute this solves
+
+::: oneminute The search that cannot wait for a warrant, and the one recording that now proves it was fair
+Inspector Farhan is investigating a burglary at Anita's shop. A tip places the stolen goods in a storeroom two streets away, still within his own station's limits. Waiting for a Magistrate to issue a search warrant risks the goods being moved before he can act. Section 185 exists for exactly this situation — it lets Farhan search without a warrant, but only if he first writes down, in the case diary, why he believes the goods are there and why waiting for a warrant would be too slow. He conducts the search himself, and — because of a safeguard that has no equivalent in the old CrPC — films the entire thing on his phone.
+
+Three weeks later, the trail leads to a second storeroom, this one across the district line, inside a different police station's jurisdiction entirely. Farhan cannot simply walk in — section 186 now governs, and it asks a different question: is there time to ask the local station to search on his behalf, or does the risk of the evidence disappearing justify crossing the line himself? Getting sections 185 and 186 right is about knowing which of these two very different postures — request, or urgency — the facts actually support.
+:::
+
+::: story One section for staying in your own lane, one section for when you cannot
+Section 185 governs the ordinary case: an officer searching within the limits of his own police station, without a warrant, because the delay of obtaining one is unacceptable. The section trades the ordinary safeguard of prior judicial authorisation for two substitute safeguards — a contemporaneous written record of the grounds for the search, made *before* the search happens, and (new to the BNSS) an audio-video recording of the search itself. Section 186 then answers the question section 185 does not: what happens when the thing sought is not within the searching officer's own station at all? The default answer is a request to the station that does have territorial authority. The exception — reserved for cases where even that delay risks the evidence being concealed or destroyed — lets the investigating officer cross the line himself, but only on the same terms as section 185, and only with an additional layer of notice to the station whose territory was entered. Neither section dispenses with warrant-search accountability; both substitute a different, faster form of it.
+:::
+
+### The Act, decompiled
+
+> **185. Search by police officer.** (1) Whenever an officer in charge of a police station or a police officer making an investigation has reasonable grounds for believing that anything necessary for the purposes of an investigation into any offence which he is authorised to investigate may be found in any place within the limits of the police station of which he is in charge, or to which he is attached, and that such thing cannot in his opinion be otherwise obtained without undue delay, such officer may, after [[!recording in writing the grounds of his belief in the case-diary and specifying in such writing, so far as possible, the thing for which search is to be made]], [[?search, or cause search to be made, for such thing in any place within the limits of such station]].
+>
+> (2) A police officer proceeding under sub-section (1), shall, if practicable, [[!conduct the search in person]]:
+>
+> Provided that [[!the search conducted under this section shall be recorded through audio-video electronic means preferably by mobile phone]].
+>
+> (3) If he is unable to conduct the search in person, and there is no other person competent to make the search present at the time, he may, after [[!recording in writing his reasons for so doing]], [[?require any officer subordinate to him to make the search]], and he shall [[!deliver to such subordinate officer an order in writing, specifying the place to be searched, and so far as possible, the thing for which search is to be made]]; and such subordinate officer may thereupon search for such thing in such place.
+>
+> (4) The provisions of this Sanhita as to search-warrants and the general provisions as to searches contained in [[=section 103]] shall, so far as may be, apply to a search made under this section.
+>
+> (5) Copies of any record made under sub-section (1) or sub-section (3) shall forthwith, but not later than [[!forty-eight hours]], be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be [[!furnished, free of cost, with a copy of the same]] by the Magistrate.
+
+**186.** *(No marginal heading is recoverable from the page-break-anchored extraction used in this repository; the description below is the drafter's own, not a verbatim statutory caption — verify against a paginated bare Act before treating it as the official heading.)*
+
+> (1) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation [[?may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place]], in any case in which the former officer might cause such search to be made, within the limits of his own station.
+>
+> (2) Such officer, on being so required, shall [[!proceed according to the provisions of section 185]], and shall [[!forward the thing found, if any, to the officer at whose request the search was made]].
+>
+> (3) Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section (1) might result in evidence of the commission of an offence being concealed or destroyed, [[?it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station]].
+>
+> (4) Any officer conducting a search under sub-section (3) shall [[!forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate]], and shall also send with such notice a [[!copy of the list (if any) prepared under section 103]], and shall also send to the nearest Magistrate empowered to take cognizance of the offence, [[!copies of the records referred to in sub-sections (1) and (3) of section 185]].
+>
+> (5) The owner or occupier of the place searched shall, on application, be [[!furnished free of cost with a copy of any record sent to the Magistrate under sub-section (4)]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 185(1) "reasonable grounds for believing… cannot in his opinion be otherwise obtained without undue delay" | Mandatory precondition to a discretionary power | The power to search without a warrant does not arise merely because a warrant would be inconvenient — the officer must genuinely believe a warrant-application delay would defeat the purpose |
+| s. 185(1) "after recording in writing the grounds of his belief in the case-diary" | Mandatory, and sequenced | The record must be made *before* the search, not reconstructed afterward to justify it — this is the substitute for prior judicial scrutiny |
+| s. 185(2) proviso "recorded through audio-video electronic means preferably by mobile phone" | Mandatory, but its own standard is soft ("preferably") | A **new** safeguard with no CrPC ancestor — the search itself must be filmed, though the section does not mandate one specific device |
+| s. 185(3) "he may… require any officer subordinate to him" | Discretionary, but conditioned | Delegation is available only where the officer cannot conduct the search personally *and* no other competent person is present — it is a fallback, not a first choice |
+| s. 185(4) cross-reference to s. 103 | Incorporating | Section 185 does not restate the general search safeguards (witnesses, inventory, etc.) — it borrows them wholesale from s. 103 |
+| s. 185(5) "not later than forty-eight hours" | Mandatory timeline | A short reporting window to the Magistrate — the warrantless search is fast-tracked, but the judicial oversight it bypassed upfront is restored quickly afterward |
+| s. 186(1) "may require an officer in charge of another police station… to cause a search" | Discretionary — the default route | Cross-station searches are ordinarily done by request, not by the investigating officer personally crossing the line |
+| s. 186(3) "reason to believe that the delay… might result in evidence… being concealed or destroyed" | Mandatory precondition to the urgency exception | This is a materially higher bar than s. 185(1)'s ordinary "undue delay" — it specifically requires a risk to the evidence itself, not just administrative inconvenience |
+| s. 186(4) "shall forthwith send notice… to the officer in charge of the police station within the limits of which such place is situate" | Mandatory | The territorial station must be told promptly even though it was bypassed — this is what keeps the urgency exception from becoming a silent, unaccountable incursion |
+
+::: proviso Section 185(1)'s "undue delay" and section 186(3)'s "concealed or destroyed" are not the same test
+It is tempting to treat both sections as running on the same "urgency" logic, but they do not. Section 185(1) is satisfied by a belief that a warrant-application delay would be undue in the circumstances — a comparatively ordinary threshold, available whenever waiting is impractical. Section 186(3)'s exception to the request-based default is narrower and specifically tied to a risk that the evidence itself will be concealed or destroyed by the delay of making a request to the other station. An officer who invokes section 186(3) on nothing more than general urgency, without a specific, articulable risk to the evidence, has not satisfied the higher threshold the sub-section actually sets — and a search conducted on that footing is vulnerable to challenge on a ground that would not touch an ordinary section 185 search within the officer's own station.
+:::
+
+::: proviso The audio-video proviso to section 185(2) is new, and "preferably by mobile phone" is a floor, not a ceiling
+Nothing in the CrPC's equivalent provision required a warrantless search to be filmed. Section 185(2)'s proviso is a genuinely new safeguard, reflecting the BNSS's broader pattern of pairing expanded police powers with electronic accountability. Two things about its drafting matter in practice. First, the duty to record is stated as mandatory ("shall be recorded"), even though the means specified — "preferably by mobile phone" — is only a preference, not the exclusive method; a search recorded on a body camera or any other audio-video device satisfies the proviso equally. Second, the proviso attaches to the search under section 185 generally, and section 186(2) requires an officer proceeding on another station's request to "proceed according to the provisions of section 185" — so the recording duty travels with the search wherever it is actually conducted, including a cross-station search under either route in section 186.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Farhan believes stolen goods from Anita's burglary are in a storeroom within his own station's limits, and that a warrant application would take too long. What must he do before searching?"
+  :gates="[
+    { q: 'Does Farhan genuinely believe the thing sought cannot be obtained without undue delay if he waits for a warrant?', note: 'This belief is the precondition to the whole power — not a formality recited after the fact.', no: 'Section 185 does not authorise the search at all; Farhan must proceed by warrant application in the ordinary way.' },
+    { q: 'Has Farhan recorded, in writing in the case-diary, the grounds of his belief and (so far as possible) the specific thing sought, before conducting the search?', note: 'This record is what substitutes for prior judicial scrutiny — it must precede the search, not follow it.', no: 'A search conducted without this contemporaneous record is not properly constituted under section 185, whatever is actually found.' }
+  ]"
+  result="Farhan may search, or cause search to be made, for the goods within the limits of his own station — conducting the search in person if practicable, and, either way, ensuring it is recorded through audio-video means."
+  resultKind="discretionary"
+  caveat="Practicability governs whether Farhan searches personally or deputes a subordinate under sub-section (3) — it does not excuse the case-diary record or the forty-eight-hour Magistrate report, both of which apply regardless of who physically conducts the search."
+/>
+
+<MicroTree
+  input="The trail now leads to a storeroom across the district line, outside Farhan's own station's limits. What route must he take?"
+  :gates="[
+    { q: 'Would requesting the officer in charge of that station to conduct the search, under section 186(1)–(2), still allow the evidence to be secured before it can be concealed or destroyed?', note: 'This is the ordinary, default route — a request, not a personal incursion into another station’s territory.', no: 'Only a genuine, specific risk of concealment or destruction from that delay opens the section 186(3) exception — general inconvenience or slowness does not.' },
+    { q: 'If the exception applies, has Farhan proceeded according to section 185 as if the place were within his own station, and does he intend to notify the territorial station forthwith under sub-section (4)?', note: 'The urgency exception borrows section 185’s procedure wholesale — same case-diary record, same audio-video recording — and adds a mandatory notice duty the ordinary section 185 search does not need.', no: 'A search conducted under sub-section (3) without the sub-section (4) notice is incomplete, even if the search itself was properly justified and conducted.' }
+  ]"
+  result="Farhan requests the territorial station under section 186(1) as the default; only a specific, articulable risk to the evidence from that delay lets him search directly under section 186(3), on section 185 terms, with forthwith notice to the bypassed station."
+  resultKind="discretionary"
+  caveat="Whichever route is used, copies of the search record still travel to the nearest Magistrate within forty-eight hours under section 185(5), and the owner or occupier of the searched place retains a free-copy right either way."
+/>
+
+### In plain English
+
+**Section 185 is the warrantless-search safety valve, not a general licence to skip warrants whenever they are inconvenient.** It exists for the specific situation where obtaining a warrant would cause undue delay and risk losing the thing sought — and it substitutes a contemporaneous written record, made before the search, for the judicial scrutiny a warrant would otherwise have provided.
+
+**The audio-video proviso is the section's most significant departure from the old law, and it is easy to underweight because it reads like a minor add-on.** A warrantless search conducted without any prior judicial check now carries its own, independent accountability mechanism — a recording of the search itself. For a practitioner, an unrecorded section 185 search, where recording was practicable and simply was not done, is a fact worth developing, even though the proviso's own wording ("preferably by mobile phone") stops short of prescribing a specific method.
+
+**Section 186 forces a threshold choice, and the two branches sit on genuinely different footings.** The default — a request to the station with actual territorial authority — is available whenever the investigating officer can afford to ask. The exception, reserved for a specific risk that delay will let evidence be concealed or destroyed, lets the officer cross district or station lines personally, but ties that power tightly to section 185's own procedure and adds a mandatory notice back to the bypassed station. Treating the exception as a routine alternative to the request route, rather than a genuinely narrower carve-out, is the most common way this section is misapplied.
+
+**Both sections are ultimately about restoring the accountability that the absence of a warrant removes.** The forty-eight-hour Magistrate report under section 185(5), the free-copy right for the owner or occupier, and (for cross-station searches) the mandatory notice under section 186(4) are not afterthoughts — they are the mechanism by which a search conducted without prior judicial authorisation is still made visible to a Magistrate and to the person whose premises were entered.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 165 → BNSS 2023, s. 185.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only.*
+>
+> **CrPC 1973, s. 166 → BNSS 2023, s. 186.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only, and no marginal heading for s. 186 could be recovered from the extraction used in this repository.*
+
+**Delta bucket: s. 185 is substantively amended; s. 186 is renumbered with drafting changes.** The core architecture of both sections — a written, pre-search record substituting for a warrant, the mechanism to depute a subordinate officer, the borrowing of general search safeguards, and the request-versus-urgency structure for cross-station searches — carries forward from the CrPC framework the drafter recalls. What is new to s. 185 is the sub-section (2) proviso mandating audio-video recording of the search: nothing resembling it existed in the CrPC-era provision. That single addition is significant enough, and specific enough to the BNSS's broader electronic-accountability pattern, to place s. 185 in the **substantively amended** bucket rather than treating it as a mere renumbering.
+
+::: info Verify before citing
+The mapping of CrPC ss. 165 and 166 to BNSS ss. 185 and 186 is given from the drafter's working knowledge of CrPC structure and has not been checked against a CrPC bare Act text held in this repository. The claim that no audio-video recording requirement existed in the CrPC's equivalent provision should also be independently confirmed before being relied upon in argument, though the drafter is reasonably confident of it given the BNSS's documented pattern of adding electronic safeguards elsewhere in this Chapter (see s. 176(3)).
+:::
+
+**What a practitioner must now do differently.** First, for any warrantless search under section 185 conducted after the BNSS came into force, ask for the audio-video recording as a matter of course — its absence, where recording was practicable, is now a live procedural point that did not exist under the prior law. Second, when a search crosses station or district lines, identify precisely which of section 186's two routes was used, and if it was the urgency exception, test whether the officer's belief met the higher "concealed or destroyed" threshold rather than the ordinary "undue delay" standard — conflating the two is an easy and consequential error. Third, remember that section 186(2) folds the request-route search back into section 185's procedure in full, including the new recording proviso — a cross-station search conducted on request is not exempt from the recording duty merely because it was not the requesting officer who physically conducted it.
+
+### Test your instinct
+
+::::instinct The search that was justified but never recorded
+
+Farhan has solid grounds to search the storeroom without a warrant, records those grounds properly in the case-diary before proceeding, and conducts the search in person. No audio-video recording is made — Farhan's phone was uncharged, and no other recording device was arranged, though a working device was available at the station and could have been brought without meaningful delay.
+
+Does the missing recording invalidate the search or the resulting seizure?
+
+:::ruling Reveal the ruling
+Not automatically, but it is a real defect worth pressing. The proviso's duty to record is stated in mandatory terms, and an available, practicable means of recording that was simply not used is materially different from a genuine impossibility. As with search irregularities generally, the likely consequence is not automatic exclusion of whatever was seized, but it does open the search to closer scrutiny — the absence of the very safeguard the BNSS added specifically to make warrantless searches more accountable is a legitimate basis to argue that the search, and the case-diary record justifying it, deserve more careful examination rather than routine acceptance.
+::::
+
+::::instinct The cross-station search made on a hunch about delay
+
+Farhan, tracking the same investigation into a neighbouring district, decides the goods might be moved "at some point" if he waits for the local station to act on a request. Without any specific information suggesting an imminent risk, he crosses into the neighbouring station's territory himself and searches under the purported authority of section 186(3), later sending notice to the local station as required.
+
+Was Farhan entitled to bypass the request route under section 186(3)?
+
+:::ruling Reveal the ruling
+No, on these facts. Section 186(3)'s exception requires "reason to believe that the delay… might result in evidence… being concealed or destroyed" — a specific, articulable risk, not a generalised sense that delay is undesirable. A vague hunch that goods "might be moved at some point" falls short of this threshold; it describes the kind of ordinary urgency that section 186(1)'s request route is designed to accommodate, not the narrower risk the exception demands. That Farhan later complied with the sub-section (4) notice requirement does not cure the threshold defect — the notice duty presupposes a search properly conducted under sub-section (3) in the first place.
+::::
+
+::::instinct The subordinate officer sent without a written order
+
+Unable to attend personally because he is engaged in an unrelated arrest, Farhan verbally instructs a subordinate officer to search a location under section 185(3), intending to formalise the paperwork later. The subordinate conducts the search, records it on video, and recovers relevant material.
+
+Does the absence of a prior written order to the subordinate officer affect the search's validity?
+
+:::ruling Reveal the ruling
+It is a genuine procedural defect, though not necessarily a fatal one to the material recovered. Sub-section (3) requires Farhan to record his reasons for delegating in writing and to deliver a written order to the subordinate officer specifying the place and, so far as possible, the thing sought — a verbal instruction followed by paperwork prepared afterward does not satisfy the sequencing the sub-section contemplates, since the written order is meant to define and bound the subordinate's authority before the search happens, not to record it retrospectively. As with the recording-proviso scenario above, the likely practical consequence is heightened scrutiny of the search and the material recovered, and a challengeable irregularity for the defence to raise, rather than automatic invalidity of the search or exclusion of everything seized — but it is a defect a careful investigating officer should not create when compliance costs nothing more than pausing to write the order first.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Radha Kishan v. State of U.P.**, AIR 1963 SC 822. ⚠️ *Verify bench strength before citing — recorded from working knowledge, not independently confirmed against the official report.*
+
+**Ratio.** Even where a search is conducted in contravention of the procedural safeguards governing searches, the illegality of the search does not by itself vitiate the seizure of articles found during it, nor render the trial invalid. The remedy for an illegal search lies in resisting or objecting to the search itself and, where relevant, in a claim for compensation or other action against the erring officer — not in treating everything recovered as automatically inadmissible. The court is, however, obliged to examine such evidence with greater care and to be alert to the possibility that the search irregularity reflects, or enabled, fabrication.
+
+**Practitioner takeaway.** *"An irregularity in a section 185 or section 186 search — a missing case-diary record, an unrecorded search, a verbal rather than written subordinate-order — is a ground for closer scrutiny of the search and the evidence it produced, and a live point to press at trial, but it is not, on the authority of Radha Kishan, an automatic ground for excluding the seizure or invalidating the trial."*
+
+**BNSS caveat.** *Radha Kishan* was decided on the CrPC's warrantless-search architecture, which s. 185 carries forward as **substantively amended** by the addition of the audio-video proviso. Its ratio — that an illegal or irregular search affects the weight and scrutiny given to the resulting evidence, not the evidence's automatic admissibility — is a general proposition about search irregularities that is not textually tied to the specific mechanics of the pre-BNSS section, and there is no reason apparent from the text in this repository to think the BNSS's new recording safeguard was intended to change that consequence, as opposed to adding one more specific irregularity to the category the ratio already governs. Treat this extension as sound in principle, but confirm no more recent authority has addressed the recording proviso specifically before relying on it for that narrower point.
+
+#### Sword and shield
+
+| | Offensive use (prosecution) | Defensive use (accused) |
+|---|---|---|
+| On an irregular or unrecorded search | Rely on *Radha Kishan* to resist automatic exclusion of the seizure, while being candid about the irregularity and its cause. | Press the irregularity as a basis for closer judicial scrutiny of the evidence and the case-diary record, rather than expecting automatic exclusion — frame it as a credibility and weight argument, backed by a request for heightened scrutiny. |
+| On the section 186(3) urgency exception | Where invoked, be prepared to show the specific, articulable risk of concealment or destruction that justified bypassing the request route — a generalised urgency claim will not hold up. | Test whether the officer's stated belief actually meets the "concealed or destroyed" threshold, as distinct from the lower "undue delay" standard applicable to an ordinary section 185 search. |
+| On the audio-video recording proviso | Tender the recording affirmatively as part of establishing the search was properly conducted and to pre-empt fabrication arguments. | Where practicable recording was not made, argue for heightened scrutiny of the search under *Radha Kishan*, specifically because the BNSS's own accountability safeguard was available and unused. |
+| On the forty-eight-hour Magistrate report | Ensure the section 185(5) report reached the Magistrate within the window, closing off a delay-based challenge before it can be raised. | Where the report was late or the owner/occupier was refused a free copy on application, raise this as an independent procedural default. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Recording the grounds of belief in the case-diary | Before the search is conducted | s. 185(1) | A search conducted without a prior record is not properly constituted under the section — a threshold, not merely a paperwork, defect |
+| Sending copies of the search record to the nearest Magistrate | Not later than **48 hours** | s. 185(5) | Delay is a discoverable irregularity, though not automatically fatal to the seizure under *Radha Kishan* |
+| Sending notice of a section 186(3) urgency search to the bypassed station | Forthwith | s. 186(4) | Absence of prompt notice undermines the accountability the urgency exception is conditioned on |
+| Furnishing a free copy of the search record to the owner/occupier | On application, no fixed statutory deadline stated | ss. 185(5), 186(5) | An unreasonable refusal or delay is a pleadable irregularity in its own right |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 103** | Supplies the general safeguards for searches (witnesses, inventory, and related mechanics) that both s. 185(4) and s. 186(4) incorporate by cross-reference rather than restating. |
+| **BNSS s. 176(3)** | The other genuinely new electronic-accountability safeguard in this Chapter — the mandatory forensic-expert visit and evidence-collection recording — reflecting the same BNSS pattern that produced s. 185(2)'s audio-video proviso. |
+| **BNSS s. 193** | Material recovered under ss. 185–186 forms part of the evidentiary record that the investigating officer must marshal into the final report forwarded to the Magistrate under s. 193. |
+| **BSA 2023** | The admissibility and weight of material recovered through a search — irregular or otherwise — is ultimately assessed under the BSA's general evidentiary provisions; ss. 185–186 govern only the search procedure, not the evidentiary consequence of departing from it. |
+| **Applicable forms / filings** | An application challenging the validity of a warrantless search for want of a prior case-diary record or audio-video recording; a request under ss. 185(5)/186(5) for a free copy of the search record; where a section 186(3) search is alleged, a specific challenge to whether the "concealed or destroyed" threshold was actually met. |
+
+#### The authorities
+
+**State of Maharashtra v. Natwarlal Damodardas Soni**, AIR 1980 SC 593. ⚠️ *Verify before citing — recorded from working knowledge.* Held, in the context of an irregular search, that even if a search is found to be illegal, it does not by itself affect the validity of the seizure or vitiate the trial, though it is a matter the court may take into account in appreciating the evidence. **How it is used:** a second, independent authority for the *Radha Kishan* proposition, useful where a bench is more familiar with this citation or where a second authority strengthens the point.
+
+::: info Verify before citing
+The citation, bench composition, and precise holding of *State of Maharashtra v. Natwarlal Damodardas Soni* are recorded from the drafter's working knowledge and secondary-source research, and have not been independently verified against the official report. Verify before placing either authority before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not invoke section 186(3)'s urgency exception on the same "undue delay" reasoning that justifies an ordinary section 185 search — the exception demands a specific, articulable risk that evidence will be concealed or destroyed, and pleading the lower standard by mistake invites the search being struck down on threshold grounds.
+2. Do not treat the audio-video proviso as optional merely because its own text says "preferably by mobile phone" — the duty to record is mandatory; only the specific device is a matter of preference. Build the case file to show recording occurred, or explain concretely why it did not.
+3. Do not authorise a subordinate officer's search under section 185(3) verbally, with paperwork to follow — the written order is meant to precede and bound the search, and treating it as an administrative afterthought creates an avoidable defect.
+4. Where a search crosses station or district lines, confirm on the file which of section 186's two routes was actually used, and do not conflate a request-route search (section 186(1)–(2)) with a personal urgency-route search (section 186(3)) when preparing the notice and Magistrate-report paperwork — the two carry different documentation trails.
+
+**Timing.** There is no external limitation period for challenging a defective search under sections 185–186 distinct from the trial timeline, but the challenge is strongest when raised as soon as the search record (or its absence) is placed before the court — typically at the point the seized material is sought to be tendered — rather than reserved for final arguments, since an early challenge preserves the opportunity to cross-examine the officer specifically on the case-diary entry, the recording, and (where relevant) the section 186(3) threshold.
+
+**Model checklist for reviewing a warrantless search under sections 185–186:**
+
+1. Confirm a written case-diary record of the grounds of belief was made before the search, not after.
+2. Confirm the search was conducted in person where practicable, and that an audio-video recording exists; if not, identify why recording was said to be impracticable.
+3. Where a subordinate officer conducted the search, confirm a written order preceded it, specifying the place and (so far as possible) the thing sought.
+4. Confirm copies of the search record reached the nearest Magistrate within forty-eight hours.
+5. Where the search crossed station or district lines, identify whether the request route (s. 186(1)–(2)) or the urgency exception (s. 186(3)) was used, and test the urgency route specifically against the "concealed or destroyed" threshold.
+6. Where the urgency exception was used, confirm forthwith notice was sent to the bypassed station under s. 186(4), together with the s. 103 list copy.
+7. Confirm the owner or occupier's free-copy right under ss. 185(5)/186(5) was honoured on application.
+
+---
+
 
