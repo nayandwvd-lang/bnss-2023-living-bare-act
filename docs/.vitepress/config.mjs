@@ -74,7 +74,7 @@ export default defineConfig({
           text: 'Information and investigation',
           collapsed: false,
           items: [
-            // { text: 'FIR and registration of information', link: '/chapters/investigation' }
+            { text: 'Information in cognizable cases (FIR)', link: '/chapters/chapter-13' }
           ]
         },
         { text: 'Cognizance, commitment and charge', collapsed: true, items: [] },
