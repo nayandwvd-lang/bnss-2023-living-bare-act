@@ -2352,4 +2352,203 @@ The citation and precise holding of *Balakram v. State of Uttarakhand* are recor
 
 ---
 
+## Section 193 — Report of police officer on completion of investigation
+
+::: oneminute Section 193 in plain words
+This is the chargesheet section. Every investigation must finish "without unnecessary delay" — and for a closed list of sexual-offence sections, it must finish within two months of the FIR being recorded, no exceptions written into the text. When it finishes, the officer sends a structured report to the Magistrate: who the parties are, what was found, whether anyone was arrested, and — new in the BNSS — the **chain of custody of any electronic device** seized along the way. The victim gets a right to be updated on progress within ninety days. The officer can ask the Magistrate to withhold parts of a witness statement from the accused's copy if disclosure would be against the public interest. And investigation does not have to stop just because the report has gone in: further investigation is expressly permitted — but once a trial has started, it now needs the court's permission and a **ninety-day clock of its own**.
+:::
+
+::: story Anita's shop, six weeks later
+Anita's case against Bikram for criminal trespass and mischief — the fabric-store front she watched him deface with the padlock still cut — has moved through the investigation stages this chapter has been tracking. Six weeks after her FIR, the investigating officer, Sub-Inspector Verma, completes his enquiry: he has recorded witness statements under section 180, seized the padlock and photographed the damage, and has nothing left to do. He is not free to simply let the file sit. Section 193 requires him to close the loop — draft the report, attach the statements and documents, and send it to the Magistrate empowered to take cognizance, stating in the prescribed form who Anita and Bikram are, what happened, and what he found. If Bikram's offence had instead been one of the enumerated sexual-offence sections against a person, Verma would have been working against a two-month statutory clock from the day Anita's FIR was recorded — not a guideline, a mandatory outer limit written into the text itself.
+:::
+
+> **193. Report of police officer on completion of investigation.**—(1) Every investigation under this Chapter [[!shall]] be completed without unnecessary delay.
+>
+> (2) The investigation in relation to rape of a child may be completed within two months from the date on which the information was recorded by the officer in charge of the police station.
+>
+> ::: proviso The closed list, not a general "sexual offence" clock
+> Sub-section (2)'s two-month deadline is not a general rule for every sexual offence — read it against the actual text, which ties it to specific Bharatiya Nyaya Sanhita sections (64, 65, 66, 67, 68, 70, 71) and to Protection of Children from Sexual Offences Act sections 4, 6, 8 and 10. An offence that is not on this list does not get the accelerated clock merely because it is sexual in character. Confirm the charging section against this exact list before pleading the deadline either for the prosecution (to justify urgency) or for the defence (to flag delay as a departure from a mandatory timeline).
+> :::
+>
+> (3) As soon as the investigation is completed, the officer in charge of the police station [[!shall]] forward, including through electronic communication, to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government, stating—
+>
+> (i) the names of the parties;
+>
+> (ii) the nature of the information;
+>
+> (iii) the names of the persons who appear to be acquainted with the circumstances of the case;
+>
+> (iv) whether any offence appears to have been committed and, if so, by whom;
+>
+> (v) whether the accused has been arrested;
+>
+> (vi) whether the accused has been released on his bond or bail bond;
+>
+> (vii) whether the accused has been forwarded in custody under section 190;
+>
+> (viii) whether the report of medical examination of the woman has been attached where the investigation relates to an offence under Bharatiya Nyaya Sanhita, 2023 sections 64, 65, 66, 67, 68, 70 or 71;
+>
+> (ix) the sequence of custody in case of electronic device.
+>
+> ::: proviso Item (ix) is new, and it is a chain-of-custody duty, not a formality
+> Clause (ix) has no direct predecessor in the CrPC's section 173(2) report format. Read against section 176(3)'s forensic-visit duty for offences carrying seven years or more, this is the same institutional instinct — electronic evidence is only as good as the paper trail proving nobody tampered with it between seizure and trial. A report silent on custody sequence, or one that shows an unexplained gap, is now a textual departure from the mandatory reporting format itself — not merely a chain-of-custody argument built from general principle at trial.
+> :::
+>
+> (3)(ii) The officer [[!shall]], within a period of ninety days, inform the progress of the investigation by any means including through electronic communication, to the informant or the victim.
+>
+> (3)(iii) The officer [[!shall]] communicate, in such manner as may be prescribed by the State Government, the action taken by him to the person, if any, by whom the information relating to the commission of the offence was first given.
+>
+> (4) Where a superior officer of police has been appointed under section 177, the report [[?may]], in a State Government-directed case, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.
+>
+> (5) Whenever it appears from a report forwarded under this section that the accused has been released on his bond or bail bond, the Magistrate [[!shall]] make such order for the discharge of such bond or bail bond as he thinks fit.
+>
+> (6) Where the officer in charge of the police station forwards a report under sub-section (3) on completion of investigation and the case is one in which section 190 applies, he [[!shall]] forward to the Magistrate along with the report—
+>
+> (a) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation;
+>
+> (b) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses.
+>
+> (7) If the officer is of opinion that any part of any such statement is not relevant to the subject-matter of the proceedings, or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he [[!shall]] indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.
+>
+> ::: proviso A redaction request, not a redaction right
+> Sub-section (7) gives the officer a power to *ask* the Magistrate to exclude material from the accused's copy — it does not give the officer a power to withhold it unilaterally. The Magistrate decides. This distinction matters at the drafting table: a defence challenge to withheld material is a challenge to the Magistrate's order under this sub-section, not merely to the officer's investigative judgment, and the officer's stated reasons of relevance or public interest must actually appear on the record for the order to be defensible.
+> :::
+>
+> (8) The officer [[!shall]] also submit such number of copies of the report along with other documents to the Magistrate for supply to the accused as required under section 230:
+>
+> Provided that if the accused has already been supplied with a copy of such report or documents through electronic communication, the supply of such report or documents to the accused shall be deemed to have been duly served.
+>
+> (9) Nothing in this section [[!shall]] be deemed to preclude further investigation in respect of an offence after a report under sub-section (3) has been forwarded to the Magistrate and, where upon such investigation the officer in charge of the police station obtains further evidence, oral or documentary, he [[!shall]] forward to the Magistrate a further report or reports regarding such evidence in the form prescribed, and the provisions of sub-sections (3) to (8) shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section (3):
+>
+> Provided that further investigation during the trial may be conducted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may be extended with the permission of the Court.
+>
+> ::: proviso The new ninety-day trial-stage cap
+> This closing proviso has no counterpart in the unamended CrPC section 173(8). Once a trial has actually begun, further investigation is no longer an open-ended power exercisable at the investigating agency's own pace — it needs the trying court's leave and it runs against a ninety-day clock, extendable only with that same court's permission. Before this text existed, the leading authority on the *scope* of further investigation during trial (below) had to be read alongside a silence on timing; that silence is now closed.
+> :::
+
+<MicroTree
+  input="The officer in charge has just finished investigating. What must the report contain, and where does it go?"
+  :gates="[
+    { q: 'Is the offence one of the closed list — BNS ss. 64, 65, 66, 67, 68, 70, 71, or POCSO ss. 4, 6, 8, 10 — against a child?', note: 'If yes, the section 193(2) two-month clock runs from the date the information was recorded. There is no textual escape hatch for exceeding it, though delay alone does not by itself vitiate a report filed late.', no: 'The general section 193(1) standard applies instead — completion “without unnecessary delay,” which is a standard, not a fixed clock, and is judged case by case.' },
+    { q: 'Does the report attach the electronic-device custody sequence required by clause (ix)?', note: 'A silent or gapped custody trail is now a departure from the mandatory report format itself, not just a chain-of-custody argument to be built from general principle later at trial.', no: 'Flag the omission immediately — waiting until trial to raise it concedes the officer’s own report as the first opportunity to test the chain.' },
+    { q: 'Does the case attract section 190 — is the officer forwarding it for cognizance with the accused chargeable?', note: 'Sub-section (6) then obliges the officer to forward, with the report, all documents relied on and all section 180 statements of prosecution witnesses — the accused’s disclosure entitlement under section 230 flows from this.', no: 'Sub-sections (6)–(8)’s document-forwarding duties do not engage in the same way; the report proceeds on its own terms under sub-section (3).' },
+    { q: 'Has the officer asked the Magistrate to withhold part of a witness statement under sub-section (7)?', note: 'The Magistrate decides, on the officer’s stated reasons of relevance or public-interest inexpediency — this is a request for a judicial order, not a unilateral redaction power.', no: 'The full statement goes into the accused’s copy under sub-section (8), subject only to the electronic-service proviso.' }
+  ]"
+  result="A compliant report on the correct timeline, with the new custody-sequence disclosure and the redaction mechanism correctly routed through the Magistrate."
+  resultKind="mandatory"
+  caveat="A report can be procedurally compliant and still substantively wrong — timeline compliance under section 193 says nothing about the sufficiency of the evidence gathered."
+/>
+
+<MicroTree
+  input="The report has already gone to the Magistrate. New evidence has now turned up — can the police still investigate?"
+  :gates="[
+    { q: 'Has the trial actually begun — has the Court taken cognizance and started the trial process — at the point further investigation is proposed?', note: 'The proviso to sub-section (9) engages: further investigation now needs the trying Court’s permission and must finish within ninety days, extendable only with that Court’s further leave.', no: 'Sub-section (9)’s main text applies without the trial-stage proviso — the officer in charge can pursue further evidence and forward a further report, and sub-sections (3) to (8) apply to it as they would to the original report.' },
+    { q: 'Is the further evidence genuinely new, or is it a re-investigation of matters already covered by the first report?', note: 'This is the distinction the leading authority on further investigation turns on — genuinely supplemental evidence is what sub-section (9) contemplates; a wholesale second investigation displacing the first is a different, and far more contestable, exercise.', no: 'A request framed as “further” investigation but functioning as a fresh investigation invites a challenge that it exceeds what sub-section (9) authorises.' }
+  ]"
+  result="A further report is forwarded, and — if the trial has started — it comes with the Court's permission and inside the ninety-day window."
+  resultKind="mandatory"
+  caveat="The proviso caps the time the further investigation may take; it does not by itself cap how many further reports may be filed, provided each is genuinely supplemental."
+/>
+
+### In plain English
+
+Think of section 193 in four moving parts. First, a **deadline for finishing** — an open-ended "without unnecessary delay" standard for ordinary cases, but a hard two-month clock for the specific sexual-offence sections against children the text names. Second, a **report format** — not a free-form summary but a structured document with nine specified contents, the last of which, the electronic-device custody sequence, is new and directly serves the BNSS's broader push toward taking digital evidence seriously. Third, a **disclosure regime** — the accused is entitled to the documents and witness statements the prosecution will rely on, subject only to a Magistrate-supervised carve-out for material that is irrelevant or genuinely against the public interest to disclose. Fourth, and most consequential for litigation strategy, a **further-investigation power** that survives the filing of the report but changes character once a trial starts — from an executive power exercised at the agency's own pace to a court-supervised power on a ninety-day leash.
+
+None of this displaces the earlier stages of the investigation you have already read about in this chapter — the FIR under section 173, the powers of investigation under sections 175–186, the twenty-four-hour production and remand regime under section 187. Section 193 is where all of that converges into the single document that either sends the case to trial or closes it.
+
+### What changed from the CrPC
+
+BNSS section 193 corresponds to CrPC section 173. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+This is a **substantively amended** provision, not a mere renumbering, on at least three counts:
+
+1. **The report format gains a chain-of-custody item.** CrPC section 173(2)'s report format had no equivalent of clause (ix)'s "sequence of custody in case of electronic device." This is a genuinely new disclosure obligation.
+2. **A victim-notification duty with a fixed outer limit.** The ninety-day progress-update duty to the informant or victim under the provision numbered (3)(ii) here has no identically-worded counterpart in the unamended CrPC text — it converts what was often treated as good practice into a timed statutory duty.
+3. **The further-investigation power now carries a trial-stage clock.** CrPC section 173(8) permitted further investigation after the report without any statutory time limit once a case reached trial. The proviso to sub-section (9) here is new: permission of the trying court, and a ninety-day completion window, extendable only with that court's leave.
+
+### Test your instinct
+
+:::: instinct Anita's shop — six years later, an amendment application
+Bikram was convicted. Two years into a sentence-execution dispute over compensation, the defence discovers a security-camera video, never seized during the original investigation, that it says would have changed the identification evidence. The trial concluded a year ago. The defence asks the police to "further investigate" and file a supplementary report incorporating the video.
+::: ruling What actually happens
+The proviso to sub-section (9) is engaged only where further investigation is conducted *during the trial* — its ninety-day clock and its permission requirement are keyed to that stage. Here the trial has already concluded; further investigation at this post-conviction stage does not fit the proviso's own words, and reopening a concluded trial on a further-investigation report raises a separate and much harder set of questions about finality that section 193 alone does not answer. The correct vehicle for a genuinely new piece of evidence discovered after conviction lies elsewhere in the Sanhita's appellate and review architecture, not in an application under this section addressed to the investigating officer.
+:::
+::::
+
+:::: instinct A closed-list offence, filed on day fifty-nine
+The investigating officer in a case charged under Bharatiya Nyaya Sanhita section 65 completes the investigation and forwards the report on the fifty-ninth day after the FIR was recorded — one day inside the section 193(2) two-month window. The defence argues the entire investigation is vitiated because it was conducted under undue haste to meet an artificial deadline.
+::: ruling What actually happens
+Filing inside the statutory window is compliance, not a defect — the two-month figure in sub-section (2) is a ceiling the investigation must not exceed, not a target that taints an investigation for finishing before it. An undue-haste argument has to be built on specific evidentiary shortcuts actually taken — witnesses not examined, forensic steps skipped — not on the bare fact that the officer met a deadline the statute itself set. Compliance with a mandatory timeline is, if anything, the position Parliament wanted the officer in.
+:::
+::::
+
+:::: instinct The Magistrate excludes a paragraph
+The investigating officer, relying on sub-section (7), asks the Magistrate to exclude one paragraph of a protected witness's statement from the accused's copy, citing a risk to the witness's safety. The Magistrate allows the request without recording any reasons of her own on the order sheet. At trial, the defence challenges the exclusion as having denied it a fair opportunity to prepare.
+::: ruling What actually happens
+Sub-section (7) requires the officer to state his reasons — it says nothing express about the Magistrate's own order needing reasons, but an order withholding material from an accused touches the fair-trial right at the heart of the disclosure scheme, and a bare, unreasoned allowance is a weak basis to withstand a properly framed challenge. The stronger practitioner position for the defence is not that exclusion under sub-section (7) is impermissible in principle — protected-witness safety is a recognised public-interest ground — but that the order permitting it should itself show application of mind, and its absence is a fair ground to press for reconsideration or for disclosure to the court alone in the first instance.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Vinay Tyagi v. Irshad Ali**, (2013) 5 SCC 762 (three-judge Bench). The Supreme Court drew the now-foundational distinction between **further investigation** (continuing the same investigation, permissible under section 173(8) CrPC without leave of the court unless a report has already been forwarded and cognizance taken, in which case the power is exercised subject to judicial oversight), **reinvestigation** (starting over, generally impermissible except in the rarest cases and only by a superior court's direction), and **de novo investigation** — clarifying that an investigating agency cannot simply discard a completed investigation and start afresh in the guise of "further" investigation.
+
+::: info Verify before citing
+The citation and precise three-way distinction drawn in *Vinay Tyagi v. Irshad Ali* are recorded from the drafter's working knowledge and secondary-source research conducted while writing this page, and should be independently verified against the official SCC report — including the exact bench composition — before being placed before a court, particularly given the BNSS's new ninety-day trial-stage proviso, which the judgment obviously could not have addressed.
+:::
+
+**Practitioner takeaway.** When resisting a "further investigation" application that in substance reopens matters already investigated and reported on, frame the objection as a *Vinay Tyagi* mischaracterisation — what is sought is reinvestigation or de novo investigation wearing the label of sub-section (9), and that label does not survive scrutiny of what is actually being asked for.
+
+#### Sword and shield
+
+**As a sword (complainant/victim):** the ninety-day progress-notification duty under (3)(ii) is an underused lever — a victim whose case has gone quiet past that window has a textual basis to press for an update, and a documented failure to comply is itself worth placing on record ahead of any bail or discharge hearing. The chain-of-custody item under clause (ix) is also a sword: a defence-side gap in the electronic evidence trail is equally a prosecution-side vulnerability if the officer's own report does not account for it.
+
+**As a shield (accused):** clause (ix)'s custody-sequence requirement is now a textual peg for challenging electronic evidence — a report silent on custody sequence, or one showing an unexplained gap, is a departure from the mandatory report format itself. Sub-section (7)'s redaction mechanism, used against the accused, should be tested for whether the Magistrate's order shows actual reasons, not merely the officer's request.
+
+#### The limitation clock
+
+There is no *limitation* period on filing a police report in the Limitation Act sense — section 193 sets **completion deadlines**, not limitation periods, and they run differently: "without unnecessary delay" generally, two months from the date the information was recorded for the closed sexual-offence list under sub-section (2), ninety days for a victim-progress update under (3)(ii), and — the new addition — ninety days for further investigation once a trial has begun, under the proviso to sub-section (9).
+
+#### Interlocking matrix
+
+| Trigger | Linked provision | Practical consequence |
+|---|---|---|
+| Investigation into BNS ss. 64/65/66/67/68/70/71 or POCSO ss. 4/6/8/10 | Section 193(2) | Two-month completion clock from date FIR was recorded |
+| Electronic device seized during investigation | Section 193(3)(ix); cf. section 176(3) forensic-visit duty | Custody-sequence disclosure mandatory in the report |
+| Report attracts section 190 | Section 193(6) | Documents and section 180 statements forwarded with the report |
+| Officer seeks to withhold part of a statement | Section 193(7); accused's disclosure right under section 230 | Magistrate's order required, on stated reasons |
+| Further evidence emerges after the report but before trial | Section 193(9), main text | Further report; sub-sections (3)–(8) apply afresh |
+| Further evidence emerges after trial has begun | Proviso to section 193(9) | Court's permission required; ninety-day completion clock |
+
+#### The authorities
+
+**Satya Narain Musadi v. State of Bihar**, (1980) 3 SCC 152 — on the report under (then) section 173 being a formal document intimating the Magistrate that an investigation has produced sufficient material for cognizance, and on what the report's contents must, and need not, formally recite.
+
+::: info Verify before citing
+The citation for *Satya Narain Musadi v. State of Bihar* is recorded from the drafter's working knowledge and should be independently verified against the official SCC report before being relied upon in a filing.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not plead the section 193(2) two-month clock against an offence that is not on the closed list — check the exact BNS and POCSO section numbers before invoking it; a mispleaded deadline undermines the credibility of a genuine delay argument elsewhere in the case.
+2. Do not let a further-investigation application filed after trial has begun go unchallenged for want of the trying court's permission — the proviso to sub-section (9) makes that permission a precondition, not a formality to be assumed.
+3. Do not accept a sub-section (7) exclusion order that recites no reasons of the Magistrate's own — press for the order to show application of mind, particularly where the excluded material bears on identification or alibi.
+4. Do not overlook clause (ix) when electronic evidence is central to the case — a custody-sequence gap in the officer's own report is often a stronger, earlier challenge than a chain-of-custody objection raised for the first time at the evidence stage.
+
+**Timing.** The section 193(2) two-month clock runs from the date the information was recorded, not from the date of arrest or any later procedural step — calculate it against the FIR date specifically. The proviso to sub-section (9)'s ninety-day further-investigation clock runs from whenever the trying court grants permission, and any extension must itself be sought from that same court before the ninety days lapse, not after.
+
+**Model prayer checklist for a further-investigation application at the trial stage:**
+
+1. State whether the trial has already begun, since that is what triggers the proviso to sub-section (9) at all.
+2. Identify the further evidence as genuinely new and supplemental — not a re-examination of material already covered by the original report — to pre-empt a *Vinay Tyagi* mischaracterisation objection.
+3. Seek the trying court's express permission before undertaking any further investigative step, not after.
+4. Propose a completion timeline within the ninety-day statutory window, and, if more time is realistically needed, seek the extension from the court before the window closes rather than after.
+5. Confirm that any further report, once filed, is accompanied by the documents and statements sub-sections (3) to (8) require, applied afresh to the further evidence.
+
+---
+
 
