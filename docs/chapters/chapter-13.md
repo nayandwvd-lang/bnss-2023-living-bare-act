@@ -1985,4 +1985,203 @@ The citation, bench composition, and precise holding of *Uday Mohanlal Acharya v
 
 ---
 
+## Sections 188–191 — The subordinate officer's report, release or forwarding of the accused, and the protection of complainants and witnesses
+
+### The dispute this solves
+
+::: oneminute The fork in the road every investigation eventually reaches
+Every BNSS investigation, however it began, eventually reaches the same fork: either the officer in charge concludes there is not enough to put before a court, or concludes there is. Sections 188 to 191 are the machinery for that fork and for what happens on either branch. When a subordinate officer has done the legwork, section 188 requires the result to come back to the officer in charge, who alone decides which branch applies. Take the insufficient-evidence branch, and section 189 releases the accused on a bond rather than closing the matter outright. Take the sufficient-evidence branch, and section 190 sends the case forward — in custody, or on security if the offence is bailable — while also compelling the complainant and material witnesses to bind themselves to appear. Anita, as a complainant who has already given her statement once, might reasonably assume her role ends there. Section 191 exists because it does not: she can be required to execute a bond to appear and give evidence, and — a detail many complainants and witnesses never expect — can be forwarded into custody herself if she refuses.
+:::
+
+::: story A cluster held together by one idea: nothing here is a verdict
+None of sections 188 to 191 produces a judicial finding. Section 189's release for insufficient evidence is an investigative judgment, not an acquittal — it does not foreclose the matter being revived. Section 190's forwarding of a sufficiently evidenced case does not itself convict anyone — it merely gets the accused, the material, and the witnesses in front of a Magistrate who has not yet formed any view. And section 191's protection of complainants and witnesses from being marched around like the accused is balanced by a proviso that removes that protection the moment a witness refuses to cooperate with the section 190 bond mechanism. Every provision in this cluster is procedural plumbing — but plumbing that determines, in a very concrete way, who stays in custody, who has to post security, and who can be compelled to court.
+:::
+
+### The Act, decompiled
+
+> **188. Report of investigation by subordinate police officer.** When any subordinate police officer has made any investigation under this Chapter, [[!he shall report the result of such investigation to the officer in charge of the police station]].
+
+> **189. Release of accused when evidence deficient.** If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is not sufficient evidence or reasonable ground of suspicion to justify the forwarding of the accused to a Magistrate, such officer shall, if such person is in custody, [[!release him on his executing a bond or bail bond, as such officer may direct, to appear, if and when so required, before a Magistrate empowered to take cognizance of the offence on a police report, and to try the accused or commit him for trial]].
+
+> **190. Cases to be sent to Magistrate, when evidence is sufficient.** (1) If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is sufficient evidence or reasonable ground as aforesaid, such officer shall [[!forward the accused under custody to a Magistrate empowered to take cognizance of the offence upon a police report and to try the accused or commit him for trial]], or, if the offence is bailable and the accused is able to give security, shall [[?take security from him for his appearance before such Magistrate on a day fixed and for his attendance from day to day before such Magistrate until otherwise directed]]:
+>
+> Provided that if the accused is not in custody, the police officer shall take security from such person for his appearance before the Magistrate and [[!the Magistrate to whom such report is forwarded shall not refuse to accept the same on the ground that the accused is not taken in custody]].
+>
+> (2) When the officer in charge of a police station forwards an accused person to a Magistrate or takes security for his appearance before such Magistrate under this section, he shall [[!send to such Magistrate any weapon or other article which it may be necessary to produce before him]], and shall [[!require the complainant (if any) and so many of the persons who appear to such officer to be acquainted with the facts and circumstances of the case as he may think necessary, to execute a bond to appear before the Magistrate as thereby directed and prosecute or give evidence]] (as the case may be) in the matter of the charge against the accused.
+>
+> (3) If the Court of the Chief Judicial Magistrate is mentioned in the bond, such Court shall be held to include any Court to which such Magistrate may refer the case for inquiry or trial, provided reasonable notice of such reference is given to such complainant or persons.
+>
+> (4) The officer in whose presence the bond is executed shall [[!deliver a copy thereof to one of the persons who executed it]], and shall then [[!send to the Magistrate the original with his report]].
+
+> **191. Complainant and witnesses not to be required to accompany police officer and not to be subject to restraint.** [[!No complainant or witness on his way to any Court shall be required to accompany a police officer, or shall be subjected to unnecessary restraint or inconvenience, or required to give any security for his appearance other than his own bond]]:
+>
+> Provided that if any complainant or witness refuses to attend or to execute a bond as directed in section 190, [[?the officer in charge of the police station may forward him in custody to the Magistrate, who may detain him in custody until he executes such bond, or until the hearing of the case is completed]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 188 "he shall report the result… to the officer in charge" | Mandatory | Investigative authority to decide the section 189/190 fork rests with the officer in charge alone — a subordinate officer's own view of the evidence is not the operative decision |
+| s. 189 "not sufficient evidence or reasonable ground of suspicion" | Investigative threshold, not a judicial finding | The release that follows is not an acquittal or discharge — it is expressly conditioned on the accused's availability "if and when so required" |
+| s. 190(1) "sufficient evidence or reasonable ground as aforesaid" | Investigative threshold | The mirror-image test to section 189 — the two sections are two branches of a single assessment, not independent standards |
+| s. 190(1) proviso "shall not refuse to accept the same on the ground that the accused is not taken in custody" | Mandatory prohibition on the Magistrate | A significant liberty-protective rule: a Magistrate cannot insist on custody as the price of accepting a properly forwarded report where security has been taken instead |
+| s. 190(2) "shall require the complainant… to execute a bond to appear… and prosecute or give evidence" | Mandatory | The complainant's obligations do not end with giving a statement during investigation — this sub-section compels a further, forward-looking commitment to appear at the judicial stage |
+| s. 191, main text | Mandatory protection | Complainants and witnesses are affirmatively shielded from being treated like the accused — no compelled accompaniment, no unnecessary restraint, no security beyond their own bond |
+| s. 191, proviso | Conditional override of the main protection | The shield in the main text is not absolute — refusal to attend or execute the section 190 bond exposes the complainant or witness to being forwarded into custody until the bond is executed or the hearing concludes |
+
+::: proviso Section 189's release is not a closure, and treating it as one is a common and consequential misreading
+A client released under section 189 has not been discharged, acquitted, or cleared — the bond executed is expressly conditioned on appearing "if and when so required" before a Magistrate. Nothing in the section prevents the investigation from later developing further evidence and the matter being revived through a fresh report under section 190, or the officer in charge reaching a different conclusion on the same facts after further investigation under section 193. Advising a client that a section 189 release ends the matter, without qualification, risks leaving them unprepared when a summons arrives months later.
+:::
+
+::: proviso Section 191's protection for complainants and witnesses has a genuine trapdoor, and it is worth explaining to a client before it is needed
+The ordinary rule is protective: a complainant or witness cannot be marched to court under compulsion, restrained unnecessarily, or made to post security beyond their own bond. But refuse to attend, or refuse to execute the section 190 bond when directed, and the protection inverts — the officer in charge may forward that person into custody, and the Magistrate may detain them until the bond is executed or the hearing concludes. This is not a punishment for an offence and does not create a criminal record, but it is a genuine deprivation of liberty, and complainants in particular — who often assume their obligation ended when they gave their statement — should be told about it before, not after, they consider simply not showing up.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="The officer in charge reviews the completed investigation into a complaint Anita filed against Bharat. What determines whether Bharat is released under section 189 or forwarded under section 190?"
+  :gates="[
+    { q: 'Does the evidence gathered establish sufficient evidence or reasonable ground of suspicion to justify forwarding Bharat to a Magistrate?', note: 'This single threshold question is the fork between sections 189 and 190 — there is no third option under this cluster.', no: 'Section 189 applies: if Bharat is in custody, he is released on executing a bond or bail bond, conditioned on appearing if and when required.' }
+  ]"
+  result="If the threshold is met, section 190 applies: Bharat is forwarded in custody, or (if the offence is bailable and he can give security) released on security for his court appearance — and the Magistrate cannot refuse the report merely because he was not produced in custody."
+  resultKind="mandatory"
+  caveat="A section 189 release today does not bar the matter being revived tomorrow through further investigation and a fresh section 190 forwarding — advise clients accordingly."
+/>
+
+<MicroTree
+  input="Anita, the complainant, is directed to execute a bond under section 190(2) to appear and give evidence, and refuses. What can the police lawfully do?"
+  :gates="[
+    { q: 'Has Anita actually refused to attend or to execute the bond directed under section 190, rather than merely expressing reluctance or requesting time?', note: 'Section 191’s proviso is triggered specifically by refusal — routine scheduling difficulty or a request for accommodation is not the same thing.', no: 'Section 191’s main protection continues to apply in full: no compelled accompaniment, no unnecessary restraint, no security beyond her own bond.' }
+  ]"
+  result="On genuine refusal, the officer in charge may forward Anita in custody to the Magistrate, who may detain her until she executes the bond or until the hearing of the case is completed."
+  resultKind="discretionary"
+  caveat="This detention is not an arrest for an offence and does not depend on any wrongdoing by Anita — it is a coercive mechanism to secure her appearance, and it ends the moment she executes the bond or the hearing concludes, whichever comes first."
+/>
+
+### In plain English
+
+**Sections 189 and 190 are two branches of the same decision, not two unrelated provisions.** Every investigation under this Chapter eventually produces the officer in charge's assessment of whether the evidence justifies forwarding the accused — section 189 is what happens if it does not, section 190 is what happens if it does. Reading either section in isolation, without recognising it as one half of a single fork, makes both harder to apply correctly.
+
+**Neither branch is a final word on guilt.** A section 189 release is not an acquittal; it leaves the door open to revival. A section 190 forwarding is not a conviction; it merely puts the case, the evidence, and the compelled witnesses in front of a Magistrate who has yet to apply an independent mind. Practitioners on both sides should resist treating either outcome as more conclusive than the text actually makes it.
+
+**The section 190(1) proviso is a genuine liberty protection that is easy to overlook.** Where the accused is not in custody and has given security, the Magistrate has no discretion to refuse the police report on the ground that the accused was not physically produced. This matters in practice whenever a Magistrate, for whatever reason, is reluctant to proceed without the accused standing before the court — the text forecloses that reluctance as a ground of refusal.
+
+**Section 191 is not simply a courtesy extended to complainants and witnesses — it is a conditional courtesy, and the condition is compliance.** The moment a complainant or witness refuses to attend or execute the required bond, the same section that protects them from restraint becomes the source of authority to detain them. Explaining this trade-off to a complainant early — ideally before the section 190(2) bond is even presented for signature — avoids the far worse conversation that follows an unexpected detention.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 168 → BNSS 2023, s. 188.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing.*
+> **CrPC 1973, s. 169 → BNSS 2023, s. 189.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing.*
+> **CrPC 1973, s. 170 → BNSS 2023, s. 190.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing.*
+> **CrPC 1973, s. 171 → BNSS 2023, s. 191.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing.*
+
+**Delta bucket: renumbered with drafting changes, across all four sections.** Nothing in the text identified in this repository suggests a restructuring of this cluster's underlying logic — the subordinate-officer reporting duty, the insufficient/sufficient-evidence fork, the bailable-offence security mechanism, the Magistrate's inability to refuse a report for want of custody, and the complainant/witness protection-with-a-refusal-exception all appear to carry forward substantially as in the CrPC framework the drafter recalls. The most visible textual change is section 189's explicit reference to a "bond or bail bond" rather than a bond alone, consistent with the BNSS's broader practice of naming both instruments explicitly wherever release on personal or surety bond is contemplated.
+
+::: info Verify before citing
+The mapping of CrPC ss. 168–171 to BNSS ss. 188–191 is given from the drafter's working knowledge of CrPC structure and has not been checked against a CrPC bare Act text held in this repository. Confirm each mapping before relying on it in argument or teaching material.
+:::
+
+**What a practitioner must now do differently.** First, when advising a client released under section 189, be explicit that the release is conditional and revivable, not a closure — this is unchanged from the prior law but remains one of the most common points of client confusion. Second, where a bailable-offence accused has given security rather than being produced in custody, and a Magistrate hesitates to accept the report on that ground, cite the section 190(1) proviso directly — it is a flat prohibition, not a factor to be weighed. Third, prepare complainants and witnesses for the section 190(2) bond obligation and the section 191 proviso's consequence of refusal before the bond is presented, not after a detention has already occurred.
+
+### Test your instinct
+
+::::instinct The subordinate officer who never reported back
+
+A subordinate officer conducts a substantial part of the investigation into a theft complaint — recording statements, visiting the scene, collecting material — but is transferred before formally reporting the result to the officer in charge. The officer in charge, working from the case file alone, forwards the accused under section 190 without any record of the subordinate officer's report as contemplated by section 188.
+
+Does the missing section 188 report affect the validity of the section 190 forwarding?
+
+:::ruling Reveal the ruling
+It is a genuine irregularity in the investigation's internal chain of accountability, and worth raising, but it does not by itself invalidate the forwarding. Section 188 is an internal reporting duty that channels investigative authority through the officer in charge — its purpose is to ensure that the decision under sections 189/190 is made by the person the Chapter designates to make it, on a complete picture of the investigation. Where the officer in charge nonetheless had access to the underlying material (statements, case-diary entries, physical evidence) through the file itself, the absence of a formal section 188 report is a procedural gap rather than a substantive defect defeating the forwarding — but it is a legitimate basis to probe, at trial, whether the officer in charge genuinely applied an independent mind to sufficient evidence, or merely rubber-stamped an incomplete file.
+::::
+
+::::instinct The Magistrate who insists on custody before accepting the report
+
+Bharat is released on security under section 190(1) for a bailable offence, having satisfied the officer in charge of his ability to give security. When the report is forwarded, the Magistrate declines to take it on file, stating that she will only accept police reports where the accused is physically produced in custody.
+
+Is the Magistrate's position correct?
+
+:::ruling Reveal the ruling
+No. The proviso to section 190(1) is a direct and unqualified prohibition on exactly this ground of refusal: "the Magistrate to whom such report is forwarded shall not refuse to accept the same on the ground that the accused is not taken in custody." Once the police officer has correctly taken security from an accused person who was not in custody, for a bailable offence, the Magistrate has no discretion to withhold acceptance of the report pending physical production. The correct remedy for Bharat's counsel is to place this proviso before the Magistrate directly and seek acceptance of the report on record, rather than treating the Magistrate's stated practice as an obstacle requiring Bharat to be taken into custody to satisfy it.
+::::
+
+::::instinct The complainant who simply stops responding
+
+Anita, having filed the original complaint against Bharat, is directed under section 190(2) to execute a bond to appear and give evidence when the matter reaches the Magistrate. She does not refuse outright but simply stops responding to the police's attempts to contact her, having grown reluctant to continue the process.
+
+Can the officer in charge forward Anita into custody under the section 191 proviso on this basis?
+
+:::ruling Reveal the ruling
+This is a closer question than outright refusal, and the officer in charge should proceed carefully rather than treating silence as automatically equivalent to refusal. The proviso is triggered by a complainant or witness who "refuses to attend or to execute a bond" — a person who has gone quiet, without any affirmative act of refusal, presents a genuine ambiguity that the officer should resolve through further, reasonable attempts at contact before resorting to the coercive route. That said, if reasonable attempts at contact are exhausted and Anita's non-response is, on the facts, functionally indistinguishable from a decision not to cooperate, an officer in charge is on stronger ground treating it as a refusal — but the file should reflect the attempts made, since this is precisely the kind of borderline application of the proviso that invites later challenge to the lawfulness of any resulting detention.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**State of Bihar v. J.A.C. Saldanha**, AIR 1980 SC 326. ⚠️ *Verify bench strength before citing — recorded from working knowledge, not independently confirmed against the official report.*
+
+**Ratio.** Investigation of an offence is a function exclusively within the domain of the police and the executive, distinct in character from the judicial function of taking cognizance and trying an offence; the two domains operate independently, and a decision reached at the investigation stage — including an officer's own assessment of the sufficiency of the evidence — does not bind, and is not a substitute for, the judicial mind that the Magistrate must independently apply once a report reaches the court. Courts should not ordinarily interfere with the investigative process itself, but equally, the executive's investigative conclusions do not foreclose the judiciary's own independent function.
+
+**Practitioner takeaway.** *"A section 189 release for insufficient evidence, or a section 190 forwarding for sufficient evidence, is the officer in charge's investigative judgment, not a judicial one — per Saldanha, neither conclusion binds the Magistrate's independent assessment once the matter is actually before the court."*
+
+**BNSS caveat.** *Saldanha* was decided on the CrPC-era investigation/cognizance framework, which ss. 188–191 carry forward in the **renumbered with drafting changes** bucket identified above — the separation between investigative and judicial function that the case describes is not tied to any specific numbering and applies with undiminished force to the BNSS's equivalent sections.
+
+#### Sword and shield
+
+| | Offensive use (prosecution / complainant) | Defensive use (accused) |
+|---|---|---|
+| On a section 189 release | Where fresh evidence emerges, revive the matter through further investigation and a section 190 forwarding — a prior section 189 release is not a bar. | Do not advise a client that a section 189 release is final — prepare them for the possibility of later revival, and monitor for any fresh notice. |
+| On the section 190(1) proviso | Take security correctly from an accused who is not in custody, and insist on the Magistrate's acceptance of the report if refusal is threatened on custody grounds. | Where a client has given proper security, invoke the proviso directly against any Magistrate reluctant to accept the report without custody. |
+| On the section 190(2) complainant/witness bond | Ensure the bond is properly executed and a copy delivered under sub-section (4), closing off any later challenge to its validity. | Where a complainant or witness was coerced into a bond without a genuine refusal first being established, challenge the lawfulness of any detention that followed. |
+| On section 191's protection | As complainant or witness, invoke the main protection against unnecessary restraint or compelled accompaniment as a matter of course. | Where the prosecution's own witness was improperly detained under a stretched reading of the proviso, that irregularity can be raised to challenge the reliability or voluntariness of the resulting testimony. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Subordinate officer reporting result of investigation | No fixed statutory deadline stated | s. 188 | An unreasonable delay or omission is a fact bearing on the integrity of the officer in charge's eventual decision |
+| Delivering a copy of an executed bond to the person who executed it | Immediately, on execution | s. 190(4) | Failure is a discoverable irregularity affecting the bond's proper administration |
+| Detention of a refusing complainant/witness under the s. 191 proviso | Until the bond is executed, or until the hearing of the case is completed, whichever is earlier | s. 191, proviso | Detention continuing beyond either event is unlawful on its face |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 193** | A section 189 release does not foreclose a later report under s. 193 following further investigation — the two sections together define how a matter can be revived after an initial insufficient-evidence assessment. |
+| **BNSS Chapter XXXV (bail provisions)** | The bond or bail bond executed under s. 189, and the security taken under s. 190(1), interact with the general bail framework, though neither section is itself a bail order in the Chapter XXXV sense. |
+| **BNSS s. 187** | Where the accused was already in custody under s. 187's remand mechanism, a subsequent s. 189 release or s. 190 forwarding determines what happens to that custody once the investigation concludes — the two provisions must be read together for any custody timeline spanning the full investigation. |
+| **BSA 2023** | The bond executed by a complainant or witness under s. 190(2) to "prosecute or give evidence" interacts with the BSA's general provisions on witness testimony and the consequences of a witness failing to appear or testify as bound. |
+| **Applicable forms / filings** | The bond or bail bond executed under s. 189; the security bond taken under s. 190(1); the complainant/witness bond under s. 190(2); an application to a Magistrate challenging a detention under the s. 191 proviso as exceeding what the proviso authorises. |
+
+#### The authorities
+
+**H.N. Rishbud v. State of Delhi**, AIR 1955 SC 196. ⚠️ *Verify before citing — recorded from working knowledge.* Held that a defect or illegality in the investigation, however serious, does not by itself vitiate a trial that follows a properly instituted prosecution, unless a miscarriage of justice is shown. **How it is used:** supports the proposition that gaps in the ss. 188–191 machinery (a missing section 188 report, an irregularly obtained bond) are ordinarily matters going to the weight and scrutiny of the resulting case, not automatic grounds to set aside the trial that follows.
+
+::: info Verify before citing
+The citation, bench composition, and precise holding of *H.N. Rishbud v. State of Delhi*, and the bench strength of *State of Bihar v. J.A.C. Saldanha*, are recorded from the drafter's working knowledge and secondary-source research, and have not been independently verified against the official report. Verify before placing either authority before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not let a client treat a section 189 release as the end of the matter — document, in writing, that it is conditional and revivable, so the client is not blindsided by a later summons.
+2. Do not accept a Magistrate's refusal to take a section 190 report on file merely because the accused was not produced in custody where proper security was given — the proviso is a flat prohibition, and should be cited directly rather than negotiated around.
+3. Do not treat a complainant's or witness's mere reluctance, delay, or silence as automatic "refusal" for section 191 proviso purposes — build a record of genuine, exhausted attempts at securing compliance before resorting to forwarding them into custody.
+4. Where a subordinate officer's section 188 report is missing from the file, flag it early — waiting until trial to raise a gap in the internal reporting chain is far weaker than raising it as soon as the file is reviewed.
+
+**Timing.** There is no external limitation period specific to this cluster distinct from the investigation and trial timelines generally, but any challenge to a section 191 proviso detention is time-sensitive by its nature — since the detention itself is meant to end on execution of the bond or completion of the hearing, a challenge to its lawfulness is most effective while the detention is ongoing, not after the fact.
+
+**Model checklist for reviewing a sections 188–191 file:**
+
+1. Confirm a section 188 report from any subordinate investigating officer is on file, or identify the gap if it is not.
+2. Identify which branch — section 189 release or section 190 forwarding — was taken, and confirm the officer in charge's stated basis for that determination.
+3. Where security was taken under section 190(1) for a non-custodial accused, confirm the Magistrate accepted the report without insisting on custody.
+4. Confirm any complainant/witness bond under section 190(2) was properly executed, with a copy delivered under sub-section (4).
+5. Where a complainant or witness was forwarded into custody under the section 191 proviso, confirm a genuine refusal (not mere reluctance or delay) preceded that step, and that the detention did not outlast execution of the bond or completion of the hearing.
+
+---
+
 
