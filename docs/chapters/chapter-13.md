@@ -287,3 +287,287 @@ If a judgment construing s. 154 CrPC is cited on a point going to the s. 173(3) 
 5. That no preliminary enquiry under sub-section (3) was permissible on the facts, or, if one was conducted, that it exceeded the fourteen-day limit or lacked the required DSP-level prior permission.
 6. A verification clause and a supporting affidavit under sub-section (4) of section 173, sworn in the form the Magistrate under section 210 is empowered to act upon per section 175(3).
 
+---
+
+## Sections 174–175 — Non-cognizable information and the power to investigate
+
+### The dispute this solves
+
+::: oneminute A theft complaint and a nuisance complaint, filed the same morning, and why they end up on completely different tracks
+Chetan reports two things to Inspector Farhan on the same visit: that his neighbour Deepak's dog has been barking all night for a month, and, separately, that someone broke the lock on his shed last week and took a generator worth ₹35,000. Farhan writes down the generator theft, reads it back, gets Chetan's signature, and opens an investigation the same day. For the barking dog, he makes a diary entry and tells Chetan to take it to the Magistrate himself. Chetan is annoyed — he reported both in the same breath, to the same officer, and only one of them got the police's own attention.
+
+Chetan has not been shortchanged. The theft and the nuisance are not variations on one procedure; they are two different statutory tracks, and which one applies was decided the moment each act was classified, not by how Farhan felt about either complaint. Section 173 handles the first. Sections 174 and 175 are what actually happened to the second — and what has to happen before the police can ever touch it on their own initiative.
+:::
+
+::: story What "the police can't do anything without the Magistrate" actually means, and where it stops being true
+The instinct that non-cognizable offences are somehow not "real" police matters is wrong, and it is worth naming precisely why. A non-cognizable offence is not a lesser wrong — dog-at-large nuisance and defamation are both non-cognizable, and so, more consequentially, are many offences against public tranquillity. What sub-section (1) of section 174 does is record it, exactly as sub-section (1) of section 173 records a cognizable offence — same duty to write it down, same book. What changes is what happens *next*. A cognizable offence lets the police investigate on their own authority the moment it is registered. A non-cognizable offence does not: sub-section (2) flatly forbids investigation "without the order of a Magistrate," and that order has to come from a court with the power to try or commit the case, not from a superior police officer.
+
+Section 175 is the mirror-image machinery for the cognizable side of the ledger — not the power to register (that is section 173's job) but the power to *investigate* once registered, and, critically, what a complainant can do when a station has the power to investigate but is not using it. That second half of section 175 is where sections 173(4) and 175(3) turn out to be one continuous mechanism read across two sections, not two unrelated remedies.
+:::
+
+### The Act, decompiled
+
+Read both provisions together, because they are built as a pair: section 174 is what happens when the offence is **not** cognizable, and section 175 is what happens once an offence **is** — the power to investigate it, and the route to compel that power to be used.
+
+> **174. Information as to non-cognizable cases and investigation of such cases.** (1) When information is given to an officer in charge of a police station of the commission within the limits of such station of a [[=non-cognizable offence]], [[!he shall enter or cause to be entered the substance of the information]] in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf, and,—
+>
+> (i) [[!refer the informant to the Magistrate]];
+>
+> (ii) [[!forward the daily diary report of all such cases fortnightly to the Magistrate]].
+>
+> (2) [[!No police officer shall investigate a non-cognizable case without the order of a Magistrate]] having power to try such case or commit the case for trial.
+>
+> (3) Any police officer receiving such order may exercise the same powers in respect of the investigation (except the power to arrest without warrant) as an officer in charge of a police station may exercise in a cognizable case.
+>
+> (4) Where a case relates to two or more offences of which at least one is cognizable, [[!the case shall be deemed to be a cognizable case]], notwithstanding that the other offences are non-cognizable.
+
+> **175. Police officer's power to investigate cognizable case.** (1) [[?Any officer in charge of a police station may, without the order of a Magistrate, investigate any cognizable case]] which a Court having jurisdiction over the local area within the limits of such station would have power to inquire into or try under the provisions of Chapter XIV:
+>
+> Provided that considering the nature and gravity of the offence, [[?the Superintendent of Police may require the Deputy Superintendent of Police to investigate the case]].
+>
+> (2) No proceeding of a police officer in any such case shall at any stage be called in question on the ground that the case was one which such officer was not empowered under this section to investigate.
+>
+> (3) Any Magistrate empowered under section 210 may, [[?after considering the application supported by an affidavit made under sub-section (4) of section 173]], and after making such inquiry as he thinks necessary and submission made in this regard by the police officer, order such an investigation as above-mentioned.
+>
+> (4) [[?Any Magistrate empowered under section 210, may, upon receiving a complaint against a public servant arising in course of the discharge of his official duties, order investigation]], subject to—
+>
+> (a) receiving a report containing facts and circumstances of the incident from the officer superior to him; and
+>
+> (b) after consideration of the assertions made by the public servant as to the situation that led to the incident so alleged.
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 174(1) "shall enter… and… refer the informant to the Magistrate" | Mandatory | Registration in the diary is not optional even for a non-cognizable offence — what is optional is *who* investigates it next |
+| s. 174(1)(ii) "forward the daily diary report… fortnightly to the Magistrate" | Mandatory, and new | A standing reporting duty on the station, independent of any individual informant chasing their own complaint |
+| s. 174(2) "No police officer shall investigate… without the order of a Magistrate" | Mandatory prohibition | The default is no police-initiated investigation at all on the non-cognizable side; the Magistrate's order is a precondition, not a formality |
+| s. 174(4) "deemed to be a cognizable case" | Mandatory, deeming provision | One cognizable offence in a multi-offence complaint pulls the whole case onto the cognizable track — a station cannot investigate only the cognizable count and diary-entry the rest |
+| s. 175(1) "may… investigate any cognizable case… without the order of a Magistrate" | Discretionary in form, but the operative power | This is the power section 173 registration switches on; it needs no separate authorisation |
+| s. 175(1), proviso | Discretionary, escalatory | Lets a Superintendent reassign a serious case up to Deputy Superintendent level — a resourcing power, not a jurisdictional gate |
+| s. 175(3) "after considering the application supported by an affidavit… order such an investigation" | Discretionary, but conditioned | The Magistrate's power to compel investigation exists only on a properly affidavited application — an unsupported application is not within the power at all |
+| s. 175(4) | Discretionary, and wholly new | A separate, more guarded gate specifically for complaints against public servants acting in their official capacity |
+
+::: proviso Why an unsupported section 175(3) application is not a defective application — it is not an application the Magistrate has power to act on at all
+Sub-section (3) does not say the Magistrate "may require" an affidavit, or that an affidavit is preferable. It says the Magistrate acts "after considering the application supported by an affidavit made under sub-section (4) of section 173." The affidavit is not a procedural nicety bolted onto an otherwise complete remedy — it is written into the definition of what triggers the power. A bare application, however detailed its allegations, is simply outside what sub-section (3) empowers the Magistrate to act on. This closes a door that was, before the BNSS, opened by practice rather than text: applications compelling investigation could be filed casually, and often were, to pressure the other side rather than to genuinely seek an investigation.
+:::
+
+::: proviso The public-servant gate in sub-section (4) is not a shield against investigation — it is a sequencing requirement
+Nothing in sub-section (4) says a public servant cannot be investigated for an act done in the course of official duty. What it requires is that the Magistrate first receive a report on the incident from the public servant's own superior officer, and consider what the public servant has to say about the situation, before ordering investigation. That is a condition on *how* the power is exercised, not a bar on exercising it. A practitioner moving against a public servant under this route should expect, and plan for, that two-step sequencing — it is not optional groundwork, it is the gate itself.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Chetan has reported the generator theft. Farhan has registered it under section 173. What determines who investigates it, and how?"
+  :gates="[
+    { q: 'Is the offence cognizable?', note: 'This was already fixed at the section 173 stage — it is not re-decided here.', no: 'This is a section 174 case, not a section 175 case. No police-initiated investigation is available at all; a Magistrate’s order is the only route in.' },
+    { q: 'Is the offence one where the Superintendent has, considering its nature and gravity, required a Deputy Superintendent to investigate under the sub-section (1) proviso?', note: 'This is a resourcing decision made above the investigating officer’s own level, not something the officer opts into.', no: 'The officer in charge of the station investigates directly under sub-section (1) — no escalation is required for an ordinary case.' }
+  ]"
+  result="The officer in charge (or the escalated Deputy Superintendent, if required) proceeds to investigate under section 175(1) without needing anyone’s prior authorisation."
+  resultKind="discretionary"
+  caveat="'Discretionary' describes the form of the power — 'may investigate' — not its practical reliability. A station that has the power but is not using it is precisely the gap the next tree exists to close."
+/>
+
+<MicroTree
+  input="Three months on, Chetan believes Farhan has effectively shelved the generator-theft investigation. What can Chetan actually do, in what order, to compel it?"
+  :gates="[
+    { q: 'Has Chetan sent the substance of his grievance in writing to the Superintendent of Police, as section 173(4) itself requires as the first step?', note: 'This is the same first step that applies to an outright refusal to register — an investigation quietly going nowhere is treated the same way.', no: 'He has not yet exhausted the route the text gives him before a Magistrate application becomes available.' },
+    { q: 'Has the Superintendent, on that complaint, failed to investigate himself or direct a subordinate to?', note: 'The Superintendent’s own failure is what opens the Magistrate route — his correcting the problem closes it.', no: 'The matter should be resolved at the Superintendent’s level; there is nothing yet for a Magistrate to act on.' },
+    { q: 'Is Chetan’s application to the Magistrate supported by an affidavit under section 173(4)?', note: 'Section 175(3) names this requirement explicitly — “after considering the application supported by an affidavit”.', no: 'The application is not one the Magistrate is empowered to act on. However detailed the grievance, an unsupported application does not engage sub-section (3) at all.' }
+  ]"
+  result="The Magistrate, satisfied on the affidavited application and after such inquiry as he thinks necessary, may order the investigation Chetan says the station has stalled."
+  resultKind="discretionary"
+  caveat="Note what this route cannot do: it cannot direct that a specific agency investigate, and it cannot substitute the Magistrate’s own view of the facts for the investigation itself. It orders that an investigation happen — not what the investigation must find."
+/>
+
+<MicroTree
+  input="A complaint is filed against Inspector Farhan himself, alleging he assaulted a suspect during questioning — squarely in the course of his official duties. Does the ordinary section 175(3) route apply?"
+  :gates="[
+    { q: 'Is the complaint against a public servant, for something done in the course of discharging official duties?', note: 'Off-duty conduct by a public servant does not engage this sub-section at all — it falls back to the ordinary route.', no: 'Sub-section (3) is the applicable route — the ordinary affidavit-supported application.' },
+    { q: 'Has the Magistrate received a report containing the facts and circumstances of the incident from an officer superior to the one complained against?', note: 'This report has to come from within the police hierarchy, not from the complainant.', no: 'Sub-section (4) has not been satisfied — the Magistrate is not yet in a position to order investigation on this route.' },
+    { q: 'Has the Magistrate considered the assertions the public servant himself has made about the situation that led to the incident?', note: 'The public servant gets a hearing on the facts before an investigation is ordered — this is written into the gate itself.', no: 'Without this consideration, an order made on the complaint alone has skipped a step sub-section (4) makes mandatory.' }
+  ]"
+  result="Only once both the superior officer’s report and the public servant’s own account are before the Magistrate may an investigation be ordered under sub-section (4)."
+  resultKind="discretionary"
+  caveat="This is a materially higher bar than an ordinary sub-section (3) application against a private citizen. It is not a general immunity for public servants — it is a sequencing requirement that has to be satisfied before the same underlying power to order investigation can be used against one."
+/>
+
+### In plain English
+
+**Cognizable and non-cognizable are not "serious" and "minor" — they are "police can act alone" and "police need a Magistrate first."** A neighbour's barking dog and an assault can both feel urgent to the person reporting them, but only one of the two statutory questions that matters is whether the offence is on the cognizable list. Get the classification right, and everything about who moves first follows automatically; get it wrong, and either a Magistrate is asked to authorise something that never needed authorising, or the police act on something they had no power to touch without an order.
+
+**Section 174's fortnightly diary report is new, and it exists to solve a problem sections rarely solve — supervision without a complainant chasing it.** Under the old regime, a non-cognizable complaint that was diary-entered and never followed up largely depended on the informant themselves going to the Magistrate. The fortnightly forwarding duty puts a standing obligation on the station to surface the whole pattern to the Magistrate periodically, whether or not any individual complainant ever follows through — a systemic check layered on top of the individual one.
+
+**Section 175(1) is a quiet section doing a lot of work: it is the power that section 173 registration actually switches on.** Practitioners sometimes speak as if registering an FIR *is* the investigation. It is not — it is the trigger that makes section 175(1)'s power available without needing anyone's separate say-so. The proviso letting a Superintendent escalate a serious case to Deputy Superintendent level is a resourcing lever, not a jurisdictional one; a Deputy Superintendent investigating under it is not curing a defect, because there was none to cure.
+
+**The section 173(4)/175(3) route is one remedy engineered across two sections, and it now has a documented cost of entry that did not exist before: the affidavit.** A complainant frustrated with a stalled investigation cannot simply walk into a Magistrate's court with a narrative. The written complaint to the Superintendent has to happen first, the Superintendent's own failure has to be shown, and the application that follows has to be sworn. Each of those is a step the pre-BNSS practice sometimes let a complainant skip; none of them is skippable now.
+
+**The public-servant gate in sub-section (4) is real, and it is not a technicality to be argued around.** A practitioner moving against a public servant for something done in the course of official duty should expect the Magistrate to insist on both the superior officer's report and the public servant's own account before ordering investigation — building a complaint that anticipates this sequencing, rather than treating it as an afterthought once the Magistrate raises it, is the difference between a smooth application and a stalled one.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 155 → BNSS 2023, s. 174.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 156 → BNSS 2023, s. 175.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+
+**Delta bucket for s. 174: renumbered with drafting changes.** The non-cognizable registration duty, the reference to the Magistrate, and the deeming provision for mixed cognizable/non-cognizable cases all survive from CrPC s. 155 essentially unchanged in substance. The one addition — the fortnightly diary-report duty — is real, but it is a reporting obligation layered on top of an otherwise intact structure, not a new power or a new gate. That is why this section sits in "renumbered with drafting changes" rather than "substantively amended": nothing that existed before has been taken away or newly conditioned.
+
+**Delta bucket for s. 175: substantively amended.** Three separate additions change what the section actually does, not merely how it reads: a proviso letting the Superintendent escalate a case to Deputy Superintendent level; an affidavit requirement written into the trigger condition for sub-section (3), not merely appended to it; and a wholly new sub-section (4) creating a materially harder path for complaints against public servants acting in the course of official duty. Each of these is a genuine change to who can get an investigation ordered, and on what showing — the hallmark of substantive amendment rather than drafting cleanup.
+
+**The words actually changed — s. 174 against CrPC s. 155:**
+
+| CrPC 1973, s. 155 | BNSS 2023, s. 174 |
+|---|---|
+| (1) "…he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may prescribe in this behalf, and refer the informant to the Magistrate." | (1) "…he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf, and,— (i) refer the informant to the Magistrate; **(ii) forward the daily diary report of all such cases fortnightly to the Magistrate.**" |
+| (2)–(4): investigation bar, the powers-except-arrest clause on a Magistrate's order, and the cognizable-deeming provision | (2)–(4): carried over without a substantive change in the operative words |
+
+**The words actually changed — s. 175 against CrPC s. 156:**
+
+| CrPC 1973, s. 156 | BNSS 2023, s. 175 |
+|---|---|
+| (1) "Any officer in charge of a police station may, without the order of a Magistrate, investigate any cognizable case which a Court having jurisdiction over the local area within the limits of such station would have power to inquire into or try under the provisions of Chapter XIII." *(no proviso)* | (1) "…under the provisions of Chapter XIV: **Provided that considering the nature and gravity of the offence, the Superintendent of Police may require the Deputy Superintendent of Police to investigate the case.**" |
+| (3) "Any Magistrate empowered under section 190 may order such an investigation as above-mentioned." | (3) "Any Magistrate empowered under section 210 may, **after considering the application supported by an affidavit made under sub-section (4) of section 173**, and after making such inquiry as he thinks necessary and submission made in this regard by the police officer, order such an investigation as above-mentioned." |
+| *(no equivalent — this entire sub-section is new)* | (4) "Any Magistrate empowered under section 210, may, upon receiving a complaint against a public servant arising in course of the discharge of his official duties, order investigation, subject to— (a) receiving a report containing facts and circumstances of the incident from the officer superior to him; and (b) after consideration of the assertions made by the public servant as to the situation that led to the incident so alleged." |
+
+**What a practitioner must now do differently.** Three things follow directly from these deltas. First, a station's fortnightly diary-report duty under s. 174(1)(ii) is now a fact a practitioner can point to independently of any individual complainant's own follow-up — if a non-cognizable complaint sat untouched for months, the station's own compliance (or non-compliance) with the fortnightly forwarding duty is now discoverable and arguable, where under the CrPC it was invisible unless the informant herself went to court. Second, an application under s. 175(3) is not complete without an affidavit sworn under s. 173(4) — draft it as part of the application from the outset, not as a document produced only if the Magistrate asks for one; the sub-section does not empower the Magistrate to act without it. Third, a complaint against a police officer or any other public servant for something done in the course of official duty should be drafted anticipating the s. 175(4) sequencing — build the complaint expecting that the Magistrate will wait for the superior officer's report and the public servant's own account before ordering investigation, rather than treating that wait as an obstruction to be argued around.
+
+::: info Verify before citing
+The CrPC s. 155 and s. 156 texts quoted above are reproduced from secondary legal-reference sources consulted while writing this page and should be checked against an official CrPC text before being placed before a court.
+:::
+
+### Test your instinct
+
+::::instinct The neighbour who insists the barking dog is "basically an FIR now"
+
+Chetan's dispute with Deepak over the barking dog escalates. Chetan goes back to Inspector Farhan a week later and says: "You wrote it in your register, so surely that's the same as registering an FIR — why can't you investigate it like you did the generator theft?"
+
+Is Chetan right that the diary entry gives Farhan the same power to investigate on his own that the theft registration did?
+
+:::ruling Reveal the ruling
+No. Section 174(1) requires the same act of recording as section 173(1) — writing down the substance of the information — but recording is where the parallel ends. Section 174(2) is an express prohibition: "No police officer shall investigate a non-cognizable case without the order of a Magistrate." Farhan has no discretion to treat the diary entry as a green light, however minor or however aggravating the underlying conduct feels. Chetan's only route to an investigation is to go to the Magistrate himself, as Farhan already told him — the diary entry is the record of the complaint, not the trigger for police action.
+::::
+
+::::instinct Two offences, one complaint, and the deeming provision that decides which track applies
+
+Bharat reports to Inspector Farhan that his former employee Chetan (a) defamed him in a letter circulated to clients — a non-cognizable offence — and (b) forged Bharat's signature on a company cheque during the same course of conduct, an offence that is cognizable. Farhan is inclined to register only the forgery as an FIR and diary-enter the defamation separately, telling Bharat he will need a Magistrate's order for that part.
+
+Is Farhan right to split the complaint into two tracks?
+
+:::ruling Reveal the ruling
+No. Section 174(4) is a deeming provision: "Where a case relates to two or more offences of which at least one is cognizable, the case shall be deemed to be a cognizable case, notwithstanding that the other offences are non-cognizable." Once the forgery allegation is present, the entire case — defamation included — is deemed cognizable, and Farhan may investigate the whole of it under section 175(1) without needing a Magistrate's order for the defamation limb separately. Splitting the complaint into two procedural tracks is not a matter of administrative tidiness he is free to choose; the text has already decided the question for him.
+::::
+
+::::instinct The complaint against Farhan that stalls, and why the delay is not a defect
+
+Chetan separately files a complaint alleging Inspector Farhan assaulted a suspect during questioning on 12 March 2025 — squarely in the course of Farhan's official duties. Six weeks on, Magistrate Gokhale has received the superior officer's report but has not yet heard from Farhan himself, and no order has been made. Chetan's lawyer argues the delay itself shows the Magistrate is failing to act and asks the court to order the investigation immediately on the strength of the superior officer's report alone.
+
+Should the Magistrate order the investigation now, on the report alone?
+
+:::ruling Reveal the ruling
+No, and the delay is not evidence of anything going wrong. Section 175(4)(b) makes "consideration of the assertions made by the public servant as to the situation that led to the incident" a condition on the power to order investigation, standing alongside the superior officer's report in clause (a) — both, not either. An order made on the report alone, before Farhan's own account is before the court, has skipped a step the sub-section makes mandatory. Chetan's genuine grievance does not entitle him to a shortcut past a sequencing requirement that exists specifically because the respondent here is a public servant accused of an official-duty act; the correct course is to press for Farhan's account to be called for and considered, not to ask the Magistrate to act without it.
+::::
+
+::::instinct The application filed without an affidavit, three months after the Superintendent went silent
+
+Anita's investigation into a cheating complaint against Bharat has sat untouched for four months after Farhan opened it. She writes to the Superintendent of Police as section 173(4) requires, gets no response for six weeks, and then has her lawyer file a detailed, twelve-page application before Magistrate Gokhale under section 175(3) — narrating every fact, but unsupported by any affidavit, because Anita was travelling and the lawyer wanted to file before a hearing date closed.
+
+Can the Magistrate act on this application as filed?
+
+:::ruling Reveal the ruling
+No. Section 175(3) empowers the Magistrate to act "after considering the application supported by an affidavit made under sub-section (4) of section 173" — the affidavit is not a formality that can be supplied later or waived because the underlying facts are detailed and plausible. However strong Anita's narrative, an application without the affidavit is simply not the application sub-section (3) describes, and the Magistrate has no power to order investigation on it. The lawyer's choice to prioritise the filing date over the affidavit has cost Anita nothing that cannot be fixed — she can refile with the affidavit — but it has cost real time, which is precisely the kind of avoidable delay the requirement is meant to screen for, not against.
+::::
+
+::::instinct The Superintendent who investigates himself, and whether Chetan can skip straight to the Magistrate anyway
+
+Returning to Chetan's stalled generator-theft investigation: he writes to the Superintendent of Police as required, and within two weeks the Superintendent personally reviews the file, directs a different sub-inspector to take over, and the investigation visibly resumes. Chetan, still annoyed at the delay, wants to file a section 175(3) application anyway "to be safe."
+
+Does he have anything to gain by filing it?
+
+:::ruling Reveal the ruling
+No, and filing it would likely fail on its own terms. Section 175(3)'s Magistrate route is engaged by the Superintendent's failure to investigate or direct investigation on the written complaint — not by the mere fact that a complaint was once made. Once the Superintendent has acted, redirected the file, and the investigation has resumed, there is no continuing failure for the Magistrate to correct. An application filed at this point is asking the Magistrate to duplicate a supervisory function the Superintendent has already discharged. Chetan's frustration at the earlier delay is understandable, but the remedy the text provides is aimed at getting the investigation moving again — which it now is — not at securing a second, redundant order once the first complaint has already worked.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Sakiri Vasu v. State of U.P.**, (2008) 2 SCC 409 — two-judge bench (A.K. Mathur and Markandey Katju JJ.), deciding whether a Magistrate has the power under s. 156(3) CrPC (now BNSS s. 175(3)) to direct not merely that an investigation take place, but to monitor it and even direct a particular agency or officer to conduct it.
+
+**Ratio.** A Magistrate's power under s. 156(3) is not confined to a bare, one-line order that "an investigation be made." It carries with it, by necessary implication, the power to ensure a proper investigation is carried out — including directing the registration of an FIR if none has been registered, directing a fair and proper investigation, and even monitoring it, though the Magistrate cannot himself investigate or direct a particular investigating officer beyond what the scheme of the Code contemplates. Before invoking s. 156(3) at all, the complainant must first have approached the Superintendent of Police (or equivalent) under what is now s. 173(4) and been refused or ignored — the Magistrate's power is a check on police inaction, not a substitute for approaching the police hierarchy first.
+
+**Practitioner takeaway.** *"Section 175(3) is not a bare power to say 'investigate' — it carries the implied power to ensure the investigation is real — but it is available only after the police hierarchy itself has been given, and has failed, its first chance."*
+
+**BNSS caveat.** *Sakiri Vasu* is a CrPC-era judgment construing s. 156(3), which BNSS s. 175(3) replaces under the **substantively amended** bucket identified in the concordance above. Its core holding — that the Magistrate's power carries implied ancillary powers to secure a genuine investigation, and that the Superintendent must be approached first — maps cleanly onto s. 175(3) because the two-step structure (Superintendent, then Magistrate) survives intact from the CrPC scheme s. 173(4) and s. 175(3) now codify together. What does **not** automatically survive is any assumption that the Magistrate can act without more: s. 175(3) adds an affidavit requirement that had no analogue in the text *Sakiri Vasu* construed — the affidavit was subsequently required by *Priyanka Srivastava* as a matter of practice, and BNSS has since written it into the section itself. Cite *Sakiri Vasu* for the scope of the power the Magistrate has once seized of a proper application; cite the statutory text, not the judgment, for the affidavit precondition to seizure in the first place.
+
+#### Sword and shield
+
+| | Offensive use (complainant) | Defensive use (police / accused) |
+|---|---|---|
+| On a stalled or shelved investigation | Build the s. 173(4) written complaint to the Superintendent as the documented first step — *Sakiri Vasu* is authority that the Magistrate's eventual power is broad once properly invoked, so make the record showing the Superintendent route was genuinely tried first. | Show that the Superintendent in fact reviewed the file and redirected it, however imperfectly — once that happens, there is no continuing failure left for a s. 175(3) application to correct (see the instinct scenario on this point). |
+| On the affidavit requirement | File nothing under s. 175(3) without the affidavit already sworn — an unsupported application is outside the Magistrate's power to act on, not merely defective. | Raise the absence of a compliant affidavit as a threshold objection before addressing the substance of the complaint at all. |
+| On a non-cognizable complaint being pushed toward police investigation | Where a case in fact contains any cognizable offence, invoke s. 174(4)'s deeming provision to bring the whole complaint onto the cognizable track and out of the Magistrate's-order-only regime. | Where the complaint is genuinely and solely non-cognizable, insist on s. 174(2)'s bar — no investigation without a Magistrate's order — as a complete answer to any argument that the police should simply "look into it." |
+| On a complaint against a public servant | Prepare the complaint anticipating s. 175(4)'s two-step sequencing rather than treating it as an afterthought; press for both the superior officer's report and the public servant's account to be called for promptly, so the sequencing does not become the vehicle for indefinite delay. | Rely on s. 175(4)(a) and (b) as mandatory preconditions — an order made before both are before the Magistrate is vulnerable on that ground alone. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Referring the informant to the Magistrate on a non-cognizable complaint | Immediate — part of the same act as the diary entry | s. 174(1)(i) | A station that diary-enters a non-cognizable complaint but does not refer the informant onward has not completed its s. 174(1) duty. |
+| Forwarding the daily diary report of non-cognizable cases | **Fortnightly** | s. 174(1)(ii) | A standing, non-complainant-dependent check — non-compliance is independently discoverable and pleadable, distinct from any individual complainant's own grievance. |
+| Preliminary enquiry under s. 173(3), feeding into a possible s. 175(3) application | Capped at **fourteen days** | s. 173(3), cross-referenced at s. 175(3) | Relevant where the underlying refusal-to-register grievance also involved an enquiry that overran — that overrun is itself part of the Superintendent complaint's substance. |
+| Escalation sequence: written complaint to Superintendent, then affidavited application to Magistrate | No fixed statutory period between the two steps, but *Sakiri Vasu* treats unreasonable delay by the Superintendent in responding as itself part of what justifies moving to the Magistrate | s. 173(4), s. 175(3) | A complainant who moves to the Magistrate too early, before giving the Superintendent a genuine opportunity to act, risks the application being seen as premature. |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 173** | The cognizable-side registration duty and its own sub-section (4) grievance chain. The affidavit sworn under s. 173(4) is the same affidavit s. 175(3) requires by cross-reference — the two provisions share one mechanism across two sections, not two separate ones. |
+| **BNSS s. 183, s. 193** | Once an investigation is ordered under s. 175(1), (3) or (4), the statements-recording provisions and the investigation-completion clock attach to it exactly as they would to any s. 173-registered case. |
+| **BNSS s. 210** | Identifies which Magistrate is "empowered" for purposes of both s. 175(3) and s. 175(4) — the same jurisdictional anchor as for s. 173(4). |
+| **BNS 2023 offence provisions** | Determine cognizability itself, which decides the s. 173/s. 175 track versus the s. 174 track in the first place — get the classification wrong and the wrong remedy is pursued. |
+| **BSA 2023** | The superior officer's report under s. 175(4)(a) and the public servant's own assertions under s. 175(4)(b) are statements gathered before any formal investigation begins — their evidentiary status at a later trial, if one follows, is governed by the BSA's provisions on prior statements, not by s. 175 itself. |
+| **Applicable forms / filings** | The written complaint to the Superintendent under s. 173(4); the affidavited application under s. 173(4) read with s. 175(3); for the public-servant route, a complaint drafted to anticipate the s. 175(4)(a)–(b) sequencing rather than to resist it. |
+
+#### The authorities
+
+**Priyanka Srivastava v. State of Uttar Pradesh**, (2015) 6 SCC 287 — two-judge bench (Dipak Misra and Prafulla C. Pant JJ.). Already the authority for the affidavit requirement at s. 173, and equally the authority for *why* s. 175(3) now conditions the Magistrate's power on an affidavit — the Court's concern with casual, unaccountable applications under the old s. 156(3) is precisely what the current text has closed off.
+
+::: info Verify before citing
+The bench strength and SCC citation for *Priyanka Srivastava* above are recorded from research conducted during drafting and should be independently confirmed against the official reporter before use in any filing.
+:::
+
+::: info Verify before citing
+The citation, bench composition and date for *Sakiri Vasu v. State of U.P.*, (2008) 2 SCC 409, are recorded from a search of secondary sources conducted while writing this page and should be checked against SCC Online or the Supreme Court's own reports before being placed before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not file a s. 175(3) application before the s. 173(4) written complaint to the Superintendent has been made and given a genuine chance to be acted on — *Sakiri Vasu* treats the Superintendent route as the first port of call, and an application that skips it invites a prematurity objection.
+2. Do not omit the affidavit, and do not treat it as curable after filing — s. 175(3) conditions the Magistrate's power on an application "supported by" the affidavit, which reads as a precondition to the power existing at all, not a formality to be supplied on request.
+3. Where the complaint is against a public servant for an official-duty act, do not draft it as an ordinary s. 175(3) application — plead it expressly under s. 175(4), and build in, from the outset, a request that the superior officer's report and the public servant's own account both be called for, rather than waiting for the Magistrate to raise the sequencing requirement.
+4. Where a case contains any cognizable offence alongside non-cognizable ones, invoke s. 174(4)'s deeming provision explicitly — do not let a station's own initial classification of "mixed, mostly non-cognizable" stand unchallenged if even one limb is cognizable.
+
+**Timing.** Move to the Superintendent the moment an investigation appears to have stalled, in writing, dated — that written complaint is the anchor for everything that follows, and *Sakiri Vasu*'s reasoning rewards a complainant who can show the police hierarchy was given a real opportunity before the Magistrate was approached.
+
+**Model grounds checklist for a section 175(3) application to compel a stalled investigation:**
+
+1. That an FIR was validly registered under section 173, with its date and offence(s) identified.
+2. That investigation, once begun, has been inactive or has stalled, with specific facts and dates showing the inactivity.
+3. That a written complaint was sent to the Superintendent of Police under section 173(4), with its date, and that the Superintendent failed to investigate or direct investigation within a reasonable time thereafter.
+4. That no subsequent action by the Superintendent has cured the inactivity as of the date of filing.
+5. A prayer that mirrors *Sakiri Vasu*'s scope — an order that a proper investigation be conducted, including registration of any outstanding formal steps, without asking the Magistrate to name a specific officer or agency beyond what the scheme allows.
+6. A verification clause and a supporting affidavit sworn under section 173(4), as section 175(3) requires by name.
+
+**Model grounds checklist for a section 175(4) application against a public servant for an official-duty act:**
+
+1. That the public servant's alleged act occurred in the course of discharging official duties, with specific facts.
+2. That a report has been sought, or should be sought, from an officer superior to the public servant complained against.
+3. An express acknowledgement that the public servant's own assertions as to the situation will be considered before any order is made, framed as compliance rather than resistance.
+4. A prayer for investigation conditioned expressly on both sub-clauses (a) and (b) of sub-section (4) being satisfied.
+
+---
+
+
+
