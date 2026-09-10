@@ -569,5 +569,280 @@ The citation, bench composition and date for *Sakiri Vasu v. State of U.P.*, (20
 
 ---
 
+## Sections 179–182 — Statements to police during investigation
+
+### The dispute this solves
+
+::: oneminute The witness who is handed a paper that looks exactly like a summons, and told to sign a statement he never wrote
+
+Investigating Chetan's generator theft, Inspector Farhan learns that Deepak — Chetan's neighbour, already familiar from the barking-dog complaint — was awake the night of the theft and may have seen a vehicle in the lane. Farhan sends Deepak a written order requiring him to attend the station the next morning. Deepak arrives anxious, half-convinced he is somehow a suspect. Farhan questions him for twenty minutes, writes down a summary of what Deepak says, and pushes the page across the table with a pen: "Sign here." Deepak hesitates — nobody explained whether he has to answer everything, and nobody told him what happens to this paper afterwards.
+
+Deepak's anxiety is common, and only half misplaced. He does have to attend, and he does have to answer truthfully. But he does not have to sign that page — and the reason is not a courtesy Farhan is free to waive. It is the specific, deliberate design of four sections that between them decide who can be made to come in, what they can be made to say, what happens to what they say, and what pressure may never be used to get it.
+:::
+
+::: story Why a police statement is built to be almost useless in court — and why that is not a flaw
+It is tempting to think a witness statement recorded by the police should carry roughly the weight of what the witness later says on oath. Sections 179 to 182 are built on the opposite premise, and understanding why changes how a practitioner should think about the entire investigation stage.
+
+Section 179 is the power to compel a witness to come in at all — narrow, written, and hedged with protections for exactly the people who would find compliance hardest (the very young, the elderly, women, the disabled, the acutely ill). Section 180 is the power to question that witness once he is there, and it comes with its own built-in limit: the witness must answer truly, except where the truthful answer would expose him to a criminal charge himself. Section 181 is where the design becomes deliberate rather than merely procedural: whatever the witness says is not to be signed by him, and — with one narrow exception — is not usable at trial at all. Section 182 closes the loop by forbidding the inducement, threat or promise that could otherwise turn sections 179 and 180's compulsory attendance and truthful-answer duty into a coercive extraction machine.
+
+Read together, the four sections do not describe a witness statement that is weak evidence by accident. They describe one that is *designed* to be inadmissible as a substantive account, because the alternative — a system where what a frightened or pressured witness told a police officer, unsigned and unsworn, could convict someone — is the exact abuse the framers were writing against. The statement's only real courtroom use, under section 181's proviso, is to contradict that same witness if he later changes his account: a check on the witness, not a shortcut to a conviction.
+:::
+### The Act, decompiled
+
+Four sections, one continuous sequence: who can be made to come in, what they can be made to say, what becomes of what they say, and what pressure is forbidden in getting it.
+
+> **179. Police officer's power to require attendance of witnesses.** (1) Any police officer making an investigation under this Chapter may, by order in writing, require the attendance before himself of any person being within the limits of his own or any adjoining station who, from the information given or otherwise, appears to be acquainted with the facts and circumstances of the case; and [[!such person shall attend as so required]]:
+>
+> Provided that [[!no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place in which such person resides]]:
+>
+> Provided further that if such person is willing to attend at the police station, [[?such person may be permitted so to do]].
+>
+> (2) The State Government may, by rules made in this behalf, provide for the payment by the police officer of the reasonable expenses of every person, attending under sub-section (1) at any place other than his residence.
+
+> **180. Examination of witnesses by police.** (1) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.
+>
+> (2) [[!Such person shall be bound to answer truly all questions relating to such case put to him by such officer]], other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.
+>
+> (3) [[?The police officer may reduce into writing any statement made to him in the course of an examination under this section]]; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records:
+>
+> Provided that statement made under this sub-section may also be recorded by audio-video electronic means:
+>
+> Provided further that [[!the statement of a woman against whom an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer]].
+
+> **181. Statements to police not to be signed: Use of statements in evidence.** (1) [[!No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it]]; [[!nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided]], at any inquiry or trial in respect of any offence under investigation at the time when such statement was made:
+>
+> Provided that when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bharatiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.
+>
+> (2) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause (a) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of the proviso to sub-section (2) of section 23 of that Adhiniyam.
+>
+> *Explanation.—An omission to state a fact or circumstance in the statement referred to in sub-section (1) [[=may amount to contradiction]] if the same appears to be significant and otherwise relevant having regard to the context in which such omission occurs and whether any omission amounts to a contradiction in the particular context shall be a question of fact.*
+
+> **182. No inducement to be offered.** (1) [[!No police officer or other person in authority shall offer or make, or cause to be offered or made, any such inducement, threat or promise]] as is mentioned in section 22 of the Bharatiya Sakshya Adhiniyam, 2023.
+>
+> (2) But [[!no police officer or other person shall prevent, by any caution or otherwise, any person from making in the course of any investigation under this Chapter any statement which he may be disposed to make of his own free will]]:
+>
+> Provided that nothing in this sub-section shall affect the provisions of sub-section (4) of section 183.
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 179(1) "shall attend as so required" | Mandatory, on a written order | Attendance is compellable once the written-order condition is met — this is not an informal request the witness may decline |
+| s. 179(1), first proviso | Mandatory protection | The very young, elderly, women, disabled and acutely ill cannot be required to attend anywhere but where they reside — the police must go to them |
+| s. 179(1), second proviso | Discretionary, and wholly new | Lets a protected witness *choose* to attend the station anyway — a convenience the CrPC-era text did not offer in these words |
+| s. 180(2) "shall be bound to answer truly… other than questions… tendency to expose him to a criminal charge" | Mandatory duty, with a built-in privilege | Truthful answers are compelled, but the privilege against self-incrimination survives inside the same sentence that creates the duty |
+| s. 180(3) "may reduce into writing" | Discretionary | Recording the statement in writing is optional for the officer — silence is not itself irregular |
+| s. 180(3), second proviso | Mandatory, by cross-reference to BNS offence list | A woman complainant in a listed sexual-offence case must have her statement recorded by a woman officer — no discretion once the offence is on the list |
+| s. 181(1) "shall… be reduced to writing, be signed by the person making it" — the "shall…not" reading | Mandatory prohibition | The witness is not permitted to sign, even if willing — this is not a right the witness can waive by offering to sign |
+| s. 181(1) "nor shall… be used for any purpose, save as hereinafter provided" | Mandatory prohibition, with one named exception | The statement is inadmissible as substantive evidence; its only sanctioned use is the contradiction mechanism in the proviso |
+| s. 182(1) "shall… offer or make… any such inducement, threat or promise" | Mandatory prohibition | A blanket bar reaching any "person in authority," not police officers alone |
+| s. 182(2) "no police officer… shall prevent… any statement… of his own free will" | Mandatory prohibition, in the opposite direction | The section forbids coercion in both directions — extracting a statement by pressure, and suppressing one the person wants to volunteer |
+
+::: proviso Why an unsigned statement is not a weaker version of a signed one — it is a different kind of document entirely
+The instinct to treat section 181's bar on signing as a missing formality is exactly backwards. A signed statement invites the argument that the witness adopted every word as his own, in the officer's phrasing, under police-station conditions — precisely the risk the section exists to foreclose. What remains is not a defective statement waiting to be perfected; it is a document that was never meant to stand on its own. Its only sanctioned afterlife is as a tool to test the witness against himself if his account later shifts — not as a record the prosecution can read into the trial as if the witness had said it there.
+:::
+
+::: proviso The self-incrimination privilege inside section 180(2) is narrower than it sounds
+Sub-section (2) compels truthful answers to "all questions relating to such case," carving out only questions whose truthful answer would tend to expose the witness himself to a criminal charge or penalty. It does not excuse a witness from answering merely because the answer is embarrassing, commercially sensitive, or damaging to someone else. The privilege tracks the witness's own exposure, and only that — a witness who is not himself at risk of prosecution on the facts in question has no basis under this sub-section to decline.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Deepak has been sent a written order under section 179 requiring him to attend the station tomorrow morning. Must he go, and must he go to the station itself?"
+  :gates="[
+    { q: 'Is the requirement contained in a written order from a police officer making an investigation under this Chapter?', note: 'An oral request, or a demand from someone not conducting the investigation, does not carry section 179’s compulsion at all.', no: 'There is no valid order to comply with. Deepak may attend voluntarily if he wishes, but nothing in this section requires him to.' },
+    { q: 'Does Deepak fall within one of the protected categories — under fifteen, over sixty, a woman, a person with a mental or physical disability, or a person with acute illness?', note: 'This is a status question answered once, not a discretion the officer weighs case by case.', no: 'He must attend as required, at the place named in the order — ordinarily the station.' }
+  ]"
+  result="If Deepak is within a protected category, he cannot be required to attend anywhere but where he resides — the officer must go to him — unless Deepak himself chooses to attend the station, which the second proviso now lets him do."
+  resultKind="mandatory"
+  caveat="The second proviso's 'willing to attend' option is new drafting: it converts what could otherwise look like an inconvenience for a protected witness into his own choice, without diluting the underlying protection he can still fall back on."
+/>
+
+<MicroTree
+  input="At the station, Farhan asks Deepak thirty questions about the night of the theft, including one about a private loan Deepak once took from Chetan that has nothing to do with the theft but that Deepak would rather not discuss. Must Deepak answer all thirty?"
+  :gates="[
+    { q: 'Does the question relate to the facts and circumstances of the case under investigation?', note: 'Section 180(2) binds a witness to answer truly only on matters relating to the case — an unrelated line of questioning is outside the compulsion from the start.', no: 'This particular question is outside what sub-section (2) compels an answer to at all.' },
+    { q: 'Would a truthful answer to this question tend to expose Deepak himself to a criminal charge, penalty or forfeiture?', note: 'The privilege tracks Deepak’s own exposure specifically — not embarrassment, not a third party’s exposure, not commercial sensitivity.', no: 'Deepak is bound to answer truly.' }
+  ]"
+  result="Deepak must answer truthfully every question that relates to the case, except the narrow set whose truthful answer would expose him personally to criminal liability — the private-loan question, being unrelated to the theft, was never within the compulsion to begin with, independent of any privilege."
+  resultKind="mandatory"
+  caveat="Do not conflate 'the question is irrelevant' with 'the question is privileged.' They produce the same practical answer here, but they are different gates, and a lawyer advising a witness should be able to say which one is actually doing the work."
+/>
+
+<MicroTree
+  input="Six months later, at Chetan's theft trial, the prosecution wants to read out Deepak's police statement to establish what he saw that night. Can it?"
+  :gates="[
+    { q: 'Was the statement obtained without any inducement, threat or promise, and without the officer preventing Deepak from saying anything he was otherwise disposed to say of his own free will?', note: 'Section 182 is a precondition on the statement’s legitimacy, checked before any question of its use under section 181 even arises.', no: 'The statement’s voluntariness is itself open to challenge — a threshold problem independent of what section 181 would otherwise allow.' },
+    { q: 'Is the statement being offered as an account of what happened — to prove the facts it describes — rather than to contradict Deepak’s own trial testimony?', note: 'This is the exact use section 181(1) forbids: reading the statement in as if Deepak had said it in court.', no: 'If it is instead being used to contradict Deepak because his trial account has shifted, the proviso opens a narrow door — subject to the accused needing no separate permission, and the prosecution needing the Court’s.' }
+  ]"
+  result="No — not as an account of what Deepak saw. The statement cannot be read in as substantive evidence of the facts under any circumstances; its only lawful courtroom use is to contradict Deepak himself if his testimony has changed, and even that use is gated by whether the questioning that produced it was itself free of inducement, threat or promise."
+  resultKind="mandatory"
+  caveat="This is precisely the trap a junior lawyer should be warned about: a detailed, useful-looking police statement is not a shortcut to proving the case. Treating it as one at trial invites an objection that ends the attempt immediately."
+/>
+
+### In plain English
+
+**These four sections are one machine, not four separate rules bolted together.** Section 179 decides who can be made to come in. Section 180 decides what they can be made to say once there, with the self-incrimination privilege built into the very sentence that creates the duty to answer. Section 181 decides what becomes of what they said — mostly nothing, courtroom-wise, except as a tool to contradict the same witness later. Section 182 polices the pressure that must never be applied in getting any of it. Reading only one of the four in isolation — treating section 180's compulsion to answer as though section 181 did not exist, for instance — produces a badly wrong picture of how much power the police actually have over a witness's words.
+
+**The self-incrimination privilege in section 180(2) is narrower than instinct suggests.** It excuses a witness from answering only questions whose truthful answer would expose *the witness himself* to a criminal charge, penalty or forfeiture. It is not a general right to stay silent on uncomfortable, embarrassing or commercially sensitive matters, and it does not extend to protecting a third party's interests. A witness who is not personally at risk on the facts in question has, under this sub-section specifically, no basis to decline.
+
+**An unsigned, largely inadmissible statement is the deliberate design, not a drafting gap someone forgot to close.** Section 181 does not create a weaker version of a signed statement — it creates a different kind of document, one whose only sanctioned courtroom life is as a check on the witness who made it, not as a substitute for his live testimony. Treating a police statement as though it were nearly as good as sworn evidence misunderstands what the section was built to prevent.
+
+**Section 182 cuts in both directions, and the second direction is easy to miss.** Sub-section (1) is the familiar bar on inducement, threat or promise. Sub-section (2) is the less-discussed mirror image: an officer may not suppress a statement someone is disposed to make of his own free will, either. A station that discourages a cooperative witness from volunteering information — because it complicates a preferred theory of the case, for instance — is on the wrong side of this sub-section just as surely as one that coerces a reluctant one.
+
+**Section 179's protected-attendance categories have real operational teeth, and they matter before any of the rest of this machinery even starts.** A protected witness who is required to travel to a station in violation of the first proviso has a genuine procedural objection available from the very first step — this is not a technicality reserved for trial; it is a defect in how the investigation gathered its material in the first place.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 160 → BNSS 2023, s. 179.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 161 → BNSS 2023, s. 180.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 162 → BNSS 2023, s. 181.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+> **CrPC 1973, s. 163 → BNSS 2023, s. 182.** *(one-to-one mapping, verified against the bare Act text in this repository.)*
+
+**Delta bucket for s. 179: substantively amended.** The core compulsion-to-attend power survives unchanged, but the protected-category proviso has genuinely expanded — the age ceiling has dropped from sixty-five to sixty (widening, not narrowing, the protected band, since more people now qualify by age alone), an entirely new category ("a person with acute illness") has been added, and a wholly new second proviso now lets a protected witness choose to attend the station despite being exempt. These are changes to who is protected and what options exist, not mere renumbering.
+
+**Delta bucket for s. 180: renumbered with drafting changes.** The examination power, the truthful-answer duty, the self-incrimination carve-out, and the audio-video and woman-officer provisos in sub-section (3) all already existed in the CrPC in substance — the audio-video option and the woman-officer requirement for listed sexual offences were both already part of CrPC s. 161(3) by the time of the BNSS. What changed is the cross-reference: the CrPC's list of Indian Penal Code sections (354, 354A–D, 376, 376A–E, 509) has been replaced with the corresponding Bharatiya Nyaya Sanhita section numbers (64, 65, 66, 67, 68, 69, 70, 71, 74–79, 124). No new power and no new condition — the interlock has simply moved to the new substantive code.
+
+**Delta bucket for s. 181: renumbered with drafting changes.** The bar on signing, the bar on using the statement for any purpose except contradiction, and the omission-as-contradiction explanation all carry over from CrPC s. 162 in substance. The only change is the cross-reference: "section 145 of the Indian Evidence Act" becomes "section 148 of the Bharatiya Sakshya Adhiniyam, 2023," and the sub-section (2) carve-outs now point to the BSA's equivalent provisions rather than the Evidence Act's.
+
+**Delta bucket for s. 182: renumbered with drafting changes.** The double-sided inducement bar is untouched in substance. The only changes are cross-reference updates: "section 24 of the Indian Evidence Act" becomes "section 22 of the Bharatiya Sakshya Adhiniyam, 2023," and the internal cross-reference to the Magistrate-confession provision moves from "sub-section (4) of section 164" to "sub-section (4) of section 183" — tracking that provision's own renumbering.
+
+**The words actually changed — s. 179 against CrPC s. 160:**
+
+| CrPC 1973, s. 160(1) | BNSS 2023, s. 179(1) |
+|---|---|
+| "…no male person under the age of fifteen years or **above the age of sixty-five years** or a woman **or a mentally or physically disabled person** shall be required to attend at any place other than the place in which such male person or woman resides." | "…no male person under the age of fifteen years or **above the age of sixty years** or a woman or a mentally or physically disabled person **or a person with acute illness** shall be required to attend at any place other than the place in which such person resides." |
+| *(no equivalent)* | "**Provided further that if such person is willing to attend at the police station, such person may be permitted so to do.**" |
+
+**What a practitioner must now do differently.** First, when advising an elderly witness, check the age against sixty, not sixty-five — a client who fell outside the old CrPC protection at sixty-two now falls inside the new one, and a station insisting on station-attendance for such a witness is now in the wrong. Second, if a protected witness genuinely wants to attend the station rather than have an officer come to their residence — often more convenient in practice — the second proviso now makes that a lawful choice rather than something the station had to informally accommodate outside the text. Third, when a police statement is sought to be used against a client at trial, run the section 181 analysis explicitly: it is not evidence of the facts, only a tool to contradict the witness who made it, and that objection should be raised the moment the prosecution tries to use it as anything more.
+
+### Test your instinct
+
+::::instinct The witness who is happy to come to the station, and the officer who refuses to let him
+
+Bharat, aged sixty-three, is a witness in an assault case. Inspector Farhan, aware of the age proviso, sends a constable to Bharat's residence to record his statement rather than calling him to the station, as the first proviso would ordinarily require. Bharat, however, finds this awkward — the constable's visit has drawn curious neighbours — and asks to simply come to the station instead, as he has done for other matters. Farhan's constable tells him this isn't possible: "the law says we come to you."
+
+Is the constable right that Bharat has no choice in the matter?
+
+:::ruling Reveal the ruling
+No. The first proviso protects Bharat by default, but the second proviso — new to the BNSS — lets him waive that default if he is willing to attend the station himself. The constable has read only half the sub-section. Bharat's evident preference to attend the station should be accommodated, not refused in the name of a protection he is entitled to set aside for his own convenience. A protection that cannot be waived by the person it protects, when waiving it costs him nothing, has been turned into an inconvenience rather than a safeguard.
+::::
+
+::::instinct The question about a debt that had nothing to do with the case — until it did
+
+Recording Deepak's statement about the generator theft, Farhan also asks whether Deepak owed Chetan money. Deepak, irritated, refuses to answer, citing his "right to silence." It later emerges that the debt is directly relevant — Deepak's unpaid loan to Chetan is a possible motive for Deepak to falsely implicate someone else to protect himself from a civil suit Chetan was threatening.
+
+Was Deepak entitled to refuse the question once it turned out to be relevant?
+
+:::ruling Reveal the ruling
+No, and the "right to silence" framing was wrong from the outset. Section 180(2) excuses a witness only from questions whose truthful answer would expose him personally to a criminal charge, penalty or forfeiture — a debt to Chetan, however relevant to motive, exposes Deepak to nothing criminal. Once the question relates to the facts and circumstances of the case — and a possible motive to mislead the investigation plainly does — sub-section (2) binds Deepak to answer truly. His discomfort at the question is not the test; his own criminal exposure is, and there was none here.
+::::
+
+::::instinct The confession that was signed because the witness insisted
+
+Anita, questioned as a witness (not yet an accused) in a cheating investigation, is so anxious to be believed that she asks Farhan to let her sign her statement, "so there's no doubt about what I said." Farhan, wanting to accommodate her, lets her sign it. At trial, the prosecution offers the signed statement as her sworn account of events.
+
+Does Anita's own insistence on signing change how the statement can be used?
+
+:::ruling Reveal the ruling
+No. Section 181(1)'s bar on signature is not a protection Anita can waive by asking for it — it is a rule about what the document is allowed to become, regardless of either party's preference. A signed police statement is not thereby converted into admissible substantive evidence; it remains a statement recorded in the course of investigation, usable only under the narrow contradiction proviso if Anita's trial account later diverges from it. Farhan should not have signed it in the first place, and its having been signed changes nothing about what the prosecution may now do with it.
+::::
+
+::::instinct The witness who was never threatened, but was quietly discouraged from talking
+
+Investigating a corruption complaint, Farhan questions a junior clerk, Chetan, who volunteers additional information about a second official's involvement — information Farhan did not ask for and that complicates the case Farhan has already built against the first official. Farhan tells Chetan, "let's stick to what I asked you," and does not record the additional information at all.
+
+Has anything unlawful happened here, given that Farhan never threatened or induced Chetan to say anything?
+
+:::ruling Reveal the ruling
+Yes. Section 182(2) is not confined to inducement — it separately forbids preventing, "by any caution or otherwise," a person from making a statement he is disposed to make of his own free will. Farhan's redirection, however mild and however free of threat, had exactly that effect: it discouraged Chetan from volunteering information he wanted to give. The absence of coercion on the information Farhan *did* record does not cure the suppression of the information he chose not to. A complainant or accused who later learns of this is entitled to raise it as a defect in how the investigation was conducted, not merely as an oversight.
+::::
+
+::::instinct The trial where the defence wanted to read the statement in full, and the prosecution objected
+
+At Chetan's trial, a witness testifies in a manner mostly consistent with her police statement, but adds one new detail favourable to the defence. Defence counsel, wanting to use this to bolster her credibility, seeks to read her entire police statement into the record to show "how consistent she has always been." The prosecution objects.
+
+Should the objection succeed?
+
+:::ruling Reveal the ruling
+Yes. Section 181(1)'s proviso permits use of the statement only to *contradict* the witness — testing an inconsistency between what she said to the police and what she now says at trial. It is not a vehicle for the defence to bolster her credibility by showing consistency, however tempting that use might be when the statement happens to help. The proviso is one-directional in purpose even though either side may invoke the contradiction mechanism: it exists to test conflicts, not to import the statement wholesale as corroboration. Defence counsel's application to read the full statement in for consistency falls outside what the section allows, regardless of how favourable the result might have been.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Tahsildar Singh v. State of U.P.**, AIR 1959 SC 1012 (also reported at 1959 SCR Supl. (2) 875) — a six-judge Constitution Bench, deciding how far an "omission" in a witness's police statement can be used to contradict him at trial under the proviso to section 162 CrPC read with section 145 of the Indian Evidence Act.
+
+**Ratio.** An omission from a police statement amounts to a "contradiction" usable against the witness only where it is, by necessary implication, part of what the witness did say — that is, where the statement as made necessarily excludes the fact now deposed to at trial. A mere gap — something the witness simply did not mention, but which is not inconsistent with what he did say — is not a contradiction at all, and cannot be used to discredit him under the proviso. The Bench drew a sharp line between an omission that is a genuine, implicit inconsistency and one that is only an absence of detail.
+
+**Practitioner takeaway.** *"Not every gap in a police statement is a contradiction — only a gap that the witness's own words necessarily exclude is usable against him, and a lawyer reaching for section 181's proviso must be able to show that necessary exclusion, not merely point to something left unsaid."*
+
+**BNSS caveat.** *Tahsildar Singh* is a CrPC-era judgment construing s. 162 read with the Evidence Act's s. 145, both of which the BNSS replaces — s. 162 by s. 181, falling in the **renumbered with drafting changes** bucket identified in the concordance above, and Evidence Act s. 145 by BSA s. 148. Because s. 181(1)'s contradiction proviso and its Explanation on omissions carry over from the CrPC in substance, with only the BSA cross-reference changed, the ratio transfers cleanly — a point BNSS commentary has already recognised in analysing s. 181(1) directly against this judgment's reasoning. Cite it without qualification on the omission-versus-contradiction distinction; update only the section numbers in the citation itself.
+
+#### Sword and shield
+
+| | Offensive use (cross-examiner) | Defensive use (witness's own side) |
+|---|---|---|
+| Using the police statement to contradict | Identify a specific, necessary inconsistency between the police statement and the trial account — not merely something new added at trial — before putting the proviso to use; *Tahsildar Singh* is the authority for exactly this distinction. | Resist an attempted contradiction that rests only on a gap, not a necessary exclusion — argue the omission does not meet the Bench's own test and is inadmissible for the purpose sought. |
+| On the self-incrimination question during examination | If a witness later claims at trial that he was coerced into answering a self-incriminating question, test whether the question in fact tended to expose him to *his own* criminal liability — s. 180(2)'s privilege is narrow, and a claim resting on a broader "right to silence" can be met head-on. | Advise a witness in advance which specific questions may fall within the privilege, so he declines those precisely rather than refusing wholesale — a blanket refusal invites a challenge the narrow privilege does not support. |
+| On voluntariness | Where a statement was in fact obtained by discouraging a witness from volunteering information, or by any inducement, raise s. 182 as a threshold challenge to the statement's legitimacy before its contradiction-value is even reached. | Document contemporaneously (station diary, audio-video recording where used) that no inducement or suppression occurred, to foreclose a later voluntariness challenge. |
+| On protected-witness attendance | Where a protected witness was required to attend somewhere other than his residence in violation of the first proviso, raise the defect in how the statement was gathered as a ground going to its reliability. | Where the witness in fact chose to attend the station under the second proviso, document that choice to prevent it from later being mischaracterised as a violation. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Compliance with a section 179 written order to attend | Immediate — "shall attend as so required" | s. 179(1) | Non-compliance does not itself void the investigation, but the order's validity (form, protected-category compliance) becomes the live issue if challenged |
+| Recording of a statement under section 180(3) | No fixed period — discretionary as to whether and when the officer reduces it to writing | s. 180(3) | An unrecorded oral statement remains a statement "made to a police officer" for s. 181 and s. 182 purposes even without a written record |
+| Use of a police statement to contradict a witness at trial | Arises only once the witness is called and testifies inconsistently — no independent limitation period, but the objection must be raised contemporaneously with the attempted use | s. 181(1), proviso | A contradiction not put to the witness at the appropriate stage of cross-examination may be lost as a matter of trial procedure, independent of s. 181 itself |
+| Investigation-completion clock carried over from s. 173 registration | Two months for the listed BNS/POCSO offences, running from the FIR date | s. 193(2) (cross-referenced from the s. 173 HUD above) | Statements gathered under ss. 179–182 are part of the same investigation this clock governs — delay in gathering them is not a separate, independently tolled period |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 173, ss. 174–175** | Statements under ss. 179–182 are gathered in the course of the investigation that s. 173 registration (or a s. 175 order) opens — these sections have no independent trigger of their own. |
+| **BNSS s. 183** | The Magistrate-recorded confession or statement is the escalated, evidentially stronger counterpart to a police-recorded statement — where s. 181 makes a police statement largely unusable, s. 183 statements are recorded precisely so they can be used more fully at trial, subject to their own safeguards. |
+| **BNSS s. 193** | The investigation-completion clock that the statement-gathering process under ss. 179–182 feeds into. |
+| **BNS 2023 offence provisions** | Fix the specific offence list in s. 180(3)'s second proviso (ss. 64, 65, 66, 67, 68, 69, 70, 71, 74–79, 124) that triggers the mandatory woman-officer requirement for recording a woman complainant's statement. |
+| **BSA 2023** | Section 181(1)'s proviso operates through BSA s. 148 (the contradiction-of-witness provision, replacing Evidence Act s. 145); s. 181(2)'s carve-outs point to BSA s. 26(a) and the proviso to s. 23(2); s. 182(1)'s inducement bar points to BSA s. 22 (replacing Evidence Act s. 24). |
+| **Applicable forms / filings** | The written order under s. 179(1) compelling attendance; contemporaneous objection at trial when a party attempts to use a police statement beyond the s. 181(1) proviso's contradiction purpose. |
+
+#### The authorities
+
+**Nandini Satpathy v. P.L. Dani**, (1978) 2 SCC 424 — three-judge bench (V.R. Krishna Iyer, Jaswant Singh and V.D. Tulzapurkar JJ.), decided 7 April 1978. Held that section 161(2) CrPC (now s. 180(2) BNSS) is a statutory embodiment of the constitutional privilege against self-incrimination under Article 20(3), protecting both witnesses and an accused person examined by the police from answering questions that would tend to incriminate them, and that this protection operates from the investigation stage itself, not only at trial. **How it is used:** the authority for treating s. 180(2)'s privilege as carrying constitutional weight, not merely a statutory courtesy — useful where a client's refusal to answer a self-incriminating question during a police examination is later characterised as obstruction.
+
+::: info Verify before citing
+The bench composition and date for *Nandini Satpathy v. P.L. Dani*, (1978) 2 SCC 424, are recorded from research conducted during drafting and should be independently confirmed against the official reporter before use in any filing.
+:::
+
+::: info Verify before citing
+The bench composition for *Tahsildar Singh v. State of U.P.*, AIR 1959 SC 1012, is recorded from secondary sources consulted during drafting, which show some inconsistency in the rendering of judges' names; the full six-judge composition and the citation should be verified against the official reporter before being placed before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not attempt to use a police statement as substantive evidence of the facts it describes, however detailed or useful it looks — section 181(1) forbids this outright, and the only available use is the contradiction mechanism in the proviso.
+2. Do not treat every gap in a police statement as a usable contradiction. Apply *Tahsildar Singh*'s test before putting an "omission" to a witness — identify the necessary inconsistency, not merely the absence of a detail, or the attempt is vulnerable to exactly this objection.
+3. Do not advise a witness to refuse a question broadly on "self-incrimination" grounds without first confirming the question would expose the witness himself, specifically, to criminal liability — section 180(2)'s privilege is narrower than a general right to silence, and an overbroad refusal invites a compulsion order that a properly scoped refusal would have avoided.
+4. Where a protected witness under section 179's first proviso was required to attend somewhere other than his residence, and did not himself choose the station under the second proviso, raise the defect at the earliest opportunity — do not wait until the statement's substantive content becomes the focus of argument, by which point the procedural defect at its origin is easily overlooked.
+
+**Timing.** Raise a contradiction under section 181(1)'s proviso during cross-examination, at the point the inconsistency arises — the mechanism is procedural and tied to the conduct of the trial itself, not to any external limitation period, so the practical discipline is contemporaneous objection and confrontation, not calendar tracking.
+
+**Model checklist for cross-examining on a police statement under section 181(1):**
+
+1. Identify the specific statement said at trial that is claimed to be inconsistent with the police statement.
+2. Identify the specific words of the police statement said to exclude that fact by necessary implication — not merely to omit mentioning it.
+3. Confirm the police statement was duly proved (through the recording officer, if required) before putting it to the witness.
+4. If appearing for the prosecution, confirm the Court's permission has been obtained before using the statement to contradict a prosecution witness — the proviso does not extend the same automatic right to the prosecution that it gives the accused.
+5. Frame the use strictly as contradiction — resist any temptation to read the statement in as an affirmative account, which invites the objection *Tahsildar Singh* and section 181(1) both support.
+
+---
+
+
 
 
