@@ -1321,4 +1321,221 @@ The citation *R. Shaji v. State of Kerala*, (2013) 14 SCC 266, is recorded from 
 
 ---
 
+## Section 184 — Medical examination of the victim of rape
+
+### The dispute this solves
+
+::: oneminute The examination that is supposed to help the case, and the one detail that can undo it
+Anita reports to Inspector Farhan, within hours, that she was raped the previous night. Farhan does everything the textbook says: he arranges for her to be examined at the government hospital the same day, within the twenty-four-hour window, by a woman doctor. The doctor's report is thorough — injuries noted, DNA-profiling material collected, mental state recorded. Months later, at trial, defence counsel does not challenge any of that. He challenges one line, buried in the middle of the report, recording that the doctor also performed a "two-finger test" to assess Anita's sexual history and comment on her "habituation to intercourse."
+
+That single line is not a minor addition to an otherwise sound examination. It is a specific, judicially condemned practice that section 184 was not drafted to permit, and its presence in the report is capable of undermining the credibility of an examination that was, in every other respect, done exactly right. Getting section 184 right is not just about timing and consent — it is about knowing precisely what the examination may lawfully include, and what it must never touch.
+:::
+
+::: story A report is not evidence of guilt — it is a document with its own rules, and those rules protect the victim as much as the case
+Section 184 is built around a single organising idea: this examination happens *to* the victim, not merely *for* the prosecution, and every sub-section reflects that. The choice of practitioner is constrained toward government facilities. The timing is fixed at twenty-four hours from when the information reaches the police, not twenty-four hours from the assault itself. The report has a closed, enumerated list of particulars — not an open invitation for the practitioner to record whatever seems relevant. And running through the whole section, appearing twice, is the same non-negotiable precondition: consent. Sub-section (4) requires the report itself to record that consent was obtained; sub-section (7) then removes any possible argument that the rest of the section somehow authorises an examination without it. Nothing about the investigative urgency of a rape case relaxes that requirement — if anything, the section is drafted to make sure urgency is never used as the excuse to skip it.
+:::
+
+### The Act, decompiled
+
+> **184. Medical examination of the victim of rape.** (1) Where, during the stage when an offence of committing rape or attempt to commit rape is under investigation, it is proposed to get the person of the woman with whom rape is alleged or attempted to have been committed or attempted, examined by a medical expert, [[!such examination shall be conducted by a registered medical practitioner employed in a hospital run by the Government or a local authority]] and in the absence of such a practitioner, by any other registered medical practitioner, [[!with the consent of such woman or of a person competent to give such consent on her behalf]] and [[!such woman shall be sent to such registered medical practitioner within twenty-four hours from the time of receiving the information relating to the commission of such offence]].
+>
+> (2) The registered medical practitioner, to whom such woman is sent, shall, [[!without delay, examine her person and prepare a report of his examination]] giving the following particulars, namely:—
+>
+> (i) the name and address of the woman and of the person by whom she was brought;
+>
+> (ii) the age of the woman;
+>
+> (iii) the description of material taken from the person of the woman for DNA profiling;
+>
+> (iv) marks of injury, if any, on the person of the woman;
+>
+> (v) general mental condition of the woman; and
+>
+> (vi) other material particulars in reasonable detail.
+>
+> (3) [[!The report shall state precisely the reasons for each conclusion arrived at]].
+>
+> (4) [[!The report shall specifically record that the consent of the woman or of the person competent to give such consent on her behalf to such examination had been obtained]].
+>
+> (5) [[!The exact time of commencement and completion of the examination shall also be noted in the report]].
+>
+> (6) The registered medical practitioner shall, [[!within a period of seven days forward the report to the investigating officer]] who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause (a) of sub-section (6) of that section.
+>
+> (7) [[!Nothing in this section shall be construed as rendering lawful any examination without the consent of the woman or of any person competent to give such consent on her behalf]].
+>
+> *Explanation.* — For the purposes of this section, "examination" and "registered medical practitioner" shall have the same meanings as respectively assigned to them in [[=section 51]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 184(1) "shall be conducted by a registered medical practitioner employed in a hospital run by the Government…" | Mandatory, with a fallback | Government or local-authority employment is the primary requirement; "any other registered medical practitioner" is available only "in the absence of such a practitioner," not as a free choice |
+| s. 184(1) "with the consent of such woman or of a person competent to give such consent on her behalf" | Mandatory precondition | Consent is not a formality recorded after the fact — it is the thing that makes the examination lawful at all |
+| s. 184(1) "within twenty-four hours from the time of receiving the information" | Mandatory timeline | The clock runs from when the *police* receive the information, not from the assault itself — a point that matters wherever there is a gap between the offence and its reporting |
+| s. 184(2), the enumerated particulars (i)–(vi) | Mandatory, closed list | The report's content is fixed by the text — it is not an open template the practitioner can supplement with whatever else seems clinically relevant |
+| s. 184(3) "shall state precisely the reasons for each conclusion" | Mandatory | Bare conclusions unsupported by stated reasons do not satisfy the section — this is what makes the report testable at trial |
+| s. 184(4) "shall specifically record that the consent… had been obtained" | Mandatory | Consent is not just a precondition to the examination — its having been obtained must independently appear on the face of the report |
+| s. 184(6) "within a period of seven days forward the report" | Mandatory timeline | A distinct clock from the twenty-four-hour examination window — this one governs how quickly the completed report must move into the investigation file |
+| s. 184(7) | Mandatory, interpretive | A backstop clause: nothing elsewhere in the section can be read as impliedly authorising a non-consensual examination |
+
+::: proviso The twenty-four-hour clock and the report's closed list are two separate disciplines, and missing either is independently pleadable
+It is a common misreading to treat section 184 as a single "get her examined quickly" instruction. It is not. Sub-section (1) fixes *when* the woman must be sent for examination — within twenty-four hours of the information reaching the police. Sub-section (2) fixes *what* the resulting report must contain — a closed list of six particulars, no more and no less, each requiring stated reasons under sub-section (3). A report that arrives well within the twenty-four-hour window but omits a required particular, or states a conclusion without reasons, has not satisfied the section merely because the timing was right. Conversely, a report that is exemplary in its particulars but sent for examination outside the window has a separate defect that the quality of its content does not cure. Treat the two as independent checkpoints, not one continuous standard.
+:::
+
+::: proviso Consent appears twice in the section, and the repetition is deliberate, not redundant
+Sub-section (4) requires the report to record that consent was obtained — a documentation duty. Sub-section (7) then says nothing in the section renders an examination lawful without that consent — a substantive precondition. A report that is silent on consent has failed the documentation duty under sub-section (4); an examination actually conducted without consent has failed the substantive requirement under sub-section (7), and no other part of the section — not the twenty-four-hour clock, not the government-hospital preference — can be read as overriding that. A defence challenge to an examination should test both questions separately: was consent recorded, and was it actually obtained.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Anita's rape is reported to Inspector Farhan at 9 a.m. on Monday. Farhan wants to arrange her medical examination. Where can he lawfully send her, and by when?"
+  :gates="[
+    { q: 'Is a registered medical practitioner employed in a Government or local-authority hospital reasonably available?', note: 'This is the section’s primary, preferred route — not one option among several equally valid ones.', no: 'Only in this practitioner’s absence does the fallback to any other registered medical practitioner become available.' },
+    { q: 'Has Anita (or a person competent to consent on her behalf) actually consented to the examination?', note: 'Sub-sections (1), (4) and (7) all turn on this — it is not a formality to be obtained after the fact.', no: 'No examination under this section can lawfully proceed at all, regardless of urgency or how strong the evidentiary case for prompt examination might otherwise be.' }
+  ]"
+  result="Anita must be sent to the qualifying practitioner within twenty-four hours of 9 a.m. Monday — the clock runs from when Farhan received the information, not from when the offence occurred."
+  resultKind="mandatory"
+  caveat="Missing the twenty-four-hour window does not, by itself, make a later examination inadmissible — but the delay, and the reasons for it, become a fact the defence can legitimately probe."
+/>
+
+<MicroTree
+  input="The registered medical practitioner has examined Anita and is drafting the report. What must it contain to satisfy section 184, and what must never appear in it?"
+  :gates="[
+    { q: 'Does the report cover all six particulars listed in sub-section (2) — identity details, age, DNA-profiling material description, injuries, mental condition, and other material particulars?', note: 'This is a closed list — the practitioner is not free to substitute a different clinical template.', no: 'A report missing any listed particular has not satisfied sub-section (2), whatever else it contains.' },
+    { q: 'Does the report state precise reasons for each conclusion, note the exact commencement and completion time, and record that consent was obtained?', note: 'Sub-sections (3), (4) and (5) are each independent, stackable requirements on top of the sub-section (2) list.', no: 'The report is incomplete on one of these three additional fronts, each separately pleadable.' },
+    { q: 'Does the report confine itself to clinical findings relevant to the alleged offence, without opinion on the victim’s prior sexual history or “habituation”?', note: 'Nothing in sub-section (2)’s list authorises comment on sexual history — a finding of this kind sits outside what the section permits the report to contain.', no: 'Any such finding is outside the section’s closed list and is a recognised, specifically condemned defect — see the winning ratio below.' }
+  ]"
+  result="A report satisfying all three gates is a properly constituted section 184 report, to be forwarded to the investigating officer within seven days and onward to the Magistrate under section 193."
+  resultKind="mandatory"
+  caveat="A report that is otherwise perfect but includes a habituation or virginity-type finding does not become inadmissible in its entirety — but that finding itself is liable to be excluded and can be used to challenge the practitioner's understanding of the examination's proper scope."
+/>
+
+### In plain English
+
+**Section 184 is not a general "arrange a medical exam" instruction — it is a tightly closed procedure, and every closure is deliberate.** The choice of practitioner is constrained toward government facilities. The report's contents are a fixed list of six particulars, not an open template. The timing runs on two separate clocks — twenty-four hours to get the woman examined, seven days to get the report into the file. None of these constraints exists for administrative tidiness; each closes off a way the examination could otherwise be handled loosely, to the victim's detriment.
+
+**Consent is not incidental to this section — it is close to the whole point of it.** The requirement appears twice, once as a documentation duty (sub-section (4)) and once as a substantive precondition that nothing else in the section can override (sub-section (7)). A practitioner reading urgency into the twenty-four-hour clock as a reason to proceed without clear consent has misread the section entirely — the clock governs how quickly a lawful, consensual examination must happen, not whether consent can be dispensed with to meet it.
+
+**The closed list of particulars in sub-section (2) is a ceiling, not a floor.** A practitioner is not merely permitted to record the six enumerated particulars; the section gives no basis for recording anything beyond "other material particulars in reasonable detail" that are genuinely relevant to the offence under investigation. Findings about a victim's sexual history, comments on "habituation," or two-finger-test-derived conclusions about the state of the hymen have no place in a section 184 report — they were never part of what the section asked for, and their presence reflects outdated clinical practice that the courts have since specifically disapproved.
+
+**The twenty-four-hour clock protects the evidence and the victim equally — it is not purely an evidentiary-freshness rule.** Prompt examination matters for forensic reasons, but the section's placement of the clock's start at "the time of receiving the information" (not the time of the offence) reflects an awareness that reporting itself is often delayed, and that the twenty-four-hour discipline should not become an argument for rushing a woman who has only just come forward.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 164A → BNSS 2023, s. 184.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only.*
+
+**Delta bucket: renumbered with drafting changes.** Section 164A CrPC was itself a comparatively late addition — inserted by the Criminal Law (Amendment) Act, 2005 — and BNSS s. 184 carries forward the same architecture: government-facility preference, twenty-four-hour timeline, enumerated report particulars, and the twin consent safeguards. Nothing in the text identified in this repository suggests a substantive restructuring of the examination regime itself; the changes visible are consistent with the wider BNSS pattern of adding an explicit cross-reference to the forensic/police-report machinery (here, s. 193) rather than altering what the examining practitioner must do.
+
+::: info Verify before citing
+The mapping to CrPC s. 164A, and the claim that it was inserted by the Criminal Law (Amendment) Act, 2005, are given from the drafter's working knowledge of CrPC history and have not been checked against a CrPC bare Act text held in this repository. Confirm both the section number and the amendment history before relying on this mapping in any filing or teaching material.
+:::
+
+**What a practitioner must now do differently.** First, treat the twenty-four-hour clock as running from the police's receipt of the information, and build a timeline showing exactly when that receipt occurred — a delay between the offence and the report to police is not, by itself, a defect in the section 184 process, but conflating the two clocks in argument is a common and avoidable error. Second, on receiving any section 184 report, screen it specifically for content outside the sub-section (2) list — a habituation or sexual-history finding is a red flag regardless of which side is relying on the report, because it signals the examination was not properly confined. Third, confirm the report was forwarded to the investigating officer within the seven-day window in sub-section (6) — a report that arrives late, without explanation, is a fact worth placing on record even where its content is otherwise unobjectionable.
+
+### Test your instinct
+
+::::instinct The report that includes a "habituation to intercourse" finding
+
+The registered medical practitioner examining Anita includes, alongside the required particulars, a line stating that "the findings are suggestive of habituation to sexual intercourse." At trial, the prosecution seeks to rely on the report in full, including this line, to support the timeline of events. Defence counsel does not object to the report generally but specifically objects to this line.
+
+Should the finding on "habituation" be admitted as part of the report?
+
+:::ruling Reveal the ruling
+No. This finding falls outside the closed list of particulars in sub-section (2) and reflects the kind of examination practice — the so-called two-finger test and its associated conclusions — that the Supreme Court has specifically held has no place in a rape investigation, being irrelevant to the question of consent and an affront to the victim's dignity and privacy. Section 184 does not authorise a practitioner to record findings on a victim's sexual history or "habituation" as part of the examination; the report's remaining particulars, properly confined to what sub-section (2) actually asks for, remain usable, but this specific line should be excluded and can properly be used to challenge the reliability of the examination's approach more broadly.
+::::
+
+::::instinct The examination arranged forty hours after the information reached the police
+
+Anita reports the offence to Farhan at 6 p.m. on a Friday. The only government-hospital practitioner on the approved list is unavailable until Sunday morning, and no other registered medical practitioner is located until Saturday at 10 a.m. — thirty-eight hours after the report. The examination is conducted then, with Anita's full consent, and the report is otherwise complete and properly reasoned.
+
+Does the delay beyond twenty-four hours make the report inadmissible?
+
+:::ruling Reveal the ruling
+Not automatically. Sub-section (1)'s twenty-four-hour window is a mandatory timeline, and the delay here is a real departure from it — but the section does not itself declare a late examination void or its report inadmissible; it fixes a standard against which the delay can be assessed and explained. A properly conducted, fully consented, fully reasoned examination conducted thirty-eight hours after the report, with a documented and genuine unavailability of qualifying practitioners as the explanation, stands on materially different footing from an unexplained delay of the same length. The practical consequence is that the explanation for the delay becomes part of the evidentiary record and a fair subject for cross-examination — not that the report is automatically excluded.
+::::
+
+::::instinct The examination conducted without asking the victim anything at all
+
+Bharat is accused of raping Deepa, who is found in a state of shock at the scene. The attending officer, treating the matter as urgent, has Deepa taken directly to the nearest private clinic and examined before she has said a word about whether she consents, on the reasoning that "she needs medical attention regardless, and we can sort out consent for the criminal case afterwards."
+
+Is this examination compliant with section 184?
+
+:::ruling Reveal the ruling
+No — as a criminal-investigation examination under this section, it is not, whatever its merits as emergency medical care. Sub-sections (1), (4) and (7) each turn on consent, and sub-section (7) specifically forecloses any argument that urgency or investigative necessity renders a non-consensual examination lawful under this section. This does not mean Deepa cannot receive emergency medical treatment immediately — that is a separate question governed by ordinary medical practice and her own or a competent person's consent to treatment generally — but an examination conducted for the purpose of generating a section 184 report, without her consent (or that of a person competent to consent on her behalf) actually having been sought and obtained, has not satisfied the section, and the "sort out consent afterwards" approach inverts what the text requires.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Lillu v. State of Haryana**, (2013) 14 SCC 643 — deciding whether the "two-finger test" and the conclusions it generates about a rape victim's sexual history have any legitimate place in her medical examination and the resulting evidence.
+
+**Ratio.** The two-finger test, and any examination or opinion directed at a rape victim's "habituation" to sexual intercourse or the state of her hymen as a marker of chastity, is irrelevant to the question of consent, has no forensic value in establishing whether rape occurred, and its administration violates the victim's right to privacy, physical and mental integrity, and dignity under Article 21 of the Constitution. Courts must discontinue reliance on such findings, and medical examinations of rape victims must be confined to what is genuinely relevant to the offence under investigation.
+
+**Practitioner takeaway.** *"A section 184 report's closed list of particulars has no room for a habituation or two-finger-test finding — where one appears, it is excludable on the authority of Lillu, independent of any other defect in the examination."*
+
+**BNSS caveat.** *Lillu* was decided under the CrPC-era medical-examination framework (s. 164A), which s. 184 replaces in the **renumbered with drafting changes** bucket identified above. Because the enumerated-particulars structure and the consent architecture carry forward essentially unchanged, *Lillu*'s ratio — that such findings are outside the legitimate scope of the examination and violate the victim's constitutional rights — applies with undiminished force to a report generated under s. 184. Nothing in the BNSS text reopens the question; if anything, the closed, enumerated list in sub-section (2) makes the exclusionary argument textually easier to make than it was under the more general language of s. 164A.
+
+#### Sword and shield
+
+| | Offensive use (prosecution / victim's counsel) | Defensive use (accused) |
+|---|---|---|
+| On a report containing a habituation or two-finger-test finding | Move to have the offending finding excluded under *Lillu*, while preserving reliance on the report's properly constituted particulars. | Do not attempt to build a defence theory of consent or credibility on such a finding — it is vulnerable to exclusion and inviting scrutiny of it can backfire by drawing attention to a defective examination. |
+| On the twenty-four-hour timing | Where the examination was prompt and consented to, rely on strict compliance to pre-empt any delay-based challenge to the examination's reliability. | Where the examination was delayed, probe for the reason — an unexplained delay is a legitimate line of cross-examination distinct from any challenge to the examination's substantive findings. |
+| On consent | Ensure the report affirmatively records consent under sub-section (4) as a matter of course, closing off any sub-section (7) argument before it can be raised. | Where the report is silent on consent, or facts suggest it was not genuinely obtained, raise this as a threshold objection to the examination's validity under sub-section (7), independent of the report's content. |
+| On the sub-section (2) particulars | Confirm all six particulars are present and reasoned before tendering the report, so the tender is not met with an incompleteness objection. | Where a required particular is missing or unreasoned, object to the report's completeness under sub-section (2)/(3) before addressing its substance. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Sending the victim for examination | Within **24 hours** of the police receiving the information | s. 184(1) | Delay does not void the examination automatically, but becomes a fact requiring explanation, particularly where unexplained |
+| Practitioner examining and preparing the report | Without delay, once the woman is sent to him | s. 184(2) | An unreasonably slow examination after arrival is a separate delay from the sub-section (1) sending clock, and should be pleaded as such |
+| Forwarding the completed report to the investigating officer | Within **7 days** | s. 184(6) | A late-forwarded report is discoverable and arguable independently of the report's substantive completeness |
+| Investigating officer forwarding the report onward to the Magistrate | As part of the s. 193(6)(a) documents, on completion of investigation | s. 184(6) cross-referencing s. 193 | Governed by, and folds into, the s. 193 investigation-completion clock generally |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 176(1), second proviso** | Fixes the location and gender of the officer for *recording the victim's statement* — a distinct procedural safeguard from the medical examination under s. 184, though both protect the same victim in the same investigation. |
+| **BNSS s. 193** | The s. 184 report is a specifically named document among those the investigating officer must forward to the Magistrate under s. 193(6)(a) on completion of investigation — s. 184(6) cross-references s. 193 by name. |
+| **BNSS s. 51** | Supplies the definitions of "examination" and "registered medical practitioner" that s. 184's Explanation expressly borrows, rather than defining these terms afresh. |
+| **BNS 2023 offence provisions** | Sections 64–71 and related BNS provisions define the offence(s) of rape and aggravated rape that trigger s. 184's examination regime in the first place. |
+| **BSA 2023** | The medical report, once tendered, is assessed for relevance and weight as expert/medical evidence under the BSA's general provisions on such evidence — s. 184 governs only how the report must be generated, not its evidentiary status at trial. |
+| **Applicable forms / filings** | The section 184 report itself, forwarded through the investigating officer to the Magistrate; an application to exclude any portion of the report falling outside sub-section (2)'s particulars, invoking *Lillu* directly; a request, where the twenty-four-hour or seven-day clocks were missed, for the reasons for delay to be placed on record. |
+
+#### The authorities
+
+**State of Punjab v. Gurmit Singh**, (1996) 2 SCC 384. Held that a rape victim's testimony, if found credible and trustworthy, does not require corroboration from medical evidence as a matter of law, and laid down guidelines for the sensitive, dignified conduct of rape trials and examinations. **How it is used:** the authority for the proposition that a section 184 report's absence, incompleteness, or limited findings does not by itself defeat an otherwise credible prosecution case — the medical report is one piece of evidence, not a precondition to conviction.
+
+**Selvi v. State of Karnataka**, (2010) 7 SCC 263 — Constitution Bench. Held that involuntary subjection of a person to narcoanalysis, polygraph or brain-mapping tests violates Articles 20(3) and 21 of the Constitution, establishing consent as a constitutional precondition to compelled bodily and forensic examination techniques generally. **How it is used:** the broader constitutional foundation for why section 184's twin consent requirements (sub-sections (4) and (7)) are not mere statutory formalities but give effect to the examinee's constitutional right against non-consensual bodily intrusion — useful when a section 184 objection is framed constitutionally rather than purely on the statutory text.
+
+::: info Verify before citing
+The citations, bench compositions and precise holdings for *Lillu v. State of Haryana*, (2013) 14 SCC 643, *State of Punjab v. Gurmit Singh*, (1996) 2 SCC 384, and *Selvi v. State of Karnataka*, (2010) 7 SCC 263, are recorded from the drafter's working knowledge and secondary-source research conducted while writing this page, and should each be independently verified against the official SCC report before being placed before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not let a habituation, virginity, or two-finger-test finding sit unchallenged in a tendered report — move to exclude it specifically under *Lillu*, rather than treating it as background detail or, worse, relying on it.
+2. Do not conflate the twenty-four-hour sending clock with the seven-day forwarding clock when pleading delay — identify precisely which clock was missed and by how much, since the two protect different stages of the process.
+3. Do not accept a report that is silent on consent as compliant merely because the examination appears to have gone smoothly — sub-section (4)'s documentation duty is independent of whatever actually happened, and its absence is a pleadable defect in its own right.
+4. Where the examining practitioner was not employed at a Government or local-authority hospital, confirm and, if necessary, require the file to show that a qualifying practitioner was genuinely unavailable — the fallback is conditional, not a matter of convenience.
+
+**Timing.** There is no external limitation period for challenging a defective section 184 examination distinct from the trial timeline itself, but a challenge to the twenty-four-hour or seven-day clocks, or to consent, is strongest when raised at the earliest point the report is placed on record — waiting until final arguments to raise what is, in substance, a documentary defect invites the objection that it could have been tested earlier through cross-examination of the practitioner.
+
+**Model checklist for reviewing a section 184 report before trial:**
+
+1. Confirm the examining practitioner's employment status and, where the fallback was used, that the primary category of practitioner was genuinely unavailable.
+2. Confirm the report was sent for within twenty-four hours of the police receiving the information, and if not, whether the delay is explained.
+3. Check the report against the six enumerated particulars in sub-section (2) for completeness, and against sub-section (3) for stated reasons behind each conclusion.
+4. Confirm the report affirmatively records consent under sub-section (4), and separately assess whether the underlying facts support that consent was genuinely obtained.
+5. Screen specifically for any finding on sexual history, habituation, or the two-finger test, and prepare an application to exclude any such finding under *Lillu* if present.
+6. Confirm the report reached the investigating officer within seven days under sub-section (6), and that it was thereafter forwarded to the Magistrate as part of the s. 193(6)(a) documents.
+
+---
+
 
