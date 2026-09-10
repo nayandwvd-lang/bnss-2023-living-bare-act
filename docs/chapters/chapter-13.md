@@ -1751,4 +1751,238 @@ The citation, bench composition, and precise holding of *State of Maharashtra v.
 
 ---
 
+## Section 187 — Procedure when investigation cannot be completed in twenty-four hours
+
+### The dispute this solves
+
+::: oneminute The clock that decides whether an accused stays in custody or walks free
+Bharat is arrested on day one. Section 58 gives the police twenty-four hours to either release him or produce him before a Magistrate — investigation is rarely that fast, so section 187 exists for the ordinary case where it is not. From the moment Bharat is produced, two clocks start running that every criminal practitioner is expected to know cold: a short one governing how long the police can hold him in their own custody for interrogation, and a long one — sixty or ninety days, depending on the offence — governing how long he can be held in custody of any kind before the investigation must either produce a chargesheet or release him on what the courts have called an "indefeasible right" to bail.
+
+Miss either clock, on either side, and the consequences are severe. A prosecutor who lets the ninety-first day pass without filing a chargesheet has handed the accused a bail application that succeeds almost automatically, whatever the strength of the case. A defence counsel who fails to notice the sixty-first or ninety-first day, and to file for default bail immediately, may lose an entitlement that a later-filed chargesheet can extinguish. Section 187 is arithmetic with a person's liberty riding on getting the sum right.
+:::
+
+::: story A section built to answer one question at each of its nine sub-sections
+Section 187 reads like a single long provision, but it is really a sequence of narrower questions, each answered once. Sub-section (1) asks: what must the police do when twenty-four hours is not enough? Sub-sections (2)–(3) ask: how long can a Magistrate authorise custody, and how much of that can be police custody rather than judicial custody? Sub-section (4) asks: does the accused have to be produced physically every time? Sub-section (5) asks: who is disqualified from authorising police custody at all, and where can a person actually be held? Sub-section (6) asks: what happens when no Magistrate is available? Sub-sections (7)–(8) ask: what accountability attaches to the Magistrate's own order? And sub-sections (9)–(10) ask an entirely different question — what happens to a *summons-case* investigation that drags on for six months? Reading section 187 provision-by-provision, rather than as one undifferentiated block, is what makes it usable under time pressure.
+:::
+
+### The Act, decompiled
+
+> **187. Procedure when investigation cannot be completed in twenty-four hours.** (1) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by [[=section 58]], and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall [[!forthwith transmit to the nearest Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate]].
+>
+> (2) The Magistrate to whom an accused person is forwarded under this section may, irrespective of whether he has or has no jurisdiction to try the case, after taking into consideration whether such person has not been released on bail or his bail has been cancelled, [[?authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section (3)]], and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Magistrate having such jurisdiction.
+>
+> (3) The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but [[!no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding]]—
+>
+> (i) ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of ten years or more;
+>
+> (ii) sixty days, where the investigation relates to any other offence,
+>
+> and, on the expiry of the said period of ninety days, or sixty days, as the case may be, [[!the accused person shall be released on bail if he is prepared to and does furnish bail]], and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXV for the purposes of that Chapter.
+>
+> (4) [[!No Magistrate shall authorise detention of the accused in custody of the police under this section unless the accused is produced before him in person for the first time and subsequently every time till the accused remains in the custody of the police]], but the Magistrate may [[?extend further detention in judicial custody on production of the accused either in person or through the audio-video electronic means]].
+>
+> (5) [[!No Magistrate of the second class, not specially empowered in this behalf by the High Court, shall authorise detention in the custody of the police]].
+>
+> *Explanation I.* — For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section (3), [[!the accused shall be detained in custody so long as he does not furnish bail]].
+>
+> *Explanation II.* — If any question arises whether an accused person was produced before the Magistrate as required under sub-section (4), the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the audio-video electronic means, as the case may be:
+>
+> Provided that in case of a woman under eighteen years of age, [[!the detention shall be authorised to be in the custody of a remand home or recognised social institution]]:
+>
+> Provided further that [[!no person shall be detained otherwise than in police station under police custody or in prison under judicial custody or a place declared as prison by the Central Government or the State Government]].
+>
+> (6) Notwithstanding anything contained in sub-section (1) to sub-section (5), the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Magistrate is not available, [[?transmit to the nearest Executive Magistrate, on whom the powers of a Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate]], and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, [[?authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate]]; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section (3):
+>
+> Provided that before the expiry of the period aforesaid, [[!the Executive Magistrate shall transmit to the nearest Judicial Magistrate the records of the case together with a copy of the entries in the diary relating to the case]] which was transmitted to him by the officer in charge of the police station or the police officer making the investigation, as the case may be.
+>
+> (7) A Magistrate authorising under this section detention in the custody of the police shall [[!record his reasons for so doing]].
+>
+> (8) Any Magistrate other than the Chief Judicial Magistrate making such order shall [[!forward a copy of his order, with his reasons for making it, to the Chief Judicial Magistrate]].
+>
+> (9) If in any case triable by a Magistrate as a summons-case, the investigation is not concluded within a period of six months from the date on which the accused was arrested, [[!the Magistrate shall make an order stopping further investigation into the offence]] unless the officer making the investigation satisfies the Magistrate that for special reasons and in the interests of justice the continuation of the investigation beyond the period of six months is necessary.
+>
+> (10) Where any order stopping further investigation into an offence has been made under sub-section (9), the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, [[?vacate the order made under sub-section (9) and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify]].
+
+**Statutory mechanics.**
+
+| Operative expression | Character | Consequence |
+|---|---|---|
+| s. 187(1) "shall forthwith transmit… and forward the accused" | Mandatory | This is the mechanism that discharges the twenty-four-hour duty under s. 58 when investigation genuinely cannot finish in time — it is not a discretionary alternative to release |
+| s. 187(2) "for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days" | Discretionary power, tightly capped | This is the sub-section that fixes how much of the total detention period can be *police* custody, and — critically — extends the *window* within which that fifteen days can be authorised, in parts, well beyond the first fifteen days |
+| s. 187(3) "no Magistrate shall authorise… for a total period exceeding" ninety/sixty days | Mandatory ceiling | An absolute outer limit on total detention pending investigation, calibrated to offence severity |
+| s. 187(3) "the accused… shall be released on bail" on expiry | Mandatory consequence | This is the statutory source of what the courts call the "indefeasible right" to default bail — see the winning ratio below |
+| s. 187(4) "unless the accused is produced… in person for the first time" | Mandatory precondition, with a later relaxation | First production must be physical; only *subsequent* extensions may proceed by audio-video means |
+| s. 187(5) | Mandatory disqualification | A second-class Magistrate, unless specially empowered, simply lacks the power to authorise police custody — an order from such a Magistrate is void on its face for want of jurisdiction, not merely irregular |
+| Explanation II, second proviso | Mandatory, closed list of custody locations | Detention can only be in a police station under police custody, in prison under judicial custody, or in a place the government has specifically declared a prison — nowhere else |
+| s. 187(9) "the Magistrate shall make an order stopping further investigation" | Mandatory, with an exception | A distinct six-month clock for summons-triable cases, defeasible only by the Magistrate being affirmatively satisfied that special reasons justify continuing |
+
+::: proviso Sub-section (2)'s "initial forty days or sixty days" is the single most consequential drafting change in this section, and it is easy to read past it
+Under the pre-BNSS understanding that the Supreme Court had settled — most recently and forcefully in litigation over economic-offence remands — police custody exceeding the initial fifteen-day window from first production was not available at all, however serious the offence or however much of the total sixty/ninety-day period remained. Sub-section (2) legislatively supersedes that position: it now permits the Magistrate to authorise up to fifteen days of custody "in the whole, or in parts," at *any point* during the initial forty days (for offences carrying the sixty-day outer limit) or sixty days (for offences carrying the ninety-day outer limit). In practice, this means an investigating agency that did not seek police custody in the first fortnight is no longer automatically shut out of it — it can still apply well into the second month, provided the request falls within the applicable forty- or sixty-day window and the fifteen-day aggregate cap is respected. This is a substantial expansion of police-custody availability relative to the position practitioners trained on the CrPC will instinctively assume, and treating it as a mere renumbering of the old fifteen-day rule is a serious and avoidable error.
+:::
+
+::: proviso The second proviso to Explanation II closes a custody-location loophole that the bare fifteen/sixty/ninety-day arithmetic does not address
+It is not enough to confirm that a detention order falls within the permitted number of days — the *place* of detention must also independently satisfy the closed list in the second proviso: a police station under police custody, a prison under judicial custody, or a place specifically declared a prison by government notification. A detention that is otherwise perfectly timed but occurs anywhere outside this list — an unnotified private facility, for instance — is defective on this separate ground, regardless of how many days of the sixty/ninety-day period remain.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Bharat is arrested at 10 a.m. on Monday. By 9 a.m. on Tuesday, the investigation is nowhere near complete. What must the investigating officer do, and what happens next?"
+  :gates="[
+    { q: 'Does the investigating officer hold the rank of sub-inspector or above?', note: 'Sub-section (1) is restricted to this rank — a junior officer cannot invoke it.', no: 'A more senior officer must handle the transmission to the Magistrate; the twenty-four-hour clock under s. 58 does not pause for this.' },
+    { q: 'Are there grounds for believing the accusation is well-founded, and can the case-diary entries and Bharat both be transmitted to the nearest Magistrate before the twenty-four hours under section 58 expire?', note: 'This is the mechanism that lawfully extends custody beyond the twenty-four-hour production deadline — nothing else does.', no: 'Absent this transmission within the window, section 58 requires release; there is no other route to lawful continued custody.' }
+  ]"
+  result="The officer transmits the case-diary entries and forwards Bharat to the nearest Magistrate, who may then authorise further custody under sub-sections (2)–(3), subject to the fifteen-day police-custody cap and the sixty/ninety-day outer ceiling."
+  resultKind="mandatory"
+  caveat="A Magistrate of the second class, unless specially empowered by the High Court, cannot authorise police custody at all under sub-section (5) — confirm the forwarding Magistrate's class and empowerment before assuming any order for police custody is valid."
+/>
+
+<MicroTree
+  input="Sixty days have passed since Bharat's arrest, and the offence carries a maximum sentence of seven years — so the outer ceiling is sixty days, not ninety. No chargesheet has been filed. What is Bharat entitled to?"
+  :gates="[
+    { q: 'Has the sixty-day (or, for the more serious offence bracket, ninety-day) period from arrest actually expired without a chargesheet being filed?', note: 'The right under sub-section (3) is calculated from the date of arrest, and depends on which bracket — sixty or ninety days — the offence falls into.', no: 'No default-bail entitlement has yet accrued; ordinary bail principles, not sub-section (3), govern any application at this stage.' },
+    { q: 'Is Bharat prepared to and does he furnish bail?', note: 'Sub-section (3) conditions release on the accused actually furnishing bail, not merely on the period having expired.', no: 'Explanation I is explicit: the accused remains in custody so long as he does not furnish bail, notwithstanding the period’s expiry.' }
+  ]"
+  result="Bharat has an indefeasible right to be released on bail under sub-section (3) — a right that accrues on expiry of the period and is defeated only if a chargesheet is filed, or bail is actually furnished after chargesheet, before the right is exercised."
+  resultKind="mandatory"
+  caveat="This is not a comment on the merits of the case — a default-bail order under sub-section (3) says nothing about guilt or innocence, and can be cancelled later on ordinary bail-cancellation grounds if the accused misuses liberty."
+/>
+
+### In plain English
+
+**Section 187 does two very different jobs, and conflating them is the most common practitioner error.** One job is procedural: how does an arrested person move from police custody into the court system when twenty-four hours is not enough? The other is substantive: how long, in total, can any form of custody last before the investigation must either produce a chargesheet or release the accused? The twenty-four-hour transmission in sub-section (1) is about the first job; the fifteen/sixty/ninety-day arithmetic in sub-sections (2)–(3) is about the second. A case can comply perfectly with one and still be defective on the other.
+
+**The fifteen-day police-custody window is now much wider than CrPC-trained instinct suggests.** Sub-section (2)'s "in the whole, or in parts, at any time during the initial forty days or sixty days" is not the old rule with new numbers — it is a materially different rule, permitting an investigating agency to seek fresh tranches of police custody well past the first fortnight, provided the aggregate stays within fifteen days and the request falls inside the applicable forty- or sixty-day window. Practitioners on both sides need to track two separate figures for every remand: how many days of police custody have actually been used against the fifteen-day cap, and how far into the forty/sixty-day window the case currently stands.
+
+**The sixty/ninety-day ceiling is not a mere administrative deadline — it produces an entitlement, not a discretion.** On expiry, sub-section (3) does not say a Magistrate *may* release the accused on bail; it says the accused *shall* be released, subject only to actually furnishing bail. This is what the courts have repeatedly described as an indefeasible right, distinct in character from an ordinary bail application assessed on the merits of the accusation.
+
+**The custody-location and production safeguards exist to prevent the sixty/ninety-day arithmetic from being satisfied on paper while being defeated in substance.** A detention that is correctly timed but held somewhere outside the closed list of permitted locations, or a police-custody extension authorised without the accused ever being physically produced the first time, has not actually complied with section 187, whatever the calendar shows.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 167 → BNSS 2023, s. 187.** ⚠️ *Unverified — confirm against a CrPC bare Act text before citing; this repository holds the BNSS text only.*
+
+**Delta bucket: substantively amended.** The broad architecture — twenty-four-hour transmission, Magistrate-authorised detention, a fifteen-day police-custody cap, a sixty/ninety-day outer ceiling calibrated to offence severity, default bail on expiry, the second-class-Magistrate disqualification, and the six-month summons-case investigation-stop mechanism — carries forward from the CrPC framework the drafter recalls. Three changes are substantive enough to place s. 187 outside the "renumbered with drafting changes" bucket. First, and most significant, sub-section (2)'s extension of the window within which the fifteen-day police-custody cap can be used — "at any time during the initial forty days or sixty days" — materially expands police-custody availability beyond what the Supreme Court had settled as the position under the CrPC's fifteen-day rule. Second, sub-section (4)'s allowance for subsequent (not first) production by audio-video electronic means is new to this provision. Third, the second proviso to Explanation II, expressly closing the list of lawful custody locations, does not appear to have a direct CrPC equivalent in the same explicit form.
+
+::: info Verify before citing
+The mapping to CrPC s. 167 is given from the drafter's working knowledge and has not been checked against a CrPC bare Act text held in this repository. The claim that the pre-BNSS position confined police custody to the first fifteen days from production, based on Supreme Court authority in litigation over economic-offence remands, is likewise recorded from working knowledge of the general proposition rather than a specific, confirmed citation — do not cite a specific case for that proposition without independently locating and verifying it first.
+:::
+
+**What a practitioner must now do differently.** First, for any remand application filed after the first fortnight, do not assume police custody is foreclosed merely because more than fifteen days have passed since arrest — check whether the case still sits within the applicable forty- or sixty-day window and whether the fifteen-day aggregate has been exhausted; sub-section (2) may still permit it. Second, calendar the sixty- or ninety-day outer ceiling from the date of arrest the moment a case is taken on, and diarise it independently of the police-custody question, since default bail turns on this separate figure. Third, on any remand order, confirm the custody location against the closed list in Explanation II's second proviso, and confirm first production was physical, not remote — both are independently pleadable grounds distinct from the day-count itself.
+
+### Test your instinct
+
+::::instinct The police-custody application filed on day thirty-five
+
+Bharat was arrested for an offence carrying a maximum sentence of seven years, placing the case in the sixty-day bracket and the forty-day police-custody window. No police custody was sought in the first fortnight. On day thirty-five, the investigating officer, having developed new leads, applies for five days of police custody.
+
+Can the Magistrate grant this application?
+
+:::ruling Reveal the ruling
+Yes, provided the fifteen-day aggregate has not already been exhausted. Day thirty-five falls within the "initial forty days" window that sub-section (2) fixes for a sixty-day-bracket offence, and the sub-section expressly permits the fifteen-day police-custody allowance to be used "in the whole, or in parts, at any time" within that window — not only in the first fortnight. A CrPC-trained instinct that police custody is unavailable once fifteen days have passed since arrest would lead to the wrong answer here; the relevant question is not how many days have passed since arrest, but whether the case is still within the forty-day window and whether five more days would keep the aggregate at or under fifteen.
+::::
+
+::::instinct The chargesheet filed on the morning of day ninety-one
+
+Deepa is under investigation for an offence carrying life imprisonment, placing her in the ninety-day bracket. On the morning of day ninety-one, before Deepa's counsel has filed an application for default bail, the investigating agency files a chargesheet.
+
+Has Deepa lost her right to default bail?
+
+:::ruling Reveal the ruling
+Yes, on the timing described. The indefeasible right to default bail under sub-section (3) accrues on expiry of the ninety-day period, but it must actually be exercised — ordinarily by filing an application for bail — before the chargesheet is filed, for it to defeat the chargesheet's effect. A chargesheet filed before any application for default bail is made, even by a matter of hours after the period's technical expiry, is generally treated as having cured the default and taken the case out of sub-section (3) altogether, leaving Deepa to seek bail on the ordinary merits. This is precisely why practitioners are told to diarise the sixty/ninety-day date and file the moment it expires, rather than waiting for a more convenient hearing date.
+::::
+
+::::instinct The remand extension conducted entirely by video, including the first appearance
+
+Bharat is arrested in a location far from the nearest Magistrate's court. To save time, the police arrange for his very first production before the Magistrate — the one authorising his initial detention — to be conducted entirely through audio-video electronic means, with Bharat never being brought physically before the court.
+
+Is this first detention order valid?
+
+:::ruling Reveal the ruling
+No. Sub-section (4) draws an explicit line between the first production, which must be in person, and subsequent productions, which may proceed by audio-video means. The relaxation for audio-video production applies only to extending detention on production "either in person or through the audio-video electronic means" for subsequent appearances — it does not reach back to cover the first production, which the text requires to be physical. A detention order resting on a first production conducted entirely by video has not satisfied sub-section (4)'s precondition, and is vulnerable to challenge on that specific ground independent of the merits of the detention itself.
+::::
+
+::::instinct The summons-case investigation still open after eight months
+
+Anita is under investigation for an offence triable by a Magistrate as a summons-case. Eight months after her arrest, the investigation remains open, and no order under sub-section (9) has been passed by the Magistrate, nor has the officer offered any special-reasons justification for the continued investigation.
+
+What should have happened at the six-month mark, and what is the consequence of it not happening?
+
+:::ruling Reveal the ruling
+At the six-month mark, sub-section (9) required the Magistrate to make an order stopping further investigation, unless the investigating officer affirmatively satisfied the Magistrate that special reasons, in the interests of justice, justified continuing beyond that point. The duty is on the Magistrate to act, not merely available on application — though in practice it is frequently the defence that has to bring the six-month expiry to the Magistrate's attention. Where, as here, eight months have passed with no order and no special-reasons justification on record, Anita's counsel has a strong basis to apply for an order stopping the investigation under sub-section (9); if such an order is later made, sub-section (10) still leaves the door open for the Sessions Judge to direct further investigation on being satisfied it ought to be made — so a stop order is not necessarily the end of the matter, but the officer's silence up to the eight-month mark is itself a default worth placing on record.
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**M. Ravindran v. Intelligence Officer, Directorate of Revenue Intelligence**, (2021) 2 SCC 485. ⚠️ *Verify bench strength before citing — recorded from working knowledge, not independently confirmed against the official report.*
+
+**Ratio.** The right to default bail on expiry of the statutory investigation period is not a mere statutory formality but a fundamental right flowing from the protection of personal liberty under Article 21 of the Constitution, and is enforceable as an "indefeasible right" once the period expires without a chargesheet being filed. The right accrues the moment the period expires and continues until the accused actually avails of it, ordinarily by filing an application seeking release on default bail; it is defeated only if a chargesheet is filed, or a competent extension is granted, before the accused exercises the right — not merely because the accused could theoretically have applied earlier. The court laid down that once an application is filed, the accused's right is not defeated by the accident of the application not being disposed of before the chargesheet is subsequently filed.
+
+**Practitioner takeaway.** *"On expiry of the sixty- or ninety-day period under section 187(3), file the default-bail application immediately — the right, per M. Ravindran, is indefeasible from the moment it accrues, but it must be exercised before the chargesheet lands, not merely available in the abstract."*
+
+**BNSS caveat.** *M. Ravindran* construes CrPC s. 167(2)'s default-bail mechanism, which s. 187(3) carries forward with the same "shall be released on bail" language and the same sixty/ninety-day, offence-severity-calibrated structure identified above as substantively amended only with respect to the police-custody window and production/location provisions — the default-bail mechanism itself is not among the changes flagged in this repository's review of the text. The ratio should therefore apply with undiminished force to s. 187(3), since the specific textual hook the judgment construes — an accused's entitlement to be released on bail on expiry of the period, defeated only by a timely chargesheet — is reproduced in materially the same words.
+
+#### Sword and shield
+
+| | Offensive use (defence, seeking default bail) | Defensive use (prosecution, resisting it) |
+|---|---|---|
+| On the day-count itself | Diarise the sixty/ninety-day date at the moment of arrest and file the default-bail application the instant it expires, per *M. Ravindran*'s emphasis on timely exercise of the right. | Where a chargesheet is filed before any default-bail application, argue the right was never exercised in time and the ordinary merits-based bail standard now applies. |
+| On the police-custody window | Where police custody is sought well past the first fortnight, test whether the request genuinely falls within the applicable forty- or sixty-day window and whether the fifteen-day aggregate is respected — do not concede the point merely because more than fifteen days have passed. | Rely on sub-section (2)'s extended window affirmatively when seeking custody after the first fortnight; do not assume, incorrectly, that the old fifteen-day-from-arrest limit still applies. |
+| On production and custody location | Scrutinise every remand order for physical first production and for a custody location within Explanation II's closed list — either defect is independently pleadable. | Ensure the remand file affirmatively documents physical first production and a compliant custody location, closing off this line of challenge before it is raised. |
+| On the six-month summons-case clock | Where the offence is summons-triable and six months have passed without a stopping order or a documented special-reasons justification, apply under sub-section (9) directly. | Where continued investigation beyond six months is genuinely necessary, place the special-reasons justification on record proactively rather than waiting for the defence to raise the omission. |
+
+#### The limitation clock
+
+| Event | Period | Source | Consequence of default |
+|---|---|---|---|
+| Transmitting case-diary entries and forwarding the accused to a Magistrate | Before the s. 58 twenty-four-hour production deadline expires | s. 187(1) | Failure defeats the extension mechanism entirely — s. 58's ordinary release obligation governs |
+| Police-custody authorisation (aggregate) | Maximum **15 days**, usable in parts within the initial **40 days** (60-day-bracket offences) or **60 days** (90-day-bracket offences) | s. 187(2) | Custody sought outside the applicable window, or beyond the 15-day aggregate, is not authorised by this sub-section |
+| Outer ceiling on total detention pending investigation | **90 days** (offences punishable with death, life imprisonment, or 10+ years) or **60 days** (all other offences) | s. 187(3) | Indefeasible right to default bail accrues on expiry, per *M. Ravindran* — defeated only by a timely chargesheet or extension |
+| Executive Magistrate detention (where no Magistrate available) | Maximum **7 days** in the aggregate | s. 187(6) | Counted toward, not additional to, the s. 187(3) sixty/ninety-day ceiling |
+| Summons-case investigation-stop clock | **6 months** from arrest | s. 187(9) | Magistrate must order investigation stopped absent a documented special-reasons justification |
+
+#### Interlocking matrix
+
+| Connects to | Relationship |
+|---|---|
+| **BNSS s. 58** | Fixes the twenty-four-hour production deadline that s. 187(1)'s transmission mechanism is designed to lawfully extend beyond — the two sections must be read together for any custody timeline. |
+| **BNSS Chapter XXXV (bail provisions)** | Sub-section (3) expressly deems a person released under it to be released under Chapter XXXV "for the purposes of that Chapter" — default bail is procedurally a bail order, carrying the same conditions and cancellation exposure as any other. |
+| **BNSS s. 193** | The chargesheet ("police report") whose filing (or non-filing) before the sixty/ninety-day mark determines whether default bail accrues or is defeated — the two sections operate as a single race-against-the-clock mechanism. |
+| **BNS 2023 offence provisions** | The maximum sentence prescribed for the alleged offence determines which bracket — the sixty-day or the ninety-day ceiling — governs; this must be checked against the specific BNS provision invoked, not assumed from the offence's popular characterisation. |
+| **Applicable forms / filings** | An application for default bail under s. 187(3), to be filed the moment the period expires; a challenge to a police-custody order on the ground it falls outside the sub-section (2) window or exceeds the fifteen-day aggregate; an application under sub-section (9) to stop a stalled summons-case investigation; an application to the Sessions Judge under sub-section (10) to revive a stopped investigation. |
+
+#### The authorities
+
+**Uday Mohanlal Acharya v. State of Maharashtra**, (2001) 5 SCC 453. ⚠️ *Verify before citing — recorded from working knowledge.* Held that the indefeasible right to default bail accrues on expiry of the statutory period and is not defeated by the subsequent filing of a chargesheet where the accused had already applied for bail before that filing, even if the application had not yet been formally allowed. **How it is used:** an earlier authority supporting the same "exercised the right in time" principle that *M. Ravindran* later consolidated — useful where a bench is more familiar with the earlier line of authority, or to show the proposition's longer pedigree.
+
+::: info Verify before citing
+The citation, bench composition, and precise holding of *Uday Mohanlal Acharya v. State of Maharashtra* are recorded from the drafter's working knowledge and secondary-source research, and have not been independently verified against the official report. Verify before placing either authority before a court.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume, on CrPC-trained instinct, that police custody is unavailable once fifteen days have passed since arrest — check sub-section (2)'s forty- or sixty-day window first; conceding the point too early can cost a client a legitimate line of resistance to a late-filed custody application, and can cost the prosecution a legitimate application if it is abandoned out of the same mistaken assumption.
+2. Do not wait for a convenient hearing date to file a default-bail application — file the moment the sixty- or ninety-day period expires; per *M. Ravindran* and *Uday Mohanlal Acharya*, the right must be exercised promptly to resist being overtaken by a later-filed chargesheet.
+3. Do not overlook the custody-location and first-production safeguards when reviewing a remand order — they are independently pleadable defects, distinct from and not cured by an otherwise correct day-count.
+4. Where a summons-case investigation passes the six-month mark without a stopping order, do not assume the omission is merely administrative — raise it under sub-section (9) directly, since the burden is on the investigating officer to justify continuation, not on the accused to disprove diligence.
+
+**Timing.** The single most important timing discipline under section 187 is diarising the sixty- or ninety-day date from the moment of arrest, independently of any other deadline in the case, and filing the default-bail application the instant it expires rather than at the next convenient hearing — the entire *M. Ravindran*/*Uday Mohanlal Acharya* line of authority turns on exactly this point.
+
+**Model checklist for a section 187 remand review:**
+
+1. Confirm the s. 58 twenty-four-hour production deadline was met by the s. 187(1) transmission, or identify the defect if it was not.
+2. Track police-custody days used against the fifteen-day aggregate cap, and confirm any custody application falls within the applicable forty- or sixty-day window under sub-section (2).
+3. Calendar the sixty- or ninety-day outer ceiling from the date of arrest, based on the correct offence-severity bracket, at the earliest possible stage of the case.
+4. Confirm first production before the Magistrate was physical, and that any subsequent audio-video production was properly recorded per Explanation II.
+5. Confirm the custody location on every remand order falls within the closed list in Explanation II's second proviso.
+6. Confirm the authorising Magistrate was not disqualified from ordering police custody under sub-section (5).
+7. On expiry of the outer ceiling, file the default-bail application immediately, and be prepared to furnish bail without delay to perfect the release.
+8. For summons-triable cases, calendar the six-month investigation-stop clock under sub-section (9) independently of the sixty/ninety-day ceiling.
+
+---
+
 
