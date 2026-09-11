@@ -111,3 +111,107 @@ Section 302(2)'s countersigning chain ties to the Chief Judicial Magistrate's su
 4. Remember that "prison" under section 301(b) reaches subsidiary jails, reformatories and Borstal institutions — do not assume this Chapter is confined to ordinary jails when identifying whether a person is within its scope.
 
 ---
+
+## Sections 304–306 — When the officer in charge can refuse, how a valid order is actually executed, and the saving of the commission route
+
+### The dispute this solves
+
+::: oneminute A section 302 order that survives both the countersigning checkpoint and the absence of a section 303 block still does not guarantee production — section 304 gives the officer in charge of the prison his own four independent grounds to abstain: the person is too sick or infirm to be moved; he is under committal for trial or on remand pending trial or a preliminary investigation; his custody would expire before he could be produced and returned; or he is covered by a standing section 303 exclusion order. Abstaining is not silent non-compliance — the officer must send the Court a statement of reasons. But even the committal/remand ground has its own carve-out: if the person is needed to give evidence somewhere no more than twenty-five kilometres from the prison, the officer cannot abstain on that ground alone. Section 305 then supplies the execution mechanics for an order that clears every checkpoint — production at the stated time, custody in or near the Court for the duration, and return once examined or once the Court itself authorises the person's return. Section 306 closes the chapter with a saving clause: none of this displaces the Court's separate power under section 319 to examine a confined or detained person on commission instead of physically producing him, with Part B of Chapter XXV's commission-examination procedure applying to that route exactly as it would to anyone else examined on commission.
+:::
+
+::: story A remand prisoner needed twenty kilometres away, and why the officer cannot say no
+An accused is under remand pending trial in a case unrelated to the proceeding that needs his evidence. A Court in a neighbouring town, twenty kilometres from the prison, orders his production as a witness under section 302. The officer in charge initially assumes section 304(b)'s remand ground lets him abstain — the person is, after all, under remand pending trial. But section 304's own proviso specifically strips that ground away where the person's attendance is required for giving evidence at a place not more than twenty-five kilometres from the prison. Twenty kilometres is within that band. The officer cannot abstain on the remand ground here, and must comply with section 305's production mechanics instead.
+:::
+
+> **304.** Where the person in respect of whom an order is made under section 302—
+> (a) is by reason of sickness or infirmity unfit to be removed from the prison; or
+> (b) is under committal for trial or under remand pending trial or pending a preliminary investigation; or
+> (c) is in custody for a period which would expire before the expiration of the time required for complying with the order and for taking him back to the prison in which he is confined or detained; or
+> (d) is a person to whom an order made by the State Government or the Central Government under section 303 applies,
+>
+> the officer in charge of the prison [[!shall]] abstain from carrying out the Court's order and [[!shall]] send to the Court a statement of reasons for so abstaining:
+>
+> Provided that where the attendance of such person is required for giving evidence at a place not more than twenty-five kilometres distance from the prison, the officer in charge of the prison [[!shall not]] so abstain for the reason mentioned in clause (b).
+>
+> **305.** Subject to the provisions of section 304, the officer in charge of the prison [[!shall]], upon delivery of an order made under sub-section (1) of section 302 and duly countersigned, where necessary, under sub-section (2) thereof, cause the person named in the order to be taken to the Court in which his attendance is required, so as to be present there at the time mentioned in the order, and [[!shall]] cause him to be kept in custody in or near the Court until he has been examined or until the Court authorises him to be taken back to the prison in which he was confined or detained.
+>
+> **306.** The provisions of this Chapter [[!shall be]] without prejudice to the power of the Court to issue, under section 319, a commission for the examination, as a witness, of any person confined or detained in a prison; and the provisions of Part B of Chapter XXV [[!shall]] apply in relation to the examination on commission of any such person in the prison as they apply in relation to the examination on commission of any other person.
+
+::: proviso Section 304 is mandatory in form — the officer "shall" abstain, not "may"
+Each of the four grounds in section 304, once it applies, obliges the officer in charge to abstain and to report his reasons — it is not a discretionary courtesy he may choose to extend. The twenty-five-kilometre proviso is drawn just as narrowly: it disables only the committal/remand ground in clause (b), and only where the evidence is needed nearby; it does not touch the sickness, custody-expiry, or section 303-exclusion grounds in clauses (a), (c) and (d) at all.
+:::
+
+::: proviso Section 306 is a saving clause, not an alternative gateway into this Chapter
+Section 319's commission power (⚠️ not yet built in this repository) and Part B of Chapter XXV's commission-examination procedure (⚠️ not yet built) operate independently of everything in ss.301–305. A Court that decides physical production is unnecessary, impractical, or blocked by one of section 304's grounds is not stuck — it can instead have the confined or detained person examined on commission, using the ordinary commission machinery as though he were any other person being examined that way.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An officer in charge of a prison has received a validly countersigned, unblocked section 302 order — must he produce the person?"
+  :gates="[
+    { q: 'Is the person free of any of section 304\'s four abstention grounds — unfit by sickness/infirmity, under committal/remand/preliminary-investigation, custody expiring too soon, or covered by a section 303 exclusion?',
+      note: 'Each ground, once it applies, makes abstention mandatory, not discretionary',
+      no: 'Check the twenty-five-kilometre proviso next — it may still require production despite the committal/remand ground' },
+    { q: 'If the only ground raised is committal/remand/preliminary-investigation under clause (b), is the person\'s attendance required for evidence at a place more than twenty-five kilometres from the prison?',
+      note: 'The proviso strips away the clause (b) ground specifically for nearby evidence — it does not touch the other three grounds',
+      no: 'The officer cannot abstain on the clause (b) ground here, and must produce the person under section 305' }
+  ]"
+  result="The officer in charge must produce the person under section 305 — taken to the Court at the stated time, kept in custody in or near the Court, and returned once examined or once the Court authorises his return"
+  resultKind="mandatory"
+  caveat="Even where production genuinely cannot happen, the Court is not without a remedy — section 306 preserves its separate power to examine the person on commission under section 319, using Part B of Chapter XXV's commission procedure." />
+
+### In plain English
+
+Section 304 is the officer's own checklist, separate from anything the Court or the government has already decided. Four grounds, each mandatory once it applies: too sick to move, tied up in another case's committal or remand, running out of custody time to make the round trip, or blocked by a government order. But there's a narrow exception carved into the second ground — if the evidence is needed close by, being under committal or remand for something else doesn't excuse the officer from producing the person anyway. Clear all of that, and section 305 is pure mechanics: get him to Court on time, keep him secured while he's there, send him back once he's done or the Court says so. And if none of that is workable, section 306 reminds everyone that physical production was never the only option — the Court could have gone the commission route from the start, and still can.
+
+### What changed from the CrPC
+
+⚠️ *As with ss.301–303, this cluster's CrPC counterpart is not a chapter of the CrPC itself but the separate Prisoners (Attendance in Courts) Act, 1955, which BNSS Chapter XXIV appears to absorb directly into the Sanhita. No specific CrPC or 1955-Act section correspondence is asserted for ss.304–306 — this is flagged as a structural observation pending a dedicated verification pass against that Act's actual text, which has not been consulted in this repository.*
+
+::: proviso Chapter XXIV closed
+This closes Chapter XXIV (Attendance of Persons Confined or Detained in Prisons, ss.301–306). Its structure runs definitions (s.301) → the Court's power to summon a prisoner (s.302) → the government's override power to block removal (s.303) → the officer in charge's own mandatory abstention grounds (s.304) → execution mechanics for an order that clears every checkpoint (s.305) → the saved commission-examination alternative (s.306). Chapter XXV's title and scope have not yet been read in this repository, though section 306 already flags it as containing a "Part B" on commission-examination procedure, and section 319 (Court's commission power) as a cross-reference to be verified when that later chapter is reached.
+:::
+
+### Test your instinct
+
+:::: instinct The officer in charge of a prison receives a validly issued section 302 order for a person who is currently under remand pending trial in an unrelated case, and the requiring Court is forty kilometres away. The officer abstains under section 304(b).
+::: ruling The proviso does not apply here — abstention is proper
+The twenty-five-kilometre proviso only disables the clause (b) ground where attendance is required "at a place not more than twenty-five kilometres distance from the prison." Forty kilometres exceeds that limit, so the ordinary clause (b) ground stands: the officer may abstain on account of the person's remand, and must send the Court a statement of reasons.
+:::
+::::
+
+:::: instinct A Court, informed that the person it needs to examine cannot be produced because he is unfit to be moved under section 304(a), treats the proceeding as at a dead end for that witness's evidence.
+::: ruling Section 306 preserves the commission route
+Section 304(a) blocks physical production, but section 306 makes clear this Chapter's provisions do not exhaust the Court's options — it may instead proceed under section 319 to examine the person on commission, with Part B of Chapter XXV's commission-examination procedure applying to him as it would to anyone else examined that way.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield** for the State, section 304 gives the officer in charge real, mandatory grounds to protect against risky or impractical prisoner movement — sickness, committal/remand elsewhere, custody-time constraints, or a standing government exclusion — and the officer's duty to report reasons in writing creates a paper trail if the abstention is later challenged. As a **sword** for a party needing a nearby witness, the twenty-five-kilometre proviso is a specific, usable counter to a committal/remand-based refusal — counsel should calculate and assert the actual distance when an officer attempts to abstain on that ground for genuinely local evidence.
+
+#### The limitation clock
+
+No new limitation clock is introduced by ss.304–306; section 305's "time mentioned in the order" is fixed by the underlying section 302 order itself, not by this cluster.
+
+#### Interlocking matrix
+
+Section 306 cross-refers to section 319 and to Part B of Chapter XXV (⚠️ both not yet built in this repository) as the alternative commission-examination route. Section 304(b)'s committal/remand ground ties back to the committal mechanics already built in Chapter XVII (already built).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a committal/remand-based abstention is asserted under section 304(b), calculate the actual distance to the place evidence is needed before conceding the point — the twenty-five-kilometre proviso may defeat it outright.
+2. Do not treat a section 304 abstention as the end of the road for securing a confined or detained person's evidence — raise section 306's commission-examination alternative under section 319 as a fallback.
+3. Insist on the officer's written statement of reasons under section 304 whenever abstention is asserted — it is not discretionary courtesy, and its absence is itself a procedural irregularity worth raising.
+4. When drafting a section 302 application in the first place, anticipate section 304's four grounds and address them pre-emptively where facts suggest one might be raised — this can shorten the path to actual production.
+
+---
