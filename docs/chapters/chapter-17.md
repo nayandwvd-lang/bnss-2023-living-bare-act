@@ -243,3 +243,120 @@ Section 230 interlocks directly with section 173 (Chapter XIII, FIR), section 18
 4. Where a witness statement was partly excluded under section 193(7) at the investigation stage, press for the Magistrate's own review of the police officer's reasons under section 230's first proviso before accepting the exclusion as final.
 
 ---
+
+## Sections 232–233 — Committal to the Court of Session, and the parallel-investigation stay
+
+### The dispute this solves
+
+::: oneminute Once the disclosure obligations of sections 230 or 231 are met and it is clear the offence is exclusively triable by the Court of Session, the case cannot simply stay with the Magistrate. Section 232 is the committal machinery — the Magistrate commits the case, remands the accused to custody subject to the bail provisions, forwards the record and the evidentiary material, and notifies the Public Prosecutor. What makes this cluster's flagship feature genuinely new is the clock section 232's first proviso attaches to the whole exercise: ninety days from the date of taking cognizance, extendable to a hard ceiling of one hundred eighty days only for recorded reasons — committal is no longer an open-ended administrative step. Section 233 handles a different, narrower problem: what happens when a private complaint case and a parallel police investigation into the same offence collide, requiring the Magistrate to pause and coordinate rather than let two proceedings run past each other.
+Section 232(a)–(d) reads as a single, mandatory sequence rather than a menu of options: comply with the disclosure sections first, then commit; remand to custody, subject always to the Sanhita's bail provisions, both pending commitment and through the trial; send the record, documents, and articles; and notify the Public Prosecutor that a case has landed in his list. Section 233 then covers the complaint-case-meets-police-investigation scenario: stay the inquiry or trial, call for a report from the investigating officer, and — depending on what that report says — either merge the two proceedings and treat them as if both began on a police report, or simply resume the stayed proceeding unaffected.
+:::
+
+::: story The ninety-day clock, and the complaint that collided with a police file
+A Magistrate takes cognizance of an offence exclusively triable by the Court of Session on 1 January. Section 232's first proviso does not let the committal process drift — the proceedings under this section must be completed within ninety days of that date, extendable by the Magistrate himself, for reasons recorded in writing, to a hard outer limit of one hundred eighty days, and no further. In a separate matter, a private complaint alleging cheating is under inquiry before a Magistrate when it emerges that the police are independently investigating the very same transaction. Section 233(1) requires the Magistrate to stay his own proceeding and call for a report from the investigating officer; if that officer's eventual police report leads to cognizance against the same accused, section 233(2) then requires the complaint case and the police-report case to be tried together, as though both had been instituted on a police report from the start.
+:::
+
+> **232.** When in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he [[!shall]]—
+>
+> (a) commit, after complying with the provisions of section 230 or section 231 the case to the Court of Session, and subject to the provisions of this Sanhita relating to bail, remand the accused to custody until such commitment has been made;
+>
+> (b) subject to the provisions of this Sanhita relating to bail, remand the accused to custody during, and until the conclusion of, the trial;
+>
+> (c) send to that Court the record of the case and the documents and articles, if any, which are to be produced in evidence;
+>
+> (d) notify the Public Prosecutor of the commitment of the case to the Court of Session:
+>
+> *Provided that the proceedings under this section [[!shall]] be completed within a period of ninety days from the date of taking cognizance, and such period [[?may]] be extended by the Magistrate for a period not exceeding one hundred and eighty days for the reasons to be recorded in writing:*
+>
+> *Provided further that any application filed before the Magistrate by the accused or the victim or any person authorised by such person in a case triable by Court of Session, shall be forwarded to the Court of Session with the committal of the case.*
+>
+> **233. (1)** When in a case instituted otherwise than on a police report (hereinafter referred to as a [[=complaint case]]), it is made to appear to the Magistrate, during the course of the inquiry or trial held by him, that an investigation by the police is in progress in relation to the offence which is the subject-matter of the inquiry or trial held by him, the Magistrate [[!shall]] stay the proceedings of such inquiry or trial and call for a report on the matter from the police officer conducting the investigation.
+>
+> **(2)** If a report is made by the investigating police officer under section 193 and on such report cognizance of any offence is taken by the Magistrate against any person who is an accused in the complaint case, the Magistrate [[!shall]] inquire into or try together the complaint case and the case arising out of the police report as if both the cases were instituted on a police report.
+>
+> **(3)** If the police report does not relate to any accused in the complaint case or if the Magistrate does not take cognizance of any offence on the police report, he [[!shall]] proceed with the inquiry or trial, which was stayed by him, in accordance with the provisions of this Sanhita.
+
+::: proviso The ninety/one-hundred-eighty-day committal clock is a ceiling, not a target
+Section 232's first proviso sets ninety days as the ordinary outer limit for completing committal, running from the date cognizance was taken — not from the accused's appearance, and not from any later procedural step. The Magistrate can extend that limit, but only up to one hundred eighty days in total, and only for reasons recorded in writing. There is no route past one hundred eighty days on the face of this section.
+:::
+
+::: proviso Section 233 is about coordination, not a race between two proceedings
+Section 233 does not let a complaint case and a parallel police investigation run independently to see which finishes first. The moment it appears a police investigation into the same offence is in progress, the Magistrate must stay his own proceeding and wait for a report — the outcome then dictates a merger under section 233(2) or a simple resumption under section 233(3), but either way the two tracks are brought into contact with each other rather than left to collide unmanaged.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An accused appears before a Magistrate, and it appears the offence is exclusively triable by the Court of Session — or a parallel police investigation surfaces during a complaint case — what happens next?"
+  :gates="[
+    { q: 'Does it appear to the Magistrate that the offence is triable exclusively by the Court of Session?',
+      note: 'Section 232 applies — commit after complying with section 230 or 231, remand to custody subject to the bail provisions, forward the record and evidentiary material, and notify the Public Prosecutor',
+      no: 'Section 232 does not apply on these facts; check whether section 233’s parallel-investigation scenario instead arises' },
+    { q: 'Has the ninety-day period from the date of taking cognizance elapsed without committal being completed, and without a recorded extension?',
+      note: 'Section 232’s first proviso caps any extension at one hundred eighty days total, and only for reasons recorded in writing',
+      no: 'The committal clock has not yet been breached' },
+    { q: 'Is this instead a complaint case in which a parallel police investigation into the same offence is found to be in progress?',
+      note: 'Section 233(1) requires the Magistrate to stay his own inquiry or trial and call for a report from the investigating officer',
+      no: 'Section 233 does not apply on these facts' },
+    { q: 'Does the resulting police report lead to cognizance being taken against a person who is also an accused in the complaint case?',
+      note: 'Section 233(2) then requires the two cases be inquired into or tried together, as if both were instituted on a police report',
+      no: 'Section 233(3) instead requires simply resuming the stayed inquiry or trial' }
+  ]"
+  result="A Sessions-exclusive offence is committed within the ninety/one-hundred-eighty-day window with the record, evidentiary material, and Public Prosecutor notification all in place; a complaint case colliding with a parallel police investigation is either merged with the resulting police-report case or resumed on its own, depending on what that investigation turns up"
+  resultKind="mandatory"
+  caveat="Custody at every stage of section 232 remains subject to the Sanhita's own bail provisions — committal does not itself authorise detention beyond what those provisions permit." />
+
+### In plain English
+
+Section 232 is the formal handover from Magistrate to Court of Session once it is clear a case belongs there. It is not optional and it is not open-ended: comply with the disclosure duty first, commit the case, keep custody arrangements tethered to the bail rules throughout, forward the actual record and evidence, and tell the Public Prosecutor the case has arrived — all inside ninety days of taking cognizance, stretchable to one hundred eighty days at the outside, and only if the Magistrate writes down why. Section 233 solves a narrower, more specific headache: a private complaint and a police investigation both circling the same offence. Rather than letting them run on separate, potentially inconsistent tracks, the Magistrate has to stop, ask the investigating officer what he has found, and then either fold the two proceedings into one — treating the whole thing as though it began with a police report — or simply pick the complaint case back up if the police report turns out to be about someone else, or leads nowhere.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 232 appears to track CrPC section 209 (commitment of case to Court of Session when offence is triable exclusively by it), and BNSS section 233 appears to track CrPC section 210 (procedure to be followed when there is a complaint case and police investigation in respect of the same offence). The single feature flagged as a likely significant, genuinely new BNSS-era addition — not asserted as settled — is section 232's first proviso: the ninety-day committal deadline, extendable only to one hundred eighty days for recorded reasons. CrPC section 209 is generally recalled as containing no fixed numbered timeline for completing committal at all; if confirmed, this converts committal from an administrative step of indefinite duration into a hard-clocked one, and is likely to be among this Sanhita's most consequential procedural changes for undertrial timelines. Independent confirmation is required before relying on either the fact of the change or its precise figures in a filing.*
+
+### Test your instinct
+
+:::: instinct A Magistrate takes cognizance of an offence exclusively triable by the Court of Session. One hundred and ten days later, committal still has not occurred, and no extension has been recorded in writing.
+::: ruling The ninety-day limit has been exceeded without a valid extension
+Section 232's first proviso requires completion within ninety days of taking cognizance, extendable only by the Magistrate's own recorded-reasons order and only up to one hundred eighty days. Without any recorded extension, the case is already past the ordinary ninety-day limit at day 110, and the delay cannot retroactively be justified by an extension that was never actually made.
+:::
+::::
+
+:::: instinct During the trial of a complaint case, it emerges that the police are independently investigating the same offence. The Magistrate continues the trial without pausing, reasoning that the complaint case was filed first and should simply proceed to its conclusion.
+::: ruling The trial should have been stayed
+Section 233(1) requires the Magistrate to stay the inquiry or trial the moment it is made to appear that a police investigation into the same offence is in progress, and to call for a report from the investigating officer. The fact that the complaint case was filed first does not exempt the Magistrate from this obligation — the section is triggered by the existence of the parallel investigation, not by which proceeding came first.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+State of U.P. v. Lakshmi Brahman, (1983) 2 SCC 372. The Court held, under the CrPC's equivalent committal provision, that an accused released on bail by the committing Magistrate does not need to apply afresh for bail upon commitment to the Court of Session — the earlier bail order continues to operate unless and until the Court of Session itself varies or cancels it. **Practitioner takeaway**: section 232(a)–(b)'s repeated "subject to the provisions of this Sanhita relating to bail" language is not a reset button — a bail order in place at committal should be treated as continuing into the Sessions trial, not as lapsing merely because the file has changed courts.
+
+#### Sword and shield
+
+As a **shield**, section 232's ninety/one-hundred-eighty-day clock protects an accused from indefinite delay in the committal stage itself, and Lakshmi Brahman protects continuity of bail across the handover to the Court of Session. As a **sword**, the defence can press for release, or for scrutiny of any recorded extension, where committal has overrun ninety days without a proper written-reasons extension order; the prosecution's countervailing tool under section 233 is that a parallel police investigation, once it surfaces, entitles the Magistrate to stay a complaint case rather than let it race to a premature conclusion.
+
+#### The limitation clock
+
+Section 232's first proviso is the operative clock in this cluster: ninety days from the date of taking cognizance, extendable only to a hard ceiling of one hundred eighty days, and only for reasons recorded in writing.
+
+#### Interlocking matrix
+
+Section 232(a) interlocks directly with sections 230 and 231 (this Chapter's second cluster) — committal cannot occur without first complying with whichever disclosure section applies. Section 232(a)–(b)'s bail language interlocks with Chapter XXXV (Bail and Bonds, already built). Section 233(2)'s report mechanism interlocks with section 193 (Chapter XIII, already built) for the police report itself.
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Calendar the ninety-day committal clock from the date cognizance was taken, and check any extension order for both a recorded written reason and compliance with the one-hundred-eighty-day outer ceiling.
+2. On commitment to the Court of Session, confirm an existing bail order is being treated as continuing rather than requiring a fresh application, per Lakshmi Brahman.
+3. Where a parallel police investigation surfaces during a complaint case, press for the section 233(1) stay and report rather than allowing the complaint case to proceed to conclusion unchecked.
+4. Where a section 233 police report does lead to cognizance against a complaint-case accused, confirm the two cases are actually being tried together under section 233(2), not run as separate parallel proceedings.
+
+---
