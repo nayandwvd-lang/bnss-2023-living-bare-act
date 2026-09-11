@@ -116,3 +116,102 @@ Section 235(2) interlocks directly with section 242 (this Chapter's fourth clust
 4. Do not treat an imperfect charge as automatically void — flag the specific defect and hold the materiality question (section 238) in reserve rather than conceding it.
 
 ---
+
+## Sections 236–238 — When more detail is needed, how words are read, and when an error actually matters
+
+### The dispute this solves
+
+::: oneminute Sections 234–235's baseline particulars are not always enough. Section 236 adds a further layer where they are not: if time, place and person alone still leave the accused without real notice, the charge must also set out the manner in which the offence was allegedly committed — cheating, for instance, needs the "how," while a straightforward theft or murder charge usually does not. Section 237 is an interpretive rule: words describing an offence in a charge are read in the sense the governing law gives them, not some looser everyday meaning. Section 238 is the cluster's centre of gravity — no error or omission in a charge is treated as material at any stage of the case unless the accused was actually misled by it and a failure of justice resulted.
+Section 238 is a hard, deliberate departure from treating charge defects as automatically fatal. It forces a two-part inquiry every time a defect is raised: was the accused genuinely misled, and did that misleading actually cause a failure of justice? Both have to be shown. A charge that gets a date wrong by a day, or omits a word the accused was never actually confused by, is not a ground for anything on this section alone — but a defect that left the accused defending the wrong case entirely is a different matter altogether.
+:::
+
+::: story The cheating charge that had to explain itself, and the wrong date that fooled no one
+A charge accuses A of cheating B. Section 236's illustration (b) makes this concrete: unlike a straightforward theft or murder charge, a cheating charge must set out the manner in which A cheated B — the bare fact of cheating, without the "how," would not give real notice of what is actually being alleged. In an unrelated case, a charge names the wrong date for an alleged murder — one day off — and gets the victim's name slightly wrong as well. A had heard the committal inquiry, which referred exclusively to the one incident actually in question, and was never confused about which case he was defending. Section 238 treats that kind of error as immaterial precisely because A was not misled and no failure of justice resulted, even though the charge was, on its face, factually incorrect.
+:::
+
+> **236.** When the nature of the case is such that the particulars mentioned in sections 234 and 235 do not give the accused sufficient notice of the matter with which he is charged, the charge [[!shall]] also contain such particulars of the manner in which the alleged offence was committed as will be sufficient for that purpose.
+>
+> **237.** In every charge words used in describing an offence [[!shall]] be deemed to have been used in the sense attached to them respectively by the law under which such offence is punishable.
+>
+> **238.** No error in stating either the offence or the particulars required to be stated in the charge, and no omission to state the offence or those particulars, [[!shall]] be regarded at any stage of the case as material, unless the accused was in fact misled by such error or omission, and it has occasioned a failure of justice.
+
+::: proviso Section 238's two-part test is conjunctive, not alternative
+Section 238 requires both that the accused was in fact misled by the error or omission, and that it has occasioned a failure of justice. Showing only one — a technical error that did not actually confuse the accused, or genuine confusion that nonetheless caused no real prejudice — does not make the error material under this section.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A defect is discovered in a charge — does it actually matter?"
+  :gates="[
+    { q: 'Do the section 234/235 particulars, standing alone, give the accused sufficient notice of the matter charged?',
+      note: 'If the nature of the case requires it, section 236 additionally requires particulars of the manner in which the offence was allegedly committed',
+      no: 'Check whether section 236’s manner-of-commission requirement was also satisfied' },
+    { q: 'Is a word used in the charge being read in a sense other than the one the governing law attaches to it?',
+      note: 'Section 237 requires charge-language to be read in the statutory sense, not a looser everyday one',
+      no: 'Section 237 does not raise an issue on these facts' },
+    { q: 'Was the accused actually misled by the error or omission in the charge?',
+      note: 'This is the first, independent limb of section 238’s materiality test',
+      no: 'The error is not material under section 238, regardless of any prejudice argument' },
+    { q: 'Did that misleading actually occasion a failure of justice?',
+      note: 'This is section 238’s second, independent limb — both limbs must be satisfied together',
+      no: 'The error is not material under section 238 even if the accused was misled' }
+  ]"
+  result="An error or omission in a charge is treated as material — and therefore capable of undoing what followed — only where the accused was genuinely misled by it AND that misleading actually occasioned a failure of justice; anything short of both is treated as immaterial regardless of how the charge reads on paper"
+  resultKind="mandatory"
+  caveat="Section 238 supplies the materiality test; it does not itself validate a charge that never satisfied sections 234–236 in the first place — the two inquiries are related but distinct." />
+
+### In plain English
+
+Section 236 closes a gap sections 234–235 can leave open: sometimes naming the offence and pinning down the time, place and person still is not enough for the accused to actually understand the accusation, and cheating is the textbook example — you have to say how the cheating was done, not just that it happened. Section 237 is a quiet but important interpretive rule: when a charge uses a word from the statute, that word means what the statute says it means, not whatever a plain reading might otherwise suggest. Section 238 is the payoff for the whole chapter's fussiness about particulars: none of it is an end in itself. A wrong date, a missing word, an imperfect particular — none of it matters unless it actually confused the accused about what he had to defend against, and that confusion actually led to an unjust result. Get the accused genuinely lost about the case he is meeting, and the charge's technical correctness stops being the point.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 236 appears to track CrPC section 213 (when manner of committing offence must be stated), BNSS section 237 appears to track CrPC section 214 (words in charge taken in sense of law under which offence is punishable), and BNSS section 238 appears to track CrPC section 215 (effect of errors). All three read as substantively continuous with their CrPC predecessors on this reading — no significant departure is flagged for this cluster, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct A charge of theft states the time, place and the property allegedly stolen, but does not describe how the theft was carried out. The defence objects that the charge is incomplete without that detail.
+::: ruling No additional detail was required for this offence
+Section 236's illustration (a) directly addresses this: a theft charge need not set out the manner in which the theft was effected, because the particulars already required under sections 234 and 235 ordinarily give sufficient notice for a straightforward theft allegation. The objection fails on the facts of a typical theft charge, though a genuinely unusual theft scenario could still require more under section 236's general standard.
+:::
+::::
+
+:::: instinct A charge gets the date of the alleged offence wrong by one day and slightly misstates the victim's name, but the accused had heard the full committal inquiry, which referred exclusively to the one incident in question, and was never confused about which case he was defending.
+::: ruling The error is immaterial under section 238
+Both limbs of section 238's test fail here: the accused was not, in fact, misled by the error, and there is nothing to suggest any failure of justice resulted. An error being visibly present on the face of a charge is not, by itself, enough to make it material — the statute asks what the error actually did to the accused's ability to defend himself, not merely whether it exists.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Willie (William) Slaney v. State of Madhya Pradesh, AIR 1956 SC 116 (Constitution Bench). The Court held that defects in a charge, including a total absence of a charge on a particular head, do not vitiate a trial unless the accused was in fact prejudiced in his defence, framing the underlying question as one of substance and real prejudice rather than of form. **Practitioner takeaway**: an objection built on a charge's technical imperfection alone, without a concrete showing of how the accused was actually misled and how that misleading produced an unjust result, does not by itself get a conviction disturbed.
+
+#### Sword and shield
+
+As a **shield**, section 238 protects convictions and proceedings from being unwound over technical charge defects that did not actually affect the accused's defence — a powerful prosecution answer to a purely formal objection. As a **sword**, the defence's task under section 238 is not simply to point at an error but to build the record showing genuine confusion and its concrete consequence — cross-examination that reveals the accused's misunderstanding, or a defence that was demonstrably aimed at the wrong facts, is what turns a technical defect into a material one under Willie Slaney.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+Section 236 interlocks directly with sections 234–235 (this Chapter's first cluster) as the escalation clause when their particulars alone are insufficient. Section 238's prejudice-and-failure-of-justice test interlocks conceptually with appellate and revisional review of charge defects ⚠️ *not yet built in this repository as of this rendering.*
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. For offences where the bare particulars of time, place and person leave real ambiguity about what is alleged — cheating being the recurring example — confirm the charge also sets out the manner of commission under section 236.
+2. Read any statutory term used in a charge in the sense the governing law gives it, not a looser everyday sense, before arguing the charge is imprecise.
+3. Before raising a charge-defect objection, build the record on both limbs of section 238 — actual confusion of the accused, and the concrete failure of justice that confusion produced — rather than relying on the defect's mere existence.
+4. When defending a conviction against a charge-defect challenge, invoke Willie Slaney's substance-over-form framing and press the appellant to identify specifically what he was prevented from meeting.
+
+---
