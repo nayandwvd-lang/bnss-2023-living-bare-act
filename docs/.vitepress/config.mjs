@@ -95,7 +95,8 @@ export default defineConfig({
           text: 'Trial',
           collapsed: false,
           items: [
-            { text: 'Chapter XIX — Trial before a Court of Session (ss. 248–260)', link: '/chapters/chapter-19' }
+            { text: 'Chapter XIX — Trial before a Court of Session (ss. 248–260)', link: '/chapters/chapter-19' },
+            { text: 'Chapter XX — Trial of warrant-cases by Magistrates (ss. 261–273)', link: '/chapters/chapter-20' }
           ]
         },
         {
