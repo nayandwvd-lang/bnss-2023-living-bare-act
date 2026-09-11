@@ -234,3 +234,150 @@ None beyond the promoted ratio above.
 5. Track total detention against the offence's own maximum sentence — the third proviso's ceiling is absolute.
 
 ---
+
+## Section 480 — Bail in non-bailable offences
+
+### The dispute this solves
+
+::: oneminute Non-bailable does not mean unbailable — it means the presumption flips and the fight moves from "why should I get bail" to "why should I not."
+A bailable offence answers its own bail question by classification; a non-bailable offence hands the question to a human being — the officer in charge of the police station, or the Court — and asks for a judgment call. Section 480 is the statute's attempt to structure that judgment call so it is not pure discretion: it names two categories of person who presumptively should not be released (those facing credible death-or-life-imprisonment suspicion, and repeat offenders of a specific kind), then immediately carves out exceptions to its own exclusions for children, women, the sick and infirm, and for any "special reason" a Court finds just and proper. The provision this site's readers litigate most often is exactly this one — not because it is complicated, but because the words "reasonable grounds for believing" carry the whole weight of a person's liberty.
+:::
+
+::: story Two co-accused, two outcomes
+Ramesh and Suresh are jointly accused of a robbery in which a shot was fired — an offence that, on this telling, is punishable with life imprisonment. Ramesh has no criminal history. Suresh was twice previously convicted of robbery, each time drawing a five-year sentence. When both apply for bail, section 480(1)(i) puts the "reasonable grounds for believing he is guilty of a life-imprisonment offence" question to each of them individually — this is not a formality, it requires the Court to actually look at the material, not recite the clause and refuse. Suppose the Court finds reasonable grounds against both. Ramesh's case ends there — he stays in on clause (i) alone, subject to the child/woman/sick/infirm proviso, which does not apply to him on these facts. Suresh's case has a second problem layered on the first: clause (ii)'s exclusion for a cognizable offence after two or more prior convictions carrying three-to-seven years each. Even if the Court found no reasonable grounds under clause (i) for Suresh, clause (ii) would still block him — unless the Court finds a special reason under the second proviso to release him anyway.
+:::
+
+> **480. (1)** When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court other than the High Court or Court of Session, he [[?may]] be released on bail, but—
+>
+> (i) such person shall [[!not]] be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life;
+>
+> (ii) such person shall [[!not]] be so released if such offence is a cognizable offence and he had been previously convicted of an offence punishable with death, imprisonment for life or imprisonment for seven years or more, or he had been previously convicted on two or more occasions of a cognizable offence punishable with imprisonment for three years or more but less than seven years:
+>
+> Provided that the Court [[?may]] direct that a person referred to in clause (i) or clause (ii) be released on bail if such person is a child or is a woman or is sick or infirm:
+>
+> Provided further that the Court [[?may]] also direct that a person referred to in clause (ii) be released on bail if it is satisfied that it is [[=just and proper]] so to do for any other special reason:
+>
+> Provided also that the mere fact that an accused person may be required for being identified by witnesses during investigation or for police custody beyond the first fifteen days shall [[!not]] be sufficient ground for refusing to grant bail if he is otherwise entitled to be released on bail and gives an undertaking that he shall comply with such directions as may be given by the Court:
+>
+> Provided also that no person shall, if the offence alleged to have been committed by him is punishable with death, imprisonment for life, or imprisonment for seven years or more, be released on bail by the Court under this sub-section without giving an [[!opportunity of hearing]] to the Public Prosecutor.
+>
+> **(2)** If it appears to such officer or Court at any stage of the investigation, inquiry or trial, as the case may be, that there are not reasonable grounds for believing that the accused has committed a non-bailable offence, but that there are sufficient grounds for further inquiry into his guilt, the accused shall, subject to the provisions of section 492 and pending such inquiry, be released on bail, or, at the discretion of such officer or Court, on the execution by him of a bond for his appearance as hereinafter provided.
+>
+> **(3)** When a person accused or suspected of the commission of an offence punishable with imprisonment which may extend to seven years or more or of an offence under Chapter VI, Chapter VII or Chapter XVII of the Bharatiya Nyaya Sanhita, 2023 or abetment of, or conspiracy or attempt to commit, any such offence, is released on bail under sub-section (1), the Court [[!shall]] impose the conditions,—
+>
+> (a) that such person shall attend in accordance with the conditions of the bond executed under this Chapter;
+>
+> (b) that such person shall not commit an offence similar to the offence of which he is accused, or suspected, of the commission of which he is suspected; and
+>
+> (c) that such person shall not directly or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to any police officer or tamper with the evidence,
+>
+> and [[?may]] also impose, in the interests of justice, such other conditions as it considers necessary.
+>
+> **(4)** An officer or a Court releasing any person on bail under sub-section (1) or sub-section (2), [[!shall]] record in writing his or its reasons or special reasons for so doing.
+>
+> **(5)** Any Court which has released a person on bail under sub-section (1) or sub-section (2), [[?may]], if it considers it necessary so to do, direct that such person be arrested and commit him to custody.
+>
+> **(6)** If, in any case triable by a Magistrate, the trial of a person accused of any non-bailable offence is not concluded within a period of sixty days from the first date fixed for taking evidence in the case, such person shall, if he is in custody during the whole of the said period, be released on bail to the satisfaction of the Magistrate, unless for reasons to be recorded in writing, the Magistrate otherwise directs.
+>
+> **(7)** If, at any time, after the conclusion of the trial of a person accused of a non-bailable offence and before judgment is delivered, the Court is of opinion that there are reasonable grounds for believing that the accused is not guilty of any such offence, it [[!shall]] release the accused, if he is in custody, on the execution by him of a bond for his appearance to hear judgment delivered.
+
+::: proviso The 15-day/identification proviso stops a common stalling tactic dead
+Section 480(1)'s third proviso exists because "we might need him for a test identification parade" or "we might need more custody" was, in practice, being used as an open-ended reason to defeat an otherwise-entitled bail application. The proviso says plainly that this, by itself, is never sufficient — if the person is otherwise entitled to bail and is prepared to undertake compliance with the Court's directions, the mere possibility of a future identification exercise or custody beyond the first fifteen days cannot be the reason he stays in.
+:::
+
+⚠️ *This site has not independently confirmed the current content of BNS 2023 Chapter VI, Chapter VII or Chapter XVII against the bare Act — do not assert what offence categories these chapters cover until that is verified; the sub-section (3) mandatory-conditions trigger for those chapters is quoted verbatim above but not yet glossed.*
+
+### How this actually runs
+
+<MicroTree
+  input="A person accused of a non-bailable offence seeks bail from an officer in charge of a police station, or a Court short of the High Court or Court of Session"
+  :gates="[
+    { q: 'Do reasonable grounds exist for believing the person guilty of a death- or life-imprisonment offence?',
+      note: 'This is clause (i) — the Court must actually assess the material, not merely recite the offence category',
+      no: 'Move to the next gate — clause (i) does not block release' },
+    { q: 'Is it a cognizable offence with the specific repeat-conviction history in clause (ii)?',
+      note: 'A single prior conviction for a death/life/seven-plus-year offence, OR two or more prior convictions for a three-to-seven-year cognizable offence',
+      no: 'Neither statutory exclusion applies — release on bail is the default outcome, subject to sub-section (3) conditions if the offence carries seven years or more' },
+    { q: 'Is the person a child, a woman, sick, or infirm — or does the Court find a special reason making release just and proper?',
+      note: 'The first proviso covers clause (i) or (ii); the second proviso’s “special reason” route covers clause (ii) only',
+      no: 'The exclusion in clause (i) or (ii) stands, and bail is refused at this stage' }
+  ]"
+  result="Bail is granted — either because neither exclusion applies, or because a proviso overrides an exclusion that does"
+  resultKind="discretionary"
+  caveat="If the offence carries death, life imprisonment, or seven years or more, the fourth proviso requires the Public Prosecutor be given an opportunity of hearing before any release under this sub-section" />
+
+### In plain English
+
+Section 480 is built as a general discretion (bail "may" be granted) immediately narrowed by two specific exclusions, which are themselves immediately softened by two specific provisos. That layered structure is the whole provision: the Court is not asked "is this person a good candidate for release" in the abstract, it is asked to walk through a checklist — do the death/life-imprisonment grounds exist, does the repeat-offender history apply, and if either does, does the person's own vulnerability or a special reason override it anyway. Sub-sections (2) through (7) are less argued over but still load-bearing: the "further inquiry" release when the evidence looks weak, the mandatory conditions for serious-offence bail, the standing duty to record reasons, the Court's power to send a released person back into custody, the 60-day trial-delay release, and the pre-judgment release where the Court itself doubts guilt before pronouncing.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 437 → BNSS 2023, s. 480.** Renumbered with the sub-section structure preserved closely — the (1)–(7) breakdown, the two exclusion clauses, the four provisos, and the seven-year/specified-offence conditions regime all track the older provision's architecture. The reference to "Chapter VI, Chapter VII or Chapter XVII of the Bharatiya Nyaya Sanhita, 2023" in sub-section (3) replaces the CrPC's IPC chapter cross-references — a substantive interlock change even where the surrounding structure is unchanged, since the underlying BNS chapters must be checked afresh rather than assumed identical to their IPC counterparts. ⚠️ *Confirm the exact CrPC 1973 s. 437 sub-section numbering and the specific IPC chapters it cross-referenced before asserting a clause-for-clause match on the concordance page.*
+
+### Test your instinct
+
+:::: instinct Bail refused solely because an identification parade might be needed
+An accused, otherwise meeting every condition for bail under section 480(1), is refused release because the investigating officer states he may be required for a test identification parade at some point in the investigation.
+::: ruling What actually happens
+This is exactly what the third proviso to section 480(1) forecloses. The mere possibility of a future identification exercise — or of custody being sought beyond the first fifteen days — is expressly stated not to be sufficient ground for refusal, provided the person is otherwise entitled to bail and undertakes to comply with the Court's directions. A refusal resting on this ground alone, with the undertaking on record, does not survive the proviso's plain words.
+:::
+::::
+
+:::: instinct A repeat offender released on a "special reason"
+Suresh, with two prior convictions each carrying five years for a cognizable offence, falls squarely within clause (ii)'s exclusion. His counsel argues for release anyway on the ground that Suresh is the sole caregiver for a terminally ill parent with no other family support, and that his continued detention would leave the parent without care.
+::: ruling What actually happens
+This is precisely the kind of fact pattern the second proviso to section 480(1) is built to reach — it lets the Court release a clause (ii) case if satisfied it is just and proper for "any other special reason." Caregiving responsibility for a dependant with no alternative support has been treated as capable of amounting to such a special reason in comparable discretionary bail contexts, though the finding is fact-specific and the Court retains full discretion to weigh it against the seriousness of the repeat-offence history. What defeats the objection that clause (ii) is an absolute bar is simply that the second proviso exists at all — clause (ii) is not, on the statute's own terms, the last word.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**State of Rajasthan v. Balchand alias Baliay**, AIR 1977 SC 2447 — Krishna Iyer, J., on the philosophy underlying discretionary bail: the basic rule is bail, not jail, and pre-trial detention should be the exception justified by the risk the accused poses to a fair investigation or trial, not the default response to a serious accusation. **Practitioner takeaway:** frame every section 480(1) application around the proposition that liberty is the rule and custody the exception requiring justification — do not let the argument be reframed as the accused having to justify why he deserves release.
+
+#### Sword and shield
+
+As a **sword**, the prosecution can rely on clause (i) or (ii) to resist bail where the material genuinely supports "reasonable grounds," and can insist on the fourth proviso's Public-Prosecutor hearing right for grave offences. As a **shield**, the defence can invoke the third proviso to strip away identification-parade and custody-extension arguments that do not independently justify refusal, and can invoke the first or second proviso to reach release even where clause (i) or (ii) technically applies.
+
+#### The limitation clock
+
+No independent limitation period attaches to section 480 itself; sub-section (6) supplies its own internal clock — 60 days from the first date fixed for taking evidence, in a Magistrate-triable case, before continued custody requires the Magistrate's recorded reasons.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Reasonable grounds of guilt for a death/life-imprisonment offence | Section 480(1)(i) | Bail excluded, subject to the first proviso |
+| Cognizable offence, specific repeat-conviction history | Section 480(1)(ii) | Bail excluded, subject to the first or second proviso |
+| Person is a child, woman, sick, or infirm | Section 480(1), first proviso | Court may release despite clause (i) or (ii) |
+| Special reason making release just and proper | Section 480(1), second proviso | Court may release despite clause (ii) |
+| Weak evidence, grounds for further inquiry only | Section 480(2) | Release on bail or bond pending inquiry, subject to section 492 |
+| Offence carries seven years or more, or falls under the specified BNS chapters | Section 480(3) | Mandatory attendance/non-repetition/non-tampering conditions on release |
+| Trial not concluded within 60 days of first evidence date (Magistrate-triable) | Section 480(6) | Release unless the Magistrate records reasons otherwise |
+| Court doubts guilt after trial, before judgment | Section 480(7) | Mandatory release on bond pending judgment |
+
+#### The authorities
+
+None beyond the promoted ratio above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not argue a clause (i) or (ii) exclusion as though it were absolute — always test it against the first and second provisos before conceding the point.
+2. Do not let "possible identification parade" or "possible further custody" stand unchallenged as a refusal ground — invoke the third proviso by name and put the compliance undertaking on record.
+3. Do not overlook the fourth proviso's Public Prosecutor hearing requirement for grave-offence bail — a grant made without it is procedurally vulnerable regardless of the merits.
+4. Do not assume the sub-section (3) mandatory conditions apply to every bail grant — they are triggered specifically by a seven-year-or-more offence or the named BNS chapters, not by section 480 generally.
+
+**Timing.** Track the 60-day clock in sub-section (6) from the first date fixed for evidence, not from the date of arrest or framing of charge — and be ready to press for release the moment it lapses without a reasoned order extending custody.
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Identify whether clause (i), clause (ii), both, or neither exclusion is engaged on the material actually before the Court.
+2. If an exclusion is engaged, check for a first- or second-proviso override on the specific facts.
+3. Confirm whether the third proviso's identification/custody non-ground applies to any refusal reasoning offered.
+4. Where the offence carries seven years or more, confirm the sub-section (3) conditions were actually imposed and are separately drafted into the bail order.
+5. Where sixty days have passed since the first evidence date in a Magistrate-triable case, check for a recorded-reasons order under sub-section (6) before assuming continued custody is lawful.
+
+---
