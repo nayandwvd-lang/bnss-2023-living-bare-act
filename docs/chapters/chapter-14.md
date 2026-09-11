@@ -208,4 +208,112 @@ This cluster interlocks with sections 197–200 as the offence-specific layer si
 3. In a bigamy-type prosecution under ⚠️ BNS s. 82, consider the first spouse's current residence as an independent venue basis, not just the location of the offence itself.
 4. Where an offence occurred mid-journey, map the entire route under section 203 before conceding that only the origin or destination point can be the venue.
 
+## Sections 204–206 — Joint trials, State-directed transfers, and resolving a jurisdictional standoff
+
+### The dispute this solves
+
+::: oneminute One trial for offences that belong together, a State Government power to move cases between sessions divisions, and a tie-breaker when two Courts both think the case is theirs. Sections 204–206 close out the general venue framework with the rules for what happens once more than one Court is genuinely in the picture.
+Charging every offence separately, in whatever Court happens to have jurisdiction over each individual act, would multiply trials and fragment evidence that really belongs together — section 204 avoids that by letting a single competent Court try offences that could lawfully be charged and tried together under the joinder provisions. Section 205 hands the State Government a broader administrative lever, letting it redirect cases between sessions divisions for reasons of efficient administration, subject to not overriding a superior court's own direction. And section 206 is the actual tie-breaker: when two or more Courts have both taken cognizance of the same offence, the Sanhita does not leave the resulting standoff to chance — it names exactly which High Court decides, and shuts down every other pending proceeding once that decision is made.
+:::
+
+::: story Two Courts, one offence, one winner
+A complaint against Nikhil is filed in Court A in one district; unaware of this, the police also submit a charge sheet for the very same offence to Court B in a neighbouring district. Both Courts take cognizance. Neither is obviously wrong under sections 197–203 — jurisdiction genuinely overlaps. Section 206 resolves it cleanly: if both Courts are subordinate to the same High Court, that High Court decides which one proceeds; if they are subordinate to different High Courts, the High Court within whose appellate jurisdiction proceedings were first commenced decides. The moment that High Court rules, every other proceeding on that same offence stops — Nikhil is not tried twice, and the system is not left running two parallel prosecutions on the same facts.
+:::
+
+> **204.** Where—
+>
+> (a) the offences committed by any person are such that he [[?may]] be charged with, and tried at one trial for, each such offence by virtue of the provisions of section 242, section 243 or section 244; or
+>
+> (b) the offence or offences committed by several persons are such that they [[?may]] be charged with and tried together by virtue of the provisions of section 246,
+>
+> the offences [[?may]] be inquired into or tried by any Court competent to inquire into or try any of the offences.
+>
+> **205.** Notwithstanding anything contained in the preceding provisions of this Chapter, the State Government [[?may]] direct that any case or class of cases committed for trial in any district [[?may]] be tried in any sessions division:
+>
+> Provided that such direction is not repugnant to any direction previously issued by the High Court or the Supreme Court under the Constitution, or under this Sanhita or any other law for the time being in force.
+>
+> **206.** Where two or more Courts have taken cognizance of the same offence and a question arises as to which of them ought to inquire into or try that offence, the question [[!shall]] be decided—
+>
+> (a) if the Courts are subordinate to the same High Court, by that High Court;
+>
+> (b) if the Courts are not subordinate to the same High Court, by the High Court within the local limits of whose appellate criminal jurisdiction the proceedings were first commenced,
+>
+> and thereupon all other proceedings in respect of that offence [[!shall]] be discontinued.
+
+::: proviso Section 205's State power is deliberately subordinate to the courts
+Section 205 opens with "notwithstanding anything contained in the preceding provisions of this Chapter" — a real non-obstante clause, giving the State Government's redirection power priority over the ordinary venue rules. But the proviso immediately caps that power: it cannot be exercised in a way that is repugnant to a High Court or Supreme Court direction. This is a deliberately asymmetric hierarchy — administrative convenience yields to judicial direction, not the other way round.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="More than one offence, or more than one Court, is potentially in play for the same set of facts"
+  :gates="[
+    { q: 'Are the offences ones that could lawfully be charged and tried at one trial under sections 242, 243, 244 (same person) or section 246 (several persons)?',
+      note: 'Section 204 does not create a new joinder rule — it borrows the joinder eligibility already fixed elsewhere and simply answers the venue question for it',
+      no: 'Section 204 does not extend jurisdiction on this basis; each offence’s own venue rule governs separately' },
+    { q: 'Has the State Government issued a direction under section 205 moving the case or class of cases to a different sessions division?',
+      note: 'Check first whether that direction conflicts with any existing High Court or Supreme Court direction — if it does, the section 205 direction does not prevail',
+      no: 'The ordinary venue determined under sections 197–204 stands' },
+    { q: 'Have two or more Courts already taken cognizance of the same offence?',
+      note: 'Section 206’s two-limb rule turns on whether the Courts share a common High Court — same-High-Court cases and different-High-Court cases are decided by different deciding authorities',
+      no: 'No section 206 conflict has yet arisen' }
+  ]"
+  result="A single competent Court proceeds with the case — through joinder venue, a State-directed sessions division, or a High Court’s resolution of a jurisdictional conflict — and every other proceeding on the same offence stops"
+  resultKind="mandatory"
+  caveat="Section 206’s discontinuance is mandatory once the deciding High Court rules — it is not a further discretionary step left to the losing Court" />
+
+### In plain English
+
+Section 204 is efficiency, not a new source of jurisdiction — if the joinder rules elsewhere in the Sanhita already permit trying several offences (or several people) together, section 204 simply confirms that any Court competent for any one of those offences can hear the whole joined case. Section 205 is the State Government's administrative override — able to redirect cases between sessions divisions for reasons of its own, but deliberately fenced in so it cannot contradict a court's own direction. Section 206 is the Sanhita refusing to leave a genuine jurisdictional standoff unresolved: it names the deciding authority precisely (same High Court, or the High Court where proceedings started first if the Courts answer to different High Courts) and makes the losing side's proceeding stop automatically, not as a matter of further discretion.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 204–206 appear to track CrPC ss. 184–186 (place of trial for offences triable together; power to order cases to be tried in different sessions divisions; High Court to decide, in case of doubt, district where inquiry or trial shall take place) closely, with the joinder cross-references in s.204 updated to the BNSS's own renumbered joinder provisions (sections 242–244, 246) rather than the CrPC's original section numbers — those cross-references should be independently confirmed against BNSS's own joinder chapter before relying on them.*
+
+### Test your instinct
+
+:::: instinct Two Courts subordinate to different High Courts have both taken cognizance of the same offence. The accused simply picks whichever result he prefers and asks that Court to proceed.
+::: ruling Not the accused's choice — a fixed statutory tie-breaker applies
+Section 206(b) does not leave the choice of forum to either party — where the Courts are subordinate to different High Courts, the deciding authority is specifically the High Court within whose appellate criminal jurisdiction proceedings were first commenced. Neither the accused nor the prosecution gets to select the more favourable Court; the statute fixes the decision-maker by reference to a neutral, factual criterion (which proceeding started first).
+:::
+::::
+
+:::: instinct The State Government directs that a case be tried in a different sessions division, but a High Court had already issued its own direction on the same case pointing the other way. The State proceeds with its direction regardless.
+::: ruling The State's direction does not prevail
+Section 205's proviso is explicit: the State Government's redirection power cannot be exercised in a manner repugnant to a direction already issued by the High Court (or Supreme Court). The non-obstante opening of section 205 gives the State priority over the Chapter's ordinary venue rules, but not over a superior court's own direction — proceeding with the State's contrary direction here exceeds what section 205 authorises.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 204–206 are jurisdiction-consolidation and conflict-resolution mechanics rather than doctrine attracting a defining authority in this reading.*
+
+#### Sword and shield
+
+As a **sword**, section 204 lets the prosecution consolidate genuinely joinable offences or accused persons into a single trial rather than fragmenting the case across multiple Courts. As a **shield**, section 206 protects an accused from facing simultaneous, duplicate proceedings on the same offence in different Courts — the mandatory discontinuance of all but the winning proceeding is the structural safeguard against that risk.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+Section 204 interlocks directly with the joinder-of-charges provisions (sections 242, 243, 244, 246) elsewhere in the Sanhita — it borrows their eligibility criteria wholesale rather than restating them. Section 206 interlocks with sections 197–203 as the resolution mechanism for exactly the kind of overlapping jurisdiction those sections deliberately create by naming more than one valid venue.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before seeking a joint trial under section 204, confirm the underlying joinder eligibility under sections 242, 243, 244, or 246 independently — section 204 does not itself establish that offences or persons may be tried together.
+2. Where a State Government direction under section 205 is invoked or challenged, check first for any pre-existing High Court or Supreme Court direction on the same case — repugnancy to that direction is a complete answer to the State's power.
+3. On discovering parallel proceedings on the same offence, move promptly under section 206 rather than letting both proceedings run — delay risks duplicated evidence and conflicting findings before the tie-breaker is even invoked.
+4. Once the deciding High Court rules under section 206, treat the discontinuance of the other proceeding as automatic — do not wait for a separate order from the losing Court.
+
 ---
