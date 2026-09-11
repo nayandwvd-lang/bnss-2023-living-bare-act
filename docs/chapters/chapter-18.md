@@ -328,3 +328,100 @@ Section 239(5) interlocks directly with the sanction provisions of section 218 a
 4. Where a recall request under section 240(a) is refused, check the order for a genuine recorded reason tied to vexation, delay, or defeating the ends of justice — not merely case-management convenience.
 
 ---
+
+## Section 241 — One offence, one charge, one trial — unless the accused asks otherwise
+
+### The dispute this solves
+
+::: oneminute Section 241 states the default rule of the "joinder of charges" part of this Chapter before it states any of the exceptions: for every distinct offence a person is accused of, there shall be a separate charge, and each such charge shall be tried separately. A prosecutor cannot, on her own initiative, bundle unrelated allegations against the same accused into a single trial merely because it is more convenient to try them together. The only route around the default is the accused's own choice — an application in writing asking for a joint trial — coupled with the Magistrate's own satisfaction that trying the charges together will not prejudice him. Section 241(2) then makes clear this default rule is subject to the separate joinder-of-right categories the rest of this Part creates: sections 242, 243, 244 and 246 each carve out situations where multiple offences, or multiple persons, can be tried together without needing the accused's application at all.
+:::
+
+::: story Two unrelated cases, one accused, one inconvenient answer
+A is accused of committing a theft in January and, unrelated to that, of causing grievous hurt to a different person in June. The prosecution, keen to save a hearing date, asks the Magistrate to try both matters together. Section 241(1) supplies the answer directly: these are distinct offences, connected by nothing but the identity of the accused, and neither section 242 (same kind of offence, within twelve months) nor section 243 (same transaction) reaches them. A must be separately charged and separately tried for the theft and for causing the grievous hurt — unless A himself applies in writing for a joint trial and satisfies the Magistrate that he will not be prejudiced by it.
+:::
+
+> **241. (1)** For every distinct offence of which any person is accused there [[!shall]] be a separate charge, and every such charge [[!shall]] be tried separately:
+>
+> *Provided that* where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate [[?may]] try together all or any number of the charges framed against such person.
+>
+> **(2)** Nothing in sub-section (1) [[!shall]] affect the operation of the provisions of sections 242, 243, 244 and 246.
+>
+> *Illustration.* A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.
+
+::: proviso The joint-trial route belongs to the accused, not the prosecution
+Section 241's proviso is triggered only by the accused's own application in writing. The prosecution cannot invoke it to force unrelated charges into a single trial, and the Magistrate cannot try the charges together on his own motion under this sub-section — his role is limited to being satisfied, once the accused has applied, that no prejudice will result.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Can two or more charges against the same accused be tried together?"
+  :gates="[
+    { q: 'Do the offences fall within one of the joinder-of-right categories — sections 242, 243, 244 or 246?',
+      note: 'Section 241(2) preserves these as independent routes to a joint trial, none of which need the accused\'s consent',
+      no: 'Section 241(1)\'s default rule applies on its own terms' },
+    { q: 'If not, has the accused applied in writing for a joint trial?',
+      note: 'The application must come from the accused himself — section 241\'s proviso gives no equivalent route to the prosecution',
+      no: 'The charges must be tried separately' },
+    { q: 'Is the Magistrate satisfied the accused is not likely to be prejudiced by trying the charges together?',
+      note: 'This is the Magistrate\'s own assessment, formed after the application, not a rubber stamp on the accused\'s request',
+      no: 'The Magistrate may decline the joint trial despite the application' }
+  ]"
+  result="Distinct offences are charged and tried separately by default; a joint trial is available only through one of sections 242, 243, 244 and 246's independent joinder categories, or through the accused's own written application combined with the Magistrate's satisfaction that he will not be prejudiced"
+  resultKind="mandatory"
+  caveat="Section 241(2) means this default rule never overrides sections 242, 243, 244 or 246 — those operate as of right, without needing the accused to apply for anything." />
+
+### In plain English
+
+The starting position is one offence, one charge, one trial. That protects an accused from being made to answer for a scattered set of unrelated allegations in a single proceeding, where the sheer weight of separate stories can blur into an impression of general guilt. The only person who can waive that protection is the accused himself, and only in writing — and even then the Magistrate has to independently satisfy himself that trying the charges together will not actually disadvantage the accused. Sections 242 to 244 and 246, covered next, are the built-in exceptions to this default — situations the law itself treats as safe to try together without needing anyone's application.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 241 appears to track CrPC section 218 (separate charges for distinct offences), continuing the same default-separate-trial rule and the same accused-application proviso. No significant departure is flagged for this cluster, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct A Magistrate, without any application from the accused, decides on her own that trying two unrelated charges together will save time, and orders a joint trial.
+::: ruling The joint trial is not validly ordered under section 241
+Section 241's proviso is conditional on an application in writing from the accused. A Magistrate cannot invoke the proviso on her own motion, however convenient a joint trial might be — convenience to the Court is not a ground section 241 recognises at all.
+:::
+::::
+
+:::: instinct The accused applies in writing for a joint trial of two unrelated charges. The Magistrate, without recording any reasoning, simply allows the application.
+::: ruling The order is vulnerable, though not automatically invalid
+Section 241's proviso requires the Magistrate to independently form the opinion that the accused is not likely to be prejudiced — an application alone does not satisfy the sub-section. An order granting a joint trial without any indication the Magistrate turned his mind to the prejudice question is open to challenge on that basis, even though the accused himself sought the joint trial.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. This author is not confident of a specific Supreme Court ratio tied precisely to the default separate-trial rule of section 241 (as distinct from the misjoinder-and-prejudice jurisprudence more naturally tied to section 238's materiality test, already covered in the ss.236–238 cluster). This is flagged as a research gap rather than filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 241(1) is the accused's default protection against being tried for unconnected allegations in one sitting — the prosecution cannot engineer a joint trial of unrelated charges by convenience alone. As a **sword**, an accused who has a strategic reason to prefer one composite trial over several — a single narrative he believes will read better as a whole, or simple case-management relief — can use the proviso offensively, applying in writing for a joint trial, though he takes the risk that the same joined narrative may also read worse.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this section; it governs charge and trial structure, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 241(2) interlocks directly with sections 242, 243, 244 and 246 (the joinder-of-right categories, sections 242–244 covered next in this chapter). It also interlocks with section 238's prejudice/failure-of-justice test (ss.236–238 cluster, already built) — an irregular joint trial ordered without satisfying section 241's proviso is the kind of defect section 238 asks whether it actually misled the accused and occasioned a failure of justice.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this section:**
+
+1. Before accepting a joint trial of charges that do not obviously fall within sections 242, 243, 244 or 246, confirm there is an actual written application from the accused on record — not merely an oral consent or an assumption of convenience.
+2. Check the order permitting a joint trial for some indication the Magistrate turned his mind to the prejudice question, not just to the existence of the application.
+3. Where representing the accused, weigh a joint-trial application strategically — a combined narrative can help or can compound suspicion across unrelated charges, and the choice is not reversible once the trial is underway.
+4. Where representing the prosecution, do not assume section 241 gives any route to a joint trial without the accused's own initiative — the joinder-of-right categories in sections 242–244 and 246 are the only prosecution-side tools.
+
+---
