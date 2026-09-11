@@ -219,3 +219,120 @@ Section 265's advance-supply proviso ties back to section 230 (Chapter XVII, alr
 4. Where audio-video electronic means is used for any witness's examination under section 265(3) or section 266(2), confirm the location is one actually notified by the State Government for that purpose before relying on the evidence's validity.
 
 ---
+
+## Sections 267–270 — The complaint-instituted track, and the cross-examination election that makes it different
+
+### The dispute this solves
+
+::: oneminute Part B covers warrant-cases instituted otherwise than on a police report — typically a private complaint. The sequence inverts Part A's order: evidence comes first, charge-framing comes later. Section 267 has the Magistrate hear the prosecution and take all its evidence up front, with compulsory process available on the prosecution's application. Section 268 then gives a discharge power at that point (or earlier, at any previous stage) if, for recorded reasons, no case has been made out that would warrant conviction if unrebutted, or the charge is otherwise groundless. Section 269 is where this track becomes genuinely different from Part A: if the case survives discharge, the Magistrate frames a charge, reads and explains it, and takes the guilty-plea/claim-to-be-tried fork just as before — but if the accused does not plead guilty, he is not automatically entitled to cross-examine every prosecution witness who has already given evidence. Instead, at the next hearing (or forthwith, for recorded reasons), he must state which witnesses, if any, he wishes to cross-examine; only those named are recalled for cross-examination and re-examination, and the remaining witnesses' evidence is simply taken as it stands. A proviso in section 269(7) lets the Magistrate close the prosecution evidence and proceed on the existing record, for recorded reasons, if named witnesses cannot be secured for cross-examination despite reasonable efforts. Section 270 then opens the defence stage, applying section 266's procedure wholesale.
+:::
+
+::: story A complainant's case, and a defence that only wants to cross-examine two of six witnesses
+A private complaint alleging criminal intimidation proceeds under Part B. Under section 267, the complainant leads all six of his witnesses before any charge is framed. The Magistrate, unpersuaded by a discharge application at that stage, frames a charge under section 269(1) and reads it to the accused, who claims to be tried. At the next hearing, as section 269(4) requires, the accused states that he wishes to cross-examine only two of the six witnesses — the two whose testimony most directly implicates him — and has no need to cross-examine the remaining four, whose evidence largely goes to background facts he does not dispute. Under section 269(5), only those two are recalled; under section 269(6), the other four are simply discharged without further examination. The accused then enters his defence under section 270, which applies section 266's procedure in full.
+:::
+
+> **267. (1)** When, in any warrant-case instituted otherwise than on a police report, the accused appears or is brought before a Magistrate, the Magistrate [[!shall]] proceed to hear the prosecution and take all such evidence as may be produced in support of the prosecution.
+>
+> **(2)** The Magistrate [[?may]], on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
+>
+> **268. (1)** If, upon taking all the evidence referred to in section 267, the Magistrate considers, for reasons to be recorded, that no case against the accused has been made out which, if unrebutted, would warrant his conviction, the Magistrate [[!shall]] discharge him.
+>
+> **(2)** Nothing in this section shall be deemed to prevent a Magistrate from discharging the accused at any previous stage of the case if, for reasons to be recorded by such Magistrate, he considers the charge to be groundless.
+>
+> **269. (1)** If, when such evidence has been taken, or at any previous stage of the case, the Magistrate is of opinion that there is ground for presuming that the accused has committed an offence triable under this Chapter, which such Magistrate is competent to try and which, in his opinion, could be adequately punished by him, he [[!shall]] frame in writing a charge against the accused.
+>
+> **(2)** The charge [[!shall]] then be read and explained to the accused, and he [[!shall]] be asked whether he pleads guilty or has any defence to make.
+>
+> **(3)** If the accused pleads guilty, the Magistrate [[!shall]] record the plea, and [[?may]], in his discretion, convict him thereon.
+>
+> **(4)** If the accused refuses to plead, or does not plead or claims to be tried or if the accused is not convicted under sub-section (3), he [[!shall]] be required to state, at the commencement of the next hearing of the case, or, if the Magistrate for reasons to be recorded in writing so thinks fit, forthwith, whether he wishes to cross-examine any, and, if so, which, of the witnesses for the prosecution whose evidence has been taken.
+>
+> **(5)** If he says he does so wish, the witnesses named by him [[!shall]] be recalled and, after cross-examination and re-examination (if any), they [[!shall]] be discharged.
+>
+> **(6)** The evidence of any remaining witnesses for the prosecution [[!shall]] next be taken, and after cross-examination and re-examination (if any), they [[!shall]] also be discharged.
+>
+> **(7)** Where, despite giving opportunity to the prosecution and after taking all reasonable measures under this Sanhita, if the attendance of the prosecution witnesses under sub-sections (5) and (6) cannot be secured for cross-examination, it [[!shall]] be deemed that such witness has not been examined for not being available, and the Magistrate [[?may]] close the prosecution evidence for reasons to be recorded in writing and proceed with the case on the basis of the materials on record.
+>
+> **270.** The accused [[!shall]] then be called upon to enter upon his defence and produce his evidence; and the provisions of section 266 shall apply to the case.
+
+::: proviso Section 267's evidence-first sequence is Part B's defining departure from Part A
+In a police-report case under Part A, the discharge decision and charge-framing happen before the prosecution formally leads its trial evidence — the discharge stage looks only at the police report and section 193 documents. In a complaint-instituted case under Part B, the prosecution's actual witnesses are examined first, under section 267, and only then does the Magistrate decide discharge (section 268) or charge (section 269) on the strength of that evidence.
+:::
+
+::: proviso Section 269(4)'s cross-examination election is not a waiver by default — it requires the accused to actively choose
+An accused who says nothing, or fails to specify which witnesses he wishes to cross-examine when called upon under section 269(4), risks having none of the prosecution witnesses recalled — the section places the burden of naming witnesses on the accused, not on the Magistrate to ask witness-by-witness. Advocates should treat the section 269(4) hearing as a critical juncture requiring a deliberate, on-record election, not a formality to be passed over.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A warrant-case instituted otherwise than on a police report has reached the Magistrate — how does the evidence and charge sequence run?"
+  :gates="[
+    { q: 'Has the Magistrate heard the prosecution and taken all its evidence under section 267?',
+      note: 'Unlike Part A, evidence is taken before discharge or charge is decided',
+      no: 'The section 268 discharge / section 269 charge-framing stage has not yet been reached' },
+    { q: 'On that evidence (or at any earlier stage), does the Magistrate find no case made out, or the charge groundless, under section 268?',
+      note: 'Section 268(2) preserves an earlier discharge power independent of section 268(1)\'s post-evidence test',
+      no: 'The case survives discharge and the Magistrate proceeds to frame a charge under section 269(1)' },
+    { q: 'Does the accused, when called upon under section 269(4), name specific prosecution witnesses he wishes to cross-examine?',
+      note: 'This is an active election at the next hearing, or forthwith for recorded reasons — silence risks no recall at all',
+      no: 'Only witnesses actually named are recalled; unnamed witnesses\' evidence stands as already taken' }
+  ]"
+  result="Named witnesses are recalled for cross-examination and re-examination under section 269(5) and then discharged; the remaining prosecution witnesses' evidence is taken as it stands, and the accused then enters his defence under section 270 following section 266's procedure in full"
+  resultKind="mandatory"
+  caveat="If a named witness cannot be secured for cross-examination despite reasonable efforts, section 269(7) lets the Magistrate deem that witness not examined and close the prosecution evidence on the existing record, for recorded reasons." />
+
+### In plain English
+
+Part B flips the order Part A uses: instead of screening the case on paper before hearing evidence, the Magistrate hears the actual witnesses first, then decides whether the case survives. The real procedural novelty is section 269(4)–(7): because the witnesses were already examined before the charge was even framed, the accused doesn't automatically get to cross-examine everyone who has testified — he has to say, specifically, who he wants to cross-examine. It's an efficiency mechanism (no need to redundantly recall witnesses the defence has no quarrel with) but it puts real weight on the defence advocate making a considered, on-record choice at that hearing, because an unnamed witness's evidence simply stands.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 267 appears to track CrPC section 244 (evidence for prosecution), BNSS section 268 appears to track CrPC section 245 (when accused shall be discharged), BNSS section 269 appears to track CrPC section 246 (procedure where accused is not discharged), and BNSS section 270 appears to track CrPC section 247 (evidence for defence). No significant departure is flagged for this cluster; the cross-examination-election mechanism in section 269(4)–(7) reads as substantively continuous with its CrPC predecessor, though this has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct At the section 269(4) hearing, the accused's advocate states that the accused wishes to reserve his position and will decide later which witnesses to cross-examine.
+::: ruling This does not satisfy section 269(4)'s requirement to state which witnesses he wishes to cross-examine
+Section 269(4) calls for the accused to state, at the specified hearing, whether he wishes to cross-examine any witnesses and, if so, which ones. A reservation of position without naming witnesses leaves the Magistrate with nothing to act on — the safer course is to seek a short adjournment to make the election properly, rather than risk the hearing proceeding on the basis that no witnesses were named.
+:::
+::::
+
+:::: instinct A witness named for recall under section 269(5) has since become untraceable despite the Magistrate directing reasonable efforts to secure his attendance.
+::: ruling Section 269(7) lets the Magistrate deem the witness not examined and close the prosecution evidence
+Where reasonable measures have been taken and the named witness still cannot be secured for cross-examination, section 269(7) treats that witness's evidence as not given (for not being available) and allows the Magistrate, for recorded reasons, to close the prosecution evidence and proceed on the materials actually on record.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 269(4)'s cross-examination election protects the accused from being forced to sit through pointless recall of witnesses whose evidence he does not dispute, focusing his defence resources on the witnesses that matter. As a **sword**, it cuts the other way too: a defence advocate who fails to name a witness at the section 269(4) hearing loses the opportunity to cross-examine that witness at all absent some later application — the prosecution's countervailing interest is simply in holding the accused to whatever he stated, or failed to state, at that hearing.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; section 269(4) requires the cross-examination election "at the commencement of the next hearing," or forthwith for recorded reasons — a procedural timing rule within an ongoing trial, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 270 interlocks directly with section 266 (Chapter XX, this chapter, cluster 2 — already built), whose defence-evidence procedure it adopts wholesale, including the vexation/delay/defeating-justice compulsory-process standard. Section 268(1)'s "no case… if unrebutted" language echoes the acquittal-checkpoint standard in section 255 (Chapter XIX, already built).
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. In any Part B complaint case, prepare the section 269(4) cross-examination election in advance of the hearing — treat it as a substantive strategic decision, not a formality, since an unnamed witness's evidence stands unchallenged.
+2. Where a client insists on reserving the cross-examination decision, seek a short, specific adjournment rather than allowing the hearing to proceed without any election on record.
+3. If a named witness becomes unavailable, document every reasonable effort made to secure attendance — section 269(7)'s deemed-not-examined route requires the Magistrate to find those efforts were actually made.
+4. At the section 268 discharge stage, remember evidence has already been led under section 267 — the discharge argument here is evidentiary ("no case, if unrebutted, would warrant conviction"), not merely a paper-record argument as under Part A's section 262.
+
+---
