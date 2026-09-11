@@ -488,3 +488,126 @@ None added beyond the secondary reference to Khatri (II) above.
 5. Calculate the section 78 production ceiling excluding journey time and confirm it was not exceeded.
 
 ---
+
+## Sections 80–83 — Executing a warrant outside the issuing Court's jurisdiction, and what happens to the person arrested there
+
+### The dispute this solves
+
+::: oneminute A warrant issued in one district often has to be executed in another — the Sanhita builds an endorsement chain to authorise that, and then a separate procedure for what happens to the person once caught on someone else's turf.
+Sections 72–79 assume execution happens within, or at least under the authority of, the issuing Court's own reach. Sections 80–83 deal with the more complicated case: the warrant has to be executed somewhere else entirely. Section 80 lets the Court forward the warrant directly to the executing district's own authorities; section 81 lets a police officer instead carry the warrant there and get it endorsed locally. Once the arrest actually happens outside the issuing district, section 82 usually redirects the person to a local Magistrate or senior police officer first — not straight back to the issuing Court — and section 83 tells that local officer exactly what to do with him, including two separate bail off-ramps.
+:::
+
+::: story The arrest three districts away
+A warrant is issued in one district for a person who has since relocated three districts away. Rather than sending a police officer on a long journey to serve it, the issuing Court forwards the warrant to the Executive Magistrate of the district where the person now lives, along with the substance of the information and supporting documents. Local police execute the warrant there. Because the arrest happened well outside the issuing district — more than thirty kilometres from the issuing Court and no closer than the local Magistrate — the arrested person is taken before that local Magistrate rather than transported straight back, and it is the local Magistrate, not the issuing Court, who first considers whether bail is appropriate, using exactly the documents the issuing Court sent along under section 80(2). The arrested person's lawyer, unfamiliar with this inter-district structure, initially insists on an immediate production before the issuing Court — a demand sections 82 and 83 do not support unless one of the specific proximity or security exceptions applies.
+:::
+
+> **80. Warrant forwarded for execution outside jurisdiction.**—(1) When a warrant is to be executed outside the local jurisdiction of the Court issuing it, such Court [[?may]], instead of directing the warrant to a police officer within its jurisdiction, forward it by post or otherwise to any Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction it is to be executed; and the Executive Magistrate or District Superintendent or Commissioner [[!shall]] endorse his name thereon, and if practicable, cause it to be executed in the manner hereinbefore provided.
+>
+> (2) The Court issuing a warrant under sub-section (1) [[!shall]] forward, along with the warrant, the substance of the information against the person to be arrested together with such documents, if any, as may be sufficient to enable the Court acting under section 83 to decide whether bail should or should not be granted to the person.
+>
+> **81. Warrant directed to police officer for execution outside jurisdiction.**—(1) When a warrant directed to a police officer is to be executed beyond the local jurisdiction of the Court issuing the same, he [[!shall]] ordinarily take it for endorsement either to an Executive Magistrate or to a police officer not below the rank of an officer in charge of a police station, within the local limits of whose jurisdiction the warrant is to be executed.
+>
+> (2) Such Magistrate or police officer [[!shall]] endorse his name thereon and such endorsement [[!shall]] be sufficient authority to the police officer to whom the warrant is directed to execute the same, and the local police [[!shall]], if so required, assist such officer in executing such warrant.
+>
+> (3) Whenever there is reason to believe that the delay occasioned by obtaining the endorsement of the Magistrate or police officer within whose local jurisdiction the warrant is to be executed will prevent such execution, the police officer to whom it is directed [[?may]] execute the same without such endorsement in any place beyond the local jurisdiction of the Court which issued it.
+>
+> **82. Procedure on arrest of person against whom warrant issued.**—(1) When a warrant of arrest is executed outside the district in which it was issued, the person arrested [[!shall]], unless the Court which issued the warrant is within thirty kilometres of the place of arrest or is nearer than the Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction the arrest was made, or unless security is taken under section 73, be taken before such Magistrate or District Superintendent or Commissioner.
+>
+> (2) On the arrest of any person referred to in sub-section (1), the police officer [[!shall]] forthwith give the information regarding such arrest and the place where the arrested person is being held to the designated police officer in the district and to such officer of another district where the arrested person normally resides.
+>
+> **83. Procedure by Magistrate before whom such person arrested is brought.**—(1) The Executive Magistrate or District Superintendent of Police or Commissioner of Police [[!shall]], if the person arrested appears to be the person intended by the Court which issued the warrant, direct his removal in custody to such Court:
+>
+> Provided that, if the offence is bailable, and such person is ready and willing to give bail bond to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a direction has been endorsed under section 73 on the warrant and such person is ready and willing to give the security required by such direction, the Magistrate, District Superintendent or Commissioner [[!shall]] take such bail bond or security, as the case may be, and forward the bond, to the Court which issued the warrant:
+>
+> Provided further that if the offence is a non-bailable one, it [[?may]] be lawful for the Chief Judicial Magistrate (subject to the provisions of section 480), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section (2) of section 80, to release such person on bail.
+>
+> (2) Nothing in this section [[?shall]] be deemed to prevent a police officer from taking security under section 73.
+>
+> ::: proviso Two routes into the executing district — with different consequences for who decides bail first
+> Section 80 lets the *Court* forward the warrant directly to the executing district's authorities, with the substance of the information and supporting documents travelling alongside it for a section 83 bail decision. Section 81 instead lets the *police officer* carry the warrant into the executing district and get it endorsed there, with a further exception in section 81(3) allowing execution without any endorsement at all where obtaining one would cause a delay that defeats execution. Whichever route was used, section 82 is what actually determines whether the arrested person is diverted to a local Magistrate or officer first — and, crucially, the local Chief Judicial Magistrate or Sessions Judge who considers bail under section 83's second proviso for a non-bailable offence needs exactly the documents section 80(2) requires the issuing Court to have sent; a warrant forwarded under section 81 without equivalent information leaves that bail decision without its statutory foundation.
+> :::
+
+<MicroTree
+  input="A warrant is to be executed outside the issuing Court's own jurisdiction. Which route applies, and what happens on arrest?"
+  :gates="[
+    { q: 'Did the issuing Court forward the warrant directly to the executing district’s Executive Magistrate, District Superintendent, or Commissioner, along with the substance of the information and supporting documents?', note: 'Section 80 applies — that authority endorses the warrant and causes execution, with the section 80(2) documents feeding into any later section 83 bail decision.', no: 'Move to the police-officer-carried-warrant question.' },
+    { q: 'Did a police officer instead carry the warrant into the executing district for local endorsement (or execute without one under section 81(3)’s delay exception)?', note: 'Section 81 applies — local endorsement is sufficient authority, and local police must assist if required.', no: 'Neither section 80 nor section 81’s specific mechanics were used; the execution’s authority is in doubt.' },
+    { q: 'Was the arrest made outside the issuing district, with the issuing Court more than thirty kilometres away (or farther than the local Magistrate/officer) and no section 73 security taken?', note: 'Section 82 diverts the arrested person to the local Magistrate, District Superintendent, or Commissioner first; section 83 then governs — removal to the issuing Court, or one of its two bail off-ramps (bailable-offence bond, or a non-bailable-offence bail decision by the local CJM/Sessions Judge on the section 80(2) documents).', no: 'The proximity or security exception applies; ordinary production procedures take over instead of the section 82 diversion.' }
+  ]"
+  result="The correct inter-district execution route is identified, and the arrested person's path — direct removal, or one of section 83's two bail off-ramps — is confirmed before either is treated as the only option available."
+  resultKind="mandatory"
+  caveat="Section 83's non-bailable-offence bail route depends on the local Chief Judicial Magistrate or Sessions Judge having the section 80(2) information and documents in hand — a forwarded warrant without them leaves that route without the material the statute requires for the decision."
+/>
+
+### In plain English
+
+When a warrant has to be executed somewhere other than where it was issued, there are two ways to get it there: the Court itself can forward it straight to the local Magistrate or senior police officer of the executing district (section 80), or a police officer can carry it there and get it endorsed locally (section 81) — with a further exception letting the officer skip the endorsement altogether if waiting for it would let the person get away. Once the arrest actually happens outside the issuing district, the default under section 82 is that the person is *not* driven straight back to the issuing Court — he goes first to a local Magistrate or senior officer, unless the issuing Court happens to be closer than that local officer, or a bail bond has already been arranged under section 73. That local officer then has three options under section 83: send the person on to the issuing Court in custody; take a bail bond on the spot if the offence is bailable; or, for a non-bailable offence, have the local Chief Judicial Magistrate or Sessions Judge decide on bail using the information the issuing Court sent along.
+
+### What changed from the CrPC
+
+BNSS sections 80, 81, 82 and 83 correspond to CrPC sections 78, 79, 80 and 81 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, with the inter-district execution structure — forwarding by the Court, endorsement by a local officer, diversion to a local authority on arrest, and the local officer's bail options — tracking the unamended CrPC closely.
+
+### Test your instinct
+
+:::: instinct The lawyer who demanded immediate production before the issuing Court
+A warrant is executed in a district far from where it issued. The arrested person's lawyer insists he must be produced before the issuing Court immediately, since that is "the court with jurisdiction over the case."
+::: ruling What actually happens
+Section 82(1) specifically displaces that expectation: unless the issuing Court is within thirty kilometres of the arrest, or nearer than the local Executive Magistrate/District Superintendent/Commissioner, or security has already been taken under section 73, the arrested person goes before the *local* authority first, not the issuing Court. The lawyer's demand for immediate production before the issuing Court is not supported by section 82 unless one of those specific exceptions applies.
+:::
+::::
+
+:::: instinct The non-bailable offence where the local Magistrate grants bail without waiting for the issuing Court
+A person is arrested on a non-bailable-offence warrant in a district far from where it issued. The local Chief Judicial Magistrate, considering the information and documents forwarded under section 80(2), grants bail without waiting for the issuing Court to weigh in. The prosecution argues only the issuing Court can decide bail on its own warrant.
+::: ruling What actually happens
+Section 83(1)'s second proviso expressly empowers the Chief Judicial Magistrate (subject to section 480) or the Sessions Judge of the arrest district to release the person on bail for a non-bailable offence, based on the section 80(2) information and documents — without needing the issuing Court's prior involvement. The prosecution's objection fails on the statute's own terms, provided the local Magistrate genuinely had the required information before him.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Sections 80–83 are inter-district execution and procedural-handoff mechanics that are, in the drafter's assessment, sufficiently self-contained on the statutory text; no Supreme Court authority squarely on this specific forwarding-and-diversion structure is confidently recalled, and the anti-fabrication discipline governing this project counsels against forcing one in.
+
+#### Sword and shield
+
+As a **shield**, an arrested person can resist being driven straight back to the issuing Court by invoking section 82(1)'s diversion default, and can press the local CJM or Sessions Judge to exercise the independent non-bailable bail power under section 83(1)'s second proviso rather than waiting on the issuing Court. As a **sword**, the prosecution can rely on section 81(3)'s no-endorsement exception where genuine delay would defeat execution, and on section 83(1)'s first proviso to secure a bailable-offence bond locally without returning the person to the issuing Court at all.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 80–83; an objection to the execution route used, or to a local officer's failure to apply section 82's diversion default or section 83's bail options, should be raised at the first appearance before whichever authority the person is actually brought before.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Warrant to be executed outside issuing Court's jurisdiction, forwarded by the Court itself | Section 80 | Sent to local Executive Magistrate/DSP/Commissioner with information and documents for a later bail decision |
+| Warrant carried by a police officer into another jurisdiction | Section 81 | Local endorsement required (or, exceptionally, execution without it under s.81(3)) |
+| Arrest made outside the issuing district | Section 82 | Diverted to local Magistrate/DSP/Commissioner unless proximity or section 73 security exception applies |
+| Local Magistrate/officer receiving the arrested person | Section 83 | Removal to issuing Court, or bail bond (bailable offence), or independent bail decision by local CJM/Sessions Judge (non-bailable offence) |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume an arrest executed far from the issuing district requires immediate production before that Court — check section 82(1)'s proximity and section 73 exceptions first.
+2. Do not overlook that a non-bailable offence still has an independent local bail route under section 83(1)'s second proviso — it does not require the issuing Court's prior decision.
+3. Do not accept execution under section 81(3)'s no-endorsement exception without confirming a genuine, reasoned belief that obtaining the endorsement would have defeated execution.
+4. Do not assume the section 83 bail options are available without checking that the section 80(2) information and documents actually accompanied the warrant — the non-bailable bail route is built on having that material in hand.
+
+**Timing.** Raise any objection to the execution route, the diversion (or non-diversion) under section 82, or the local officer's handling of section 83's options at the first appearance before that officer, not after the person has already been produced before the issuing Court on an unchallenged assumption of regularity.
+
+**Model checklist for reviewing inter-district warrant execution:**
+
+1. Identify whether the warrant was forwarded under section 80 or carried for endorsement under section 81, and confirm the applicable formalities were observed.
+2. Confirm whether section 82(1)'s diversion default applied, or whether a proximity or section 73 exception genuinely displaced it.
+3. Where a non-bailable bail decision was made locally under section 83(1)'s second proviso, confirm the local CJM or Sessions Judge actually had the section 80(2) information and documents.
+4. Confirm the designated-officer notification duty under section 82(2) was carried out.
+
+---
