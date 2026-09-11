@@ -731,3 +731,139 @@ No further authority is added here beyond *Joginder Kumar* — the search-and-se
 
 ---
 
+## Sections 51–53 — Medical examination of the accused, of a rape accused, and of every arrested person
+
+### The dispute this solves
+
+::: oneminute An accused person's own body can be evidence — but only within limits, only by the right kind of examiner, and, for one category of offence, only in a specifically documented way.
+Modern investigation increasingly turns on what a person's body itself can show: blood, semen, hair, DNA, injuries, marks of restraint. The Sanhita gives police the power to have a registered medical practitioner examine an arrested person's body for evidence — but it does not hand this over as an unlimited licence. The examiner's gender is matched to the examinee's where the examinee is a woman. For rape and attempted-rape accused specifically, the examination has to follow a detailed, itemised reporting format, precisely because the forensic stakes and the risk of a shoddy or partisan report are both especially high. And separately from any of that — regardless of the offence — every arrested person is entitled to a medical check soon after arrest, primarily to protect him: to record, on an independent medical record, whatever injuries he already has, before custody can be blamed for them or used to explain them away.
+:::
+
+::: story The blood sample and the accusation of custodial violence
+Devraj is arrested on a charge where the investigating officer believes a blood sample will be forensically significant. Separately, and unrelated to the forensic question, Devraj's counsel wants an independent medical record made immediately — because if Devraj is assaulted in custody over the following days, the only way to prove his condition at the moment of arrest was different is a contemporaneous medical examination. Section 51 answers the first question; section 53 exists to answer the second, and it does not wait for anyone to ask for it — it is mandatory.
+:::
+
+> **51. Examination of accused by medical practitioner at request of police officer.**—(1) When a person is arrested on a charge of committing an offence of such a nature and alleged to have been committed under such circumstances that there are reasonable grounds for believing that an examination of his person will afford evidence as to the commission of an offence, it [[?shall be lawful]] for a registered medical practitioner, acting at the request of any police officer, and for any person acting in good faith in his aid and under his direction, to make such an examination of the person arrested as is reasonably necessary in order to ascertain the facts which may afford such evidence, and to use such force as is reasonably necessary for that purpose.
+>
+> (2) Whenever the person of a female is to be examined under this section, the examination [[!shall]] be made only by, or under the supervision of, a female registered medical practitioner.
+>
+> (3) The registered medical practitioner [[!shall]], without any delay, forward the examination report to the investigating officer.
+>
+> *Explanation.—In this section and sections 52 and 53, "examination" includes the examination of blood, blood stains, semen, swabs in case of sexual offences, sputum and sweat, hair samples and finger nail clippings by the use of modern and scientific techniques including DNA profiling and such other tests which the registered medical practitioner thinks necessary in a particular case; and "registered medical practitioner" means a medical practitioner recognised under the National Medical Commission Act, 2019 and entered in the National or a State Medical Register under that Act.*
+>
+> **52. Examination of person accused of rape by medical practitioner.**—(1) When a person is arrested on a charge of committing an offence of rape or an attempt to commit rape and there are reasonable grounds for believing that an examination of his person will afford evidence as to the commission of such offence, it [[?shall be lawful]] for a registered medical practitioner employed in a hospital run by the Government or by a local authority — and, in the absence of such a practitioner within a radius of sixteen kilometres from the place where the offence has been committed, by any other registered medical practitioner — acting at the request of any police officer, and for any person acting in good faith in his aid and under his direction, to make such an examination of the arrested person and to use such force as is reasonably necessary for that purpose.
+>
+> (2) The registered medical practitioner conducting such examination [[!shall]], without any delay, examine such person and prepare a report giving the name and address of the accused and of the person by whom he was brought, his age, marks of injury if any on his person, the description of material taken for DNA profiling, and other material particulars in reasonable detail.
+>
+> (3) The report [[!shall]] state precisely the reasons for each conclusion arrived at.
+>
+> (4) The exact time of commencement and completion of the examination [[!shall]] also be noted in the report.
+>
+> (5) The registered medical practitioner [[!shall]], without any delay, forward the report to the investigating officer, who [[!shall]] forward it to the Magistrate referred to in section 193 as part of the documents referred to in section 193(6)(a).
+>
+> ::: proviso Section 52's itemised report is a forensic safeguard, not paperwork for its own sake
+> Section 51's report has no prescribed format. Section 52's does — five specific particulars, precise reasons for each conclusion, and exact start-and-end times. That level of prescription exists because a rape-accused medical report is routinely contested at trial on both sides: the defence challenging whether it was thorough or independent, the prosecution relying on it to establish or corroborate the offence. A report missing any of sub-section (2)'s particulars, or lacking reasons under sub-section (3), is vulnerable to challenge on its face — a defence practitioner should check the report against this checklist before conceding its evidentiary weight.
+> :::
+>
+> **53. Examination of arrested person by medical officer.**—(1) When any person is arrested, he [[!shall]] be examined by a medical officer in the service of the Central Government or a State Government, and in case the medical officer is not available, by a registered medical practitioner soon after the arrest is made:
+>
+> Provided that if the medical officer or the registered medical practitioner is of the opinion that one more examination of such person is necessary, he [[?may]] do so:
+>
+> Provided further that where the arrested person is a female, the examination of the body [[!shall]] be made only by or under the supervision of a female medical officer, and in case the female medical officer is not available, by a female registered medical practitioner.
+>
+> (2) The medical officer or a registered medical practitioner so examining the arrested person [[!shall]] prepare the record of such examination, mentioning therein any injuries or marks of violence upon the person arrested, and the approximate time when such injuries or marks may have been inflicted.
+>
+> (3) Where an examination is made under sub-section (1), a copy of the report of such examination [[!shall]] be furnished by the medical officer or registered medical practitioner to the arrested person or the person nominated by such arrested person.
+>
+> ::: proviso Section 53 is mandatory and self-executing — it does not wait for a request
+> Sections 51 and 52 both operate "at the request of any police officer" — the examination happens because the investigation wants evidence. Section 53 is the opposite in structure: "when any person is arrested, he shall be examined" — no request needed, and the point is not evidence-gathering for the prosecution at all. Its function is protective and evidentiary in the arrested person's own favour: a contemporaneous, independent medical record of his condition at the point of custody, so that any later injury sustained in custody has a documented baseline to be measured against. Defence counsel should treat the absence of a section 53 examination, or the absence of the copy required by sub-section (3), as a serious and independently raisable procedural failure, not a mere clerical gap.
+> :::
+
+<MicroTree
+  input="A medical examination of an arrested or accused person is being considered. Which provision governs it, and what does it require?"
+  :gates="[
+    { q: 'Is the examination of a person arrested (any offence) requested by police to gather evidence of the offence?', note: 'Section 51 applies — examination by a registered medical practitioner, with force reasonably necessary, and a female-examiner requirement if the person examined is a woman.', no: 'Move to the rape-specific and mandatory-examination questions below.' },
+    { q: 'Is the person arrested specifically on a charge of rape or attempted rape?', note: 'Section 52 applies — examination by a government-hospital practitioner (or, within 16 km, any registered practitioner), with the itemised five-particular report, reasons for each conclusion, and exact examination times, forwarded through the investigating officer to the section 193 Magistrate.', no: 'Section 52 does not apply on these facts.' },
+    { q: 'Has the person simply been arrested — regardless of offence, and regardless of whether the police have requested any forensic examination at all?', note: 'Section 53 applies automatically — examination by a medical officer (or registered practitioner if unavailable), by a female examiner if the arrestee is a woman, with a report on injuries and marks of violence, a copy furnished to the arrested person or his nominee.', no: 'No medical-examination provision in this cluster is engaged.' }
+  ]"
+  result="The correct examination track — evidentiary (s. 51), rape-specific forensic (s. 52), or mandatory protective (s. 53) — is identified, along with its examiner-gender rule and its reporting requirements."
+  resultKind="mandatory"
+  caveat="Sections 51 and 52 are not substitutes for section 53 — an arrested person examined only under section 51 or 52 for evidentiary purposes has not thereby received the mandatory, protective section 53 examination, and its absence remains independently raisable."
+/>
+
+### In plain English
+
+Section 51 lets the police get a doctor to examine an arrested person's body — including modern forensic techniques like DNA profiling — where there are reasonable grounds to think the body itself will show evidence of the offence, with the built-in rule that a woman's examination must be by, or under, a female practitioner. Section 52 is a specialised, more heavily regulated version of the same idea for rape and attempted-rape cases specifically: it locks the location (a government hospital, ordinarily), gives a strict content checklist for the report, and routes the report through a specific chain — practitioner to investigating officer to the Magistrate handling the case. Section 53 stands apart from both: it is not about proving the prosecution's case at all, but about protecting the arrested person, and it applies automatically to every arrest, not just those where police want forensic evidence — an independent doctor records the arrestee's condition, including any pre-existing injuries, soon after he comes into custody, and gives him a copy of that record.
+
+### What changed from the CrPC
+
+BNSS sections 51, 52 and 53 correspond to CrPC sections 53, 53A and 54 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** — all three examination powers existed in the CrPC in substantially the same form, including the female-examiner safeguards and section 52's itemised rape-examination report format (itself added to the CrPC by the 2013 Criminal Law Amendment following *Nirbhaya*). Section 51's Explanation modernises the definition of "examination" and "registered medical practitioner" by referencing the National Medical Commission Act, 2019, replacing the CrPC's reference to the since-repealed Indian Medical Council Act, 1956 — an updating change rather than a substantive one.
+
+### Test your instinct
+
+:::: instinct The accused who refuses the blood sample, citing self-incrimination
+Devraj is asked to give a blood sample under section 51 to test for a forensically significant marker. His counsel objects that compelling this violates his constitutional protection against being compelled to be a witness against himself.
+::: ruling What actually happens
+The constitutional protection against self-incrimination protects against being compelled to give *testimonial* evidence — statements or communications drawn from personal knowledge — not against being made the source of physical evidence such as blood, fingerprints, or bodily samples, which do not involve any statement of fact by the accused at all. Section 51's blood-sample examination falls on the physical-evidence side of that line, and the objection does not succeed on this ground; it does not, however, dispense with section 51's own textual requirements of reasonable grounds and a properly qualified examiner.
+:::
+::::
+
+:::: instinct No independent medical record was ever made
+An arrested person is held for four days before being produced, and no medical examination under section 53 was ever conducted at or near the time of arrest. When bruising is later noticed at production, the prosecution argues it could have occurred anywhere and blames pre-arrest circumstances.
+::: ruling What actually happens
+Section 53(1) is not discretionary or request-based — "when any person is arrested, he shall be examined... soon after the arrest is made." The complete absence of any section 53 examination is itself a procedural failure independent of what caused the bruising, and it deprives the arrested person of precisely the contemporaneous baseline record the provision exists to guarantee. Defence counsel should treat this gap as an affirmative point in the arrested person's favour — the absence of a required protective record cuts against, not for, the custodian's account of what happened.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**State of Bombay v. Kathi Kalu Oghad**, AIR 1962 SC 1808. An eleven-judge Bench held that the constitutional protection against self-incrimination is confined to testimonial compulsion — being compelled to make a statement based on personal knowledge — and does not extend to being made the source of physical or identifying evidence such as fingerprints, specimen signatures, or bodily samples, which the accused furnishes as a mere source of comparison, not as a witness.
+
+**Practitioner takeaway.** When a client resists a section 51 or 52 bodily examination on self-incrimination grounds, advise that *Kathi Kalu Oghad* forecloses that specific objection for physical/forensic samples — the live objections instead are whether the statutory preconditions (reasonable grounds, correct examiner, correct gender-matching) were actually met.
+
+#### Sword and shield
+
+As a **sword**, sections 51 and 52 let the prosecution obtain forensically significant evidence directly from the accused's own body, and *Kathi Kalu Oghad* closes off the most obvious constitutional objection to that power. As a **shield**, section 53 protects the arrested person independently of the prosecution's forensic interest — a mandatory, contemporaneous medical record that the defence can use offensively against a later, unsubstantiated custodial-violence denial, and whose absence is itself an affirmative point in the arrested person's favour.
+
+#### The limitation clock
+
+No independent limitation period attaches; the practical clock is evidentiary — a section 53 examination must occur "soon after arrest" to have protective value, and a section 52 report's timing particulars (sub-section (4)) should be checked against the actual arrest and production timeline at the earliest opportunity, ideally before the report is tendered in evidence.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Police want forensic evidence from an arrested person's body, any offence | Section 51 | Examination by registered medical practitioner; female examiner for a woman |
+| Person arrested for rape or attempted rape | Section 52 | Government-hospital (or nearby) practitioner; itemised report; routed to the section 193 Magistrate |
+| Any arrest, regardless of offence or forensic interest | Section 53 | Mandatory, automatic examination; injury record; copy furnished to the arrestee |
+| Accused objects to a bodily sample on self-incrimination grounds | *Kathi Kalu Oghad* | Objection fails for physical/identifying evidence; statutory preconditions remain the live issue |
+| No section 53 examination was conducted | Section 53(1) | Independent procedural failure; usable defensively against later custodial-injury denials |
+
+#### The authorities
+
+**D.K. Basu v. State of West Bengal**, (1997) 1 SCC 416 (previously promoted as winning ratio for ss. 194–196, and used as secondary for ss. 36–38; used here again only as secondary, not re-promoted). Among its eleven custodial safeguards, the Court specifically required that an arrested person be subjected to a medical examination at the time of arrest and that major and minor injuries, if any, be recorded — the judicial precursor to what section 53 now states directly in the text.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not concede a self-incrimination objection to a section 51 or 52 bodily sample on the client's behalf — *Kathi Kalu Oghad* forecloses it for physical evidence; focus instead on whether the statutory preconditions were satisfied.
+2. Do not accept a section 52 report that omits any of the five itemised particulars, lacks stated reasons for its conclusions, or omits exact examination times — these are textual requirements, not best-practice suggestions, and their absence is a clean challenge.
+3. Do not let a missing section 53 examination pass unnoticed at production — it is one of the easiest, most objective procedural failures to identify and is independently valuable to the defence regardless of the substantive charge.
+4. Do not assume a female examiner requirement was satisfied merely because a report exists — check who actually conducted or supervised the examination against sections 51(2), 52's practitioner-employment requirement, and section 53's second proviso.
+
+**Timing.** Raise a missing or deficient section 53 examination at the first production; raise a section 51/52 deficiency once the report is sought to be tendered in evidence, before its contents are treated as established fact.
+
+**Model checklist for reviewing a medical-examination record:**
+
+1. Identify which of sections 51, 52 or 53 the examination was purportedly conducted under, and confirm the correct examiner qualification and location requirement for that section.
+2. If the arrestee is a woman, confirm the examination was by, or under the supervision of, a female practitioner or medical officer as the specific sub-section requires.
+3. For a section 52 report, check all five itemised particulars, the stated reasons for each conclusion, and the exact start/end times.
+4. Confirm a section 53 examination occurred soon after arrest and that a copy was furnished to the arrested person or his nominee; if not, raise the gap as an independent procedural failure.
+
+---
+
