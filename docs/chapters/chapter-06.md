@@ -752,3 +752,130 @@ None added — see "The winning ratio" above.
 4. Where attachment has been ordered, confirm whether it was simultaneous (requiring the section 85(1) proviso's risk showing) or post-proclamation (requiring only recorded reasons), and confirm any cross-district endorsement under section 85(2).
 
 ---
+
+## Sections 86–89 — Cross-border attachment, claims and objections, release/sale/restoration, and appeal
+
+### The dispute this solves
+
+::: oneminute Attachment is not the end of the story — property claimed by an innocent third party has to be sorted out, the attached property itself has to be released, sold, or eventually restored, and a person who genuinely did not evade the warrant gets one real chance to get it all back.
+Section 85 lets a Court freeze a proclaimed person's property. Sections 86 to 89 handle everything downstream of that freeze: a cross-border mechanism for chasing property outside India, a structured process for a genuine third party to claim an interest in attached property before it is disposed of, the eventual fate of the property — released if the person appears, sold if not, and restored under narrow conditions even after sale — and a right of appeal for the person who is refused restoration. The cluster closes with the two-year outer limit within which even a person who was genuinely unaware of the proclamation can still recover what was taken.
+:::
+
+::: story The relative who genuinely knew nothing
+A proclaimed person's brother inherits a share in the attached immovable property mid-way through the attachment period, entirely unaware his brother was even a fugitive. He files a claim under section 87 within the six-month window, asserting his own independent, pre-existing interest in a portion of the land — not merely acting on the proclaimed person's behalf. The claim succeeds as to his share, which is released from attachment, while the remainder continues to await either the proclaimed person's appearance or, eventually, sale. Separately, when the proclaimed person himself surfaces eighteen months later — arrested elsewhere, brought before the attaching Court, and able to show he had genuinely never received notice of the proclamation in time to appear — section 88(3) lets him recover what remains of the rest of the property (or its sale proceeds), because he falls within the two-year window and can meet both of that sub-section's conditions.
+:::
+
+> **86. Identification and attachment of property of proclaimed person.**—The Court [[?may]], on the written request from a police officer not below the rank of the Superintendent of Police or Commissioner of Police, initiate the process of requesting assistance from a Court or an authority in the contracting State for identification, attachment and forfeiture of property belonging to a proclaimed person in accordance with the procedure provided in Chapter VIII.
+>
+> **87. Claims and objections to attachment.**—(1) If any claim is preferred to, or objection made to the attachment of, any property attached under section 85, within six months from the date of such attachment, by any person other than the proclaimed person, on the ground that the claimant or objector has an interest in such property, and that such interest is not liable to attachment under section 85, the claim or objection [[!shall]] be inquired into, and [[?may]] be allowed or disallowed in whole or in part:
+>
+> Provided that any claim preferred or objection made within the period allowed by this sub-section [[?may]], in the event of the death of the claimant or objector, be continued by his legal representative.
+>
+> (2) Claims or objections under sub-section (1) [[?may]] be preferred or made in the Court by which the order of attachment is issued, or, if the claim or objection is in respect of property attached under an order endorsed under sub-section (2) of section 85, in the Court of the Chief Judicial Magistrate of the district in which the attachment is made.
+>
+> (3) Every such claim or objection [[!shall]] be inquired into by the Court in which it is preferred or made:
+>
+> Provided that, if it is preferred or made in the Court of a Chief Judicial Magistrate, he [[?may]] make it over for disposal to any Magistrate subordinate to him.
+>
+> (4) Any person whose claim or objection has been disallowed in whole or in part by an order under sub-section (1) [[?may]], within a period of one year from the date of such order, institute a suit to establish the right which he claims in respect of the property in dispute; but subject to the result of such suit, if any, the order [[!shall]] be conclusive.
+>
+> **88. Release, sale and restoration of attached property.**—(1) If the proclaimed person appears within the time specified in the proclamation, the Court [[!shall]] make an order releasing the property from the attachment.
+>
+> (2) If the proclaimed person does not appear within the time specified in the proclamation, the property under the attachment [[!shall]] be at the disposal of the State Government; but it [[!shall]] not be sold until the expiration of six months from the date of the attachment and until any claim preferred or objection made under section 87 has been disposed of under that section, unless it is subject to speedy and natural decay, or the Court considers that the sale would be for the benefit of the owner; in either of which cases the Court [[?may]] cause it to be sold whenever it thinks fit.
+>
+> (3) If, within two years from the date of the attachment, any person whose property is or has been at the disposal of the State Government under sub-section (2), appears voluntarily or is apprehended and brought before the Court by whose order the property was attached, or the Court to which such Court is subordinate, and proves to the satisfaction of such Court that he did not abscond or conceal himself for the purpose of avoiding execution of the warrant, and that he had not such notice of the proclamation as to enable him to attend within the time specified therein, such property, or, if the same has been sold, the net proceeds of the sale, or, if part only thereof has been sold, the net proceeds of the sale and the residue of the property, [[!shall]], after satisfying therefrom all costs incurred in consequence of the attachment, be delivered to him.
+>
+> **89. Appeal from order rejecting application for restoration of attached property.**—Any person referred to in sub-section (3) of section 88, who is aggrieved by any refusal to deliver property or the proceeds of the sale thereof [[?may]] appeal to the Court to which appeals ordinarily lie from the sentences of the first-mentioned Court.
+>
+> ::: proviso Section 88(3) restoration has two conjunctive conditions — proving either one alone is not enough
+> A person seeking restoration under section 88(3) within the two-year window must prove, to the Court's satisfaction, **both** that he did not abscond or conceal himself to avoid execution of the warrant, **and** that he did not have such notice of the proclamation as would have let him appear in time. These are conjunctive, not alternative: a person who genuinely never received notice but who was, independently, also hiding to avoid the warrant on some unrelated ground does not qualify merely because the notice point is made out. Both limbs have to be satisfied together.
+> :::
+
+<MicroTree
+  input="Property has been attached under section 85. What happens to it, and can it ever be recovered?"
+  :gates="[
+    { q: 'Has a third party (not the proclaimed person) preferred a claim or objection to the attachment within six months, asserting a genuine independent interest not liable to attachment?', note: 'Section 87 applies — the claim is inquired into and may be allowed or disallowed in whole or in part; a disallowed claimant has one year to sue to establish the right instead.', no: 'No third-party claim intervenes; the property’s fate runs on the proclaimed person’s own appearance or non-appearance under section 88.' },
+    { q: 'Did the proclaimed person appear within the time specified in the original proclamation?', note: 'Section 88(1) applies — the Court must release the property from attachment.', no: 'Section 88(2) applies — the property goes to the State Government’s disposal, with sale deferred at least six months and until section 87 claims are resolved (subject to the perishable/beneficial-sale exceptions).' },
+    { q: 'Within two years of the attachment, does the person appear or get apprehended, and can he prove both that he did not abscond to avoid the warrant and that he lacked timely notice of the proclamation?', note: 'Section 88(3) applies — the property, or its sale proceeds, is delivered to him after costs; a refusal to do so is appealable under section 89.', no: 'Restoration under section 88(3) is not available on these facts — either the two-year window has closed, or one of the two conjunctive conditions is not met.' }
+  ]"
+  result="The property's actual disposition — third-party claim, release, State disposal and eventual sale, or restoration — is traced through the correct sequence before either side treats the attachment as final."
+  resultKind="mandatory"
+  caveat="Section 86's cross-border identification-and-attachment route runs on a separate, police-initiated track under Chapter VIII procedure, distinct from the domestic claims-and-restoration sequence in sections 87–89."
+/>
+
+### In plain English
+
+Once property is attached, three separate things can happen to it. First, anyone genuinely unconnected to the proclaimed person — a co-owner, an heir, a creditor — has six months to step forward and claim their own interest in it; if that claim is rejected, they still get a year to sue over it in the ordinary courts. Second, the property's main fate depends on the proclaimed person himself: if he shows up in time, it is released back to him immediately; if he does not, it passes to the State's disposal, but cannot actually be sold for at least six months and not until any third-party claims are sorted out (unless it is perishable or selling it is genuinely in the owner's own interest). Third, even after all that, a person who was genuinely never hiding to dodge the warrant and who genuinely never got proper notice of the proclamation gets a real second chance — up to two years from attachment — to get the property, or what it sold for, back. If that request for restoration is refused, section 89 gives a right of appeal. Section 86, separately, is about chasing property that has left India entirely, through a formal cross-border request to another country's courts or authorities.
+
+### What changed from the CrPC
+
+BNSS sections 86, 87, 88 and 89 correspond to CrPC sections 83A, 84, 85 and 86 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+Section 86's cross-border identification-and-attachment mechanism is the significant new element in this cluster — it did not exist in the unamended CrPC's original text and reflects a **genuinely new provision**, extending the domestic attachment machinery into a formal cross-border cooperation channel under Chapter VIII. Sections 87, 88 and 89 are **renumbered with drafting changes**, with the claims process, the release/sale/restoration sequence, and the appeal right all tracking the unamended CrPC closely.
+
+### Test your instinct
+
+:::: instinct The co-owner who steps forward after the six-month window
+A proclaimed person's business partner, who has held an independent, pre-existing 50% interest in attached commercial property for years, learns of the attachment only after seven months have passed and immediately files a claim under section 87.
+::: ruling What actually happens
+Section 87(1)'s six-month window runs "from the date of such attachment," not from when the claimant learned of it. A claim filed after that window has closed is out of time under section 87 itself, whatever the merits of the underlying interest — though the partner is not without any remedy, since section 87(4)'s one-year suit route is available only to a claimant whose claim was actually disallowed under sub-section (1), which presupposes a claim was timely made. A late claimant's practical options are narrower, and timing is the first thing to check before assuming section 87 can simply be invoked whenever the interest is discovered.
+:::
+::::
+
+:::: instinct The person who proves lack of notice but was also hiding for an unrelated reason
+Eighteen months after attachment, a person is apprehended and brought before the attaching Court. He proves convincingly that he never received notice of the proclamation in time. But the Court also finds he was, independently, evading a separate warrant on an unrelated matter and had in fact been concealing himself generally, including during the relevant period.
+::: ruling What actually happens
+Section 88(3) requires proof of both limbs together: no absconding or concealment to avoid execution of *this* warrant, and no timely notice of *this* proclamation. A finding that he was concealing himself — even for a different, unrelated reason — defeats the first limb, regardless of how convincingly the notice point is made out. Restoration under section 88(3) fails on the conjunctive structure of the sub-section, not because the notice argument was weak.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Sections 86–89 are procedural claims-and-disposal mechanics that are, in the drafter's assessment, best stated directly from the conjunctive and disjunctive structure of the text itself; no specific Supreme Court authority on this precise sequence is confidently recalled, and the anti-fabrication discipline governing this project counsels against forcing one in.
+
+#### Sword and shield
+
+As a **shield**, a genuine third-party claimant should move within section 87's six-month window and, if disallowed, preserve the section 87(4) one-year suit right rather than letting it lapse; a proclaimed person seeking restoration must be ready to prove **both** section 88(3) limbs, not just the more sympathetic one. As a **sword**, the State can rely on section 88(2)'s disposal mechanism once the proclaimed person fails to appear, subject only to the six-month sale deferral and unresolved section 87 claims — and the perishable/beneficial-sale exceptions let it move faster where genuinely warranted.
+
+#### The limitation clock
+
+Section 87(1) fixes a **six-month** window (from the date of attachment) for third-party claims or objections; section 87(4) fixes a **one-year** window (from the date of a disallowing order) for a disallowed claimant to sue to establish the right; section 88(3) fixes a **two-year** window (from the date of attachment) for the proclaimed person's own restoration claim. All three run independently and should be tracked separately against the same attachment date.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Property has left India | Section 86 | Cross-border identification/attachment/forfeiture request via Chapter VIII procedure |
+| Third party claims an interest in attached property | Section 87(1)–(3) | Inquiry within 6 months of attachment; allowed/disallowed in whole or part |
+| Claim disallowed | Section 87(4) | 1 year to institute a suit to establish the right |
+| Proclaimed person appears in time | Section 88(1) | Mandatory release of the property |
+| Proclaimed person does not appear | Section 88(2) | Property to State disposal; sale deferred 6 months and pending s.87 claims (subject to exceptions) |
+| Proclaimed person appears/apprehended within 2 years, proves both no-evasion and no-notice | Section 88(3) | Property or sale proceeds delivered, after costs |
+| Restoration refused | Section 89 | Appeal to the Court to which appeals ordinarily lie |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not let a genuine third-party claimant sit on a claim past section 87(1)'s six-month window, calculated from the date of attachment, not from when the claimant learned of it.
+2. Do not treat a disallowed section 87 claim as final without checking section 87(4)'s one-year suit right.
+3. Do not build a section 88(3) restoration case on only one of its two limbs — no evasion of the warrant, and no timely notice of the proclamation — both must be proved.
+4. Do not assume attached property can be sold immediately on non-appearance — section 88(2)'s six-month deferral and pending section 87 claims must both be cleared first, absent the perishable/beneficial-sale exceptions.
+
+**Timing.** File a third-party claim within six months of attachment; file a suit on a disallowed claim within one year of the disallowing order; bring a restoration application within two years of attachment; appeal a refusal to restore promptly under section 89, since no separate limitation period is stated for the appeal itself.
+
+**Model checklist for reviewing attachment aftermath:**
+
+1. Confirm whether any section 87 claims were filed within six months, and their disposition.
+2. Confirm whether the proclaimed person appeared within the proclamation's specified time, triggering mandatory release under section 88(1).
+3. If not, confirm the section 88(2) six-month sale deferral and section 87 claim-resolution conditions were actually observed before any sale.
+4. If restoration is sought under section 88(3), independently verify both conjunctive conditions, not just the more favourable one.
+5. Where restoration was refused, confirm whether a section 89 appeal was filed and track it against the ordinary appellate timeline for that Court.
+
+---
