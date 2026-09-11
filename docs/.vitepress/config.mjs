@@ -82,7 +82,13 @@ export default defineConfig({
         },
         { text: 'Cognizance, commitment and charge', collapsed: true, items: [] },
         { text: 'Trial', collapsed: true, items: [] },
-        { text: 'Bail and bonds', collapsed: true, items: [] },
+        {
+          text: 'Bail and bonds',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XXXV — Bail and bonds (ss. 478–496)', link: '/chapters/chapter-35' }
+          ]
+        },
         { text: 'Judgment, sentence and disposal of property', collapsed: true, items: [] },
         { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
         { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
