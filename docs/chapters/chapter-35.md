@@ -1024,4 +1024,102 @@ Section 491(5)'s presumption clause interlocks with sections 125, 136, 401 and 4
 3. Where full recovery is not realistic, invoke section 491(3)'s remission power explicitly rather than leaving the Court to consider it unprompted.
 4. On a surety's death or insolvency discovered mid-case, move under section 493 promptly for fresh-security directions rather than waiting for a forfeiture event to force the issue.
 
+## Sections 494–496 — Closing the Chapter: a child's bond, the appeal, and levy of the amount
+
+### The dispute this solves
+
+::: oneminute Three short, mechanical sections close out the Chapter: one protects a child from having to execute a personal bond at all, one gives a forfeiture order somewhere to go on appeal, and one lets the amount actually be collected once due.
+A child cannot meaningfully undertake a personal financial obligation the way an adult can — section 494 recognises that and lets the burden fall on a surety alone. Section 491's forfeiture order is not the end of the road either way — section 495 gives it an appellate path, differentiated by who made the original order. And once a bond amount is actually due and the ordinary recovery process under section 491(2) has run its course, section 496 gives the High Court or Court of Session a direct route to have a Magistrate levy the amount, rather than leaving collection to chase the person indefinitely.
+:::
+
+::: story The bond that was never asked of the child
+Fourteen-year-old Rohit is required to execute a bond in a proceeding under this Sanhita. Section 494 spares him from being made to personally undertake a financial obligation he cannot meaningfully bear — the Court accepts a bond executed by a surety or sureties alone instead. Elsewhere, a Magistrate's forfeiture order against a surety, Prakash, is appealed — section 495 sends it to the Sessions Judge, because the original order came from a Magistrate; had a Court of Session made the order instead, the appeal would run to whichever court an appeal from that Session order ordinarily lies to. And in a third file, a High Court, having already found a bond forfeited, simply directs a Magistrate under section 496 to levy the amount — collection made practical, not left to chase the person across jurisdictions.
+:::
+
+> **494.** When the person required by any Court, or officer to execute a bond is a child, such Court or officer [[?may]] accept, in lieu thereof, a bond executed by a surety or sureties only.
+>
+> **495.** All orders passed under section 491 [[!shall]] be appealable,—
+>
+> (i) in the case of an order made by a Magistrate, to the Sessions Judge;
+>
+> (ii) in the case of an order made by a Court of Session, to the Court to which an appeal lies from an order made by such Court.
+>
+> **496.** The High Court or Court of Session [[?may]] direct any Magistrate to levy the amount due on a bond for appearance or attendance at such High Court or Court of Session.
+
+::: proviso A child's bond is a surety's bond, not a fiction of the child's own promise
+Section 494 does not merely permit leniency in enforcing a child's bond after the fact — it removes the child from the personal-obligation structure at the point of execution itself. The bond that results is genuinely the surety's undertaking, not a legal fiction dressed up as the child's own; this matters directly for section 491's forfeiture machinery, since forfeiture and the resulting penalty proceeding run against the actual obligor on the bond.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A bond needs to be executed, or a section 491 forfeiture order needs a next step"
+  :gates="[
+    { q: 'Is the person required to execute the bond a child?',
+      note: 'Section 494 substitutes a surety-only bond for a personal one — the child is not made to undertake the obligation directly',
+      no: 'The ordinary section 485 execution rules apply without modification' },
+    { q: 'Has a section 491 forfeiture order been made, and is it now being appealed?',
+      note: 'The appellate forum under section 495 turns on who made the original order — a Magistrate’s order and a Court of Session’s order do not go to the same place',
+      no: 'No section 495 appeal question arises yet' },
+    { q: 'Is the amount due on a bond for appearance or attendance specifically at the High Court or Court of Session?',
+      note: 'Section 496 is a direct levy-direction power confined to that higher-court context — it is not a general collection mechanism for every bond in the Chapter',
+      no: 'Recovery proceeds instead through section 491(2)’s ordinary fine-recovery machinery' }
+  ]"
+  result="The child’s obligation is properly structured through a surety alone, a forfeiture order has a defined appellate path, and a higher-court bond amount can be levied directly through a Magistrate"
+  resultKind="discretionary"
+  caveat="Section 496’s levy-direction power is additional to, not a replacement for, the ordinary section 491(2) recovery-as-a-fine process for bonds generally" />
+
+### In plain English
+
+These three sections tie off loose ends the rest of the Chapter creates. Section 494 keeps a child out of the personal-obligation structure altogether — practical recognition that a child cannot meaningfully be bound the way an adult can, so the burden sits entirely with a surety. Section 495 makes sure a section 491 forfeiture order is not the final word — there is always somewhere to appeal, and the destination simply tracks the level of the court that made the order in the first place. Section 496 is a narrower, practical convenience: where a bond was for appearance specifically at the High Court or Court of Session, that higher court does not have to run the entire section 491(2) recovery process itself — it can simply direct a Magistrate to levy the amount.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS s.494 appears to correspond to the CrPC's equivalent minor's-bond provision, with "child" as the term used here rather than "minor" — a terminology point worth confirming against the BNSS's own definitions clause rather than assuming synonymy. BNSS s.495 (appeal from section 491 orders) and s.496 (levy direction) appear to track the corresponding CrPC provisions on appeal from forfeiture orders and levy of bond amounts, with no structural change identified in this reading. Exact prior CrPC section numbers for all three should be independently confirmed before citing the concordance in a filing.*
+
+### Test your instinct
+
+:::: instinct A Magistrate requires a fifteen-year-old accused to personally execute a bond, alongside a surety, reasoning that involving the child directly reinforces the seriousness of the undertaking.
+::: ruling Contrary to the structure of section 494
+Section 494 exists to substitute a surety-only bond in place of the child's own — not to supplement the child's personal undertaking with a surety's backing. Requiring the child to execute a bond personally, even alongside a surety, misreads the section's purpose: the child is meant to be relieved of the personal obligation entirely, not made a co-obligor to reinforce the message.
+:::
+::::
+
+:::: instinct A surety, aggrieved by a Court of Session's forfeiture order under section 491, files the appeal before the Sessions Judge, believing that is the uniform appellate forum for all section 491 orders.
+::: ruling Wrong forum
+Section 495 does not send every section 491 order to the Sessions Judge — that destination is specifically for orders made by a Magistrate. An order made by a Court of Session itself goes instead to whichever court an appeal from that Court of Session's orders would ordinarily lie to. Filing in the wrong forum risks a threshold dismissal wholly apart from the merits of the forfeiture challenge.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 494–496 are structural and appellate-routing mechanics rather than doctrine attracting a distinct body of case law in this reading.*
+
+#### Sword and shield
+
+As a **shield**, section 494 protects a child accused or witness from a personal financial obligation they cannot meaningfully bear. As a **sword** in an appellate posture, section 495 is the surety's or accused's guaranteed route to challenge a forfeiture order, however adverse; as a practical collection tool, section 496 is the higher court's sword against a bond amount that would otherwise require the court itself to run a full recovery process.
+
+#### The limitation clock
+
+No independent limitation period is fixed by these three sections themselves for filing a section 495 appeal — the applicable limitation period runs under the general appeal-limitation framework elsewhere in the Sanhita or under the Limitation Act as applied to criminal appeals; ⚠️ this should be checked against the specific appellate provision actually invoked before relying on a filing deadline.
+
+#### Interlocking matrix
+
+Section 494 interlocks with section 485(1)'s general execution requirement as a child-specific modification of it, and with section 491's forfeiture machinery, since it determines who the actual obligor is when forfeiture is later assessed. Section 495 interlocks directly with section 491 as its dedicated appellate pathway. Section 496 interlocks with section 491(2)'s recovery-as-a-fine process as an alternative, higher-court-specific collection route.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where the person required to execute a bond is a child, insist on a surety-only bond under section 494 rather than accepting a personal-and-surety hybrid.
+2. On appealing a forfeiture order, confirm at the outset whether the original order was made by a Magistrate or a Court of Session — the section 495 forum differs, and getting it wrong risks a threshold dismissal.
+3. Where the bond in question was specifically for appearance at the High Court or Court of Session, consider whether a section 496 levy direction offers a faster practical route than the general section 491(2) process.
+4. Independently verify the applicable limitation period before filing a section 495 appeal — it is not fixed within this cluster's own text.
+
 ---
