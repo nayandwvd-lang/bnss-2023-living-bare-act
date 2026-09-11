@@ -425,3 +425,121 @@ Section 241(2) interlocks directly with sections 242, 243, 244 and 246 (the join
 4. Where representing the prosecution, do not assume section 241 gives any route to a joint trial without the accused's own initiative — the joinder-of-right categories in sections 242–244 and 246 are the only prosecution-side tools.
 
 ---
+
+## Sections 242–244 — The three doors around the separate-trial rule: same kind, same transaction, and genuine doubt
+
+### The dispute this solves
+
+::: oneminute Section 241 shut the door on joint trials of unrelated offences. Sections 242 to 244 are the keys the Sanhita itself cuts for that door — three independent situations where multiple offences (or, under section 243(2), an offence plus the acts that facilitated or concealed it) can be tried together without the accused ever applying for anything. Section 242 opens the door for repeat offences of the same kind — same punishment, same section — committed within a twelve-month window, capped at five such offences in one trial. Section 243 opens it for offences that are genuinely one connected episode: a single series of acts forming "the same transaction," acts that fall under two or more legal definitions at once, or acts that individually and in combination each constitute an offence. Section 244 handles the different problem of a prosecutor who is not yet sure, on the facts as they stand, exactly which offence was committed — letting her charge in the alternative, or charge all of them, rather than being forced to guess and risk an acquittal on a technicality.
+Section 244(2) does something distinct from the charging power in section 244(1): even where the accused was charged with only one offence, if the evidence at trial shows he actually committed a different one covered by section 244(1)'s doubt, he can be convicted of what was proved — the mismatch between the charge framed and the offence proved does not, by itself, save him.
+:::
+
+::: story Five thefts, one embezzlement scheme, and one uncertain assault
+Over eight months, A commits five separate acts of theft from the same employer, each punishable under the same section of the Bharatiya Nyaya Sanhita, 2023. Section 242 lets the prosecution try all five at one trial, since they are offences of the same kind committed within twelve months and the count does not exceed five. Separately, B is accused of criminal breach of trust as a carrier and, to conceal it, of falsifying the relevant accounts — section 243(2) lets both be tried together because the falsification facilitated the concealment of the breach of trust. Finally, C is found near an injured man in circumstances where it is genuinely unclear, on the evidence available, whether C committed theft, received stolen property, or committed criminal breach of trust — section 244(1) lets the prosecutor charge C with all three in the alternative, and section 244(2) means that even if only theft had been formally charged, a conviction for criminal breach of trust proved at trial would still stand.
+:::
+
+> **242. (1)** When a person is accused of more offences than one of the same kind committed within the space of twelve months from the first to the last of such offences, whether in respect of the same person or not, he [[?may]] be charged with, and tried at one trial for, any number of them not exceeding five.
+>
+> **(2)** Offences are of the same kind when they are punishable with the same amount of punishment under the same section of the Bharatiya Nyaya Sanhita, 2023 or of any special or local law:
+>
+> *Provided that* for the purposes of this section, an offence punishable under sub-section (2) of section 303 of the Bharatiya Nyaya Sanhita, 2023 shall be deemed to be an offence of the same kind as an offence punishable under section 305 of the said Sanhita, and that an offence punishable under any section of the said Sanhita, or of any special or local law, shall be deemed to be an offence of the same kind as an attempt to commit such offence, when such an attempt is an offence.
+>
+> **243. (1)** If, in one series of acts so connected together as to form the same transaction, more offences than one are committed by the same person, he [[?may]] be charged with, and tried at one trial for, every such offence.
+>
+> **(2)** When a person charged with one or more offences of criminal breach of trust or dishonest misappropriation of property as provided in sub-section (2) of section 235 or in sub-section (1) of section 242, is accused of committing, for the purpose of facilitating or concealing the commission of that offence or those offences, one or more offences of falsification of accounts, he [[?may]] be charged with, and tried at one trial for, every such offence.
+>
+> **(3)** If the acts alleged constitute an offence falling within two or more separate definitions of any law in force for the time being by which offences are defined or punished, the person accused of them [[?may]] be charged with, and tried at one trial for, each of such offences.
+>
+> **(4)** If several acts, of which one or more than one would by itself or themselves constitute an offence, constitute when combined a different offence, the person accused of them [[?may]] be charged with, and tried at one trial for the offence constituted by such acts when combined, and for any offence constituted by any one, or more, of such acts.
+>
+> **(5)** Nothing contained in this section [[!shall]] affect section 9 of the Bharatiya Nyaya Sanhita, 2023.
+>
+> *Illustration to sub-section (1).* A rescues B, a person in lawful custody, and in so doing causes grievous hurt to C, a constable in whose custody B was. A may be charged with, and convicted of, offences under sub-section (2) of section 121 and section 263 of the Bharatiya Nyaya Sanhita, 2023.
+>
+> **244. (1)** If a single act or series of acts is of such a nature that it is doubtful which of several offences the facts which can be proved will constitute, the accused [[?may]] be charged with having committed all or any of such offences, and any number of such charges may be tried at once; or he [[?may]] be charged in the alternative with having committed someone of the said offences.
+>
+> **(2)** If in such a case the accused is charged with one offence, and it appears in evidence that he committed a different offence for which he might have been charged under the provisions of sub-section (1), he [[?may]] be convicted of the offence which he is shown to have committed, although he was not charged with it.
+>
+> *Illustration.* A is accused of an act which may amount to theft, or receiving stolen property, or criminal breach of trust or cheating. He may be charged with theft, receiving stolen property, criminal breach of trust and cheating, or he may be charged with having committed theft, or receiving stolen property, or criminal breach of trust or cheating.
+
+::: proviso Section 242's five-offence cap is a hard ceiling, not a guideline
+However many offences of the same kind, within the same twelve-month window, the prosecution can point to, section 242(1) permits only up to five of them to be tried at one trial. Offences beyond the fifth within that window fall back to section 241's default separate-trial rule, or need a fresh joinder route.
+:::
+
+::: proviso Section 243(5) preserves section 9 of the Bharatiya Nyaya Sanhita, 2023 untouched
+⚠️ *Section 9 of the Bharatiya Nyaya Sanhita, 2023 is outside this repository's verified corpus as of this rendering — its content has not been independently confirmed here. This proviso is flagged for a dedicated cross-check once the BNS interlocks are built out, rather than asserted on an unverified recollection.*
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Can several offences against the same accused be tried together without the accused's application under section 241?"
+  :gates="[
+    { q: 'Are the offences of the same kind (same punishment, same section) and all committed within one twelve-month window?',
+      note: 'If so, section 242 permits a joint trial for up to five such offences',
+      no: 'Section 242 does not apply; check section 243 next' },
+    { q: 'If not, do the acts form one connected series — the same transaction — or fall within two or more legal definitions at once, or combine individually-innocuous acts into one further offence?',
+      note: 'Section 243(1), (3) and (4) each independently permit a joint trial on this ground',
+      no: 'Section 243 does not apply on these facts; check section 244 next' },
+    { q: 'Is it genuinely doubtful, on the facts provable, which of several offences was actually committed?',
+      note: 'Section 244(1) permits charging with all of them, or in the alternative, precisely because the prosecutor cannot yet be certain which one fits',
+      no: 'None of sections 242, 243 or 244 supplies a joinder route on these facts; section 241\'s default separate-trial rule governs' }
+  ]"
+  result="A joint trial of multiple offences against the same accused is available, without needing his application under section 241, wherever the offences are of the same kind within twelve months (up to five), form the same transaction or overlapping legal definitions or a combined offence, or are genuinely doubtful as between several possible offences"
+  resultKind="discretionary"
+  caveat="Section 244(2) operates independently of the charging choice actually made — even a conviction for an offence never formally charged can stand, provided it was one of the offences section 244(1)'s doubt covered." />
+
+### In plain English
+
+These three sections are the Sanhita's own built-in answer to a practical problem: real criminal conduct does not always come as one clean offence, and forcing every connected or uncertain situation through section 241's one-trial-per-offence default would make prosecutions unworkable. Section 242 recognises that a run of similar offences within a year is naturally one story, not five separate ones, and caps it at five so the concession does not become unlimited. Section 243 recognises that when acts are genuinely one connected episode — rescuing a prisoner and hurting the constable guarding him, concealing a breach of trust by cooking the books — trying them apart would be artificial. Section 244 solves a different problem entirely: sometimes the prosecutor genuinely cannot say, before the evidence is tested, exactly which offence was committed, and the law lets her hedge honestly rather than guess and risk losing on a technical mismatch between charge and proof.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 242 appears to track CrPC section 219, section 243 appears to track CrPC section 220, and section 244 appears to track CrPC section 221. One specific numeric change is flagged with reasonable, though not repository-verified, confidence: CrPC section 219 is generally understood to have capped joint trial of offences of the same kind within twelve months at* **three** *offences; BNSS section 242(1) raises that cap to* **five***. This repository does not carry the full CrPC text to confirm the CrPC-side figure character-for-character — treat the "three to five" comparison as a high-confidence practitioner note rather than a verified citation, and confirm against the CrPC bare Act before relying on it in submissions.*
+
+### Test your instinct
+
+:::: instinct The prosecution wants to try seven acts of cheating, all of the same kind, all committed by the accused within a ten-month span, in a single trial.
+::: ruling Section 242 permits at most five of the seven in one trial
+Section 242(1)'s cap is on the number of offences triable together, not on how many the accused may have committed within the window. The prosecution may select any five of the seven for one trial; the remaining two need a separate trial, or a different joinder route if one applies.
+:::
+::::
+
+:::: instinct The accused was charged only with theft. At trial, the evidence instead clearly establishes criminal breach of trust — a different offence that could have been charged under section 244(1)'s doubt at the time of charging.
+::: ruling A conviction for criminal breach of trust can stand under section 244(2)
+Section 244(2) does not require that the offence actually proved have been the one charged, only that it be an offence the accused might have been charged with under section 244(1)'s alternative-charging power. Proof of a different, dovetailing offence within that doubt does not, by itself, entitle the accused to an acquittal.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. The "same transaction" jurisprudence under the CrPC's predecessor joinder provisions is well developed in Supreme Court case law, but this author is not confident enough of a specific citation's exact reporter and year to promote it here without risking a fabricated or misremembered reference. Flagged as a research gap for a dedicated verification pass rather than filled with a guess.*
+
+#### Sword and shield
+
+As a **sword**, the prosecution uses sections 242–244 to avoid the fragmentation section 241 would otherwise impose — trying a connected course of conduct as one coherent story rather than as isolated, harder-to-prove episodes. As a **shield**, the defence's counter is arithmetic and characterisation: pressing the five-offence cap in section 242(1) where the prosecution has tried to stretch a joint trial beyond it, and contesting whether acts genuinely form "the same transaction" under section 243(1) where the prosecution's connection is really just convenience dressed up as continuity.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; section 242(1)'s twelve-month figure measures the window between the first and last offence for joinder eligibility, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 243(2) interlocks directly with section 235(2) (the relaxed particulars standard for criminal breach of trust and misappropriation, ss.234–235 cluster, already built) and with section 242(1) (the same-kind cap). Section 243(5)'s saving of section 9 of the Bharatiya Nyaya Sanhita, 2023 is flagged ⚠️ *not yet verified in this repository.* Section 244(2) interlocks with section 238's materiality/prejudice test (ss.236–238 cluster, already built) as a further layer protecting a conviction on proven-but-not-charged facts from being disturbed on a bare technicality.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where the prosecution has joined offences under section 242, count them — a joint trial of more than five offences of the same kind within the window is not authorised by this section.
+2. Where a joint trial is defended as one "same transaction" under section 243(1), test the connection independently — mere proximity in time or the same accused is not, by itself, the same transaction.
+3. Where a conviction rests on section 244(2) for an offence not formally charged, confirm it was genuinely among the offences the doubt in section 244(1) covered, and that the accused had a fair opportunity to meet it in substance.
+4. Flag any reliance on section 243(5)'s saving of section 9 of the Bharatiya Nyaya Sanhita, 2023 for independent verification before use in a live matter.
+
+---
