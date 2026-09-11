@@ -316,4 +316,111 @@ Section 204 interlocks directly with the joinder-of-charges provisions (sections
 3. On discovering parallel proceedings on the same offence, move promptly under section 206 rather than letting both proceedings run — delay risks duplicated evidence and conflicting findings before the tie-breaker is even invoked.
 4. Once the deciding High Court rules under section 206, treat the discontinuance of the other proceeding as automatic — do not wait for a separate order from the losing Court.
 
+## Sections 207–209 — When the offence, or the offender, is beyond the local Court's reach entirely
+
+### The dispute this solves
+
+::: oneminute Everything so far in this Chapter assumes the offence happened somewhere in India, within reach of some Indian Court. Sections 207–209 are what happens when even that assumption breaks down.
+A Magistrate can believe, with good reason, that someone within his local jurisdiction has committed an offence entirely outside it — even outside India — and still needs a way to compel that person to answer for it. Section 207 gives a first-class Magistrate a limited, bridging power: inquire as though the offence happened locally, then route the person to wherever jurisdiction actually lies. Sections 208 and 209 go further still, into offences committed genuinely outside India — by a citizen anywhere, or by anyone on an Indian-registered ship or aircraft — and build the two things that make such a prosecution practically possible: a legal fiction that lets India treat the offence as though committed within it (subject to the Central Government's prior sanction), and a mechanism for actually getting evidence from foreign proceedings into an Indian courtroom.
+:::
+
+::: story The offence committed on the high seas
+A crew member on an Indian-registered cargo ship commits an assault while the vessel is on the high seas, outside any country's territorial waters. Section 208 makes this triable in India — the offence is treated as if committed at any place in India where the accused is found, or where it is registered — but only with the Central Government's previous sanction, a deliberate check on prosecuting extraterritorial conduct without executive-level oversight. If the case also needs evidence taken abroad — say a deposition from a foreign port authority — section 209 lets the Central Government direct that depositions or exhibits from a foreign judicial officer, or from an Indian diplomatic or consular representative posted there, be received as evidence in the Indian trial, in any case where the Court could otherwise have issued a commission to take that evidence itself.
+:::
+
+> **207. (1)** When a Magistrate of the first class sees reason to believe that any person within his local jurisdiction has committed outside such jurisdiction (whether within or outside India) an offence which cannot, under the provisions of sections 197 to 205 (both inclusive), or any other law for the time being in force, be inquired into or tried within such jurisdiction but is under any law for the time being in force triable in India, such Magistrate [[?may]] inquire into the offence as if it had been committed within such local jurisdiction and compel such person in the manner hereinbefore provided to appear before him, and send such person to the Magistrate having jurisdiction to inquire into or try such offence, or, if such offence is not punishable with death or imprisonment for life and such person is ready and willing to give bail to the satisfaction of the Magistrate acting under this section, take a bond or bail bond for his appearance before the Magistrate having such jurisdiction.
+>
+> **(2)** When there are more Magistrates than one having such jurisdiction and the Magistrate acting under this section cannot satisfy himself as to the Magistrate to or before whom such person should be sent or bound to appear, the case [[!shall]] be reported for the orders of the High Court.
+>
+> **208.** When an offence is committed outside India—
+>
+> (a) by a citizen of India, whether on the high seas or elsewhere; or
+>
+> (b) by a person, not being such citizen, on any ship or aircraft registered in India,
+>
+> he [[?may]] be dealt with in respect of such offence as if it had been committed at any place within India at which he may be found or where the offence is registered in India:
+>
+> Provided that notwithstanding anything in any of the preceding sections of this Chapter, no such offence [[!shall]] be inquired into or tried in India except with the previous sanction of the Central Government.
+>
+> **209.** When any offence alleged to have been committed in a territory outside India is being inquired into or tried under the provisions of section 208, the Central Government [[?may]], if it thinks fit, direct that copies of depositions made or exhibits produced, either in physical form or in electronic form, before a judicial officer, in or for that territory or before a diplomatic or consular representative of India in or for that territory [[?may]] be received as evidence by the Court holding such inquiry or trial in any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate.
+
+::: proviso Section 208's fiction does not operate without the Central Government's say-so
+Section 208 lets an extraterritorial offence be treated as if committed in India — but the proviso is absolute: "no such offence shall be inquired into or tried in India except with the previous sanction of the Central Government." This is not a formality that can be supplied after the fact or cured mid-trial; it is a jurisdictional precondition to the trial happening at all, and the proviso expressly overrides anything else in this Chapter that might otherwise suggest a Court could proceed without it.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Magistrate believes an offence has been committed by a person within his local jurisdiction, but the offence itself occurred elsewhere — possibly outside India"
+  :gates="[
+    { q: 'Is the offence one that cannot be tried within the Magistrate’s own jurisdiction under sections 197–205 or any other law, but is triable somewhere in India?',
+      note: 'Section 207 is a bridging power — it lets the Magistrate compel appearance and route the person onward, not decide the case himself',
+      no: 'The ordinary venue rules already fix the correct forum; section 207 is unnecessary' },
+    { q: 'Was the offence in fact committed outside India, by an Indian citizen anywhere or by anyone on an Indian-registered ship or aircraft?',
+      note: 'Section 208’s fiction only operates for this specific pair of categories — citizenship of the offender, or the Indian registration of the vessel',
+      no: 'Section 208 does not extend jurisdiction to this offence' },
+    { q: 'Has the Central Government given its previous sanction to inquire into or try the offence in India?',
+      note: 'This is an absolute precondition under the proviso — nothing else in the Chapter can substitute for it',
+      no: 'The offence may not be inquired into or tried in India at all, regardless of how clearly section 208’s fiction would otherwise apply' },
+    { q: 'Does the case require evidence taken abroad — depositions or exhibits from a foreign judicial officer or an Indian diplomatic/consular representative?',
+      note: 'Section 209 is available only where the Court could otherwise have issued a commission for that same evidence — it is not a separate, broader evidence-gathering power',
+      no: 'Ordinary evidence rules apply without section 209' }
+  ]"
+  result="The offence is inquired into or tried in India — through section 207’s routing power, or section 208’s fiction with the Central Government’s sanction — with section 209 available to bring in evidence taken abroad"
+  resultKind="discretionary"
+  caveat="Section 208’s previous-sanction requirement is not curable after the trial has begun — it is a precondition, and its absence goes to the Court’s jurisdiction to try the offence at all" />
+
+### In plain English
+
+Section 207 is a practical fix for a narrow problem: a Magistrate who correctly recognises an offence is not his to try, but who still needs the power to compel the accused's appearance and get him to the right forum, rather than being powerless simply because the crime happened elsewhere. Section 208 tackles a bigger problem — genuinely extraterritorial offences — with a legal fiction that pretends the offence happened in India, but Parliament was careful to fence that fiction in with an absolute Central Government sanction requirement, since prosecuting conduct that happened entirely outside India's territory carries real diplomatic and jurisdictional weight that should not rest on a single Magistrate's or even a High Court's decision alone. Section 209 then solves the practical evidentiary problem that naturally follows from section 208 prosecutions: how do you get testimony from a foreign port, a foreign court, or a foreign proceeding into an Indian trial — by letting the Central Government authorise depositions and exhibits from abroad to stand in for evidence the Court could otherwise have taken by commission.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 207–209 appear to track CrPC ss. 188–189 and the surrounding extraterritorial-jurisdiction provisions (offences committed outside India; and the corresponding evidence-receipt mechanism) closely, with s.207 apparently corresponding to a CrPC provision on Magistrates' power to compel appearance for offences committed beyond local jurisdiction. Section 209's explicit inclusion of "electronic form" for depositions and exhibits is flagged as a plausible BNSS-era modernisation, not confirmed against the CrPC's original wording — check before relying on the comparison.*
+
+### Test your instinct
+
+:::: instinct An Indian citizen commits an offence while on a private trip abroad, entirely outside any ship or aircraft. On returning to India, he is put on trial without any Central Government sanction being sought, on the theory that citizenship alone is enough.
+::: ruling Citizenship is necessary but not sufficient — sanction is still required
+Section 208(a) does extend to an offence committed outside India "by a citizen of India, whether on the high seas or elsewhere" — so citizenship alone can bring the offence within the section's fiction. But the proviso is a separate, additional requirement: no such offence may be inquired into or tried in India except with the Central Government's previous sanction. Citizenship satisfies the threshold category; it does not substitute for the sanction the proviso independently demands.
+:::
+::::
+
+:::: instinct A Court needs testimony from a witness who gave a deposition before a foreign judicial officer in a country where the offence was committed, but the Court itself could never have issued a commission to take evidence in that country under the ordinary rules.
+::: ruling Section 209 does not apply
+Section 209's power to direct that foreign depositions or exhibits be received as evidence is explicitly limited to "any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate." Where the Court could never have issued a commission for that evidence in the first place, section 209 supplies no independent, broader route to bring it in regardless.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 207–209 are jurisdictional-machinery provisions for a relatively rare category of case (extraterritorial offences); while Supreme Court authority on Central Government sanction requirements for extraterritorial prosecutions likely exists, no specific citation is held with sufficient confidence to promote here.*
+
+#### Sword and shield
+
+As a **shield**, section 208's Central Government sanction requirement is an absolute jurisdictional defence available to any accused facing an extraterritorial-offence prosecution where sanction was never obtained — this goes to the Court's power to try the case at all, not merely to a procedural irregularity. As a **sword**, section 207 lets the prosecution keep a case alive administratively (through the routing and bail-bond mechanism) even when the arresting Magistrate is not the one who will ultimately try it.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+Section 207 interlocks with sections 197–205 as the fallback for offences those sections cannot place within any single Magistrate's jurisdiction. Section 209 interlocks directly with section 208 — it is only available for offences actually being tried under that section's extraterritorial fiction, and it interlocks with the Sanhita's general commission-for-evidence provisions as the reference point for when it may be invoked.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. In any extraterritorial-offence prosecution under section 208, verify at the earliest possible stage that Central Government sanction was in fact obtained — its absence is a complete, threshold defence.
+2. Where section 207 is invoked, confirm the arresting Magistrate has correctly identified that the offence cannot be tried within his own jurisdiction under sections 197–205 before treating the routing power as available.
+3. Before relying on foreign depositions or exhibits under section 209, confirm the Court could independently have issued a commission for that same evidence — section 209 is not a general gateway for foreign evidence.
+4. Where an accused is bailable under section 207(1) pending transfer to the proper Magistrate, ensure the bond is properly conditioned on appearance before that Magistrate specifically, not before the referring Magistrate.
+
 ---
