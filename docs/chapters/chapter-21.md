@@ -204,3 +204,108 @@ Section 278(2)'s cross-references to sections 364 and 401 are flagged ⚠️ not
 4. Do not assume section 278(1)'s reference to further evidence "of his own motion" licenses an open-ended reopening of the case — treat it as a discrete, judgment-stage power, not a standing invitation to relitigate.
 
 ---
+
+## Sections 279–282 — The absent or withdrawing complainant, the Magistrate's own exit power, and the mid-trial switch to warrant-case procedure
+
+### The dispute this solves
+
+::: oneminute This flagship cluster closes the chapter with the ways a summons-case trial can end other than by a judgment on the merits, plus one mechanism that changes the procedure mid-stream. Section 279 handles the complainant who simply doesn't show up: on non-appearance, the Magistrate must — after giving thirty days for the complainant to appear — acquit the accused, unless he thinks it proper to adjourn instead; a proviso lets the Magistrate dispense with the complainant's personal attendance where he is represented by an advocate or the prosecuting officer, or where personal attendance is otherwise unnecessary, and the same rule extends to non-appearance caused by the complainant's death. Section 280 is the complainant's own voluntary exit: at any time before a final order, if he satisfies the Magistrate there are sufficient grounds, he may withdraw his complaint against all or any of the accused, and the Magistrate must then acquit whoever the complaint is withdrawn against. Section 281 is a distinct, Magistrate-initiated exit valve for non-complaint cases: a first-class Magistrate (or, with the Chief Judicial Magistrate's sanction, another Judicial Magistrate) may, for recorded reasons, stop proceedings at any stage without a judgment — pronouncing acquittal if principal witnesses have already been heard, or simply releasing the accused with discharge effect otherwise. Section 282 is the chapter's structural safety valve: if, mid-trial, it appears in the interests of justice that a summons-case offence punishable beyond six months' imprisonment ought to be tried as a warrant-case instead, the Magistrate may switch tracks, re-hearing the case under warrant-case procedure and recalling any witness already examined.
+:::
+
+::: story A complainant's advocate steps in, and a mid-trial realisation that the offence needed heavier procedure
+A summons-case proceeds on a private complaint. On the third hearing date, the complainant himself is unwell and absent, but his advocate appears and confirms readiness to proceed; the Magistrate, satisfied personal attendance is not necessary under the proviso to section 279(1), dispenses with it and continues the case rather than acquitting outright. Partway through the evidence, it becomes apparent the offence actually alleged carries a maximum sentence exceeding six months and, given the gravity now apparent from the evidence, the interests of justice call for the fuller warrant-case procedure. Invoking section 282, the Magistrate re-hears the case under that procedure, recalling the witnesses already examined so their evidence can be taken afresh within the warrant-case framework.
+:::
+
+> **279. (1)** If the summons has been issued on complaint, and on the day appointed for the appearance of the accused, or any day subsequent thereto to which the hearing may be adjourned, the complainant does not appear, the Magistrate [[!shall]], after giving thirty days' time to the complainant to be present, notwithstanding anything hereinbefore contained, acquit the accused, unless for some reason he thinks it proper to adjourn the hearing of the case to some other day:
+>
+> Provided that where the complainant is represented by an advocate or by the officer conducting the prosecution or where the Magistrate is of opinion that the personal attendance of the complainant is not necessary, the Magistrate [[?may]], dispense with his attendance and proceed with the case.
+>
+> **(2)** The provisions of sub-section (1) shall, so far as may be, apply also to cases where the non-appearance of the complainant is due to his death.
+>
+> **280.** If a complainant, at any time before a final order is passed in any case under this Chapter, satisfies the Magistrate that there are sufficient grounds for permitting him to withdraw his complaint against the accused, or if there be more than one accused, against all or any of them, the Magistrate [[?may]] permit him to withdraw the same, and [[!shall]] thereupon acquit the accused against whom the complaint is so withdrawn.
+>
+> **281.** In any summons-case instituted otherwise than upon complaint, a Magistrate of the first class or, with the previous sanction of the Chief Judicial Magistrate, any other Judicial Magistrate, [[?may]], for reasons to be recorded by him, stop the proceedings at any stage without pronouncing any judgment and where such stoppage of proceedings is made after the evidence of the principal witnesses has been recorded, pronounce a judgment of acquittal, and in any other case, release the accused, and such release shall have the effect of discharge.
+>
+> **282.** When in the course of the trial of a summons-case relating to an offence punishable with imprisonment for a term exceeding six months, it appears to the Magistrate that in the interests of justice, the offence should be tried in accordance with the procedure for the trial of warrant-cases, such Magistrate [[?may]] proceed to re-hear the case in the manner provided by this Sanhita for the trial of warrant-cases and [[?may]] recall any witness who may have been examined.
+
+::: proviso Section 279's thirty-day acquittal rule is mandatory once the conditions are met — but the Magistrate retains a real adjournment escape valve
+Section 279(1) uses "shall… acquit," but immediately qualifies it with "unless for some reason he thinks it proper to adjourn" — a genuinely discretionary counterweight built into the same sentence. A Magistrate faced with a plausible explanation for non-appearance is not locked into an acquittal merely because thirty days have passed without the complainant showing up in person.
+:::
+
+::: proviso Section 281 is available only in non-complaint summons-cases, marking it apart from sections 279–280
+Sections 279 and 280 both operate specifically within complaint-instituted cases. Section 281 is the mirror-image power for summons-cases instituted otherwise than on complaint — typically on a police report or a Magistrate's own information — giving a (usually first-class) Magistrate an independent, judgment-free exit valve unavailable to a second-class Magistrate without the Chief Judicial Magistrate's sanction.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A summons-case trial is underway — can it end, or change track, before a judgment on the full merits?"
+  :gates="[
+    { q: 'Was the case instituted on complaint, and is the complainant now absent (including by death)?',
+      note: 'Section 279 applies specifically to complaint-instituted cases',
+      no: 'Section 279\'s non-appearance acquittal rule does not apply as such' },
+    { q: 'Does the Magistrate think it proper to adjourn instead of acquitting, or can he dispense with personal attendance under the proviso?',
+      note: 'Both are genuine counterweights to the thirty-day acquittal rule',
+      no: 'The Magistrate acquits the accused after the thirty-day window' },
+    { q: 'Does the offence carry imprisonment exceeding six months, and does the interests of justice call for warrant-case procedure instead?',
+      note: 'Section 282 is a mid-trial track-switch, not an exit from the case altogether',
+      no: 'The case continues on the ordinary summons-case track under this Chapter' }
+  ]"
+  result="A summons-case can end without a full-merits judgment through complainant non-appearance (section 279), voluntary withdrawal of complaint (section 280), or a Magistrate's own stop-proceedings power in non-complaint cases (section 281) — or it can continue on an entirely different procedural track altogether if converted to warrant-case procedure under section 282"
+  resultKind="discretionary"
+  caveat="Section 282's conversion is available only for offences punishable beyond six months' imprisonment, and requires the Magistrate's own assessment that the interests of justice call for it — it is not triggered automatically by the offence's classification alone." />
+
+### In plain English
+
+This cluster is the chapter's exit and escape-hatch machinery. Three of the four provisions end the case one way or another without a judgment on the full merits: the complainant vanishes (section 279), the complainant chooses to walk away (section 280), or the Magistrate himself decides to stop, in a non-complaint case, without ever reaching a verdict (section 281). The fourth, section 282, is different in kind — it doesn't end anything, it recognises that the summons-case procedure was too light for what the case turned out to actually involve, and switches to the more elaborate warrant-case machinery mid-stream, without losing the evidence already taken (which can simply be recalled and retaken under the new procedure).
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 279 appears to track CrPC section 256 (non-appearance or death of complainant), BNSS section 280 appears to track CrPC section 257 (withdrawal of complaint), BNSS section 281 appears to track CrPC section 258 (power to stop proceedings in certain cases), and BNSS section 282 appears to track CrPC section 259 (power to try summarily [sic — power to convert summons-case to warrant-case procedure]). No significant departure is flagged for this cluster; the mechanisms read as substantively continuous with their CrPC predecessors, though this has not been independently cross-checked clause-by-clause. This closes the chapter and, with it, the ordinary Magistrate-level trial procedures (Chapters XX–XXI); Chapter XXII's scope has not yet been read as of this cluster's drafting.*
+
+### Test your instinct
+
+:::: instinct A complainant fails to appear on the hearing date, and the Magistrate, without waiting thirty days or considering an adjournment, immediately acquits the accused on the spot.
+::: ruling This skips section 279(1)'s built-in sequencing
+Section 279(1) requires the Magistrate to give the complainant thirty days to appear before acquitting, and even then retains discretion to adjourn instead if he thinks it proper. An immediate acquittal on the very day of non-appearance, without observing either safeguard, departs from the sequence the section lays down.
+:::
+::::
+
+:::: instinct Midway through a summons-case trial for an offence punishable with up to five years' imprisonment, the Magistrate converts the case to warrant-case procedure under section 282, recalling the witnesses already examined.
+::: ruling This is within section 282's contemplation
+The offence's punishment exceeds six months, satisfying the threshold, and the Magistrate has formed the view that the interests of justice call for warrant-case procedure. Recalling witnesses already examined so their evidence can be taken afresh under the new procedure is exactly what section 282 anticipates, not an irregular re-litigation of settled ground.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 279's non-appearance rule protects an accused from an indefinitely pending complaint-case where the complainant has simply lost interest — thirty days, then acquittal, absent a good reason to adjourn. As a **sword**, an accused facing a weak case can press for strict application of the thirty-day rule where the complainant's absence looks like genuine disengagement rather than a one-off scheduling problem; the complainant's countervailing tool is the advocate-representation proviso, which lets him avoid personal attendance altogether where represented, sidestepping the acquittal risk entirely.
+
+#### The limitation clock
+
+Section 279(1)'s thirty-day window before acquittal on non-appearance is this cluster's central clock. Section 280 imposes no fixed timing beyond "at any time before a final order is passed" — a withdrawal application remains available throughout the trial, right up to that point.
+
+#### Interlocking matrix
+
+Section 281 echoes, in non-complaint summons-cases, a similar stop-without-judgment logic to what section 272 (Chapter XX, already built) provides for warrant-cases with an absent complainant, though the two provisions are not identical in trigger or scope. Section 282's conversion mechanism interlocks with the entirety of Chapter XX's warrant-case procedure (already built) as the destination framework a converted case moves into.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. For a complainant who cannot reliably attend hearings, arrange advance representation by an advocate or confirm the Magistrate's view that personal attendance is unnecessary — this avoids the thirty-day acquittal risk under section 279 entirely.
+2. Where advising a complainant to withdraw a weak complaint, do so before any final order — section 280 remains available throughout the trial but not after judgment.
+3. In a non-complaint summons-case that appears to be going nowhere, consider whether section 281's stop-proceedings power offers a cleaner resolution than pressing on to a contested judgment.
+4. Where the true gravity of an offence becomes apparent only during a summons-case trial, raise section 282 conversion promptly — the section's own text ties it to the interests-of-justice assessment made "in the course of the trial," not after it has concluded.
+
+---
