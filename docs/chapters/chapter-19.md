@@ -396,3 +396,104 @@ Section 256(3) interlocks directly with section 253 (compulsory process for the 
 4. Keep the record clear on whether a written statement under section 256(2) was actually filed — its absence or presence can matter later if the point becomes contested on appeal.
 
 ---
+
+## Sections 258–259 — Judgment on a clock, and the previous-conviction procedure that follows it
+
+### The dispute this solves
+
+::: oneminute This flagship cluster puts a statutory clock on a stage of the trial that, historically, could run indefinitely: judgment. Section 258(1) requires the Judge, after hearing arguments and any points of law, to give judgment as soon as possible, and in any event within thirty days from the date arguments are completed — extendable to forty-five days, but only for reasons the Judge records in writing. Section 258(2) then handles what happens on conviction: unless the Judge proceeds instead under section 401 (the probation-and-release provision), he must hear the accused on the question of sentence before passing it — sentencing is not an afterthought tacked onto the conviction, it is its own hearing. Section 259 completes the cluster by dealing with a previous conviction charged for the purpose of enhanced punishment under section 234(7): if the accused does not admit it, the Judge, after convicting him under section 252 or section 258, can take evidence on the alleged previous conviction and record a finding — but the previous-conviction charge itself cannot be read out, the accused cannot be asked to plead to it, and the prosecution cannot refer to it in evidence, until and unless the accused has actually been convicted of the offence itself.
+:::
+
+::: story A judgment reserved, and a previous conviction proved only after the verdict
+Arguments in a Sessions trial conclude on 1 March. Under section 258(1), the Judge must deliver judgment by 31 March unless he records reasons extending that to 15 April — he cannot simply let the matter sit indefinitely on his docket. The accused is convicted on 30 March, within the ordinary window. The charge had also alleged a previous conviction, relevant only to enhance sentence, which the accused did not admit when the charge was framed. Until this point, the Judge has kept that allegation entirely out of the trial — it was never read to the accused, never put to him for a plea, and the prosecution never referred to it or led evidence on it. Only now, after the conviction on the substantive offence, does the Judge under section 259 take evidence specifically on the alleged previous conviction and record a finding on it, before proceeding to hear the accused on sentence under section 258(2).
+:::
+
+> **258. (1)** After hearing arguments and points of law (if any), the Judge [[!shall]] give a judgment in the case, as soon as possible, within a period of thirty days from the date of completion of arguments, which [[?may]] be extended to a period of forty-five days for reasons to be recorded in writing.
+>
+> **(2)** If the accused is convicted, the Judge [[!shall]], unless he proceeds in accordance with the provisions of section 401, hear the accused on the questions of sentence, and then pass sentence on him according to law.
+>
+> **259.** In a case where a previous conviction is charged under the provisions of sub-section (7) of section 234, and the accused does not admit that he has been previously convicted as alleged in the charge, the Judge [[?may]], after he has convicted the said accused under section 252 or section 258, take evidence in respect of the alleged previous conviction, and [[!shall]] record a finding thereon:
+>
+> *Provided that* no such charge [[!shall]] be read out by the Judge nor [[!shall]] the accused be asked to plead thereto nor [[!shall]] the previous conviction be referred to by the prosecution or in any evidence adduced by it, unless and until the accused has been convicted under section 252 or section 258.
+
+::: proviso Section 258(1)'s forty-five-day extension needs written reasons, not just a request
+The default outer limit for judgment is thirty days from completion of arguments. Extending to forty-five days is not automatic on a party's application or the Judge's own convenience — section 258(1) conditions the extension on reasons actually recorded in writing, making the delay itself a reviewable decision rather than a silent slippage.
+:::
+
+::: proviso Section 259's proviso keeps a previous conviction out of the trial until guilt on the substantive offence is settled
+The whole point of the sequencing in section 259 is to prevent a previous-conviction allegation — relevant only to sentence, not to guilt — from prejudicing the fact-finding on the offence actually charged. The charge is not read, no plea is taken on it, and the prosecution cannot refer to it in evidence, all the way through to conviction on the substantive offence; only then does it become a live issue.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Arguments have concluded in a Sessions trial — what is the clock on judgment, and what follows a conviction?"
+  :gates="[
+    { q: 'Has judgment been given within thirty days of the completion of arguments?',
+      note: 'Section 258(1) sets thirty days as the default outer limit',
+      no: 'The Judge needs a written, recorded reason to extend to forty-five days — silence or convenience alone does not justify the delay' },
+    { q: 'Is the accused convicted?',
+      note: 'Section 258(2) applies only on conviction',
+      no: 'The trial ends in acquittal; sections 258(2) and 259 do not engage' },
+    { q: 'Was a previous conviction charged under section 234(7), and did the accused decline to admit it?',
+      note: 'If so, section 259 lets the Judge take evidence on it now, after conviction, and record a finding, before sentencing proceeds',
+      no: 'The Judge proceeds directly to hearing the accused on sentence under section 258(2), unless section 401 applies instead' }
+  ]"
+  result="Judgment must be delivered within thirty days of arguments closing, extendable to forty-five only for recorded reasons; on conviction, any contested previous-conviction allegation is proved separately at this stage, and the accused is then heard on sentence before it is passed, unless section 401 diverts the case instead"
+  resultKind="mandatory"
+  caveat="Section 259's evidence-taking on a previous conviction is itself discretionary in its trigger ('may... take evidence'), but the finding it produces, once taken up, must be recorded." />
+
+### In plain English
+
+Section 258 is one of this Sanhita's clearest statements that speed is not a courtesy but a statutory obligation — thirty days from the end of arguments to a judgment, forty-five only where the Judge actually explains in writing why more time was needed. And a conviction is not the end of the Judge's work: sentence gets its own hearing, giving the accused a real chance to be heard on what should happen to him before it is decided. Section 259 solves a genuine fairness problem that comes with proving a previous conviction to enhance sentence — that information is prejudicial to the question of guilt on the present charge, so the Sanhita keeps it entirely out of the trial's fact-finding process. It only surfaces, and only needs to be proved, once the accused has actually been convicted of the offence he is on trial for.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 258 appears to track CrPC section 235 (judgment of acquittal or conviction) and BNSS section 259 appears to track CrPC section 236 (previous conviction). Section 258(1)'s thirty-day/forty-five-day judgment clock is flagged as a likely significant genuine BNSS addition — this author does not recall a fixed statutory deadline for delivering judgment after arguments under the CrPC's equivalent provision, and this has not been independently verified against the CrPC bare Act, which is outside this repository's corpus. Section 259 reads as substantively continuous with its likely CrPC predecessor.*
+
+### Test your instinct
+
+:::: instinct Forty days after arguments conclude, the Judge has still not delivered judgment, and the order sheet contains no recorded reason for the delay beyond the thirtieth day.
+::: ruling The delay departs from section 258(1)'s requirement
+Section 258(1) permits an extension to forty-five days, but only where reasons for the extension are recorded in writing. A judgment delivered on day forty without any recorded reason on file has exceeded the default thirty-day limit without satisfying the condition that alone justifies going beyond it.
+:::
+::::
+
+:::: instinct A previous conviction was charged under section 234(7). Before the accused is convicted of the present offence, the prosecution, in the course of leading its case-in-chief, puts questions to a witness referring to that previous conviction.
+::: ruling The reference departs from section 259's proviso
+Section 259's proviso bars the prosecution from referring to the previous conviction in evidence unless and until the accused has been convicted of the offence charged. A reference introduced during the case-in-chief, before any conviction, falls squarely within what the proviso forbids, regardless of the prosecution's intent.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. Supreme Court guidance on delay in delivering judgments is well developed in principle (see, for context, the general "justice delayed is justice denied" line of authority discussed under* **The authorities** *below), but this author is not confident that a specific ratio maps precisely onto section 258(1)'s particular thirty/forty-five-day trial-court clock without risking an imprecise or overstretched citation. Flagged as a research gap for a dedicated verification pass.*
+
+#### Sword and shield
+
+As a **shield**, section 258(1)'s clock protects an accused — particularly one in custody — from an indefinitely reserved judgment, and section 259's proviso shields him from a previous conviction contaminating the fact-finding on the present charge. As a **sword**, the defence can press a judgment-delay objection where the thirty/forty-five-day structure is not honoured and no reasons appear on record, and can object immediately and specifically to any premature reference to a charged previous conviction under section 259's proviso, seeking whatever corrective the trial Judge or an appellate court considers the breach warrants.
+
+#### The limitation clock
+
+Section 258(1) is itself the limitation clock for this cluster: thirty days from the completion of arguments to judgment, extendable to forty-five days only for reasons recorded in writing.
+
+#### Interlocking matrix
+
+Section 258(2) interlocks directly with section 401 (probation/release provisions) ⚠️ *not yet built in this repository as of this rendering* as the one express carve-out from the mandatory sentence-hearing requirement. Section 259 interlocks directly with section 234(7) (previous-conviction pleading, Chapter XVIII, already built) as the charge provision it operationalises at the judgment stage.
+
+#### The authorities
+
+Anil Rai v. State of Bihar, (2001) 7 SCC 318 is noted here as general background authority on the harms of delayed judgment delivery and the Supreme Court's guidance on outer time limits for pronouncing reserved judgments — decided in the context of High Court appellate judgments rather than trial-court verdicts under this specific provision, and accordingly not promoted as this cluster's winning ratio, but useful context for the policy concern section 258(1) appears designed to address at the trial-court level. ⚠️ *Not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Diarise the thirty-day judgment deadline the moment arguments conclude, and check the record for a written extension order if judgment has not been delivered by day thirty.
+2. On conviction, confirm the Judge actually conducted a separate hearing on sentence under section 258(2) before passing it — a sentence passed in the same breath as the conviction, without any hearing, is vulnerable to challenge.
+3. Where a previous conviction is charged under section 234(7), monitor the trial closely for any premature reference to it by the prosecution, and object immediately if one occurs — a belated objection weakens the argument that real prejudice resulted.
+4. Where the accused disputes a charged previous conviction, be ready to meet the evidence the prosecution leads on it specifically at the section 259 stage, after conviction — this is a distinct, later evidentiary contest from the trial on the substantive offence.
+
+---
