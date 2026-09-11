@@ -104,4 +104,93 @@ This cluster interlocks with Chapter XIII (police powers to investigate, which f
 3. Do not conflate a section 212 making-over order with a section 211 transfer — they serve different purposes and neither substitutes for the other.
 4. Where a case has been made over under section 212, confirm the transferee Magistrate is in fact "competent" within the meaning of section 212 before treating the routing as settled.
 
+## Sections 213–214 — The Court of Session's cognizance is never original: it is always committed
+
+### The dispute this solves
+
+::: oneminute A Court of Session is not a Court anyone can walk into directly, no matter how grave the offence. Section 213 closes that door with a near-absolute rule: the Sessions Court's cognizance comes only through committal by a Magistrate, unless some other provision expressly says otherwise.
+The Magistracy is deliberately positioned as the funnel through which every case must first pass, even the gravest ones eventually headed for trial before a Court of Session. Section 213 states that as a rule with almost no exceptions: no Court of Session takes cognizance of any offence as a court of *original* jurisdiction unless a Magistrate has committed the case to it — the only escape hatch is an express provision elsewhere in the Sanhita or in some other law. Section 214 then answers a completely different, purely internal question: once a case is properly before "the" Court of Session in a division, which particular judge of that Court — the Sessions Judge himself, or one of the Additional Sessions Judges — actually tries it.
+:::
+
+::: story The complaint filed straight at the Sessions Court
+A complainant, convinced the offence is serious enough to warrant a Sessions trial, tries to file directly with the Court of Session rather than starting before a Magistrate. Section 213 stops this cold: absent an express statutory exception, the Court of Session simply has no power to take cognizance of the case as a court of original jurisdiction until a Magistrate has committed it. The complainant's only route is to begin before a Magistrate and let the committal process run its course. In a different scenario, once a case has been properly committed and is sitting in the Sessions division's list, the High Court — by special order — directs a particular Additional Sessions Judge to try it, even though the Sessions Judge of the division never separately made over that file to him. Section 214 confirms this is entirely valid: the Sessions Judge's own order and the High Court's special direction are two independent, self-sufficient routes to the same result.
+:::
+
+> **213.** Except as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session [[!shall]] take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.
+>
+> **214.** An Additional Sessions Judge [[!shall]] try such cases as the Sessions Judge of the division may, by general or special order, make over to him for trial or as the High Court may, by special order, direct him to try.
+
+::: proviso "Except as otherwise expressly provided" is a narrow door, not a general escape
+Section 213's opening clause is not an invitation to argue that some broader interest — urgency, gravity of the offence, the complainant's preference — justifies skipping committal. It requires an *express* provision, elsewhere in the Sanhita or in another law, that specifically authorises the Court of Session to take cognizance without committal. Section 222(2) later in this very Chapter is one confirmed example (a Court of Session taking cognizance of certain defamation complaints against high constitutional office-holders directly, on a Public Prosecutor's complaint) — but such exceptions are the rare, named carve-outs, not a general principle available on request.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A case is sought to be placed before a Court of Session — does it have cognizance to take it up as a court of original jurisdiction?"
+  :gates="[
+    { q: 'Is there an express provision, in this Sanhita or another law, that specifically allows the Court of Session to take cognizance directly, without committal?',
+      note: 'Section 213’s opening clause carves out only named exceptions, such as section 222(2)’s defamation route — not a general discretion',
+      no: 'Check whether committal has occurred instead' },
+    { q: 'Has the case been committed to the Court of Session by a Magistrate under this Sanhita?',
+      note: 'This is the default, near-universal route into a Court of Session’s original jurisdiction',
+      no: 'The Court of Session cannot validly take cognizance as a court of original jurisdiction on these facts' }
+  ]"
+  result="Cognizance by a Court of Session as a court of original jurisdiction is proper only where a Magistrate has committed the case, or a named statutory exception expressly applies"
+  resultKind="mandatory"
+  caveat="Section 214 answers a separate question — once the Court of Session properly has the case, which specific judge of that Court tries it: the Sessions Judge by his own general or special order, or an Additional Sessions Judge under the High Court’s special direction. Either route independently suffices; neither is a jurisdictional precondition like committal is." />
+
+### In plain English
+
+Think of the Magistracy as the compulsory front door to the whole criminal justice system, and the Court of Session as a room you can only reach by first walking through that door — section 213 is simply the rule that says so. A case reaches a Court of Session's original jurisdiction only by being committed there by a Magistrate, full stop, unless some other section names a specific exception. Section 214 is unrelated to whether the Sessions Court has jurisdiction at all; it only decides, once the case is properly there, whether the Sessions Judge himself hears it or an Additional Sessions Judge does — settled either by the Sessions Judge's own allocation order or by the High Court stepping in with a special direction.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 213 appears to track CrPC section 193 (cognizance of offences by Courts of Session) and BNSS section 214 appears to track CrPC section 194 (Additional Sessions Judges to try cases made over to them). The committal-only structure and the dual Sessions-Judge/High-Court routing for Additional Sessions Judges both appear substantively unchanged in this reading, but the correspondence has not been independently cross-checked clause-by-clause. Flagged for verification before relying on the exact CrPC-to-BNSS correspondence in a filing.*
+
+### Test your instinct
+
+:::: instinct A complainant, bypassing the Magistracy entirely, files a complaint directly with the Court of Session for an offence carrying a sentence the complainant believes only a Sessions Court should try. No Magistrate has committed any case, and no express statutory exception is identified.
+::: ruling Cognizance is barred
+Section 213 is unambiguous: absent an express statutory exception, a Court of Session cannot take cognizance of any offence as a court of original jurisdiction unless a Magistrate has committed the case to it. The complainant's belief about the offence's gravity does not substitute for the committal process; the complaint must begin before a Magistrate.
+:::
+::::
+
+:::: instinct The Sessions Judge of the division never made over a particular case to any Additional Sessions Judge, but the High Court, by special order, directed a named Additional Sessions Judge to try it. The defence argues the trial is void because the Sessions Judge himself never allocated the file.
+::: ruling The trial is properly constituted
+Section 214 gives two independent bases on which an Additional Sessions Judge may try a case: a general or special order of the Sessions Judge of the division, *or* a special direction of the High Court. Either is sufficient on its own; the statute does not require both. The absence of a Sessions Judge's order is immaterial once a valid High Court direction exists.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 213–214 are jurisdictional-gateway and internal-allocation mechanics rather than doctrine attracting a single defining Supreme Court authority in this reading.*
+
+#### Sword and shield
+
+As a **shield**, section 213 protects an accused from being hauled directly before a Court of Session without the screening function the Magistrate-level committal process performs. As a **sword**, a defence objection that no committal occurred and no express exception applies goes to the Court of Session's very jurisdiction to proceed — it is not a mere irregularity, and it can be raised at the threshold rather than waiting for trial to conclude.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; committal and cognizance timing are jurisdictional questions, not limitation questions.
+
+#### Interlocking matrix
+
+Section 213 interlocks directly with ⚠️ *the committal-proceedings chapter (not yet built in this repository as of this rendering — flag and cross-check before relying on the committal mechanics themselves)* and with section 222(2) later in this Chapter, which is a confirmed express exception to the committal-only rule. It also interlocks with sections 204–206 in Chapter XIV, which govern venue and jurisdiction disputes once a case is properly before a court.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before accepting that a Court of Session properly has a case, confirm on the record that a Magistrate in fact committed it — or identify the specific express statutory exception being relied on instead.
+2. Do not assume gravity of offence alone justifies bypassing committal; section 213 requires an express provision, not a general argument from seriousness.
+3. Where a case is being tried by an Additional Sessions Judge, confirm which of the two independent bases under section 214 applies — a Sessions Judge's order, a High Court direction, or both — for the record.
+4. Raise a committal defect as a threshold jurisdictional objection, not as a trial-stage irregularity, to preserve its full strategic weight.
+
 ---
