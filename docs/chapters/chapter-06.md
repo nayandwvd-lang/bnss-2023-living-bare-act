@@ -879,3 +879,116 @@ None added — see "The winning ratio" above.
 5. Where restoration was refused, confirm whether a section 89 appeal was filed and track it against the ordinary appellate timeline for that Court.
 
 ---
+
+## Sections 90–93 — Warrant in lieu of summons, bonds for appearance, arrest on breach, and the Chapter's closing applicability rule
+
+### The dispute this solves
+
+::: oneminute The Sanhita's two coercion tracks — summons and warrant — are not sealed off from each other, and appearance itself can be secured by a simple bond without either. This final cluster ties the whole chapter together.
+Chapters VI's earlier sections treat summons and warrant as two distinct tracks, each with its own machinery. Sections 90 to 93 are the connective tissue: section 90 lets a Court convert what would ordinarily be a summons case into a warrant case, before or after the summons issues, where it has reason to believe the person will not cooperate. Section 91 offers a third, lighter-weight route — a simple bond or bail bond for appearance, usable whenever the person is already present in court. Section 92 supplies the consequence if that bond is broken: a warrant, without the Court needing to start the whole summons process over. Section 93 closes the chapter with a short but important general-applicability rule, extending everything the chapter has built to every summons and warrant issued under the Sanhita, not just the specific ones the chapter happened to discuss by name.
+:::
+
+::: story The summons that was quietly upgraded before it was even issued
+A complaint is filed, and the Magistrate initially intends to proceed by summons. Before the summons is issued, however, credible information reaches the Court that the accused has already left the country temporarily and has a documented history of ignoring court process in an unrelated matter. Rather than issuing a summons that experience suggests will accomplish nothing, the Magistrate records reasons in writing and issues a warrant directly under section 90(a) — "before the issue of such summons... the Court sees reason to believe that he has absconded or will not obey the summons." The accused's counsel later argues a warrant was premature since no summons had even been tried first. Section 90(a) answers this directly: the power to warrant instead of summons is available precisely at this pre-summons stage, provided the Court's belief is genuinely reasoned and recorded, not merely asserted.
+:::
+
+> **90. Issue of warrant in lieu of, or in addition to, summons.**—A Court [[?may]], in any case in which it is empowered by this Sanhita to issue a summons for the appearance of any person, issue, after recording its reasons in writing, a warrant for his arrest—
+>
+> (a) if, either before the issue of such summons, or after the issue of the same but before the time fixed for his appearance, the Court sees reason to believe that he has absconded or will not obey the summons; or
+>
+> (b) if at such time he fails to appear and the summons is proved to have been duly served in time to admit of his appearing in accordance therewith and no reasonable excuse is offered for such failure.
+>
+> **91. Power to take bond or bail bond for appearance.**—When any person for whose appearance or arrest the officer presiding in any Court is empowered to issue a summons or warrant, is present in such Court, such officer [[?may]] require such person to execute a bond or bail bond for his appearance in such Court, or any other Court to which the case may be transferred for trial.
+>
+> **92. Arrest on breach of bond or bail bond for appearance.**—When any person who is bound by any bond or bail bond taken under this Sanhita to appear before a Court, does not appear, the officer presiding in such Court [[?may]] issue a warrant directing that such person be arrested and produced before him.
+>
+> **93. Provisions of this Chapter generally applicable to summons and warrants of arrest.**—The provisions contained in this Chapter relating to summons and warrant, and their issue, service and execution, [[!shall]], so far as may be, apply to every summons and every warrant of arrest issued under this Sanhita.
+>
+> ::: proviso Section 90 is a discretion conditioned on recorded reasons — not a silent upgrade
+> Section 90's power to warrant instead of, or alongside, a summons is discretionary ("may"), but it comes with a mandatory procedural precondition: the Court must record its reasons in writing before exercising it. A warrant issued under section 90 without any recorded reasoning is vulnerable on that ground alone, independent of whether the underlying belief that the person would abscond or disobey was, in substance, a reasonable one.
+> :::
+
+<MicroTree
+  input="A Court considering how to secure a person's appearance. Which of the chapter's three coercion tracks applies?"
+  :gates="[
+    { q: 'Is the person already physically present before the Court?', note: 'Section 91 applies — the officer may require a bond or bail bond for appearance in that Court, or a transferee Court, without needing either a summons or a warrant.', no: 'Move to the summons-or-warrant question.' },
+    { q: 'Does the Court have a genuine, recordable reason to believe the person has absconded or will not obey a summons — either before or after the summons issues but before the appearance date, or has the person defaulted on a duly served summons without reasonable excuse?', note: 'Section 90 applies — the Court may issue a warrant instead of, or alongside, a summons, but only after recording its reasons in writing.', no: 'The ordinary summons track (sections 63–71) remains the ungraded, operative route.' },
+    { q: 'Has a person bound by a section 91 bond or bail bond failed to appear as required?', note: 'Section 92 applies — the presiding officer may issue a warrant for arrest and production, without restarting the summons process.', no: 'The bond remains in force on its original terms; no warrant is yet triggered.' }
+  ]"
+  result="The correct one of the chapter's three appearance-securing tracks — bond, summons-to-warrant escalation, or bond-breach warrant — is applied to the person's actual situation, and section 93 then carries the chapter's machinery through to every summons and warrant issued anywhere else in the Sanhita."
+  resultKind="discretionary"
+  caveat="Every power in this cluster is discretionary on its face ('may'), but section 90's warrant-in-lieu-of-summons power is additionally conditioned on the mandatory procedural step of recording reasons in writing before it is exercised."
+/>
+
+### In plain English
+
+This closing cluster ties three loose threads together. First, a Court is not locked into starting with a summons just because that is the ordinary, least coercive tool — if it genuinely believes, for a recorded reason, that a summons will be ignored, it can go straight to a warrant, either before the summons is even sent or after it has failed. Second, if the person is already standing in front of the Court for some other reason, the Court does not need either a summons or a warrant to secure their future appearance — it can just take a bond, promising to show up, with or without sureties. Third, if that bond is broken, the Court does not have to start over with a fresh summons; it can go straight to a warrant for arrest and production. And finally, everything this chapter has built — every rule about how a summons is written, served, and proved, every rule about how a warrant is formed, endorsed, and executed — applies to every summons and warrant issued anywhere in the Sanhita, not just the ones this chapter happened to discuss by their own numbers.
+
+### What changed from the CrPC
+
+BNSS sections 90, 91, 92 and 93 correspond to CrPC sections 87, 88, 89 and 90 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, closing Chapter VI on the same structural note as the unamended CrPC — the summons-to-warrant escalation, the appearance bond, the bond-breach warrant, and the general-applicability rule all track the CrPC closely, with no substantive departure identified in this cluster.
+
+### Test your instinct
+
+:::: instinct The warrant issued with reasons recorded only after the fact
+A Court, concerned that an accused will not obey a summons, issues a warrant under section 90(a). No written reasons appear in the order at the time it is passed; several weeks later, when challenged, the Court prepares a note explaining its reasoning and places it on file.
+::: ruling What actually happens
+Section 90's precondition is that the Court records its reasons in writing as part of exercising the power — not that reasons exist somewhere, eventually, if asked to produce them. A post-hoc justification manufactured after the warrant has already issued and been challenged does not satisfy a precondition that, by its structure, has to precede or accompany the exercise of the power itself. The warrant is vulnerable on this ground regardless of how sound the belated reasoning turns out to be.
+:::
+::::
+
+:::: instinct The bond-breach warrant issued without a fresh summons
+A person executes a bond under section 91 to appear at a future hearing. He does not show up. The Court issues a warrant directly under section 92. His counsel argues the Court should first have issued a fresh summons to explain the consequences before jumping to a warrant.
+::: ruling What actually happens
+Section 92 does not require a fresh summons as a precondition — it operates directly on the fact of non-appearance by a person "bound by any bond or bail bond taken under this Sanhita to appear before a Court." The bond itself is what created the obligation to appear; its breach is what triggers the warrant. The objection that a summons should have preceded the warrant confuses section 92's bond-breach track with the entirely separate summons-to-warrant escalation in section 90.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Sections 90–93 are structural, connective provisions — a discretion conditioned on a recorded-reasons precondition, a bond power, a bond-breach consequence, and a general-applicability rule — that the drafter assesses as fully stateable from the text itself; no specific Supreme Court authority squarely on this precise structure is confidently recalled, and the project's anti-fabrication discipline counsels against forcing one in.
+
+#### Sword and shield
+
+As a **shield**, a person facing a section 90 warrant can challenge it for want of contemporaneously recorded reasons, independent of the substantive merits of the Court's underlying belief. As a **sword**, a Court or prosecuting party can rely on section 92 to move directly to a warrant on a bond breach without restarting the summons process, and can rely on section 93 to insist that every procedural safeguard this chapter built for summonses and warrants applies with full force to process issued under any other provision of the Sanhita, not merely the sections named within Chapter VI itself.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 90–93; a challenge to a section 90 warrant for want of recorded reasons should be raised at the first opportunity after the warrant is produced or executed, not after the point has been allowed to pass unchallenged.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Person already present before the Court | Section 91 | Bond or bail bond for appearance, no summons or warrant needed |
+| Reasonable belief a summons will be, or was, disobeyed | Section 90 | Warrant instead of or with summons, after recording reasons in writing |
+| Bond under section 91 is broken | Section 92 | Warrant for arrest and production, no fresh summons required |
+| Any summons or warrant issued under any Sanhita provision | Section 93 | This Chapter's issue/service/execution machinery applies generally |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not accept a section 90 warrant as valid merely because the underlying suspicion was reasonable — check specifically for contemporaneously recorded written reasons.
+2. Do not assume a section 92 bond-breach warrant requires a fresh summons first — the bond itself supplies the obligation, and its breach is a sufficient trigger on its own.
+3. Do not treat this chapter's summons/warrant safeguards as confined to sections 63–92's own named instances — section 93 extends them to every summons and warrant issued anywhere in the Sanhita.
+4. Do not overlook that section 91's bond power is available purely on the person's presence in court — it does not require that a summons or warrant have already been issued or even contemplated.
+
+**Timing.** Raise a want-of-recorded-reasons challenge to a section 90 warrant as early as possible after it surfaces, and invoke section 93 affirmatively whenever a summons or warrant issued under a different chapter of the Sanhita is challenged on service, form, or execution grounds this chapter already addresses.
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a warrant issued instead of or alongside a summons, confirm contemporaneously recorded written reasons exist under section 90.
+2. Where a bond was taken under section 91, confirm the person was genuinely present before the Court at the time.
+3. Where a bond-breach warrant issued under section 92, confirm the underlying bond was validly taken under the Sanhita.
+4. Where a summons or warrant issued under a provision outside Chapter VI is challenged, invoke section 93 to bring this chapter's full machinery to bear.
+
+---
