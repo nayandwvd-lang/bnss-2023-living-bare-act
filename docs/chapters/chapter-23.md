@@ -205,3 +205,99 @@ Section 290(1)'s thirty-day clock runs from the framing of charge, tying back to
 4. In a police-report negotiation meeting, factor in the investigating officer's presence — a participant with no counterpart on the complaint track — since his input can shape the disposition terms differently than a purely complaint-driven negotiation.
 
 ---
+
+## Sections 293–295 — Compensation, the probation-or-formula fork, and a judgment that is final almost everywhere
+
+### The dispute this solves
+
+::: oneminute Once a mutually satisfactory disposition has actually been worked out under section 292, section 293 tells the Court exactly how to dispose of the case — and this is where the accused's cooperation translates into a concrete, and often substantially reduced, outcome. Compensation to the victim comes first, fixed in line with the disposition and always awarded. Then comes a fork: if the Court, after hearing the parties, thinks section 401 (release on probation of good conduct or after admonition), the Probation of Offenders Act, 1958, or some other applicable law is attracted, the accused can be released on probation or given the benefit of that law — no numeric sentencing formula needed at all. If not, a second fork opens depending on whether the offence carries a prescribed minimum punishment: where it does, the accused may be sentenced to half that minimum, or one-fourth if he is a first-time offender; where it doesn't, he may be sentenced to one-fourth of the punishment provided or extendable, or one-sixth if he is a first-time offender. Section 294 requires the judgment to be delivered in open Court and signed by the presiding officer. Section 295 then makes that judgment final almost everywhere at once — no appeal lies against it in any Court, with the narrow exception of a special leave petition under Article 136 or a writ petition under Articles 226 or 227 of the Constitution, remedies a statute cannot oust.
+:::
+
+::: story A first-time offender, a formula that halves twice over, and a judgment nobody can appeal
+An accused with no prior conviction of any offence reaches a satisfactory disposition under section 292 for an offence carrying a prescribed minimum punishment. At the section 293(a) hearing, the Court awards the agreed compensation to the victim and, on hearing the parties, finds that neither section 401 nor the Probation of Offenders Act, 1958 is attracted in this case. Moving to section 293(c), the Court establishes the accused's first-time-offender status and sentences him to one-fourth of the minimum punishment prescribed — half of what a repeat offender would receive under the same clause. The judgment is delivered in open Court and signed by the presiding officer under section 294. Dissatisfied with the sentence, the accused looks for an appellate route and finds none under section 295 — only the constitutional remedies of Article 136 or Articles 226/227 remain, and those are exceptional, not routine, avenues.
+:::
+
+> **293.** Where a satisfactory disposition of the case has been worked out under section 292, the Court [[!shall]] dispose of the case in the following manner, namely:—
+> (a) the Court [[!shall]] award the compensation to the victim in accordance with the disposition under section 292 and hear the parties on the quantum of the punishment, releasing of the accused on probation of good conduct or after admonition under section 401 or for dealing with the accused under the provisions of the Probation of Offenders Act, 1958 or any other law for the time being in force and follow the procedure specified in the succeeding clauses for imposing the punishment on the accused;
+> (b) after hearing the parties under clause (a), if the Court is of the view that section 401 or the provisions of the Probation of Offenders Act, 1958 or any other law for the time being in force are attracted in the case of the accused, it [[?may]] release the accused on probation or provide the benefit of any such law;
+> (c) after hearing the parties under clause (b), if the Court finds that minimum punishment has been provided under the law for the offence committed by the accused, it [[?may]] sentence the accused to half of such minimum punishment, and where the accused is a first-time offender and has not been convicted of any offence in the past, it [[?may]] sentence the accused to one-fourth of such minimum punishment;
+> (d) in case after hearing the parties under clause (b), the Court finds that the offence committed by the accused is not covered under clause (b) or clause (c), then, it [[?may]] sentence the accused to one-fourth of the punishment provided or extendable for such offence and where the accused is a first-time offender and has not been convicted of any offence in the past, it [[?may]] sentence the accused to one-sixth of the punishment provided or extendable, for such offence.
+>
+> **294.** The Court [[!shall]] deliver its judgment in terms of section 293 in the open Court and the same [[!shall]] be signed by the presiding officer of the Court.
+>
+> **295.** The judgment delivered by the Court under this section [[!shall]] be final and no appeal (except the special leave petition under article 136 and writ petition under articles 226 and 227 of the Constitution) [[!shall]] lie in any Court against such judgment.
+
+::: proviso Section 293's four clauses run in a strict cascade, not as independent options
+Compensation under clause (a) is fixed first, always. Only then does the Court consider probation or admonition under clause (b); only if that is *not* attracted does the Court move to the numeric formulas in clauses (c) and (d). Within whichever numeric formula applies, first-time-offender status — no previous conviction of *any* offence, not merely the same offence — independently halves the applicable fraction. The clauses are read in sequence, each conditioned on the previous one not having resolved the case.
+:::
+
+::: proviso Section 295's finality bar is complete for ordinary appeal but cannot touch the Constitution's own remedies
+A statute cannot oust the Supreme Court's Article 136 special leave jurisdiction or the High Court's Article 226/227 writ jurisdiction — both are constitutional, not statutory, powers. Section 295 accordingly excepts them by name while barring everything else: no ordinary appeal, of any kind, to any Court, lies against a plea-bargaining judgment.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A satisfactory disposition has been reached and compensation awarded under section 293(a) — assuming probation or admonition under section 293(b) is not attracted, what sentence follows?"
+  :gates="[
+    { q: 'Does the law prescribe a minimum punishment for the offence the accused committed?',
+      note: 'This threshold decides which of section 293\'s two numeric formulas applies',
+      no: 'Section 293(d)\'s formula applies instead — one-fourth of the punishment provided or extendable for the offence, or one-sixth for a first-time offender' },
+    { q: 'Is the accused a first-time offender — that is, not previously convicted of any offence?',
+      note: 'First-time-offender status independently halves the applicable fraction under either formula',
+      no: 'The ordinary, non-first-time-offender fraction applies under section 293(c): half the prescribed minimum punishment' }
+  ]"
+  result="As a first-time offender, the accused may be sentenced to one-fourth of the minimum punishment prescribed for the offence, under section 293(c)"
+  resultKind="discretionary"
+  caveat="Where section 401, the Probation of Offenders Act, 1958, or another applicable law is found attracted at the section 293(b) stage instead, the Court may release the accused on probation or give him the benefit of that law, bypassing this numeric formula altogether." />
+
+### In plain English
+
+Think of section 293 as a ladder the Court climbs down, one rung at a time, stopping as soon as a rung applies. Compensation to the victim is fixed regardless of which rung the accused eventually lands on. Then: can he be let off on probation or admonition, or dealt with under some other beneficial law? If yes, that's the outcome — no formula needed. If no, is there a minimum punishment on the books for this offence? If yes, he gets half of it, or a quarter if this is his first offence ever. If no minimum exists, he gets a quarter of whatever the maximum is, or a sixth if this is his first offence. Whatever rung the case lands on, the judgment is delivered in open Court, signed, and — subject only to the Constitution's own extraordinary remedies — final.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 293 appears to track CrPC section 265E (disposal of the case), BNSS section 294 appears to track CrPC section 265F (judgment of the Court), and BNSS section 295 appears to track CrPC section 265G (finality of the judgment) — again cross-checked against the marginal headings recorded in the bare Act text itself, which match these CrPC titles closely. No departure is flagged for this cluster; the compensation-then-probation-then-formula cascade, and the Article 136/226/227 finality carve-out, both read as structurally continuous with their CrPC predecessors.*
+
+### Test your instinct
+
+:::: instinct A first-time offender, convicted via plea bargaining of an offence carrying no prescribed minimum punishment, is sentenced to one-fourth of the maximum punishment prescribed, on the reasoning that first-time-offender status only matters where there is a minimum punishment to fraction.
+::: ruling Section 293(d) has its own first-time-offender fraction
+First-time-offender status runs through both formulas independently. Section 293(d) itself provides a distinct fraction — one-sixth, not one-fourth — for a first-time offender where no minimum punishment is prescribed. The correct sentence here is one-sixth of the punishment provided or extendable, not one-fourth.
+:::
+::::
+
+:::: instinct A convicted accused, dissatisfied with the sentence imposed under section 293, files an ordinary criminal appeal to the Sessions Court or the High Court.
+::: ruling Section 295 bars exactly that route
+The judgment is final and no ordinary appeal lies against it in any Court. Only a special leave petition under Article 136 or a writ petition under Articles 226 or 227 of the Constitution remains open — and both are exceptional remedies, granted at the superior court's discretion, not a routine appellate forum.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, establishing the accused's first-time-offender status — no previous conviction of *any* offence, a broader test than section 290(2)'s own same-offence-only affidavit representation — is the single most valuable move defence counsel can make at the section 293 disposal hearing, since it independently halves whichever numeric formula applies. As a **sword**, the victim or complainant should press for probation-or-admonition consideration to be genuinely tested at the section 293(b) stage, and, failing that, for compensation quantum to be fixed generously at the section 293(a) stage — since compensation is awarded regardless of which punishment track the case ultimately lands on.
+
+#### The limitation clock
+
+Section 295's finality bar means there is effectively no ordinary appellate window after judgment — the practical "clock" in this cluster runs *before* the disposition is finalised, not after; once the section 293 judgment is delivered, only the Constitution's own extraordinary remedies remain, on their own separate timelines.
+
+#### Interlocking matrix
+
+Section 293(a)-(b) cross-refers to section 401 (⚠️ not yet built in this repository) and to the Probation of Offenders Act, 1958 (⚠️ outside this guide's BNSS-focused scope). Section 295's carve-out cross-refers to Articles 136, 226 and 227 of the Constitution of India.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. At the section 293(a)-(b) hearing, press for probation or admonition consideration first — it can avoid a custodial sentence altogether, a better outcome than even the most favourable numeric formula.
+2. Establish first-time-offender status affirmatively and early, distinguishing it from the narrower same-offence-only representation already sworn in the section 290(2) affidavit — it halves whichever formula ultimately applies.
+3. Negotiate compensation quantum realistically at the section 293(a) stage, since it is awarded regardless of which subsequent punishment track the case follows.
+4. Advise the client candidly, before the disposition is finalised, that section 295 forecloses ordinary appeal — accepting a plea-bargained sentence is close to a final decision, subject only to the Constitution's own extraordinary remedies.
+
+---
