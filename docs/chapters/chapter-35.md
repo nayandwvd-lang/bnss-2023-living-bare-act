@@ -381,3 +381,101 @@ None beyond the promoted ratio above.
 5. Where sixty days have passed since the first evidence date in a Magistrate-triable case, check for a recorded-reasons order under sub-section (6) before assuming continued custody is lawful.
 
 ---
+
+## Section 481 — The bond that outlives the trial court
+
+### The dispute this solves
+
+::: oneminute A conviction does not automatically re-arrest a person who was on bail — section 481 is the bridge bond that keeps him at liberty into the appeal, on a clock of its own.
+An accused who has been on bail throughout trial faces a strange gap the moment judgment is pronounced: the trial court's job is done, but the appellate process has not yet even begun, and no summons from the higher court exists yet to answer. Left unaddressed, that gap invites exactly the wrong incentive — disappear now, before an appellate court has even had the chance to issue notice. Section 481 closes the gap in advance: before the trial even concludes, the trial court (or the appellate court, once there is an appeal before it) makes the accused execute a bond to appear whenever the higher court calls, and fixes that bond's life at six months.
+:::
+
+::: story Convicted, but still on bail
+Meera is convicted at trial but was on bail throughout the proceedings; she intends to appeal. Before the trial court pronounces its final orders, section 481(1) requires it to take a bond from her — not tied to a specific appeal hearing date, because none exists yet, but tied to "as and when" the Appellate Court issues notice on whatever appeal or petition is eventually filed against the judgment. That bond is good for six months. If Meera fails to appear when the Appellate Court does eventually call her, the bond stands forfeited and the ordinary forfeiture machinery of section 491 takes over from there.
+:::
+
+> **481. (1)** Before conclusion of the trial and before disposal of the appeal, the Court trying the offence or the Appellate Court, as the case may be, [[!shall]] require the accused to execute a bond or bail bond, to appear before the higher Court as and when such Court issues notice in respect of any appeal or petition filed against the judgment of the respective Court and such bond shall be in force for [[=six months]].
+>
+> **(2)** If such accused fails to appear, the bond stand forfeited and the procedure under section 491 [[!shall]] apply.
+
+### How this actually runs
+
+<MicroTree
+  input="Trial is about to conclude, or an appeal/petition against the judgment is before the Appellate Court"
+  :gates="[
+    { q: 'Was the accused on bail during the proceeding now concluding?',
+      note: 'Section 481 is the bridge mechanism specifically for a person who was, or is, at liberty and needs to remain reachable for the next stage',
+      no: 'A person already in custody has no bond gap to bridge — section 481 has nothing to add here' }
+  ]"
+  result="The trial or Appellate Court must take a bond or bail bond from the accused to appear whenever the higher court issues notice, valid for six months"
+  resultKind="mandatory"
+  caveat="The six-month validity is a fixed statutory term, not a discretionary duration the Court can shorten or extend on this bond alone" />
+
+### In plain English
+
+Section 481 is entirely mechanical: it does not ask whether the accused deserves to remain on bail into the appeal — it simply makes sure that, having already been found suitable for liberty at trial, he stays procedurally reachable once the case moves up a level. The bond is forward-looking by design — it is taken before an appeal has even been filed, because waiting for the appeal to exist before securing the accused's future appearance would recreate exactly the gap the section is meant to close. A breach triggers the same forfeiture track as any other bond under this Chapter, via section 491.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 437-A → BNSS 2023, s. 481.** Renumbered with the substance carried forward essentially unchanged — the six-month bond-to-appear-before-the-Appellate-Court mechanism, inserted into the CrPC by amendment, continues into the BNSS without apparent structural change. ⚠️ *Confirm the exact CrPC 1973 s. 437-A text and its amendment year against a verified source before asserting the two provisions are word-for-word identical.*
+
+### Test your instinct
+
+:::: instinct No appeal has been filed yet — is the bond premature?
+A trial court, pronouncing judgment against a person who was on bail throughout trial, takes a section 481 bond from him "to appear before the Appellate Court as and when it issues notice," even though no appeal has actually been filed by anyone at that point.
+::: ruling What actually happens
+This is exactly how section 481 is meant to operate, not a procedural error. The bond is deliberately taken "before conclusion of the trial and before disposal of the appeal" — it does not wait for an appeal to exist, because the entire point is to have the accused already bound to appear the moment one is filed and notice is issued. An objection that the bond is premature because no appeal yet exists misreads the section's whole structure.
+:::
+::::
+
+:::: instinct The bond lapses before the appeal is heard
+A section 481 bond is taken on the date of conviction. Eight months later — beyond the bond's six-month statutory life — the Appellate Court finally issues notice on a pending appeal, and the accused does not appear, arguing the bond had already expired.
+::: ruling What actually happens
+The six-month figure in section 481(1) is the bond's fixed validity period, and if it has genuinely lapsed before notice was issued, the accused's argument that this particular bond no longer binds him has force on its own terms. That is not, however, the end of the matter — a lapsed section 481 bond is a gap in continuity that the prosecution or the Appellate Court should have caught and cured with a fresh bond well before the six months ran out; the accused's non-appearance on an expired instrument is a different question from whether he can lawfully be compelled to appear and bonded afresh now that the gap has been noticed.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Section 481 is a short, mechanical bridge provision, and no specific Supreme Court authority squarely on this precise six-month bond mechanism is confidently recalled; the project's anti-fabrication discipline counsels against forcing one in.
+
+#### Sword and shield
+
+As a **shield**, an accused whose section 481 bond has genuinely lapsed beyond six months can resist an appearance demand resting on that specific, expired instrument. As a **sword**, the prosecution or the Appellate Court registry can rely on section 481(2) to trigger section 491 forfeiture proceedings the moment a bound accused fails to appear on notice.
+
+#### The limitation clock
+
+The bond itself carries a fixed six-month validity from execution — track that date independently of the appeal's own filing or hearing timeline, since the two clocks are not otherwise linked.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Accused was on bail at trial, judgment about to be pronounced | Section 481(1) | Trial court takes a bond to appear on future appellate notice, valid six months |
+| Appeal or petition later filed, Appellate Court issues notice | Section 481(1) | Bond obliges appearance "as and when" notice issues |
+| Bond's six-month period lapses before notice issues | Section 481(1) | A fresh bond is needed to maintain continuity |
+| Bound accused fails to appear on notice | Section 481(2) | Bond forfeited; section 491 procedure applies |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not treat a section 481 bond as premature merely because no appeal has yet been filed — the section is explicitly designed to be taken before that point.
+2. Do not let a section 481 bond's six-month clock run out unnoticed while an appeal is still pending or expected — calendar the renewal date independently of the appeal's own timeline.
+3. Do not assume a bond breach automatically means the accused loses his liberty for the appeal itself — section 481(2) triggers section 491 forfeiture procedure, a separate question from bail on the appeal going forward.
+
+**Timing.** Diarise the six-month expiry the same day a section 481 bond is executed, and seek a fresh bond well before it lapses if the appeal is still pending.
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm the accused was on bail at the relevant trial or appellate stage before assuming section 481 applies.
+2. Check the execution date of any section 481 bond against the six-month validity period before relying on it to compel appearance.
+3. Where an accused has failed to appear on notice, confirm the bond was still within its six-month life before invoking section 491 forfeiture.
+
+---
