@@ -122,3 +122,129 @@ None added — see "The winning ratio" above.
 4. Where deemed service is asserted, check the ordinary-course delivery timeline against the actual date used to trigger any further process.
 
 ---
+
+## Sections 66–71 — Substituted service, service on Government servants, and proof of service
+
+### The dispute this solves
+
+::: oneminute Personal service isn't always possible. The Sanhita builds a ladder of fallback channels — and a way to prove any of them happened without dragging the serving officer back to court.
+Sections 64–65 assume the ordinary case: the person, the company officer, or the partner can be found and handed the summons. Sections 66–71 deal with everything that happens when that assumption fails — the person cannot be found at all, or is a Government servant posted elsewhere, or lives outside the issuing Court's jurisdiction — and, separately, with how service is *proved* in court when the officer who actually served it is not there to say so in person. A final, freestanding section adds a belt-and-suspenders channel reserved specifically for witnesses.
+:::
+
+::: story The summons left with the domestic help
+A litigant's lawyer sends a process server to a residential address. The person summoned is out; the server hands a duplicate to the household's live-in domestic worker, who signs a receipt. Weeks later, when the summoned person fails to appear, the other side argues service was validly effected on "an adult member of his family residing with him" under section 66. Section 66's own Explanation resolves this immediately: a servant is not a member of the family for this purpose, no matter how long they have lived in the house or how routinely they receive post on the family's behalf. The service was never valid, and non-appearance built on it cannot be treated as evasion.
+:::
+
+> **66. Service when persons summoned cannot be found.**—Where the person summoned cannot, by the exercise of due diligence, be found, the summons [[?may]] be served by leaving one of the duplicates for him with some adult member of his family residing with him, and the person with whom the summons is so left [[!shall]], if so required by the serving officer, sign a receipt therefor on the back of the other duplicate.
+>
+> *Explanation.—A servant is not a member of the family within the meaning of this section.*
+>
+> **67. Procedure when service cannot be effected as before provided.**—If service cannot by the exercise of due diligence be effected as provided in section 64, section 65 or section 66, the serving officer [[!shall]] affix one of the duplicates of the summons to some conspicuous part of the house or homestead in which the person summoned ordinarily resides; and thereupon the Court, after making such inquiries as it thinks fit, [[?may]] either declare that the summons has been duly served or order fresh service in such manner as it considers proper.
+>
+> **68. Service on Government servant.**—(1) Where the person summoned is in the active service of the Government, the Court issuing the summons [[!shall]] ordinarily send it in duplicate to the head of the office in which such person is employed; and such head [[!shall]] thereupon cause the summons to be served in the manner provided by section 64, and [[!shall]] return it to the Court under his signature with the endorsement required by that section.
+>
+> (2) Such signature [[!shall]] be evidence of due service.
+>
+> **69. Service of summons outside local limits.**—When a Court desires that a summons issued by it shall be served at any place outside its local jurisdiction, it [[!shall]] ordinarily send such summons in duplicate to a Magistrate within whose local jurisdiction the person summoned resides, or is, to be there served.
+>
+> **70. Proof of service in such cases and when serving officer not present.**—(1) When a summons issued by a Court is served outside its local jurisdiction, and in any case where the officer who has served a summons is not present at the hearing of the case, an affidavit, purporting to be made before a Magistrate, that such summons has been served, and a duplicate of the summons purporting to be endorsed (in the manner provided by section 64 or section 66) by the person to whom it was delivered or tendered or with whom it was left, [[!shall]] be admissible in evidence, and the statements made therein [[!shall]] be deemed to be correct unless and until the contrary is proved.
+>
+> (2) The affidavit mentioned in this section [[?may]] be attached to the duplicate of the summons and returned to the Court.
+>
+> (3) All summons served through electronic communication under sections 64 to 71 (both inclusive) [[!shall]] be considered as duly served and a copy of such summons [[!shall]] be attested and kept as a proof of service of summons.
+>
+> **71. Service of summons on witness.**—(1) Notwithstanding anything contained in the preceding sections of this Chapter, a Court issuing a summons to a witness [[?may]], in addition to and simultaneously with the issue of such summons, direct a copy of the summons to be served by electronic communication or by registered post addressed to the witness at the place where he ordinarily resides or carries on business or personally works for gain.
+>
+> (2) When an acknowledgement purporting to be signed by the witness or an endorsement purporting to be made by a postal employee that the witness refused to take delivery of the summons has been received or on the proof of delivery of summons under sub-section (3) of section 70 by electronic communication to the satisfaction of the Court, the Court issuing summons [[?may]] deem that the summons has been duly served.
+>
+> ::: proviso A servant is never a "family member" — no matter how embedded in the household
+> Section 66's Explanation is a bright-line rule, not a factual inquiry into how trusted or long-serving the household help is. Whether the person is a live-in cook, driver, or domestic worker of twenty years' standing makes no difference — service on that person is not service under section 66 at all. This matters because it is exactly the kind of address-of-convenience shortcut a process server under time pressure is tempted to take, and exactly the kind of shortcut a defending party should be alert to when non-appearance is later characterised as wilful.
+> :::
+
+<MicroTree
+  input="Personal service under section 64 has failed. Which fallback channel applies?"
+  :gates="[
+    { q: 'Can an adult member of the summoned person’s family, residing with him, be found at the residence (not a servant)?', note: 'Section 66 applies — leave a duplicate with that family member, with a signed receipt if the officer requires one.', no: 'Move to the affixing question.' },
+    { q: 'Has due diligence under sections 64, 65 and 66 all failed to effect service?', note: 'Section 67 applies — affix a duplicate to a conspicuous part of the house or homestead; the Court then either declares the summons duly served or orders fresh service.', no: 'Move to the special-routing question.' },
+    { q: 'Is the person summoned in active Government service, or does he reside outside the issuing Court’s local jurisdiction?', note: 'Section 68 routes service through the head of office; section 69 routes it through a Magistrate where the person resides — either way, the underlying delivery still runs through sections 64 or 66’s mechanics.', no: 'No special routing channel applies; the ordinary channels of sections 64–66 remain operative.' }
+  ]"
+  result="The correct substituted-service or special-routing channel is identified and, separately, section 70's affidavit route is available to prove any of it happened without the serving officer appearing in person."
+  resultKind="mandatory"
+  caveat="Section 71's witness-specific electronic/registered-post channel operates independently of, and in addition to, whichever of sections 64–69 the Court also uses for that witness."
+/>
+
+### In plain English
+
+Think of sections 66–71 as a ladder, not a single rule. If the person can't be handed the summons directly, it can be left with an adult family member who actually lives with them — but not with a servant, however close to the family. If even that fails, the officer physically affixes it to the house, and the court decides whether that counts as good service or whether to try again. If the person is a Government employee, the summons is routed through their department head; if they live outside the court's own area, it is routed through a local Magistrate instead — either way, the underlying service still happens under section 64 or 66's mechanics, just channelled through an intermediary. Separately, section 70 solves a courtroom problem: if the officer who actually served the summons cannot come back to testify, a sworn affidavit stands in for their live evidence, and the facts in it are taken as correct unless someone proves otherwise. Section 71 adds one more layer just for witnesses — a court can fire off a simultaneous electronic or registered-post copy as a backup, regardless of which other method was tried.
+
+### What changed from the CrPC
+
+BNSS sections 66, 67, 68, 69, 70 and 71 correspond to CrPC sections 64, 65, 66, 67, 68 and 69 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**. The structural ladder — family-member service, affixing, Government-servant routing, outside-jurisdiction routing, affidavit proof — tracks the unamended CrPC closely. The digitisation-era additions are section 70(3), which has no direct CrPC ancestor and expressly deems electronically served summonses (across the whole ss. 64–71 run) to be duly served with an attested copy kept as proof, and section 71(1)'s express inclusion of electronic communication alongside registered post as a witness-service channel.
+
+### Test your instinct
+
+:::: instinct The summons left with the family's longtime domestic help
+A process server, unable to find the summoned person, leaves a duplicate with a domestic worker who has lived in and worked for the household for over a decade and signs the receipt without objection. The other side argues this is exactly the kind of reliable, embedded household member section 66 contemplates.
+::: ruling What actually happens
+Section 66's Explanation is categorical: "a servant is not a member of the family within the meaning of this section." Length of service, trust, or how routinely the worker handles the family's affairs is irrelevant — the Explanation draws the line at the relationship, not the facts of reliability. Service on the domestic worker is not service under section 66, and any non-appearance built on it cannot be treated as evasion without the underlying service defect being addressed first.
+:::
+::::
+
+:::: instinct The serving officer who never shows up to testify
+A summons is served outside the issuing Court's jurisdiction. When the case comes up for hearing, the officer who served it is unavailable, and the other side argues service is unproved without that officer's live testimony.
+::: ruling What actually happens
+Section 70(1) exists precisely for this situation: an affidavit purporting to be made before a Magistrate, along with a duplicate summons endorsed in the manner provided by section 64 or 66, is admissible in evidence, and its statements are deemed correct unless and until the contrary is proved. The objection that live testimony is required fails on the statute's own terms — though the deeming is rebuttable, not conclusive, and a party with genuine grounds can still displace it by proof to the contrary.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Like sections 63–65, sections 66–71 are mechanical, textually self-contained service-and-proof provisions; the drafter is not confident of a Supreme Court authority squarely on this specific ladder of substituted service and proof-by-affidavit under the Sanhita's provisions, and forcing one in risks exactly the misattribution the project's anti-fabrication discipline exists to prevent.
+
+#### Sword and shield
+
+As a **shield**, a party can resist a substituted-service finding by showing the recipient was not genuinely an adult family member residing with the summoned person (section 66's servant carve-out being the clearest example), or that the address used for affixing under section 67 was not one where the person "ordinarily resides." As a **sword**, a party relying on service can invoke section 70(1)'s affidavit-based proof to establish service without producing the serving officer, shifting the burden onto the objecting party to disprove the affidavit's contents.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 66–71; a substituted-service or proof-of-service objection should be raised at the first point the Court is asked to treat non-appearance as anything beyond a service question — before any warrant or coercive process issues on the strength of unchallenged proof of service.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Person cannot be found; adult family member available | Section 66 | Duplicate left with that member, signed receipt if required (servant excluded) |
+| All of sections 64–66 have failed | Section 67 | Affixing to the house/homestead; Court declares duly served or orders fresh service |
+| Person summoned is in active Government service | Section 68 | Routed through head of office, who serves per section 64 and endorses |
+| Person resides outside the issuing Court's jurisdiction | Section 69 | Routed through a Magistrate of that jurisdiction |
+| Serving officer unavailable, or service was outside jurisdiction | Section 70 | Affidavit + endorsed duplicate admissible, deemed correct unless disproved |
+| Witness being summoned | Section 71 | Simultaneous electronic/registered-post copy, independent backup channel |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not concede substituted service was valid merely because *someone* at the residence signed for it — confirm the recipient was genuinely an adult family member residing there, not a servant, employee, or unrelated occupant.
+2. Do not accept an affixing under section 67 as automatically valid — the house or homestead must be one where the person summoned "ordinarily resides"; an address of convenience is not enough.
+3. Do not treat a section 70(1) affidavit as unchallengeable — it shifts the burden, but the deeming is rebuttable "unless and until the contrary is proved."
+4. Do not overlook that section 71's witness-service channel operates independently of whatever primary method was used for that witness — a defect in one does not automatically defeat the other.
+
+**Timing.** Raise a substituted-service or proof-of-service objection before the Court is asked to draw any adverse inference from non-appearance, not after coercive process has already issued on the strength of unchallenged proof.
+
+**Model checklist for reviewing substituted service and proof of service:**
+
+1. Identify which of sections 66–69 was actually used, and confirm the recipient or routing channel matches that section's specific requirements.
+2. For section 66 service, confirm the recipient was an adult family member residing with the summoned person, not a servant.
+3. For section 67 affixing, confirm the address was one where the person genuinely, ordinarily resides.
+4. Where section 70 proof is relied on, check the affidavit was made before a Magistrate and the duplicate carries the required endorsement.
+5. For a witness, confirm whether section 71's simultaneous channel was also used, and treat it as a separate, additional proof track.
+
+---
