@@ -80,7 +80,13 @@ export default defineConfig({
             { text: 'Chapter XIII — Police powers to investigate (ss. 173–196)', link: '/chapters/chapter-13' }
           ]
         },
-        { text: 'Cognizance, commitment and charge', collapsed: true, items: [] },
+        {
+          text: 'Cognizance, commitment and charge',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XIV — Jurisdiction of the criminal courts (ss. 197–209)', link: '/chapters/chapter-14' }
+          ]
+        },
         { text: 'Trial', collapsed: true, items: [] },
         {
           text: 'Bail and bonds',
