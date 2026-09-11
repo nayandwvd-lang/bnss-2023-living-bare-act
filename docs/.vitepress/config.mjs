@@ -99,7 +99,8 @@ export default defineConfig({
             { text: 'Chapter XX — Trial of warrant-cases by Magistrates (ss. 261–273)', link: '/chapters/chapter-20' },
             { text: 'Chapter XXI — Trial of summons-cases by Magistrates (ss. 274–282)', link: '/chapters/chapter-21' },
             { text: 'Chapter XXII — Summary trials (ss. 283–288)', link: '/chapters/chapter-22' },
-            { text: 'Chapter XXIII — Plea bargaining (ss. 289–300)', link: '/chapters/chapter-23' }
+            { text: 'Chapter XXIII — Plea bargaining (ss. 289–300)', link: '/chapters/chapter-23' },
+            { text: 'Chapter XXIV — Attendance of persons confined or detained in prisons (ss. 301–306)', link: '/chapters/chapter-24' }
           ]
         },
         {
