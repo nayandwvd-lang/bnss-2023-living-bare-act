@@ -119,3 +119,127 @@ Section 227(5) interlocks directly with section 90 (Chapter VI, already built) �
 3. Where personal attendance was earlier dispensed with under section 228(1), confirm any later demand for personal attendance under section 228(2) was properly made before treating non-appearance as a default.
 4. For a genuinely petty, small-fine offence, confirm the fine on offer does not exceed five thousand rupees and that the offence is not excluded under section 229(2) before advising a client toward the postal guilty-plea route.
 
+---
+
+## Sections 230–231 — Mandatory disclosure of the prosecution's papers, before the case moves further
+
+### The dispute this solves
+
+::: oneminute An accused cannot meaningfully defend himself against papers he has never seen. Section 230 makes that impossible in a police-report case: within fourteen days of the accused's production or appearance — not "eventually," a hard clock — the Magistrate must hand over, free of cost, the police report, the FIR, the witness statements the prosecution intends to rely on, any recorded confessions, and any other document forwarded with the police report. Section 231 does the same job for the very different situation of a complaint case that turns out to be triable exclusively by the Court of Session: the statements taken under sections 223 or 225, any confessions, and any documents the prosecution intends to produce, all furnished forthwith and free of cost.
+Both sections share the same underlying design: give the accused, before things move further, honest and complete access to what the prosecution has, with two safety valves for practical reality. If any part of a witness statement was excluded from disclosure at the investigation stage under section 193(7), the Magistrate can still direct that part be furnished after weighing the police officer's stated reasons. And if a document is voluminous, the Magistrate can furnish it electronically or simply let the accused inspect it in court rather than photocopy it in full — with electronic supply expressly treated as due furnishing either way.
+:::
+
+::: story The fourteen-day clock, and the voluminous case diary
+An accused is produced before the Magistrate in a case instituted on a police report. Section 230 does not leave the timing to the Magistrate's convenience — the copies of the police report, the FIR, the relied-upon witness statements, any confessions, and any other forwarded documents must reach the accused and a represented victim "without delay, and in no case beyond fourteen days" from that production. In a separate, document-heavy economic offence, the prosecution's file runs to thousands of pages. Rather than photocopying the entire file for the accused, the Magistrate — satisfied the material is voluminous — directs that it be furnished electronically instead, a course the statute treats as fully satisfying the disclosure obligation just as a paper copy would.
+:::
+
+> **230.** In any case where the proceeding has been instituted on a police report, the Magistrate [[!shall]] without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:—
+>
+> (i) the police report;
+>
+> (ii) the first information report recorded under section 173;
+>
+> (iii) the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193;
+>
+> (iv) the confessions and statements, if any, recorded under section 183;
+>
+> (v) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193:
+>
+> *Provided that the Magistrate [[?may]], after perusing any such part of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:*
+>
+> *Provided further that if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused and the victim (if represented by an advocate) with a copy thereof, [[?may]] furnish the copies through electronic means or direct that he will only be allowed to inspect it either personally or through an advocate in Court:*
+>
+> *Provided also that supply of documents in electronic form shall be considered as duly furnished.*
+>
+> **231.** Where, in a case instituted otherwise than on a police report, it appears to the Magistrate issuing process under section 227 that the offence is triable exclusively by the Court of Session, the Magistrate [[!shall]] forthwith furnish to the accused, free of cost, a copy of each of the following:—
+>
+> (i) the statements recorded under section 223 or section 225, of all persons examined by the Magistrate;
+>
+> (ii) the statements and confessions, if any, recorded under section 180 or section 183;
+>
+> (iii) any documents produced before the Magistrate on which the prosecution proposes to rely:
+>
+> *Provided that if the Magistrate is satisfied that any such document is voluminous, he [[?may]], instead of furnishing the accused with a copy thereof, direct that he will only be allowed to inspect it either personally or through an advocate in Court:*
+>
+> *Provided further that supply of documents in electronic form shall be considered as duly furnished.*
+
+::: proviso The fourteen-day clock in section 230 has no counterpart in section 231's "forthwith"
+Section 230 fixes an outer limit — fourteen days from the accused's production or appearance — for a police-report case. Section 231 uses "forthwith" instead, without a numbered outer limit, for a complaint case found to be exclusively Sessions-triable. The two disclosure duties are structurally parallel but are not timed identically, and a practitioner should not assume the fourteen-day figure transfers across.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Magistrate has issued process — what documents must be furnished to the accused, and on what timeline, before the case can move further?"
+  :gates="[
+    { q: 'Was the proceeding instituted on a police report?',
+      note: 'Section 230 applies — the police report, the FIR, the relied-upon witness statements, any confessions, and any other forwarded document, furnished free of cost within fourteen days of the accused’s production or appearance',
+      no: 'Check whether it is instead a complaint case found to be exclusively Sessions-triable' },
+    { q: 'Was the proceeding instead instituted otherwise than on a police report, and does it appear to the Magistrate to be exclusively triable by the Court of Session?',
+      note: 'Section 231 applies instead — the section 223/225 statements, any confessions, and any documents relied on, furnished forthwith and free of cost',
+      no: 'Neither section 230 nor section 231 applies on these facts' },
+    { q: 'Is any part of a witness statement subject to an exclusion request made under section 193(7) at the investigation stage?',
+      note: 'The Magistrate may still direct that part be furnished after perusing it and weighing the police officer’s stated reasons — section 230’s first proviso',
+      no: 'No exclusion issue arises' },
+    { q: 'Is the material in question voluminous?',
+      note: 'The Magistrate may furnish it electronically or direct inspection in Court instead of a full copy — electronic supply is treated as due furnishing either way',
+      no: 'The ordinary copy-furnishing obligation applies without modification' }
+  ]"
+  result="The accused (and, in a police-report case, a represented victim) receives free copies of the specified papers on the applicable timeline — without delay and within fourteen days for a police-report case, forthwith for an exclusively Sessions-triable complaint case"
+  resultKind="mandatory"
+  caveat="Neither section 230 nor section 231 requires furnishing documents the prosecution does not propose to rely on or produce — both sections are scoped to specified categories of material, not the entire police or Magistrate's file." />
+
+### In plain English
+
+Once process has issued, the accused is entitled to see the prosecution's actual papers, not just hear a summary of the case against him. If the case began with a police report, section 230 puts a hard fourteen-day clock on it — the police report, the FIR, the statements of the witnesses the prosecution intends to call, any confessions, and any other forwarded material, all handed over free of cost, with any victim who has an advocate getting the same. If instead the case is a private complaint that turns out to be one only a Court of Session can try, section 231 does the equivalent job on a "forthwith" timeline rather than a numbered one — the statements already taken from witnesses, any confessions, and the documents the prosecution means to produce. Both sections build in the same two pressure valves: material excluded at the investigation stage can still be ordered furnished after the Magistrate looks at the police officer's reasons, and a genuinely voluminous file can be supplied electronically or simply made available for inspection, rather than forcing the machinery to photocopy everything by hand.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 230 appears to track CrPC section 207 (supply to the accused of copy of police report and other documents), and BNSS section 231 appears to track CrPC section 208 (supply of copies of statements and documents to accused in other cases triable by Court of Session). One feature is flagged as a likely genuine BNSS-era addition rather than continuity: the explicit fourteen-day outer limit in section 230, running from the date of the accused's production or appearance, does not appear to have had a fixed numbered counterpart under CrPC section 207, which is generally recalled as requiring disclosure "without delay" but without a stated day-count ceiling — if confirmed, this converts what was a general diligence standard into an enforceable deadline. The electronic-supply provisos in both sections are part of this Sanhita's general digitisation pattern already seen across earlier chapters.*
+
+### Test your instinct
+
+:::: instinct Sixteen days after the accused's production before the Magistrate in a police-report case, the accused still has not received copies of the witness statements the prosecution intends to rely on. The prosecution argues the delay is minor and the accused suffered no real prejudice.
+::: ruling The fourteen-day limit in section 230 has already been breached
+Section 230 fixes an outer limit of fourteen days from the date of the accused's production or appearance — "in no case beyond." Sixteen days exceeds that limit on the section's own terms. Whether the breach ultimately affects the validity of subsequent proceedings is a separate question from whether the limit was breached at all; on the timing alone, it was.
+:::
+::::
+
+:::: instinct In a complaint case later found to be exclusively triable by the Court of Session, the Magistrate furnishes the accused with copies of the section 223 statements but withholds a lengthy forensic report on the ground that it is voluminous, without offering inspection or electronic supply as an alternative.
+::: ruling The voluminous-document proviso was not properly applied
+Section 231's proviso permits withholding a full copy of a voluminous document only if the Magistrate instead directs that the accused be allowed to inspect it, personally or through an advocate, in Court — or, under the general electronic-supply proviso, furnishes it electronically. Withholding the report outright, with no substitute access offered at all, satisfies neither the inspection alternative nor the electronic-supply alternative, and does not comply with section 231.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+V.K. Sasikala v. State represented by the Superintendent of Police, (2012) 9 SCC 771. The Court held that an accused's right to inspect and obtain copies of documents in the custody of the prosecution — going to a fair trial under Article 21 — is not confined to material the prosecution formally relies on, and that this right of access does not evaporate once the trial is underway. **Practitioner takeaway**: sections 230 and 231's document-furnishing obligations are the statutory floor, not the ceiling, of an accused's disclosure rights — a fair-trial argument for access to material outside either section's listed categories remains independently available.
+
+#### Sword and shield
+
+As a **shield**, sections 230 and 231 give the accused a hard, checkable entitlement to specified prosecution papers on a defined timeline, free of cost. As a **sword**, the defence can challenge a Magistrate's failure to meet the fourteen-day clock in a police-report case, or the "forthwith" standard in a Sessions-triable complaint case, and can press for inspection or electronic supply where a voluminous-document withholding offers no substitute access at all — while the prosecution's countervailing point, under the exclusion proviso to section 230, is that some material can legitimately be withheld where the police officer's stated reasons for exclusion under section 193(7) persuade the Magistrate.
+
+#### The limitation clock
+
+Section 230's fourteen-day outer limit for disclosure in a police-report case is the operative clock in this cluster; section 231 carries no equivalent fixed number, using "forthwith" instead.
+
+#### Interlocking matrix
+
+Section 230 interlocks directly with section 173 (Chapter XIII, FIR), section 180(3) and section 183 (Chapter XIII, statements and confessions during investigation), and section 193(6)–(7) (Chapter XIII, forwarding documents with the police report and the exclusion-request mechanism) — all already built. Section 231 interlocks directly with sections 223 and 225 (Chapter XVI, already built) for the statements it requires be furnished.
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. In a police-report case, calendar the fourteen-day clock from the date of the accused's production or appearance, and object promptly if disclosure runs past it.
+2. In a complaint case found exclusively Sessions-triable, confirm the section 223/225 statements, confessions, and relied-upon documents were furnished forthwith, not merely "eventually."
+3. Where any material was withheld as voluminous, confirm the Magistrate actually directed inspection or electronic supply as a substitute — a bare withholding with no alternative access satisfies neither section.
+4. Where a witness statement was partly excluded under section 193(7) at the investigation stage, press for the Magistrate's own review of the police officer's reasons under section 230's first proviso before accepting the exclusion as final.
+
+---
