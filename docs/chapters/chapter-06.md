@@ -248,3 +248,124 @@ None added — see "The winning ratio" above.
 5. For a witness, confirm whether section 71's simultaneous channel was also used, and treat it as a separate, additional proof track.
 
 ---
+
+## Sections 72–74 — Form and duration of a warrant, the built-in bail endorsement, and who a warrant may be directed to
+
+### The dispute this solves
+
+::: oneminute A warrant is the coercive step up from a summons — but the Sanhita lets a Court build a bail off-ramp into the warrant itself, and tightly limits who is trusted to execute it.
+Where Chapter VI's opening sections deal with the least coercive tool — a summons — sections 72 to 74 deal with the next rung up: a warrant of arrest. Section 72 fixes the warrant's own form and how long it stays alive. Section 73 lets the issuing Court, at its discretion, endorse the warrant itself with a bailable-security direction, so that a person can be released on the spot on furnishing sufficient sureties rather than being produced in custody. Section 74 answers who can actually be trusted to execute a warrant — ordinarily the police, and only exceptionally anyone else.
+:::
+
+::: story The warrant that came with its own bail built in
+A Court issues a warrant of arrest for a bailable offence and, exercising its discretion under section 73, endorses it: two sureties, a specified amount, a specified date to attend. The accused's family, informed of the endorsement, arrive at the police station within the hour with two sureties ready to execute a bail bond. The station house officer, unfamiliar with the endorsement or simply preferring to follow the ordinary custody-and-production route, tells the family to wait until the accused is produced before a Magistrate instead. Section 73 does not leave this to the officer's convenience: once the Court has endorsed the warrant, the officer to whom it is directed "shall take such security and shall release such person from custody" — there is no discretion left to exercise once the endorsement exists, and continued custody in the face of a tendered, sufficient bond is itself a legality defect in how the warrant was executed.
+:::
+
+> **72. Form of warrant of arrest and duration.**—(1) Every warrant of arrest issued by a Court under this Sanhita [[!shall]] be in writing, signed by the presiding officer of such Court and [[!shall]] bear the seal of the Court.
+>
+> (2) Every such warrant [[!shall]] remain in force until it is cancelled by the Court which issued it, or until it is executed.
+>
+> **73. Power to direct security to be taken.**—(1) Any Court issuing a warrant for the arrest of any person [[?may]] in its discretion direct by endorsement on the warrant that, if such person executes a bail bond with sufficient sureties for his attendance before the Court at a specified time and thereafter until otherwise directed by the Court, the officer to whom the warrant is directed [[!shall]] take such security and [[!shall]] release such person from custody.
+>
+> (2) The endorsement [[!shall]] state—
+>
+> (a) the number of sureties;
+>
+> (b) the amount in which they and the person for whose arrest the warrant is issued, are to be respectively bound;
+>
+> (c) the time at which he is to attend before the Court.
+>
+> (3) Whenever security is taken under this section, the officer to whom the warrant is directed [[!shall]] forward the bond to the Court.
+>
+> **74. Warrants to whom directed.**—(1) A warrant of arrest [[!shall]] ordinarily be directed to one or more police officers; but the Court issuing such a warrant [[?may]], if its immediate execution is necessary and no police officer is immediately available, direct it to any other person or persons, and such person or persons [[!shall]] execute the same.
+>
+> (2) When a warrant is directed to more officers or persons than one, it [[?may]] be executed by all, or by any one or more of them.
+>
+> ::: proviso The endorsement is discretionary to make, but mandatory to obey once made
+> Section 73(1)'s "may" belongs to the Court deciding whether to endorse a warrant with a bail direction in the first place — that choice is squarely discretionary. But once the endorsement exists, the language addressed to the executing officer is unqualified: "shall take such security and shall release such person from custody." An officer who has a section 73 endorsement in hand and a tender of sufficient sureties has no remaining discretion to instead produce the person in custody as if the endorsement did not exist.
+> :::
+
+<MicroTree
+  input="A warrant of arrest has been issued. What form must it take, and what governs its execution?"
+  :gates="[
+    { q: 'Is the warrant in writing, signed by the presiding officer, and sealed?', note: 'Section 72(1)’s form requirement is met, and the warrant remains in force under section 72(2) until cancelled or executed.', no: 'The warrant is defective on its face under section 72(1), regardless of who executes it or how.' },
+    { q: 'Has the Court endorsed the warrant under section 73 directing release on a bail bond with sureties?', note: 'Section 73 applies — the executing officer must take the security and release the person from custody; ignoring a section 73 endorsement is itself a legality defect in execution.', no: 'The person remains in custody for production under the ordinary route (sections 78–83).' },
+    { q: 'Is the warrant directed to a police officer, or was immediate execution necessary with none available?', note: 'Section 74 is satisfied — police officers are the ordinary addressees; a private person may be directed only where immediate execution is necessary and no police officer is available.', no: 'A warrant directed to someone outside section 74’s categories is improperly addressed.' }
+  ]"
+  result="The warrant's form, any bailable-security endorsement, and its proper addressee are all confirmed before its execution is treated as valid."
+  resultKind="mandatory"
+  caveat="Section 73's endorsement is discretionary for the Court to make in the first place, but once made, compliance with its terms by the executing officer is mandatory, not a matter of convenience."
+/>
+
+### In plain English
+
+A warrant has to look a certain way — written, signed by the judge, sealed — and it stays valid until either the court cancels it or it is executed; it does not expire on its own. Section 73 is the built-in bail feature: when a Court issues the warrant, it can also write onto it, in effect, "if this person can produce two sureties for this amount by this date, don't hold them — take the bond and let them go." That instruction, once written, binds the officer executing the warrant just as much as the instruction to make the arrest does. Section 74 answers who is trusted to execute a warrant in the first place — ordinarily the police, and only in a genuine emergency, with no officer immediately to hand, anyone else.
+
+### What changed from the CrPC
+
+BNSS sections 72, 73 and 74 correspond to CrPC sections 70, 71 and 72 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, with no substantive departure identified in this cluster — the warrant's form, the section 73 bail-endorsement mechanism, and the section 74 police-first addressee rule all track the unamended CrPC closely.
+
+### Test your instinct
+
+:::: instinct The bail endorsement the station house officer chose to ignore
+A warrant carries a section 73 endorsement specifying two sureties and an amount. The accused's family arrives at the police station with two sureties ready to execute the bond, but the officer insists on producing the accused before a Magistrate first, calling the endorsement "a formality for the court to sort out later."
+::: ruling What actually happens
+Section 73(1)'s command to the executing officer — "shall take such security and shall release such person from custody" — is not conditional on the officer's preference for the ordinary custody route. Once the Court has made the endorsement and sufficient sureties are tendered, the officer's only lawful course is to take the bond and release. Continued custody in these circumstances is a defect in the execution of the warrant, not a matter later curable simply because a Magistrate eventually reviews the case.
+:::
+::::
+
+:::: instinct The warrant handed to a private citizen when police were available
+A complainant's associate is handed a warrant of arrest to execute because it is more convenient than waiting for a police officer, even though officers are readily available at the local station.
+::: ruling What actually happens
+Section 74(1) permits directing a warrant to someone other than a police officer only where immediate execution is necessary and no police officer is immediately available — both conditions must genuinely hold. A warrant handed to a private person purely as a matter of convenience, with police readily available, is not validly directed under section 74, and execution by that person is not shielded by the section merely because a warrant existed.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Sections 72–74 govern the warrant's form and execution mechanics in terms that are, in the drafter's assessment, sufficiently self-contained on the statutory text that anchoring them to a promoted Supreme Court authority risks the kind of misattribution the project's anti-fabrication discipline is meant to prevent.
+
+#### Sword and shield
+
+As a **shield**, a person arrested under a warrant carrying a section 73 endorsement can challenge continued custody as an execution defect where sufficient sureties were tendered and refused. As a **sword**, the prosecution can rely on section 74's narrow private-person exception only where it can show both immediate necessity and the genuine unavailability of a police officer at the relevant moment — absent both, execution by a private person is vulnerable to challenge.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 72–74; a defect in the warrant's form, in the handling of a section 73 endorsement, or in who executed it under section 74 should be raised at the first production before a Court, not after the person has been produced and the point has gone unchallenged.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Warrant issued | Section 72 | Must be written, signed, sealed; stays in force until cancelled or executed |
+| Court wishes to allow release on bond at the point of arrest | Section 73 | Endorsement specifying sureties, amount, and attendance time; executing officer must comply |
+| Warrant needs an addressee | Section 74 | Ordinarily a police officer; a private person only if immediate execution is necessary and none is available |
+| Person produced after warrant execution | Sections 78, 82–83 (forward reference) | Production-without-delay and inter-district procedures take over from here |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume a warrant is non-bailable by default — check the warrant itself for a section 73 endorsement before advising a client on custody consequences.
+2. Do not let an executing officer's refusal to honour a section 73 endorsement go unchallenged — it is a legality defect in execution, not a discretionary call available to the officer.
+3. Do not accept execution by a private person under section 74 without confirming both limbs — genuine immediate necessity and genuine unavailability of a police officer — were actually satisfied at the time.
+4. Do not treat an unexecuted, uncancelled warrant as having lapsed with time — section 72(2) keeps it alive indefinitely until one of those two events occurs.
+
+**Timing.** Raise a form, endorsement-compliance, or addressee objection at the first production before a Court after arrest, before the point is treated as waived by an unchallenged production.
+
+**Model checklist for reviewing a warrant's form and execution:**
+
+1. Confirm the warrant is written, signed, and sealed under section 72(1).
+2. Check for a section 73 endorsement and, if present, confirm whether the officer complied with its bail-security terms.
+3. Confirm the warrant was directed to a police officer or, if not, that section 74's immediate-necessity and unavailability conditions were genuinely met.
+4. Track the warrant's status against section 72(2) — cancelled, executed, or still outstanding.
+
+---
