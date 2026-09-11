@@ -110,3 +110,127 @@ None added — see "The winning ratio" above.
 3. Where bail is refused, confirm whether the refusal is being made under section 478(2)'s narrow subsequent-occasion exception — if not, the refusal has no basis in the section at all.
 
 ---
+
+## Section 479 — The undertrial detention ceiling
+
+### The dispute this solves
+
+::: oneminute An undertrial can now spend more of a sentence in custody, awaiting trial, than he would have served if convicted — and section 479 is the statute's answer to that arithmetic.
+Trials in India routinely take years. For an undertrial prisoner too poor to make bail, or charged with an offence where bail is discretionary and being refused, custody pending trial can — and regularly did, under the CrPC — run longer than the sentence he would eventually have received if convicted and sentenced to the maximum term. The CrPC tried to fix this once, in 2005, by inserting section 436A: detention past half the maximum sentence triggered mandatory release. Section 479 keeps that half-sentence rule and adds two sharper edges to it — a faster one-third threshold for a person who has never been convicted of anything before, and an explicit statutory duty on the jail superintendent to flag the case rather than wait for the prisoner's lawyer to notice. It also adds a trap the CrPC version did not carry in the same terms: the whole mechanism switches off if the person has more than one case or offence pending against him.
+:::
+
+::: story Farhan crosses the halfway mark
+Farhan has been an undertrial for three years on a charge carrying a maximum of six years' imprisonment — he has now crossed the three-year, one-half mark. He has no prior convictions. Under section 479(1)'s first proviso, because he is a first-time offender, he did not even need to wait for the halfway point — he became eligible for release on bond once he had served one-third of the maximum, two years in. Under section 479(3), it was not supposed to be Farhan's overworked legal-aid lawyer who had to notice and file first: the Superintendent of the jail where Farhan is held has an independent, freestanding statutory duty to apply to the Court on his behalf the moment the one-third mark is reached. The catch: if Farhan has a second, unrelated case pending against him elsewhere, section 479(2) switches the whole entitlement off — he does not get released under this section at all until that is resolved.
+:::
+
+> **479. (1)** Where a person has, during the period of investigation, inquiry or trial under this Sanhita of an offence under any law (not being an offence for which the punishment of death or life imprisonment has been specified as one of the punishments under that law) undergone detention for a period extending up to one-half of the maximum period of imprisonment specified for that offence under that law, he [[!shall]] be released by the Court on bail:
+>
+> Provided that where such person is a first-time offender (who has never been convicted of any offence in the past) he [[!shall]] be released on bond by the Court, if he has undergone detention for the period extending up to one-third of the maximum period of imprisonment specified for such offence under that law:
+>
+> Provided further that the Court [[?may]], after hearing the Public Prosecutor and for reasons to be recorded by it in writing, order the continued detention of such person for a period longer than one-half of the said period or release him on bail bond instead of his bond:
+>
+> Provided also that no such person shall in any case be detained during the period of investigation, inquiry or trial for more than the maximum period of imprisonment provided for the said offence under that law.
+>
+> Explanation.—In computing the period of detention under this section for granting bail, the period of detention passed due to delay in proceeding caused by the accused shall be excluded.
+>
+> **(2)** Notwithstanding anything in sub-section (1), and subject to the third proviso thereof, where an investigation, inquiry or trial in more than one offence or in multiple cases are pending against a person, he shall [[!not]] be released on bail by the Court.
+>
+> **(3)** The Superintendent of jail, where the accused person is detained, on completion of one-half or one-third of the period mentioned in sub-section (1), as the case may be, [[!shall]] forthwith make an application in writing to the Court to proceed under sub-section (1) for the release of such person on bail.
+
+::: proviso The one-third and one-half thresholds are floors, not choices — but the absolute ceiling never moves
+Section 479(1)'s second proviso lets a Court push detention *past* the one-half point on recorded reasons after hearing the Public Prosecutor — but the third proviso is a hard stop that no recorded reason can override: nobody is detained, under this section, for longer than the maximum sentence the offence itself carries. The discretion to extend operates only inside that outer boundary.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An undertrial prisoner has spent time in custody during investigation, inquiry, or trial"
+  :gates="[
+    { q: 'Is the offence one where death or life imprisonment is a specified punishment?',
+      note: 'Section 479(1) is carved out entirely for offences at that upper end — they never get the halfway or one-third release',
+      no: 'Section 479 does not apply to this offence at all; detention questions here are governed by the ordinary discretionary bail provisions instead' },
+    { q: 'Does the person have more than one offence or more than one case pending against him?',
+      note: 'Section 479(2) is a blanket switch-off, not a factor to be weighed against the person’s favour',
+      no: 'Move to the next gate — the multiple-case bar does not apply' },
+    { q: 'Has he undergone detention up to one-half the maximum sentence (or one-third, if he is a genuine first-time offender)?',
+      note: 'The jail Superintendent has an independent section 479(3) duty to apply for release once this threshold is reached — this is not solely the defence counsel’s job',
+      no: 'Not yet eligible under this section — but the third proviso’s absolute cap still applies regardless' }
+  ]"
+  result="The person must be released on bail (or, if a first-time offender at the one-third mark, on bond) — subject only to the Court’s recorded-reasons power to extend past one-half, and never past the offence’s own maximum sentence"
+  resultKind="mandatory"
+  caveat="This is a release entitlement tied to time served, not an acquittal or a finding on the merits — the underlying prosecution continues" />
+
+### In plain English
+
+Section 479 does the arithmetic the CrPC's section 436A used to do, but sharper: instead of one flat halfway rule for everyone, a person who has never been convicted before gets there faster, at one-third. The section does not wait passively for the defence to notice the clock has run out — it puts the duty to notice and apply on the jail Superintendent, in writing, the moment either threshold is crossed. The trade-off for that generosity is sub-section (2)'s multiple-case bar: a person facing more than one pending case does not get this fast lane at all, no matter how long he has already spent inside on any one of them, until that plurality is resolved. And no matter how the Court's discretion under the second proviso is exercised, nobody is ever detained under this section beyond the outer limit of the sentence the offence itself carries.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 436A → BNSS 2023, s. 479.** Substantially continuous on the core one-half detention rule, but with real additions. The **first-time-offender one-third threshold** in the first proviso has no counterpart in CrPC s. 436A as originally enacted — this is new, and it is the single biggest practical change in this section for a first offender facing a long trial. The **section 479(2) multiple-case bar** is likewise a sharper, more explicit switch-off than anything in the older provision's plain text. The jail Superintendent's duty to move the application in sub-section (3) tracks a safeguard that CrPC s. 436A also carried by the time of its later amendments, so this piece is continuity rather than novelty. ⚠️ *Confirm the precise pre-BNSS text and amendment history of CrPC s. 436A — including whether the first-time-offender one-third threshold and the multiple-case bar existed there in any form — against a verified source before finalising the concordance page; do not rely on this note alone.*
+
+### Test your instinct
+
+:::: instinct A first-time offender told to wait for the halfway mark
+Deepak has been in custody for two years on a charge carrying a six-year maximum — exactly one-third of the maximum, not yet one-half. He has no prior convictions. The jail administration tells him he is not yet eligible for release because he has not reached the halfway point, and his own lawyer has not yet filed anything.
+::: ruling What actually happens
+This is a clear section 479(3) failure layered on a section 479(1) first-proviso entitlement. Deepak, as a genuine first-time offender, became eligible for release on bond the moment he crossed one-third of the maximum sentence — he did not need to wait for the halfway mark at all, and that is precisely the distinction the first proviso exists to draw. Separately, and independently of whether his own lawyer had filed anything, the Superintendent of the jail holding him had an independent statutory duty under sub-section (3) to make a written application to the Court the moment that one-third threshold was reached — the section does not make this contingent on the defence noticing first.
+:::
+::::
+
+:::: instinct The undertrial with a second, unrelated case pending
+Priya has crossed the one-half detention mark in Case A, a theft charge. She would ordinarily be released under section 479(1). It emerges that she also has a separate, unrelated cheating case, Case B, pending against her in a different court. The prosecution opposes release, citing Case B.
+::: ruling What actually happens
+Section 479(2) resolves this against Priya, and it does so as a blanket rule rather than a factor the Court weighs against her favour: "where an investigation, inquiry or trial in more than one offence or in multiple cases are pending against a person, he shall not be released on bail" under this section. It does not matter that Case B is factually unrelated to Case A, or that she has otherwise met every condition of sub-section (1) on Case A alone — the mere pendency of a second case switches the entitlement off, subject only to the third proviso's absolute ceiling on total detention. Her remedy, if any, lies in the ordinary discretionary bail provisions or in resolving Case B, not in section 479 itself.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Bhim Singh v. Union of India** — a Supreme Court decision on the implementation of CrPC s. 436A, directing that undertrial prisoners who had completed the statutory detention period be identified and produced before the appropriate court for release, and that jail Superintendents and courts bear an active, non-defence-dependent responsibility for making this happen rather than leaving it to the prisoner to assert the right himself. **Practitioner takeaway:** the duty to invoke section 479 is not solely the defence's — a jail Superintendent's failure to move the sub-section (3) application is itself a default that can be pointed to in a release application, independent of any lapse by defence counsel. ⚠️ *Verify before citing — confirm the exact reported citation (SCC volume and page) and bench strength against a verified source before using this in a filing; the proposition and case name are recalled with reasonable confidence, the precise citation is not.*
+
+#### Sword and shield
+
+As a **sword**, a first-time-offender undertrial can invoke the one-third threshold affirmatively and does not have to wait, or argue, for the halfway point his non-first-time-offender co-accused might need. As a **shield** against institutional inertia, sub-section (3)'s jail-Superintendent duty gives every undertrial a second, independent trigger for release that does not depend on defence counsel's diligence or the case being listed.
+
+#### The limitation clock
+
+There is no filing deadline as such, but the substantive clock is the detention period itself: one-third of the maximum sentence for a genuine first-time offender, one-half for everyone else within scope, and an absolute outer ceiling at the full maximum sentence for the offence that no extension can cross.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Offence carries death or life imprisonment as a specified punishment | Section 479(1), opening words | Section 479 does not apply at all |
+| First-time offender, detained up to one-third of maximum sentence | Section 479(1), first proviso | Mandatory release on bond |
+| Any other qualifying person, detained up to one-half of maximum sentence | Section 479(1) | Mandatory release on bail |
+| Court wishes to detain past one-half | Section 479(1), second proviso | Permitted only after hearing the Public Prosecutor and recording reasons in writing |
+| Detention reaching the offence's full maximum sentence | Section 479(1), third proviso | Absolute release — no discretion can extend past this point |
+| More than one offence or case pending against the person | Section 479(2) | No release under this section at all, regardless of time served on any one case |
+| One-third or one-half threshold reached | Section 479(3) | Jail Superintendent has an independent duty to apply in writing for release |
+
+#### The authorities
+
+None beyond the promoted ratio above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume every undertrial gets the same halfway threshold — check prior-conviction history first; a genuine first-time offender's clock runs at one-third, not one-half.
+2. Do not treat a pending, unrelated second case as merely a discretionary factor against release — section 479(2) is a categorical bar, and arguing it as a balancing consideration misstates the section.
+3. Do not let a section 479 application sit on the assumption that the jail administration will file it — sub-section (3) creates a duty, but a duty unenforced in practice is still worth a direct application by the defence rather than a wait-and-see approach.
+4. Do not overlook the third proviso's absolute ceiling when opposing a bail application on the Public Prosecutor's request to extend detention under the second proviso — the extension has an outer limit that is not itself subject to further extension.
+
+**Timing.** Calendar the one-third mark the day custody begins for any first-time-offender client, not just the one-half mark — and file (or press the jail Superintendent to file) the moment that date arrives rather than waiting for it to be raised at the next listed hearing.
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm whether the offence carries death or life imprisonment as a specified punishment — if so, section 479 does not apply.
+2. Confirm prior-conviction history to fix whether the one-third or one-half threshold governs.
+3. Check for any other pending case or offence against the person before relying on section 479(1) — a positive finding under section 479(2) defeats the application regardless of time served.
+4. Where detention has been extended past one-half under the second proviso, confirm the Public Prosecutor was heard and reasons were recorded in writing.
+5. Track total detention against the offence's own maximum sentence — the third proviso's ceiling is absolute.
+
+---
