@@ -179,3 +179,138 @@ The citation for *Joginder Kumar v. State of U.P.* is recorded from the drafter'
 5. Frame any deficiency found as a failure of a condition precedent under *Arnesh Kumar*, not as a mere procedural irregularity.
 
 ---
+
+## Sections 36–38 — Duties of the arresting officer, the designated police officer, and the right to meet counsel during interrogation
+
+### The dispute this solves
+
+::: oneminute Three separate D.K. Basu-era safeguards, now written into the text itself: a visible name badge and a witnessed memo, a public arrest register, and a right to consult a lawyer during questioning.
+Before these protections were codified, an arrested person's family could spend hours or days simply trying to find out where he was. The officer who made the arrest could be unidentifiable. No independent record fixed who was arrested, when, or on what allegation, until the police themselves chose to produce one. And a person under interrogation had no guaranteed opportunity to consult a lawyer before answering questions that could be used against him. Sections 36 through 38 close each of these gaps individually: a badge and a witnessed memorandum at the moment of arrest, a publicly displayed register maintained by a designated officer, and a right to meet counsel during interrogation.
+:::
+
+::: story Bikram's family looks for him
+After Bikram is arrested on the criminal-breach-of-trust complaint, his sister goes to the police station that evening. Under the old assumption, she might have been told nothing more than "he's helping with an enquiry." Section 36 requires the arresting officer to have prepared a memorandum of arrest at the time of arrest, witnessed either by a family member or a respectable local resident and countersigned by Bikram himself — and, separately, to have told Bikram of his right to have someone informed. Section 37 means the same station maintains a designated officer's register, open to display, recording that Bikram was arrested and for what. And when Bikram is taken in for questioning, section 38 entitles him to meet the advocate his family has by now contacted — not to have that advocate sit through every question, but to consult him during the process.
+:::
+
+> **36. Procedure of arrest and duties of officer making arrest.**—Every police officer while making an arrest [[!shall]]—
+>
+> (a) bear an accurate, visible and clear identification of his name which will facilitate easy identification;
+>
+> (b) prepare a memorandum of arrest which shall be—
+>
+> (i) attested by at least one witness, who is a member of the family of the person arrested or a respectable member of the locality where the arrest is made;
+>
+> (ii) countersigned by the person arrested; and
+>
+> (c) inform the person arrested, unless the memorandum is attested by a member of his family, that he has a right to have a relative or a friend or any other person named by him to be informed of his arrest.
+>
+> **37. Designated police officer.**—The State Government [[!shall]]—
+>
+> (a) establish a police control room in every district and at State level;
+>
+> (b) designate a police officer in every district and in every police station, not below the rank of Assistant Sub-Inspector of Police who shall be responsible for maintaining the information about the names and addresses of the persons arrested, nature of the offence with which charged, which shall be prominently displayed in any manner including in digital mode in every police station and at the district headquarters.
+>
+> **38. Right of arrested person to meet an advocate of his choice during interrogation.**—When any person is arrested and interrogated by the police, he [[!shall]] be entitled to meet an advocate of his choice during interrogation, though [[!not throughout interrogation]].
+>
+> ::: proviso A right to consult, not a right to have counsel present throughout
+> Section 38's own text draws the line precisely: entitlement to meet an advocate *during* interrogation, but expressly *not throughout* interrogation. Do not overstate this right in a filing as equivalent to a right to have counsel physically present for the entirety of questioning — it is a right of access and consultation at intervals, not a right to continuous representation inside the interrogation room. Overstating it invites a court to reject the argument altogether rather than enforce it at its correct, narrower scope.
+> :::
+
+<MicroTree
+  input="A person has just been arrested. What must the arresting officer do, right now, at the scene?"
+  :gates="[
+    { q: 'Is the officer wearing a visible, accurate name identification per section 36(a)?', note: 'If not, this is itself a documented departure from a specific statutory duty — record the absence contemporaneously if possible.', no: 'Note the absence as a specific, named departure from section 36(a), not a vague complaint about “police conduct.”' },
+    { q: 'Has a memorandum of arrest been prepared, witnessed by a family member or respectable local resident, and countersigned by the arrested person, per section 36(b)?', note: 'This memorandum is the primary contemporaneous record of the arrest — its absence or irregularity is a serious, independently pleadable defect distinct from any argument about the arrest’s substantive justification under section 35.', no: 'Flag the missing or defective memorandum as a section 36(b) violation in its own right.' },
+    { q: 'Was the arrested person told of the right to have a relative or friend informed, under section 36(c)?', note: 'This duty is waived only where the memorandum itself was attested by a family member — otherwise it is independently mandatory, layered on top of section 48’s separate notification duty covered elsewhere in this chapter.', no: 'This is a distinct omission from the section 48 notification duty and should be pleaded separately.' },
+    { q: 'Is the arrested person being interrogated, and has he been given an opportunity to meet an advocate of his choice during that process, per section 38?', note: 'The right is to meet counsel during interrogation — not to have counsel present for its entire duration — so confirm the specific complaint is “denied an opportunity to consult at all,” not “counsel was not present throughout.”', no: 'If interrogation has not yet begun, section 38’s right has not yet been engaged.' }
+  ]"
+  result="A documented, section-by-section audit of arrest-time compliance, each defect pleaded under its own specific provision rather than lumped into a general complaint about police procedure."
+  resultKind="mandatory"
+  caveat="These are duties on the arresting officer distinct from the section 35 necessity checklist — a lawful, necessary arrest under section 35 can still be procedurally defective under sections 36 to 38, and vice versa."
+/>
+
+### In plain English
+
+Read these three sections as a single continuous safeguard running from the moment of arrest into the interrogation room. Section 36 fixes what must happen at the scene: an identifiable officer, a witnessed and countersigned paper record, and a spoken notification of the right to have someone told. Section 37 fixes the institutional backbone behind that — a control room and a designated, named officer in every station and district responsible for a publicly displayed register, so that "we don't know where he is" stops being a plausible answer to an anxious family. Section 38 then carries the same transparency principle into the interrogation itself: the arrested person is not left entirely alone with the police once the door closes, though the right stops short of guaranteeing a lawyer's continuous physical presence throughout every exchange.
+
+### What changed from the CrPC
+
+BNSS sections 36, 37 and 38 correspond to CrPC sections 41B, 41C and 41D respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, not substantively new — all three duties were already inserted into the CrPC by the 2010 amendment that codified the *D.K. Basu* guidelines, including section 41D's identically-worded "during interrogation, though not throughout interrogation" formulation. The BNSS carries the mechanism forward essentially unchanged; the only visible drafting shift is section 37(b)'s explicit reference to digital-mode display, aligning the control-room register with the Sanhita's broader push toward electronic record-keeping.
+
+### Test your instinct
+
+:::: instinct The memorandum witnessed by a stranger, not a family member
+Bikram is arrested at his shop, away from home. No family member is present. The officer has the memorandum of arrest attested by a shopkeeper from two doors down, whom the officer describes as "a respectable member of the locality," and does not separately tell Bikram of his right to have a relative informed.
+::: ruling What actually happens
+Section 36(c)'s notification duty is waived only where the memorandum is attested by a member of the arrested person's *family* — attestation by a respectable local resident under clause (b)(i), while a valid alternative for the memorandum requirement itself, does not trigger the clause (c) waiver. The officer was independently required to inform Bikram of his right to have a relative or friend told, and failing to do so is a freestanding omission, not cured by having found a substitute witness for the memorandum.
+:::
+::::
+
+:::: instinct The lawyer asks to sit through the entire interrogation
+An advocate engaged by an arrested person's family arrives at the police station and insists on being present in the room for the entire duration of the interrogation, citing section 38 as a right to continuous representation. The investigating officer permits a series of consultations at intervals but declines to let the advocate remain in the room throughout.
+::: ruling What actually happens
+The officer's position is textually correct: section 38 guarantees a right to *meet* the advocate *during* interrogation, and expressly qualifies this by excluding a right to counsel's presence *throughout*. The advocate's insistence on continuous presence overstates what the section actually confers. The stronger practitioner position is to ensure meaningful, unimpeded opportunities to consult at reasonable intervals actually occur — and to challenge any denial of even that narrower entitlement — rather than to contest the officer's refusal of continuous presence, which the text does not support.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Nandini Satpathy v. P.L. Dani**, (1978) 2 SCC 424. The Supreme Court held that the right against self-incrimination and the right to consult a lawyer of one's choice extend to the stage of police interrogation, not merely to trial, and that an accused cannot be compelled to answer questions likely to expose them to prosecution — the constitutional foundation on which section 38's statutory right to meet counsel during interrogation rests.
+
+::: info Verify before citing
+The citation and precise holding of *Nandini Satpathy v. P.L. Dani* are recorded from the drafter's working knowledge and secondary-source research conducted while writing this page, and should be independently verified against the official SCC report before being placed before a court.
+:::
+
+**Practitioner takeaway.** Where an arrested person is denied any opportunity whatsoever to consult counsel during interrogation, plead section 38 together with *Nandini Satpathy*'s constitutional foundation — the statutory right is the specific, codified expression of a right the Supreme Court had already located in Articles 20(3) and 22(1).
+
+#### Sword and shield
+
+**As a sword (accused's family):** section 37's designated-officer register is a direct, immediate tool — a family denied information about an arrest can point to the specific statutory officer responsible for maintaining exactly that information, rather than being left to guess which official to approach.
+
+**As a shield (accused):** treat sections 36 through 38 as independent grounds distinct from any section 35 necessity challenge — a procedurally compliant arrest can still be substantively unjustified, and a substantively justified arrest can still be procedurally defective. Plead both tracks, but keep them separate.
+
+#### The limitation clock
+
+No independent limitation period attaches to sections 36–38; their duties are triggered at the moment of arrest and during the interrogation that follows, and any challenge to their breach should be raised as early as the first remand or bail hearing, alongside — but distinct from — any section 35 necessity challenge.
+
+#### Interlocking matrix
+
+| Trigger | Linked provision | Practical consequence |
+|---|---|---|
+| Any arrest | Section 36 | Visible identification, witnessed memorandum, notification-of-right-to-inform duty |
+| Every district/station | Section 37 | Control room and designated officer maintaining a public arrest register |
+| Interrogation following arrest | Section 38 | Right to meet counsel during (not throughout) interrogation |
+| Family not informed under s. 36(c) | Section 48 | Separate, independent relative/friend notification duty (see later in this chapter) |
+
+#### The authorities
+
+**D.K. Basu v. State of West Bengal**, (1997) 1 SCC 416 — the source judgment for the eleven-point arrest-and-detention checklist, including the memorandum-of-arrest and right-to-consult-a-lawyer guidelines that sections 36 and 38 codify.
+
+::: info Verify before citing
+The citation for *D.K. Basu v. State of West Bengal* is recorded from the drafter's working knowledge and should be independently verified against the official SCC report before being relied upon in a filing.
+:::
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not treat attestation of the memorandum by a respectable local resident as satisfying section 36(c)'s separate notification duty — the waiver in clause (c) applies only to family-member attestation specifically.
+2. Do not overclaim section 38 as a right to counsel's continuous presence — plead it as a right to meaningful consultation at intervals, which is what the text and *Nandini Satpathy*'s underlying rationale actually support.
+3. Do not merge a sections 36–38 procedural challenge with a section 35 necessity challenge in a single, undifferentiated argument — keep them as separate grounds so that a court rejecting one does not automatically dispose of the other.
+
+**Timing.** Raise any section 36–38 defect at the first remand hearing, while the arrest memorandum and any interrogation record are still fresh and available — a defect noticed only after the case has moved well into trial is far harder to establish factually.
+
+**Model checklist for auditing arrest-time compliance:**
+
+1. Confirm the arresting officer's name was visibly identifiable.
+2. Obtain and examine the memorandum of arrest for proper attestation and the arrestee's countersignature.
+3. Confirm the arrestee was told of the right to have a relative or friend informed, independent of who attested the memorandum.
+4. Check the district/station register maintained under section 37 for accuracy and public accessibility.
+5. Confirm at least one genuine opportunity to consult counsel occurred during any interrogation, without overclaiming a right to counsel's continuous presence.
+
+---
+
