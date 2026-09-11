@@ -85,7 +85,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Chapter XIV — Jurisdiction of the criminal courts (ss. 197–209)', link: '/chapters/chapter-14' },
-            { text: 'Chapter XV — Conditions requisite for initiation of proceedings (ss. 210–222)', link: '/chapters/chapter-15' }
+            { text: 'Chapter XV — Conditions requisite for initiation of proceedings (ss. 210–222)', link: '/chapters/chapter-15' },
+            { text: 'Chapter XVI — Complaints to Magistrates (ss. 223–226)', link: '/chapters/chapter-16' }
           ]
         },
         { text: 'Trial', collapsed: true, items: [] },
