@@ -369,3 +369,122 @@ None added — see "The winning ratio" above.
 4. Track the warrant's status against section 72(2) — cancelled, executed, or still outstanding.
 
 ---
+
+## Sections 75–79 — Warrant directed to a private person, substitute execution, notification, the twenty-four-hour production ceiling, and territorial reach
+
+### The dispute this solves
+
+::: oneminute For a narrow category of wanted persons, the Sanhita lets a senior Magistrate deputise a private person to execute a warrant — but boxes that power in with a strict acknowledge-execute-handover sequence, and then fixes the mechanics every warrant execution must follow regardless of who carries it out.
+Section 74's private-person exception is an emergency measure — no police officer immediately available. Section 75 is different in kind: a standing power, unconnected to any emergency, letting the Chief Judicial Magistrate or a first-class Magistrate name a specific person to execute a warrant against an escaped convict, a proclaimed offender, or a non-bailable-offence evader, where that wanted person is found on land the named person controls. Sections 76 to 79 then supply the mechanics common to every warrant execution — substitute execution by an endorsed officer, telling the arrested person what the warrant is about, producing him before a Court without unnecessary delay and within a hard 24-hour ceiling, and confirming the warrant runs anywhere in India.
+:::
+
+::: story The landowner who skipped the handover
+A first-class Magistrate, aware that a proclaimed offender has been sighted crossing a particular farmer's land, directs a warrant to that farmer under section 75. Weeks later the offender enters the land; the farmer, acting on the warrant, arrests him exactly as section 75(2) permits. But instead of making the arrested man over to the nearest police officer as section 75(3) requires, the farmer — proud of the capture and distrustful of the local station — personally drives him to the Magistrate's residence and hands him over directly. The defence later argues the arrest and production were irregular. They are right about one link in the chain: section 75(3)'s handover to the nearest police officer is not optional scaffolding around an otherwise valid private arrest — it is the specific mechanism by which the Sanhita keeps a private executant's role confined to capture, with production before the right court still routed through the police.
+:::
+
+> **75. Warrant may be directed to any person.**—(1) The Chief Judicial Magistrate or a Magistrate of the first class [[?may]] direct a warrant to any person within his local jurisdiction for the arrest of any escaped convict, proclaimed offender or of any person who is accused of a non-bailable offence and is evading arrest.
+>
+> (2) Such person [[!shall]] acknowledge in writing the receipt of the warrant, and [[!shall]] execute it if the person for whose arrest it was issued, is in, or enters on, any land or other property under his charge.
+>
+> (3) When the person against whom such warrant is issued is arrested, he [[!shall]] be made over with the warrant to the nearest police officer, who [[!shall]] cause him to be taken before a Magistrate having jurisdiction in the case, unless security is taken under section 73.
+>
+> **76. Warrant directed to police officer.**—A warrant directed to any police officer [[?may]] also be executed by any other police officer whose name is endorsed upon the warrant by the officer to whom it is directed or endorsed.
+>
+> **77. Notification of substance of warrant.**—The police officer or other person executing a warrant of arrest [[!shall]] notify the substance thereof to the person to be arrested, and, if so required, [[!shall]] show him the warrant.
+>
+> **78. Person arrested to be brought before Court without delay.**—The police officer or other person executing a warrant of arrest [[!shall]] (subject to the provisions of section 73 as to security) without unnecessary delay bring the person arrested before the Court before which he is required by law to produce such person:
+>
+> Provided that such delay [[!shall]] not, in any case, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.
+>
+> **79. Where warrant may be executed.**—A warrant of arrest [[?may]] be executed at any place in India.
+>
+> ::: proviso A private executant's authority ends at the handover, not at production
+> Section 75(2) authorises a named private person to arrest; section 75(3) does not extend that authority any further. The arrested person must go to the nearest police officer, who then takes over the duty of producing him before the jurisdictional Magistrate — unless a section 73 security endorsement already resolves the matter. A private person who personally produces the arrestee before a Magistrate, however well-intentioned, has stepped outside the sequence section 75 actually authorises.
+> :::
+
+<MicroTree
+  input="A warrant is being executed under section 75's private-person power. What must the sequence look like?"
+  :gates="[
+    { q: 'Was the warrant directed by a Chief Judicial Magistrate or first-class Magistrate to a specific named person, for one of section 75(1)’s three categories (escaped convict, proclaimed offender, non-bailable evader)?', note: 'Section 75 applies; move to the execution-conditions question.', no: 'Section 75 does not authorise this direction — check instead whether section 74’s immediate-necessity exception applies.' },
+    { q: 'Did that person acknowledge the warrant in writing and execute it only once the wanted person was in, or entered, land under his charge?', note: 'Section 75(2)’s conditions are met.', no: 'Execution outside these conditions is not shielded by section 75.' },
+    { q: 'Was the arrested person made over to the nearest police officer for production before the jurisdictional Magistrate, unless section 73 security was taken?', note: 'Section 75(3)’s mandatory handover step is satisfied, and the ordinary execution mechanics of sections 76–79 — substitute-officer endorsement, notifying the substance, the 24-hour production ceiling, India-wide territorial reach — take over from here.', no: 'The private executant’s own authority does not extend to personally producing the arrestee before a Magistrate — the mandatory handover step under section 75(3) was skipped.' }
+  ]"
+  result="Section 75's private-person power is confirmed to have been properly invoked and its mandatory handover sequence followed, before the ordinary execution mechanics of sections 76–79 — including the 24-hour production ceiling — take over."
+  resultKind="mandatory"
+  caveat="Section 78's 24-hour ceiling on production runs from the point of arrest and excludes only journey time — it is not extended merely because the arrest was made by a private person under section 75 rather than by police."
+/>
+
+### In plain English
+
+Section 75 is a standing, non-emergency power — quite different from section 74's "no police officer available" exception. A senior Magistrate can name a specific private person to arrest a specific kind of wanted person — an escapee, a proclaimed offender, or someone dodging a non-bailable warrant — if that person shows up on land the named executant controls. That named person has to accept the warrant in writing and can only act once the wanted person is genuinely there; and once the arrest happens, the wanted person goes to the nearest police officer, not straight to a Magistrate, unless a section 73 bail endorsement already covers it. Sections 76 to 79 then supply the rules that apply no matter who executes a warrant: another named police officer can step in for the one originally named, the person being arrested has to be told what the warrant says and shown it if asked, he has to be produced before the right court without unnecessary delay and, in any event, within 24 hours excluding travel time, and the warrant itself is valid anywhere in the country.
+
+### What changed from the CrPC
+
+BNSS sections 75, 76, 77, 78 and 79 correspond to CrPC sections 73, 74, 75, 76 and 77 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes**, with no substantive departure identified in this cluster. Section 78's 24-hour production ceiling is the warrant-execution counterpart of the arrest-without-warrant 24-hour clock now found at section 58 in Chapter V — both trace the same underlying constitutional discipline, applied to a different mode of arrest.
+
+### Test your instinct
+
+:::: instinct The private executant who bypassed the police handover
+A farmer validly arrests a proclaimed offender under a section 75 direction, then personally drives him to the Magistrate's residence instead of handing him to the nearest police officer.
+::: ruling What actually happens
+Section 75(3) is not an optional courtesy — it fixes the only route by which a person arrested under a section 75 direction may reach a Court: handover to the nearest police officer, who then causes him to be taken before the jurisdictional Magistrate, unless section 73 security has already been taken. The farmer's arrest itself was valid; his decision to personally produce the arrestee stepped outside what section 75 actually authorises, and that step is open to challenge even though the capture was lawful.
+:::
+::::
+
+:::: instinct The warrant executed by a different officer than the one named
+A warrant is directed to a named police officer who cannot personally attend to it. He endorses a colleague's name on the warrant, and that colleague makes the arrest. The defence argues only the originally named officer could lawfully execute it.
+::: ruling What actually happens
+Section 76 anticipates exactly this: a warrant directed to a police officer may also be executed by any other police officer whose name is endorsed on the warrant by the officer to whom it was directed. No fresh court order is needed for the substitution — the endorsement itself is the authority, and the objection fails on the statute's own terms.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No new case is promoted for this cluster. **Khatri (II) v. State of Bihar**, (1981) 1 SCC 627 — already promoted as the winning ratio for the arrest-without-warrant 24-hour clock in sections 55–59 — applies with equal force to section 78's warrant-context production ceiling and is noted here as secondary authority: its core proposition, that production before a Magistrate is a substantive safeguard rather than a formality, does not depend on whether the arrest was made with or without a warrant.
+
+#### Sword and shield
+
+As a **shield**, an arrestee can challenge a private executant's bypass of the mandatory section 75(3) police handover, or an execution that exceeded section 78's 24-hour ceiling once journey time is properly excluded. As a **sword**, the prosecution can rely on section 76's endorsement mechanism to validate execution by a substituted officer, and on section 79's India-wide territorial reach to defeat a venue-based objection to where the warrant was executed.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 75–79; a defect in the section 75 sequence, the substitute-officer endorsement, or the section 78 production ceiling should be raised at the first appearance before the Court, not after an unchallenged production has already occurred.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Escaped convict, proclaimed offender, or non-bailable evader found on land under a named person's charge | Section 75 | CJM/first-class Magistrate may direct that person to execute; strict acknowledge-execute-handover sequence |
+| Named police officer cannot personally execute the warrant | Section 76 | Execution by another officer whose name is endorsed on the warrant |
+| Any warrant execution | Section 77 | Substance of the warrant notified, and warrant shown if required |
+| Person arrested under a warrant | Section 78 | Production without unnecessary delay, capped at 24 hours excluding journey time (subject to section 73 security) |
+| Territorial reach of a warrant | Section 79 | Executable anywhere in India |
+
+#### The authorities
+
+None added beyond the secondary reference to Khatri (II) above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not assume section 75 requires the same "no police officer available" emergency condition as section 74 — it is a separate, standing power tied to specific categories of wanted person and a specific named executant with control over land.
+2. Do not overlook the mandatory police handover step in section 75(3) — a private executant's authority ends at handing the arrestee to the nearest police officer, not at personally producing him before a Magistrate.
+3. Do not accept execution by an officer other than the one named on the warrant without checking for a valid section 76 endorsement.
+4. Do not calculate the section 78 24-hour ceiling to include journey time from the place of arrest — the proviso expressly excludes it.
+
+**Timing.** Raise any defect in the section 75 sequence or the section 78 production ceiling at the first appearance before the Court, before the point can be treated as cured by a later, unchallenged production.
+
+**Model checklist for reviewing a warrant's execution:**
+
+1. If a private person executed the warrant, confirm a valid section 75 direction (qualifying category of wanted person, named executant, land under his charge) and written acknowledgment.
+2. Confirm the mandatory handover to the nearest police officer occurred, unless section 73 security was taken.
+3. If execution was by a different police officer than the one named, confirm a valid section 76 endorsement.
+4. Confirm the substance of the warrant was notified, and shown if requested, under section 77.
+5. Calculate the section 78 production ceiling excluding journey time and confirm it was not exceeded.
+
+---
