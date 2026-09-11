@@ -543,3 +543,126 @@ Section 243(2) interlocks directly with section 235(2) (the relaxed particulars 
 4. Flag any reliance on section 243(5)'s saving of section 9 of the Bharatiya Nyaya Sanhita, 2023 for independent verification before use in a live matter.
 
 ---
+
+## Sections 245–247 — Convicting on what was actually proved, who can stand trial together, and what happens to the charges left over
+
+### The dispute this solves
+
+::: oneminute This closing cluster answers three separate, practical questions that arise once a trial is actually underway. Section 245 asks: what if the evidence proves less than the full offence charged, or a lesser version of it, or only an attempt — must the prosecution fail entirely, or can the accused be convicted of what was actually established? The answer is the minor-offence conviction power, subject to one sharp limit in section 245(4): the accused cannot be convicted of a minor offence unless the conditions requisite for initiating proceedings on that minor offence — sanction, complaint, or whatever else this Sanhita independently requires — were themselves satisfied. Section 246 asks a different question: which persons, not just which offences, can be tried together in one proceeding, and lists seven categories where multiple accused share a trial as of right, plus a residual application-based route for anyone who falls outside them. Section 247 closes the chapter with the mechanics of what happens after a conviction on some heads of a multi-headed charge: the remaining, unresolved charges can be withdrawn, with the withdrawal treated as an acquittal on those heads — unless the underlying conviction is later set aside, in which case the withdrawn charges can be revived.
+:::
+
+::: story A partial proof, a joint dock, and the charges nobody pursued
+A is charged under the aggravated form of criminal breach of trust as a carrier. At trial, the evidence establishes breach of trust, but not that A held the property as a carrier — the aggravating fact fails. Section 245(1) lets the Court convict A of the lesser, ordinary offence of criminal breach of trust instead, without a fresh charge. Meanwhile B, C and D are jointly accused of the same offence committed in the course of the same transaction — section 246(a) lets all three be tried together. After the trial concludes with convictions on two of the five charge-heads against B, the prosecutor, with the Court's consent, withdraws the remaining three — section 247 treats that withdrawal as an acquittal on those three heads, unless B's conviction on the other two is later set aside on appeal.
+:::
+
+> **245. (1)** When a person is charged with an offence consisting of several particulars, a combination of some only of which constitutes a complete minor offence, and such combination is proved, but the remaining particulars are not proved, he [[?may]] be convicted of the minor offence, though he was not charged with it.
+>
+> **(2)** When a person is charged with an offence and facts are proved which reduce it to a minor offence, he [[?may]] be convicted of the minor offence, although he is not charged with it.
+>
+> **(3)** When a person is charged with an offence, he [[?may]] be convicted of an attempt to commit such offence although the attempt is not separately charged.
+>
+> **(4)** Nothing in this section [[!shall]] be deemed to authorise a conviction of any minor offence where the conditions requisite for the initiation of proceedings in respect of that minor offence have not been satisfied.
+>
+> *Illustration.* A is charged, under sub-section (3) of section 316 of the Bharatiya Nyaya Sanhita, 2023, with criminal breach of trust in respect of property entrusted to him as a carrier. It appears that he did commit criminal breach of trust under sub-section (2) of section 316 of that Sanhita in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said sub-section (2) of section 316.
+>
+> **246.** The following persons [[?may]] be charged and tried together, namely:—
+>
+> (a) persons accused of the same offence committed in the course of the same transaction;
+>
+> (b) persons accused of an offence and persons accused of abetment of, or attempt to commit, such offence;
+>
+> (c) persons accused of more than one offence of the same kind, within the meaning of section 242, committed by them jointly within the period of twelve months;
+>
+> (d) persons accused of different offences committed in the course of the same transaction;
+>
+> (e) persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence;
+>
+> (f) persons accused of offences under sub-sections (2) and (5) of section 317 of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence;
+>
+> (g) persons accused of any offence under Chapter X of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges:
+>
+> *Provided that* where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate or Court of Session [[?may]], if such persons by an application in writing, so desire, and if he or it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.
+>
+> **247.** When a charge containing more heads than one is framed against the same person, and when a conviction has been had on one or more of them, the complainant, or the officer conducting the prosecution, [[?may]], with the consent of the Court, withdraw the remaining charge or charges, or the Court of its own accord [[?may]] stay the inquiry into, or trial of, such charge or charges and such withdrawal [[!shall]] have the effect of an acquittal on such charge or charges, unless the conviction be set aside, in which case the said Court (subject to the order of the Court setting aside the conviction) [[?may]] proceed with the inquiry into, or trial of, the charge or charges so withdrawn.
+
+::: proviso Section 245(4) is the carve-out that stops the minor-offence shortcut from becoming a bypass
+Sections 245(1) to (3) let a Court convict of a minor offence, or an attempt, without a fresh charge. Section 245(4) stops that convenience from being used to sidestep an independent procedural precondition — if the minor offence itself needed sanction, a complaint by a specific person, or any other condition requisite for initiating proceedings, and that condition was not satisfied, section 245 supplies no conviction power at all for that minor offence.
+:::
+
+::: proviso Section 246's residual proviso mirrors section 241's accused-application logic, but for persons rather than offences
+Where accused persons do not fall within any of section 246(a) to (g)'s categories, they can still be tried together — but only on their own written application and only where the Magistrate or Court of Session independently finds no prejudice and considers it expedient. This is the same accused-initiated, prejudice-screened structure section 241's proviso uses for offences, now applied to persons.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="After a conviction on some heads of a multi-headed charge, what happens to the heads that remain unresolved?"
+  :gates="[
+    { q: 'Has a conviction actually been secured on one or more heads of the charge?',
+      note: 'Section 247 only engages once at least one head has resulted in a conviction',
+      no: 'Section 247 does not yet apply; the trial continues on all heads' },
+    { q: 'Does the complainant or prosecutor, with the Court\'s consent, seek to withdraw the remaining heads — or does the Court act on its own accord to stay them?',
+      note: 'Either route is available under section 247',
+      no: 'The remaining heads continue to be tried or inquired into as normal' },
+    { q: 'Is the original conviction later set aside on appeal or revision?',
+      note: 'If it is, the withdrawn charges are not permanently gone — the Court may proceed with them again, subject to the order setting the conviction aside',
+      no: 'The withdrawal\'s acquittal effect on the remaining heads stands undisturbed' }
+  ]"
+  result="A withdrawal of the remaining heads of a multi-headed charge, after conviction on one or more heads, operates as an acquittal on the withdrawn heads — but that acquittal is reversible, and the withdrawn charges can be revived, if the underlying conviction is itself later set aside"
+  resultKind="discretionary"
+  caveat="Section 247 requires an actual conviction already secured on at least one head before it applies — it is not a general power to abandon inconvenient charges mid-trial." />
+
+### In plain English
+
+Section 245 is the trial-stage safety valve for charges that do not land exactly as framed — proof of less than the full offence, a reduced offence, or a bare attempt, all convert into a conviction rather than an acquittal on a technicality, except where section 245(4)'s carve-out bites because some independent precondition for the minor offence was never satisfied. Section 246 is the companion to section 241, but for people rather than offences: it lists, as of right, the situations where co-accused persons can share one trial, and adds a residual application-based route — mirroring section 241's proviso — for anyone who falls outside those categories but wants to be tried together anyway. Section 247 is simple bookkeeping with a real consequence: once some heads of a charge have produced a conviction, chasing the remaining heads may no longer be worth the Court's time, so the prosecution or the Court can let them go — with that letting-go counting as a genuine acquittal, reversible only if the conviction it was premised on is itself undone.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 245 appears to track CrPC section 222, section 246 appears to track CrPC section 223, and section 247 appears to track CrPC section 224. No significant departure is flagged for this cluster on the reading available here, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct The accused was charged with an aggravated offence requiring a specific sanction that was never obtained. At trial, the evidence establishes only the lesser, non-aggravated version of the offence, which does not require that sanction.
+::: ruling A conviction for the lesser offence can stand
+Section 245(4)'s bar applies where the conditions requisite for initiating proceedings *on the minor offence itself* were not satisfied. Where the minor offence carries no sanction requirement at all — even though the originally charged aggravated offence did — section 245(4) supplies no obstacle to a conviction on the minor offence.
+:::
+::::
+
+:::: instinct Five accused, charged with different offences committed in the course of one riot, are tried together. None of them applied in writing for a joint trial.
+::: ruling No application was needed
+Section 246(d) permits persons accused of different offences committed in the course of the same transaction to be tried together as of right. The residual proviso's application-and-prejudice requirement applies only to persons who fall outside section 246(a) to (g)'s listed categories — it is not a universal precondition for every joint trial of multiple accused.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. This author is not confident enough of a specific, correctly-cited Supreme Court ratio tied precisely to sections 245–247's minor-offence-conviction and persons-tried-together provisions to promote one without risking a fabricated or misremembered reference. Flagged as a research gap for a dedicated verification pass.*
+
+#### Sword and shield
+
+As a **sword**, the prosecution relies on section 245 to salvage a conviction where the proof falls short of the offence exactly as charged, and on section 246 to try connected accused persons in one proceeding rather than fragmenting a joint case. As a **shield**, the defence's counter to section 245 is section 245(4) itself — pressing hard on whether every condition requisite for initiating proceedings on the minor offence was actually satisfied before conceding a fallback conviction; the defence's counter to section 246 is contesting, for persons outside the listed categories, whether the application-and-prejudice conditions of the residual proviso were genuinely met, not merely assumed.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; section 247's mechanics are triggered by a conviction already secured, not by a filing deadline.
+
+#### Interlocking matrix
+
+Section 245(4) interlocks directly with Chapter XV's conditions-requisite-for-initiation-of-proceedings framework (ss. 210–222, already built) — the sanction, complaint, and previous-cognizance-bar provisions covered there are exactly what section 245(4) asks whether the minor offence independently satisfied. Section 246's residual proviso interlocks with section 241's proviso (this chapter, already built) as the same accused-application, prejudice-screened structure applied to persons instead of offences. Section 247 interlocks with the appeal and revision framework governing when a conviction may be "set aside" ⚠️ *not yet built in this repository as of this rendering.*
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for closing out this chapter's provisions:**
+
+1. Before accepting a fallback conviction under section 245(1)–(3), independently verify the minor offence's own preconditions — sanction, complaint, cognizance bar — were satisfied; section 245(4) is a real bar, not a formality.
+2. Where multiple accused are tried together, identify which of section 246(a) to (g)'s categories the joinder actually falls within — if none, confirm a written application and a recorded prejudice finding exist, mirroring section 241's discipline.
+3. Where charges are withdrawn under section 247 after a partial conviction, confirm the withdrawal is recorded as having the effect of an acquittal — this matters directly if the underlying conviction is later challenged in appeal or revision.
+4. On appeal, if a conviction that triggered a section 247 withdrawal is set aside, check promptly whether the withdrawn charges are still being pursued — the revival is not automatic and depends on the appellate Court's own order.
+
+---
