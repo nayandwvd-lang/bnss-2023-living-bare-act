@@ -903,4 +903,125 @@ Section 488 interlocks with section 485(4)'s surety-sufficiency inquiry power �
 3. Where a client has liquid assets but no ready surety, consider a section 490 deposit application early — but confirm the bond in question is not one for good behaviour.
 4. In either a section 488 or 489 scenario, build the record around the accused's genuine opportunity (and, if relevant, failure) to find a sufficient replacement before any committal follows.
 
+## Sections 491–493 — Forfeiture: what happens when the bond is broken (flagship)
+
+### The dispute this solves
+
+::: oneminute A bond is a promise backed by money and by another person's word. Section 491 is what happens when that promise is broken — and it is not a formality, it is a proceeding with its own due-process floor.
+Every bond in this Chapter exists to be enforced if broken — but enforcement is not automatic forfeiture on the strength of a missed appearance alone. Section 491 requires the Court to be satisfied, on proof, that the bond has actually been forfeited, to record why, and only then to call on the bound person to pay the penalty or show cause why not. Section 492 layers on the specific consequence for a breached appearance bond — the bond itself is cancelled, and the person cannot simply walk back onto their own bond a second time without a fresh showing. Section 493 covers the separate scenario where nobody has broken any promise at all — the surety has died or gone insolvent through no fault of anyone — and gives the Court a mechanism to demand fresh security rather than treating the case as though bail itself has failed.
+:::
+
+::: story The surety who paid twice
+Ramesh stood surety for his nephew Anil's bail bond. Anil skips two hearings and cannot be traced. The Court does not simply debit Ramesh's account — section 491(1) requires the Court to be satisfied on proof that the bond is forfeited, record its grounds, and call on Ramesh to pay the penalty or show cause. Ramesh cannot show cause — Anil genuinely absconded — so the Court proceeds to recover the penalty as a fine. Separately, under section 492, Anil's own personal bond and Ramesh's surety bond both stand cancelled the moment forfeiture for the breach is established; if Anil is later caught and the Court is satisfied there was no sufficient cause for his non-appearance, he cannot be released again on his own bond alone — a fresh personal bond and fresh sureties are required. In a different file, a different surety, Meena, simply dies of natural causes before any forfeiture ever arises — section 491(4) closes that book cleanly: her estate owes nothing.
+:::
+
+> **491. (1)** Where,—
+>
+> (a) a bond under this Sanhita is for appearance, or for production of property, before a Court and it is proved to the satisfaction of that Court, or of any Court to which the case has subsequently been transferred, that the bond has been forfeited; or
+>
+> (b) in respect of any other bond under this Sanhita, it is proved to the satisfaction of the Court by which the bond was taken, or of any Court to which the case has subsequently been transferred, or of the Court of any Magistrate of the first class, that the bond has been forfeited,
+>
+> the Court [[!shall]] record the grounds of such proof, and [[?may]] call upon any person bound by such bond to pay the penalty thereof or to show cause why it should not be paid.
+>
+> Explanation.—A condition in a bond for appearance, or for production of property, before a Court shall be construed as including a condition for appearance, or as the case may be, for production of property, before any Court to which the case may subsequently be transferred.
+>
+> **(2)** If sufficient cause is not shown and the penalty is not paid, the Court [[?may]] proceed to recover the same as if such penalty were a fine imposed by it under this Sanhita:
+>
+> Provided that where such penalty is not paid and cannot be recovered in the manner aforesaid, the person so bound as surety [[!shall]] be liable, by order of the Court ordering the recovery of the penalty, to imprisonment in civil jail for a term which may extend to six months.
+>
+> **(3)** The Court [[?may]], after recording its reasons for doing so, remit any portion of the penalty mentioned and enforce payment in part only.
+>
+> **(4)** Where a surety to a bond dies before the bond is forfeited, his estate [[!shall]] be discharged from all liability in respect of the bond.
+>
+> **(5)** Where any person who has furnished security under section 125 or section 136 or section 401 is convicted of an offence the commission of which constitutes a breach of the conditions of his bond, or of a bond executed in lieu of his bond under section 494, a certified copy of the judgment of the Court by which he was convicted of such offence [[?may]] be used as evidence in proceedings under this section against his surety or sureties, and, if such certified copy is so used, the Court [[!shall]] presume that such offence was committed by him unless the contrary is proved.
+>
+> **492.** Without prejudice to the provisions of section 491, where a bond or bail bond under this Sanhita is for appearance of a person in a case and it is forfeited for breach of a condition,—
+>
+> (a) the bond executed by such person as well as the bond, if any, executed by one or more of his sureties in that case [[!shall]] stand cancelled; and
+>
+> (b) thereafter no such person [[!shall]] be released only on his own bond in that case, if the police officer or the Court, as the case may be, for appearance before whom the bond was executed, is satisfied that there was no sufficient cause for the failure of the person bound by the bond to comply with its condition:
+>
+> Provided that subject to any other provisions of this Sanhita he [[?may]] be released in that case upon the execution of a fresh personal bond for such sum of money and bond by one or more of such sureties as the police officer or the Court, as the case may be, thinks sufficient.
+>
+> **493.** When any surety to a bail bond under this Sanhita becomes insolvent or dies, or when any bond is forfeited under the provisions of section 491, the Court by whose order such bond was taken, or a Magistrate of the first class [[?may]] order the person from whom such security was demanded to furnish fresh security in accordance with the directions of the original order, and if such security is not furnished, such Court or Magistrate [[?may]] proceed as if there had been a default in complying with such original order.
+
+::: proviso Forfeiture is a proceeding, not a bookkeeping entry
+Section 491(1) does not let a Court treat forfeiture as automatic on a missed appearance — it must be satisfied on proof, and must record the grounds of that proof, before it can even call on the bound person to pay or show cause. Show-cause is not a courtesy: sufficient cause defeats recovery of the penalty entirely, and even where cause is insufficient, section 491(3) gives the Court an express, reasoned power to remit part of the penalty rather than enforcing the full amount mechanically.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A bond under this Chapter has not been complied with, or the surety behind it has died or become insolvent"
+  :gates="[
+    { q: 'Is the Court satisfied, on proof, that the bond has actually been forfeited — and has it recorded the grounds?',
+      note: 'This is a proceeding with its own evidentiary floor, not an automatic consequence of a missed date',
+      no: 'No forfeiture, and no penalty proceeding, may follow' },
+    { q: 'Has the bound person shown sufficient cause why the penalty should not be paid?',
+      note: 'Sufficient cause defeats recovery outright; even without it, section 491(3) allows a reasoned partial remission',
+      no: 'The Court may recover the penalty as a fine, with civil-jail imprisonment as the ultimate fallback if it cannot be recovered' },
+    { q: 'Was the forfeited bond specifically one for the person’s own appearance?',
+      note: 'This is what triggers section 492’s automatic cancellation of both the accused’s and the sureties’ bonds — a distinct, non-monetary consequence layered on top of section 491’s penalty machinery',
+      no: 'Section 492’s cancellation-and-no-own-bond-release rule does not apply, though section 491’s penalty proceeding still can' },
+    { q: 'Did a surety instead die or become insolvent, with no breach by anyone at all?',
+      note: 'Section 493 exists precisely for this no-fault scenario, distinct from forfeiture for breach',
+      no: 'No section 493 fresh-security order is triggered on this ground' }
+  ]"
+  result="The penalty is recovered (in full, in part, or not at all on sufficient cause), the appearance bond is cancelled if that was its subject, and fresh security may be demanded going forward"
+  resultKind="discretionary"
+  caveat="A surety who dies before forfeiture is entirely discharged under section 491(4) — death after forfeiture and death before forfeiture have opposite consequences for the estate" />
+
+### In plain English
+
+Section 491 is the enforcement engine for every bond in this Chapter, and it is deliberately not summary — proof, recorded grounds, and a genuine opportunity to show cause come before any penalty is exacted, and even then the Court can choose to remit part of it. Section 492 adds a specific, non-monetary sting for appearance bonds: forfeiture does not just cost money, it cancels the bond outright and closes the door — at least temporarily — on being released again on one's own word alone, unless the police or Court is satisfied there was sufficient cause for the earlier failure. Section 493 is the no-fault cousin of both: a surety's death or insolvency is nobody's breach, but it still leaves a bond without real backing, so the Court can simply order fresh security rather than treating it as a forfeiture event.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 491–493 appear to track CrPC ss. 446–446A (procedure when bond forfeited; cancellation of bond and bail bond) closely, and BNSS s.493 appears to correspond to a CrPC provision addressing surety insolvency/death, though the exact prior section number for that specific provision has not been independently confirmed in this reading. The section 491(5) evidentiary presumption tied to sections 125/136/401 securities should be checked against the CrPC's corresponding cross-references before relying on the concordance in a filing.*
+
+### Test your instinct
+
+:::: instinct A surety fails to pay a forfeited bond's penalty. The Court, without recording any reasons, orders him committed to civil jail for six months as the default consequence.
+::: ruling Procedurally defective on two counts
+Civil jail imprisonment under the proviso to section 491(2) is available only where the penalty "is not paid and cannot be recovered in the manner aforesaid" — it is the fallback after recovery-as-a-fine has been attempted and failed, not a default first resort. And section 491(3) gives the Court an express power to remit part of the penalty after recording reasons — an order that skips straight to the maximum civil-jail term without engaging that remission power, or without first attempting recovery as a fine, has not followed the section's own sequence.
+:::
+::::
+
+:::: instinct An accused's appearance bond is forfeited for a missed hearing, but the Court finds his car broke down and he was in fact only four hours late, having appeared and surrendered voluntarily the same day. The police officer treats section 492(b) as an automatic bar on releasing him on his own bond again.
+::: ruling Not automatic — "sufficient cause" is a live question
+Section 492(b)'s bar on own-bond release applies only "if the police officer or the Court... is satisfied that there was no sufficient cause for the failure" — it is conditional, not automatic on forfeiture alone. A breakdown followed by same-day voluntary surrender is squarely the kind of fact pattern the sufficient-cause inquiry exists to catch; treating forfeiture itself as conclusively establishing insufficient cause collapses a two-step inquiry into one.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster despite its flagship status. Section 491's procedural floor (proof, recorded grounds, show-cause, discretionary remission) is drawn directly from the text; a body of case law on forfeiture-proceeding due process likely exists but no specific citation is held with sufficient confidence to promote here rather than risk a fabricated or misremembered reference.*
+
+#### Sword and shield
+
+As a **shield** for a surety or accused, section 491(1)'s "proved to the satisfaction of the Court" and recorded-grounds requirement is the first line of defence against a casual or clerical forfeiture; the show-cause opportunity and section 491(3)'s remission power are the second and third. As a **sword** for the prosecution or the State, section 492's automatic bond cancellation and conditional bar on own-bond release is real leverage against a track record of non-appearance, distinct from and additional to the monetary penalty under section 491.
+
+#### The limitation clock
+
+No independent limitation period is fixed for initiating a section 491 forfeiture proceeding; it runs from the event of breach, on the Court's own satisfaction that forfeiture has occurred.
+
+#### Interlocking matrix
+
+Section 491(5)'s presumption clause interlocks with sections 125, 136, 401 and 494 — a conviction on a breach of any of those bonds becomes usable evidence against the surety in the section 491 proceeding itself, with a reverse evidentiary presumption once that certified copy is used. Section 492's cancellation rule interlocks with section 478(2)'s own already-established discretion to refuse bail on a subsequent occasion after an earlier breach — the two sections reinforce each other for a repeat non-appearer. Section 493's fresh-security order interlocks with sections 485 (bond execution) and 490 (deposit in lieu) as the available mechanisms for actually furnishing that fresh security.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering. A search for Supreme Court authority on the due-process floor for bond-forfeiture proceedings (proof, recorded grounds, and the remission power) would be the natural next step before relying on this cluster in a contested forfeiture matter.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. In defending a forfeiture proceeding, test the record for actual proof and recorded grounds before conceding forfeiture — section 491(1) is not satisfied by a mere docket entry of non-appearance.
+2. Always plead sufficient cause affirmatively and in detail — it is a complete defence to the penalty, not merely a mitigating factor, and it is also the gateway question under section 492(b) for own-bond release afterward.
+3. Where full recovery is not realistic, invoke section 491(3)'s remission power explicitly rather than leaving the Court to consider it unprompted.
+4. On a surety's death or insolvency discovered mid-case, move under section 493 promptly for fresh-security directions rather than waiting for a forfeiture event to force the issue.
+
 ---
