@@ -84,7 +84,8 @@ export default defineConfig({
           text: 'Cognizance, commitment and charge',
           collapsed: false,
           items: [
-            { text: 'Chapter XIV — Jurisdiction of the criminal courts (ss. 197–209)', link: '/chapters/chapter-14' }
+            { text: 'Chapter XIV — Jurisdiction of the criminal courts (ss. 197–209)', link: '/chapters/chapter-14' },
+            { text: 'Chapter XV — Conditions requisite for initiation of proceedings (ss. 210–222)', link: '/chapters/chapter-15' }
           ]
         },
         { text: 'Trial', collapsed: true, items: [] },
