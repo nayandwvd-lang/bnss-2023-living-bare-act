@@ -699,4 +699,110 @@ Section 483(1)(a)'s reference to "the nature specified in sub-section (3) of sec
 3. For the ⚠️ BNS s. 65/s. 70(2) category, confirm both the fifteen-day Public Prosecutor notice clock and the informant's presence at the hearing — two independent, cumulative requirements, not alternatives.
 4. Where seeking re-arrest under sub-section (3), build the fresh-grounds record carefully — this is not a re-run of the original bail hearing, and the application should be framed around what has changed since release.
 
+## Sections 484–487 — The bond itself: amount, execution, sureties' declaration, discharge from custody
+
+### The dispute this solves
+
+::: oneminute A bail order is a promise on paper. Sections 484–487 are what turns "released on bail" into a document with legal teeth — and what stops an officer from turning a right into an obstacle by fixing the bond too high.
+Winning the bail argument is only half the fight. Every bail order, of whatever kind and under whatever section, cashes out into the same four mechanical steps: someone fixes an amount, someone executes a bond in that amount (with or without sureties), any surety puts their own credibility on the record, and only then does the jail actually let the person out. Each of those four steps is a separate point of potential abuse — an inflated bond amount can defeat a bail order as surely as refusing it outright, a surety who is secretly standing behind ten other accused persons is worthless collateral, and a jail that drags its feet after the bond is executed converts a granted bail into a still-detained accused. Sections 484 to 487 are the machinery that closes each of those gaps.
+:::
+
+::: story The bond that was bail in name only
+A Magistrate grants Suresh bail in a bailable offence — a right under section 478 — but fixes the bond at an amount so far beyond Suresh's means that he might as well have been refused outright. Section 484(1) exists for exactly this manoeuvre: the amount must have "due regard to the circumstances of the case" and must not be excessive — an excessive figure is not a valid exercise of the fixing power, it is bail defeated by another name. Meanwhile, three cells over, Farida stands surety for a stranger she barely knows, not realising section 486 requires her to declare, on the record, every other accused person she has already stood surety for — a rule built to stop professional sureties from quietly overextending themselves across a dozen unrelated cases with no real capacity to produce any of them.
+:::
+
+> **484. (1)** The amount of every bond executed under this Chapter [[!shall]] be fixed with due regard to the circumstances of the case and [[!shall]] not be excessive.
+>
+> **(2)** The High Court or the Court of Session [[?may]] direct that the bail required by a police officer or Magistrate be reduced.
+>
+> **485. (1)** Before any person is released on bond or bail bond, a bond for such sum of money as the police officer or Court, as the case may be, thinks sufficient [[!shall]] be executed by such person, and, when he is released on bond or bail bond, by one or more sufficient sureties conditioned that such person [[!shall]] attend at the time and place mentioned in the bond, and [[!shall]] continue so to attend until otherwise directed by the police officer or Court, as the case may be.
+>
+> **(2)** Where any condition is imposed for the release of any person on bail, the bond or bail bond [[!shall]] also contain that condition.
+>
+> **(3)** If the case so requires, the bond or bail bond [[!shall]] also bind the person released on bail to appear when called upon at the High Court, Court of Session or other Court to answer the charge.
+>
+> **(4)** For the purpose of determining whether the sureties are fit or sufficient, the Court [[?may]] accept affidavits in proof of the facts contained therein relating to the sufficiency or fitness of the sureties, or, if it considers necessary, [[?may]] either hold an enquiry itself or cause an inquiry to be made by a Magistrate subordinate to the Court, as to such sufficiency or fitness.
+>
+> **486.** Every person standing surety to an accused person for his release on bail, [[!shall]] make a declaration before the Court as to the number of persons to whom he has stood surety including the accused, giving therein all the relevant particulars.
+>
+> **487. (1)** As soon as the bond or bail bond has been executed, the person for whose appearance it has been executed [[!shall]] be released; and, when he is in jail, the court admitting him to bail [[!shall]] issue an order of release to the officer in charge of the jail, and such officer on receipt of the orders [[!shall]] release him.
+>
+> **(2)** Nothing in this section, section 478 or section 480, shall be deemed to require the release of any person liable to be detained for some matter other than that in respect of which the bond or bail bond was executed.
+
+::: proviso "Not excessive" is a real constraint, not a formality
+Section 484(1) does not merely counsel moderation — it imposes a binding cap on the bond-fixing power: due regard to the circumstances of the case, and never excessive. An officer or Magistrate who fixes a bond figure a person plainly cannot meet, in a case where a modest figure would secure attendance just as well, has not exercised the section 484(1) power correctly — and section 484(2) gives the High Court or Court of Session an express, standalone power to step in and reduce it, independent of any appeal against the bail order itself.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A bail order (of any kind, under any section of this Chapter) has been made and now needs to be executed"
+  :gates="[
+    { q: 'Has the fixing authority set a bond amount with due regard to the case’s circumstances, keeping it non-excessive?',
+      note: 'Section 484(1)’s cap is binding, not aspirational — an inflated figure defeats the bail order in substance even if not in form',
+      no: 'The High Court or Court of Session may independently direct that the bond be reduced under section 484(2)' },
+    { q: 'Has the bond (with any required sureties and any imposed conditions) actually been executed, and has every surety made the section 486 declaration of other suretyships?',
+      note: 'A bond is not complete until execution — an unexecuted order is not yet a release',
+      no: 'The person remains in custody until execution is completed; an undisclosed surety over-extension under section 486 is itself a ground to question sufficiency' },
+    { q: 'Is the person currently in jail?',
+      note: 'Section 487(1) puts an affirmative duty on the court to issue the release order to the jail, and on the jail officer to act on it without delay',
+      no: 'Release follows directly from execution' }
+  ]"
+  result="The person is released — unless liable to be detained for a wholly separate matter, which section 487(2) expressly preserves"
+  resultKind="mandatory"
+  caveat="These four sections apply uniformly to every bond executed anywhere in this Chapter — they are not specific to any one bail-granting section" />
+
+### In plain English
+
+Think of sections 484–487 as the assembly line that runs after any bail decision, however that decision was reached. Section 484 caps what the bond can cost the accused, and gives the higher courts a standalone lever to bring an inflated figure back down. Section 485 spells out what the bond actually has to say — the attendance promise, any conditions, and, if the case demands it, a promise to appear before a higher court too. Section 486 makes sureties put their own track record on the table, so a court can tell a genuine guarantor from someone quietly over-committed across many cases. Section 487 is the release itself — not a discretionary courtesy from the jail, but a duty running from the court's order straight through to the jail officer's action, with only one carve-out: a person wanted for something else entirely stays in custody on that separate footing.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 484–487 appear to track CrPC ss. 440–442 in substance (bond amount and reduction; bond execution and content; discharge from custody), continuing the same mechanical sequence with no apparent structural change. Section 486's surety-declaration duty appears to correspond to a similar CrPC provision on disclosure by sureties, but the precise prior section number has not been independently confirmed here and should be checked before citing the concordance in a filing.*
+
+### Test your instinct
+
+:::: instinct A Magistrate grants bail in a minor bailable offence but fixes the bond at an amount roughly equal to a year of the accused's income, reasoning that a high figure will better guarantee attendance.
+::: ruling Excessive, and vulnerable under section 484(1)
+The statute does not ask for the figure most likely to guarantee attendance in the abstract — it asks for a figure fixed with due regard to the circumstances of the case, expressly capped at "not excessive." A bond calibrated to be maximally coercive rather than proportionate to the offence and the person's means is the precise failure section 484(1) is written to prevent, and section 484(2) gives a higher court an express route to correct it.
+:::
+::::
+
+:::: instinct A surety who has already stood surety for four other accused persons in unrelated cases signs a bond for a fifth, without disclosing the earlier four.
+::: ruling Declaration required, and its absence undermines the bond
+Section 486 does not make disclosure optional or leave it to the surety's discretion — every person standing surety must declare, before the Court, the number of persons for whom they have already stood surety. A surety who conceals that history has not complied with the section, and a court that later learns of it has grounds to revisit the sufficiency of that surety under section 485(4)'s inquiry power.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 484–487 are bond-execution mechanics rather than doctrine — the operative propositions (the binding "not excessive" cap, the mandatory declaration, the duty running to the jail officer) are drawn directly from the statutory text rather than from case law requiring a promoted authority.*
+
+#### Sword and shield
+
+As a **sword**, section 484(2) is the direct route to challenge an inflated bond figure without re-litigating the underlying bail grant — take the bail order as won, and attack only the amount. As a **shield**, section 486 protects the system (and, indirectly, co-accused persons) against sureties who have overextended their real capacity to produce anyone; section 487(2) protects the State's separate, unrelated detention grounds from being swept away by an unrelated bail order.
+
+#### The limitation clock
+
+No independent limitation period attaches to these four sections — they are procedural mechanics triggered by, and running immediately from, the underlying bail order.
+
+#### Interlocking matrix
+
+Section 484(1)'s "not excessive" cap interlocks with every bail-granting section in this Chapter (478, 480, 482, 483) — it is the shared ceiling on all of them. Section 485(4)'s surety-sufficiency inquiry power interlocks with section 486's declaration duty — the declaration is often the very fact that triggers the inquiry. Section 487(2)'s carve-out interlocks with any separate detention order (for instance, a different case or a preventive-detention order) that is not disturbed by this Chapter's bail machinery.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a bond amount looks disproportionate to the offence or the accused's means, frame the challenge under section 484(1)/(2) specifically — do not conflate it with a challenge to the underlying bail grant.
+2. Confirm every surety executing a bond has made the section 486 declaration, and cross-check declared suretyships for any pattern suggesting over-extension.
+3. Where a client remains in custody despite an executed bond, check first whether the court has issued the section 487(1) release order to the jail and second whether the jail has acted on it — the failure point is often administrative, not judicial.
+4. Before assuming release is complete, confirm there is no separate, unrelated detention ground preserved under section 487(2).
+
 ---
