@@ -314,3 +314,139 @@ The citation for *D.K. Basu v. State of West Bengal* is recorded from the drafte
 
 ---
 
+## Sections 39–42 — Arrest for concealing identity, arrest by a private person, arrest by a Magistrate, and the Armed Forces shield
+
+### The dispute this solves
+
+::: oneminute Not every arrest is made by an investigating police officer — a private citizen, or a Magistrate sitting in court, can arrest too, and a soldier acting in the line of duty gets a separate layer of protection before any of it can be turned into a prosecution.
+Arrest is usually pictured as something the investigating police do. These four sections cover the exceptions: a person who refuses to identify himself can be arrested for that refusal alone, purely to establish who he is; an ordinary citizen who witnesses a serious, cognizable, non-bailable offence can make the arrest himself and hand the person over; a Magistrate who sees an offence committed in his own courtroom can order an arrest on the spot; and a member of the Armed Forces cannot be arrested for anything done in the discharge of official duty without the Central Government's consent first. Four different actors, four different triggers, one shared theme — arrest power exists outside the police station too, but each version comes with its own limits.
+:::
+
+::: story The man who would not give his name
+A constable on patrol sees a man loitering near a shuttered shop late at night, behaving evasively — not enough, on its own, for a cognizable-offence arrest. Asked his name and address, he refuses, or gives one the officer has good reason to disbelieve. Section 39 lets the officer arrest him for that refusal alone, not for any suspected offence — but only to pin down who he actually is. Once his real identity is established, he must be released on a bond, unless he cannot be identified within twenty-four hours or will not execute the bond, in which case he goes before a Magistrate.
+:::
+
+> **39. Arrest on refusal to give name and residence.**—(1) When any person who, in the presence of a police officer, has committed or has been accused of committing a non-cognizable offence refuses on demand of such officer to give his name and residence or gives a name or residence which such officer has reason to believe to be false, he [[?may]] be arrested by such officer in order that his name or residence may be ascertained.
+>
+> (2) When the true name and residence of such person have been ascertained, he [[!shall]] be released on a bond or bail bond, to appear before a Magistrate if so required:
+>
+> Provided that if such person is not resident in India, the bail bond shall be secured by a surety or sureties resident in India.
+>
+> (3) If the true name and residence of such person is not ascertained within twenty-four hours from the time of arrest or if he fails to execute the bond or bail bond, or, if so required, to furnish sufficient sureties, he [[!shall]] forthwith be forwarded to the nearest Magistrate having jurisdiction.
+>
+> **40. Arrest by private person and procedure on such arrest.**—(1) Any private person [[?may]] arrest or cause to be arrested any person who in his presence commits a non-bailable and cognizable offence, or any proclaimed offender, and, without unnecessary delay, but within six hours from such arrest, [[!shall]] make over or cause to be made over any person so arrested to a police officer, or, in the absence of a police officer, take such person or cause him to be taken in custody to the nearest police station.
+>
+> (2) If there is reason to believe that such person comes under the provisions of sub-section (1) of section 35, a police officer [[!shall]] take him in custody.
+>
+> (3) If there is reason to believe that he has committed a non-cognizable offence, and he refuses on the demand of a police officer to give his name and residence, or gives a name or residence which such officer has reason to believe to be false, he shall be dealt with under the provisions of section 39; but if there is no sufficient reason to believe that he has committed any offence, he [[!shall]] be at once released.
+>
+> ::: proviso A private arrest is provisional, and the six-hour handover clock is not optional
+> A private person's arrest power under sub-section (1) is deliberately narrow — non-bailable *and* cognizable offences, or a proclaimed offender, committed in his own presence — and it comes with a hard six-hour outer limit to hand the person over to the police. A citizen who detains someone beyond six hours without handing them over, or who arrests on a bare suspicion of a bailable or non-cognizable matter, is acting outside section 40 entirely and may himself be exposed to a wrongful-confinement complaint.
+> :::
+>
+> **41. Arrest by Magistrate.**—(1) When any offence is committed in the presence of a Magistrate, whether Executive or Judicial, within his local jurisdiction, he [[?may]] himself arrest or order any person to arrest the offender, and may thereupon, subject to the provisions herein contained as to bail, commit the offender to custody.
+>
+> (2) Any Magistrate, whether Executive or Judicial, [[?may]] at any time arrest or direct the arrest, in his presence, within his local jurisdiction, of any person for whose arrest he is competent at the time and in the circumstances to issue a warrant.
+>
+> **42. Protection of members of Armed Forces from arrest.**—(1) Notwithstanding anything contained in section 35 and sections 39 to 41 (both inclusive), no member of the Armed Forces of the Union [[!shall]] be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government.
+>
+> (2) The State Government [[?may]], by notification, direct that the provisions of sub-section (1) shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
+>
+> ::: proviso A non-obstante clause that overrides every arrest power in this chapter
+> Section 42(1) opens with "notwithstanding anything contained in section 35 and sections 39 to 41" — it is not a general defence available at trial, it is a jurisdictional bar on arrest itself, operating before any of the preceding sections' powers can be exercised against a serving member of the Armed Forces for an act done, or purported to be done, in the discharge of official duty. The protection turns entirely on that official-duty characterisation — an act with no plausible connection to official duty does not attract section 42 merely because the actor happens to be a member of the Armed Forces.
+> :::
+
+<MicroTree
+  input="Someone other than an investigating police officer wants to make an arrest, or a serving Armed Forces member is the target. Which track applies?"
+  :gates="[
+    { q: 'Is the person to be arrested a serving member of the Armed Forces of the Union, and is the act in question done, or purported to be done, in the discharge of official duty?', note: 'Section 42’s non-obstante bar applies — no arrest under sections 35 or 39–41 without the Central Government’s (or, where notified, the State Government’s) prior consent.', no: 'Section 42 does not engage; proceed to the ordinary tracks below.' },
+    { q: 'Is the arrest being made by a private citizen, witnessing a non-bailable cognizable offence, or the arrest of a proclaimed offender, in his own presence?', note: 'Section 40 applies — the citizen must hand the person to the nearest police officer or station within six hours, not indefinitely detain him.', no: 'Section 40 does not apply to this arrest.' },
+    { q: 'Is a Magistrate, Executive or Judicial, either witnessing the offence within his own local jurisdiction, or acting within a case where he could otherwise issue a warrant?', note: 'Section 41 gives the Magistrate a direct, personal arrest power, subject to the ordinary bail provisions.', no: 'Section 41 does not apply.' },
+    { q: 'Has the person merely refused to give his name and residence, or given a name the officer has reason to disbelieve, for a non-cognizable offence committed in the officer’s presence?', no: 'None of sections 39–42’s special arrest powers apply on these facts; assess the case instead under section 35.' }
+  ]"
+  result="The correct non-investigating-officer arrest track is identified, along with the specific downstream duty it carries — a bond-and-release cycle under section 39, a six-hour handover under section 40, an ordinary custody commitment under section 41, or a consent-first bar under section 42."
+  resultKind="mandatory"
+  caveat="These four tracks are not mutually exclusive gateways into the same result — each carries its own distinct procedural consequence, and conflating them (for example, treating a private-person arrest as equivalent to a police arrest for section 58's twenty-four-hour clock) is a common and consequential drafting error."
+/>
+
+### In plain English
+
+Section 39 is narrowly about identity, not guilt — its only purpose is to pin down who somebody is when he is accused of a minor, non-cognizable offence and will not say. Section 40 hands ordinary citizens a real but tightly bounded arrest power, deliberately confined to the most serious, obviously criminal situations — a non-bailable cognizable offence witnessed first-hand, or a proclaimed offender — and immediately converts that power into a duty to hand the person over within six hours. Section 41 is the courtroom mirror of police arrest power: a Magistrate who personally witnesses an offence, or who could lawfully issue a warrant for someone, may arrest directly rather than waiting for police to act. Section 42 stands apart from the other three entirely — it is not a power but a shield, cutting off every arrest power in the preceding sections the moment the person to be arrested is a serving Armed Forces member acting, or purporting to act, in official duty, unless the Central Government has first given its consent.
+
+### What changed from the CrPC
+
+BNSS sections 39, 40, 41 and 42 correspond to CrPC sections 42, 43, 44 and 45 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** — the underlying mechanisms (identity-arrest-and-release, private-person arrest with a handover duty, Magistrate's direct arrest power, and the Armed Forces consent requirement) all existed in the unamended CrPC in substantially the same form. The most visible textual continuity is section 42(1)'s non-obstante clause, which reproduces CrPC section 45's structure and its Central Government consent requirement essentially unchanged.
+
+### Test your instinct
+
+:::: instinct The citizen who holds the arrested man for two days
+A shopkeeper personally witnesses a robbery — a non-bailable, cognizable offence — and, invoking his section 40 power, physically restrains the robber. Rather than taking him to the nearest police station, the shopkeeper keeps him locked in a storeroom for two days while he "decides what to do," eventually handing him over once the police happen to visit the area.
+::: ruling What actually happens
+Section 40(1)'s arrest power is conditioned on a specific, immediate duty — handing the person over "without unnecessary delay, but within six hours." A private citizen who detains an arrested person well beyond that window has stepped outside the statutory protection section 40 offers; the detention beyond six hours is not shielded by the original lawful arrest and exposes the shopkeeper to a wrongful-confinement complaint in his own right, independent of whatever happens to the original robbery case.
+:::
+::::
+
+:::: instinct The off-duty soldier in a bar fight
+A serving Army officer, off-duty and out of uniform, is involved in a bar fight unconnected to any military function, and the local police wish to arrest him for voluntarily causing hurt. The officer's counsel argues section 42 bars the arrest without Central Government consent, since he is a member of the Armed Forces of the Union.
+::: ruling What actually happens
+Section 42(1)'s protection is not a status-based immunity that follows the person regardless of context — it protects acts "done or purported to be done... in the discharge of his official duties." An off-duty bar fight bearing no relation to any military function or order does not fall within that description merely because the actor happens to hold Armed Forces status. The consent requirement does not apply, and the ordinary arrest provisions govern the case.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**General Officer Commanding, Rashtriya Rifles v. Central Bureau of Investigation**, (2012) 6 SCC 228. The Supreme Court held that where an act is alleged to have been done by an Armed Forces member in the discharge, or purported discharge, of official duty, the question of prior sanction/consent goes to the very root of the matter and must be examined at the threshold — arrest or prosecution cannot proceed on the assumption that the official-duty question can be resolved only after the fact at trial.
+
+::: info Verify before citing
+The citation and precise holding of *General Officer Commanding, Rashtriya Rifles v. CBI* are recorded from the drafter's working knowledge and secondary-source research conducted while writing this page, and should be independently verified against the official SCC report — including whether the specific provision construed maps directly to section 42's arrest-consent requirement rather than to a separate prosecution-sanction provision — before being placed before a court.
+:::
+
+**Practitioner takeaway.** Where the police propose to arrest a serving Armed Forces member for an act connected, even arguably, to official duty, press the threshold question of consent immediately — do not wait for trial to raise what is, on this authority, a jurisdictional bar going to the arrest itself.
+
+#### Sword and shield
+
+**As a sword (private citizen/complainant):** section 40 is a genuine, usable power where a serious cognizable offence is witnessed first-hand — but exercise it precisely, and hand the person over well within the six-hour window to avoid becoming a defendant in a wrongful-confinement complaint of one's own.
+
+**As a shield (Armed Forces member):** raise section 42's consent requirement at the very first opportunity — at the point of arrest, if possible — rather than allowing an arrest to proceed on the theory that the official-duty question can be litigated later.
+
+#### The limitation clock
+
+Section 39(3)'s twenty-four-hour clock to ascertain a false-name arrestee's identity, and section 40(1)'s six-hour handover clock for a private arrest, are the two hard timeframes in this cluster; both run from the moment of the arrest itself, not from any later formal booking.
+
+#### Interlocking matrix
+
+| Trigger | Linked provision | Practical consequence |
+|---|---|---|
+| Refusal or false name/residence, non-cognizable offence | Section 39 | Arrest solely to ascertain identity; bond-and-release or forwarding to Magistrate |
+| Non-bailable cognizable offence witnessed by a private citizen | Section 40 | Citizen's arrest power, with a six-hour mandatory handover duty |
+| Offence committed in a Magistrate's presence, or a warrant-eligible case | Section 41 | Magistrate's direct arrest power |
+| Armed Forces member, act in/purporting official duty | Section 42 | Central/State Government consent required before arrest under ss. 35, 39–41 |
+
+#### The authorities
+
+No second case is added here — the drafter is confident of the general proposition that private-arrest and Magistrate-arrest powers are narrowly and literally construed, but does not have an independently confirmed, on-point Supreme Court citation construing sections 40 or 41's direct CrPC predecessors with sufficient certainty to promote it without risk of misattribution.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not treat a section 39 identity-arrest as a backdoor to detain someone on suspicion of the underlying non-cognizable offence itself — release on bond follows automatically once identity is confirmed, regardless of the officer's suspicions about the offence.
+2. Do not let a private-person arrest under section 40 run past the six-hour handover window — advise citizen-arrestors of this limit explicitly and immediately.
+3. Do not assume section 42's protection is status-based — always test whether the specific act was done, or purported to be done, in the discharge of official duty before invoking or conceding the consent requirement.
+4. Do not wait until trial to raise a section 42 consent objection — per *GOC, Rashtriya Rifles*, it is a threshold question going to the arrest and prosecution's foundation.
+
+**Timing.** A section 42 consent objection should be raised the moment arrest is proposed or attempted, not reserved for a later stage — delay in raising it risks the objection being treated as an afterthought rather than a genuine jurisdictional bar.
+
+**Model checklist for a private-person arrest matter:**
+
+1. Confirm the offence witnessed was both non-bailable and cognizable, or that the person was a proclaimed offender.
+2. Confirm the arrest was made in the citizen's own presence, not on a report from someone else.
+3. Confirm the handover to police occurred within six hours, and document the actual time elapsed.
+4. If the citizen instead detained the person for a prolonged period, advise on the independent wrongful-confinement exposure this creates.
+
+---
+
