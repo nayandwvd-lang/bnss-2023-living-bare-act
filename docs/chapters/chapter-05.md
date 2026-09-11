@@ -973,3 +973,121 @@ No further authority is added here beyond *Malkhansingh* — the proposition tha
 
 ---
 
+## Sections 55–59 — Delegated arrest, custodial welfare, and the twenty-four-hour production clock
+
+### The dispute this solves
+
+::: oneminute The single most consequential clock in the whole chapter starts the moment a person is arrested — and it runs whether or not anyone remembers to check it.
+Everything this cluster covers converges on one constitutional guarantee: a person arrested without a warrant cannot simply be held. He must be produced before a Magistrate, or an officer in charge of a police station, without unnecessary delay — and, absent a Magistrate's special order, within twenty-four hours of arrest, exclusive of travel time. That deadline is not a bureaucratic nicety; it is the primary safeguard against a lawful arrest quietly becoming an unlawful, unaccountable detention. Around that central clock, this cluster adds the supporting machinery: a paper trail when an officer delegates the actual arrest to a subordinate, a freestanding duty to look after the arrested person's health and safety while he is in custody, and a district-level reporting obligation that puts every arrest, whether bailed or not, on a record the District Magistrate can actually see.
+:::
+
+::: story The twenty-three-hour-and-fifty-nine-minute arrest
+Meena is arrested at 6 p.m. on a Tuesday for a bailable offence. She is not produced before any Magistrate or taken to any police station officer for review until nearly 6 p.m. the next day — just inside the twenty-four-hour window, and only because her family's lawyer began asking pointed questions. In the interim, no one has checked on her physical condition, and no entry exists anywhere recording who deputed whom to make the arrest in the first place, since the arresting constable was acting on an oral instruction from his station house officer with nothing in writing. Sections 55 through 59 are the answer to exactly this pattern — not because the twenty-four-hour line was crossed, but because everything that should have made the custody accountable during those twenty-four hours was missing.
+:::
+
+> **55. Procedure when police officer deputes subordinate to arrest without warrant.**—(1) When any officer in charge of a police station or any police officer making an investigation under Chapter XIII requires any officer subordinate to him to arrest without a warrant (otherwise than in his presence) any person who may lawfully be arrested without a warrant, he [[!shall]] deliver to the officer required to make the arrest an order in writing, specifying the person to be arrested and the offence or other cause for which the arrest is to be made, and the officer so required [[!shall]], before making the arrest, notify to the person to be arrested the substance of the order and, if so required by such person, [[!shall]] show him the order.
+>
+> (2) Nothing in sub-section (1) [[!shall]] affect the power of a police officer to arrest a person under section 35.
+>
+> **56. Health and safety of arrested person.**—It [[!shall]] be the duty of the person having the custody of an accused to take reasonable care of the health and safety of the accused.
+>
+> **57. Person arrested to be taken before Magistrate or officer in charge of police station.**—A police officer making an arrest without warrant [[!shall]], without unnecessary delay and subject to the provisions herein contained as to bail, take or send the person arrested before a Magistrate having jurisdiction in the case, or before the officer in charge of a police station.
+>
+> **58. Person arrested not to be detained more than twenty-four hours.**—No police officer [[!shall]] detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period [[!shall]] not, in the absence of a special order of a Magistrate under section 187, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court, whether having jurisdiction or not.
+>
+> ::: proviso Twenty-four hours is a ceiling, not an entitlement to detain that long
+> Section 58's twenty-four-hour figure is routinely misread as the standard length of permissible detention. The text says the opposite: detention is capped at what is *reasonable in all the circumstances*, and twenty-four hours is only the outer limit that reasonableness can never exceed absent a section 187 Magistrate's order. An officer who holds an arrested person for the full twenty-four hours as a matter of course, without any case-specific reason the delay was actually needed, has not necessarily broken the letter of section 58 — but has very likely broken its spirit, and a practitioner should press the "reasonable in the circumstances" language independently of the twenty-four-hour ceiling itself.
+> :::
+>
+> **59. Police to report apprehensions.**—Officers in charge of police stations [[!shall]] report to the District Magistrate, or, if he so directs, to the Sub-divisional Magistrate, the cases of all persons arrested without warrant, within the limits of their respective stations, whether such persons have been admitted to bail or otherwise.
+
+<MicroTree
+  input="A person has been arrested without a warrant. What custodial and reporting obligations follow, and by when?"
+  :gates="[
+    { q: 'Did an officer in charge, or an investigating officer, delegate the actual arrest to a subordinate rather than making it himself?', note: 'Section 55 requires a written order specifying the person and the ground, notified to the arrested person and shown to him if he asks — this is independent of, and does not override, a direct section 35 arrest power.', no: 'Section 55’s delegation formality is not engaged; the arresting officer acted directly.' },
+    { q: 'Throughout the period of custody, is reasonable care being taken of the arrested person’s health and safety?', note: 'Section 56’s freestanding duty is being met; document this proactively rather than only in response to a complaint.', no: 'Section 56 has been breached — this is independently actionable regardless of the underlying charge or the twenty-four-hour clock.' },
+    { q: 'Has the arrested person been taken or sent before a Magistrate or the officer in charge of a police station without unnecessary delay?', note: 'Section 57 is being complied with; confirm this is also tracking within section 58’s twenty-four-hour ceiling.', no: 'Section 57 has been breached independently of whether the twenty-four-hour outer limit has technically been reached.' },
+    { q: 'Has twenty-four hours (exclusive of journey time) elapsed since arrest, without a section 187 Magistrate’s special order extending it?', note: 'Continued detention is unlawful the moment this line is crossed without such an order.', no: 'Detention remains within section 58’s outer limit — but must still be independently reasonable in the circumstances, not merely under twenty-four hours.' }
+  ]"
+  result="Every layer of custodial accountability — the delegation paper trail, the ongoing welfare duty, the production timeline, and the twenty-four-hour ceiling — is checked as a distinct obligation, not folded into a single pass/fail test at the twenty-four-hour mark."
+  resultKind="mandatory"
+  caveat="Meeting the twenty-four-hour deadline does not retroactively cure a section 55 or section 56 breach that occurred earlier in the same custody period — each of ss. 55-58 is independently enforceable."
+/>
+
+### In plain English
+
+Section 55 is a paper-trail requirement for a specific, easily-overlooked situation: when a senior officer wants someone arrested but sends a subordinate to actually do it, rather than arresting the person himself. The subordinate needs a written order naming the person and the reason, and has to tell the arrested person, at minimum, what that order says. Section 56 is short but important on its own terms — whoever has custody of the accused owes him reasonable care for his health and safety, full stop, independent of anything else in this chapter. Section 57 sets the direction of travel: an arrested person has to be taken toward a Magistrate or a police station officer without unnecessary delay, not left waiting indefinitely at the point of arrest. Section 58 puts a hard outer boundary on how long that can take — ordinarily governed by what is reasonable on the facts, but in any event capped at twenty-four hours (travel time aside) unless a Magistrate has specially ordered otherwise under section 187. And section 59 makes sure none of this happens in a vacuum invisible to anyone outside the police station: every arrest without warrant, bailed or not, has to be reported up to the District Magistrate.
+
+### What changed from the CrPC
+
+BNSS sections 55, 56, 57, 58 and 59 correspond to CrPC sections 55, 55A, 56, 57 and 58 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** — the delegation-of-arrest procedure, the custodial health-and-safety duty (itself added to the CrPC only in 2009 as section 55A), the duty to produce before a Magistrate or police officer without unnecessary delay, the twenty-four-hour detention ceiling, and the District Magistrate reporting duty all existed in the CrPC in substantially the same form. The twenty-four-hour figure and its cross-reference to the remand-extension provision (now section 187, previously CrPC section 167) is textually continuous with the CrPC scheme.
+
+### Test your instinct
+
+:::: instinct Detained for the full twenty-four hours, every single time, as a matter of station policy
+A police station's informal practice is to hold every arrested person for close to the full twenty-four hours before production, regardless of how straightforward the case is or how quickly a Magistrate could realistically be reached, on the theory that "the law gives us twenty-four hours."
+::: ruling What actually happens
+Section 58 does not entitle the police to detain for twenty-four hours as a default — it caps detention at what is reasonable in all the circumstances, with twenty-four hours as the absolute outer limit, not the target. A blanket station practice of holding every arrestee to the edge of that limit, without any case-specific justification for the delay, is difficult to defend as "reasonable in the circumstances" the moment it is challenged, even though it does not cross the twenty-four-hour line itself.
+:::
+::::
+
+:::: instinct No written order for the subordinate's arrest, and no one thought to mention it
+A station house officer verbally tells a constable to arrest a named individual on a specified charge. No written order is ever prepared, and the arrested person is never told anything beyond "you're under arrest." He later challenges the arrest procedure specifically on section 55 grounds.
+::: ruling What actually happens
+Section 55(1)'s written-order requirement is not discretionary where a subordinate is deputed to make the arrest rather than the delegating officer arresting directly — the order must specify the person and the ground, and its substance must be notified to the arrested person. A purely oral instruction, with nothing shown or even described to the arrested person, is a clean section 55 breach, independent of whether the underlying arrest power (for example, under section 35) was itself validly available on the facts.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Khatri (II) v. State of Bihar**, (1981) 1 SCC 627. Arising from the Bhagalpur blindings, the Supreme Court held that the constitutional requirement to produce an arrested person before a Magistrate within twenty-four hours is a vital safeguard, that it must be scrupulously observed, and that the Magistrate before whom an arrested person is first produced is under a duty to inform him of his right to legal aid and to inquire whether he has any complaint of ill-treatment in custody.
+
+**Practitioner takeaway.** Do not treat the twenty-four-hour production requirement as satisfied merely because the arrested person physically arrived before some Magistrate within the window — press, per *Khatri*, whether that Magistrate actually discharged the accompanying duty to ask about custodial treatment and to inform the person of his right to legal aid.
+
+#### Sword and shield
+
+As a **shield**, sections 56 through 58 together give the arrested person a layered protection — an ongoing welfare duty, a prompt-production duty, and an absolute time ceiling — each independently enforceable, so that a defect in one does not need to wait on a defect in another to be raised. As a **sword** for the prosecution, section 55's written-order requirement, properly complied with, forecloses a defence argument that a delegated arrest was improperly authorised; failure to comply, conversely, hands the defence a clean procedural point regardless of the strength of the underlying case.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 55–59; the operative clock is section 58's twenty-four-hour ceiling itself, and any objection grounded in these sections should be raised at the very first production before a Magistrate, consistent with *Khatri*'s emphasis on the first production as the moment these safeguards are meant to bite.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Senior officer sends a subordinate to make the arrest | Section 55 | Written order required, substance notified to the arrested person |
+| Any point during custody | Section 56 | Freestanding duty of reasonable care for health and safety |
+| Immediately after arrest | Section 57 | Duty to move the arrested person toward a Magistrate or police officer without unnecessary delay |
+| Throughout custody, absent a section 187 order | Section 58 | Hard ceiling of twenty-four hours (exclusive of journey time); underlying standard is reasonableness |
+| Every arrest without warrant, station-wide | Section 59 | Mandatory reporting up to the District (or Sub-divisional) Magistrate |
+| First production before a Magistrate | *Khatri v. State of Bihar* | Magistrate must inform of right to legal aid and inquire about custodial ill-treatment |
+
+#### The authorities
+
+No further authority is added here beyond *Khatri* — the twenty-four-hour production safeguard and its accompanying duties are, in the drafter's assessment, sufficiently and authoritatively settled by this single line of authority without risking dilution by a second, less squarely on-point citation.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not accept "he was produced within twenty-four hours" as the end of the inquiry — press, per *Khatri*, whether the producing Magistrate actually discharged the duty to inquire about custodial treatment and inform the arrestee of his right to legal aid.
+2. Do not let a station's routine practice of holding arrestees to the edge of twenty-four hours pass unchallenged — argue the "reasonable in the circumstances" language independently of the outer ceiling.
+3. Do not overlook section 55 in a case involving a delegated arrest — the absence of a written order, or of notification to the arrested person, is a discrete and often-missed procedural point.
+4. Do not treat section 56's health-and-safety duty as merely aspirational — plead it as an independently enforceable obligation wherever custodial injury or neglect is alleged, regardless of what happens to the underlying prosecution.
+
+**Timing.** Raise any ss. 55–58 objection at the first production before a Magistrate; a section 59 reporting failure is best raised as part of a broader challenge to the overall regularity of the custody, since it rarely stands alone as the sole ground.
+
+**Model checklist for reviewing the custody period between arrest and first production:**
+
+1. If a subordinate made the arrest on another officer's instruction, demand the section 55 written order and confirm it was shown or its substance notified to the arrested person.
+2. Ask directly, at first production, whether the Magistrate inquired into custodial treatment and informed the arrestee of his right to legal aid, per *Khatri*.
+3. Calculate the exact time elapsed from arrest to production, net of genuine journey time, against the twenty-four-hour ceiling.
+4. Confirm the arrest was reported up to the District Magistrate (or Sub-divisional Magistrate) as section 59 requires, whether or not the person was released on bail.
+
+---
+
