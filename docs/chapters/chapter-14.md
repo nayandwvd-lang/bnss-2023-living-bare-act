@@ -104,4 +104,108 @@ This cluster interlocks directly with section 206 (resolving jurisdiction disput
 3. Where an offence spans jurisdictions, consider strategically which of the available Courts is the more favourable venue before the prosecution locks in a choice.
 4. Keep this cluster's general rules distinct from the offence-specific venue provisions that follow in sections 201–203 — the analysis differs by category of offence.
 
+## Sections 201–203 — Venue rules built for specific categories of offence
+
+### The dispute this solves
+
+::: oneminute Some offences are inherently mobile — the offender moves, the property moves, the message travels. The general rules in sections 197–200 are not always sharp enough for these; sections 201–203 supply purpose-built venue rules for exactly the offences most likely to cross a boundary.
+Dacoits do not confine themselves to one district; stolen property travels with whoever is carrying it; a kidnapped person is moved, concealed, detained in places far from where the abduction began; a cheating scheme sent by electronic message can originate in one city and land in another entirely. For this specific list of offences — the ones where geography is practically built into how the crime is committed — the Sanhita does not leave the venue question to the general rules alone. It gives each category its own tailored answer, and it adds a distinct rule for offences timed to a journey or voyage, where the offender and victim may be crossing several jurisdictions in the course of a single, continuous trip.
+:::
+
+::: story The stolen phone that changed hands three times
+A phone is stolen in Lucknow, sold to a fence in Kanpur, and later found in the possession of a buyer in Agra who claims he did not know it was stolen. Section 201(3) gives the prosecution a real choice: try the theft where it was committed, or where the stolen property was found in the possession of anyone who received or retained it knowing or having reason to believe it was stolen — Kanpur and Agra are both live options, not just Lucknow. In a separate case, a scammer in Chennai sends fraudulent investment messages by WhatsApp to a victim in Delhi, who transfers money electronically. Section 202(1) makes clear that where deception is practised through electronic communications, the Court where the message was sent and the Court where it was received both have jurisdiction — geography built on the technology of the offence itself, not just the old physical-presence model.
+:::
+
+> **201. (1)** Any offence of dacoity, or of dacoity with murder, of belonging to a gang of dacoits, or of escaping from custody, [[?may]] be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the accused person is found.
+>
+> **(2)** Any offence of kidnapping or abduction of a person [[?may]] be inquired into or tried by a Court within whose local jurisdiction the person was kidnapped or abducted or was conveyed or concealed or detained.
+>
+> **(3)** Any offence of theft, extortion or robbery [[?may]] be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the stolen property which is the subject of the offence was possessed by any person committing it or by any person who received or retained such property knowing or having reason to believe it to be stolen property.
+>
+> **(4)** Any offence of criminal misappropriation or of criminal breach of trust [[?may]] be inquired into or tried by a Court within whose local jurisdiction the offence was committed or any part of the property which is the subject of the offence was received or retained, or was required to be returned or accounted for, by the accused person.
+>
+> **(5)** Any offence which includes the possession of stolen property [[?may]] be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the stolen property was possessed by any person who received or retained it knowing or having reason to believe it to be stolen property.
+>
+> **202. (1)** Any offence which includes cheating, [[?may]], if the deception is practised by means of electronic communications or letters or telecommunication messages, be inquired into or tried by any Court within whose local jurisdiction such electronic communications or letters or messages were sent or were received; and any offence of cheating and dishonestly inducing delivery of property [[?may]] be inquired into or tried by a Court within whose local jurisdiction the property was delivered by the person deceived or was received by the accused person.
+>
+> **(2)** Any offence punishable under ⚠️ *section 82 of the Bharatiya Nyaya Sanhita, 2023* [[?may]] be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the offender last resided with his or her spouse by the first marriage, or the wife by the first marriage has taken up permanent residence after the commission of the offence.
+>
+> **203.** When an offence is committed whilst the person by or against whom, or the thing in respect of which, the offence is committed is in the course of performing a journey or voyage, the offence [[?may]] be inquired into or tried by a Court through or into whose local jurisdiction that person or thing passed in the course of that journey or voyage.
+
+::: proviso Section 201's list is closed, not illustrative
+Section 201 names specific offence categories — dacoity and its variants, kidnapping/abduction, theft/extortion/robbery, criminal misappropriation/breach of trust, and possession of stolen property. It is not a general template for "any offence involving movement of property or person" — an offence outside this named list falls back to the general rules in sections 197–200, not to section 201 by analogy.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offence within one of section 201–203’s specific categories has been committed across more than one local area"
+  :gates="[
+    { q: 'Is the offence dacoity (or its variants), kidnapping/abduction, theft/extortion/robbery, misappropriation/breach of trust, or possession of stolen property?',
+      note: 'Section 201’s five sub-sections are offence-specific, not a general movable-property rule — match the facts to the exact sub-section',
+      no: 'Section 201 does not apply; check sections 202–203 or fall back to the general rules in sections 197–200' },
+    { q: 'Does the offence involve cheating practised through electronic communications, letters, or telecommunication messages, or a bigamy-type offence under BNS 2023 ⚠️ s. 82?',
+      note: 'Section 202 gives jurisdiction to both the sending and receiving ends for electronic-cheating offences, and to both the offence location and the first spouse’s residence for the bigamy-type offence',
+      no: 'Section 202 does not apply on these facts' },
+    { q: 'Was the offence committed while a person or thing was in the course of a journey or voyage?',
+      note: 'Section 203 covers the whole route of the journey, not merely the start or end point',
+      no: 'None of the offence-specific venue rules in this cluster apply' }
+  ]"
+  result="Any of the Courts connected to the offence under the applicable specific rule may inquire into or try it"
+  resultKind="discretionary"
+  caveat="These provisions are cumulative with, not substitutes for, the general venue rules in sections 197–200 — where an offence falls outside sections 201–203’s named categories, the general rules still apply" />
+
+### In plain English
+
+Sections 201–203 are the Sanhita being specific about the offences it already knows, from experience, are the most likely to be geographically messy. Dacoity gangs move, so section 201(1) lets the trial follow either the crime scene or wherever the accused is found. Kidnapping victims are moved, concealed, detained — section 201(2) follows all of it. Theft, extortion, robbery, misappropriation, and stolen-property offences follow the property itself, not just the original act. Cheating by electronic message follows the message's two ends; the BNS ⚠️ s. 82 offence (bigamy-type) follows either the offence location or the abandoned spouse's residence — recognising that the harm of that offence is felt where the first spouse actually lives, which may be far from where the offence technically occurred. And section 203 recognises that some offences happen mid-transit, so the entire route, not just a single point on it, is fair territorial game.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 201–203 appear to track CrPC ss. 181–182 (place of trial in case of certain offences; place of trial for offences committed by letters, etc.) closely, extended in s.202(1) to cover electronic communications explicitly, which is a natural modernisation of the CrPC's letter-based language rather than a substantive departure — but the precise pre-BNSS wording should be checked before asserting "electronic communications" as a genuinely new addition versus a judicially-read-in extension of "letters." The BNS 2023 s.82 cross-reference in s.202(2) has not been independently verified against BNS's own text, which is outside this repository's verified corpus, and is flagged accordingly.*
+
+### Test your instinct
+
+:::: instinct A person is kidnapped in Jaipur, moved through two other districts, and eventually released in Udaipur. The accused argues only the Jaipur Court (where the kidnapping began) has jurisdiction.
+::: ruling All four districts may have jurisdiction
+Section 201(2) does not confine jurisdiction to the place the kidnapping began — it extends to every local area through which the person "was kidnapped or abducted or was conveyed or concealed or detained." Each district the victim passed through or was held in is a potential venue; the accused cannot narrow the prosecution's choice down to the single earliest point in the chain.
+:::
+::::
+
+:::: instinct A fraudulent email is drafted and sent from a server physically located outside the sender's home city, and opened by the victim on a phone while travelling. The accused argues jurisdiction is impossible to fix because neither party was in a fixed location.
+::: ruling Jurisdiction still lies, under section 202(1) or section 203
+Section 202(1) fixes jurisdiction by where the communication was sent or received, not by where the parties were domiciled or where a server happened to be routed through — and if the victim was travelling at the relevant time, section 203's journey rule independently extends jurisdiction to every local area the victim passed through while the offence was being committed against him. The offence's mobility does not defeat jurisdiction; these sections exist precisely to answer that argument.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. These are offence-specific venue-allocation rules rather than doctrine in this reading; venue challenges under this cluster tend to turn on the specific statutory sub-section's wording rather than a general body of case law.*
+
+#### Sword and shield
+
+As a **sword**, this cluster gives the prosecution real flexibility to file in the most practical or evidentially convenient of several valid venues for these specific offence categories. As a **shield**, a defence venue challenge remains available where the offence charged genuinely falls outside section 201's closed list of categories, or outside section 202's electronic-communication/BNS s.82 scope, or where no journey or voyage was in fact underway for section 203 to apply.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; venue is assessed at the point cognizance is taken.
+
+#### Interlocking matrix
+
+This cluster interlocks with sections 197–200 as the offence-specific layer sitting on top of the general venue rules, and with section 204 immediately following (venue for offences triable together) where multiple offences under this cluster's categories are jointly charged. Section 202(2)'s bigamy-type cross-reference interlocks with ⚠️ BNS 2023 s.82, verification of which is outside this repository's confirmed corpus.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Match the offence precisely to one of section 201's five named sub-sections before relying on it — an offence just outside the list does not get the benefit of this cluster by analogy.
+2. In electronic-cheating cases, identify both the sending and receiving jurisdictions early, since either is available under section 202(1) and the choice may materially affect the practical conduct of the case.
+3. In a bigamy-type prosecution under ⚠️ BNS s. 82, consider the first spouse's current residence as an independent venue basis, not just the location of the offence itself.
+4. Where an offence occurred mid-journey, map the entire route under section 203 before conceding that only the origin or destination point can be the venue.
+
 ---
