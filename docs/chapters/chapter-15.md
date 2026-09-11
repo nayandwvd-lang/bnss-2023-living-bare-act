@@ -431,4 +431,117 @@ Section 217(4)'s preliminary-investigation option interlocks directly with secti
 3. Treat a missing or misdirected sanction/consent as a threshold jurisdictional objection, not a curable irregularity — raise it at the earliest opportunity but preserve it for later stages if missed.
 4. Where a preliminary investigation was ordered under section 217(4), confirm the investigating officer held at least the rank of Inspector and exercised only the powers referable to section 174(3).
 
+## Section 218 — Prosecution of Judges and public servants (flagship)
+
+### The dispute this solves
+
+::: oneminute This is the single most litigated sanction provision a criminal practitioner will meet — the direct successor to what generations of lawyers simply called "section 197 sanction." It decides whether a Judge, a Magistrate, or a public servant can be prosecuted at all for something done, or purportedly done, in the course of official duty, without the government first agreeing to let the prosecution proceed.
+Section 218(1) requires previous sanction — Central Government for Union employees, State Government for State employees — before cognizance of any offence a Judge, Magistrate, or protected public servant is accused of committing "while acting or purporting to act in the discharge of his official duty." Two features mark this out from the ordinary run of sanction provisions. First, a genuinely new procedural clock: the deciding government now has 120 days from the date it receives the sanction request, and if it says nothing in that window, sanction is *deemed* to have been given — a direct response to the old complaint that a sanction request could simply sit on a desk indefinitely, killing a prosecution through silence rather than through any decision on the merits. Second, a carve-out: for a specific, closed list of grave offences — principally the sexual-offence and trafficking-type provisions of the Bharatiya Nyaya Sanhita, 2023 — no sanction is required at all, however official the accused's position.
+:::
+
+::: story The line between duty and its cloak
+An officer is accused of using excessive force during an interrogation. He argues no Court can take cognizance without government sanction, because the incident happened during his official working hours. The question section 218(1) actually asks is narrower than "was he on duty" — it asks whether the specific act complained of has a reasonable connection to the discharge of official duty, or whether official duty was merely the occasion, a cloak, for an act that was not really part of the job at all. That line — duty versus cloak — is the entire battleground of section 218(1) litigation. In a separate matter, a sanction request sits with a State Government for well over four months without a decision either way. Under the second proviso to section 218(1), once 120 days pass from the date the request was received, sanction is treated as granted by operation of law — the prosecution is no longer hostage to administrative silence.
+:::
+
+> **218. (1)** When any person who is or was a Judge or Magistrate or a public servant not removable from his office save by or with the sanction of the Government is accused of any offence alleged to have been committed by him while acting or purporting to act in the discharge of his official duty, no Court [[!shall]] take cognizance of such offence except with the previous sanction — save as otherwise provided in ⚠️ *the Lokpal and Lokayuktas Act, 2013* —
+>
+> (a) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of the Union, of the Central Government;
+>
+> (b) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of a State, of the State Government:
+>
+> *Provided that where the alleged offence was committed by a person referred to in clause (b) during the period while a Proclamation issued under clause (1) of article 356 of the Constitution was in force in a State, clause (b) will apply as if for the expression "State Government" occurring therein, the expression "Central Government" were substituted:*
+>
+> *Provided further that such Government [[!shall]] take a decision within a period of one hundred and twenty days from the date of the receipt of the request for sanction, and in case it fails to do so, the sanction [[!shall]] be deemed to have been accorded by such Government:*
+>
+> *Provided also that no sanction shall be required in case of a public servant accused of any offence alleged to have been committed under* ⚠️ *section 64, section 65, section 66, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79, section 143, section 199 or section 200 of the Bharatiya Nyaya Sanhita, 2023.*
+>
+> **(2)** No Court [[!shall]] take cognizance of any offence alleged to have been committed by any member of the Armed Forces of the Union while acting or purporting to act in the discharge of his official duty, except with the previous sanction of the Central Government.
+>
+> **(3)** The State Government [[?may]], by notification, direct that the provisions of sub-section (2) shall apply to such class or category of the members of the Forces charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section will apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
+>
+> **(4)** Notwithstanding anything contained in sub-section (3), no Court [[!shall]] take cognizance of any offence, alleged to have been committed by any member of the Forces charged with the maintenance of public order in a State while acting or purporting to act in the discharge of his official duty during the period while a Proclamation issued under clause (1) of article 356 of the Constitution was in force therein, except with the previous sanction of the Central Government.
+>
+> **(5)** The Central Government or the State Government [[?may]] determine the person by whom, the manner in which, and the offence or offences for which, the prosecution of such Judge, Magistrate or public servant is to be conducted, and [[?may]] specify the Court before which the trial is to be held.
+
+::: proviso The 120-day clock runs from receipt of the request, and binds the government, not the accused
+Section 218(1)'s second proviso creates a hard deadline on the *government's own decision-making*, not on when the prosecution must be launched. It starts running from "the date of the receipt of the request for sanction" — meaning the practitioner's first task, in any case where the clock matters, is pinning down precisely when that request was received, since the deemed-sanction consequence turns entirely on that date.
+:::
+
+::: proviso The third proviso removes the sanction requirement entirely — it does not merely lower the bar
+For the closed list of BNS sections named in section 218(1)'s third proviso, the analysis does not proceed to "was this in the discharge of official duty" at all — sanction is simply not required, full stop, for a public servant accused under those sections. ⚠️ *This band is presented here as principally sexual-offence and trafficking-type provisions based on the section numbers alone; the precise content of BNS sections 64–79, 143, 199 and 200 has not been independently verified against the Bharatiya Nyaya Sanhita, 2023 text in this rendering and should be confirmed before relying on the characterisation in a filing.*
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Judge, Magistrate, or public servant faces prosecution for an act allegedly done in an official capacity — is prior sanction required before a Court can take cognizance?"
+  :gates="[
+    { q: 'Is the accused a member of the Armed Forces of the Union — or, under a section 218(3) State Government notification, a public-order force covered by that notification?',
+      note: 'Section 218(2)–(4) governs instead: Central Government sanction ordinarily, State Government sanction only if notified under 218(3), reverting to Central Government sanction during an Article 356 Proclamation under 218(4)',
+      no: 'Check the sexual-offence/trafficking carve-out next' },
+    { q: 'Is the offence one of the specific sections listed in section 218(1)’s third proviso — ⚠️ principally the sexual-offence and trafficking-type band?',
+      note: 'No sanction is required at all for this band, regardless of the accused’s official position',
+      no: 'Apply the official-duty nexus test' },
+    { q: 'Was the act one the accused was acting or purporting to act in the discharge of official duty when committing — a reasonable connection to duty, not official position merely used as a cloak?',
+      note: 'This is the Matajog Dobey nexus test',
+      no: 'No section 218(1) sanction is required — the act falls outside official duty altogether' }
+  ]"
+  result="Previous sanction from the correct government (Central for Union employees, State for State employees, substituted to Central during an Article 356 Proclamation) is a precondition to cognizance — and that government has 120 days from receipt of the sanction request to decide, after which sanction is deemed granted"
+  resultKind="mandatory"
+  caveat="Section 218(5) is a separate, further power: even once sanction is validly in place, the sanctioning government may itself determine who prosecutes, how, on which offences, and before which Court." />
+
+### In plain English
+
+Strip away the sub-sections and section 218 is doing three things. First, it protects Judges, Magistrates, and certain public servants from prosecution for genuinely duty-connected acts unless the right government signs off first — but the "right government" flips to the Centre during President's Rule under Article 356, and the flip for Armed Forces personnel works the other way, from Centre to State, only if the State Government specifically notifies it. Second, it builds in a real deadline: the deciding government gets 120 days from receiving the request, and silence past that point counts as a yes. Third, it draws a hard line around a specific list of grave offences where none of this protection applies at all — sanction simply is not required, because Parliament decided those offences should never hide behind an official's position. Section 218(5) is a smaller, separate power sitting alongside all of this: once sanction exists, the government gets to pick who runs the prosecution and where.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 218 appears to track CrPC section 197 (prosecution of Judges and public servants) closely in its core structure — the official-duty nexus test, the Central/State sanction split, and the Armed Forces provisions in sub-sections (2)–(4) all appear substantively continued. Two features stand out as likely changes and are flagged for independent confirmation rather than asserted: (1) the 120-day deemed-sanction clock in the second proviso to sub-section (1) does not appear to have a direct CrPC section 197 counterpart and, if confirmed, is a genuine procedural innovation responding to the long-standing complaint of indefinite administrative delay on sanction requests; (2) the third proviso's blanket exemption from sanction for a closed list of grave offences appears structurally similar to a proviso inserted into CrPC section 197 by the Criminal Law (Amendment) Act, 2013 in relation to specific IPC sexual-offence sections, which would make it continuity rather than a fresh BNSS invention — but the exact CrPC provision and its section list have not been independently verified against this repository's source text, so this should be confirmed before being asserted as settled in a filing.*
+
+### Test your instinct
+
+:::: instinct A public servant assaults a private citizen during a personal dispute that has nothing to do with his official functions, but which happens to occur during his official working hours. He claims sanction under section 218(1) is required before he can be prosecuted.
+::: ruling No sanction is required
+Being on duty at the time of an act is not the same as the act being done in the discharge of official duty. The Matajog Dobey nexus test asks whether the act complained of is reasonably connected to the discharge of official duty, or whether the official position was merely the occasion — a cloak — for an act that was not really part of the job. A personal dispute unconnected to official functions does not attract section 218(1)'s protection merely because of the clock on the wall.
+:::
+::::
+
+:::: instinct A request for sanction under section 218(1) was received by the State Government on a given date. One hundred and thirty days pass with no decision either way, and the prosecution argues it may now proceed on the footing that sanction has been granted.
+::: ruling Correct — sanction is deemed granted
+Section 218(1)'s second proviso is explicit: the Government must decide within one hundred and twenty days of receiving the request, and if it fails to do so, sanction is deemed to have been accorded. Once that window has run without a decision, the prosecution is entitled to proceed on the footing that sanction exists, regardless of the government's continued silence.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Matajog Dobey v. H.C. Bhari, AIR 1956 SC 44 (Constitution Bench). The Court held that the predecessor sanction provision protects only acts reasonably connected with the discharge of official duty — not every act done while an official happens to be on duty, and not an act where the official capacity was merely a cloak for the objectionable conduct — and that the question of whether sanction is required can be raised, and examined, at any stage of the proceeding. **Practitioner takeaway**: frame the section 218(1) argument, on either side, around the reasonable-connection-to-duty test, not around the accused's official status or working hours alone.
+
+#### Sword and shield
+
+As a **shield**, section 218(1) protects officials from prosecution for genuinely duty-connected conduct being weaponised through vexatious complaints — the point of the sanction requirement is to filter those out before trial ever begins. As a **sword**, the defence can raise absence of sanction, or a wrongly-directed sanction request, as a threshold bar at any stage per Matajog Dobey; the prosecution's countervailing sword is the 120-day deemed-sanction proviso, which prevents an official's protective government from simply neutralising a case through silence, and the third proviso, which removes the shield altogether for the specified grave-offence band.
+
+#### The limitation clock
+
+No Chapter XXXVI limitation period is fixed by this cluster. Section 218(1)'s second proviso instead creates its own distinct 120-day *sanction-decision* clock — not a limitation period on when the offence itself must be prosecuted, but a deadline binding the government's response to a sanction request, with deemed sanction as the consequence of missing it. Track the date of receipt of the request precisely; that date, not the date of the offence, is what starts this clock.
+
+#### Interlocking matrix
+
+Section 218 interlocks with section 217 immediately preceding it in this Chapter — both are sanction gates, but section 217 targets offences against the State generally while section 218 targets Judges, Magistrates, protected public servants, and Armed Forces personnel specifically for acts in official duty. It interlocks with ⚠️ *the Lokpal and Lokayuktas Act, 2013 (outside this repository's verified corpus)*, which section 218(1) expressly carves out as an alternative regime, and with ⚠️ *BNS 2023 sections 64–79, 143, 199 and 200, the sanction-exempt band (outside this repository's verified corpus)*.
+
+#### The authorities
+
+⚠️ *Prakash Singh Badal v. State of Punjab, (2007) 1 SCC 1 — reiterates the reasonable-nexus test; cited here as secondary and flagged for independent verification of the exact holding before use.* ⚠️ *K. Veeraswami v. Union of India, (1991) 3 SCC 655 — addresses sanction for prosecuting a Judge under the Prevention of Corruption Act, 1988, a related but distinct statutory context from section 218 itself; cited here as secondary and flagged for verification before treating it as directly on point for a section 218 sanction question.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before conceding or contesting a sanction requirement, run the Matajog Dobey nexus test on the specific act alleged, not on the accused's general official status.
+2. Check the offence against section 218(1)'s third-proviso list first — if it applies, the entire sanction analysis is unnecessary.
+3. In any case where the sanctioning government has been silent, calendar the 120-day clock from the documented date of receipt of the sanction request, and be ready to establish that date precisely.
+4. Check whether an Article 356 Proclamation was in force at the relevant time — it silently substitutes Central Government sanction for State Government sanction under both section 218(1)'s first proviso and section 218(4).
+5. Once sanction exists, check whether the sanctioning government has exercised its section 218(5) power to direct the prosecutor, manner, or trial court, and factor that into case strategy early.
+
 ---
