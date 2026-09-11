@@ -102,3 +102,120 @@ Section 261 interlocks directly with section 230 (mandatory pre-trial disclosure
 4. Once a charge is framed under section 263, calendar the plea and confirm it is recorded accurately — the guilty-plea/claim-to-be-tried fork at section 263(2) determines which of sections 264 or 265 governs next.
 
 ---
+
+## Sections 264–266 — The guilty-plea fork, and the evidence that follows when there isn't one
+
+### The dispute this solves
+
+::: oneminute Section 263(2) ends with a fork: does the accused plead guilty, or claim to be tried? Section 264 handles the first branch — if the accused pleads guilty, the Magistrate records the plea and *may*, in his discretion, convict him on it; a guilty plea does not compel conviction, it merely permits it. Section 265 handles the second branch, which is the ordinary case: the accused refuses to plead, doesn't plead, claims to be tried, or the Magistrate declines to convict on a guilty plea. The Magistrate fixes a date for prosecution witnesses, after first supplying the accused with the police statements of those witnesses recorded during investigation. He may issue compulsory process to secure any prosecution witness's attendance on the prosecution's application, and on the fixed date takes all the evidence the prosecution produces — with discretion to defer cross-examination until other witnesses are examined, or recall a witness for further cross-examination, and with a standing option to take any witness's evidence by audio-video electronic means. Section 266 then opens the defence's turn: the accused is called to enter his defence and produce evidence, any written statement he files goes on record, and — mirroring the prosecution's own compulsory-process right — he can compel the attendance of defence witnesses or production of documents, refusable only for recorded reasons of vexation, delay, or defeating the ends of justice, subject to a proviso curbing repeat process for a witness already cross-examined or given the opportunity to be.
+:::
+
+::: story A guilty plea the Magistrate declines to accept at face value
+An accused, framed with a charge of criminal breach of trust under section 263, pleads guilty when the charge is read to him. The Magistrate, noting that the plea was made hastily and without apparent appreciation of the charge's full implications, declines to convict him on the plea alone under section 264's discretionary power, and instead directs the case to proceed under section 265. A date is fixed for prosecution witnesses; the accused, having already received the police statements of those witnesses as part of the section 230 disclosure, cross-examines each as they are called, with one witness's cross-examination deferred at the Magistrate's discretion until after a related witness has testified. Once the prosecution closes, the accused enters his defence under section 266, filing a written statement and successfully compelling the attendance of a defence witness whose testimony directly contradicts the prosecution's account.
+:::
+
+> **264.** If the accused pleads guilty, the Magistrate [[!shall]] record the plea and [[?may]], in his discretion, convict him thereon.
+>
+> **265. (1)** If the accused refuses to plead or does not plead, or claims to be tried or the Magistrate does not convict the accused under section 264, the Magistrate [[!shall]] fix a date for the examination of witnesses:
+>
+> Provided that the Magistrate [[!shall]] supply in advance to the accused, the statement of witnesses recorded during investigation by the police.
+>
+> **(2)** The Magistrate [[?may]], on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
+>
+> **(3)** On the date so fixed, the Magistrate [[!shall]] proceed to take all such evidence as may be produced in support of the prosecution:
+>
+> Provided that the Magistrate [[?may]] permit the cross-examination of any witness to be deferred until any other witness or witnesses have been examined or recall any witness for further cross-examination:
+>
+> Provided further that the examination of a witness under this sub-section [[?may]] be done by audio-video electronic means at the designated place to be notified by the State Government.
+>
+> **266. (1)** The accused [[!shall]] then be called upon to enter upon his defence and produce his evidence; and if the accused puts in any written statement, the Magistrate [[!shall]] file it with the record.
+>
+> **(2)** If the accused, after he has entered upon his defence, applies to the Magistrate to issue any process for compelling the attendance of any witness for the purpose of examination or cross-examination, or the production of any document or other thing, the Magistrate [[!shall]] issue such process unless he considers that such application should be refused on the ground that it is made for the purpose of vexation or delay or for defeating the ends of justice and such ground [[!shall]] be recorded by him in writing:
+>
+> Provided that when the accused has cross-examined or had the opportunity of cross-examining any witness before entering on his defence, the attendance of such witness [[!shall]] not be compelled under this section, unless the Magistrate is satisfied that it is necessary for the ends of justice:
+>
+> Provided further that the examination of a witness under this sub-section [[?may]] be done by audio-video electronic means at the designated place to be notified by the State Government.
+>
+> **(3)** The Magistrate [[?may]], before summoning any witness on an application under sub-section (2), require that the reasonable expenses incurred by the witness in attending for the purposes of the trial be deposited in Court.
+
+::: proviso Section 264's guilty plea permits conviction, it does not compel it
+A guilty plea under section 264 gives the Magistrate a discretionary power to convict, not a mandatory duty. Where the Magistrate has any doubt about the plea's voluntariness or the accused's appreciation of what he is pleading to, section 265's fuller evidence-taking procedure remains available.
+:::
+
+::: proviso Section 266(2)'s compulsory-process right for the defence mirrors, and is limited like, the prosecution's under section 265(2)
+The refusal grounds — vexation, delay, defeating the ends of justice — are the same structure used for the recall-of-witnesses right in section 240 (Chapter XVIII) and the defence compulsory-process right in section 256 (Chapter XIX). The first proviso to section 266(2) adds a further limit specific to this section: a witness the accused has already cross-examined, or had the opportunity to cross-examine, before entering his defence cannot be recompelled under this section absent the Magistrate being satisfied it is necessary for the ends of justice.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A charge has been framed and read under section 263 — what happens next?"
+  :gates="[
+    { q: 'Does the accused plead guilty?',
+      note: 'Section 264 records the plea either way, but conviction on it is discretionary, not automatic',
+      no: 'The case proceeds under section 265 to the evidence-taking stage' },
+    { q: 'Does the Magistrate choose to convict on the guilty plea?',
+      note: 'Section 264 gives the Magistrate discretion to decline conviction even on a guilty plea',
+      no: 'The case proceeds under section 265 despite the guilty plea' },
+    { q: 'Has the prosecution completed leading its evidence under section 265?',
+      note: 'The accused receives police witness statements in advance, and the Magistrate may permit deferred cross-examination or recall',
+      no: 'The prosecution evidence stage continues before the defence stage opens' }
+  ]"
+  result="Once the prosecution's evidence closes without an earlier guilty-plea conviction, the accused enters his defence under section 266, may file a written statement, and can compel the attendance of defence witnesses or production of documents on the same vexation/delay/defeating-justice refusal standard used elsewhere in this guide"
+  resultKind="mandatory"
+  caveat="A witness the accused already cross-examined before entering his defence cannot ordinarily be recompelled under section 266 — only where the Magistrate is satisfied it is necessary for the ends of justice." />
+
+### In plain English
+
+Section 264 is a shortcut, not a shortcut anyone is entitled to — the accused can offer a guilty plea, but the Magistrate decides whether to accept it as sufficient for conviction. Where the shortcut isn't taken, sections 265 and 266 lay out the trial's actual evidence phase in two mirrored halves: the prosecution goes first, with its witnesses' statements already in the accused's hands from disclosure and the Magistrate free to manage the order of cross-examination; then the defence gets its turn, with the same kind of compulsory-process power the prosecution had, subject to the same narrow refusal grounds and one extra guardrail against re-litigating witnesses already cross-examined.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 264 appears to track CrPC section 241 (conviction on plea of guilty), BNSS section 265 appears to track CrPC section 242 (evidence for prosecution), and BNSS section 266 appears to track CrPC section 243 (evidence for defence). The audio-video electronic means provisos in both section 265(3) and section 266(2) are flagged as likely genuine BNSS additions, unverified against CrPC text held in this repository. No other significant departure is flagged for this cluster.*
+
+### Test your instinct
+
+:::: instinct The accused pleads guilty under section 264, and the Magistrate — without further inquiry — records the plea and immediately proceeds to sentence.
+::: ruling This is within the Magistrate's discretion, but is not compelled by section 264
+Section 264 permits, but does not require, conviction on a guilty plea. A Magistrate who is satisfied the plea is voluntary and informed may record it and convict; nothing in the provision bars proceeding straight to sentence on that basis. But the same Magistrate is equally entitled to decline conviction and direct the case to sections 265–266 instead.
+:::
+::::
+
+:::: instinct After the accused has fully cross-examined a prosecution witness during the section 265 evidence stage, he later applies under section 266(2) to recall that same witness for further cross-examination during his defence.
+::: ruling The first proviso to section 266(2) presumptively bars this
+Where the accused has already cross-examined, or had the opportunity to cross-examine, a witness before entering his defence, that witness's attendance cannot be compelled again under section 266 unless the Magistrate is satisfied recall is necessary for the ends of justice. A bare desire to revisit already-covered ground does not meet that standard.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 266(2) protects the accused from a defence case gutted by an uncooperative or unavailable witness — the Magistrate must issue compulsory process unless he records specific vexation/delay/defeating-justice reasons for refusing. As a **sword**, the prosecution's countervailing tool against a defence recall application is the first proviso to section 266(2): where the witness has already been cross-examined or the opportunity existed, recall is not automatic, and the prosecution can press the Magistrate to require a specific ends-of-justice justification before compelling it again.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; it governs the sequencing of the evidence-taking phase within a trial already underway, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 265's advance-supply proviso ties back to section 230 (Chapter XVII, already built) and section 261 of this chapter. Section 266(2)'s refusal standard mirrors section 240(a) (Chapter XVIII, already built) and section 256 (Chapter XIX, already built) — the same vexation/delay/defeating-justice formula recurs across the guide wherever a compulsory-process right is granted subject to judicial refusal.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a client is inclined to plead guilty, confirm the plea is fully informed before it is recorded — a Magistrate's discretion to decline conviction under section 264 is not a substitute for advising the client accurately in the first place.
+2. Confirm police witness statements have actually been supplied in advance of the section 265 evidence date, as the proviso requires, before cross-examination begins.
+3. When applying under section 266(2) to recall a witness already cross-examined, draft the application to specifically address why recall is necessary for the ends of justice — a bare request will not overcome the first proviso's bar.
+4. Where audio-video electronic means is used for any witness's examination under section 265(3) or section 266(2), confirm the location is one actually notified by the State Government for that purpose before relying on the evidence's validity.
+
+---
