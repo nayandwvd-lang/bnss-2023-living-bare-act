@@ -301,3 +301,105 @@ Section 293(a)-(b) cross-refers to section 401 (⚠️ not yet built in this rep
 4. Advise the client candidly, before the disposition is finalised, that section 295 forecloses ordinary appeal — accepting a plea-bargained sentence is close to a final decision, subject only to the Constitution's own extraordinary remedies.
 
 ---
+
+## Sections 296–300 — Plenary powers, detention set-off, Chapter supremacy, and the confidentiality rule that makes candid negotiation possible
+
+### The dispute this solves
+
+::: oneminute A plea-bargaining Court is not a special tribunal short of ordinary powers — it keeps everything it already has, on bail, on trial, on disposal. Time the accused has already spent in custody is credited against the eventual sentence exactly as it would be anywhere else. This Chapter overrides every other inconsistent provision of the Sanhita, and — unusually — those other provisions cannot even be used to read this Chapter's own words more narrowly. Whatever the accused admits or discloses in a failed plea-bargaining application can never resurface anywhere else, in this case or any other. And none of it is available to a juvenile or child at all.
+:::
+
+::: story A confession that must never leave the room
+An accused applies for plea bargaining under section 290, sits through an in-camera voluntariness hearing, and negotiates in good faith — but the negotiation collapses and the case reverts to ordinary trial under section 290(4)(b). At the ordinary trial, the prosecution seeks to put the accused's own application — including his sworn admission that he committed the offence — before the Court as evidence against him. If that were allowed, no accused would ever risk applying for plea bargaining in the first place: the "confidential negotiation" would really be a trap, one bad-faith move by the prosecution away from becoming a free confession. Section 299 exists precisely to make that move unavailable.
+:::
+
+> **296.** A Court shall have, for the purposes of discharging its functions under this Chapter, [[!all the powers vested in respect of bail, trial of offences and other matters relating to the disposal of a case]] in such Court under this Sanhita.
+>
+> **297.** The provisions of section 468 shall apply, for setting off the period of detention undergone by the accused against the sentence of imprisonment imposed under this Chapter, [[!in the same manner]] as they apply in respect of the imprisonment under other provisions of this Sanhita. ⚠️ *Section 468 has not yet been built in this repository; its own set-off mechanics should be verified independently before relying on this cross-reference in drafting.*
+>
+> **298.** The provisions of this Chapter shall have effect [[!notwithstanding anything inconsistent therewith]] contained in any other provisions of this Sanhita, and nothing in such other provisions shall be construed to [[!constrain the meaning of any provision of this Chapter]].
+>
+> *Explanation.* — For the purposes of this Chapter, the expression "Public Prosecutor" has the meaning assigned to it under clause (v) of section 2 and includes an Assistant Public Prosecutor appointed under section 19. ⚠️ *Sections 2(v) and 19 have not yet been built in this repository — likely part of an as-yet-unwritten Chapter II.*
+>
+> **299.** [[!Notwithstanding anything contained in any law for the time being in force]], the statements or facts stated by an accused in an application for plea bargaining filed under section 290 [[!shall not be used for any other purpose]] except for the purpose of this Chapter.
+>
+> **300.** [[!Nothing in this Chapter shall apply]] to any juvenile or child as defined in section 2 of the Juvenile Justice (Care and Protection of Children) Act, 2015.
+
+::: proviso Two-way, not one-way
+Every earlier non-obstante clause in this guide — section 283(1)'s mandatory-list override, section 289's eligibility gate — runs one way: *this* provision prevails over inconsistent ones elsewhere. Section 298 does that too, but then adds a second, rarer instruction: other provisions of the Sanhita cannot be used *interpretively* to cut down what this Chapter's own words mean. An advocate facing an argument that some general Sanhita provision should narrow a plea-bargaining right has a textual answer ready-made: section 298 forbids exactly that move.
+:::
+
+::: proviso The textual anchor for "no formal trace on failure"
+The ss.290–292 cluster flagged, as a matter of design logic, that a failed negotiation should leave no formal trace usable against the accused. Section 299 is that logic's textual home. It is not confined to the negotiation meeting itself — it reaches the application filed under section 290 and everything stated or admitted in it, and it operates *notwithstanding any other law*, which forecloses an argument that some other statute's evidentiary rule creates an exception.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="Can a statement made by the accused in a failed section 290 plea-bargaining application be used against him at the reverted ordinary trial?"
+  :gates="[
+    { q: 'Was the statement or fact actually stated by the accused in the section 290 application itself?',
+      note: 'Section 299 protects what was stated in that specific application, not every remark made anywhere during the plea-bargaining process',
+      no: 'Section 299\'s bar does not extend to it on this ground — but the in-camera and confidentiality norms built into ss.290–292 may still be relevant' },
+    { q: 'Is the intended use for some purpose outside this Chapter — for example, as evidence of guilt at the reverted ordinary trial?',
+      note: 'Section 299 permits use for the purpose of this Chapter only, and bars every other purpose',
+      no: 'Use confined to this Chapter\'s own purposes is not what section 299 forbids' }
+  ]"
+  result="The statement cannot be used for that purpose, notwithstanding anything contained in any law for the time being in force — section 299 bars it outright"
+  resultKind="mandatory"
+  caveat="This is the provision that makes the entire negotiation credible: without a hard bar on downstream use, the voluntariness examination and the negotiation meeting under ss.290–292 would function as a one-sided discovery tool for the prosecution rather than a genuine settlement mechanism." />
+
+### In plain English
+
+These five sections are the Chapter's scaffolding rather than its drama, but each one closes a gap a sharp opposing advocate would otherwise probe. Section 296 confirms the Court isn't operating in some powers-limited side channel — it keeps its full bail, trial and disposal powers throughout. Section 297 makes sure time already served isn't wasted twice over. Section 298 makes this Chapter's words immune to being read down by anything else in the Sanhita — and clarifies, almost in passing, that "Public Prosecutor" here includes the Assistant Public Prosecutors who do much of this work in practice. Section 299 is the confidentiality guarantee that makes an accused willing to be candid in the first place. And section 300 draws a bright line: whatever else is true of the case, if the accused is a juvenile or child, this Chapter simply does not apply to him.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS sections 296–300 appear to track CrPC sections 265H (power of the Court in plea bargaining), 265I (period of detention undergone by the accused to be set off against the sentence of imprisonment), 265J (savings), 265K (statements of accused not to be used) and 265L (non-application of the Chapter to juveniles), in that order — cross-checked against the marginal headings recorded directly in the bare Act text, which match these CrPC titles closely. No substantive departure is flagged for this cluster; the plenary-powers grant, the section-468 set-off, the two-way non-obstante with its Public Prosecutor Explanation, the confidentiality bar, and the juvenile exclusion all read as structurally continuous with their CrPC predecessors.*
+
+::: proviso Chapter XXIII closed
+This closes Chapter XXIII (Plea Bargaining, ss.289–300). Its funnel runs eligibility (s.289) → application and in-camera voluntariness (s.290) → negotiation meeting (s.291) → disposition report (s.292) → compensation and sentence disposal (s.293) → judgment (s.294) → near-total finality (s.295) → scaffolding provisions confirming powers, set-off, supremacy, confidentiality and the juvenile carve-out (ss.296–300). Chapter XXIV's title and scope have not yet been read in this repository and remain unverified.
+:::
+
+### Test your instinct
+
+:::: instinct The prosecution, after a plea-bargaining negotiation collapses and the case reverts to ordinary trial, seeks to introduce the accused's section 290 application — including his admission of guilt — as evidence at the reverted trial.
+::: ruling Section 299 bars it, notwithstanding any other law
+The statement was made in an application filed under section 290, and the intended use — evidence of guilt at an ordinary trial — falls outside "the purpose of this Chapter." Section 299 bars that use notwithstanding anything contained in any law for the time being in force. The prosecution cannot rely on it.
+:::
+::::
+
+:::: instinct A 17-year-old accused otherwise satisfies every condition of section 289 — the offence carries a maximum of five years, there is no socio-economic-offence notification in play, and the alleged victim is not a woman or a child — and applies for plea bargaining.
+::: ruling Section 300 excludes him anyway, independently of section 289
+Section 289 is not the only gate. Section 300 operates on top of it: this Chapter does not apply at all to a juvenile or child as defined in the Juvenile Justice (Care and Protection of Children) Act, 2015, regardless of whether every section 289 condition is otherwise met. The application fails on this separate ground.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 299's confidentiality bar is the single most important protection this Chapter gives an accused who is weighing whether to apply at all — counsel should say so explicitly when advising a client nervous about candour during negotiation. Section 298's unusually strong two-way non-obstante is also protective: it forecloses attempts to read this Chapter's rights down by reference to other Sanhita provisions. As a **sword** for the prosecution, section 297's set-off requirement cuts both ways — it is a bookkeeping obligation on the State to credit detention already undergone, not a discretionary courtesy, and defence counsel should press for it to be applied without prompting at sentencing.
+
+#### The limitation clock
+
+No new limitation clock is introduced by this cluster. The Chapter's defining clock remains section 290(1)'s 30-day application window from the date of framing of charge, already covered in the ss.290–292 cluster.
+
+#### Interlocking matrix
+
+Section 297 cross-refers to section 468 (⚠️ not yet built in this repository). Section 298's Explanation cross-refers to section 2(v) and section 19 (⚠️ both not yet built — likely part of an unwritten Chapter II). Section 300 cross-refers to section 2 of the Juvenile Justice (Care and Protection of Children) Act, 2015 (⚠️ outside this guide's BNSS-focused scope).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm the accused's age and juvenile status before advising on plea bargaining at all — section 300 is an absolute bar, independent of section 289, and cannot be waived or negotiated around.
+2. At sentencing, affirmatively raise and document the period of detention already undergone, and insist it be set off under section 297 read with section 468.
+3. If the opposing side attempts to rely on any provision outside this Chapter to narrow a plea-bargaining right, invoke section 298's two-way non-obstante directly — it is a ready-made textual answer.
+4. Advise a client hesitant to be candid during negotiation that section 299's confidentiality bar is absolute and law-overriding — nothing said in the section 290 application can resurface for any other purpose, in this case or any other.
+
+---
