@@ -104,3 +104,95 @@ Section 283(1)'s itemised list cross-refers to the Bharatiya Nyaya Sanhita, 2023
 4. If new facts emerge mid-trial suggesting the case is unsuitable for summary disposal, flag section 283(3) promptly — the earlier this is raised, the less evidence needs to be recalled and re-heard.
 
 ---
+
+## Sections 284–285 — Delegating summary-trial power downward, and the sentence cap that comes with it
+
+### The dispute this solves
+
+::: oneminute Section 283 gives summary-trial power to the Chief Judicial Magistrate and Magistrates of the first class as of right or by discretion. Section 284 lets the High Court extend a narrower version of that power downward to a Magistrate invested with second-class powers — but only for offences punishable with fine only, or with imprisonment not exceeding six months (with or without fine), plus the abetment or attempt of such an offence. Section 285 then answers the question every summary trial eventually asks: what procedure governs it, and what can the sentence actually be? The procedure is the summons-case procedure already built in Chapter XXI, followed except as this Chapter separately provides — and the sentence, regardless of what the underlying offence would ordinarily carry, is capped: no term of imprisonment exceeding three months may be passed on any conviction recorded under this Chapter.
+:::
+
+::: story A theft carrying up to seven years, tried and sentenced to a fortnight
+A first-class Magistrate tries a theft case under section 283(1)(i)'s mandatory list — an offence that, tried in the ordinary way, could carry a substantially longer sentence under the Bharatiya Nyaya Sanhita, 2023. Because it was tried summarily under this Chapter, section 285(2) caps whatever sentence follows at three months' imprisonment; the Magistrate, on the facts, imposes a fortnight. The mandatory-list offence's own maximum punishment is simply irrelevant to the sentencing ceiling once the case is disposed of under this Chapter.
+:::
+
+> **284.** The High Court [[?may]] confer on any Magistrate invested with the powers of a Magistrate of the second class power to try summarily any offence which is punishable only with fine or with imprisonment for a term not exceeding six months with or without fine, and any abetment of or attempt to commit any such offence.
+>
+> **285. (1)** In trials under this Chapter, the procedure specified in this Sanhita for the trial of summons-case [[!shall]] be followed except as hereinafter mentioned.
+>
+> **(2)** No sentence of imprisonment for a term exceeding three months [[!shall]] be passed in the case of any conviction under this Chapter.
+
+::: proviso Section 284's delegation is itself discretionary, and narrower than section 283's own jurisdiction
+The High Court "may" confer summary-trial power on a second-class Magistrate — nothing compels it to. And even where conferred, the power is capped at offences punishable only with fine, or with imprisonment not exceeding six months — a Magistrate invested with second-class powers never acquires jurisdiction, under this section, over section 283(1)'s mandatory-list offences or section 283(2)'s up-to-three-year discretionary band.
+:::
+
+::: proviso Section 285(2)'s three-month cap overrides the underlying offence's ordinary punishment, not just the second-class Magistrate's delegated jurisdiction
+The cap is not confined to convictions recorded under the section 284 delegation — it applies to "any conviction under this Chapter," which includes the mandatory-list offences a CJM or first-class Magistrate tries under section 283(1). An offence that could ordinarily carry several years' imprisonment, once disposed of summarily under this Chapter, cannot draw more than three months, whichever Magistrate tried it.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Magistrate invested with second-class powers proposes to try an offence summarily under this Chapter — is the power there, and what can the sentence be?"
+  :gates="[
+    { q: 'Has the High Court conferred summary-trial power on this Magistrate under section 284?',
+      note: 'Second-class Magistrates have no summary-trial power under this Chapter absent this conferral',
+      no: 'This Magistrate has no jurisdiction to try any offence summarily under this Chapter' },
+    { q: 'Is the offence punishable only with fine, or with imprisonment not exceeding six months (with or without fine), or is it the abetment or attempt of such an offence?',
+      note: 'This ceiling is narrower than the jurisdiction section 283 gives a CJM or first-class Magistrate',
+      no: 'The offence is outside this Magistrate\'s delegated summary-trial jurisdiction, however conferred' }
+  ]"
+  result="The trial proceeds following the summons-case procedure under section 285(1), and whatever its outcome, no sentence of imprisonment exceeding three months may be passed on the conviction"
+  resultKind="mandatory"
+  caveat="Section 285(2)'s three-month cap binds every conviction recorded under this Chapter, including those a CJM or first-class Magistrate records under section 283(1)'s mandatory list — offences that may ordinarily carry far longer sentences outside this Chapter." />
+
+### In plain English
+
+Two separate ideas sit in these two sections. Section 284 is about *who* gets to try a case summarily — the High Court can push that power down to a second-class Magistrate, but only for the least serious offences, fine-only or up to six months. Section 285 is about *how* the trial runs and *what* it can produce — the familiar summons-case procedure, and a hard three-month ceiling on imprisonment no matter which Magistrate tried the case or how severe the offence ordinarily is. The second idea is the one that defines summary trial as a category: speed and a simplified record are traded for a sentencing ceiling that applies uniformly across the whole Chapter.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 284 appears to track CrPC section 261 (summary trial by Magistrate of the second class), and BNSS section 285 appears to track CrPC section 262 (procedure for summary trials). Both read as structurally continuous with their CrPC predecessors — the delegation mechanism, the fine-or-six-months ceiling for second-class Magistrates, and the three-month sentencing cap all track familiar CrPC structure — but this has not been independently cross-checked clause-by-clause against a bare CrPC text in this repository.*
+
+### Test your instinct
+
+:::: instinct A second-class Magistrate, without any specific conferral of power from the High Court, tries a fine-only offence summarily on the reasoning that it is trivial enough to warrant it.
+::: ruling No conferral, no jurisdiction
+Section 284 requires the High Court to confer summary-trial power on a Magistrate invested with second-class powers before that Magistrate may use it. General triviality of the offence does not substitute for the conferral; a summary trial conducted without it proceeds without jurisdiction.
+:::
+::::
+
+:::: instinct A CJM tries a mandatory-list theft case under section 283(1) and, on conviction, sentences the accused to four months' imprisonment, reasoning that the mandatory list carries no separate sentencing limit of its own.
+::: ruling Section 285(2) caps the sentence regardless
+The three-month cap in section 285(2) applies to "any conviction under this Chapter" — it does not exempt section 283(1)'s mandatory list. A four-month sentence exceeds the ceiling and is vulnerable to challenge on that ground alone, independent of anything else about the conviction's merits.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, an accused facing any summary conviction under this Chapter can rely on section 285(2) as an absolute sentencing ceiling — three months, full stop, regardless of the offence's ordinary maximum — and should check any sentence exceeding that figure as a ground of challenge in its own right. As a **sword**, a second-class Magistrate's purported summary trial can be attacked at the threshold, before the merits are even reached, by establishing that no section 284 conferral exists or that the offence exceeds the fine-only/six-month ceiling that conferral permits.
+
+#### The limitation clock
+
+No independent limitation period runs from this cluster; it governs jurisdictional delegation and sentencing ceiling, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 285(1) interlocks directly with the summons-case procedure built in Chapter XXI (sections 274–282), which this Chapter adopts by reference except as separately modified here. Section 284's delegation sits alongside, and is narrower than, the CJM/first-class Magistrate jurisdiction under section 283 already built in this chapter.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before accepting a second-class Magistrate's jurisdiction to try a case summarily, confirm the specific High Court conferral under section 284 exists and covers offences of this offence's punishment band.
+2. Check any sentence following a summary conviction under this Chapter against the three-month cap in section 285(2), regardless of which Magistrate tried the case or what the offence's ordinary maximum sentence is.
+3. Where the summons-case procedure under Chapter XXI would ordinarily allow a particular application (compelling witness attendance, deposit of expenses), remember it applies here too under section 285(1) except where this Chapter separately modifies it.
+4. Flag a sentence of imprisonment exceeding three months under this Chapter as an appealable irregularity in its own right, independent of any challenge to the conviction on the merits.
+
+---
