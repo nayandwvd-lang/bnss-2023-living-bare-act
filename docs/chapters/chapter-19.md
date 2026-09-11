@@ -291,3 +291,108 @@ Section 252 interlocks directly with section 251(2) (the read-and-explain-and-pl
 4. Where compulsory process under section 253 is sought, ensure the application actually identifies the witness or document and the relevance to the prosecution's case — a bare request invites refusal or delay.
 
 ---
+
+## Sections 255–257 — The acquittal checkpoint, the defence's turn, and closing arguments
+
+### The dispute this solves
+
+::: oneminute Once the prosecution's evidence is in, the trial reaches a genuine checkpoint before the defence is ever put to the trouble of answering it. Section 255 requires the Judge, after taking the prosecution's evidence, examining the accused, and hearing both sides on the point, to record an order of acquittal if he considers there is no evidence that the accused committed the offence — the case simply ends there, without the accused ever having to adduce a defence. Section 256 governs what happens if the accused is not acquitted at that checkpoint: he is called upon to enter on his defence and adduce whatever evidence he has, any written statement he puts in is filed with the record, and — mirroring the compulsory-process power the prosecution had under section 253 — the Judge must issue process to compel a defence witness's attendance or a document's production, unless he records reasons for concluding the application is really aimed at vexation, delay, or defeating the ends of justice. Section 257 closes the evidence phase with the mechanics of argument: once defence evidence (if any) is complete, the prosecutor sums up first, and the accused or his advocate is entitled to reply — with a proviso letting the prosecution respond, with the Judge's permission, specifically to any point of law the defence raises.
+:::
+
+::: story A case that ends before the defence ever begins
+After the prosecution closes its evidence and the accused is examined, the Judge hears submissions from both sides on whether there is evidence the accused committed the offence at all. Concluding there genuinely is none — not merely that the evidence is weak, but that there is none capable of sustaining a conviction — the Judge records an acquittal under section 255, and the trial ends without the defence ever being called upon to answer anything. In a separate matter that clears this checkpoint, the accused is called on to enter his defence under section 256(1); his advocate applies for process to compel a defence witness's attendance, and the Judge, finding no basis to suspect vexation or delay, issues it. Once that witness and the rest of the defence evidence are examined, the prosecutor sums up the case first, and the accused's advocate replies — raising, in the course of that reply, a specific point of law, which the prosecution is then permitted, with the Judge's leave, to address in turn.
+:::
+
+> **255.** If, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Judge considers that there is no evidence that the accused committed the offence, the Judge [[!shall]] record an order of acquittal.
+>
+> **256. (1)** Where the accused is not acquitted under section 255, he [[!shall]] be called upon to enter on his defence and adduce any evidence he may have in support thereof.
+>
+> **(2)** If the accused puts in any written statement, the Judge [[!shall]] file it with the record.
+>
+> **(3)** If the accused applies for the issue of any process for compelling the attendance of any witness or the production of any document or thing, the Judge [[!shall]] issue such process unless he considers, for reasons to be recorded, that such application should be refused on the ground that it is made for the purpose of vexation or delay or for defeating the ends of justice.
+>
+> **257.** When the examination of the witnesses (if any) for the defence is complete, the prosecutor [[!shall]] sum up his case and the accused or his advocate [[!shall]] be entitled to reply:
+>
+> *Provided that* where any point of law is raised by the accused or his advocate, the prosecution [[?may]], with the permission of the Judge, make his submissions with regard to such point of law.
+
+::: proviso Section 255 is a "no evidence" test, not a weight-of-evidence test
+Section 255 requires acquittal where there is *no evidence* that the accused committed the offence — not where the evidence is merely weak, inconsistent, or likely to be disbelieved. Those latter questions are for the trial to work through on its merits, including through the defence's own evidence and the final judgment under section 258; section 255 screens out only cases where the prosecution's evidence, taken at its highest, does not touch the offence at all.
+:::
+
+::: proviso Section 256(3) gives the defence the same protected compulsory-process right the prosecution has, subject to the same recorded-reasons exception
+The structure mirrors section 253's power for the prosecution almost exactly, and echoes the recorded-reasons safeguard already seen in section 240(a)'s witness-recall provision: a refusal to compel a defence witness or document is permitted only where the Judge actually records reasons for concluding the application is aimed at vexation, delay, or defeating the ends of justice — not as a matter of general case-management discretion.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="The prosecution has closed its evidence and the accused has been examined — what happens next?"
+  :gates="[
+    { q: 'After hearing both sides, does the Judge consider there is no evidence that the accused committed the offence?',
+      note: 'Section 255 is a screening test at the close of the prosecution\'s case, not a final weighing of guilt',
+      no: 'The accused is acquitted, and the trial ends at this stage' },
+    { q: 'Is the accused called upon to enter his defence, and does he apply for compulsory process for a defence witness or document?',
+      note: 'Section 256(1) requires the call to defence; section 256(3) mirrors section 253\'s compulsory-process power for the defence side',
+      no: 'The Judge must issue the process sought, unless he records reasons it is aimed at vexation, delay, or defeating the ends of justice' },
+    { q: 'Once defence evidence (if any) is complete, has the prosecutor summed up and the defence replied?',
+      note: 'Section 257 fixes this order — prosecution first, defence in reply — with the point-of-law proviso as the one exception',
+      no: 'The argument stage under section 257 has not yet concluded' }
+  ]"
+  result="A case survives to the defence stage only where the Judge finds some evidence of guilt at the section 255 checkpoint; from there, the accused enters his defence with a compulsory-process right mirroring the prosecution's own, and the trial's evidence phase closes with the prosecution summing up first and the defence entitled to reply, subject to the point-of-law proviso allowing the prosecution a further word on legal questions the defence raises"
+  resultKind="mandatory"
+  caveat="Section 255's 'no evidence' standard is deliberately narrower than a full merits assessment — it does not anticipate or substitute for the ultimate judgment under section 258." />
+
+### In plain English
+
+This cluster is the hinge between the prosecution's case and the defence's case, and then the closing arguments that follow. Section 255 exists so that an accused is not put through the burden of mounting a defence where the prosecution's evidence, even taken at face value, simply does not establish that he committed the offence — a real checkpoint, though a narrow one, since it screens only for a complete absence of evidence, not weak evidence. If the case survives that checkpoint, section 256 hands the initiative to the defence on the same footing the prosecution had — call witnesses, put in documents, and get the Court's compulsory process to secure them, refusable only for a genuinely bad-faith application. Section 257 then structures how the case is actually argued: the prosecution goes first because it carries the burden, the defence gets the last word in reply, and the one exception — argument on a specific point of law the defence raises — lets the prosecution respond to legal argument even after the defence has notionally had the final say on the facts.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 255 appears to track CrPC section 232 (acquittal), BNSS section 256 appears to track CrPC section 233 (entering upon defence), and BNSS section 257 appears to track CrPC section 234 (arguments). All three read as substantively continuous with their CrPC predecessors — no significant departure is flagged for this cluster, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct At the close of the prosecution's evidence, the Judge finds the evidence technically touches every element of the offence but considers it highly unreliable and likely to be disbelieved at the end of trial. He nonetheless proceeds to call on the accused for his defence rather than acquitting under section 255.
+::: ruling Proceeding to the defence stage is consistent with section 255
+Section 255 requires acquittal only where there is no evidence that the accused committed the offence — evidence that exists but is weak or likely to be disbelieved is still evidence for this purpose. The Judge's assessment of its ultimate reliability belongs at the judgment stage under section 258, not at the section 255 checkpoint.
+:::
+::::
+
+:::: instinct The defence applies to compel the attendance of a witness. The Judge refuses, stating only that "the trial has gone on long enough," without recording any finding about vexation, delay, or defeating the ends of justice.
+::: ruling The refusal does not satisfy section 256(3)
+Section 256(3) requires the Judge to issue the process sought unless he records reasons that the application is aimed at vexation, delay, or defeating the ends of justice. A bare invocation of trial length, without a recorded finding tied to one of those three grounds, does not meet the section's exception — the same principle already seen applied to witness recall under section 240(a).
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. This author is not confident enough of a specific, correctly-cited Supreme Court ratio tied precisely to the section 255 "no evidence" acquittal standard or the section 256(3)/257 mechanics, as distinct from the broader discharge jurisprudence already covered under Prafulla Kumar Samal in the ss.250–251 cluster, to promote one here without risking a misremembered reference. Flagged as a research gap for a dedicated verification pass.*
+
+#### Sword and shield
+
+As a **shield**, section 255 protects an accused from having to mount a defence at all where the prosecution's case, even taken at its highest, discloses no evidence of guilt; section 256(3) then shields the defence's own evidence-gathering with the same recorded-reasons protection the prosecution enjoys under section 253. As a **sword**, the defence presses section 255 at the close of the prosecution's case wherever a genuine evidentiary gap exists — not merely a weak case — and section 257's proviso is the prosecution's sword for the narrow purpose of meeting a legal argument the defence raises in its final reply, rather than reopening the facts.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; it governs the sequence of the trial's evidence and argument phases, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 256(3) interlocks directly with section 253 (compulsory process for the prosecution, this chapter, already built) as its mirror-image provision for the defence, and with section 240(a)'s recorded-reasons witness-recall safeguard (Chapter XVIII, already built) as the same underlying discipline applied in a different procedural setting. Section 257 interlocks with section 258 (judgment, next in this chapter) as the argument stage that immediately precedes it.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. At the close of the prosecution's evidence, press for acquittal under section 255 wherever there is a genuine gap in the evidence on an essential element — not merely where the evidence is weak, which is an argument for closing submissions rather than this checkpoint.
+2. Where a defence application for compulsory process under section 256(3) is refused, check the order for an actual recorded finding tied to vexation, delay, or defeating the ends of justice — its absence is a preservable point for appeal.
+3. Structure closing submissions with section 257's sequence in mind — raise points of law clearly enough in the defence's reply to trigger the proviso deliberately, rather than leaving the prosecution an opening to characterise routine factual argument as a point of law.
+4. Keep the record clear on whether a written statement under section 256(2) was actually filed — its absence or presence can matter later if the point becomes contested on appeal.
+
+---
