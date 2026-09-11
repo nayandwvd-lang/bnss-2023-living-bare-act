@@ -101,3 +101,106 @@ Section 276(1) interlocks directly with section 229 (Chapter XVII, already built
 4. Remember conviction on any guilty plea — in person or by post — remains discretionary; a client should never be advised that pleading guilty guarantees a particular outcome.
 
 ---
+
+## Sections 277–278 — Evidence without a formal charge to anchor it, and a conviction power that survives a mismatched complaint
+
+### The dispute this solves
+
+::: oneminute Where the accused hasn't pleaded guilty under section 275 or 276, section 277 opens the evidence stage — and because there was never a formal charge in the first place, both sides simply present what they have: the Magistrate hears the prosecution and takes its evidence, then hears the accused and takes his defence evidence, with compulsory process available to either side on application and a discretion to require witness expenses be deposited first. Section 278 closes the trial: not guilty means acquittal; guilty (and not diverted under sections 364 or 401) means sentence according to law. Section 278(3) is this cluster's structurally interesting piece — because there was no formal charge to begin with, the Magistrate is given an unusually wide power to convict the accused of *any* offence triable under this chapter that the admitted or proved facts show he committed, regardless of what the original complaint or summons actually specified, so long as the Magistrate is satisfied the accused would not be prejudiced by the mismatch.
+:::
+
+::: story A summons for one offence, evidence proving a related but different one
+A summons-case is initiated alleging simple hurt. At trial, the evidence actually establishes criminal intimidation instead — a different offence, but one triable under this chapter, arising from the same facts as originally put to the accused, who has had full opportunity to meet the case actually proved against him. The Magistrate, invoking section 278(3), convicts the accused of the criminal-intimidation offence the facts actually establish, rather than acquitting him simply because the summons named a different offence — satisfied, on the trial record, that the accused was not prejudiced by trying and meeting the case as it actually unfolded.
+:::
+
+> **277. (1)** If the Magistrate does not convict the accused under section 275 or section 276, the Magistrate [[!shall]] proceed to hear the prosecution and take all such evidence as may be produced in support of the prosecution, and also to hear the accused and take all such evidence as he produces in his defence.
+>
+> **(2)** The Magistrate [[?may]], if he thinks fit, on the application of the prosecution or the accused, issue a summons to any witness directing him to attend or to produce any document or other thing.
+>
+> **(3)** The Magistrate [[?may]], before summoning any witness on such application, require that the reasonable expenses of the witness incurred in attending for the purposes of the trial be deposited in Court.
+>
+> **278. (1)** If the Magistrate, upon taking the evidence referred to in section 277 and such further evidence, if any, as he may, of his own motion, cause to be produced, finds the accused not guilty, he [[!shall]] record an order of acquittal.
+>
+> **(2)** Where the Magistrate does not proceed in accordance with the provisions of section 364 or section 401, he [[!shall]], if he finds the accused guilty, pass sentence upon him according to law.
+>
+> **(3)** A Magistrate [[?may]], under section 275 or section 278, convict the accused of any offence triable under this Chapter, which from the facts admitted or proved he appears to have committed, whatever may be the nature of the complaint or summons, if the Magistrate is satisfied that the accused would not be prejudiced thereby.
+
+::: proviso Section 277's evidence stage treats both sides symmetrically because there is no charge to anchor asymmetric procedure
+Sections 265–266 and 277's warrant-case equivalents build the prosecution and defence evidence stages as sequential and distinct, keyed off a formally framed charge. Section 277(1) states both duties — hearing the prosecution and hearing the accused — in a single sub-section, reflecting the lighter, less formally sequenced structure a summons-case's absence of a formal charge allows.
+:::
+
+::: proviso Section 278(3)'s conviction power is bounded by the no-prejudice condition, not left open-ended
+The power to convict of a differently-described offence is not a licence to convict of anything the facts happen to show — it is expressly conditioned on the Magistrate being satisfied the accused would not be prejudiced by the mismatch between what was charged or summonsed and what was actually proved. Where the accused's defence would plainly have been conducted differently had the actual offence been specified from the outset, this condition is not met.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A summons-case has not resolved by guilty plea under section 275 or 276 — how does the trial proceed to judgment?"
+  :gates="[
+    { q: 'Has the Magistrate heard both the prosecution\'s evidence and the accused\'s defence evidence under section 277?',
+      no: 'The evidence stage is not yet complete; judgment under section 278 cannot follow' },
+    { q: 'On that evidence, does the Magistrate find the accused not guilty?',
+      no: 'The Magistrate proceeds to sentence under section 278(2), subject to sections 364/401' },
+    { q: 'Do the facts admitted or proved show the accused committed a different offence triable under this Chapter than the one originally specified?',
+      note: 'Section 278(3) allows conviction on the offence actually shown, not just the one named in the complaint or summons',
+      no: 'The conviction, if any, tracks the offence as originally specified' }
+  ]"
+  result="Where the facts show a different chapter-triable offence than originally specified, the Magistrate may convict the accused of that offence instead — but only if satisfied the accused would not be prejudiced by the mismatch between what was charged or summonsed and what was actually proved"
+  resultKind="discretionary"
+  caveat="The no-prejudice condition is the operative safeguard — this is not a general licence to convict of any offence the evidence happens to disclose." />
+
+### In plain English
+
+Because a summons-case never had a formally drafted charge to lock the trial into a specific legal description of the offence, sections 277 and 278 let the substance of what actually happened, and what was actually proved, do more of the work than the label originally attached to the case. Section 277 just runs the trial — prosecution case, then defence case, both with compulsory-process rights. Section 278 decides it, with a genuinely flexible power at 278(3): convict of the offence the facts show, not necessarily the one on the summons, provided the accused had a fair opportunity to meet the case that was actually proved against him.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 277 appears to track CrPC section 254 (procedure when not convicted), and BNSS section 278 appears to track CrPC section 255 (acquittal or conviction), including its own sub-section (3) flexible-conviction power. No significant departure is flagged for this cluster — the mechanism reads as substantively continuous with its CrPC predecessor, though this has not been independently cross-checked clause-by-clause. The cross-reference to sections 364 and 401 in section 278(2) is drawn directly from the bare Act text; both sections are ⚠️ not yet built in this repository.*
+
+### Test your instinct
+
+:::: instinct At trial in a summons-case originally alleging simple hurt, the evidence instead proves an entirely unrelated offence of theft from a different incident the accused was never asked about.
+::: ruling Section 278(3) would not likely support a conviction here
+Section 278(3)'s power is conditioned on the Magistrate being satisfied the accused would not be prejudiced by convicting him of a differently-described offence. An entirely unrelated offence, arising from facts the accused was never put on notice of or given an opportunity to meet, is precisely the kind of mismatch the no-prejudice condition is designed to catch.
+:::
+::::
+
+:::: instinct The Magistrate, having heard both sides' evidence under section 277, decides sua sponte to call for further evidence before deciding the case.
+::: ruling Section 278(1) expressly contemplates this
+Section 278(1) refers to "the evidence referred to in section 277 and such further evidence, if any, as he may, of his own motion, cause to be produced" — the Magistrate's own-motion power to call further evidence before judgment is built directly into the acquittal/conviction decision, not an irregular departure from it.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, the no-prejudice condition in section 278(3) protects the accused from being convicted of an offence he never had fair notice of or opportunity to defend against, even though the section otherwise permits flexibility in what he can be convicted of. As a **sword**, the prosecution can invoke section 278(3) to avoid an acquittal purely on a technical mismatch between the offence named in the complaint or summons and the offence the evidence actually establishes — provided the trial record shows the accused's defence was not, in substance, different from what it would have been had the correct offence been specified from the outset.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; it governs the evidence and judgment stages of a trial already underway, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 278(2)'s cross-references to sections 364 and 401 are flagged ⚠️ not yet built in this repository, mirroring the identical cross-reference already flagged in section 271(2) (this chapter's warrant-case counterpart, Chapter XX, already built). Section 278(3)'s flexible-conviction logic echoes, at a structural level, the minor-offence conviction power at section 245 (Chapter XVIII, already built), though section 245 operates against a formally framed charge while section 278(3) operates in the formal-charge-free environment of this chapter.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where the trial evidence in a summons-case begins to diverge from the offence originally specified, flag section 278(3) early — both to argue prejudice if defending, and to preserve the conviction-on-facts-proved argument if prosecuting.
+2. Build the trial record deliberately on the prejudice question if section 278(3) is in play — specifically address whether the accused's defence would have differed had the actual offence been named from the start.
+3. Confirm any request for witness-expense deposit under section 277(3) is resolved before the witness is summoned, to avoid later disputes about admissibility of that witness's evidence.
+4. Do not assume section 278(1)'s reference to further evidence "of his own motion" licenses an open-ended reopening of the case — treat it as a discrete, judgment-stage power, not a standing invitation to relitigate.
+
+---
