@@ -193,3 +193,101 @@ Section 250(1) interlocks directly with section 232 (committal, Chapter XVII, al
 4. Track the sixty-day charge-framing clock under section 251(1)(b) separately from the discharge window — the two run from different trigger dates and neither substitutes for the other.
 
 ---
+
+## Sections 252–254 — The plea, the date fixed for evidence, and how prosecution evidence is actually taken
+
+### The dispute this solves
+
+::: oneminute Once the charge is framed and read under section 251(2), the accused's answer forks the trial. If he pleads guilty, section 252 lets the Judge record that plea and, in his discretion, convict on it directly — a plea of guilty is not an automatic conviction; the Judge retains a real choice. If the accused refuses to plead, stays silent, claims to be tried, or is simply not convicted under section 252 despite a guilty plea, section 253 takes over: the Judge fixes a date for examining witnesses, and may, on the prosecution's application, issue process to compel a witness's attendance or a document's production. Section 254 then governs how that evidence is actually taken on the date fixed — all evidence in support of the prosecution is to be taken, with a proviso opening the door to recording witness evidence by audio-video electronic means, a specific allowance for taking any public servant's deposition that way, and a discretion letting the Judge defer a witness's cross-examination until others have been examined, or recall a witness for further cross-examination.
+:::
+
+::: story A plea that wasn't accepted, and a witness recalled mid-trial
+An accused, when asked to plead under section 251(2), states that he pleads guilty. The Judge, however, notices the accused appears confused about the nature of the charge and declines to convict on the plea, instead directing the case to proceed as though the accused had claimed to be tried. Section 253 now applies: the Judge fixes a date for the prosecution's witnesses, and on the prosecution's application issues summons compelling a reluctant eyewitness to appear. On the date fixed, the prosecution's first witness — a forensic officer who is also a public servant — gives her deposition over audio-video electronic means under section 254(2). Midway through the prosecution's evidence, the defence seeks to recall an earlier witness for further cross-examination in light of testimony that has since emerged; the Judge, exercising his discretion under section 254(3), permits it.
+:::
+
+> **252.** If the accused pleads guilty, the Judge [[!shall]] record the plea and [[?may]], in his discretion, convict him thereon.
+>
+> **253.** If the accused refuses to plead, or does not plead, or claims to be tried or is not convicted under section 252, the Judge [[!shall]] fix a date for the examination of witnesses, and [[?may]], on the application of the prosecution, issue any process for compelling the attendance of any witness or the production of any document or other thing.
+>
+> **254. (1)** On the date so fixed, the Judge [[!shall]] proceed to take all such evidence as may be produced in support of the prosecution:
+>
+> *Provided that* evidence of a witness under this sub-section [[?may]] be recorded by audio-video electronic means.
+>
+> **(2)** The deposition of evidence of any public servant [[?may]] be taken through audio-video electronic means.
+>
+> **(3)** The Judge [[?may]], in his discretion, permit the cross-examination of any witness to be deferred until any other witness or witnesses have been examined or recall any witness for further cross-examination.
+
+::: proviso Section 252's "may convict" preserves the Judge's discretion even on an unequivocal guilty plea
+A plea of guilty does not, by itself, produce a conviction. Section 252 requires the plea to be recorded in every case, but the decision to convict on it is discretionary — a Judge who has doubts about whether the plea is genuine, voluntary, or fully understood is not obliged to convict on it, and may instead direct the case to proceed as though the accused claimed to be tried, triggering section 253.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="The charge has been read and explained under section 251(2) — what happens next depends on how the accused answers?"
+  :gates="[
+    { q: 'Does the accused plead guilty?',
+      note: 'Section 252 requires the plea to be recorded regardless of what happens next',
+      no: 'Section 253 applies directly — a date is fixed for examining witnesses' },
+    { q: 'Does the Judge, in his discretion, convict on that guilty plea?',
+      note: 'Section 252 leaves this to the Judge\'s discretion even where the plea itself was unequivocal',
+      no: 'The case proceeds under section 253 as though the accused had claimed to be tried' }
+  ]"
+  result="A guilty plea is always recorded, but only results in a conviction where the Judge, in his discretion, chooses to convict on it; short of that, the trial proceeds to a fixed date for prosecution evidence under section 253, taken under section 254's procedure — including, where the Judge permits it, by audio-video electronic means"
+  resultKind="discretionary"
+  caveat="Section 254(2)'s audio-video allowance for a public servant's deposition applies independently of section 254(1)'s general proviso for witness evidence — a public servant's evidence may be taken this way even where the Judge has not made a general order under section 254(1)'s proviso." />
+
+### In plain English
+
+This cluster is the trial's actual evidence-taking machinery. A guilty plea is not a shortcut the accused can force — the Judge has to actually be satisfied enough to exercise his discretion in favour of convicting on it, and if he is not, the case simply proceeds to a full hearing of evidence rather than stalling. Once evidence is going to be heard, section 253 gives the Judge the tools to actually get witnesses and documents before the Court, using compulsory process where needed. Section 254 then modernises how that evidence can be taken — witnesses, and specifically public servants, can testify over video rather than needing to be physically present — while preserving the Judge's control over the order of cross-examination, letting him defer it or allow a witness back for more of it if fairness or the flow of the trial calls for that.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 252 appears to track CrPC section 229 (conviction on plea of guilty), BNSS section 253 appears to track CrPC section 230 (date for prosecution evidence), and BNSS section 254 appears to track CrPC section 231 (evidence for prosecution). The audio-video electronic means allowances in section 254(1)'s proviso and section 254(2) are flagged as likely genuine BNSS-era additions, consistent with this Sanhita's broader pattern of building electronic-means options into procedures that were silent on the point under the CrPC — not independently verified against the CrPC bare Act, which is outside this repository's corpus.*
+
+### Test your instinct
+
+:::: instinct The accused pleads guilty. The Judge, satisfied the plea is genuine, voluntary and fully understood, convicts him on the plea alone without taking any prosecution evidence.
+::: ruling The conviction is within section 252's discretion
+Section 252 expressly permits the Judge to convict on a guilty plea in his discretion, without requiring prosecution evidence to be taken first. Where the Judge is satisfied the plea is genuine and understood, convicting on it directly is a proper exercise of the power the section confers, not a shortcut requiring further justification.
+:::
+::::
+
+:::: instinct A prosecution witness, a police officer who is a public servant, is permitted to give her deposition over audio-video electronic means, despite the defence's objection that the general proviso to section 254(1) was never separately invoked by the Judge.
+::: ruling The objection does not defeat the deposition
+Section 254(2) independently permits any public servant's deposition to be taken through audio-video electronic means, without needing to be routed through section 254(1)'s general proviso for witness evidence. The two allowances operate on separate footings.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this cluster. This author is aware that Supreme Court jurisprudence on the discretion to convict on a guilty plea (including caution required in serious offences) is well developed, but is not confident enough of a specific citation's exact reporter and year to promote it without risking a fabricated or misremembered reference. Flagged as a research gap for a dedicated verification pass.*
+
+#### Sword and shield
+
+As a **shield**, section 252's discretionary "may convict" protects an accused from being bound by a guilty plea the Judge himself doubts is genuine, voluntary or understood — the defence can press the Judge to decline conviction on the plea where any of those elements is in doubt. As a **sword**, the prosecution uses section 253's compulsory process to secure reluctant witnesses and documents, and section 254(1)/(2)'s audio-video allowances to bring evidence before the Court — including from public servants stationed elsewhere — without the delay of arranging physical attendance; the defence's countervailing tool is section 254(3)'s deferred-cross-examination or recall discretion, useful where a witness's evidence only makes full sense once later evidence is in.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; it governs the trial's evidence-taking mechanics, not a filing deadline.
+
+#### Interlocking matrix
+
+Section 252 interlocks directly with section 251(2) (the read-and-explain-and-plea step, this chapter, already built) as its trigger. Section 253's compulsory-process power interlocks with the general witness-summoning and warrant framework of Chapter VI (already built). Section 254's audio-video allowances interlock with the evidence framework under the Bharatiya Sakshya Adhiniyam, 2023 ⚠️ *not yet built in this repository as of this rendering.*
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a guilty plea is recorded, check the record for any indication of the Judge's basis for exercising discretion to convict (or not) — a bare recording of the plea followed by conviction, with no reasoning, is a weaker record to defend on appeal.
+2. Where audio-video electronic means are used for a witness's evidence, confirm whether it is a public servant (section 254(2), independently available) or another witness (section 254(1)'s proviso, general allowance) — the two routes are not interchangeable in how they are invoked.
+3. Where cross-examination of a witness is deferred under section 254(3), track the reason on record — an unexplained, prejudicial delay in completing cross-examination is a point worth preserving for appeal.
+4. Where compulsory process under section 253 is sought, ensure the application actually identifies the witness or document and the relevance to the prosecution's case — a bare request invites refusal or delay.
+
+---
