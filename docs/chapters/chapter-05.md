@@ -867,3 +867,109 @@ No independent limitation period attaches; the practical clock is evidentiary �
 
 ---
 
+## Section 54 — Identification of person arrested
+
+### The dispute this solves
+
+::: oneminute A test-identification parade is not the trial — it is a memory check conducted early enough that the courtroom identification, months later, actually means something.
+An eyewitness who says, for the first time in the witness box, "yes, that is the man" — a year after the offence, with the accused sitting alone in the dock, dressed as an accused, having already been named in the chargesheet — is an identification whose evidentiary weight collapses under the slightest scrutiny. It proves the witness can recognise a face associated with the case file. It proves almost nothing about whether the witness could actually pick that face out of a crowd of strangers. Section 54 exists to generate the earlier, harder test: a court-directed parade, conducted before the file has fixed anyone's memory, where the witness must identify the arrested person from among others. It is deliberately not conclusive proof of guilt by itself — it is a tool for testing whether the courtroom identification, when it eventually comes, deserves to be believed.
+:::
+
+::: story The witness who had only glimpsed the thief
+A theft occurs at night; the sole witness caught only a brief look at the culprit's face under poor lighting. Weeks later, a suspect is arrested. The investigating officer, rather than simply parading the suspect before the witness at the police station, applies to the jurisdictional court under section 54 for a formal test identification, mixing the suspect among other similarly-dressed persons the witness has never seen before, so that a correct pick genuinely tests the witness's memory rather than merely confirming what the police already believe.
+:::
+
+> **54. Identification of person arrested.**—Where a person is arrested on a charge of committing an offence and his identification by any other person or persons is considered necessary for the purpose of investigation of such offence, the Court having jurisdiction [[?may]], on the request of the officer in charge of a police station, direct the person so arrested to subject himself to identification by any person or persons in such manner as the Court may deem fit:
+>
+> Provided that if the person identifying the person arrested is mentally or physically disabled, such process of identification [[!shall]] take place under the supervision of a Magistrate who [[!shall]] take appropriate steps to ensure that such person identifies the person arrested using methods that person is comfortable with and the identification process [[!shall]] be recorded by any audio-video electronic means.
+>
+> ::: proviso The disability proviso is a new, deliberately protective addition
+> The core identification-parade mechanism is not new, but the proviso is: it does not exist in the unamended CrPC's identification provision at all. For a witness who is mentally or physically disabled, the ordinary parade format is displaced entirely — a Magistrate must personally supervise, adapt the method to what the witness can actually manage, and the whole process must be captured on audio-video. Treat this as mandatory, not aspirational: an identification of an arrested person conducted by a disabled witness without Magistrate supervision and video recording is vulnerable to challenge on this ground alone, independent of whatever the witness actually says.
+> :::
+
+<MicroTree
+  input="An arrested person's identification by a witness is being considered for investigative purposes. What does section 54 require?"
+  :gates="[
+    { q: 'Has the officer in charge of the police station applied to the jurisdictional Court for a direction, rather than simply arranging an informal identification at the station?', note: 'Section 54’s formal parade mechanism is engaged, with the Court directing the manner of identification.', no: 'An identification arranged without a Court direction sits outside section 54 altogether and will carry markedly less evidentiary weight if challenged.' },
+    { q: 'Is the identifying witness mentally or physically disabled?', note: 'The proviso applies in full: Magistrate-supervised, witness-comfortable methods, and mandatory audio-video recording of the entire process.', no: 'The ordinary, Court-directed parade format governs; the disability proviso does not apply.' }
+  ]"
+  result="Whether the identification was properly Court-directed, and — for a disabled witness — whether the mandatory supervision and recording safeguards were followed, is established before the identification's result is relied upon at trial."
+  resultKind="discretionary"
+  caveat="A test identification parade, however carefully conducted, is not by itself substantive evidence of guilt — its value is corroborative, and a court identification made for the first time at trial still requires independent assessment of its own reliability."
+/>
+
+### In plain English
+
+Section 54 lets the investigating side ask a court to formally test whether a witness can actually pick the arrested person out from among others — rather than simply asserting that the witness recognises him. The court decides the manner of the parade; the section does not prescribe a rigid format itself, leaving the mechanics (how many other persons, how they are dressed, how the parade is conducted) to be worked out sensibly on the facts. The one thing the section does prescribe in detail is what happens when the identifying witness is mentally or physically disabled: no default parade format will do, a Magistrate must step in to supervise and adapt the process to what that witness can manage, and the whole thing must be captured on video — precisely because a disabled witness's identification is otherwise unusually easy to attack as unreliable or unfairly conducted.
+
+### What changed from the CrPC
+
+BNSS section 54 corresponds to CrPC section 54A. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+This is **renumbered with a substantive addition** — the core Court-directed identification mechanism reproduces CrPC section 54A largely unchanged, but the entire disability proviso (Magistrate supervision, witness-comfortable methods, mandatory audio-video recording) is new statutory text with no CrPC-era counterpart, reflecting a more recent and specific concern for disabled witnesses' participation in criminal investigation that the unamended CrPC did not address.
+
+### Test your instinct
+
+:::: instinct The disabled witness identified the suspect without any Magistrate present
+A witness who is visually impaired is asked to identify an arrested person by touch, at the police station, with no Magistrate present and no recording made. The witness makes a confident identification.
+::: ruling What actually happens
+The proviso to section 54 is not optional machinery for a disabled witness — it displaces the ordinary parade format entirely and requires Magistrate supervision, witness-appropriate methods, and mandatory audio-video recording. An identification conducted without any of these safeguards falls outside what section 54 authorises for a disabled witness, and the confidence of the identification itself does not cure the procedural defect; the identification is vulnerable to exclusion or, at minimum, sharply diminished weight on this ground alone.
+:::
+::::
+
+:::: instinct The defence argues the parade result should decide the case
+The prosecution relies heavily on a successful section 54 identification, arguing that since the witness correctly picked the accused from the parade, the identification alone establishes guilt.
+::: ruling What actually happens
+A test identification parade is a rule of prudence developed to test the reliability of a witness's memory before trial — it is corroborative of a subsequent court identification, not a substitute for it, and is not by itself substantive evidence of guilt. The prosecution must still tender the witness's identification in court and have it assessed on its own merits; the parade result strengthens or weakens that later identification but does not stand in for it.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Malkhansingh v. State of Madhya Pradesh**, (2003) 5 SCC 746. The Supreme Court held that a test identification parade is not substantive evidence but is only a rule of prudence intended to lend assurance to the identification made by a witness in court, that holding such a parade is not a mandatory requirement in every case, and that the real and substantive evidence is the identification made by the witness in the dock, of which the parade is only corroborative.
+
+**Practitioner takeaway.** Never let a favourable section 54 parade result be treated as conclusive proof of identity — it is corroboration for the courtroom identification, and the courtroom identification itself must still be independently tested for reliability (lighting, duration of observation, prior familiarity, time elapsed).
+
+#### Sword and shield
+
+As a **sword**, a properly conducted section 54 parade — mixing the accused genuinely among unconnected persons, conducted promptly after arrest — gives the prosecution a strong corroborative anchor for the later court identification. As a **shield**, the absence of a parade, or a parade conducted improperly (too few or too similar-looking distractor persons, or in a disabled witness's case without the proviso's safeguards), is a live defence point going directly to the reliability of any subsequent court identification, per *Malkhansingh*.
+
+#### The limitation clock
+
+No independent limitation period attaches; the practical concern is promptness — a parade held long after arrest, once the witness may have seen the accused's photograph or the accused in the media, is progressively less probative, and this delay should be raised as a point going to weight at the earliest opportunity.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Investigating officer wants a witness's identification tested formally | Section 54 | Court-directed parade, manner left to the Court's discretion |
+| Identifying witness is mentally or physically disabled | Section 54, proviso | Mandatory Magistrate supervision, adapted methods, audio-video recording |
+| No parade was held at all | — | Not fatal per se (*Malkhansingh*), but the later court identification bears the full evidentiary weight unaided |
+| Parade result relied upon as conclusive of guilt | *Malkhansingh v. State of M.P.* | Rejected — parade is corroborative only, not substantive evidence |
+
+#### The authorities
+
+No further authority is added here beyond *Malkhansingh* — the proposition that a test identification parade is corroborative rather than substantive is settled and consistently applied, and a second citation adds little beyond what the promoted ratio already states with adequate authority.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not argue, for the prosecution, that a successful section 54 parade alone proves identity — plead it as corroboration for the court identification, which must independently be shown reliable.
+2. Do not, for the defence, treat the absence of a parade as automatically fatal to the prosecution's identification evidence — *Malkhansingh* forecloses that argument; instead attack the reliability of the eventual court identification directly.
+3. Do not let a disabled witness's identification proceed without confirming Magistrate supervision, adapted methodology, and audio-video recording — the absence of any one of these is an independent, textually-grounded objection.
+4. Do not delay raising a stale or improperly conducted parade as a weight objection — flag it as early as the identification evidence is sought to be introduced, before the delay itself becomes harder to establish.
+
+**Timing.** Raise a defective-parade objection at the point the identification evidence is tendered, and, for a disabled witness's identification, verify the proviso's safeguards before cross-examination begins rather than after.
+
+**Model checklist for reviewing a section 54 identification:**
+
+1. Confirm the parade was directed by the jurisdictional Court on the police officer's request, not simply arranged informally.
+2. Check how many, and how similar, the other persons in the parade were to the arrested person — a parade with too few or too dissimilar distractors is vulnerable to challenge.
+3. If the identifying witness is disabled, confirm Magistrate supervision, witness-appropriate methods, and audio-video recording of the entire process.
+4. Cross-check the time elapsed between the offence, the arrest, and the parade, and note any intervening exposure of the witness to the accused's image or identity.
+
+---
+
