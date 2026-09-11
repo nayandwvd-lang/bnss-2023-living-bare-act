@@ -67,7 +67,9 @@ export default defineConfig({
         {
           text: 'Police powers',
           collapsed: false,
-          items: []
+          items: [
+            { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' }
+          ]
         },
         { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] },
         {
