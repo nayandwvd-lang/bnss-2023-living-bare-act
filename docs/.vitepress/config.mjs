@@ -91,7 +91,13 @@ export default defineConfig({
             { text: 'Chapter XVIII — The charge (ss. 234–247)', link: '/chapters/chapter-18' }
           ]
         },
-        { text: 'Trial', collapsed: true, items: [] },
+        {
+          text: 'Trial',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XIX — Trial before a Court of Session (ss. 248–260)', link: '/chapters/chapter-19' }
+          ]
+        },
         {
           text: 'Bail and bonds',
           collapsed: false,
