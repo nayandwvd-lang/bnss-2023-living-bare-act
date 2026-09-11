@@ -597,4 +597,106 @@ No independent limitation period governs when a section 482 application must be 
 3. Where a direction has been granted, identify precisely which conditions were attached and confirm compliance before relying on it.
 4. Where arrest has occurred after a direction, confirm the arresting officer and any Magistrate issuing a warrant are put on notice of the section 482(1) direction so sub-section (3) actually operates.
 
+## Section 483 — Special powers of the High Court or Court of Session regarding bail
+
+### The dispute this solves
+
+::: oneminute Section 482 gets a person bail before arrest. Section 483 is what happens once a Magistrate has already ruled — and the higher court has the last word, in both directions.
+A Magistrate's bail order is not the end of the road. Section 483 gives the High Court and the Court of Session a wider, standalone power to grant bail (or to loosen or tighten a Magistrate's conditions) that does not depend on showing the Magistrate went wrong — it is an independent jurisdiction, not an appeal. But the same section also hands the higher court the mirror-image power: to send a person already out on bail back into custody. And for the gravest category of case — one that could end in the death penalty or life imprisonment — the section will not let the Court decide either way without first hearing the Public Prosecutor, and, where the case is one of the two specified BNS offences, without the informant being present too.
+:::
+
+::: story Two applications, two very different outcomes
+Rekha's husband is charged with an offence exclusively triable by the Court of Session; the Magistrate had no power to grant bail at all, so she moves the Court of Session directly under section 483(1)(a). Because the offence carries a possible life sentence, the Court cannot decide her application without first giving the Public Prosecutor a chance to be heard — that is not a courtesy, it is a precondition the section itself imposes, absent a recorded reason why notice was not practicable. Two courtrooms over, Vikram was granted bail by a Magistrate with a condition his lawyer thinks is unnecessarily harsh; he does not need to show the Magistrate erred — section 483(1)(b) lets the Sessions Court simply reconsider the condition on its own wider power. And in a third file, the State moves under section 483(3) to have a bailed accused re-arrested and recommitted after he was seen threatening a witness — the same section that can free a person can just as easily put him back inside.
+:::
+
+> **483. (1)** A High Court or Court of Session [[?may]] direct,—
+>
+> (a) that any person accused of an offence and in custody be released on bail, and if the offence is of the nature specified in sub-section (3) of section 480, [[?may]] impose any condition which it considers necessary for the purposes mentioned in that sub-section;
+>
+> (b) that any condition imposed by a Magistrate when releasing any person on bail be set aside or modified:
+>
+> Provided that the High Court or the Court of Session [[!shall]], before granting bail to a person who is accused of an offence which is triable exclusively by the Court of Session or which, though not so triable, is punishable with imprisonment for life, give notice of the application for bail to the Public Prosecutor unless it is, for reasons to be recorded in writing, of opinion that it is not practicable to give such notice:
+>
+> Provided further that the High Court or the Court of Session [[!shall]], in an application for bail of a person accused of an offence triable under sub-section (3) of section 480 [i.e. punishable under BNS 2023 ⚠️ s. 65 or s. 70(2)], give notice of the application to the Public Prosecutor within fifteen days from the date of receipt of the notice of such application.
+>
+> **(2)** The presence of the informant or any person authorised by him [[!shall]] be obligatory at the time of hearing of the application for bail to the person under sub-section (3) of section 480.
+>
+> **(3)** A High Court or Court of Session [[?may]] direct that any person who has been released on bail under this Chapter be arrested and committed to custody.
+
+::: proviso Notice to the Public Prosecutor is the default, not an option
+For the two most serious categories in sub-section (1) — Sessions-exclusive-triable offences and offences carrying possible life imprisonment — the Court cannot simply decide the bail application on the papers in front of it. The first proviso makes Public Prosecutor notice the rule; skipping it requires the Court to actually record, in writing, why notice was not practicable — a silent file does not satisfy the proviso. The second proviso is narrower and stricter still: for the ⚠️ BNS s. 65 / s. 70(2) category, notice to the Public Prosecutor is not merely required, it is time-bound — within fifteen days of the application being received.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An application is made to the High Court or Court of Session concerning bail already dealt with (or triable exclusively) at that level"
+  :gates="[
+    { q: 'Is the offence triable exclusively by the Court of Session, or punishable with life imprisonment?',
+      note: 'This is the first proviso’s trigger — it is about offence category, not about who already ruled',
+      no: 'The Court may decide the bail application on its ordinary wider power under sub-section (1), without the mandatory Public Prosecutor notice step' },
+    { q: 'Has the Court recorded, in writing, that Public Prosecutor notice is not practicable?',
+      note: 'Silence does not count — the proviso requires an actual recorded reason before notice can be skipped',
+      no: 'The Court must give the Public Prosecutor notice of the application before deciding it' },
+    { q: 'Is the offence one triable under section 480(3) — the ⚠️ BNS s. 65 / s. 70(2) category?',
+      note: 'This triggers both the fifteen-day Public Prosecutor notice clock in the second proviso and the informant’s mandatory presence under sub-section (2)',
+      no: 'No additional victim-participation or time-bound notice requirement applies under this section' }
+  ]"
+  result="The application may be decided — granting bail, varying a Magistrate’s conditions, or (under sub-section (3)) sending a bailed person back into custody"
+  resultKind="discretionary"
+  caveat="Section 483 is an independent jurisdiction, not an appeal against the Magistrate’s order — the High Court or Court of Session does not need to find the Magistrate wrong to exercise it" />
+
+### In plain English
+
+Section 483 is the higher courts' all-purpose bail toolkit, cutting both ways. Sub-section (1)(a) lets a High Court or Court of Session grant bail directly — most often where the offence is one only that court can try in the first place, so no Magistrate could have granted it. Sub-section (1)(b) lets the same courts revisit and soften (or, implicitly, tighten) a Magistrate's bail conditions without needing to sit in appeal. The two provisos exist because the stakes rise with the offence: the graver the charge, the less a court is allowed to decide unilaterally without the prosecution's input, and for the narrowest, most serious category, that input is not just required but clocked. Sub-section (2) gives the complainant a seat at the table for that same narrow category. Sub-section (3) is the reverse gear — the same wide power that frees a person can also, on fresh grounds, send him back.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS s. 483 tracks CrPC s. 439 closely in structure — the (1)(a)/(1)(b) split, the Public Prosecutor notice proviso, and the section 439(2)-equivalent re-arrest power in sub-section (3) all appear to carry over largely unchanged. Sub-section (2)'s mandatory informant presence at the hearing appears to track CrPC s. 439(1A), inserted by the Criminal Law (Amendment) Act, 2018 in response to the Nirbhaya-era reforms — if so, this is continuity of a relatively recent CrPC provision rather than a wholly new BNSS innovation, but the exact 2018 text should be checked against this rendering before relying on the comparison. The second proviso's fifteen-day Public Prosecutor notice clock for the BNS s. 65/s. 70(2) category has not been located in the pre-2018 or post-2018 CrPC s. 439 text and may be a genuine BNSS addition — flagged for verification rather than asserted either way.*
+
+### Test your instinct
+
+:::: instinct The Sessions Court grants bail to a person accused of an offence punishable with life imprisonment, without issuing notice to the Public Prosecutor, and the order does not record any reason why notice was skipped.
+::: ruling Bail order vulnerable to challenge
+The first proviso to section 483(1) does not merely encourage Public Prosecutor notice for this category of offence — it makes notice mandatory unless the Court records, in writing, why notice was not practicable. An order silent on that point has not satisfied the proviso's own condition, and is exposed to challenge on that ground alone, independent of the merits of the bail decision itself.
+:::
+::::
+
+:::: instinct A High Court, exercising its section 483(1)(b) power, modifies a bail condition imposed by a Magistrate — making it less strict — without any fresh evidence of changed circumstances.
+::: ruling Within power, because this is not an appeal
+Section 483(1)(b) does not require the High Court to find the Magistrate erred, and it does not require new facts — it is a free-standing power to revisit conditions, not a corrective appellate jurisdiction confined to the original record. The absence of "changed circumstances" is not, by itself, a defect in the exercise of this power, though it may bear on how persuasively the Court explains its reasoning.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Section 483 is largely a jurisdiction-and-procedure provision — the propositions likely to matter in practice (the mandatory character of Public Prosecutor notice, the non-appellate nature of the power) are close readings of the text itself rather than doctrine requiring a promoted authority. Advocates should independently verify whether recent decisions on CrPC s. 439(1A) informant-presence compliance remain good law before relying on any specific citation.*
+
+#### Sword and shield
+
+As a **sword**, section 483 is the direct route to the Court of Session or High Court for an accused facing a Sessions-exclusive or life-imprisonment offence, where no Magistrate could have granted bail in the first place — and the route to loosen an unreasonably strict Magistrate condition without needing to show error. As a **shield**, the prosecution's sword: sub-section (3) is the State's route to re-arrest and recommit a person already on bail, on fresh grounds such as witness tampering or bond violation, without waiting for a fresh trial-court application.
+
+#### The limitation clock
+
+No independent limitation period attaches to a section 483 application itself. The second proviso's fifteen-day window runs the other way — it binds the Court to give Public Prosecutor notice within fifteen days of receiving a BNS s. 65/s. 70(2)-category application, not the applicant.
+
+#### Interlocking matrix
+
+Section 483(1)(a)'s reference to "the nature specified in sub-section (3) of section 480" pulls in the mandatory-condition regime built for regular non-bailable bail; section 483(2)'s informant-presence rule and the second proviso both hinge on the same ⚠️ BNS s. 65/s. 70(2) category defined by cross-reference to section 480(3). Section 483(3)'s re-arrest power interlocks with section 491's bond-forfeiture machinery — re-arrest and forfeiture are separate consequences that can both follow from the same breach.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster. Decisions on CrPC s. 439(1A) compliance (mandatory informant/victim notice) would be the natural body of authority to consult once the BNSS s. 483(2) mapping above is independently confirmed — flagged rather than cited, since no specific citation is held with confidence.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm whether the application is a fresh section 483(1)(a) application (no Magistrate had power to grant bail) or a section 483(1)(b) variation of an existing Magistrate order — the drafting and framing differ.
+2. For Sessions-exclusive or life-imprisonment offences, confirm Public Prosecutor notice was given, or that the order records in writing why it was not practicable — an unrecorded skip is a ready ground of challenge.
+3. For the ⚠️ BNS s. 65/s. 70(2) category, confirm both the fifteen-day Public Prosecutor notice clock and the informant's presence at the hearing — two independent, cumulative requirements, not alternatives.
+4. Where seeking re-arrest under sub-section (3), build the fresh-grounds record carefully — this is not a re-run of the original bail hearing, and the application should be framed around what has changed since release.
+
 ---
