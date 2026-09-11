@@ -1091,3 +1091,114 @@ No further authority is added here beyond *Khatri* — the twenty-four-hour prod
 
 ---
 
+## Sections 60–62 — Discharge, escape and re-arrest, and the closing rule of legality
+
+### The dispute this solves
+
+::: oneminute Every power this chapter has granted is closed off, in its very last section, by a single sentence: none of it may be exercised except exactly as this Sanhita, or another law, actually provides.
+Chapter V has built a considerable machine — grounds for arrest, notice in lieu of arrest, arrest mechanics, handcuffing, medical examination, identification, custodial timelines. This final cluster does three things to finish it. It fixes how a person already validly in custody gets out of it: only on a bond, a bail bond, or a Magistrate's special order — never informally, never by an officer simply deciding to let him go. It answers what happens if custody fails — an escape or a rescue — by giving the person who lost custody an immediate, cross-jurisdictional power to chase and retake, borrowing the same search machinery used to find a person in the first place. And it closes with a rule that reads almost as a summary of everything that came before it: no arrest may be made except strictly in accordance with this Sanhita, or any other law providing for arrest — a rule against inventing new arrest powers by practice, convenience, or improvisation.
+:::
+
+::: story The constable who let him go for a "small favour"
+A constable, having lawfully arrested a man for a minor cognizable offence, is persuaded — informally, off the books — to simply release him without any bond, bail bond, or reference to a Magistrate, on the promise that he will "sort it out later." When this comes to light, the question is not whether the original arrest was lawful; it plainly was. The question is whether an arresting officer has any power at all to discharge someone this way. Section 60's answer is a flat no — and section 62's closing rule explains why: nothing in the Sanhita gives an officer power to release, or to arrest, or to do anything in between, except exactly as it is written.
+:::
+
+> **60. Discharge of person apprehended.**—No person who has been arrested by a police officer [[!shall]] be discharged except on his bond, or bail bond, or under the special order of a Magistrate.
+>
+> **61. Power, on escape, to pursue and retake.**—(1) If a person in lawful custody escapes or is rescued, the person from whose custody he escaped or was rescued [[?may]] immediately pursue and arrest him in any place in India.
+>
+> (2) The provisions of section 44 [[!shall]] apply to arrests under sub-section (1) although the person making any such arrest is not acting under a warrant and is not a police officer having authority to arrest.
+>
+> ::: proviso Section 61 lends section 44's search power to someone who is neither a warrant-holder nor a police officer
+> Section 44's search-of-premises power is ordinarily confined to a warrant-holder or a police officer with arrest authority. Section 61(2) is a deliberate, narrow exception: it hands that same power to whoever the escapee's custodian happens to be — which could be a private person who made a valid citizen's arrest under section 40, now chasing down someone who slipped away. Do not assume this borrowed power extends any further than pursuit-and-retake of the specific escapee; it does not create a freestanding search power for any other purpose.
+> :::
+>
+> **62. Arrest to be made strictly according to Sanhita.**—No arrest [[!shall]] be made except in accordance with the provisions of this Sanhita or any other law for the time being in force providing for arrest.
+
+<MicroTree
+  input="A question has arisen about releasing, re-arresting, or the underlying legality of an arrest. Which of ss. 60-62 governs?"
+  :gates="[
+    { q: 'Is the question whether an already-arrested person may simply be let go without formal process?', note: 'Section 60 controls — discharge is permitted only on a bond, a bail bond, or a Magistrate’s special order; there is no informal release power.', no: 'Move to the escape/legality questions below.' },
+    { q: 'Has the arrested person escaped from, or been rescued out of, lawful custody?', note: 'Section 61 gives the person who lost custody an immediate power to pursue and arrest him anywhere in India, borrowing section 44’s search-of-premises power for that specific purpose.', no: 'Section 61 is not engaged.' },
+    { q: 'Is the challenge, at bottom, that no provision of the Sanhita or any other law actually authorised this arrest at all?', note: 'Section 62 is the closing rule that makes this a valid, freestanding objection — an arrest resting on practice or convenience rather than statutory authority is unlawful on this ground alone.', no: 'Section 62’s closing legality rule is not the live issue on these facts.' }
+  ]"
+  result="Whether the issue is an improper informal release, an escape requiring pursuit, or a fundamental absence of statutory authority for the arrest itself, the governing provision among ss. 60-62 is identified precisely."
+  resultKind="mandatory"
+  caveat="Section 62 is not a technicality of last resort — it is the rule against which every other provision in this chapter is ultimately measured; an arrest that complies with none of ss. 35-61's specific powers cannot be rescued by an officer's good faith or the strength of the underlying suspicion."
+/>
+
+### In plain English
+
+Section 60 closes off any informal, off-the-record way of letting an arrested person go — release has to happen through one of exactly three channels: a bond, a bail bond, or a Magistrate's special order. Section 61 deals with the practical problem of custody failing after arrest has already lawfully occurred: if the person escapes or is rescued, whoever had custody of him gets an immediate right to chase him down anywhere in India, and — usefully — is lent the same house-search power an ordinary arresting officer would have, even though the pursuer may be a private citizen rather than a police officer. Section 62 is the chapter's last word, and its simplest: everything this chapter has authorised is exhaustive, not illustrative. If an arrest cannot be justified by pointing to a specific provision of the Sanhita, or some other law that actually permits it, it is not a lawful arrest — no matter how reasonable the suspicion or how well-intentioned the officer.
+
+### What changed from the CrPC
+
+BNSS sections 60, 61 and 62 correspond to CrPC sections 59, 60 and 60A respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** — the discharge-only-on-bond rule and the escape-and-retake power both existed in the CrPC in substantially the same form. Section 62's closing legality rule reproduces CrPC section 60A, itself inserted into the CrPC only by a 2008 amendment as a direct legislative response to concerns about arrests being made outside any statutorily sanctioned power — its presence in the BNSS preserves that same explicit legality anchor at the close of the arrest chapter.
+
+### Test your instinct
+
+:::: instinct The informally released arrestee who was never seen again
+An arrested person is released by the arresting constable on an oral assurance that he will appear later, with no bond taken, no bail bond executed, and no Magistrate involved at any stage. He does not appear later, and no formal process exists to compel him to.
+::: ruling What actually happens
+Section 60 permits discharge only on a bond, a bail bond, or a Magistrate's special order — an oral assurance satisfies none of these. The release itself was unauthorised, independent of whatever consequences follow from the arrested person's later non-appearance; the constable's good-faith belief that this was a reasonable, low-risk shortcut does not supply the statutory authority section 60 requires.
+:::
+::::
+
+:::: instinct An arrest justified only by "we've always done it this way"
+An officer arrests a person on grounds that do not fit within section 35, or any of the other specific arrest powers in this chapter, defending the arrest on the basis that similar arrests have long been made in similar circumstances as a matter of established local practice.
+::: ruling What actually happens
+Section 62 forecloses exactly this argument — an arrest is lawful only if it can be traced to a specific provision of the Sanhita or another law providing for arrest, not to practice, convenience, or precedent internal to a police station. An arrest that cannot be justified this way is unlawful on section 62 grounds alone, regardless of how long-standing or well-intentioned the practice invoked in its defence.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Maneka Gandhi v. Union of India**, (1978) 1 SCC 248. A seven-judge Bench held that the "procedure established by law" depriving a person of personal liberty under Article 21 must itself be fair, just and reasonable, and not arbitrary or oppressive — reading Articles 14, 19 and 21 together as a single, interlocking protection against arbitrary state action affecting liberty.
+
+**Practitioner takeaway.** Section 62's closing rule is the statutory face of *Maneka Gandhi*'s constitutional demand — an arrest resting on anything short of a specifically identifiable statutory power is not merely a procedural irregularity but a deprivation of liberty without the fair, reasoned legal process Article 21 itself requires; plead section 62 and *Maneka Gandhi* together whenever the defence is that no specific power authorised the arrest at all.
+
+#### Sword and shield
+
+As a **shield**, section 60's closed list of discharge mechanisms protects against arrests being used as leverage for informal, unaccountable "arrangements" between an officer and an arrestee — any departure from bond, bail bond, or Magistrate's order is itself irregular. As a **sword**, section 62 hands the defence its most fundamental possible objection — that the arrest was never authorised by law at all — which, if it succeeds, dissolves every downstream question about how the arrest was conducted, since there is no lawful arrest left to examine for compliance with sections 35 through 61.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 60–62. A section 62 legality challenge is best raised at the earliest possible stage — ideally before or at first production — since it is a threshold objection capable of unwinding everything that follows from an unauthorised arrest.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Arrested person is to be let go | Section 60 | Only via bond, bail bond, or a Magistrate's special order |
+| Arrested person escapes or is rescued | Section 61 | Immediate pursuit-and-retake power anywhere in India, borrowing section 44's search power |
+| No specific Sanhita or other-law provision authorises the arrest at all | Section 62 | The arrest is unlawful on this ground alone |
+| Deprivation of personal liberty via an unauthorised arrest | *Maneka Gandhi v. Union of India* | Article 21 demands the underlying procedure itself be fair, just and reasonable |
+
+#### The authorities
+
+No further authority is added here beyond *Maneka Gandhi* — it is the foundational constitutional statement underlying section 62's legality rule, and a second citation would add little that is not already carried by this landmark holding.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not accept an informal, undocumented release as a valid discharge — insist on identifying which of section 60's three channels (bond, bail bond, Magistrate's order) was actually used.
+2. Do not assume section 61's pursuit power authorises a fresh, general search of premises unconnected to retaking the specific escapee — it is borrowed from section 44 only for that narrow purpose.
+3. When no specific arrest power in this chapter fits the facts, raise section 62 as a freestanding, threshold objection — do not bury it inside a discussion of some other provision that may not squarely apply.
+4. Do not treat a section 62 objection as a mere technicality — plead it, per *Maneka Gandhi*, as going to the fairness of the entire deprivation of liberty, not just to a procedural box left unchecked.
+
+**Timing.** Raise a section 62 legality challenge as early as possible — ideally at or before first production — since a successful challenge here can moot the need to litigate compliance with every other provision in this chapter.
+
+**Model checklist for closing out a review of an arrest under Chapter V:**
+
+1. If the person was released before trial, confirm which of section 60's three discharge channels was actually used.
+2. If an escape or rescue occurred, confirm the pursuit was made by the person who actually had custody, and that any search conducted in the course of retaking him stayed within section 44's borrowed limits.
+3. Trace the arrest back to a specific, named provision of this chapter (or another law) — if none fits, raise section 62 as a threshold objection.
+4. Where section 62 is invoked, frame the argument in *Maneka Gandhi* terms — an unauthorised arrest is not a mere irregularity but a failure of the fair, just and reasonable procedure Article 21 demands.
+
+---
+
