@@ -116,3 +116,110 @@ Section 223(1)'s third proviso interlocks directly with section 212 (Chapter XV,
 3. Where the accused is a public servant and the alleged offence concerns official-duty conduct, check section 223(2)'s hearing-and-report gate and section 218's sanction requirement (Chapter XV) as two independent preconditions, not one.
 4. Where a complaint was misdirected to an incompetent Magistrate, confirm the correct section 224 procedure (return with endorsement for a written complaint, direction to the proper Court for an oral one) was followed rather than an improvised alternative.
 
+---
+
+## Sections 225–226 — Postponing process: inquiry, investigation, and dismissal for want of sufficient ground
+
+### The dispute this solves
+
+::: oneminute Examining the complainant under section 223 does not mean process against the accused issues automatically. Section 225 lets — and in one specific circumstance requires — the Magistrate to pause, inquire further himself, or direct an investigation, precisely so that a complaint is properly tested before an accused is even summoned. Section 226 is the natural next step: if that testing leaves the Magistrate unconvinced, he must dismiss the complaint and say briefly why.
+Section 225(1) gives the Magistrate a general discretion to postpone the issue of process and either inquire himself or direct an investigation "for the purpose of deciding whether or not there is sufficient ground for proceeding" — but that discretion hardens into a duty the moment the accused resides beyond the Magistrate's own jurisdiction. Two provisos then restrict how this plays out for offences exclusively triable by a Court of Session: no outside investigation may be directed at all, and if the Magistrate instead holds his own inquiry, he must call for and examine all of the complainant's witnesses, not merely some. A separate proviso bars directing any investigation at all, for a complaint not made by a Court, unless the complainant and any witnesses present have already been examined under section 223. Section 226 then closes the loop: no sufficient ground, after all this, means dismissal — with reasons briefly recorded, not a bare rejection.
+:::
+
+::: story The distant accused, and the Sessions-triable complaint
+A complaint names an accused who lives in another state entirely. Section 225(1) does not leave postponement to the Magistrate's taste here — because the accused resides beyond the area of this Magistrate's own jurisdiction, postponing the issue of process and either inquiring personally or directing an investigation is mandatory, not discretionary, before that distant accused can be dragged into the proceedings at all. In a different case, the offence complained of is one triable exclusively by the Court of Session. The Magistrate cannot simply direct an outside police-style investigation here — section 225(1)'s first proviso rules that out entirely. His only option is to inquire himself, and if he does, section 225(2)'s proviso obliges him to call upon the complainant to produce, and then examine on oath, every one of his witnesses — not a convenient subset.
+:::
+
+> **225. (1)** Any Magistrate, on receipt of a complaint of an offence of which he is authorised to take cognizance or which has been made over to him under section 212, [[?may]], if he thinks fit, and [[!shall]], in a case where the accused is residing at a place beyond the area in which he exercises his jurisdiction, postpone the issue of process against the accused, and either inquire into the case himself or direct an investigation to be made by a police officer or by such other person as he thinks fit, for the purpose of deciding whether or not there is sufficient ground for proceeding:
+>
+> *Provided that no such direction for investigation shall be made,—*
+>
+> *(a) where it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session; or*
+>
+> *(b) where the complaint has not been made by a Court, unless the complainant and the witnesses present (if any) have been examined on oath under section 223.*
+>
+> **(2)** In an inquiry under sub-section (1), the Magistrate [[?may]], if he thinks fit, take evidence of witnesses on oath:
+>
+> *Provided that if it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session, he [[!shall]] call upon the complainant to produce all his witnesses and examine them on oath.*
+>
+> **(3)** If an investigation under sub-section (1) is made by a person not being a police officer, he [[!shall]] have for that investigation all the powers conferred by this Sanhita on an officer in charge of a police station except the power to arrest without warrant.
+>
+> **226.** If, after considering the statements on oath (if any) of the complainant and of the witnesses and the result of the inquiry or investigation (if any) under section 225, the Magistrate is of opinion that there is no sufficient ground for proceeding, he [[!shall]] dismiss the complaint, and in every such case he [[!shall]] briefly record his reasons for so doing.
+
+::: proviso Postponement is discretionary in general, mandatory in one specific circumstance
+Section 225(1)'s own wording carries both a "may" and a "shall" side by side: the Magistrate *may* postpone if he thinks fit in the general run of cases, but *shall* postpone where the accused resides beyond his jurisdiction. This is not a stylistic quirk — it means an accused's distance from the Magistrate's own area converts what would otherwise be a discretionary screening step into a mandatory one.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A complaint has been examined under section 223 — should the Magistrate issue process at once, or is inquiry or investigation required first?"
+  :gates="[
+    { q: 'Does the accused reside beyond the area in which this Magistrate exercises jurisdiction?',
+      note: 'Section 225(1) makes postponing process, and either inquiring or directing an investigation, mandatory here — not discretionary',
+      no: 'Check whether the Magistrate simply thinks postponement is warranted anyway' },
+    { q: 'Does the Magistrate think fit to postpone and inquire or investigate even though the accused is local?',
+      note: 'Section 225(1) still permits this as a matter of discretion',
+      no: 'Process may issue without postponement under this cluster' },
+    { q: 'Is the offence complained of triable exclusively by the Court of Session?',
+      note: 'Section 225(1)’s proviso (a) rules out directing an outside investigation altogether; an inquiry instead requires, under section 225(2)’s proviso, that all of the complainant’s witnesses be produced and examined on oath',
+      no: 'The ordinary section 225(1)/(2) inquiry-or-investigation choice applies without this restriction' }
+  ]"
+  result="Once any inquiry or investigation concludes — or if none was required — section 226 obliges the Magistrate to dismiss the complaint, briefly recording his reasons, unless he is satisfied there is sufficient ground for proceeding"
+  resultKind="mandatory"
+  caveat="Where the complaint was not made by a Court, an investigation cannot be directed at all unless the complainant and any witnesses present were first examined on oath under section 223 — section 225(1)'s proviso (b)." />
+
+### In plain English
+
+Section 225 is the Magistrate's screening pause between examining a complainant and actually summoning an accused. Ordinarily it's his call whether to pause and dig deeper — inquire himself, or send it out for investigation. But if the accused lives outside his own jurisdiction, that pause stops being optional; the statute requires it, so a distant accused isn't dragged into proceedings on an unexamined complaint. For offences that can only be tried by a Court of Session, the Magistrate loses the outside-investigation option entirely and, if he inquires himself instead, has to hear from every witness the complainant offers, not a convenient sample. And an investigation can never be directed at all — for a private complaint — unless the section 223 oath-examination has already happened. Section 226 is simply the honest ending to all of this: if, after everything, there still isn't sufficient ground, the complaint gets dismissed, and the Magistrate has to say briefly why.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 225 appears to track CrPC section 202 (postponement of issue of process) and BNSS section 226 appears to track CrPC section 203 (dismissal of complaint). The mandatory-postponement trigger for an out-of-jurisdiction accused, the Sessions-exclusive-offence provisos, and the reasoned-dismissal requirement all appear substantively continued from the CrPC scheme in this reading, but the correspondence has not been independently cross-checked clause-by-clause. Flagged for verification before relying on the exact CrPC-to-BNSS correspondence in a filing.*
+
+### Test your instinct
+
+:::: instinct A complaint names an accused residing in a different state. The Magistrate issues process immediately, without any inquiry or investigation, reasoning that the complaint appeared credible on its face.
+::: ruling Process was issued prematurely
+Section 225(1) makes postponement — and either an inquiry or a directed investigation — mandatory, not discretionary, precisely because the accused resides beyond the Magistrate's own jurisdiction. The apparent credibility of the complaint does not excuse skipping this step; the statute requires it regardless of how convincing the complaint looks on its face.
+:::
+::::
+
+:::: instinct The offence complained of is exclusively triable by the Court of Session. Rather than inquiring into the matter himself, the Magistrate directs a police officer to investigate it before deciding whether to proceed.
+::: ruling The direction for investigation is barred
+Section 225(1)'s proviso (a) specifically forbids directing an investigation where the offence complained of is exclusively triable by the Court of Session. The Magistrate's only available route in that situation is to inquire into the case himself — and if he does, section 225(2)'s proviso then requires him to call upon the complainant to produce, and examine on oath, all of his witnesses.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Vijay Dhanuka v. Najima Mamtaj, (2014) 14 SCC 638. The Court held that the CrPC's equivalent postponement-and-inquiry provision is mandatory, not discretionary, once it is shown the accused resides outside the area in which the Magistrate exercises jurisdiction — squarely mirroring the "shall" that section 225(1) uses for exactly that circumstance. **Practitioner takeaway**: where process has issued against an out-of-jurisdiction accused without any inquiry or investigation under section 225, that omission is not a mere irregularity — it is a defect going to the validity of the process itself.
+
+#### Sword and shield
+
+As a **shield**, section 225's mandatory-postponement rule protects a distant accused from being summoned into proceedings before the complaint has been screened at all. As a **sword**, the defence can challenge process issued without the required inquiry or investigation where the accused's out-of-jurisdiction residence triggered the mandatory limb of section 225(1), citing Vijay Dhanuka; the prosecution's countervailing point is that section 226 requires only that the Magistrate be satisfied there is *sufficient ground* — not proof beyond reasonable doubt — to let the complaint proceed.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+Section 225(1)'s proviso (b) interlocks directly with section 223 (this Chapter's first cluster) — an investigation cannot be directed for a private complaint until the section 223 oath-examination has occurred. This cluster also interlocks forward with ⚠️ *Chapter XVII, "Commencement of Proceedings Before Magistrates" (not yet built in this repository as of this rendering) — cross-check before relying on how process actually issues once section 226's dismissal threshold is cleared.*
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before accepting that process issued validly, check the accused's residence against the Magistrate's jurisdiction — an out-of-jurisdiction accused converts postponement from discretionary to mandatory.
+2. For an exclusively Sessions-triable offence, confirm no outside investigation was directed, and, if an inquiry was held instead, confirm all of the complainant's witnesses were in fact produced and examined.
+3. Before treating any directed investigation as valid, confirm the section 223 oath-examination had already occurred, where the complaint was not made by a Court.
+4. Where a complaint is dismissed under section 226, check the order for briefly recorded reasons — a bare dismissal without reasons does not satisfy the section.
+
+---
