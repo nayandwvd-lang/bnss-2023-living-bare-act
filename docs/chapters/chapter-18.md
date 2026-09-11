@@ -215,3 +215,116 @@ Section 236 interlocks directly with sections 234–235 (this Chapter's first cl
 4. When defending a conviction against a charge-defect challenge, invoke Willie Slaney's substance-over-form framing and press the appellant to identify specifically what he was prevented from meeting.
 
 ---
+
+## Sections 239–240 — Altering the charge mid-trial, and the witnesses that come back for it
+
+### The dispute this solves
+
+::: oneminute A charge framed at the outset of a trial is not frozen in place. Section 239 lets any Court alter or add to a charge at any time before judgment is pronounced — provided the alteration is read and explained to the accused — and then splits into two tracks depending on prejudice: if proceeding immediately would not, in the Court's opinion, prejudice either the accused's defence or the prosecutor's conduct of the case, the trial simply continues as if the altered charge had been the original one; if it would prejudice either side, the Court must instead direct a new trial or adjourn for as long as necessary. Section 240 then protects the practical consequence of any alteration: both sides get to recall and re-examine witnesses already examined, with reference to the change, and to call further material witnesses — subject only to the Court's power to refuse a recall it finds is really aimed at vexation, delay, or defeating the ends of justice.
+Section 239(5) adds a sanction-specific safeguard easy to miss: if the altered or added charge is for an offence that itself needs previous sanction to prosecute, the case cannot proceed until that sanction is obtained — unless sanction was already secured for a prosecution on the same underlying facts. An alteration cannot be used to sidestep a sanction requirement that would have applied had the new charge been framed from the start.
+:::
+
+::: story The charge that grew mid-trial, and the witness who had to be called back
+Midway through a trial for criminal breach of trust, evidence emerges suggesting the accused also falsified accounts to conceal the misappropriation — an offence chargeable together under section 243(2). The Court adds this charge under section 239(1), reads and explains the addition to the accused, and, satisfied that continuing immediately will not prejudice either side, proceeds with the trial as if the added charge had always been there. Because a prosecution witness had already been examined before the addition, section 240(a) entitles both the prosecutor and the accused to recall that witness and examine her specifically on the newly added falsification allegation — a right the Court can only refuse, and only for reasons it records in writing, if it concludes the recall is really aimed at vexation or delay rather than a genuine response to the altered charge.
+:::
+
+> **239. (1)** Any Court [[?may]] alter or add to any charge at any time before judgment is pronounced.
+>
+> **(2)** Every such alteration or addition [[!shall]] be read and explained to the accused.
+>
+> **(3)** If the alteration or addition to a charge is such that proceeding immediately with the trial is not likely, in the opinion of the Court, to prejudice the accused in his defence or the prosecutor in the conduct of the case, the Court [[?may]], in its discretion, after such alteration or addition has been made, proceed with the trial as if the altered or added charge had been the original charge.
+>
+> **(4)** If the alteration or addition is such that proceeding immediately with the trial is likely, in the opinion of the Court, to prejudice the accused or the prosecutor as aforesaid, the Court [[?may]] either direct a new trial or adjourn the trial for such period as may be necessary.
+>
+> **(5)** If the offence stated in the altered or added charge is one for the prosecution of which previous sanction is necessary, the case [[!shall]] not be proceeded with until such sanction is obtained, unless sanction has been already obtained for a prosecution on the same facts as those on which the altered or added charge is founded.
+>
+> **240.** Whenever a charge is altered or added to by the Court after the commencement of the trial, the prosecutor and the accused [[!shall]] be allowed—
+>
+> (a) to recall or re-summon, and examine with reference to such alteration or addition, any witness who may have been examined, unless the Court, for reasons to be recorded in writing, considers that the prosecutor or the accused, as the case may be, desires to recall or re-examine such witness for the purpose of vexation or delay or for defeating the ends of justice;
+>
+> (b) also to call any further witness whom the Court may think to be material.
+
+::: proviso Section 239(5) closes a sanction-bypass route
+An alteration or addition to a charge under section 239(1) cannot itself supply a sanction that would otherwise have been required. Where the new or altered charge is for an offence needing previous sanction, section 239(5) halts the case until that sanction is obtained — the only exception being where sanction was already secured for a prosecution on the very same underlying facts, even if framed under a different charge at the time.
+:::
+
+::: proviso Section 240(a)'s recall right is a right subject to a recorded-reasons exception, not a bare discretion
+Section 240(a) is phrased as an entitlement — the prosecutor and the accused "shall be allowed" to recall witnesses with reference to the alteration. The Court can refuse a specific recall request, but only where it actually forms, and records in writing, the view that the request is aimed at vexation, delay, or defeating the ends of justice — not as a matter of general case-management convenience.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court wants to alter or add to a charge partway through a trial — what has to happen, and what follows?"
+  :gates="[
+    { q: 'Has judgment already been pronounced?',
+      note: 'Section 239(1) permits alteration or addition at any time before judgment — once judgment is pronounced, this route has closed',
+      no: 'The Court retains the power to alter or add to the charge' },
+    { q: 'Was the alteration or addition read and explained to the accused?',
+      note: 'Section 239(2) makes this mandatory, independent of everything else in the section',
+      no: 'The alteration has not yet been properly made' },
+    { q: 'In the Court’s opinion, is proceeding immediately likely to prejudice the accused’s defence or the prosecutor’s conduct of the case?',
+      note: 'If not, the Court may simply continue as if the altered charge were the original one — section 239(3); if so, it must direct a new trial or adjourn — section 239(4)',
+      no: 'The trial may continue immediately, treating the altered charge as original' },
+    { q: 'Does the altered or added charge concern an offence requiring previous sanction to prosecute?',
+      note: 'Section 239(5) bars proceeding until that sanction is obtained, unless sanction was already secured for a prosecution on the same underlying facts',
+      no: 'No additional sanction step is required by this sub-section' }
+  ]"
+  result="A charge may be altered or added to at any point before judgment, provided it is read and explained to the accused, the case proceeds by the prejudice-driven track section 239(3)/(4) dictates, any required sanction is obtained, and both sides are allowed to recall already-examined witnesses and call further material witnesses in response — subject to the Court's recorded-reasons power to refuse a recall aimed at vexation or delay"
+  resultKind="mandatory"
+  caveat="Section 240's recall entitlement is not automatic for every witness in the case — it attaches specifically to the alteration or addition, and the Court's power to refuse a bad-faith recall request survives regardless." />
+
+### In plain English
+
+Sections 239 and 240 recognise that a trial is a live process, not a script fixed at the first hearing. If the evidence coming in reveals the charge needs to change — add an offence, alter its description — the Court can do that right up until judgment, as long as the accused is told exactly what changed and why. From there it is a prejudice question: if continuing right away would not unfairly disadvantage either side, the trial just carries on as though the new charge had always been the charge; if it would, the Court has to either start over or pause for as long as it takes to let both sides catch up. And because a charge that grows can leave witnesses examined before the change now speaking to an incomplete picture, section 240 gives both the prosecution and the defence a real right to call those witnesses back and question them about the change — a right the Court can only cut off where it genuinely believes, and says in writing, that the request is a stalling tactic rather than a real response to the alteration.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 239 appears to track CrPC section 216 (Court may alter charge) and BNSS section 240 appears to track CrPC section 217 (recall of witnesses when charge altered). Both provisions read as substantively continuous with their CrPC predecessors on this reading — no significant departure is flagged for this cluster, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct After the prosecution has closed its evidence but before judgment is pronounced, the trial Court adds a charge based on facts that emerged during the trial evidence, even though those facts were not apparent at the original charge-framing stage.
+::: ruling The addition is within the Court's power under section 239(1)
+Section 239(1) permits alteration or addition to a charge "at any time before judgment is pronounced," without confining that power to material available only at the original charge-framing stage. A charge properly grounded in evidence that emerged during the trial itself falls squarely within this power, provided the addition is read and explained to the accused and the prejudice-driven procedure that follows is observed.
+:::
+::::
+
+:::: instinct After a charge is altered, the defence seeks to recall a prosecution witness who was examined before the alteration, to question her specifically about the newly added allegation. The Court refuses, citing only that the trial has already taken long enough.
+::: ruling The refusal does not satisfy section 240(a)
+Section 240(a) entitles the accused to recall a previously examined witness with reference to the alteration. The Court may refuse only where it considers, for reasons recorded in writing, that the request is really aimed at vexation, delay, or defeating the ends of justice. Trial length alone, without a recorded finding to that specific effect, does not satisfy the section's exception.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Anant Prakash Sinha v. State of Haryana, (2016) 6 SCC 105. The Court held that the power to alter or add a charge under the CrPC's equivalent provision may be exercised at any time before judgment is pronounced, based on the material and evidence that has come on record during the trial itself — it is not confined to what was before the Court at the original charge-framing stage. **Practitioner takeaway**: an objection that a mid-trial charge alteration is invalid merely because the underlying facts were not known when the original charge was framed does not, without more, defeat the alteration.
+
+#### Sword and shield
+
+As a **shield**, section 240's recall entitlement protects both sides from being bound by testimony given before a charge changed shape, and section 239(5)'s sanction safeguard shields the accused from being prosecuted on an altered charge that quietly evades a sanction requirement. As a **sword**, the prosecution can invoke Anant Prakash Sinha to defend a mid-trial addition grounded in trial evidence, while the defence's countervailing tool is section 239(4) — pressing for a new trial or a real adjournment, not a token one, wherever the Court's own assessment is that immediate continuation would genuinely prejudice the defence.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster; section 239(1)'s only temporal boundary is "any time before judgment is pronounced."
+
+#### Interlocking matrix
+
+Section 239(5) interlocks directly with the sanction provisions of section 218 and section 217 (Chapter XV, already built) — an altered charge for an offence needing sanction reopens that sanction question rather than bypassing it. Section 240 interlocks with the general witness-examination framework of the trial provisions ⚠️ *not yet built in this repository as of this rendering.*
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a charge is altered or added mid-trial, confirm it was actually read and explained to the accused before treating the alteration as validly made.
+2. Assess the Court's prejudice finding under section 239(3)/(4) on its own terms — a bare assertion of "no prejudice" without reasoning is vulnerable to challenge where the alteration is substantial.
+3. Where the altered or added charge concerns a sanction-requiring offence, confirm sanction was actually obtained (or already covered the same facts) before the case proceeds further.
+4. Where a recall request under section 240(a) is refused, check the order for a genuine recorded reason tied to vexation, delay, or defeating the ends of justice — not merely case-management convenience.
+
+---
