@@ -805,4 +805,102 @@ Section 484(1)'s "not excessive" cap interlocks with every bail-granting section
 3. Where a client remains in custody despite an executed bond, check first whether the court has issued the section 487(1) release order to the jail and second whether the jail has acted on it — the failure point is often administrative, not judicial.
 4. Before assuming release is complete, confirm there is no separate, unrelated detention ground preserved under section 487(2).
 
+## Sections 488–490 — When the sureties themselves become the problem
+
+### The dispute this solves
+
+::: oneminute A bond is only as good as the people standing behind it. Sections 488–490 handle the three ways that backing can fail — it was never good enough, it wants out, or the accused would rather not need it at all.
+Sureties are not permanent fixtures. A surety accepted in good faith can turn out to have lied about their assets; a surety who was perfectly solvent at the time can go bankrupt, move away, or simply lose the will to keep vouching for someone months into a long trial; and some accused persons would rather not depend on another person's goodwill at all, offering cash or Government paper instead. Sections 488 to 490 give the system a controlled way to handle all three without ever leaving the accused in limbo — mistaken sureties get fixed, unwilling sureties get released without punishing the accused for it, and a deposit becomes a lawful substitute for begging someone else to vouch for you.
+:::
+
+::: story The surety who wanted out
+Six months into Arjun's trial, his surety — his uncle — decides he no longer wants the responsibility; family relations have soured, and he does not want to answer for Arjun's conduct anymore. Section 489 gives him a clean exit: he applies to a Magistrate to discharge the bond, the Magistrate issues a warrant to bring Arjun before it, and Arjun is then called on to find a fresh surety — his uncle's change of heart does not, by itself, send Arjun back to a cell unless he genuinely cannot find anyone else. Meanwhile, in a different courtroom, a Magistrate discovers that the "sufficient surety" accepted for another accused, Deepa, was in fact judgment-proof from the start — a fraud on the process. Section 488 gives the Magistrate the power to pull Deepa back in and demand a real surety this time, without needing to unwind the whole bail order.
+:::
+
+> **488.** If, through mistake, fraud or otherwise, insufficient sureties have been accepted, or if they afterwards become insufficient, the Court [[?may]] issue a warrant of arrest directing that the person released on bail be brought before it and [[?may]] order him to find sufficient sureties, and, on his failing so to do, [[?may]] commit him to jail.
+>
+> **489. (1)** All or any sureties for the attendance and appearance of a person released on bail [[?may]] at any time apply to a Magistrate to discharge the bond, either wholly or so far as relates to the applicants.
+>
+> **(2)** On such application being made, the Magistrate [[!shall]] issue his warrant of arrest directing that the person so released be brought before him.
+>
+> **(3)** On the appearance of such person pursuant to the warrant, or on his voluntary surrender, the Magistrate [[!shall]] direct the bond to be discharged either wholly or so far as relates to the applicants, and [[!shall]] call upon such person to find other sufficient sureties, and, if he fails to do so, [[?may]] commit him to jail.
+>
+> **490.** When any person is required by any Court or officer to execute a bond or bail bond, such Court or officer [[?may]], except in the case of a bond for good behaviour, permit him to deposit a sum of money or Government promissory notes to such amount as the Court or officer may fix in lieu of executing such bond.
+
+::: proviso Fraud on the sureties question does not require restarting the bail application
+Section 488 does not force the Court back to square one when a surety turns out to be insufficient — the person is not re-examined for bail eligibility, only re-examined for adequate backing. Custody under this section is a stopgap, contingent entirely on the person's own failure to produce a sufficient replacement; it is not a punitive re-arrest for the original offence.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A surety-backed bond, already executed, runs into a problem — insufficiency, or the surety’s own wish to exit"
+  :gates="[
+    { q: 'Did the Court or officer discover the surety was, through mistake or fraud, insufficient (or has since become insufficient)?',
+      note: 'Section 488 covers both an original defect and a later-arising one — the trigger is insufficiency at the point of discovery, not just at the point of acceptance',
+      no: 'No section 488 warrant issues on this ground' },
+    { q: 'Is it instead the surety who wants out, applying under section 489(1) to discharge the bond?',
+      note: 'The Magistrate must issue a warrant to bring the accused back before deciding anything — the accused’s presence is a precondition, not an afterthought',
+      no: 'Section 489 procedure does not apply' },
+    { q: 'Has the accused, once brought before the Court, found a sufficient substitute — a fresh surety, or a section 490 cash/Government-paper deposit instead?',
+      note: 'Section 490’s deposit option is available generally, not only as a fallback after a surety problem, except for good-behaviour bonds',
+      no: 'The person may be committed to jail, but only for the specific failure to secure sufficient backing — not as a fresh determination that bail should never have been granted' }
+  ]"
+  result="The bond is either replaced with sufficient backing (fresh sureties or a deposit) or, failing that, the person is recommitted pending a sufficient substitute"
+  resultKind="discretionary"
+  caveat="Section 490’s deposit-in-lieu option does not extend to bonds for good behaviour — that category always requires actual sureties" />
+
+### In plain English
+
+These three sections cover every way a bond's human backing can go wrong, and one way to avoid depending on humans at all. Section 488 is the fraud/mistake-and-later-insolvency fix — the Court can pull the accused back and demand real security without treating this as a fresh bail refusal. Section 489 is the surety's own exit ramp — sureties are not indentured to an accused person forever, and can walk away, but only through a structured process that first secures the accused's presence and then gives them a genuine chance to find someone else before any consequence attaches. Section 490 sidesteps the surety question altogether: instead of finding a person to vouch for you, put up cash or Government paper instead — available for ordinary bonds, but pointedly withheld from good-behaviour bonds, where the statute apparently wants a human guarantor's ongoing oversight rather than money sitting in a court account.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS ss. 488–490 appear to track CrPC ss. 443–445 (insufficient sureties, discharge of sureties, deposit instead of recognizance) closely, with no apparent structural change identified in this reading. The good-behaviour-bond carve-out in section 490 should be cross-checked against the CrPC's equivalent wording before relying on the exact scope of the exclusion in a filing.*
+
+### Test your instinct
+
+:::: instinct A surety applies under section 489(1) to be discharged. The Magistrate discharges the bond immediately, without first securing the accused's presence before the Court.
+::: ruling Procedurally incomplete
+Section 489(2) is not optional sequencing — on the application being made, the Magistrate "shall" issue a warrant to bring the accused before it, and only then, under sub-section (3), direct discharge and call on the accused to find fresh sureties. Discharging the bond first and skipping the accused's appearance inverts a sequence the statute fixes deliberately, since the whole point is to give the accused a real opportunity to find a replacement before any consequence attaches.
+:::
+::::
+
+:::: instinct An accused offers to deposit Government promissory notes in lieu of executing a bond for good behaviour, and the Magistrate accepts.
+::: ruling Outside section 490's power
+Section 490 expressly excludes bonds for good behaviour from the deposit-in-lieu option — "except in the case of a bond for good behaviour" is not a stylistic aside, it is the boundary of the power itself. A Magistrate accepting a deposit in place of a good-behaviour bond has exceeded what section 490 authorises, whatever the accused's willingness to pay.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Sections 488–490 are procedural safeguards around bond administration rather than doctrine attracting a body of promoted case law in this reading.*
+
+#### Sword and shield
+
+As a **sword**, section 490 is the practical answer for a client who has the means but not the network — cash or Government paper instead of chasing down a willing surety. As a **shield**, section 489's structured discharge procedure protects a surety from being permanently bound against their present wishes, while section 488's procedure protects the State's interest in a bond that is only ever as strong as its weakest surety.
+
+#### The limitation clock
+
+No independent limitation period attaches; each section is triggered by an event (discovered insufficiency, a surety's application, or an accused's offer to deposit) rather than a filing deadline.
+
+#### Interlocking matrix
+
+Section 488 interlocks with section 485(4)'s surety-sufficiency inquiry power — an inquiry under 485(4) at the execution stage is the natural preventive counterpart to a post hoc 488 correction. Section 489's discharge procedure interlocks with section 491's forfeiture machinery only in the sense that a surety who has properly exited under 489 is no longer exposed to forfeiture for events after discharge. Section 490's deposit option interlocks with section 485(1)'s general execution requirement as the money-in-lieu alternative to it.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where a surety's sufficiency is in doubt, consider whether section 488 (Court-initiated, insufficiency-driven) or section 489 (surety-initiated, discharge-driven) is the operative route — the procedural sequence differs.
+2. On a section 489 application, confirm the accused's presence has actually been secured through the warrant before treating discharge as final.
+3. Where a client has liquid assets but no ready surety, consider a section 490 deposit application early — but confirm the bond in question is not one for good behaviour.
+4. In either a section 488 or 489 scenario, build the record around the accused's genuine opportunity (and, if relevant, failure) to find a sufficient replacement before any committal follows.
+
 ---
