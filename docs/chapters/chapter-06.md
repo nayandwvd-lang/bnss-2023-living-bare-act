@@ -611,3 +611,144 @@ None added — see "The winning ratio" above.
 4. Confirm the designated-officer notification duty under section 82(2) was carried out.
 
 ---
+
+## Sections 84–85 — Proclamation for an absconding person, the proclaimed-offender declaration, and attachment of property
+
+### The dispute this solves
+
+::: oneminute When a warrant simply cannot be executed because the person cannot be found, the Sanhita escalates in two further steps — a public proclamation, and then attachment of property — with a severe, named "proclaimed offender" status reserved for the most serious offences.
+Sections 80–83 assume the warrant eventually catches up with the person somewhere. Sections 84 and 85 deal with what happens when it does not — when a Court has reason to believe the person has absconded or is hiding specifically to defeat execution. Section 84 lets the Court publish a formal proclamation demanding appearance within a fixed window, and, for the most serious offences (ten years or more, life, or death), escalates non-appearance into a formal declaration that the person is a "proclaimed offender" — a status with real consequences elsewhere in the law. Section 85 lets the Court go further still and attach the person's property, before or alongside the proclamation itself if there is a genuine risk the property will be moved or sold first.
+:::
+
+::: story The businessman who disappeared after the warrant issued
+A warrant is issued against a businessman accused of an offence punishable with life imprisonment. He is nowhere to be found; his known residence is locked, and inquiries suggest he has left the State. The Court, satisfied he is deliberately evading execution, publishes a proclamation: a public reading in his home town, a copy affixed to his house, another affixed to the Court-house, giving him thirty days to appear. He does not appear. Because the offence qualifies under section 84(4)'s ten-years-or-more threshold, the Court, after inquiry, declares him a proclaimed offender. Separately, on information that he is quietly transferring his immovable property to relatives, the Court invokes section 85's proviso to attach that property simultaneously with the proclamation itself — not waiting for the thirty days to run first, precisely because waiting would have let the property disappear before attachment ever reached it.
+:::
+
+> **84. Proclamation for person absconding.**—(1) If any Court has reason to believe (whether after taking evidence or not) that any person against whom a warrant has been issued by it has absconded or is concealing himself so that such warrant cannot be executed, such Court [[?may]] publish a written proclamation requiring him to appear at a specified place and at a specified time not less than thirty days from the date of publishing such proclamation.
+>
+> (2) The proclamation [[!shall]] be published as follows:—
+>
+> (i) (a) it [[!shall]] be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
+>
+> (b) it [[!shall]] be affixed to some conspicuous part of the house or homestead in which such person ordinarily resides or to some conspicuous place of such town or village;
+>
+> (c) a copy thereof [[!shall]] be affixed to some conspicuous part of the Court-house;
+>
+> (ii) the Court [[?may]] also, if it thinks fit, direct a copy of the proclamation to be published in a daily newspaper circulating in the place in which such person ordinarily resides.
+>
+> (3) A statement in writing by the Court issuing the proclamation to the effect that the proclamation was duly published on a specified day, in the manner specified in clause (i) of sub-section (2), [[!shall]] be conclusive evidence that the requirements of this section have been complied with, and that the proclamation was published on such day.
+>
+> (4) Where a proclamation published under sub-section (1) is in respect of a person accused of an offence which is made punishable with imprisonment of ten years or more, or imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023 or under any other law for the time being in force, and such person fails to appear at the specified place and time required by the proclamation, the Court [[?may]], after making such inquiry as it thinks fit, pronounce him a proclaimed offender and make a declaration to that effect.
+>
+> (5) The provisions of sub-sections (2) and (3) [[!shall]] apply to a declaration made by the Court under sub-section (4) as they apply to the proclamation published under sub-section (1).
+>
+> **85. Attachment of property of person absconding.**—(1) The Court issuing a proclamation under section 84 [[?may]], for reasons to be recorded in writing, at any time after the issue of the proclamation, order the attachment of any property, movable or immovable, or both, belonging to the proclaimed person:
+>
+> Provided that where at the time of the issue of the proclamation the Court is satisfied, by affidavit or otherwise, that the person in relation to whom the proclamation is to be issued,—
+>
+> (a) is about to dispose of the whole or any part of his property; or
+>
+> (b) is about to remove the whole or any part of his property from the local jurisdiction of the Court,
+>
+> it [[?may]] order the attachment of property simultaneously with the issue of the proclamation.
+>
+> (2) Such order [[!shall]] authorise the attachment of any property belonging to such person within the district in which it is made; and it [[!shall]] authorise the attachment of any property belonging to such person without such district when endorsed by the District Magistrate within whose district such property is situate.
+>
+> (3) If the property ordered to be attached is a debt or other movable property, the attachment under this section [[!shall]] be made—(a) by seizure; or (b) by the appointment of a receiver; or (c) by an order in writing prohibiting the delivery of such property to the proclaimed person or to any one on his behalf; or (d) by all or any two of such methods, as the Court thinks fit.
+>
+> (4) If the property ordered to be attached is immovable, the attachment under this section [[!shall]], in the case of land paying revenue to the State Government, be made through the Collector of the district in which the land is situate, and in all other cases—(a) by taking possession; or (b) by the appointment of a receiver; or (c) by an order in writing prohibiting the payment of rent on delivery of property to the proclaimed person or to any one on his behalf; or (d) by all or any two of such methods, as the Court thinks fit.
+>
+> (5) If the property ordered to be attached consists of live-stock or is of a perishable nature, the Court [[?may]], if it thinks it expedient, order immediate sale thereof, and in such case the proceeds of the sale [[!shall]] abide the order of the Court.
+>
+> (6) The powers, duties and liabilities of a receiver appointed under this section [[!shall]] be the same as those of a receiver appointed under the Code of Civil Procedure, 1908.
+>
+> ::: proviso "Proclaimed offender" is a severe, threshold-gated status — not the automatic result of every unanswered proclamation
+> Section 84(4)'s proclaimed-offender declaration is not available for every proclamation under section 84(1) — it is gated to offences punishable with ten years or more, life imprisonment, or death, and even then it requires the Court to make "such inquiry as it thinks fit" before pronouncing the declaration. A proclamation issued for a lesser offence, however genuinely the person has absconded, cannot itself carry a proclaimed-offender declaration; that status, with its own downstream consequences, is reserved for the Sanhita's most serious offence categories.
+> :::
+
+<MicroTree
+  input="A warrant cannot be executed because the person has absconded or is hiding. What escalation is available, and on what terms?"
+  :gates="[
+    { q: 'Does the Court have reason to believe the person has absconded or is concealing himself specifically so the warrant cannot be executed?', note: 'Section 84(1) applies — the Court may publish a written proclamation, following the section 84(2) publication formalities, giving at least thirty days to appear.', no: 'Section 84’s proclamation route is not yet available; ordinary execution channels under sections 80–83 remain the operative route.' },
+    { q: 'Does the offence carry ten years or more, life imprisonment, or death, and has the person failed to appear as the proclamation required?', note: 'Section 84(4) applies — after such inquiry as it thinks fit, the Court may declare the person a proclaimed offender, a status carrying consequences beyond this section.', no: 'The person remains merely a proclamation-defaulter, not a declared proclaimed offender; the severe status under section 84(4) is not triggered by this offence category.' },
+    { q: 'Is there a genuine risk, shown by affidavit or otherwise, that the person is about to dispose of or remove property from the Court’s jurisdiction?', note: 'Section 85(1)’s proviso applies — attachment may be ordered simultaneously with the proclamation itself, rather than waiting for the thirty-day window to run.', no: 'Attachment under section 85(1) remains available at any time after the proclamation issues, on recorded reasons, but need not be simultaneous.' }
+  ]"
+  result="The correct escalation — proclamation, proclaimed-offender declaration where the offence qualifies, and attachment on the appropriate timeline — is applied only where its specific statutory gate is actually met."
+  resultKind="discretionary"
+  caveat="Every stage in this ladder is discretionary ('may'), but each discretion is exercised against a specific factual gate — absconding to defeat execution, a qualifying offence category, or a genuine risk to the property — not as an automatic next step once the previous one is exhausted."
+/>
+
+### In plain English
+
+Think of sections 84 and 85 as the Sanhita's last resort when a warrant simply will not catch up with someone. First, a public proclamation: read aloud in the person's home town, posted on their house, posted at the courthouse, giving them at least thirty days to show up. If the offence is genuinely serious — ten years or more, life, or death — and they still do not show up, the Court can go a step further and formally brand them a "proclaimed offender," a status the law treats very differently from ordinary non-appearance. Separately, and on its own timeline, the Court can freeze the person's property — seizing movable property or a receiver for it, taking possession of land or a receiver for it, and even a quick sale if it is livestock or something perishable — either any time after the proclamation, or, if there is a real risk the person is about to sell or move the property out of reach, at the very same moment the proclamation itself is issued.
+
+### What changed from the CrPC
+
+BNSS sections 84 and 85 correspond to CrPC sections 82 and 83 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** for the proclamation-and-attachment mechanics themselves, but section 84(4)'s proclaimed-offender declaration is the notable substantive marker in this cluster: it is now explicitly tied to offences punishable with ten years or more, life imprisonment, or death "under the Bharatiya Nyaya Sanhita, 2023 or under any other law for the time being in force" — a cross-reference to the BNS 2023 that has no equivalent in the unamended CrPC's parallel provision, reflecting the interlocking-code structure the Sanhita is built on.
+
+### Test your instinct
+
+:::: instinct The proclamation issued for a minor offence, with no proclaimed-offender declaration following
+A person genuinely absconds after a warrant issues for an offence carrying a maximum of three years' imprisonment. The Court publishes a section 84(1) proclamation; the person still does not appear. The complainant demands the Court declare him a proclaimed offender to increase pressure.
+::: ruling What actually happens
+Section 84(4)'s proclaimed-offender declaration is gated to offences punishable with ten years or more, life imprisonment, or death. A three-year-maximum offence does not qualify, no matter how clearly the person is evading the proclamation. The Court can (and likely will) continue treating the person as having defaulted on the proclamation, but it cannot escalate to a proclaimed-offender declaration for an offence outside section 84(4)'s threshold — the complainant's demand asks for a status the statute simply does not make available here.
+:::
+::::
+
+:::: instinct The simultaneous attachment that outpaced the thirty-day window
+Before a proclamation is even published, the Court receives an affidavit showing the person is actively transferring immovable property to relatives to place it beyond reach. The Court orders attachment on the very same day it issues the proclamation, without waiting to see whether the person appears within the thirty days.
+::: ruling What actually happens
+Section 85(1)'s proviso exists precisely for this situation: where the Court is satisfied, by affidavit or otherwise, that the person is about to dispose of or remove property from its jurisdiction, it may order attachment simultaneously with the proclamation itself, rather than waiting for the ordinary "any time after the issue of the proclamation" timeline in the main part of section 85(1). The objection that attachment is premature before the thirty-day window has run misreads the proviso, which is designed specifically to beat exactly this kind of pre-emptive disposal.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+No case citation is added for this cluster. Sections 84 and 85 are, in the drafter's assessment, capable of being stated accurately and completely from the statutory text's own thresholds and formalities; the drafter is not confident of a specific, on-point Supreme Court authority interpreting this particular BNSS-era proclamation-and-attachment structure (as distinct from the older CrPC provisions it replaces), and declines to force one in rather than risk misattribution.
+
+#### Sword and shield
+
+As a **shield**, a person facing a proclaimed-offender declaration can argue the offence does not meet section 84(4)'s ten-years/life/death threshold, or that the Court's section 84(2) publication formalities were not actually followed (displacing the section 84(3) conclusive-evidence shield). As a **sword**, a party seeking urgent attachment can invoke section 85(1)'s proviso to secure simultaneous attachment on affidavit evidence of imminent disposal or removal, without waiting for the proclamation's thirty-day window to expire first.
+
+#### The limitation clock
+
+Section 84(1)'s thirty-day minimum window before the specified appearance date is itself a statutory timing rule, not a limitation period in the conventional sense; separately, section 87 (addressed in the next cluster) fixes a six-month window for third-party claims against attached property, so any attachment under section 85 should be tracked against that downstream clock from the date of attachment.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Person has absconded or is hiding to defeat a warrant | Section 84(1)–(3) | Written proclamation, published per fixed formalities, at least 30 days to appear |
+| Offence carries 10+ years/life/death, person fails to appear | Section 84(4)–(5) | Proclaimed-offender declaration after inquiry, same publication formalities apply |
+| Property attachment sought after proclamation | Section 85(1) main part | Attachment any time after proclamation, on recorded reasons |
+| Genuine risk of imminent disposal/removal of property | Section 85(1) proviso | Simultaneous attachment with the proclamation itself |
+| Movable property/debt attachment | Section 85(3) | Seizure, receiver, prohibition order, or combination |
+| Immovable property attachment | Section 85(4) | Via Collector (revenue land) or possession/receiver/prohibition order |
+
+#### The authorities
+
+None added — see "The winning ratio" above.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not seek or concede a proclaimed-offender declaration without first confirming the offence independently meets section 84(4)'s ten-years/life/death threshold — the declaration is not a natural escalation from every unanswered proclamation.
+2. Do not treat section 84(3)'s conclusive-evidence rule as unchallengeable in principle — it is conclusive only as to what it actually certifies (due publication in the section 84(2)(i) manner on a specified day), not as to matters outside that certification.
+3. Do not wait for the thirty-day appearance window to run before seeking attachment where there is genuine, affidavit-supported evidence of imminent disposal or removal — section 85(1)'s proviso is built for exactly that urgency.
+4. Do not overlook that an attachment reaching property outside the ordering Court's own district requires the section 85(2) endorsement by that district's District Magistrate.
+
+**Timing.** Raise a threshold objection to a proposed proclaimed-offender declaration before it is made, not after — the declaration itself, once made, is treated as carrying the same publication-formality shield as the underlying proclamation under section 84(5).
+
+**Model checklist for reviewing a proclamation or attachment:**
+
+1. Confirm the Court had a genuine basis to believe the person had absconded or was concealing himself to defeat execution before issuing the section 84(1) proclamation.
+2. Confirm the section 84(2) publication formalities (public reading, house affixation, Court-house affixation) were actually carried out, and check for a section 84(3) conclusive-evidence statement.
+3. Where a proclaimed-offender declaration has been made, independently verify the offence meets section 84(4)'s threshold.
+4. Where attachment has been ordered, confirm whether it was simultaneous (requiring the section 85(1) proviso's risk showing) or post-proclamation (requiring only recorded reasons), and confirm any cross-district endorsement under section 85(2).
+
+---
