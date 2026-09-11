@@ -479,3 +479,122 @@ None added — see "The winning ratio" above.
 3. Where an accused has failed to appear on notice, confirm the bond was still within its six-month life before invoking section 491 forfeiture.
 
 ---
+
+## Section 482 — Anticipatory bail
+
+### The dispute this solves
+
+::: oneminute Anticipatory bail lets a person go to court before the handcuffs, not after — it is a shield built for the moment fear of arrest, not arrest itself, becomes real.
+Most of this Chapter operates after arrest: someone is already in custody, and the question is how to get out. Section 482 operates in the gap before that — when a person has genuine reason to believe he may be arrested on a non-bailable accusation, and wants a court's protection lined up before it happens rather than scrambling for it in a lock-up. It is deliberately not a general amnesty from arrest: the High Court or Court of Session decides whether to grant the direction at all, can load it with conditions, and — new in the BNSS — the whole remedy is switched off entirely for two named categories of offence.
+:::
+
+::: story Ananya hears she is about to be named
+Ananya learns, through a business associate, that a former partner has filed a criminal complaint naming her in a cheating and breach-of-trust matter, and that the police may arrest her within days. Rather than wait for that arrest, she approaches the Court of Session under section 482(1) for a direction that, if she is arrested on this accusation, she be released on bail. The Court can grant that direction with conditions attached — say, that she make herself available for questioning and not leave the country without permission — under section 482(2). If the police do then arrest her, section 482(3) makes that direction operative immediately: she is released on bail as soon as she is prepared to furnish it, without having to re-litigate the question from a police lock-up.
+:::
+
+> **482. (1)** When any person has reason to believe that he may be arrested on an accusation of having committed a non-bailable offence, he [[?may]] apply to the High Court or the Court of Session for a direction under this section; and that Court [[?may]], if it thinks fit, direct that in the event of such arrest, he shall be released on bail.
+>
+> **(2)** When the High Court or the Court of Session makes a direction under sub-section (1), it [[?may]] include such conditions in such directions in the light of the facts of the particular case, as it may think fit, including—
+>
+> (i) a condition that the person shall make himself available for interrogation by a police officer as and when required;
+>
+> (ii) a condition that the person shall not, directly or indirectly, make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to any police officer;
+>
+> (iii) a condition that the person shall not leave India without the previous permission of the Court;
+>
+> (iv) such other condition as may be imposed under sub-section (3) of section 480, as if the bail were granted under that section.
+>
+> **(3)** If such person is thereafter arrested without warrant by an officer in charge of a police station on such accusation, and is prepared either at the time of arrest or at any time while in the custody of such officer to give bail, he [[!shall]] be released on bail; and if a Magistrate taking cognizance of such offence decides that a warrant should be issued in the first instance against that person, he [[!shall]] issue a [[=bailable warrant]] in conformity with the direction of the Court under sub-section (1).
+>
+> **(4)** Nothing in this section shall apply to any case involving the arrest of any person on accusation of having committed an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023.
+
+::: proviso Sub-section (4) is a hard, offence-specific switch-off — not a factor to be argued around
+Section 482(4) does not merely disfavour anticipatory bail for the offences it names — it removes section 482 from the table entirely for an accusation under BNS 2023 section 65 or section 70(2). Where sub-section (4) applies, there is no anticipatory-bail application to make under this section at all, regardless of how compelling the individual facts might otherwise seem. ⚠️ *This site has not independently confirmed the content of BNS 2023 sections 65 and 70(2) against the bare Act — do not assert what these offences are until verified; the statutory cross-reference is quoted verbatim above but not yet glossed.*
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person has reason to believe he may be arrested on a non-bailable accusation"
+  :gates="[
+    { q: 'Is the accusation for an offence under BNS 2023 section 65 or section 70(2)?',
+      note: 'Section 482(4) removes the remedy entirely for these — verify the offence classification before proceeding',
+      no: 'The application may proceed to the High Court or Court of Session' },
+    { q: 'Does the High Court or Court of Session think fit to grant a direction on the facts of the particular case?',
+      note: 'This is a genuine discretion, not a formality — the Court weighs the material actually placed before it',
+      no: 'No direction issues; the person has no anticipatory protection under this section' }
+  ]"
+  result="The Court directs that, in the event of arrest on this accusation, the person shall be released on bail — with such conditions as the Court thinks fit"
+  resultKind="discretionary"
+  caveat="The direction protects against this specific accusation as it stood when granted — it is not a general immunity from arrest on unrelated or later-arising conduct" />
+
+### In plain English
+
+Section 482 has three moving parts, in order: first, only the High Court or the Court of Session can grant this — no Magistrate, and no police officer, has any part in the decision to grant it. Second, the grant is not automatic; the Court weighs the specific facts and can attach conditions ranging from interrogation availability to a foreign-travel restriction. Third, once granted, the direction is not merely advisory — if the person is actually arrested afterward, sub-section (3) makes his release effectively automatic, and even converts what would otherwise be a first-instance non-bailable warrant into a bailable one. Sub-section (4) then draws a hard line around all of that: for the two named categories of offence, none of this machinery is available at all.
+
+### What changed from the CrPC
+
+> **CrPC 1973, s. 438 → BNSS 2023, s. 482.** The core anticipatory-bail mechanism — application to the High Court or Court of Session, discretionary grant, conditions modelled on the ordinary bail conditions, and the bailable-warrant consequence on arrest — continues substantially unchanged in structure. **Sub-section (4)'s blanket exclusion for BNS 2023 section 65 and section 70(2) offences is new relative to CrPC s. 438 in its original form** — the CrPC's own restriction on anticipatory bail for certain sexual offences was added later by State-level and Central amendments over the years, so this is continuity of a trend rather than a wholly novel idea, but the specific BNS cross-reference itself is new machinery. ⚠️ *Confirm the precise pre-BNSS amendment history of CrPC s. 438's offence-specific exclusions, and the content of BNS 2023 ss. 65 and 70(2), before finalising the concordance page.*
+
+### Test your instinct
+
+:::: instinct A rigid list of pre-conditions before anticipatory bail will even be considered
+A Court of Session refuses to even entertain an anticipatory bail application unless the applicant first surrenders his passport, furnishes character certificates from three referees, and undertakes not to apply for regular bail for six months — treating these as threshold conditions rather than terms of a grant.
+::: ruling What actually happens
+Section 482(2) empowers the Court to impose conditions once it has decided to grant a direction — it does not authorise treating an arbitrary checklist as a gatekeeping requirement before the application can even be considered on its merits. The discretion under sub-section (1) is to grant or refuse the direction on the facts of the particular case; conditions under sub-section (2) attach to a grant, they do not substitute for the merits inquiry or convert the remedy into something available only to applicants who pre-comply with demands the statute does not itself impose.
+:::
+::::
+
+:::: instinct An anticipatory bail application in a section 65 accusation
+An accused, apprehending arrest on an accusation that squarely falls within BNS 2023 section 65, applies under section 482 for anticipatory bail, arguing the facts are otherwise sympathetic and his personal circumstances warrant protection.
+::: ruling What actually happens
+Sub-section (4) forecloses this before the merits are even reached. Once the accusation is confirmed to fall within section 65 or section 70(2) of the BNS 2023, section 482 simply does not apply — there is no discretion to weigh sympathetic facts against, because the remedy itself has been withdrawn by Parliament for this category of accusation. Any relief here would have to be sought through a different route entirely, not by arguing for a favourable exercise of section 482 discretion.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Gurbaksh Singh Sibbia v. State of Punjab**, (1980) 2 SCC 565 — a Constitution Bench decision holding that the power to grant anticipatory bail is an extraordinary but not a rare or exceptional power, that it should not be hedged in with rigid, inflexible pre-conditions not found in the statute itself, and that the Court must exercise a genuine discretion on the facts of each case rather than mechanically applying a fixed checklist. **Practitioner takeaway:** resist any attempt — by the Court or the opposing side — to convert section 482's discretionary inquiry into a rigid, statute-unsupported set of pre-conditions; the correct question is always whether the direction is warranted on the specific facts, not whether the applicant has satisfied an invented checklist.
+
+#### Sword and shield
+
+As a **shield**, a person genuinely apprehending arrest can secure protection before ever being taken into custody, avoiding the disadvantage of arguing for bail from inside a lock-up. As a **sword**, the prosecution can point to sub-section (4) to foreclose the remedy altogether for the offences it names, without needing to argue the merits at all.
+
+#### The limitation clock
+
+No independent limitation period governs when a section 482 application must be filed; it is available as soon as the person has genuine reason to believe arrest is apprehended, and loses its purpose once arrest has already occurred (at which point the ordinary bail provisions take over).
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Accusation falls under BNS 2023 s. 65 or s. 70(2) | Section 482(4) | No anticipatory bail application lies under this section at all |
+| Person has reason to believe arrest is apprehended, offence outside sub-section (4) | Section 482(1) | May apply to the High Court or Court of Session for a direction |
+| Court decides to grant a direction | Section 482(2) | May attach conditions, including those available under section 480(3) |
+| Person subsequently arrested on the accusation | Section 482(3) | Release on bail essentially automatic; any first-instance warrant must be bailable |
+
+#### The authorities
+
+**Sushila Aggarwal v. State (NCT of Delhi)**, (2020) 5 SCC 1 — a later Constitution Bench addressing whether an anticipatory bail direction must be time-bound, generally holding it should not automatically expire and may continue until the conclusion of trial absent case-specific reasons to limit it. Not promoted as the winning ratio here because it answers a narrower, duration-specific question layered on top of Sibbia's foundational discretion principle, which is where this cluster's central dispute sits. ⚠️ *Verify before citing — confirm bench strength and the precise holding against a verified source before relying on this in a filing.*
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not draft an anticipatory bail application as though it must satisfy a rigid, judicially or informally imposed checklist — ground the argument in the specific facts, per Sibbia.
+2. Do not overlook sub-section (4) at the intake stage — confirm the accusation does not fall within BNS 2023 s. 65 or s. 70(2) before investing in an application that the section itself bars.
+3. Do not assume the conditions under sub-section (2) are optional extras the applicant can negotiate away — once imposed, they bind exactly as the ordinary section 480(3) conditions would.
+4. Do not treat sub-section (3)'s bailable-warrant consequence as automatic without first confirming the direction under sub-section (1) was actually granted and remains in force at the time of arrest.
+
+**Timing.** File the moment genuine apprehension of arrest crystallises — waiting until arrest is imminent or has already occurred defeats the purpose of the remedy and shifts the applicant into the different, less favourable posture of ordinary post-arrest bail.
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm the accusation does not fall within BNS 2023 s. 65 or s. 70(2) before proceeding under this section.
+2. Confirm the application is made to the High Court or Court of Session — no other forum has this power.
+3. Where a direction has been granted, identify precisely which conditions were attached and confirm compliance before relying on it.
+4. Where arrest has occurred after a direction, confirm the arresting officer and any Magistrate issuing a warrant are put on notice of the section 482(1) direction so sub-section (3) actually operates.
+
+---
