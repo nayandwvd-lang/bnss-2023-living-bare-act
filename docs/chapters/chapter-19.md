@@ -497,3 +497,119 @@ Anil Rai v. State of Bihar, (2001) 7 SCC 318 is noted here as general background
 4. Where the accused disputes a charged previous conviction, be ready to meet the evidence the prosecution leads on it specifically at the section 259 stage, after conviction — this is a distinct, later evidentiary contest from the trial on the substantive offence.
 
 ---
+
+## Section 260 — Trying the defamation-via-Sessions-complaint route, and the cost of a baseless accusation
+
+### The dispute this solves
+
+::: oneminute This flagship, chapter-closing section handles the one special track this Chapter carries for a case that does not arrive at the Court of Session by the ordinary committal route at all: a defamation complaint against a high public office-holder taken cognizance of directly by the Court of Session under section 222(2) (Chapter XV, already built). Section 260(1) directs that such a case be tried under the warrant-case-otherwise-than-on-police-report procedure applicable before a Magistrate's Court — not the Sessions-trial procedure this chapter has otherwise been building — with a proviso requiring the person defamed to be examined as a prosecution witness unless the Court records reasons for dispensing with that. Section 260(2) lets either party, or the Court on its own view, close the trial to the public. The remaining sub-sections handle what happens if the accusation turns out to have had no reasonable cause behind it at all: on a discharge or acquittal, the Court can call on the accuser to show cause why he should not compensate the accused, up to five thousand rupees, recoverable as a fine — with the accuser's exposure to ordinary civil or criminal liability for the false accusation left intact, an appeal to the High Court against the compensation order itself, and payment held back until any such appeal is resolved.
+:::
+
+::: story An accusation that led nowhere, and the accuser who had to answer for it
+A private citizen files a complaint alleging a senior public office-holder defamed him, and the Court of Session takes cognizance directly under section 222(2). Because the case did not arrive by ordinary committal, section 260(1) directs it be tried as a warrant case instituted otherwise than on a police report, with the complainant himself examined as a prosecution witness. At trial, the evidence collapses entirely, and the accused is acquitted. The Sessions Judge, forming the view that the complaint was not merely unsuccessful but had no reasonable cause behind it from the start, directs the complainant under section 260(3) to show cause why he should not pay compensation to the accused. Unsatisfied by the cause shown, the Judge orders three thousand rupees in compensation under section 260(4) — recoverable as if it were a fine — while making clear under section 260(6) that this compensation order does not shield the complainant from any separate civil or criminal liability the false accusation may have exposed him to.
+:::
+
+> **260. (1)** A Court of Session taking cognizance of an offence under sub-section (2) of section 222 [[!shall]] try the case in accordance with the procedure for the trial of warrant-cases instituted otherwise than on a police report before a Court of Magistrate:
+>
+> *Provided that* the person against whom the offence is alleged to have been committed [[!shall]], unless the Court of Session, for reasons to be recorded, otherwise directs, be examined as a witness for the prosecution.
+>
+> **(2)** Every trial under this section [[!shall]] be held in camera if either party thereto so desires or if the Court thinks fit so to do.
+>
+> **(3)** If, in any such case, the Court discharges or acquits all or any of the accused and is of opinion that there was no reasonable cause for making the accusation against them or any of them, it [[?may]], by its order of discharge or acquittal, direct the person against whom the offence was alleged to have been committed (other than the President, the Vice-President or the Governor of a State or the Administrator of a Union territory) to show cause why he should not pay compensation to such accused or to each or any of such accused, when there are more than one.
+>
+> **(4)** The Court [[!shall]] record and consider any cause which may be shown by the person so directed, and if it is satisfied that there was no reasonable cause for making the accusation, it [[?may]], for reasons to be recorded, make an order that compensation to such amount not exceeding five thousand rupees, as it may determine, be paid by such person to the accused or to each or any of them.
+>
+> **(5)** Compensation awarded under sub-section (4) [[!shall]] be recovered as if it were a fine imposed by a Magistrate.
+>
+> **(6)** No person who has been directed to pay compensation under sub-section (4) [[!shall]], by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made under this section:
+>
+> *Provided that* any amount paid to an accused person under this section [[!shall]] be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
+>
+> **(7)** The person who has been ordered under sub-section (4) to pay compensation [[?may]] appeal from the order, in so far as it relates to the payment of compensation, to the High Court.
+>
+> **(8)** When an order for payment of compensation to an accused person is made, the compensation [[!shall]] not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided.
+
+::: proviso Section 260's compensation route requires a specific finding, not just an acquittal
+An acquittal or discharge alone does not trigger the show-cause procedure — section 260(3) requires the Court to actually form the opinion that there was no reasonable cause for making the accusation in the first place. A prosecution that failed for evidentiary reasons, without more, does not automatically expose the complainant to a compensation order.
+:::
+
+::: proviso Section 260(6)'s carve-out for the President, Vice-President, Governors and Administrators is a floor, not the whole safeguard
+Even outside that specific carve-out, section 260(3)'s compensation power is discretionary ("may"), and section 260(4)'s actual order requires the Court to be independently satisfied, after considering the cause shown, that there was no reasonable cause for the accusation — a genuine two-step filter, not an automatic consequence of a failed prosecution.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court of Session has taken cognizance of a defamation complaint under section 222(2) — how is it tried, and what follows an acquittal?"
+  :gates="[
+    { q: 'Is the case tried under the warrant-case-otherwise-than-on-police-report procedure, with the person defamed examined as a prosecution witness?',
+      note: 'Section 260(1) mandates this procedure and this witness, subject only to the Court\'s own recorded reasons for dispensing with the examination',
+      no: 'The trial has not followed section 260(1)\'s required procedure' },
+    { q: 'Does the trial end in a discharge or acquittal?',
+      note: 'Section 260(3)\'s compensation route is only available on a discharge or acquittal, not a conviction',
+      no: 'Section 260(3) through (8) do not engage' },
+    { q: 'Does the Court form the opinion there was no reasonable cause for making the accusation?',
+      note: 'This is a specific, independent finding — not a consequence that follows automatically from the acquittal or discharge itself',
+      no: 'No show-cause direction issues, and the trial simply concludes with the discharge or acquittal' },
+    { q: 'After the show-cause procedure, is the Court satisfied there truly was no reasonable cause?',
+      note: 'Section 260(4) requires the Court to record and consider the cause shown before making any compensation order, capped at five thousand rupees',
+      no: 'No compensation order is made' }
+  ]"
+  result="A section 222(2) defamation complaint is tried as a warrant case with the complainant examined as a prosecution witness; where it ends in a discharge or acquittal the Court finds had no reasonable cause behind it, the accuser can be ordered, after a show-cause opportunity, to pay compensation of up to five thousand rupees to the accused, appealable to the High Court and payable only once any appeal is resolved"
+  resultKind="discretionary"
+  caveat="A compensation order under section 260 does not exempt the accuser from separate civil or criminal liability for the false accusation, and any amount already paid is set off against compensation in a later civil suit on the same matter." />
+
+### In plain English
+
+Section 260 recognises that the section 222(2) defamation route runs a real risk in the opposite direction from the ordinary criminal trial's usual concerns: because it lets a private individual set a Sessions-level prosecution in motion against a high public office-holder, the Sanhita builds in a consequence for using that route baselessly. The trial itself runs like an ordinary warrant case, with the person defamed put up as a witness rather than staying behind the scenes. But if the prosecution fails and the Court concludes it never had a reasonable basis at all, the person who made the accusation can be made to answer for that — genuinely made to show cause, and only ordered to pay if the Court remains unconvinced after hearing him out. The cap is modest, five thousand rupees, and it is explicitly not a substitute for whatever separate civil or criminal consequences the false accusation may carry — it is a targeted, capped remedy specific to this defamation-via-Sessions-complaint track, not a general licence to fine every unsuccessful complainant.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 260 appears to track CrPC section 237 (procedure in cases instituted under section 199(2)), continuing the special-procedure and compensation-for-baseless-accusation framework for the equivalent defamation-against-public-servant complaint route. No significant departure is flagged for this section, but the correspondence has not been independently cross-checked clause-by-clause.*
+
+### Test your instinct
+
+:::: instinct A section 222(2) complaint fails at trial purely because a key witness turned hostile, through no fault attributable to the complainant's original basis for filing. The accused is acquitted.
+::: ruling A compensation order is not automatic, and may not be appropriate here
+Section 260(3) requires the Court to independently form the opinion that there was no reasonable cause for making the accusation — an acquittal caused by a witness turning hostile, where the complaint had a genuine basis when filed, does not by itself establish that the accusation lacked reasonable cause from the outset.
+:::
+::::
+
+:::: instinct The Court orders the complainant to pay compensation under section 260(4). The complainant wants to challenge the underlying finding that there was no reasonable cause for the accusation, not just the amount.
+::: ruling Section 260(7) permits an appeal "in so far as it relates to the payment of compensation"
+The appeal right under section 260(7) is tied to the compensation order, which necessarily includes the finding that grounds it — a challenge to whether there was reasonable cause for the accusation is inseparable from a challenge to the compensation order itself, and falls within the scope of this appeal.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No citation is promoted for this section. This author is not confident of a specific, correctly-cited Supreme Court ratio tied precisely to this compensation-for-baseless-accusation mechanism under the CrPC's equivalent provision. Flagged as a research gap for a dedicated verification pass.*
+
+#### Sword and shield
+
+As a **shield**, section 260(3)'s no-reasonable-cause requirement and section 260(4)'s show-cause procedure protect a complainant who genuinely believed in his case from being automatically penalised merely because the prosecution failed. As a **sword**, an acquitted accused facing a defamation complaint he considers baseless can press the Court, at the point of acquittal, to consider the no-reasonable-cause question and invoke section 260(3) directly rather than letting the point go unaddressed; the defence's broader shield is section 260(6)'s express preservation of separate civil and criminal remedies, meaning a modest compensation order here does not exhaust the accused's options.
+
+#### The limitation clock
+
+Section 260(8) fixes one specific timing rule: compensation ordered under section 260(4) is not payable until the period for filing an appeal has elapsed, or, if an appeal is filed, until it is decided. No independent limitation period governs the complaint itself within this section.
+
+#### Interlocking matrix
+
+Section 260(1) interlocks directly with section 222(2) (the sanction-gated defamation-against-high-public-office-holder cognizance route, Chapter XV, already built) as the trigger for this entire section, and with the warrant-case-otherwise-than-on-police-report trial procedure ⚠️ *not yet built in this repository as of this rendering.* Section 260(6)'s proviso interlocks with the civil compensation framework in any subsequent civil suit on the same matter, outside this Sanhita's scope.
+
+#### The authorities
+
+⚠️ *None promoted for this section; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this section:**
+
+1. Where a section 222(2) complaint is being defended, keep a clear record of the basis (or absence of one) for the accusation throughout trial — it becomes directly relevant if a discharge or acquittal results and the accused seeks a compensation order.
+2. On a favourable acquittal or discharge in such a case, consider promptly raising section 260(3) with the Court rather than assuming the compensation question will be addressed automatically — the section is framed as discretionary.
+3. Where a compensation order is made against a complainant, advise on the interaction with section 260(6) — the order does not itself resolve any separate civil or criminal exposure the false accusation may carry, and any amount paid is only a future set-off, not a final settlement.
+4. Where challenging a compensation order on appeal under section 260(7), frame the appeal to reach the underlying no-reasonable-cause finding, not merely the quantum, since the two are treated as inseparable.
+
+---
