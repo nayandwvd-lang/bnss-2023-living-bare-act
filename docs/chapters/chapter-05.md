@@ -590,3 +590,144 @@ None of ss. 43–46 carries an independent limitation period; the constraints op
 
 ---
 
+## Sections 47–50 — Grounds of arrest, the right to bail information, the duty to inform a relative or friend, and search at arrest
+
+### The dispute this solves
+
+::: oneminute An arrest that is otherwise lawful can still be conducted unlawfully — by keeping the person in the dark about why he was picked up, whether he can get bail, and by cutting him off from anyone who could help him.
+Section 35 (and the clusters before this one) answer whether an arrest may happen at all. This cluster answers a different question: once the arrest has happened, what is the arrested person entitled to know and to have done on his behalf, immediately, as a matter of right rather than favour? Being told why he has been detained. Being told, if the offence is bailable, that he can arrange sureties. Having someone — a relative, a friend, anyone he names — actually informed of where he is being held, with the police keeping a written record that this happened. And, functionally, what may be taken off his person and what must be returned to him.
+
+None of this depends on guilt or innocence, and none of it is a courtesy the police may extend if convenient. It is precisely the layer of protection that stops a lawful arrest from sliding into an unaccounted-for disappearance into custody — a concern the Supreme Court addressed directly in *D.K. Basu*, and one this cluster's own provisions now write into the text of the Sanhita itself.
+:::
+
+::: story Nobody knew where Farid had gone
+Farid's cheque-bounce arrest (see the previous cluster) has another problem: at the time of arrest, no one tells him what offence he is being held for, no one mentions that the offence is bailable and that he may arrange sureties, and no one contacts his brother — whom he names repeatedly — to say where he has been taken. It is only when the brother happens to visit the police station on an unrelated errand, twelve hours later, that the family learns what happened. Sections 47 and 48 exist precisely to make this sequence of omissions independently actionable — separately from whatever happens to the underlying cheque case.
+:::
+
+> **47. Person arrested to be informed of grounds of arrest and of right to bail.**—(1) Every police officer or other person arresting any person without warrant [[!shall]] forthwith communicate to him full particulars of the offence for which he is arrested or other grounds for such arrest.
+>
+> (2) Where a police officer arrests without warrant any person other than a person accused of a non-bailable offence, he [[!shall]] inform the person arrested that he is entitled to be released on bail and that he may arrange for sureties on his behalf.
+>
+> **48. Obligation of person making arrest to inform about arrest, etc., to relative or friend.**—(1) Every police officer or other person making any arrest under this Sanhita [[!shall]] forthwith give the information regarding such arrest and place where the arrested person is being held to any of his relatives, friends or such other persons as may be disclosed or nominated by the arrested person for the purpose of giving such information and also to the designated police officer in the district.
+>
+> (2) The police officer [[!shall]] inform the arrested person of his rights under sub-section (1) as soon as he is brought to the police station.
+>
+> (3) An entry of the fact as to who has been informed of the arrest of such person [[!shall]] be made in a book to be kept in the police station in such form as the State Government may, by rules, provide.
+>
+> (4) It [[!shall]] be the duty of the Magistrate before whom such arrested person is produced, to satisfy himself that the requirements of sub-section (2) and sub-section (3) have been complied with in respect of such arrested person.
+>
+> ::: proviso The Magistrate is a built-in compliance check, not a rubber stamp
+> Sub-section (4) is easy to read past, but it converts sections 48(2) and 48(3) from purely police-station-level obligations into something the remanding Magistrate must independently verify. A Magistrate who mechanically signs off on remand without actually asking whether the arrested person's chosen relative or friend was informed, and whether the police-station register reflects it, has failed a duty the statute places on him personally. This is a live objection to raise at the very first production, not something to be raised for the first time at trial.
+> :::
+>
+> **49. Search of arrested person.**—(1) Whenever,—
+>
+> (i) a person is arrested by a police officer under a warrant which does not provide for the taking of bail, or under a warrant which provides for the taking of bail but the person arrested cannot furnish bail; and
+>
+> (ii) a person is arrested without warrant, or by a private person under a warrant, and cannot legally be admitted to bail, or is unable to furnish bail,
+>
+> the officer making the arrest or, when the arrest is made by a private person, the police officer to whom he makes over the person arrested, [[?may]] search such person, and place in safe custody all articles, other than necessary wearing-apparel, found upon him and where any article is seized from the arrested person, a receipt showing the articles taken in possession by the police officer [[!shall]] be given to such person.
+>
+> (2) Whenever it is necessary to cause a female to be searched, the search [[!shall]] be made by another female with strict regard to decency.
+>
+> **50. Power to seize offensive weapons.**—The police officer or other person making any arrest under this Sanhita [[?may]], immediately after the arrest is made, take from the person arrested any offensive weapons which he has about his person, and [[!shall]] deliver all weapons so taken to the Court or officer before which or whom the officer or person making the arrest is required by this Sanhita to produce the person arrested.
+>
+> ::: proviso A search power that is conditional, not automatic
+> Section 49(1)'s search-and-safe-custody power is not triggered by every arrest — it applies only where the arrested person cannot furnish bail or is otherwise not admitted to bail on the spot. An arrestee who can and does furnish bail immediately falls outside sub-section (1)'s conditions altogether; treating the search power as a routine incident of every arrest, rather than as conditioned on the bail-furnishing gate, overstates what the text actually authorises.
+> :::
+
+<MicroTree
+  input="A person has just been arrested. What must happen next, and what may happen to his person and belongings?"
+  :gates="[
+    { q: 'Has the arresting officer communicated the full particulars of the offence or other grounds for the arrest, forthwith?', note: 'Section 47(1) is satisfied; move to the bail-information duty.', no: 'Section 47(1) has been breached — a live, independently raisable objection regardless of the arrest’s underlying legality.' },
+    { q: 'Is the offence bailable, and has the arrested person been told he is entitled to be released on bail and may arrange sureties?', note: 'Section 47(2) is satisfied.', no: 'If the offence is bailable and this information was withheld, section 47(2) has been breached.' },
+    { q: 'Has the arrested person named a relative, friend, or other person, and has that person actually been informed of the arrest and place of custody — with an entry made in the station register?', note: 'Section 48(1)–(3) is satisfied; at production, the Magistrate must independently verify this under section 48(4).', no: 'Sections 48(1)–(3) have been breached; raise section 48(4) at the very first remand hearing.' },
+    { q: 'Can the arrested person furnish bail on the spot?', note: 'Section 49(1)’s search-and-safe-custody power is not triggered — he is to be released on bail rather than searched and held.', no: 'Section 49(1) applies: the officer may search the person, place articles (other than necessary wearing-apparel) in safe custody with a receipt, using another female searcher if the arrestee is a woman, and section 50 separately allows seizure of any offensive weapon for production before the court.' }
+  ]"
+  result="The arrested person's informational rights and the permissible scope of a search and weapon-seizure are checked off in sequence — each is a discrete, independently enforceable obligation, not a single bundled 'processing' step."
+  resultKind="mandatory"
+  caveat="A breach of sections 47 or 48 does not, by itself, automatically invalidate an otherwise lawful arrest — but it is independently actionable, and section 48(4) specifically arms the remanding Magistrate to catch it before the arrested person disappears further into the system."
+/>
+
+### In plain English
+
+Section 47 gives the arrested person the two most basic facts he needs immediately: why he has been picked up, and — if the offence is bailable — that he does not have to sit in custody at all if he can arrange sureties. Section 48 is the relative-or-friend notification duty: someone the arrested person actually names must be told where he is, the police must record in a register that this happened, and — crucially — the Magistrate who first sees him is personally responsible for checking that it did happen, not just for rubber-stamping the remand. Section 49 lets the police search a person who could not be released on bail on the spot, but only that person, and only for that reason — with a receipt for anything seized and a same-sex searcher for a woman. Section 50 is narrower still: it lets the police take away anything that could be used as a weapon, but requires it to be handed over to the court or officer before whom the arrested person is eventually produced, so it does not simply vanish into an evidence locker unaccounted for.
+
+### What changed from the CrPC
+
+BNSS sections 47, 48, 49 and 50 correspond to CrPC sections 50, 50A, 51 and 52 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+These are **renumbered with drafting changes** — section 48's relative/friend-notification duty, in particular, reproduces what the CrPC had itself only added by a 2009 amendment (CrPC section 50A), following years of practice built on *D.K. Basu*'s guidelines before the CrPC caught up with them in statutory form. The search-and-seizure provisions (ss. 49–50) and the grounds-of-arrest/bail-information duty (s. 47) track their CrPC predecessors closely.
+
+### Test your instinct
+
+:::: instinct The relative who was never told, and the Magistrate who never asked
+Farid names his brother as the person to be informed. No one from the police station contacts the brother, and no entry is made in the station register reflecting any notification at all. At the remand hearing the next day, the Magistrate signs the remand order without asking a single question about section 48 compliance.
+::: ruling What actually happens
+Two separate breaches have occurred: the police failed sections 48(1)–(3) by not informing the named relative and not making the required register entry, and the Magistrate independently failed section 48(4)'s personal duty to satisfy himself that those requirements were met before remanding. Both are live objections — the second is arguably the more consequential one to raise, since it goes to the propriety of the remand order itself, not merely to the conduct of the arresting officers.
+:::
+::::
+
+:::: instinct Searched and held despite offering bail on the spot
+A person arrested for a bailable offence tells the officer at the time of arrest that he can furnish a surety immediately and names one who is present. The officer ignores this, searches him under section 49, places his belongings in custody, and holds him regardless.
+::: ruling What actually happens
+Section 49(1)'s search-and-safe-custody power is conditioned on the arrested person being unable to furnish bail or otherwise not being admitted to bail — it is not a routine incident of every arrest. Where bail can genuinely be furnished on the spot, invoking section 49 to search and detain regardless oversteps what the sub-section actually authorises, independent of whatever separate bail-processing delay may also be occurring.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Joginder Kumar v. State of U.P.**, (1994) 4 SCC 260. The Supreme Court held that an arrested person has a right to have a friend, relative or other person interested in his welfare informed of his arrest and the place he is being held, and that the police should make this known to the arrested person as soon as he is brought to the police station — a right the Court described as flowing from Articles 21 and 22.
+
+::: info Verify before citing
+This citation was used earlier in this chapter as a secondary authority (s. 35 cluster) with the same verification caution; it is promoted here to winning ratio because its holding maps directly onto section 48's core obligation, but the precise holding and citation should still be independently confirmed against the official SCC report before being placed before a court.
+:::
+
+**Practitioner takeaway.** Where the police fail to inform a named relative or friend of an arrest, or fail to make the required register entry, press *Joginder Kumar* and section 48(4) together at the very first production — the Magistrate has an independent, personal duty to have checked this before remanding, and a lapse is his lapse too, not only the arresting officer's.
+
+#### Sword and shield
+
+As a **shield**, sections 47 and 48 arm the arrested person with rights he can invoke the moment he is in custody, and section 48(4) gives the defence a second, independent target — the remand order itself — if the Magistrate failed to verify compliance. As a **sword**, sections 49 and 50 give the prosecution a narrowly-conditioned power to search and seize weapons, but the same narrowness cuts against the prosecution where the person could in fact have furnished bail — a defence-side argument that a search conducted in those circumstances exceeded what section 49 actually authorises.
+
+#### The limitation clock
+
+No independent limitation period attaches to ss. 47–50; the appropriate moment to raise a breach is the first remand hearing (for ss. 47–48) or at the point the search or seizure is sought to be relied upon evidentially (for ss. 49–50).
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Arrested person not told why he was arrested | Section 47(1) | Independent breach, regardless of the arrest's own legality |
+| Bailable offence, arrestee not told of bail entitlement | Section 47(2) | Independent breach |
+| Named relative/friend not informed, or no register entry made | Section 48(1)–(3) | Independent breach; raise at first production |
+| Magistrate remands without checking section 48 compliance | Section 48(4) | Defect in the remand order itself, not just police conduct |
+| Arrestee cannot furnish bail on the spot | Section 49(1) | Search and safe custody of articles, with a receipt |
+| Female arrestee requires search | Section 49(2) | Must be searched by another female, with strict regard to decency |
+| Offensive weapon found on arrested person | Section 50 | Seized, delivered to the court/officer before whom he is produced |
+
+#### The authorities
+
+No further authority is added here beyond *Joginder Kumar* — the search-and-seizure provisions at ss. 49–50 are, in the drafter's assessment, sufficiently mechanical and textually clear that no additional Supreme Court gloss is needed to state their operation with confidence.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not treat a section 47 or 48 breach as merely a departmental irregularity — plead it as an independent violation, and where a Magistrate remanded without checking compliance, plead the section 48(4) defect separately and explicitly.
+2. Do not let "the arrest itself was lawful" become an answer to a section 48 complaint — the two questions are independent, and a lawful arrest conducted in violation of section 48 is still a violation of section 48.
+3. Do not assume section 49's search power applies to every arrestee — check first whether bail could have been furnished on the spot; if so, the search-and-safe-custody power was never triggered.
+4. Do not let seized weapons or articles go unaccounted for — section 49(1)'s receipt requirement and section 50's court-delivery requirement are both independently checkable paper trails.
+
+**Timing.** Raise ss. 47–48 objections at the first production before the Magistrate; raise a ss. 49–50 objection at the point the prosecution seeks to rely on any seized article or weapon in evidence.
+
+**Model checklist for reviewing the informational and search stage of an arrest:**
+
+1. Confirm the grounds of arrest were communicated forthwith, and, if the offence is bailable, that the bail entitlement was communicated too.
+2. Identify who the arrested person named as his relative/friend, and independently verify — through the station register — that the notification was actually made.
+3. At the first remand hearing, ask the Magistrate directly whether section 48(4) compliance was checked, and place the answer on record.
+4. If a search was conducted, confirm the arrested person could not in fact have furnished bail on the spot, and check the receipt issued for any seized article against what the prosecution now produces.
+
+---
+
