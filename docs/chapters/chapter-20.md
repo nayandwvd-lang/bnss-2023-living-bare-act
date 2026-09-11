@@ -336,3 +336,123 @@ Section 270 interlocks directly with section 266 (Chapter XX, this chapter, clus
 4. At the section 268 discharge stage, remember evidence has already been led under section 267 — the discharge argument here is evidentiary ("no case, if unrebutted, would warrant conviction"), not merely a paper-record argument as under Part A's section 262.
 
 ---
+
+## Sections 271–273 — Acquittal or conviction, the complainant who doesn't show, and the cost of a baseless accusation
+
+### The dispute this solves
+
+::: oneminute Part C closes the chapter with three provisions that apply across both tracks. Section 271 is the trial's actual verdict: not guilty means acquittal, recorded outright; guilty means a mandatory sentence hearing (unless section 364 or section 401 diverts the case), followed by sentence according to law; and where a previous conviction was charged under section 234(7) and the accused disputes it, evidence on that dispute is taken and a finding recorded only *after* conviction — the previous-conviction charge itself stays out of the trial, unread and unreferenced, until then. Section 272 is a narrow, discretionary escape valve for complaint cases: if the complainant is absent on a hearing date and the offence is compoundable or non-cognizable, the Magistrate may, after giving the complainant thirty days to appear, discharge the accused at any point before charge is framed — notwithstanding anything else in the chapter. Section 273 is the flagship, and the reason this cluster matters most: where a Magistrate discharges or acquits an accused in any case instituted on complaint or information, and forms the opinion there was no reasonable ground for making the accusation, he can call on the complainant or informant to show cause why he should not pay compensation — up to the amount of fine the Magistrate could himself impose — to the accused. Default in payment can mean simple imprisonment up to thirty days. The compensation order doesn't exempt the complainant from other civil or criminal liability, though any amount actually paid is set off against a later civil suit on the same matter. A complainant ordered to pay more than two thousand rupees by a second-class Magistrate can appeal as if he himself had been convicted, and payment is held back pending that appeal (or, if none is filed, for one month). Section 273(8) makes clear the whole mechanism applies to summons-cases as well as warrant-cases.
+:::
+
+::: story A complaint that collapses at trial, and the compensation order that follows
+A private complainant alleges criminal breach of trust against a former business partner, but at trial his own testimony is internally inconsistent, and the only supporting witness he names disavows the complaint's central allegation under cross-examination. The Magistrate acquits the accused under section 271(1), and — going further — records a specific finding that there was no reasonable ground for making the accusation at all, not merely that the case wasn't proved. Under section 273(1), the Magistrate calls on the complainant, present at the hearing, to show cause why he should not pay compensation to the acquitted accused. The complainant's explanation — that he genuinely believed his allegations — fails to satisfy the Magistrate given the specific, particularised finding already made, and an order for compensation of eight thousand rupees is passed, recoverable by simple imprisonment of up to thirty days in default. The complainant, having been ordered to pay more than two thousand rupees, appeals as though he had himself been convicted; payment is held back until that appeal is decided.
+:::
+
+> **271. (1)** If, in any case under this Chapter in which a charge has been framed, the Magistrate finds the accused not guilty, he [[!shall]] record an order of acquittal.
+>
+> **(2)** Where, in any case under this Chapter, the Magistrate finds the accused guilty, but does not proceed in accordance with the provisions of section 364 or section 401, he [[!shall]], after hearing the accused on the question of sentence, pass sentence upon him according to law.
+>
+> **(3)** Where, in any case under this Chapter, a previous conviction is charged under the provisions of sub-section (7) of section 234 and the accused does not admit that he has been previously convicted as alleged in the charge, the Magistrate [[?may]], after he has convicted the said accused, take evidence in respect of the alleged previous conviction, and [[!shall]] record a finding thereon:
+>
+> Provided that no such charge shall be read out by the Magistrate nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence adduced by it, unless and until the accused has been convicted under sub-section (2).
+>
+> **272.** When the proceedings have been instituted upon complaint, and on any day fixed for the hearing of the case, the complainant is absent, and the offence may be lawfully compounded or is not a cognizable offence, the Magistrate [[?may]] after giving thirty days' time to the complainant to be present, in his discretion, notwithstanding anything hereinbefore contained, at any time before the charge has been framed, discharge the accused.
+>
+> **273. (1)** If, in any case instituted upon complaint or upon information given to a police officer or to a Magistrate, one or more persons is or are accused before a Magistrate of any offence triable by a Magistrate, and the Magistrate by whom the case is heard discharges or acquits all or any of the accused, and is of opinion that there was no reasonable ground for making the accusation against them or any of them, the Magistrate [[?may]], by his order of discharge or acquittal, if the person upon whose complaint or information the accusation was made is present, call upon him forthwith to show cause why he should not pay compensation to such accused or to each or any of such accused when there are more than one; or, if such person is not present, direct the issue of a summons to him to appear and show cause as aforesaid.
+>
+> **(2)** The Magistrate [[!shall]] record and consider any cause which such complainant or informant may show, and if he is satisfied that there was no reasonable ground for making the accusation, [[?may]], for reasons to be recorded, make an order that compensation to such amount, not exceeding the amount of fine he is empowered to impose, as he may determine, be paid by such complainant or informant to the accused or to each or any of them.
+>
+> **(3)** The Magistrate [[?may]], by the order directing payment of the compensation under sub-section (2), further order that, in default of payment, the person ordered to pay such compensation shall undergo simple imprisonment for a period not exceeding thirty days.
+>
+> **(4)** When any person is imprisoned under sub-section (3), the provisions of sub-section (6) of section 8 of the Bharatiya Nyaya Sanhita, 2023 shall, so far as may be, apply.
+>
+> **(5)** No person who has been directed to pay compensation under this section shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made or information given by him:
+>
+> Provided that any amount paid to an accused person under this section shall be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
+>
+> **(6)** A complainant or informant who has been ordered under sub-section (2) by a Magistrate of the second class to pay compensation exceeding two thousand rupees, [[?may]] appeal from the order, as if such complainant or informant had been convicted on a trial held by such Magistrate.
+>
+> **(7)** When an order for payment of compensation to an accused person is made in a case which is subject to appeal under sub-section (6), the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided; and where such order is made in a case which is not so subject to appeal the compensation shall not be paid before the expiration of one month from the date of the order.
+>
+> **(8)** The provisions of this section apply to summons-cases as well as to warrant-cases.
+
+::: proviso Section 271(3)'s previous-conviction procedure keeps the jury (and the Magistrate's own mind, insofar as guilt is concerned) uncontaminated until after conviction
+This mirrors the identical safeguard already built for Sessions trials at section 259 (Chapter XIX): the previous-conviction charge under section 234(7) is not read out, the accused is not asked to plead to it, and neither the prosecution nor its evidence may refer to it until the accused has actually been convicted of the offence presently on trial. Only then does the previous-conviction dispute get litigated.
+:::
+
+::: proviso Section 273's compensation power requires a specific finding of no reasonable ground, not merely a discharge or acquittal
+A bare acquittal or discharge — even a comprehensive one — does not by itself trigger section 273. The Magistrate must go further and form the opinion, stated as such, that there was no reasonable ground for making the accusation in the first place. Where the case simply wasn't proved to the requisite standard, without more, the ordinary consequence is acquittal alone; compensation requires the additional, specific finding.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A warrant-case trial under this Chapter has concluded on the evidence — what happens at judgment, and can the complainant himself face consequences?"
+  :gates="[
+    { q: 'Does the Magistrate find the accused not guilty?',
+      no: 'The Magistrate proceeds to the sentence hearing and sentence under section 271(2), subject to sections 364/401' },
+    { q: 'Is the case one where a previous conviction was charged under section 234(7) and disputed by the accused?',
+      note: 'This evidence and finding is taken only after conviction, mirroring section 259 from Chapter XIX',
+      no: 'No separate previous-conviction procedure is triggered' },
+    { q: 'On discharge or acquittal, does the Magistrate additionally find there was no reasonable ground for making the accusation?',
+      note: 'This is a specific finding beyond the discharge/acquittal itself — section 273 does not follow automatically from either',
+      no: 'The complainant or informant faces no compensation exposure under section 273' }
+  ]"
+  result="The Magistrate may call on the complainant or informant to show cause why he should not pay compensation to the accused, and — if the cause shown does not satisfy him — order compensation up to the fine amount he could himself impose, recoverable by up to thirty days' simple imprisonment in default, appealable if it exceeds two thousand rupees ordered by a second-class Magistrate, with payment held pending any such appeal"
+  resultKind="discretionary"
+  caveat="Compensation paid under section 273 does not exempt the complainant from other civil or criminal liability, but any amount paid is set off against a later civil suit on the same matter — and the whole mechanism applies to summons-cases too, under section 273(8)." />
+
+### In plain English
+
+Section 271 is the ordinary verdict machinery: acquit if not guilty, hear-then-sentence if guilty, and keep any disputed previous-conviction question walled off until after the guilt question is settled. Section 272 is a minor housekeeping valve for complaint cases where a complainant simply stops showing up to a minor, compoundable or non-cognizable matter. Section 273 is the provision with teeth: it recognises that a criminal complaint is not a costless tool, and where a Magistrate specifically finds an accusation had no reasonable basis at all — not just that it wasn't proved — the person who made it can be made to answer for that in the same proceeding, without the accused needing to file a separate civil suit for malicious prosecution.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 271 appears to track CrPC section 248 (acquittal or conviction), BNSS section 272 appears to track CrPC section 249 (absence of complainant), and BNSS section 273 appears to track CrPC section 250 (compensation for accusation without reasonable cause). No significant departure is flagged for this cluster — the mechanism reads as substantively continuous with its CrPC predecessor, mirroring the generalised version of the same compensation idea already seen in section 260 (Chapter XIX) for the narrower defamation-complaint context, though this has not been independently cross-checked clause-by-clause. The cross-reference in section 271(3) to "section 234(7)" and in section 271(2) to "section 364 or section 401" is drawn directly from the bare Act text; sections 364 and 401 themselves are ⚠️ not yet built in this repository, so their exact scope (sentencing procedure / probation-type disposal, respectively) is flagged rather than asserted.*
+
+### Test your instinct
+
+:::: instinct The Magistrate acquits the accused, stating only that the prosecution failed to prove its case beyond reasonable doubt, without commenting on whether the accusation had any reasonable ground.
+::: ruling Section 273 is not automatically triggered by this acquittal alone
+Section 273(1) requires the Magistrate to be "of opinion that there was no reasonable ground for making the accusation" before the show-cause mechanism is even engaged. An acquittal resting solely on the prosecution's failure to meet its burden of proof, without an accompanying finding that the accusation itself lacked reasonable ground, does not by itself expose the complainant to a compensation order.
+:::
+::::
+
+:::: instinct A complainant ordered to pay compensation of fifteen hundred rupees by a second-class Magistrate wants to appeal that order.
+::: ruling Section 273(6)'s appeal right is limited to orders exceeding two thousand rupees
+Section 273(6) grants an appeal, as if the complainant had himself been convicted, only where a Magistrate of the second class orders compensation exceeding two thousand rupees. An order of fifteen hundred rupees from a second-class Magistrate falls below that threshold and would not carry this specific appeal right under this sub-section.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, section 273 protects an accused who has been dragged through a baseless accusation, giving him a compensation route within the very proceeding that cleared him, without a separate civil suit. As a **sword**, defence counsel securing an acquittal should press the Magistrate, at the point of recording the acquittal, to make the further specific finding that the accusation lacked reasonable ground — since that finding, not the acquittal alone, is what unlocks section 273. The complainant's countervailing tool is section 273(2)'s show-cause opportunity itself: a genuine, good-faith explanation for having made the complaint can defeat the compensation order even where the case failed on the merits.
+
+#### The limitation clock
+
+Section 273(7) is this cluster's limitation-adjacent entry: compensation ordered in an appealable case cannot be paid until the appeal period has lapsed, or, if an appeal is filed, until it is decided; in a non-appealable case, payment is withheld for one month from the order. Section 272's complainant-absence discharge carries its own thirty-day notice requirement before discharge can follow.
+
+#### Interlocking matrix
+
+Section 271(3) interlocks directly with section 234(7) (Chapter XVIII, already built) for the previous-conviction pleading mechanism, and mirrors section 259's identical sequencing safeguard (Chapter XIX, already built). Section 273 generalises the compensation mechanism already seen in the narrower, high-office-holder-specific defamation context of section 260 (Chapter XIX, already built) to any complaint or information case before a Magistrate. Section 271(2)'s cross-references to sections 364 and 401 flag both as ⚠️ not yet built in this repository.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. On securing an acquittal or discharge for a client who was the target of what appears to be a baseless private complaint, explicitly invite the Magistrate to record a finding of no reasonable ground — the acquittal order alone will not trigger section 273.
+2. When representing a complainant facing a section 273(1) show-cause notice, prepare a genuine, documented explanation of the basis for the original complaint — a good-faith explanation can defeat the compensation order even after an adverse verdict on the underlying case.
+3. Calendar the section 273(7) payment-hold period correctly depending on whether the order is appealable — releasing compensation prematurely risks having to claw it back if the appeal succeeds.
+4. Where a client has already recovered compensation under section 273, factor the set-off proviso to section 273(5) into any later civil suit for the same matter — it reduces, but does not eliminate, the civil claim.
+
+---
