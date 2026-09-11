@@ -193,4 +193,130 @@ Section 213 interlocks directly with ⚠️ *the committal-proceedings chapter (
 3. Where a case is being tried by an Additional Sessions Judge, confirm which of the two independent bases under section 214 applies — a Sessions Judge's order, a High Court direction, or both — for the record.
 4. Raise a committal defect as a threshold jurisdictional objection, not as a trial-stage irregularity, to preserve its full strategic weight.
 
+## Sections 215–216 — Who may complain about offences against public servants and public justice
+
+### The dispute this solves
+
+::: oneminute Not every offence can be set in motion by any citizen who happens to know about it. For offences committed against a public servant acting in his official capacity, or against the machinery of justice itself — a Court's own proceedings, or a document produced in evidence — section 215 deliberately narrows who may complain, and it does so as an override of the ordinary cognizance gateways in section 210.
+Section 215(1)(a) covers a defined band of offences against public servants; section 215(1)(b) covers a defined band of offences against public justice and against documents given in evidence, but only when committed in or in relation to a Court proceeding. For both bands, the rule is the same in structure: no Court may take cognizance except on a *written complaint* from a specifically named source — the public servant himself (or his administrative superior, or someone he authorises) for the first band, and the Court itself (or an officer it authorises, or a superior Court) for the second. This is a standing rule, not a merits defence — it says nothing about whether the conduct is criminal, only who is allowed to start the prosecution. Section 216 then does something narrower and specific: for one particular offence within that closed list — witness threatening — it lets the witness, or any other person, file the complaint directly.
+:::
+
+::: story The obstructed raid, and the threatened witness
+A tax inspector is obstructed while conducting a lawful, official raid — an offence squarely within section 215(1)(a)'s band. A bystander who witnessed the obstruction wants to file a complaint himself. He cannot: section 215(1)(a) restricts standing to the inspector, his administrative superior, or someone the inspector has specifically authorised — a stranger's complaint, however well-intentioned, does not satisfy the gate, and even a police report following an FIR does not substitute for the required written complaint from the right source. Separately, a witness in a pending civil suit is threatened by a party to that suit, hoping to stop her from testifying truthfully. That offence sits within the same closed list that section 215(1)(b) would ordinarily route through the Court itself — but section 216 gives the threatened witness a direct route of her own: she, or indeed any other person, may file the complaint without waiting for the Court to act.
+:::
+
+> **215. (1)** No Court [[!shall]] take cognizance—
+>
+> (a) (i) of any offence punishable under sections 206 to 223 (both inclusive but excluding section 209) of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*; or
+>
+> (ii) of any abetment of, or attempt to commit, such offence; or
+>
+> (iii) of any criminal conspiracy to commit such offence,
+>
+> except on the complaint in writing of the public servant concerned or of some other public servant to whom he is administratively subordinate or of some other public servant who is authorised by the concerned public servant so to do;
+>
+> (b) (i) of any offence punishable under any of the following sections of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*, namely, sections 229 to 233 (both inclusive), 236, 237, 242 to 248 (both inclusive) and 267, when such offence is alleged to have been committed in, or in relation to, any proceeding in any Court; or
+>
+> (ii) of any offence described in sub-section (1) of section 336, or punishable under sub-section (2) of section 340 or section 342 of ⚠️ *the said Sanhita*, when such offence is alleged to have been committed in respect of a document produced or given in evidence in a proceeding in any Court; or
+>
+> (iii) of any criminal conspiracy to commit, or attempt to commit, or the abetment of, any offence specified in sub-clause (i) or sub-clause (ii),
+>
+> except on the complaint in writing of that Court or by such officer of the Court as that Court may authorise in writing in this behalf, or of some other Court to which that Court is subordinate.
+>
+> **(2)** Where a complaint has been made by a public servant or by some other public servant who has been authorised to do so by him under clause (a) of sub-section (1), any authority to which he is administratively subordinate or who has authorised such public servant, [[?may]] order the withdrawal of the complaint and send a copy of such order to the Court; and upon its receipt by the Court, no further proceedings [[!shall]] be taken on the complaint:
+>
+> *Provided that no such withdrawal shall be ordered if the trial in the Court of first instance has been concluded.*
+>
+> **(3)** In clause (b) of sub-section (1), the term "Court" means a Civil, Revenue or Criminal Court, and includes a tribunal constituted by or under a Central or State Act if declared by that Act to be a Court for the purposes of this section.
+>
+> **(4)** For the purposes of clause (b) of sub-section (1), a Court [[!shall]] be deemed to be subordinate to the Court to which appeals ordinarily lie from the appealable decrees or sentences of such former Court, or in the case of a Civil Court from whose decrees no appeal ordinarily lies, to the Principal Court having ordinary original civil jurisdiction within whose local jurisdiction such Civil Court is situate:
+>
+> *Provided that—*
+>
+> *(a) where appeals lie to more than one Court, the Appellate Court of inferior jurisdiction shall be the Court to which such Court shall be deemed to be subordinate;*
+>
+> *(b) where appeals lie to a Civil and also to a Revenue Court, such Court shall be deemed to be subordinate to the Civil or Revenue Court according to the nature of the case or proceeding in connection with which the offence is alleged to have been committed.*
+>
+> **216.** A witness or any other person [[?may]] file a complaint in relation to an offence punishable under ⚠️ *section 232 of the Bharatiya Nyaya Sanhita, 2023*.
+
+::: proviso Section 215 restricts standing, not criminality
+Section 215's bar operates entirely on the question of *who may complain* — it does not mean the underlying conduct is not an offence, and it does not immunise the wrongdoer. A private citizen who witnesses an offence against a public servant's official function, or against the machinery of a Court, cannot simply file a private complaint or lean on a police FIR to bypass the gate; the complaint has to come from the specific source section 215 names. The offence is real; the standing to prosecute it is deliberately narrow.
+:::
+
+::: proviso Section 216 sits inside section 215(1)(b)'s own closed list
+Section 215(1)(b)(i) names "sections 229 to 233 (both inclusive)" as offences requiring a Court's own complaint when committed in relation to a Court proceeding — and section 232 falls squarely within that numeric range. Section 216 then separately says a witness, or any other person, may file a complaint for a section 232 offence. ⚠️ *Read literally, section 216 functions as a specific carve-out from section 215(1)(b)'s general Court-complaint requirement for this one offence — the specific-over-general interpretive canon supports this reading, but the Sanhita does not say "notwithstanding section 215" in so many words, and the precise interaction has not been tested against judicial authority in this rendering. Verify this reading before relying on a witness's independent standing to complain under section 216 in a live matter, rather than assuming it is settled.*
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offence connected to a public servant’s official function, or to a Court proceeding or a document given in evidence, has been committed — who may set the prosecution in motion?"
+  :gates="[
+    { q: 'Is the offence one of sections 206–223 (excluding 209) — an offence against a public servant?',
+      note: 'Section 215(1)(a) — standing is restricted to the public servant concerned, his administrative superior, or someone he has authorised',
+      no: 'Check the public-justice/document band instead' },
+    { q: 'Is it one of the offences against public justice or documents given in evidence listed in section 215(1)(b), committed in or in relation to a Court proceeding?',
+      note: 'Section 215(1)(b) — standing is restricted to that Court itself, an officer it authorises, or a superior Court',
+      no: 'Check whether section 216 applies' },
+    { q: 'Is it specifically an offence under section 232 of the Bharatiya Nyaya Sanhita, 2023 — ⚠️ witness threatening, per the marginal heading?',
+      note: 'Section 216 lets a witness or any other person file the complaint directly — flagged as an interpretive question against section 215(1)(b)’s own listing of section 232',
+      no: 'This cluster’s restrictions do not apply — the ordinary section 210 gateways govern instead' }
+  ]"
+  result="For offences against a public servant’s official function or against the machinery of justice, the ordinary ‘any person may complain, or police may report’ rule is overridden — cognizance requires a written complaint from the specific source this cluster names, except where section 216 expressly widens standing"
+  resultKind="mandatory"
+  caveat="This is a standing gate layered on top of section 210, not a merits defence — it does not touch whether the conduct is criminal, and it does not disturb police powers of investigation short of a Court actually taking cognizance." />
+
+### In plain English
+
+Ordinarily, section 210 lets almost anyone's complaint, or a police report, get a case moving. Section 215 carves out two categories — crimes against public servants doing their jobs, and crimes against the courts or court documents — and says: not this way, not from just anyone. For the first category, only the public servant himself, his boss, or someone he has deputed can complain. For the second, only the Court itself, someone it authorises, or a Court above it can complain — and that requirement travels with the offence even if the police also investigate and want to file a report, because section 215 requires the specific written complaint regardless of what section 210 would otherwise allow. Section 216 punches one narrow, specific hole in that second category: for witness-threatening offences under section 232, the threatened witness — or anyone else — doesn't have to wait on the Court to act.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 215 appears to track CrPC section 195 (prosecution for contempt of lawful authority of public servants, for offences against public justice, and for offences relating to documents given in evidence) and BNSS section 216 appears to track CrPC section 195A (procedure for witnesses in case of threatening, inserted into the CrPC in 2009). The overall standing-restriction structure and the witness carve-out both appear substantively continued from the CrPC scheme in this reading, but the correspondence has not been independently cross-checked clause-by-clause. Flagged for verification before relying on the exact CrPC-to-BNSS correspondence in a filing.*
+
+### Test your instinct
+
+:::: instinct A private citizen, having witnessed a public servant obstructed during an official raid, personally files a complaint. Separately, the police also register an FIR and submit a report on the same facts.
+::: ruling Neither route satisfies section 215(1)(a)
+The private citizen's complaint fails because standing under section 215(1)(a) is limited to the public servant concerned, his administrative superior, or someone he has authorised — a stranger's complaint does not qualify no matter how accurate. The police report fails for the same underlying reason: section 215 requires a *written complaint* from the named source, and it operates as an override of section 210's general complaint-or-police-report gateways for this specific band of offences.
+:::
+::::
+
+:::: instinct A witness who was threatened to stop her from testifying in a pending civil suit files a complaint herself under section 232, without the Court's own complaint. The opposing party argues the complaint is invalid because section 232 sits within section 215(1)(b)'s closed list, which requires the Court itself to complain.
+::: ruling Section 216 most likely supplies the witness's standing — but confirm before relying on it
+Section 216 expressly permits a witness or any other person to file a complaint for a section 232 offence, and the specific-over-general canon favours reading it as a carve-out from section 215(1)(b)'s general Court-complaint requirement for that one offence. This is the better reading of the bare text, but it has not been tested here against judicial authority, and the point should be independently verified — including checking for any judicial construction of the equivalent CrPC provisions — before being treated as settled in a live matter.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Iqbal Singh Marwah v. Meenakshi Marwah, (2005) 4 SCC 370 (Constitution Bench). The Court held that the CrPC section 195(1)(b)(ii) complaint bar — the direct predecessor of BNSS section 215(1)(b)(ii), covering documents produced or given in evidence — applies only where the document offence (forgery or fabrication) was committed *after* the document was produced or given in evidence in the Court proceeding. Where the offence occurred earlier, and independently of its later use in Court, the bar does not apply, and a private complaint or police FIR is maintainable without routing through the Court itself. **Practitioner takeaway**: before conceding a section 215(1)(b)(ii) bar, establish precisely when the document offence occurred relative to when the document was produced or given in evidence — a pre-existing forgery later merely produced in Court falls outside the bar.
+
+#### Sword and shield
+
+As a **shield**, section 215 protects public servants from being dragged into vexatious private prosecutions over acts done in their official capacity, and protects the Court process itself from being collaterally attacked by anyone other than the Court whose proceeding is implicated. As a **sword**, an accused facing a complaint that does not come from the correct source under section 215 has a complete, threshold ground to resist cognizance — and, per Iqbal Singh Marwah, a complainant facing a section 215(1)(b)(ii) objection has a sword of his own if the document offence predates its use in evidence.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+This cluster overrides the general cognizance gateways of section 210 (Chapter XV's own first cluster) for the specific offence-bands it names — a police report or an ordinary complaint that would suffice under section 210 does not suffice here. It interlocks with ⚠️ *BNS 2023 sections 206–223, 229–233, 236, 237, 242–248, 267, 336(1), 340(2) and 342 — all outside this repository's verified corpus and flagged accordingly* and, through section 216, with the witness-protection theme that recurs across the Sanhita.
+
+#### The authorities
+
+⚠️ *None promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before treating a complaint as validly instituted under section 215, confirm the complainant is the specifically named source — the public servant/his superior/his delegate for clause (a), or the Court/its officer/a superior Court for clause (b) — and that the complaint is in writing.
+2. Do not assume a police FIR or report can substitute for the required written complaint under this cluster; section 215 overrides section 210's ordinary gateways.
+3. On a clause (b)(ii) document-offence objection, marshal the timeline of when the document offence occurred relative to its production or use in evidence — Iqbal Singh Marwah turns the analysis on that sequence.
+4. Where relying on section 216 for a section 232 complaint, flag the interpretive uncertainty about its interaction with section 215(1)(b) and be prepared to argue the specific-over-general canon rather than assume the point is beyond challenge.
+
 ---
