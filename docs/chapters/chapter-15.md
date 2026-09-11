@@ -544,4 +544,147 @@ Section 218 interlocks with section 217 immediately preceding it in this Chapter
 4. Check whether an Article 356 Proclamation was in force at the relevant time — it silently substitutes Central Government sanction for State Government sanction under both section 218(1)'s first proviso and section 218(4).
 5. Once sanction exists, check whether the sanctioning government has exercised its section 218(5) power to direct the prosecutor, manner, or trial court, and factor that into case strategy early.
 
+## Sections 219–222 — Personal offences: marriage, cruelty, the marital relationship, and defamation (flagship, closes the chapter)
+
+### The dispute this solves
+
+::: oneminute These four sections close the chapter with offences the Sanhita treats as deeply personal — marriage-related offences, cruelty, an offence specific to a marital relationship, and defamation. Each gets its own carefully tailored answer to "who may complain," because in offences like these the person actually wronged may be the only one who should decide whether to prosecute at all — or may be the one person practically unable to.
+Section 219 covers offences against marriage, generally requiring the aggrieved person's own complaint but building in named proxies for a child, a person of unsound mind or with an intellectual disability, someone incapacitated by sickness, a woman customarily excused from appearing in public, or a serving-Armed-Forces husband unable to obtain leave. Section 220 covers cruelty, and uniquely in this cluster allows *either* a police report or a complaint from a defined circle of relatives. Section 221 covers an offence specific to persons in a marital relationship, restricting the complaint to the wife against the husband, and adding a distinct evidentiary threshold — the Court's own prima facie satisfaction. Section 222 is the flagship: defamation ordinarily needs the aggrieved person's own complaint, but where the person defamed is the President, the Vice-President, a Governor, a State Administrator, or a Minister or public servant acting in public functions, section 222(2) opens a second route entirely — a Court of Session taking cognizance directly, without committal, on a Public Prosecutor's written complaint, subject to government sanction and its own six-month clock.
+:::
+
+::: story The Minister, the newspaper, and two different doors
+A sitting Minister is defamed in relation to his conduct in the discharge of his public functions. He has two doors available, not one. He can complain to a Magistrate himself, as any aggrieved person could — section 222(6) expressly preserves that ordinary route, untouched by anything else in the section. Or, the Public Prosecutor can go straight to the Court of Session, skipping committal entirely, provided the Central or State Government (depending on whose affairs the Minister serves) has given previous sanction, and provided the complaint is filed within six months of the alleged offence. The two routes carry genuinely different preconditions — one needs no sanction and no six-month clock at all, the other needs both. In a separate matter, a woman is the victim of an offence under section 82, and it is her mother, not the woman herself, who wants to complain on her behalf. Section 219(1)(c) allows exactly that, naming her father, mother, brother, sister, son, daughter, or — with the Court's leave — a wider circle of blood, marriage, or adoption relations, for this one offence specifically.
+:::
+
+> **219. (1)** No Court [[!shall]] take cognizance of an offence punishable under sections 81 to 84 (both inclusive) of ⚠️ *the Bharatiya Nyaya Sanhita, 2023* except upon a complaint made by some person aggrieved by the offence:
+>
+> *Provided that—*
+>
+> *(a) where such person is a child, or is of unsound mind or is having intellectual disability requiring higher support needs, or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person [[?may]], with the leave of the Court, make a complaint on his or her behalf;*
+>
+> *(b) where such person is the husband and he is serving in any of the Armed Forces of the Union under conditions which are certified by his Commanding Officer as precluding him from obtaining leave of absence to enable him to make a complaint in person, some other person authorised by the husband in accordance with the provisions of sub-section (4) [[?may]] make a complaint on his behalf;*
+>
+> *(c) where the person aggrieved by an offence punishable under section 82 of the Bharatiya Nyaya Sanhita, 2023 is the wife, complaint [[?may]] be made on her behalf by her father, mother, brother, sister, son or daughter or by her father's or mother's brother or sister, or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.*
+>
+> **(2)** For the purposes of sub-section (1), no person other than the husband of the woman [[!shall]] be deemed to be aggrieved by any offence punishable under section 84 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*.
+>
+> **(3)** When in any case falling under clause (a) of the proviso to sub-section (1), the complaint is sought to be made on behalf of a child or of a person of unsound mind by a person who has not been appointed or declared by a competent authority to be the guardian, and the Court is satisfied that there is a guardian so appointed or declared, the Court [[!shall]], before granting the application for leave, cause notice to be given to such guardian and give him a reasonable opportunity of being heard.
+>
+> **(4)** The authorisation referred to in clause (b) of the proviso to sub-section (1) [[!shall]] be in writing, [[!shall]] be signed or otherwise attested by the husband, [[!shall]] contain a statement to the effect that he has been informed of the allegations upon which the complaint is to be founded, [[!shall]] be countersigned by his Commanding Officer, and [[!shall]] be accompanied by a certificate signed by that Officer to the effect that leave of absence for the purpose of making a complaint in person cannot for the time being be granted to the husband.
+>
+> **(5)** Any document purporting to be such an authorisation, and any document purporting to be the required certificate, [[!shall]], unless the contrary is proved, be presumed to be genuine and [[!shall]] be received in evidence.
+>
+> **(6)** No Court [[!shall]] take cognizance of an offence under section 64 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*, where such offence consists of sexual intercourse by a man with his own wife, the wife being under eighteen years of age, if more than one year has elapsed from the date of the commission of the offence.
+>
+> **(7)** The provisions of this section apply to the abetment of, or attempt to commit, an offence as they apply to the offence.
+>
+> **220.** No Court [[!shall]] take cognizance of an offence punishable under ⚠️ *section 85 of the Bharatiya Nyaya Sanhita, 2023* except upon a police report of facts which constitute such offence or upon a complaint made by the person aggrieved by the offence or by her father, mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
+>
+> **221.** No Court [[!shall]] take cognizance of an offence punishable under ⚠️ *section 67 of the Bharatiya Nyaya Sanhita, 2023* where the persons are in a marital relationship, except upon prima facie satisfaction of the facts which constitute the offence upon a complaint having been filed or made by the wife against the husband.
+>
+> **222. (1)** No Court [[!shall]] take cognizance of an offence punishable under ⚠️ *section 356 of the Bharatiya Nyaya Sanhita, 2023* except upon a complaint made by some person aggrieved by the offence:
+>
+> *Provided that where such person is a child, or is of unsound mind or is having intellectual disability or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person [[?may]], with the leave of the Court, make a complaint on his or her behalf.*
+>
+> **(2)** Notwithstanding anything contained in this Sanhita, when any such offence is alleged to have been committed against a person who, at the time of such commission, is the President of India, the Vice-President of India, the Governor of a State, the Administrator of a Union territory or a Minister of the Union or of a State or of a Union territory, or any other public servant employed in connection with the affairs of the Union or of a State in respect of his conduct in the discharge of his public functions, a Court of Session [[?may]] take cognizance of such offence, without the case being committed to it, upon a complaint in writing made by the Public Prosecutor.
+>
+> **(3)** Every complaint referred to in sub-section (2) [[!shall]] set forth the facts which constitute the offence alleged, the nature of such offence and such other particulars as are reasonably sufficient to give notice to the accused of the offence alleged to have been committed by him.
+>
+> **(4)** No complaint under sub-section (2) [[!shall]] be made by the Public Prosecutor except with the previous sanction—
+>
+> (a) of the State Government,—
+>
+> (i) in the case of a person who is or has been the Governor of that State or a Minister of that Government;
+>
+> (ii) in the case of any other public servant employed in connection with the affairs of the State;
+>
+> (b) of the Central Government, in any other case.
+>
+> **(5)** No Court of Session [[!shall]] take cognizance of an offence under sub-section (2) unless the complaint is made within six months from the date on which the offence is alleged to have been committed.
+>
+> **(6)** Nothing in this section [[!shall]] affect the right of the person against whom the offence is alleged to have been committed, to make a complaint in respect of that offence before a Magistrate having jurisdiction or the power of such Magistrate to take cognizance of the offence upon such complaint.
+
+::: proviso Section 220's "either/or" is the exception in this cluster, not the rule
+Every other complaint-standing rule in sections 219, 221 and 222(1) requires a complaint from a specific person or a named circle of relatives. Section 220 alone lets *either* a police report *or* a qualifying complaint found cognizance — a materially wider gateway, reflecting that cruelty offences are frequently investigated and reported by the police independently of whether the victim or her family is able or willing to formally complain.
+:::
+
+::: proviso Section 222(2)'s special route does not close off section 222(1)'s ordinary route
+Section 222(6) is explicit: nothing in section 222 disturbs the defamed person's right to complain before an ordinary Magistrate under sub-section (1), or that Magistrate's power to take cognizance on such a complaint. The sanction requirement in sub-section (4) and the six-month clock in sub-section (5) bind only a complaint made *by the Public Prosecutor under sub-section (2)* — a President, Governor, or Minister defamed in his public functions is not forced into the Sessions-Court route and is not, by choosing the ordinary Magistrate route instead, exposed to a sanction requirement that was never meant to apply there.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offence in this cluster — marriage-related, cruelty, a marital-relationship offence, or defamation — has occurred. Who has standing to complain, and through which route?"
+  :gates="[
+    { q: 'Is the offence one of sections 81–84 of the Bharatiya Nyaya Sanhita, 2023 — a marriage-related offence?',
+      note: 'Section 219 — complaint by the aggrieved person, or a named proxy under the incapacity/Armed-Forces/section-82-relative provisos; note the section 219(2) husband-only rule for a section 84 offence and the section 219(6) one-year clock for an under-18-wife section 64 offence',
+      no: 'Check the cruelty offence next' },
+    { q: 'Is it section 85 — ⚠️ cruelty?',
+      note: 'Section 220 — uniquely in this cluster, either a police report or a complaint by the aggrieved woman or named relatives suffices',
+      no: 'Check the marital-relationship offence next' },
+    { q: 'Is it section 67 where the parties are in a marital relationship?',
+      note: 'Section 221 — complaint only by the wife against the husband, and only on the Court’s own prima facie satisfaction of the facts',
+      no: 'Check defamation next' },
+    { q: 'Is it section 356 — defamation?',
+      note: 'Section 222 — ordinarily the aggrieved person’s own complaint (or a proxy under the incapacity proviso); but where the person defamed is the President, Vice-President, a Governor, a State Administrator, or a Minister/public servant acting in public functions, section 222(2) opens a second, sanction-gated Court-of-Session route as well',
+      no: 'None of this cluster’s specific rules apply' }
+  ]"
+  result="Each offence in this cluster carries its own tailored complaint-standing rule — and section 222(2) alone lets a Court of Session take cognizance directly, bypassing committal, on the Public Prosecutor’s sanctioned complaint"
+  resultKind="mandatory"
+  caveat="Section 222(2)’s route is an addition, not a substitution — section 222(6) keeps the ordinary Magistrate complaint route fully open to the same defamed office-holder, without the sanction requirement or the six-month clock that attach only to the section 222(2) route." />
+
+### In plain English
+
+Four offences, four different answers to "who may knock on the Court's door." Marriage offences generally need the wronged person's own complaint, with a specific list of stand-ins for people who cannot realistically complain themselves. Cruelty is the odd one out — police can bring it in on their own report, not just a private complaint. The marital-relationship offence in section 221 is narrower still: only the wife can complain against the husband, and the Court itself has to be prima facie satisfied before proceeding. Defamation is the flagship because it runs on two tracks at once: an ordinary person defamed complains to a Magistrate like anyone else, but a President, Governor, Minister, or public servant defamed in the exercise of public functions gets an extra, optional track — a direct complaint by the Public Prosecutor to a Court of Session, skipping the usual committal step, but only after the right government has given sanction and only within six months of the offence.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 219 appears to track CrPC section 198 (prosecution for offences against marriage); BNSS section 220 appears to track CrPC section 198A (prosecution of offences under section 498A of the Indian Penal Code, inserted in 1983 — the likely CrPC-era analogue of BNS section 85's cruelty offence); BNSS section 221 appears to track CrPC section 198B (cognizance of an offence under section 376B of the Indian Penal Code, inserted in 2013 — the likely analogue of BNS section 67's marital-relationship offence); and BNSS section 222 appears to track CrPC section 199 (prosecution for defamation), including its special Court-of-Session/Public-Prosecutor route for high public office-holders. None of these correspondences, nor the underlying BNS section numbers themselves, have been independently cross-checked against this repository's verified bare-Act text. Flagged for verification before relying on the exact CrPC-to-BNSS correspondence in a filing.*
+
+### Test your instinct
+
+:::: instinct A woman is the victim of an offence under section 82. A concerned neighbour, who is not related to her by blood, marriage, or adoption and has not sought the Court's leave, files a complaint on her behalf.
+::: ruling The complaint does not satisfy section 219(1)(c)
+Section 219(1)(c) names a specific circle for a section 82 offence — father, mother, brother, sister, son, daughter, a father's or mother's brother or sister — and extends beyond that circle only to "any other person related to her by blood, marriage or adoption," and only with the leave of the Court. An unrelated neighbour, without Court leave, falls outside every category the proviso allows.
+:::
+::::
+
+:::: instinct A Minister, defamed in relation to his public functions, files an ordinary complaint before a Magistrate rather than routing the matter through the Public Prosecutor and the Court of Session. The accused argues the complaint is invalid because no government sanction was obtained and the six-month clock in section 222(5) does not appear to have been observed.
+::: ruling The ordinary complaint is valid; sanction and the six-month clock do not apply to it
+Section 222(6) expressly preserves the defamed person's right to complain before a Magistrate under section 222(1), untouched by anything in the rest of the section. The sanction requirement in section 222(4) and the six-month clock in section 222(5) bind only a complaint made by the Public Prosecutor under section 222(2) — they have no application to an ordinary complaint filed directly under section 222(1), which the Minister remained free to use.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+Subramanian Swamy v. Union of India, (2016) 7 SCC 221. The Court upheld the constitutional validity of criminal defamation and the CrPC's associated procedural scheme, including the special route allowing a Court of Session to take cognizance of defamation against high public office-holders directly, on a Public Prosecutor's complaint, without committal. **Practitioner takeaway**: a constitutional challenge to criminal defamation itself, or to the structure of the section 222(2) special route, is foreclosed at the Supreme Court level — contest the case instead on whether the procedural preconditions (correct defamed office-holder, government sanction, the six-month clock) were actually satisfied.
+
+#### Sword and shield
+
+As a **shield**, the named-proxy and named-relative lists across sections 219, 220 and 222(1) protect genuinely incapacitated victims from being left without a route to justice, while still keeping the complaint gate narrow enough to exclude unrelated third parties. Section 222(2)'s sanction requirement is itself a shield for the accused against a purely political prosecution for defaming an office-holder. As a **sword**, the defence can challenge any complaint filed by someone outside the exact statutory list, or challenge a section 222(2) complaint on a missing sanction or an expired six-month clock — while the prosecution's sword is section 222(6), which keeps the ordinary Magistrate route open regardless of whether the special route's preconditions were met.
+
+#### The limitation clock
+
+Two distinct clocks live inside this cluster, and neither should be confused with the other. Section 219(6) bars cognizance of a section 64 offence against an under-18 wife once more than one year has elapsed from the date of the offence. Section 222(5) separately bars a Court of Session from taking cognizance under section 222(2) unless the complaint is made within six months of the alleged offence — a clock that attaches only to the special defamation route, not to an ordinary section 222(1) complaint.
+
+#### Interlocking matrix
+
+Section 222(2) is a confirmed, express exception to section 213's committal-only rule (this Chapter's second cluster) — the only other one this cluster identifies with certainty. The sanction structure in section 222(4) echoes the Central/State sanction split running through sections 217 and 218 earlier in this Chapter, though it is a separate, defamation-specific sanction rather than the same mechanism. This cluster interlocks with ⚠️ *BNS 2023 sections 64, 67, 81–85 and 356 — all outside this repository's verified corpus and flagged accordingly*.
+
+#### The authorities
+
+⚠️ *None further promoted beyond the winning ratio; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Identify the exact offence first — the complaint-standing rule differs materially across sections 219, 220, 221 and 222, and none of the four templates is interchangeable with another.
+2. Where a proxy or named relative is filing on the victim's behalf, check the specific list that offence's section allows, and confirm Court leave was sought wherever the relevant proviso requires it.
+3. For a defamation complaint against a high public office-holder, choose deliberately between the ordinary section 222(1) route and the section 222(2) special route — they carry different preconditions, and section 222(6) means the special route is never the only option.
+4. Calendar both this cluster's clocks precisely and separately: the one-year bar in section 219(6), and the six-month bar in section 222(5) — confirm which (if either) applies before assuming a complaint is time-barred or safely within time.
+
 ---
