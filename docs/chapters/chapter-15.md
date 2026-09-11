@@ -319,4 +319,116 @@ This cluster overrides the general cognizance gateways of section 210 (Chapter X
 3. On a clause (b)(ii) document-offence objection, marshal the timeline of when the document offence occurred relative to its production or use in evidence — Iqbal Singh Marwah turns the analysis on that sequence.
 4. Where relying on section 216 for a section 232 complaint, flag the interpretive uncertainty about its interaction with section 215(1)(b) and be prepared to argue the specific-over-general canon rather than assume the point is beyond challenge.
 
+## Section 217 — Offences against the State: sanction, not just standing
+
+### The dispute this solves
+
+::: oneminute Section 215 asked "who may complain." Section 217 asks a different, more consequential question for offences that threaten the State itself: has the government actually authorised this prosecution at all? A valid complaint or a solid police report is not enough on its own — cognizance is barred until the right level of government sanction or consent exists.
+Section 217 tiers its sanction requirement by the gravity of what is at stake. Offences under Chapter VII of the Bharatiya Nyaya Sanhita, 2023 (offences against the State) and a short list of related sections need sanction from the Central or State Government. A second, adjacent list needs sanction from the Central Government, the State Government, *or* the District Magistrate — a lower bar. And ordinary criminal conspiracies falling outside both lists — provided the target offence is not one carrying death, life imprisonment, or two years' or more rigorous imprisonment — need the State Government's or District Magistrate's written *consent*, a related but distinct concept from sanction. Section 217(4) then gives whichever authority is deciding on sanction or consent the option of ordering a preliminary police investigation first, rather than deciding blind.
+:::
+
+::: story The prosecution that got ahead of the government
+Police investigate what they believe is an offence against the State under Chapter VII of the Bharatiya Nyaya Sanhita and file a report supported by strong evidence. No sanction from the Central or State Government has been sought. However compelling the evidence, section 217(1) means the Court cannot take cognizance at all until that sanction exists — the gap is not cured by the quality of the investigation. In a separate matter, two people are alleged to have conspired to commit an offence carrying a maximum sentence well under two years' imprisonment, and the conspiracy does not fall within section 215's closed list either. Section 217(3) requires the State Government's or the District Magistrate's *written consent* before that conspiracy prosecution can even begin — a distinct, lower-profile gate, but a gate nonetheless, and easy to miss because the underlying offence itself looks minor.
+:::
+
+> **217. (1)** No Court [[!shall]] take cognizance of—
+>
+> (a) any offence punishable under Chapter VII or under section 196, section 299 or sub-section (1) of section 353 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*; or
+>
+> (b) a criminal conspiracy to commit such offence; or
+>
+> (c) any such abetment, as is described in section 47 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*,
+>
+> except with the previous sanction of the Central Government or of the State Government.
+>
+> **(2)** No Court [[!shall]] take cognizance of—
+>
+> (a) any offence punishable under section 197 or sub-section (2) or sub-section (3) of section 353 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*; or
+>
+> (b) a criminal conspiracy to commit such offence,
+>
+> except with the previous sanction of the Central Government or of the State Government or of the District Magistrate.
+>
+> **(3)** No Court [[!shall]] take cognizance of the offence of any criminal conspiracy punishable under sub-section (2) of section 61 of ⚠️ *the Bharatiya Nyaya Sanhita, 2023*, other than a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, unless the State Government or the District Magistrate has consented in writing to the initiation of the proceedings:
+>
+> *Provided that where the criminal conspiracy is one to which the provisions of section 215 apply, no such consent shall be necessary.*
+>
+> **(4)** The Central Government or the State Government [[?may]], before according sanction under sub-section (1) or sub-section (2) and the District Magistrate [[?may]], before according sanction under sub-section (2) and the State Government or the District Magistrate [[?may]], before giving consent under sub-section (3), order a preliminary investigation by a police officer not being below the rank of Inspector, in which case such police officer [[!shall]] have the powers referred to in sub-section (3) of section 174.
+
+::: proviso Sanction and consent are related but not identical gates
+Sub-sections (1) and (2) speak of "previous sanction"; sub-section (3) speaks of the State Government's or District Magistrate's written "consent." Both are executive-authorisation preconditions to cognizance, and section 217(4) treats them alike for the limited purpose of allowing a preliminary police investigation before either is given — but they attach to different tiers of offence, at different levels of government, and a practitioner should not treat the terms as interchangeable when checking whether the correct gate was satisfied for a particular offence.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offence connected to the security or functioning of the State — or a criminal conspiracy — has been committed. Has the correct government sanction or consent been obtained before cognizance?"
+  :gates="[
+    { q: 'Is the offence one punishable under Chapter VII of the Bharatiya Nyaya Sanhita, 2023, or under its sections 196, 299 or 353(1) — or a conspiracy or section 47 abetment of such an offence?',
+      note: 'Section 217(1) — requires previous sanction of the Central Government or the State Government',
+      no: 'Check the second tier instead' },
+    { q: 'Is it an offence under section 197 or section 353(2)/(3) of the Bharatiya Nyaya Sanhita, 2023, or a conspiracy to commit it?',
+      note: 'Section 217(2) — requires previous sanction of the Central Government, the State Government, or the District Magistrate',
+      no: 'Check the residual conspiracy rule instead' },
+    { q: 'Is it a criminal-conspiracy offence under section 61(2) of the Bharatiya Nyaya Sanhita, 2023, where the target offence does not carry death, life imprisonment, or two years’ or more rigorous imprisonment?',
+      note: 'Section 217(3) — requires the State Government’s or District Magistrate’s written consent, unless the conspiracy already falls under section 215',
+      no: 'No sanction or consent gate under this cluster applies to this offence' }
+  ]"
+  result="Cognizance is barred until the correctly-tiered government sanction or consent is obtained — the sanctioning or consenting authority may order a preliminary police investigation under section 217(4) before deciding"
+  resultKind="mandatory"
+  caveat="A strong police report or an otherwise valid complaint does not cure a missing sanction or consent — this gate sits above, not instead of, the ordinary cognizance and standing rules in sections 210 and 215." />
+
+### In plain English
+
+Section 215 controls *who* may complain about certain offences; section 217 controls whether the *government* has agreed to let the prosecution happen at all, for offences the Sanhita treats as touching the State's own security or functioning. There are three tiers: the most serious band (offences against the State itself, and a few related sections) needs Central or State Government sanction; a second, related band needs sanction from either government or the District Magistrate; and criminal conspiracies to commit lesser offences — ones that don't carry death, life imprisonment, or a long rigorous sentence — need the State Government's or District Magistrate's written consent, unless section 215 already governs that particular conspiracy. In every tier, the deciding authority can order a preliminary police investigation first rather than sanctioning or consenting blind.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 217 appears to track CrPC section 196 (prosecution for offences against the State and for criminal conspiracy to commit such offence). The three-tier sanction/consent structure and the preliminary-investigation option both appear substantively continued from the CrPC scheme in this reading, but the correspondence has not been independently cross-checked clause-by-clause. Flagged for verification before relying on the exact CrPC-to-BNSS correspondence in a filing.*
+
+### Test your instinct
+
+:::: instinct Police compile a thorough, well-evidenced report on an offence against the State under Chapter VII of the Bharatiya Nyaya Sanhita, and the Magistrate is inclined to take cognizance given the strength of the material, without waiting for government sanction.
+::: ruling Cognizance cannot be taken
+Section 217(1) makes previous sanction of the Central or State Government a precondition to cognizance for this band of offences. The strength of the evidence is irrelevant to that precondition — sanction is not a question of proof, it is a jurisdictional gate that must be satisfied before the Court may act at all.
+:::
+::::
+
+:::: instinct Two individuals are charged with conspiring to commit an offence carrying a maximum of eighteen months' imprisonment. No sanction or consent was sought from anyone, on the theory that such a minor offence could not require one.
+::: ruling The prosecution is defective absent section 217(3) consent
+Because the target offence carries less than two years' rigorous imprisonment and is not shown to fall within section 215's list, section 217(3) requires the written consent of the State Government or the District Magistrate before cognizance of the conspiracy offence. The offence's apparent minor character does not exempt it — if anything, section 217(3) exists precisely to screen this residual band of conspiracy prosecutions.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *No case citation is promoted for this cluster. Section 217's tiered sanction/consent structure is executive-authorisation mechanics; while the general "sanction goes to jurisdiction, not merits" principle is well established in Indian criminal procedure, no single citation is confidently recalled as the defining authority specifically on this provision's tiering, and none is guessed here — flagged as a research gap under "The authorities."*
+
+#### Sword and shield
+
+As a **shield**, section 217 protects the executive's considered judgment over whether a security-sensitive or State-facing prosecution should proceed at all, and screens out prosecutions launched without that judgment. As a **sword**, the defence can raise the absence of the correctly-tiered sanction or consent as a complete, threshold bar to cognizance — because it goes to the Court's very jurisdiction to act, this objection is not waived by proceeding partway through trial and can typically be raised even at a later stage.
+
+#### The limitation clock
+
+No independent limitation period is fixed by this cluster.
+
+#### Interlocking matrix
+
+Section 217(4)'s preliminary-investigation option interlocks directly with section 174(3) (Chapter XIII, already built in this guide), which supplies the powers such a preliminary-investigating officer exercises. Section 217(3)'s proviso interlocks with section 215 immediately preceding this cluster — where a conspiracy already falls under section 215's complaint-standing regime, section 217(3)'s separate consent requirement is expressly switched off to avoid stacking two gates on the same conspiracy.
+
+#### The authorities
+
+⚠️ *None promoted for this cluster; not independently verified for this rendering.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Identify which of section 217's three tiers the offence falls into before assuming any sanction has been correctly obtained — the authorised sanctioning body differs across tiers.
+2. For residual conspiracy prosecutions under section 217(3), always check the target offence's maximum sentence against the death/life/two-years-RI threshold, and check whether section 215's proviso switches the consent requirement off.
+3. Treat a missing or misdirected sanction/consent as a threshold jurisdictional objection, not a curable irregularity — raise it at the earliest opportunity but preserve it for later stages if missed.
+4. Where a preliminary investigation was ordered under section 217(4), confirm the investigating officer held at least the rank of Inspector and exercised only the powers referable to section 174(3).
+
 ---
