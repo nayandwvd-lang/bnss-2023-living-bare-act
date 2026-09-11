@@ -450,3 +450,143 @@ No second case is added here — the drafter is confident of the general proposi
 
 ---
 
+## Sections 43–46 — How arrest is made, handcuffing, and the search-and-pursuit powers
+
+### The dispute this solves
+
+::: oneminute Handcuffing is no longer purely a judge-made, case-by-case restraint — for a defined list of offences, the statute now names it directly, in tension with decades of Supreme Court doctrine that treated handcuffs as presumptively degrading.
+For nearly half a century, whether a person could be handcuffed was governed almost entirely by two Supreme Court judgments, not by the CrPC's text — which said nothing about handcuffs at all. The Court's answer was blunt: handcuffing is prima facie inhuman, and arbitrary unless justified by a genuine, individually-assessed necessity, recorded and subject to a Magistrate's oversight. Section 43(3) changes the starting point. It now lists, by name, categories of offence and offender — habitual and repeat offenders, escapees, organised crime, terrorist acts, drug offences, illegal arms, murder, rape, acid attacks, counterfeiting, human trafficking, sexual offences against children, offences against the State — for which an officer "may" handcuff, "keeping in view the nature and gravity of the offence."
+
+The rest of this cluster asks the questions that follow from that shift: does a categorical statutory list survive the doctrine that demanded individualised necessity? What happens when the person being arrested is a woman, or when the arrest happens after dark? And what powers does the arresting authority have to actually get to the person — searching the house they are hiding in, or pursuing them across a State line?
+:::
+
+::: story The undertrial who was handcuffed for a cheque case
+Farid is arrested on a cheque-bounce complaint — not one of the offences named in section 43(3)'s list, and not a habitual offender by any measure. At the police station, and again while being walked into the magistrate's court for remand, he is handcuffed "as a matter of routine," the escorting officer explains, "because that's what we do." His counsel objects immediately: section 43(3) does not authorise handcuffing here at all — this offence and this offender fit none of the named categories — and even where it did apply, *Prem Shankar Shukla* would still require the officer to have actually turned his mind to necessity, not merely reached for the cuffs by habit.
+:::
+
+> **43. Arrest how made.**—(1) In making an arrest the police officer or other person making the same [[!shall]] actually touch or confine the body of the person to be arrested, unless there be a submission to the custody by word or action:
+>
+> Provided that where a woman is to be arrested, unless the circumstances indicate to the contrary, her submission to custody on an oral intimation of arrest [[!shall]] be presumed and, unless the circumstances otherwise require or unless the police officer is a female, the police officer [[!shall]] not touch the person of the woman for making her arrest.
+>
+> (2) If such person forcibly resists the endeavour to arrest him, or attempts to evade the arrest, such police officer or other person [[?may]] use all means necessary to effect the arrest.
+>
+> (3) The police officer [[?may]], keeping in view the nature and gravity of the offence, use handcuff while making the arrest of a person or while producing such person before the court who is a habitual or repeat offender, or who escaped from custody, or who has committed offence of organised crime, terrorist act, drug related crime, or illegal possession of arms and ammunition, murder, rape, acid attack, counterfeiting of coins and currency-notes, human trafficking, sexual offence against children, or offence against the State.
+>
+> ::: proviso A statutory list meets a judge-made necessity test — and the tension is unresolved
+> The CrPC had no handcuffing provision at all. Handcuffing was governed entirely by *Prem Shankar Shukla v. Delhi Administration* and *Citizens for Democracy v. State of Assam*, both of which required an individualised finding of necessity — flight risk, violence, or a demonstrated record of escape — recorded and, per *Citizens for Democracy*, cleared with a court before the cuffs went on. Section 43(3) instead names categories of offence and offender. Read narrowly, the two are reconcilable: the statute defines the outer boundary of *when handcuffing may even be considered*, while the constitutional doctrine still governs *whether it is actually necessary on the facts of this arrest*. On that reading, falling within one of section 43(3)'s categories is necessary but not sufficient — the officer must still form and be able to justify an individualised view that this particular arrest calls for restraint, and a habitual, unreasoned resort to handcuffing for every case within the list remains open to challenge on the same constitutional footing as before. A practitioner should not treat section 43(3) as legislative overruling of *Prem Shankar Shukla* — nothing in the text purports to remove the necessity requirement, only to widen the category of cases in which the question arises.
+> :::
+>
+> (4) Nothing in this section gives a right to cause the death of a person who is not accused of an offence punishable with death or with imprisonment for life.
+>
+> (5) Save in exceptional circumstances, no woman [[!shall]] be arrested after sunset and before sunrise, and where such exceptional circumstances exist, the woman police officer [[!shall]], by making a written report, obtain the prior permission of the Magistrate of the first class within whose local jurisdiction the offence is committed or the arrest is to be made.
+>
+> **44. Search of place entered by person sought to be arrested.**—(1) If any person acting under a warrant of arrest, or any police officer having authority to arrest, has reason to believe that the person to be arrested has entered into, or is within, any place, any person residing in, or being in charge of, such place [[!shall]], on demand of such person acting as aforesaid or such police officer, allow him free ingress thereto, and afford all reasonable facilities for a search therein.
+>
+> (2) If ingress to such place cannot be obtained under sub-section (1), it [[?shall be lawful]] in any case for a person acting under a warrant and in any case in which a warrant may issue, but cannot be obtained without affording the person to be arrested an opportunity of escape, for a police officer to enter such place and search therein, and in order to effect an entrance into such place, to break open any outer or inner door or window of any house or place, whether that of the person to be arrested or of any other person, if after notification of his authority and purpose, and demand of admittance duly made, he cannot otherwise obtain admittance:
+>
+> Provided that if any such place is an apartment in the actual occupancy of a female (not being the person to be arrested) who, according to custom, does not appear in public, such person or police officer [[!shall]], before entering such apartment, give notice to such female that she is at liberty to withdraw and [[!shall]] afford her every reasonable facility for withdrawing, and may then break open the apartment and enter it.
+>
+> (3) Any police officer or other person authorised to make an arrest [[?may]] break open any outer or inner door or window of any house or place in order to liberate himself or any other person who, having lawfully entered for the purpose of making an arrest, is detained therein.
+>
+> **45. Pursuit of offenders into other jurisdictions.**—A police officer [[?may]], for the purpose of arresting without warrant any person whom he is authorised to arrest, pursue such person into any place in India.
+>
+> **46. No unnecessary restraint.**—The person arrested [[!shall]] not be subjected to more restraint than is necessary to prevent his escape.
+
+<MicroTree
+  input="A person is being arrested. Which of the section 43–46 rules is in play?"
+  :gates="[
+    { q: 'Does the person submit to custody by word or action, and — if the person is a woman — is her submission presumed on an oral intimation of arrest?', note: 'No touching or confining is required, and (absent contrary circumstances) a male officer must not touch a submitting woman’s person at all.', no: 'The officer may touch or confine the body to effect the arrest.' },
+    { q: 'Does the person forcibly resist or attempt to evade the arrest?', note: 'Section 43(2) allows all means necessary to effect the arrest — subject always to section 43(4)’s absolute bar on causing death unless the offence itself carries death or life imprisonment.', no: 'Ordinary, non-forcible arrest proceeds; section 43(2) is not engaged.' },
+    { q: 'Does the offence or offender fall within section 43(3)’s named list — habitual/repeat offender, escapee, organised crime, terrorist act, drug offence, illegal arms, murder, rape, acid attack, counterfeiting, human trafficking, sexual offence against a child, or offence against the State?', note: 'Handcuffing becomes a statutorily available option — but *Prem Shankar Shukla*’s individualised necessity requirement still has to be separately satisfied and, ideally, recorded.', no: 'Section 43(3) gives no textual basis for handcuffing this arrest at all.' },
+    { q: 'Is the arrest of a woman proposed to take place after sunset and before sunrise, without exceptional circumstances?', note: 'Section 43(5) bars the arrest outright; exceptional circumstances require a woman police officer’s written report and a first-class Magistrate’s prior permission.', no: 'Section 43(5)’s timing bar does not apply on these facts.' }
+  ]"
+  result="The permissible degree of physical compulsion, and whether handcuffing or a night-time arrest of a woman is even textually available, is identified before the arrest is carried out — not reconstructed afterward to justify what already happened."
+  resultKind="mandatory"
+  caveat="Falling within section 43(3)’s list answers only the threshold question of whether handcuffing may be considered at all — it does not, on the better reading, dispense with the separate constitutional requirement that the specific arrest actually be shown to need it."
+/>
+
+### In plain English
+
+Section 43 is the mechanics of the arrest itself: how much physical contact is allowed, what happens if the person fights back, when handcuffs may be used, and two absolute limits that no amount of "necessity" can override — arrest is never a licence to kill someone who isn't facing a death or life-sentence charge, and (absent exceptional, Magistrate-sanctioned circumstances) a woman is not to be arrested between sunset and sunrise at all. Sections 44 through 46 are about access and restraint once the decision to arrest has been made: section 44 lets the arresting authority get into a house where the person is hiding, with a specific courtesy built in for a woman occupant who observes purdah; section 45 lets an officer chase a fleeing suspect across State or district lines within India without needing a fresh warrant for each jurisdiction; and section 46 is a general, low-key backstop — whatever else happens, the restraint used must never exceed what is needed to stop the person escaping.
+
+### What changed from the CrPC
+
+BNSS sections 43, 44, 45 and 46 correspond to CrPC sections 46, 47, 48 and 49 respectively. ⚠️ *Cross-reference against a verified CrPC-to-BNSS concordance table before relying on this mapping in a filing.*
+
+Sections 44, 45 and 46 are **renumbered with drafting changes** — search-of-premises, cross-jurisdiction pursuit, and the no-unnecessary-restraint rule all existed in the CrPC in substantially the same form. Section 43 is different in kind: sub-sections (1), (2), (4) and (5) reproduce the CrPC's existing touch-and-confine, forcible-resistance, no-right-to-kill, and (added by a 2005 CrPC amendment) night-time-arrest-of-women rules — but **sub-section (3), the handcuffing provision, is a genuinely new statutory text**. The unamended CrPC had no handcuffing provision whatsoever; the subject was governed exclusively by constitutional doctrine from *Prem Shankar Shukla* and *Citizens for Democracy*. This is the first time Parliament has legislated directly on when handcuffs may be used, and it does so by category of offence rather than by the case-by-case necessity test the Supreme Court had insisted on.
+
+### Test your instinct
+
+:::: instinct Handcuffed on a cheque-bounce charge
+Farid, arrested on a section-138-type cheque-dishonour complaint, is handcuffed "as routine" both at the police station and while being escorted to court for remand. He is not a habitual offender, has no escape history, and the offence is not on section 43(3)'s list by any reading.
+::: ruling What actually happens
+Section 43(3) does not authorise handcuffing here at all — the offence and the offender fit none of the named categories, so there is no statutory basis to reach for cuffs in the first place. Even setting the statute aside, *Prem Shankar Shukla* independently condemns routine, unreasoned handcuffing as prima facie inhuman and degrading. This is a clean case for a remand-stage objection and, potentially, a complaint against the escorting officer.
+:::
+::::
+
+:::: instinct A habitual offender, handcuffed without any recorded reason
+Rakesh has three prior convictions for chain-snatching — squarely a "habitual or repeat offender" under section 43(3) — and is handcuffed on his fourth arrest. The officer, when asked, says only "he's a repeat offender, obviously we cuff him," without pointing to anything specific about this arrest — no flight risk, no violence, no history of escape from this officer's custody.
+::: ruling What actually happens
+Section 43(3) textually covers Rakesh's category, so the officer clears the statutory threshold. But *Prem Shankar Shukla* and *Citizens for Democracy* were never displaced by that threshold question alone — they require an individualised necessity assessment for the actual arrest at hand, not a blanket rule triggered by category membership. "He's a repeat offender, obviously we cuff him" is precisely the unreasoned, categorical justification the constitutional doctrine was written to forbid. The better view is that section 43(3) is necessary but not sufficient, and a defence counsel should press for the specific, recorded basis for cuffing this arrest, not merely Rakesh's offender category.
+:::
+::::
+
+:::: instinct The male officer who insists on physically restraining a compliant woman
+A woman is being arrested for a cognizable offence. She raises both hands and says clearly that she will not resist. The arresting officer, who is male, nonetheless grips her by the arm to "make sure," and no female officer is present.
+::: ruling What actually happens
+Section 43(1)'s proviso presumes a woman's submission to custody on an oral intimation of arrest, absent contrary circumstances — and, that presumption having been triggered by her clear verbal submission, bars a male officer from touching her person to effect the arrest at all, unless circumstances otherwise require it or a female officer is available and does the touching instead. Nothing in the facts here — no resistance, no flight risk, no emergency — displaces the presumption. The physical restraint exceeds what section 43(1) authorises on these facts.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+**Prem Shankar Shukla v. Delhi Administration**, (1980) 3 SCC 526. The Supreme Court held that handcuffing is prima facie inhuman and, therefore, arbitrary, and is to be resorted to only when there is a genuine, individually-assessed necessity — a real risk of escape or violence — and that the reasons must be recorded and communicated to the court at the first opportunity.
+
+**Practitioner takeaway.** Section 43(3)'s named list of offences does not, by itself, satisfy *Prem Shankar Shukla* — it identifies which cases *may* be considered for handcuffing, not which arrests *actually need* it; demand the officer's specific, individualised justification for this arrest before conceding that handcuffing was lawful.
+
+#### Sword and shield
+
+As a **shield**, section 43(1)'s presumption of a woman's submission, section 43(4)'s absolute no-right-to-kill limit, and section 43(5)'s night-time bar on arresting women are strong, largely self-executing protections for the arrestee — violations are usually visible on the record (time of arrest, gender of the touching officer, injuries sustained) and do not require the defence to prove an officer's state of mind. As a **sword**, section 43(3) hands the prosecution a category-based justification for what happens to be a highly visible, reputation-damaging measure — but, per *Prem Shankar Shukla*, that justification is incomplete without an individualised necessity finding, which defence counsel should demand be shown on the record rather than assumed from the offence category alone.
+
+#### The limitation clock
+
+None of ss. 43–46 carries an independent limitation period; the constraints operate at the moment of arrest itself. A section 43(5) violation (night-time arrest of a woman without Magistrate permission) should be raised at the earliest remand hearing, since delay invites the argument that the objection is an afterthought rather than a genuine procedural challenge.
+
+#### Interlocking matrix
+
+| Situation | Governing provision | What follows |
+|---|---|---|
+| Person submits to custody without resistance | Section 43(1) | No touching/confining required; special rule for a submitting woman |
+| Person forcibly resists or tries to evade arrest | Section 43(2)–(4) | All necessary means, but never a right to kill absent a death/life offence |
+| Offence or offender within the named handcuffing categories | Section 43(3) | Handcuffing textually available, subject to *Prem Shankar Shukla* necessity |
+| Arrest of a woman proposed between sunset and sunrise | Section 43(5) | Barred, save exceptional circumstances with Magistrate's prior permission |
+| Suspect hiding inside a house | Section 44 | Ingress-on-demand, or forced entry with the female-occupant withdrawal courtesy |
+| Suspect flees across a district or State line | Section 45 | Pursuit into any place in India without a fresh warrant |
+| Any arrest, throughout | Section 46 | Restraint capped at what is necessary to prevent escape |
+
+#### The authorities
+
+**Citizens for Democracy v. State of Assam**, (1995) 3 SCC 743. Reinforcing *Prem Shankar Shukla*, the Court held that handcuffs are not to be used on a prisoner within or outside a prison absent obtaining prior permission of a court, save in exigent circumstances, and directed that the reasons be reduced to writing and produced before the court at the earliest.
+
+#### Strategy and drafting
+
+**Drafting traps.**
+
+1. Do not treat section 43(3)'s list as a green light to handcuff automatically — argue, and expect the prosecution to be pressed on, an individualised necessity finding for the specific arrest, not just category membership.
+2. Do not overlook section 43(1)'s proviso when reviewing an arrest memo involving a woman — a male officer's physical contact absent contrary circumstances or genuine resistance is itself a procedural irregularity worth raising independently of the merits.
+3. Do not assume section 44's forced-entry power is available the moment ingress is refused — sub-section (2) requires that ingress "cannot be obtained without affording the person... an opportunity of escape," a fact-specific precondition, not an automatic trigger.
+4. Do not let a section 45 cross-jurisdiction pursuit be confused with a right to search premises in the new jurisdiction without independently satisfying section 44's own conditions there.
+
+**Timing.** A section 43(5) or section 43(3) objection is strongest when raised at the first remand hearing, on the record, before the arrest's procedural history has had time to be reconstructed or explained away.
+
+**Model checklist for reviewing an arrest involving physical restraint:**
+
+1. Confirm whether the arrestee resisted, or submitted, and — if a woman — whether the section 43(1) proviso's presumption of submission was honoured.
+2. If handcuffs were used, confirm the offence or offender category against section 43(3)'s closed list, and separately demand the individualised necessity basis under *Prem Shankar Shukla*.
+3. If the arrestee is a woman and the arrest occurred after sunset or before sunrise, demand the woman police officer's written report and the first-class Magistrate's prior permission.
+4. If entry into a residence was forced, confirm the section 44(1) demand-and-refusal sequence was actually followed, and that the female-occupant withdrawal notice was given where applicable.
+
+---
+
