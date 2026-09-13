@@ -116,3 +116,125 @@ Section 337(1) cross-refers to section 244 (Chapter XVIII, already built — the
 4. Do not conflate this section's same-facts bar with Article 20(2)'s narrower same-offence double-jeopardy guarantee — the two overlap but are not coextensive, and a reader should verify which is actually being argued before pleading either.
 
 ---
+
+## Sections 338–342 — Who may conduct the prosecution, who may defend, and how a corporation stands trial
+
+### The dispute this solves
+
+::: oneminute Five provisions, one theme: who is entitled to stand up in Court and speak for a side, and on what terms. Section 338 lets the Public Prosecutor or Assistant Public Prosecutor in charge of a case appear and plead without any written authority, and separately governs what happens when a private person hires his own advocate to assist — that advocate acts only under the PP's directions, though he may submit written arguments once the evidence is closed, with the Court's permission. Section 339 opens the door slightly wider: a Magistrate may permit prosecution by any person other than a police officer below the rank of inspector, though the Advocate-General, Government Advocate, PP, and APP never need that permission — with one absolute bar: an investigating police officer can never be permitted to conduct the prosecution of the very case he investigated. Section 340 gives the accused an unconditional right to be defended by an advocate of his own choice, and section 341 backs that right with substance — State-funded legal aid where the accused cannot afford one, extendable by the State Government to courts beyond Sessions trials. Section 342 closes the cluster with the mechanics of a corporation standing trial: it appoints a representative, and everything this Sanhita would otherwise require to be done in the accused's own presence is instead done in the representative's — with a rebuttable presumption of proper appointment from a signed managing-director statement, and the Court itself resolving any dispute about who actually holds that role.
+:::
+
+::: story An investigating officer who cannot prosecute his own case, and a company that sends a manager instead of a chairman
+A police inspector who personally investigated a cheating case wants to conduct the prosecution himself at trial. Section 339's proviso stops him cold — no police officer who took part in the investigation may be permitted to conduct the prosecution of that same case, regardless of rank. The case proceeds instead through the Assistant Public Prosecutor in charge, exactly as section 338 contemplates. In an unrelated trial the same month, a private limited company is one of several accused persons. Rather than requiring every director to personally attend, the company files a signed statement from its managing director naming a mid-level manager as its representative under section 342. The Magistrate accepts it — the statement itself raises a presumption of proper appointment — and from that point on, everything the Sanhita would otherwise require to be read, explained, or done in the accused's presence is instead done in the manager's.
+:::
+
+> **338. (1)** The Public Prosecutor or Assistant Public Prosecutor in charge of a case [[?may]] appear and plead without any written authority before any Court in which that case is under inquiry, trial or appeal.
+>
+> **(2)** If in any such case any private person instructs his advocate to prosecute any person in any Court, the Public Prosecutor or Assistant Public Prosecutor in charge of the case [[!shall]] conduct the prosecution, and the advocate so instructed [[!shall]] act therein under the directions of the Public Prosecutor or Assistant Public Prosecutor, and [[?may]], with the permission of the Court, submit written arguments after the evidence is closed in the case.
+>
+> **339. (1)** Any Magistrate inquiring into or trying a case [[?may]] permit the prosecution to be conducted by any person other than a police officer below the rank of inspector; but no person, other than the Advocate-General or Government Advocate or a Public Prosecutor or Assistant Public Prosecutor, [[!shall]] be entitled to do so without such permission:
+>
+> Provided that no police officer [[!shall]] be permitted to conduct the prosecution if he has taken part in the investigation into the offence with respect to which the accused is being prosecuted.
+>
+> **(2)** Any person conducting the prosecution [[?may]] do so personally or by an advocate.
+>
+> **340.** Any person accused of an offence before a Criminal Court, or against whom proceedings are instituted under this Sanhita, [[?may]] of right be defended by an advocate of his choice.
+>
+> **341. (1)** Where, in a trial or appeal before a Court, the accused is not represented by an advocate, and where it appears to the Court that the accused has not sufficient means to engage an advocate, the Court [[!shall]] assign an advocate for his defence at the expense of the State.
+>
+> **(2)** The High Court [[?may]], with the previous approval of the State Government, make rules providing for — (a) the mode of selecting advocates for defence under sub-section (1); (b) the facilities to be allowed to such advocates by the Courts; (c) the fees payable to such advocates by the Government, and generally, for carrying out the purposes of sub-section (1).
+>
+> **(3)** The State Government [[?may]], by notification, direct that, as from such date as may be specified in the notification, the provisions of sub-sections (1) and (2) [[!shall]] apply in relation to any class of trials before other Courts in the State as they apply in relation to trials before Courts of Session.
+>
+> **342. (1)** In this section, "corporation" means an incorporated company or other body corporate, and includes a society registered under the Societies Registration Act, 1860. ⚠️
+>
+> **(2)** Where a corporation is the accused person or one of the accused persons in an inquiry or trial, it [[?may]] appoint a representative for the purpose of the inquiry or trial and such appointment need not be under the seal of the corporation.
+>
+> **(3)** Where a representative of a corporation appears, any requirement of this Sanhita that anything shall be done in the presence of the accused or shall be read or stated or explained to the accused, [[!shall]] be construed as a requirement that that thing shall be done in the presence of the representative or read or stated or explained to the representative, and any requirement that the accused shall be examined [[!shall]] be construed as a requirement that the representative shall be examined.
+>
+> **(4)** Where a representative of a corporation does not appear, any such requirement as is referred to in sub-section (3) [[!shall]] not apply.
+>
+> **(5)** Where a statement in writing purporting to be signed by the managing director of the corporation or by any person duly authorised by him (by whatever name called) having, or being one of the persons having the management of the affairs of the corporation to the effect that the person named in the statement has been appointed as the representative of the corporation for the purposes of this section, is filed, the Court [[!shall]], unless the contrary is proved, presume that such person has been so appointed.
+>
+> **(6)** If a question arises as to whether any person, appearing as the representative of a corporation in an inquiry or trial before a Court is or is not such representative, the question [[!shall]] be determined by the Court.
+
+::: proviso Section 339's permission requirement has an exempt class and one absolute, unwaivable bar
+The Advocate-General, Government Advocate, a Public Prosecutor, and an Assistant Public Prosecutor never need the Magistrate's permission to conduct a prosecution — everyone else, other than a police officer of inspector rank or above, does. But rank alone never cures the proviso's bar: an officer who personally took part in the investigation cannot be permitted to conduct that prosecution regardless of his seniority, and this is not a discretionary factor for the Magistrate to weigh — it is an absolute disqualification.
+:::
+
+::: proviso Section 342's fiction runs only while the representative actually appears
+Sub-section (3)'s substitution — representative-for-accused across every presence, reading, and examination requirement in this Sanhita — depends entirely on the representative actually appearing. Sub-section (4) is the deliberate mirror: the moment the corporation sends no representative, none of that substitution applies, and the ordinary requirements simply go unmet rather than being satisfied by a fiction with nobody standing in for the accused.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A case is ready for trial — who may stand up and conduct the prosecution, and how does an accused corporation participate?"
+  :gates="[
+    { q: 'Is the person seeking to conduct the prosecution the Public Prosecutor or Assistant Public Prosecutor in charge of the case, the Advocate-General, or the Government Advocate?',
+      note: 'This class needs no separate permission under section 339 at all',
+      no: 'The person is not automatically entitled and must instead qualify under one of section 339s remaining routes' },
+    { q: 'If not, has the Magistrate permitted this person to conduct the prosecution under section 339(1), and is the person either not a police officer or a police officer of inspector rank or above?',
+      note: 'A police officer below inspector rank cannot be permitted at all',
+      no: 'The person cannot lawfully conduct the prosecution under section 339' },
+    { q: 'Did this person take part in the investigation of the very offence now being prosecuted, triggering section 339s proviso?',
+      note: 'This bar is absolute and cannot be cured by permission or seniority',
+      no: 'Section 339s investigating-officer bar does not apply and the permission already granted stands' },
+    { q: 'If the accused is a corporation, has it appointed a representative under section 342(2), whether or not under its seal?',
+      note: 'Appointment need not be under the corporate seal to be effective',
+      no: 'Without an appearing representative, section 342(4) means the ordinary presence and examination requirements go unmet rather than being satisfied through anyone' }
+  ]"
+  result="The prosecution is being conducted only by a person entitled to do so under sections 338-339, and, where the accused is a corporation, its appointed representative stands in for it across every presence and examination requirement under section 342"
+  resultKind="mandatory"
+  caveat="An investigating police officer is barred from conducting the prosecution of his own case absolutely under section 339s proviso — no permission, consent, or seniority overcomes it." />
+
+### In plain English
+
+Two separate questions run through this cluster. First: who is actually allowed to stand up in Court and prosecute? The Public Prosecutor and Assistant Public Prosecutor always can; a handful of senior law officers always can; everyone else needs the Magistrate's permission, and a police officer below inspector rank can never get it — and no matter how senior an officer is, he can never prosecute a case he personally investigated. Second: what happens when the accused is not a human being who can sit in the dock, but a corporation? It sends someone to stand in for it, and from that point everything the law would otherwise require to happen in the accused's presence happens in that representative's presence instead — but only for as long as the representative keeps showing up.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS sections 338 through 342 appear to track CrPC sections 301 through 305 respectively (appearance by Public Prosecutors, permission to conduct prosecution, right of the accused to be defended, legal aid at State expense, and procedure where a corporation or registered society is an accused), preserving the CrPC's own sequence and structure. None of these five section-number correspondences is independently verified against a bare CrPC text held in this repository.*
+
+### Test your instinct
+
+:::: instinct A sub-inspector who assisted in a cheating investigation, but did not personally lead it, applies to a Magistrate for permission to conduct the prosecution of that case.
+::: ruling Barred on two independent grounds
+A sub-inspector is below the rank of inspector, so section 339(1)'s own text already bars him from being permitted to conduct any prosecution. Independently, having taken part in the investigation of this specific offence, he falls within the proviso's absolute bar regardless of rank. Either ground alone defeats the application.
+:::
+::::
+
+:::: instinct A corporation accused in a trial appoints a representative under section 342, but the representative fails to appear on the date evidence is recorded. The trial proceeds and the evidence is recorded without anything being read, stated, or explained to anyone standing in for the corporation.
+::: ruling No violation — section 342(4) is precisely this scenario
+Sub-section (3)'s presence-and-examination fiction operates only where a representative actually appears. Sub-section (4) confirms that when no representative appears, the requirements referred to in sub-section (3) simply do not apply — the trial recording evidence without anything read, stated, or explained to a stand-in is exactly what the section contemplates, not a procedural defect.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this cluster.*
+
+#### Sword and shield
+
+As a **shield** for the defence, section 339's proviso is worth raising immediately and on the record the moment an investigating officer appears at counsel's table for the prosecution — the bar is absolute and does not depend on showing prejudice, so an early objection forecloses the issue rather than leaving it to be argued after the fact. As a **sword** for a private complainant's counsel, section 338(2) is worth remembering precisely because of its limit: instructed counsel may assist and, with the Court's permission, file written arguments once evidence closes, but cannot conduct the prosecution independently of the Public Prosecutor's directions — overreaching that limit invites exactly the objection section 338(2) was built to prevent.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster; permission under section 339, appointment of a defence advocate under section 340, and appointment of a corporate representative under section 342 are all standing procedural steps taken as the case requires rather than clocked events.
+
+#### Interlocking matrix
+
+This cluster is largely self-contained but sets up the machinery the rest of the chapter assumes is already in place — section 346's day-to-day trial continuity rule (next cluster) presumes a prosecutor and, where relevant, a defence advocate are already in the picture under sections 338-341.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before any non-PP, non-senior-law-officer person conducts a prosecution, confirm the Magistrate's permission under section 339(1) is actually on record, not merely assumed.
+2. Raise the investigating-officer bar under section 339's proviso at the first opportunity — it is absolute and does not require a showing of prejudice.
+3. When a private complainant's advocate is instructed under section 338(2), confirm at the outset that he understands his role is to assist under the Public Prosecutor's directions, not to conduct the prosecution independently.
+4. For a corporate accused, confirm a section 342(5) managing-director statement is filed early — it raises a presumption of proper representative appointment that spares the corporation from having to independently prove the appointment absent a genuine dispute under section 342(6).
+
+---
