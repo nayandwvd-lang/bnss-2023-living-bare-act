@@ -1064,3 +1064,101 @@ Section 359(6)'s revisional-compounding route interacts with the High Court's an
 4. At the committal or appeal stage, seek leave under sub-section (5) as a discrete, early application — do not bundle it informally into the main proceeding's other applications.
 
 ---
+
+## Section 360 — Withdrawal from prosecution
+
+### The dispute this solves
+
+::: oneminute
+Sometimes the State's own prosecutor concludes, partway through a case, that the prosecution should not continue — against everyone, or against one accused, or in respect of only some of the charges. Section 360 lets the Public Prosecutor or Assistant Public Prosecutor do exactly that, at any time before judgment, but only with the Court's consent, with a special Central-Government-permission gate where the offence touches Union interests, and — critically — never without first hearing the victim.
+:::
+
+::: story
+A case built on a weak forensic link begins to fall apart during trial; the Public Prosecutor, reviewing the evidence honestly, decides continuing the prosecution against one of several co-accused is no longer justified and moves to withdraw against him alone, before judgment. The Magistrate, before according consent, must first ensure the victim has had an opportunity to be heard on the withdrawal — the victim may have a view the Court needs to weigh even though the final call rests with the Court. In a separate case, the offence charged was investigated under a Central Act and the Prosecutor in charge was not appointed by the Central Government; before he can even move the Court for consent to withdraw, he must first obtain the Central Government's own permission and produce it before the Court.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 360** — the Public Prosecutor or Assistant Public Prosecutor in charge of a case [[?may]], with the consent of the Court, at any time before judgment is pronounced, withdraw from the prosecution of any person, either generally or in respect of one or more of the offences for which he is tried. Upon such withdrawal: (a) if made before a charge has been framed, the accused [[!shall]] be discharged in respect of that offence or those offences; (b) if made after a charge has been framed, or where no charge is required under the Sanhita, he [[!shall]] be acquitted in respect of that offence or those offences.
+>
+> **First proviso** — where the offence (i) was against a law to which the Union's executive power extends; (ii) was investigated under a Central Act; (iii) involved misappropriation, destruction of, or damage to Central Government property; or (iv) was committed by a person in Central Government service acting or purporting to act in official duty — and the Prosecutor in charge was not appointed by the Central Government, he [[!shall not]], unless permitted by the Central Government, move the Court for consent to withdraw, and the Court [[!shall]], before according consent, direct him to produce the Central Government's permission.
+>
+> **Second proviso** — no Court [[!shall]] allow such withdrawal without giving the victim in the case an opportunity of being heard.
+>
+> ::: proviso
+> The discharge-versus-acquittal distinction in clauses (a) and (b) is not cosmetic. A discharge under clause (a) leaves the door open, in principle, to a fresh prosecution on the same facts if circumstances later change; an acquittal under clause (b) carries the full weight of section 337's autrefois acquit bar built earlier in this chapter, permanently closing the matter for that offence against that person, subject only to section 337's own narrow exceptions.
+> :::
+>
+> ::: proviso
+> The second proviso's victim-hearing requirement is a mandatory precondition to the Court's consent, not a mere courtesy — the Court cannot record consent to withdrawal, in any case, without first giving the victim an opportunity to be heard, regardless of whether the first proviso's Central Government dimension is engaged at all.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="The Public Prosecutor or Assistant Public Prosecutor wants to withdraw from a prosecution before judgment — can the withdrawal go through?"
+  :gates="[
+    { q: 'Does the offence touch a Union-executive-power matter, a Central-Act investigation, Central Government property, or an official act by a Central Government servant, where the Prosecutor was not appointed by the Central Government?', note: 'If yes, the first proviso gate below must be cleared first', no: 'Skip directly to the victim-hearing and Court-consent gates' },
+    { q: 'Has the Central Government actually permitted the withdrawal, and has that permission been produced before the Court?', no: 'The Prosecutor cannot even move the Court for consent to withdraw' },
+    { q: 'Has the victim in the case been given an opportunity to be heard on the withdrawal?', note: 'This is mandatory in every case, regardless of the first proviso', no: 'The Court cannot allow the withdrawal' },
+    { q: 'Does the Court actually consent to the withdrawal?', no: 'The prosecution continues; withdrawal does not take effect without the Courts own consent' }
+  ]"
+  result="Withdrawal takes effect: discharge if made before a charge was framed, acquittal if made after — and if an acquittal, section 337s autrefois acquit bar attaches for that offence against that person."
+  resultKind="discretionary"
+  caveat="The withdrawal power is the Prosecutor's to invoke, not the accused's or the complainant's — but the Court's consent, and the victim's hearing, are the checks that keep it from being used to quietly abandon a prosecution the public interest still requires."
+/>
+
+### In plain English
+
+Section 360 recognises that a Public Prosecutor is not a mere mouthpiece for whatever case was originally filed — he has an independent duty to assess, as the trial progresses, whether continuing to prosecute a particular person or a particular charge still serves the interests of justice. But that assessment is not his alone to act on: the Court must consent, meaning a judicial mind is applied to whether the withdrawal is genuine and proper rather than a backdoor way of letting an accused off improperly. And where the case touches the Union's own interests, an extra layer of Central Government oversight kicks in before the Prosecutor may even ask. The victim-hearing requirement, added as a second proviso, ensures the person who was actually wronged is not simply informed after the fact that the case against their alleged wrongdoer has evaporated — they get a voice in that decision, even if the final call remains the Court's.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 360 tracks CrPC section 321's withdrawal-from-prosecution framework closely, including its Central Government proviso for Union-interest offences. The **second proviso — the mandatory victim-hearing requirement before the Court allows withdrawal — appears to be new**, consistent with the BNSS's broader pattern of inserting victim-participation rights (echoing the parallel addition seen in other BNSS provisions this guide has already covered) that did not exist in the original CrPC text; this should be independently verified but is a materially significant addition if confirmed, since it gives victims a formal voice at a stage where the CrPC gave them none.
+
+### Test your instinct
+
+:::: instinct
+A Public Prosecutor moves to withdraw from a prosecution, and the Magistrate — satisfied the withdrawal is bona fide and in the interests of justice — grants consent without asking whether the victim wishes to be heard, reasoning that the victim had not filed any application objecting to the withdrawal. Is the consent validly granted?
+::: ruling
+No. The second proviso requires the Court to give the victim an opportunity of being heard before allowing withdrawal — this is an affirmative obligation on the Court, not something that depends on the victim proactively filing an objection. Silence or inaction by the victim is not the same as having been given the opportunity to be heard, and a consent granted without extending that opportunity is procedurally infirm.
+:::
+::::
+
+:::: instinct
+An Assistant Public Prosecutor, not appointed by the Central Government, moves to withdraw from a prosecution for an offence investigated under a Central Act, without having obtained or produced any Central Government permission. The Magistrate proceeds to consider the merits of the withdrawal application anyway. Is this correct?
+::: ruling
+No. The first proviso is explicit that such a Prosecutor "shall not... move the Court for its consent to withdraw" unless permitted by the Central Government, and the Court "shall, before according consent," direct him to produce that permission. The Magistrate has no occasion to reach the merits of the withdrawal at all until the Central Government's permission is produced — the application is premature and should not be entertained on its merits before that threshold is cleared.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC s.321 generated significant Supreme Court jurisprudence on what makes a withdrawal application bona fide and on the limits of executive influence over the decision to withdraw; independently verify current authority before citing, and separately verify whether the victim-hearing proviso already carries interpretive guidance of its own.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **shield** for a victim, the second proviso is a right worth actively asserting the moment a withdrawal application is filed — do not wait to be invited to be heard; file an application to be heard promptly, since the provision's protective value depends on it being exercised in real time, before consent is recorded. As a **sword** for the defence in an appropriate case, drawing the Prosecutor's attention early to genuine evidentiary weaknesses can be the difference between a protracted trial ending in acquittal on the merits and an earlier, cleaner withdrawal — though the choice to move for withdrawal always remains the Prosecutor's own, not something the defence can compel.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster in the ordinary sense — withdrawal may be sought "at any time before the judgment is pronounced," which functions as the only outer boundary on when the Prosecutor's power under section 360 may be exercised.
+
+#### Interlocking matrix
+
+Section 360(b)'s acquittal consequence interlocks directly with section 337's autrefois acquit bar, built in this chapter's first cluster — an acquittal on withdrawal is not a lesser form of acquittal for double-jeopardy purposes. The first proviso's Central Government permission requirement interlocks with the prosecution-appointment framework built in section 338 (second cluster of this chapter).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. On being served notice of a withdrawal application, file promptly for an opportunity to be heard as the victim — do not assume the Court will invite it unprompted.
+2. Where the offence touches Union executive power, a Central Act investigation, Central Government property, or an official act by a Central Government servant, verify at the outset whether the Prosecutor in charge was Central-Government-appointed — if not, insist on production of Central Government permission before the withdrawal application is even entertained on its merits.
+3. Advise a client facing withdrawal on the discharge-versus-acquittal distinction precisely — a discharge before framing of charge does not carry the same finality as an acquittal after framing, and the practical difference matters for any future risk of re-prosecution.
+4. Where withdrawal is sought against one of several co-accused or in respect of only some charges, confirm precisely which offences and which persons the withdrawal actually covers — a partial withdrawal leaves the remaining charges or co-accused fully live.
+
+---
