@@ -84,7 +84,8 @@ export default defineConfig({
               { text: 'Chapter XXIII — Plea bargaining (ss. 289–300)', link: '/chapters/chapter-23' },
               { text: 'Chapter XXIV — Attendance of persons confined or detained in prisons (ss. 301–306)', link: '/chapters/chapter-24' },
               { text: 'Chapter XXV — Evidence in inquiries and trials (ss. 307–336)', link: '/chapters/chapter-25' },
-              { text: 'Chapter XXVI — General provisions as to inquiries and trials (ss. 337–366)', link: '/chapters/chapter-26' }
+              { text: 'Chapter XXVI — General provisions as to inquiries and trials (ss. 337–366)', link: '/chapters/chapter-26' },
+              { text: 'Chapter XXVII — Provisions as to accused persons of unsound mind (ss. 367–378)', link: '/chapters/chapter-27' }
             ]
           },
           {
@@ -144,7 +145,8 @@ export default defineConfig({
             { text: 'Chapter XXIII — Plea bargaining (ss. 289–300)', link: '/chapters/chapter-23' },
             { text: 'Chapter XXIV — Attendance of persons confined or detained in prisons (ss. 301–306)', link: '/chapters/chapter-24' },
             { text: 'Chapter XXV — Evidence in inquiries and trials (ss. 307–336)', link: '/chapters/chapter-25' },
-            { text: 'Chapter XXVI — General provisions as to inquiries and trials (ss. 337–366)', link: '/chapters/chapter-26' }
+            { text: 'Chapter XXVI — General provisions as to inquiries and trials (ss. 337–366)', link: '/chapters/chapter-26' },
+            { text: 'Chapter XXVII — Provisions as to accused persons of unsound mind (ss. 367–378)', link: '/chapters/chapter-27' }
           ]
         },
         {
