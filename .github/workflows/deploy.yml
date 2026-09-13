@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
         env:
-          DOCS_BASE: /bnss/
+          DOCS_BASE: /bnss-2023-living-bare-act/
         run: npm run build
 
       - uses: actions/configure-pages@v5
