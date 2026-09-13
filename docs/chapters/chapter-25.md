@@ -102,3 +102,121 @@ Section 308's Explanation cross-refers to Chapter IX (⚠️ not yet built — l
 4. Do not object to a summons-case memorandum for lacking verbatim detail — section 309 does not promise a transcript, and the objection will not succeed on that ground alone.
 
 ---
+
+## Sections 310–313 — The verbatim record for warrant-cases and Sessions trials, the language it is kept in, and the read-over-and-correct procedure
+
+### The dispute this solves
+
+::: oneminute Warrant-cases and Sessions trials carry more at stake than a summons-case, and sections 310-311 set a correspondingly heavier recording standard: the evidence of each witness taken down in writing, as his examination proceeds, either by the Magistrate or presiding Judge himself, by his dictation in open Court, or — where physical or other incapacity genuinely prevents that — under his direction and superintendence by a court officer he appoints, with a mandatory certificate explaining why he could not do it himself. Audio-video electronic recording is now available too, but only in the advocate's presence. The record is ordinarily a narrative, though the Magistrate or Judge may take down any part as question-and-answer at his discretion. Section 312 governs the language question once recording is actually happening: the Court's own language if the witness uses it, the witness's own language if practicable, and if neither, a true translation prepared as the examination proceeds (or, for English evidence nobody wants translated, dispensed with altogether). Section 313 closes the loop for every witness recorded this way: once his evidence is complete, it is read back to him in the presence of the accused or his advocate, and corrected if necessary — and if the witness disputes the correction, the Magistrate or Judge may instead simply note the objection as a memorandum rather than alter the record itself.
+:::
+
+::: story A witness who disagrees with his own recorded evidence — and a Magistrate who doesn't have to change a word
+In a warrant-case, a prosecution witness's evidence is taken down in narrative form as his examination proceeds. Once complete, it is read back to him in the presence of the accused's advocate, as section 313(1) requires. The witness insists a key phrase was recorded inaccurately. Rather than rewriting the record to match the witness's objection, the Magistrate exercises the option in section 313(2): he leaves the original record untouched and instead adds a memorandum noting the witness's specific objection, along with any remarks the Magistrate thinks necessary. The trial record now preserves both versions — what was originally taken down, and the fact that the witness later disputed it — rather than silently overwriting one with the other.
+:::
+
+> **310. (1)** In all warrant-cases tried before a Magistrate, the evidence of each witness [[!shall]], as his examination proceeds, be taken down in writing either by the Magistrate himself or by his dictation in open Court or, where he is unable to do so owing to a physical or other incapacity, under his direction and superintendence, by an officer of the Court appointed by him in this behalf:
+>
+> Provided that evidence of a witness under this sub-section [[?may]] also be recorded by audio-video electronic means in the presence of the advocate of the person accused of the offence.
+>
+> **(2)** Where the Magistrate causes the evidence to be taken down, he [[!shall]] record a certificate that the evidence could not be taken down by himself for the reasons referred to in sub-section (1).
+>
+> **(3)** Such evidence [[!shall]] ordinarily be taken down in the form of a narrative; but the Magistrate [[?may]], in his discretion take down, or cause to be taken down, any part of such evidence in the form of question and answer.
+>
+> **(4)** The evidence so taken down [[!shall]] be signed by the Magistrate and [[!shall]] form part of the record.
+>
+> **311. (1)** In all trials before a Court of Session, the evidence of each witness [[!shall]], as his examination proceeds, be taken down in writing either by the presiding Judge himself or by his dictation in open Court, or under his direction and superintendence, by an officer of the Court appointed by him in this behalf.
+>
+> **(2)** Such evidence [[!shall]] ordinarily be taken down in the form of a narrative, but the presiding Judge [[?may]], in his discretion, take down, or cause to be taken down, any part of such evidence in the form of question and answer.
+>
+> **(3)** The evidence so taken down [[!shall]] be signed by the presiding Judge and [[!shall]] form part of the record.
+>
+> **312.** In every case where evidence is taken down under section 310 or section 311,—
+> (a) if the witness gives evidence in the language of the Court, it [[!shall]] be taken down in that language;
+> (b) if he gives evidence in any other language, it [[?may]], if practicable, be taken down in that language, and if it is not practicable to do so, a true translation of the evidence in the language of the Court [[!shall]] be prepared as the examination of the witness proceeds, signed by the Magistrate or presiding Judge, and [[!shall]] form part of the record;
+> (c) where under clause (b) evidence is taken down in a language other than the language of the Court, a true translation thereof in the language of the Court [[!shall]] be prepared as soon as practicable, signed by the Magistrate or presiding Judge, and [[!shall]] form part of the record:
+>
+> Provided that when under clause (b) evidence is taken down in English and a translation thereof in the language of the Court is not required by any of the parties, the Court [[?may]] dispense with such translation.
+>
+> **313. (1)** As the evidence of each witness taken under section 310 or section 311 is completed, it [[!shall]] be read over to him in the presence of the accused, if in attendance, or of his advocate, if he appears by an advocate, and [[!shall]], if necessary, be corrected.
+>
+> **(2)** If the witness denies the correctness of any part of the evidence when the same is read over to him, the Magistrate or presiding Judge [[?may]], instead of correcting the evidence, make a memorandum thereon of the objection made to it by the witness and [[!shall]] add such remarks as he thinks necessary.
+>
+> **(3)** If the record of the evidence is in a language different from that in which it has been given and the witness does not understand that language, the record [[!shall]] be interpreted to him in the language in which it was given, or in a language which he understands.
+
+::: proviso Sections 310 and 311 are near-identical in structure — the difference is only which officer is doing the recording
+Section 310 governs a Magistrate's warrant-case record; section 311 governs a Sessions Judge's record. Both impose the same verbatim-in-writing standard, the same narrative-by-default/question-and-answer-by-discretion choice, and the same signature requirement. Only section 310 carries the audio-video electronic means proviso and the incapacity certificate requirement in its own text — though nothing in section 311 suggests a presiding Judge could not equally invoke the underlying incapacity/dictation mechanics available to a Magistrate under section 310(1).
+:::
+
+::: proviso Section 313(2)'s "memorandum of objection" option protects the integrity of the original record
+A witness's after-the-fact denial that the recorded evidence is accurate does not automatically trigger a rewrite. The Magistrate or presiding Judge may instead preserve the original record exactly as taken down and layer an objection memorandum on top of it — a mechanism that keeps the record itself as evidence of what was actually said in the moment, while still giving the witness's later objection a place on the file.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A witness is being examined in a warrant-case or a Sessions trial — how is his evidence recorded, and what happens once it is complete?"
+  :gates="[
+    { q: 'Is the Magistrate or presiding Judge personally taking down the evidence (or dictating it in open Court), rather than delegating it to a court officer for incapacity reasons?',
+      note: 'Delegation under section 310(1)/311(1) requires, for a Magistrate, a certificate under section 310(2) explaining the incapacity',
+      no: 'The delegation is valid only if the officer acts under the Magistrate\'s or Judge\'s direction and superintendence, and (for a Magistrate) a section 310(2) certificate is recorded' },
+    { q: 'Was the evidence recorded in the language of the Court where the witness testified in that language, or properly translated where he testified in another language, per section 312?',
+      note: 'A true translation must be prepared as the examination proceeds, or as soon as practicable, depending on which clause of section 312 applies',
+      no: 'Section 312\'s language/translation requirements have not been satisfied' },
+    { q: 'Once the evidence was complete, was it read over to the witness in the presence of the accused or his advocate, and corrected or objected to as necessary under section 313?',
+      note: 'A witness\'s denial of accuracy can be handled either by correcting the record or by adding an objection memorandum instead',
+      no: 'Section 313\'s read-over-and-correct procedure has not yet been completed for this witness\'s evidence' }
+  ]"
+  result="The evidence stands as a properly taken, properly translated, and properly read-over record forming part of the trial record"
+  resultKind="mandatory"
+  caveat="Where the witness disputes the record's accuracy at the read-over stage, the Magistrate or presiding Judge is not obliged to rewrite it — section 313(2) allows the original record to stand alongside a memorandum of the witness's objection." />
+
+### In plain English
+
+Think of this cluster as the mechanics behind the verbatim record that a warrant-case or Sessions trial actually needs, as distinct from the lighter summons-case memorandum from the previous cluster. Who writes it down — normally the judicial officer himself, occasionally a court officer under his supervision if he genuinely cannot, always with a paper trail explaining why if delegated. What language it's written in — the witness's own language where practicable, translated into the Court's language where it matters, with a narrow carve-out for English evidence nobody wants translated. And once it's all down on paper, the witness gets to hear it read back and object if something is wrong — though "wrong" according to the witness doesn't automatically mean the record gets rewritten; sometimes it just means his objection gets written down too, right next to what was originally recorded.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 310 appears to track CrPC section 275 (record in warrant-cases), BNSS section 311 appears to track CrPC section 276 (record in trials before a Court of Session), BNSS section 312 appears to track CrPC section 277 (language of record of evidence), and BNSS section 313 appears to track CrPC section 278 (procedure in regard to such evidence when completed). The audio-video electronic means proviso in section 310(1) reads as a likely genuine BNSS-era addition, consistent with the pattern already seen in ss.307-309, but is not independently verified against a bare CrPC text held in this repository.*
+
+### Test your instinct
+
+:::: instinct A Sessions Judge, physically unable to write due to a temporary injury, dictates a witness's evidence to a court officer in open Court without recording any certificate of incapacity, reasoning that section 311 (unlike section 310) contains no explicit certificate requirement.
+::: ruling Section 311's own text supports dictation without a certificate — but the underlying incapacity mechanics still track section 310's structure
+Section 311(1) permits the presiding Judge to take down evidence "by his dictation in open Court" without conditioning that specific method on any certificate — dictation itself is simply one of the ordinary listed methods, not a delegation requiring justification. A certificate is required only where the recording is handed off entirely to a court officer "under his direction and superintendence" for incapacity reasons, mirroring section 310(2)'s structure even though section 311 does not repeat that requirement in so many words. Dictation to an officer taking it down as directed is not itself the delegation that would call for one.
+:::
+::::
+
+:::: instinct A witness, on having his evidence read back to him under section 313(1), insists a particular figure was recorded incorrectly. The Magistrate, convinced the original record is accurate, corrects nothing and says nothing further.
+::: ruling Section 313(2) requires an affirmative response, not silence
+Where a witness denies the correctness of any part of the evidence read over to him, the Magistrate or presiding Judge must do one of two things: correct the evidence, or make a memorandum of the objection and add such remarks as he thinks necessary. Simply disregarding the witness's objection without recording anything satisfies neither option and fails section 313(2)'s requirement.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, defence counsel should insist, wherever a court officer rather than the Magistrate himself takes down evidence in a warrant-case, that the section 310(2) incapacity certificate actually appears on the record — its absence is a concrete, checkable procedural point rather than a vague fairness complaint. As a **sword**, a witness whose evidence is genuinely mis-recorded should press for correction rather than accept a mere objection memorandum under section 313(2) where the discrepancy is material — the memorandum route preserves both versions but does not itself resolve which one is accurate, and a serious dispute is better fought at the recording stage than left to argument at judgment time.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.310-313; the recording and read-over obligations arise continuously as each witness is examined and as his evidence is completed.
+
+#### Interlocking matrix
+
+Sections 310-313 form the verbatim-recording counterpart to section 309's lighter summons-case memorandum (previous cluster, this chapter). Section 312's translation mechanics interlock with section 307's Court-language determination (previous cluster). No external cross-references outside this chapter are raised by ss.310-313.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Check for the section 310(2) incapacity certificate whenever a warrant-case record shows a court officer, rather than the Magistrate himself, taking down evidence.
+2. Track which language each witness's evidence was actually given in, and confirm a true translation was prepared where section 312(b)-(c) required one — a missing or late translation is a concrete point to raise.
+3. At the section 313(1) read-over stage, object promptly and specifically to any inaccuracy — a general or delayed objection is harder to press than one raised the moment the evidence is read back.
+4. Where a witness's objection under section 313(2) is recorded as a memorandum rather than a correction, treat the underlying discrepancy as still live for argument — the memorandum does not resolve which version is accurate.
+
+---
