@@ -592,3 +592,100 @@ Section 351(1)'s proviso cross-refers to the summons-case personal-attendance-di
 4. File any section 352 memorandum of arguments promptly after closing oral submissions — an adjournment to prepare it is available only for recorded reasons, not as a matter of course.
 
 ---
+
+## Sections 353–355 — The accused as a competent witness, the inducement bar, and dispensing with personal attendance
+
+### The dispute this solves
+
+::: oneminute
+An accused person is not merely a passive object of proof — the Sanhita lets him step into the witness box and give sworn evidence in his own defence if he wants to, but he can never be dragged into it, and his silence can never be held against him. Separately, no one may induce an accused person to talk or to stay quiet by promising him something or threatening him with something. And an accused who is represented by an advocate need not always physically stand in court through every hearing — the Judge or Magistrate can excuse him, on recorded reasons, and even let him attend by audio-video link.
+:::
+
+::: story
+An accused facing a serious charge wants to explain, under oath, exactly why he was not where the prosecution says he was. His advocate applies in writing under section 353 for him to be examined as a defence witness. The Court permits it — but the prosecutor, cross-examining, refers pointedly to the fact that the accused "waited until now" to come forward with this account. That is precisely the kind of comment section 353(1)(b) forbids: the accused's choice of whether and when to testify cannot itself be turned into evidence against him. In a separate case, a co-accused threatens a fellow accused that unless he "keeps quiet" about a certain fact in his statement, there will be trouble after release — a threat squarely barred by section 354. In a third case, an elderly, unwell accused's advocate applies under section 355 to have his personal attendance dispensed with for the remaining hearings, offering to appear by video link from his home town instead.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 353(1)** — an accused person [[!shall]] be a competent witness for the defence and may give evidence on oath in disproof of the charges against him or any person tried with him. Proviso (a): he [[!shall not]] be called as a witness except on his own written request. Proviso (b): his failure to give evidence [[!shall not]] be the subject of comment by any party or the Court, and [[!shall not]] give rise to any presumption against himself or a co-accused.
+>
+> **Section 353(2)** — a person proceeded against under section 101, section 126, section 127, section 128, section 129, or under Chapter X or Part B, Part C or Part D of Chapter XI may offer himself as a witness in those proceedings. Its proviso extends the no-comment, no-adverse-presumption rule to failure to give evidence in proceedings under sections 127, 128 and 129.
+>
+> **Section 354** — except as provided in sections 343 and 344 (tender of pardon), no influence by promise, threat, or otherwise [[!shall]] be used on an accused to induce him to disclose or withhold any matter within his knowledge.
+>
+> **Section 355(1)** — at any stage of an inquiry or trial, if the Judge or Magistrate is satisfied, for reasons to be recorded, that the accused's personal attendance is not necessary in the interests of justice, or that the accused persistently disturbs proceedings, the Judge or Magistrate [[?may]], if the accused is represented by an advocate, dispense with his attendance and proceed in his absence — and may direct his personal attendance again at any later stage.
+>
+> **Section 355(2)** — if the accused is not represented by an advocate, or the Judge or Magistrate considers personal attendance necessary, he [[?may]], for recorded reasons, either adjourn the inquiry or trial, or order the case of that accused to be tried separately.
+>
+> ::: proviso
+> **Explanation to section 355** — "personal attendance of the accused" includes attendance through audio-video electronic means. Dispensation under section 355 is not a right the accused can demand; it is a discretionary indulgence gated on a recorded justice-of-the-interests finding, and it can be withdrawn at any later stage.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="An accused wants to testify in his own defence, or a question arises about compelling his attendance — how does the Court handle it?"
+  :gates="[
+    { q: 'Has the accused himself made a written request to be examined as a defence witness under section 353?', note: 'The request must come from him — he cannot be called by the prosecution or by the Court on its own motion', no: 'He cannot be examined as a witness; his silence draws no comment and no adverse presumption' },
+    { q: 'Is the proceeding one where inducement by promise or threat is being used to make him disclose or withhold something, outside the sections 343-344 pardon framework?', note: 'Any such inducement is barred by section 354 regardless of who applies it', no: 'No section 354 issue arises' },
+    { q: 'Is personal attendance being dispensed with under section 355 — is the accused represented by an advocate and has the Judge or Magistrate recorded reasons that attendance is unnecessary or that he persistently disturbs proceedings?', note: 'Audio-video electronic attendance counts as personal attendance under the Explanation', no: 'Personal attendance continues to be required, or the case may be adjourned or tried separately for recorded reasons' }
+  ]"
+  result="The accused testifies only if he asks to, his silence is never evidence, no inducement may be used on him either way, and his physical presence in court can be excused — but never presumed away without a recorded reason."
+  resultKind="mandatory"
+  caveat="Dispensation of attendance under section 355 can be reversed by the same Judge or Magistrate at any subsequent stage of the same proceeding."
+/>
+
+### In plain English
+
+Three separate ideas share this cluster because they all protect the same thing: the accused's control over his own participation in his trial. Section 353 says he can testify if he chooses — but only if he chooses, and choosing not to can never be spun into guilt. Section 354 says nobody gets to pressure that choice, or any other disclosure, through promises or threats — except through the formal, regulated pardon-tender machinery of sections 343-344, which is itself a tightly controlled exception. Section 355 says that physically standing in the courtroom is not always necessary for the trial to fairly proceed, so long as the accused has an advocate present and the Judge or Magistrate has thought about it and written down why.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 353 tracks CrPC section 315's accused-as-competent-witness rule, carrying forward its proviso structure essentially unchanged. Section 354 tracks CrPC section 316's inducement bar. Section 355 tracks CrPC section 317's dispensation-of-attendance framework — but the Explanation making audio-video electronic attendance count as personal attendance is new, reflecting the post-pandemic normalisation of remote appearance that the CrPC's original text never addressed.
+
+### Test your instinct
+
+:::: instinct
+An accused declines to testify in his own defence under section 353. During closing arguments, the prosecutor tells the Court: "if he had nothing to hide, he would have taken the stand himself." Is this comment permissible?
+::: ruling
+No. Section 353(1)(b) is explicit: the accused's failure to give evidence cannot be made the subject of comment by any party, and cannot give rise to any presumption against him. The prosecutor's remark is a direct breach of the proviso and is liable to be struck from the record, and may itself be a ground of appeal if it influenced the verdict.
+:::
+::::
+
+:::: instinct
+An accused persistently shouts and disrupts proceedings despite repeated warnings. He is represented by an advocate. The Magistrate, without recording any specific reasons on the order sheet beyond writing "attendance dispensed with," proceeds in his absence for the next three hearings. Is this a valid exercise of section 355?
+::: ruling
+No. Section 355(1) conditions the power on the Judge or Magistrate being satisfied "for reasons to be recorded" — a bare recital of the conclusion is not a recording of reasons. The disruptive conduct must actually be described, even briefly, so that the order is capable of being tested on appeal or revision. An unreasoned dispensation order is vulnerable to challenge on that ground alone.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC ss.315-317 generated a substantial body of Supreme Court jurisprudence on the accused's right to silence and on the limits of dispensation-of-attendance orders; verify current authority independently before citing.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **shield**, section 353(1)(b) is one of the accused's most valuable protections at the closing-argument stage: any prosecutorial comment on his choice not to testify is objectionable in real time, not just a point to raise on appeal. As a **shield** again, section 355's dispensation power is something the defence should affirmatively invoke for an accused whose health, distance, or circumstances make repeated physical attendance burdensome — it is not self-executing and must be applied for.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster. The section 353 written request may be made at any stage of the trial at which the defence's evidence is being led; the section 355 application may be made at any stage of an inquiry or trial.
+
+#### Interlocking matrix
+
+Section 353's written-request proviso interacts with section 351's examination-of-the-accused framework built in the previous cluster — the two are not the same event: section 351 is the Court's own questioning, unsworn and with no adverse consequence for silence; section 353 is the accused voluntarily entering the witness box, on oath, subject to cross-examination. Section 354's inducement bar cross-refers expressly to the pardon-tender provisions built in Chapter XXVI's own third cluster (ss.343-345). Section 355's audio-video Explanation interacts with the remote-appearance infrastructure referenced throughout Chapter XXIV (ss.301-306).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Object immediately, on the record, to any prosecutorial comment on the accused's choice not to testify under section 353 — do not wait for the appeal.
+2. Never advise an accused to testify under section 353 without first walking through exactly what cross-examination on oath exposes him to, since section 353 evidence — unlike a section 351 examination — is regular sworn testimony.
+3. Where personal attendance is genuinely burdensome, apply affirmatively for section 355 dispensation with a concrete factual basis (health, distance, advocate representation already on record) rather than assuming the Court will raise it.
+4. If a section 355 dispensation order lacks recorded reasons, flag the deficiency promptly — it is a clean, narrow ground that does not require re-litigating the merits.
+
+---
