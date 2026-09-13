@@ -472,3 +472,123 @@ Section 346(1)'s proviso cross-refers to BNS 2023 sections 64, 65, 66, 67, 68, 7
 4. If the Court appears to be overlooking evidence that could be essential to a just decision, consider inviting it to exercise its section 348 power directly, since the section makes doing so mandatory once that threshold is met.
 
 ---
+
+## Sections 349–352 — Specimen samples, witness expenses, the accused's own examination, and closing arguments
+
+### The dispute this solves
+
+::: oneminute Four working-level mechanics of an ongoing inquiry or trial. Section 349 lets a first-class Magistrate order a person — including an accused — to give specimen signatures, finger impressions, handwriting, or a voice sample, but ordinarily only if that person has at some point been arrested in connection with the investigation or proceeding; a separate proviso lets the Magistrate dispense with even that precondition, for reasons recorded in writing. Section 350 lets any Criminal Court, subject to State Government rules, order the Government to pay the reasonable expenses of a complainant or witness who attends for the case. Section 351 is the accused's own examination — the Court may put any question it considers necessary at any stage without prior warning, and must question the accused generally on the case once prosecution evidence closes and before the defence is called, with a summons-case carve-out where personal attendance has already been dispensed with; no oath is administered, no punishment follows from silence or a false answer, but the answers given can be used as evidence in this proceeding and in any other inquiry or trial for an offence they tend to show he committed, and the Court may take the Prosecutor's and Defence Counsel's help in framing the questions or accept a written statement instead. Section 352 closes the cluster with closing arguments: concise oral submissions after a party's evidence closes, an optional written memorandum under distinct headings that becomes part of the record and must be shared with the opposite party, no adjournment for filing it absent recorded reasons, and the Court's own power to regulate arguments it finds unfocused or irrelevant.
+:::
+
+::: story The voice sample that needed no arrest, and the accused who answered in writing instead
+Investigating a case involving disputed telephone calls, a first-class Magistrate is satisfied it is expedient to obtain a voice sample from a person who has never been arrested in connection with the matter. Ordinarily section 349's first proviso would block that order — no specimen or sample without a prior arrest — but the Magistrate records his specific reasons in writing and invokes the second proviso instead, ordering the sample without requiring an arrest first. Later, at the close of the prosecution's evidence in an unrelated warrant-case, the accused is due to be examined under section 351(1)(b). Rather than answering the Court's questions orally in open Court, his counsel — with the Court's permission under section 351(5) — files a written statement addressing each circumstance the prosecution's evidence raised, and the Court accepts it as sufficient compliance with the examination requirement.
+:::
+
+> **349.** If a Magistrate of the first class is satisfied that, for the purposes of any investigation or proceeding under this Sanhita, it is expedient to direct any person, including an accused person, to give specimen signatures or finger impressions or handwriting or voice sample, he [[?may]] make an order to that effect and in that case the person to whom the order relates [[!shall]] be produced or [[!shall]] attend at the time and place specified in such order and [[!shall]] give his specimen signatures or finger impressions or handwriting or voice sample:
+>
+> Provided that no order [[!shall]] be made under this section unless the person has at some time been arrested in connection with such investigation or proceeding:
+>
+> Provided further that the Magistrate [[?may]], for the reasons to be recorded in writing, order any person to give such specimen or sample without him being arrested.
+>
+> **350.** Subject to any rules made by the State Government, any Criminal Court [[?may]], if it thinks fit, order payment, on the part of the Government, of the reasonable expenses of any complainant or witness attending for the purposes of any inquiry, trial or other proceeding before such Court under this Sanhita.
+>
+> **351. (1)** In every inquiry or trial, for the purpose of enabling the accused personally to explain any circumstances appearing in the evidence against him, the Court — (a) [[?may]] at any stage, without previously warning the accused put such questions to him as the Court considers necessary; (b) [[!shall]], after the witnesses for the prosecution have been examined and before he is called on for his defence, question him generally on the case:
+>
+> Provided that in a summons case, where the Court has dispensed with the personal attendance of the accused, it [[?may]] also dispense with his examination under clause (b).
+>
+> **(2)** No oath [[!shall]] be administered to the accused when he is examined under sub-section (1).
+>
+> **(3)** The accused [[!shall]] not render himself liable to punishment by refusing to answer such questions, or by giving false answers to them.
+>
+> **(4)** The answers given by the accused [[?may]] be taken into consideration in such inquiry or trial, and put in evidence for or against him in any other inquiry into, or trial for, any other offence which such answers may tend to show he has committed.
+>
+> **(5)** The Court [[?may]] take help of Prosecutor and Defence Counsel in preparing relevant questions which are to be put to the accused and the Court [[?may]] permit filing of written statement by the accused as sufficient compliance of this section.
+>
+> **352. (1)** Any party to a proceeding [[?may]], as soon as may be, after the close of his evidence, address concise oral arguments, and [[?may]], before he concludes the oral arguments, if any, submit a memorandum to the Court setting forth concisely and under distinct headings, the arguments in support of his case and every such memorandum [[!shall]] form part of the record.
+>
+> **(2)** A copy of every such memorandum [[!shall]] be simultaneously furnished to the opposite party.
+>
+> **(3)** No adjournment of the proceedings [[!shall]] be granted for the purpose of filing the written arguments unless the Court, for reasons to be recorded in writing, considers it necessary to grant such adjournment.
+>
+> **(4)** The Court [[?may]], if it is of opinion that the oral arguments are not concise or relevant, regulate such arguments.
+
+::: proviso Section 349's arrest precondition is the default, not an absolute rule — but bypassing it needs a recorded reason every time
+The ordinary rule is that a specimen or sample order requires the person to have been arrested in connection with the investigation or proceeding at some point. The second proviso lets the Magistrate skip that precondition entirely, but only where he records his specific reasons in writing — an unrecorded or generic invocation of the second proviso does not satisfy the section, since the recorded-reasons requirement is the only check on what would otherwise be an open-ended power to compel samples from anyone.
+:::
+
+::: proviso Section 351's answers cut both ways, in both directions and across proceedings
+Sub-section (4) does not confine the accused's answers to the trial in which they were given — they may be used as evidence for or against him in any other inquiry or trial for an offence the answers tend to show he committed. Counsel advising an accused before a section 351 examination should account for that cross-proceeding exposure, not just the immediate trial's outcome, when deciding how to answer or whether to rely instead on the written-statement option under sub-section (5).
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An investigation needs a specimen sample, or the accused is due to be examined at trial — what governs?"
+  :gates="[
+    { q: 'Has the person to whom the section 349 order relates been arrested at some point in connection with this investigation or proceeding?',
+      note: 'This is the default precondition for a specimen or sample order',
+      no: 'The order can proceed only if the Magistrate separately records specific reasons in writing under the second proviso' },
+    { q: 'Has the prosecutions evidence been closed, triggering the mandatory general-questioning duty under section 351(1)(b)?',
+      note: 'This duty is mandatory, unlike the discretionary any-stage questioning under clause (a)',
+      no: 'Only the discretionary any-stage questioning power under section 351(1)(a) is presently in play, not the mandatory closing examination' },
+    { q: 'Is this a summons-case in which the accuseds personal attendance has already been dispensed with?',
+      note: 'This is the one carve-out from the otherwise-mandatory section 351(1)(b) duty',
+      no: 'The mandatory general-questioning duty under section 351(1)(b) applies in full and cannot be dispensed with' },
+    { q: 'Has the accused, or the Court with his consent, elected to file a written statement under section 351(5) instead of an oral examination?',
+      note: 'A written statement, if permitted, is sufficient compliance with the whole section',
+      no: 'The examination under section 351 proceeds in the ordinary oral question-and-answer form' }
+  ]"
+  result="The specimen order, the witness-expense order, the accuseds own examination, and the closing arguments all proceed strictly within the recorded-reasons and mandatory-duty limits sections 349-352 fix, rather than at unfettered discretion"
+  resultKind="mandatory"
+  caveat="Answers given under section 351 are not confined to the trial in which they are given — they may be used as evidence in any other inquiry or trial for an offence they tend to show the accused committed." />
+
+### In plain English
+
+Four separate, practical mechanics keep a trial moving and keep it fair. Need a physical sample from someone — a voice, a signature, a fingerprint — the normal rule wants a prior arrest behind it, though a Magistrate can skip that with a written explanation. A witness who has to travel and lose time to testify can have the Government pick up the reasonable cost of attending. The accused himself gets a structured chance to explain the case against him in his own words — not under oath, with no penalty for staying silent or even for lying, but with a real catch: whatever he says can follow him into a different case entirely if it points to a different offence. And once the evidence is all in, each side gets to sum up — briefly, in writing if it wants, but the Court is not obliged to let anyone ramble past the point.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 349 appears to track CrPC section 311A (power of Magistrate to order person to give specimen signatures or handwriting), itself understood to have been a later insertion into the CrPC rather than part of its original 1973 text — BNSS section 349's voice-sample language, in particular, reads as a likely genuine, more recent addition, though this is not independently verified. BNSS sections 350 through 352 appear to track CrPC sections 312 through 314 respectively (expenses of complainants and witnesses, power to examine the accused, and oral arguments/memorandum of arguments). None of these four correspondences is independently verified against a bare CrPC text held in this repository.*
+
+### Test your instinct
+
+:::: instinct A Magistrate orders a person who has never been arrested in connection with a pending investigation to give a handwriting sample, without recording any reasons for dispensing with the arrest precondition.
+::: ruling Defective order — the second proviso was not properly invoked
+Section 349's first proviso bars an order under this section unless the person has at some time been arrested in connection with the investigation. The second proviso permits an exception, but only where the Magistrate records his reasons in writing. An order made without any recorded reasons does not satisfy either proviso and is vulnerable to challenge on that ground.
+:::
+::::
+
+:::: instinct At the close of the prosecution's evidence in a warrant-case, the accused declines to answer any of the Court's questions under section 351(1)(b) and offers no written statement either. The Court proceeds to judgment without treating the silence as evidence of guilt.
+::: ruling Correct approach — silence carries no penalty under section 351(3)
+Section 351(3) expressly provides that the accused does not render himself liable to punishment by refusing to answer the Court's questions. Treating his silence as itself incriminating would be inconsistent with the section; the Court is right to decide the case on the evidence actually on record rather than drawing an adverse inference from the refusal alone.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this cluster. Section 351's examination-of-the-accused power engages a substantial, well-developed body of Supreme Court jurisprudence on its predecessor CrPC provision — a reader relying on this cluster in practice should independently locate and verify the leading authority before citing it, rather than rely on this guide's silence as confirmation none exists.*
+
+#### Sword and shield
+
+As a **shield** for the accused, the written-statement option under section 351(5) is worth actively considering wherever an oral examination risks producing answers exposed to use in a wholly separate future proceeding under sub-section (4) — a carefully drafted written statement can address the circumstances raised without the same improvisational risk. As a **sword** for the prosecution, section 350's witness-expense mechanism is a practical tool for securing the actual attendance of a reluctant but necessary witness who might otherwise cite the cost of attending as a reason to avoid appearing.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster; the section 351(1)(b) examination duty is triggered by the close of prosecution evidence, not by a fixed date, and section 352's closing-argument stage follows the close of each party's own evidence.
+
+#### Interlocking matrix
+
+Section 351(1)'s proviso cross-refers to the summons-case personal-attendance-dispensation framework already built in Chapters XXI and XXVI's own section 355 (next cluster). Section 349's specimen-sample power interacts with the forensic-evidence provisions already built in Chapter XIII (s.176(3)) and Chapter XXV (ss.328-329).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before a section 349 order is executed, confirm either the prior-arrest precondition is actually satisfied or a specific written reason for dispensing with it is on record.
+2. Advise an accused facing a section 351 examination on the cross-proceeding exposure of sub-section (4) before he answers, not only on the immediate trial's stakes.
+3. Consider the written-statement route under section 351(5) wherever a carefully drafted response would serve the accused better than an unscripted oral examination.
+4. File any section 352 memorandum of arguments promptly after closing oral submissions — an adjournment to prepare it is available only for recorded reasons, not as a matter of course.
+
+---
