@@ -689,3 +689,107 @@ Section 353's written-request proviso interacts with section 351's examination-o
 4. If a section 355 dispensation order lacks recorded reasons, flag the deficiency promptly — it is a clean, narrow ground that does not require re-litigating the merits.
 
 ---
+
+## Section 356 — Flagship: inquiry, trial or judgment in absentia of a proclaimed offender
+
+### The dispute this solves
+
+::: oneminute
+Some accused persons simply vanish — declared proclaimed offenders, they abscond and stay gone, sometimes for years, precisely to make sure they can never be brought to trial. Section 356 is the Sanhita's answer: a rigorously fenced procedure that lets a trial proceed, and even conclude in a judgment, without the accused ever setting foot in the courtroom — but only after a demanding sequence of public-notice steps, only after a mandatory ninety-day cooling-off period, and only with a State-funded advocate standing in for him throughout.
+:::
+
+::: story
+A man wanted for a serious offence is declared a proclaimed offender after evading two rounds of warrants. Years pass with no prospect of arrest. The complainant's family, and the prosecution, want the trial to move — evidence grows stale, witnesses relocate or forget, memories fade. Under section 356, the Court can now proceed: newspaper publication in the area of his last known residence, notice to a relative, information affixed at his home and displayed at the local police station, and — critically — a ninety-day wait after the charge is framed before the trial in absentia can even begin. If he is finally arrested midway through, the trial does not restart — but he gets to examine evidence already led in his absence, and if he is arrested only after judgment, he cannot appeal at all unless he first presents himself before the appellate court, and even then, not once three years have passed since the judgment.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 356(1)** — notwithstanding anything in the Sanhita or any other law, when a person declared a proclaimed offender, whether or not charged jointly with others, has absconded to evade trial and there is no immediate prospect of arresting him, that absconding [[!shall]] be deemed a waiver of his right to be present and tried in person. The Court [[!shall]], after recording reasons in writing, in the interest of justice, proceed with the trial as if he were present, and pronounce judgment. Proviso: the Court [[!shall not]] commence the trial until ninety days have lapsed from the date the charge was framed.
+>
+> **Section 356(2)** — before proceeding under sub-section (1), the Court [[!shall]] ensure four things have been complied with: (i) issuance of two consecutive arrest warrants at least thirty days apart; (ii) publication in a national or local daily circulating at his last known residence, requiring him to appear within thirty days and warning that trial will commence in his absence if he does not; (iii) informing a relative or friend, if any, of the trial's commencement; and (iv) affixing information about the trial's commencement at a conspicuous part of his residence and displaying it at the local police station.
+>
+> **Section 356(3)** — if the proclaimed offender is not represented by an advocate, he [[!shall]] be provided one at the expense of the State.
+>
+> **Section 356(4)** — depositions of prosecution witnesses already examined by the competent court [[!shall]] be given in evidence against him at the inquiry or trial. Proviso: if he is arrested and produced, or appears, during the trial, the Court [[?may]], in the interest of justice, allow him to examine any evidence taken in his absence.
+>
+> **Section 356(5)** — depositions and examinations under this section [[?may]], as far as practicable, be recorded by audio-video electronic means, preferably mobile phone, kept as the Court directs.
+>
+> **Section 356(6)** — voluntary absence of the accused after the trial has commenced under sub-section (1) [[!shall not]] prevent the trial continuing, including pronouncement of judgment, even if he is later arrested, produced, or appears before the trial concludes.
+>
+> **Section 356(7)** — no appeal [[!shall]] lie against a judgment under this section unless the proclaimed offender presents himself before the appellate Court. Proviso: no appeal against conviction [[!shall]] lie after three years from the date of judgment.
+>
+> **Section 356(8)** — the State [[?may]], by notification, extend this section's provisions to any absconder mentioned in section 84(1).
+>
+> ::: proviso
+> The ninety-day proviso to sub-section (1) and the four-step compliance checklist in sub-section (2) are cumulative, not alternative — every one of them must be satisfied, in addition to the ninety-day wait, before the in-absentia trial can commence. Missing any single step is not a mere irregularity; it goes to the Court's jurisdiction to proceed under this section at all.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="The prosecution wants to try a proclaimed offender in his absence under section 356 — can the Court proceed?"
+  :gates="[
+    { q: 'Has the person actually been declared a proclaimed offender who has absconded to evade trial, with no immediate prospect of arrest?', no: 'Section 356 does not apply; ordinary trial-attendance rules govern' },
+    { q: 'Have both consecutive arrest warrants (at least thirty days apart), the newspaper publication, the relative-or-friend notification, and the conspicuous-affixing/police-station-display steps under sub-section (2) all been completed?', note: 'All four steps are mandatory, not optional', no: 'The Court cannot proceed under sub-section (1) until every step is completed' },
+    { q: 'Have ninety days lapsed since the charge was framed?', note: 'This is the proviso to sub-section (1) — a hard minimum wait, not a discretionary one', no: 'The trial cannot commence yet, however complete the sub-section (2) steps are' },
+    { q: 'Is the proclaimed offender represented by a State-funded advocate under sub-section (3)?', no: 'One must be provided before the trial proceeds' }
+  ]"
+  result="The Court records its reasons in writing and proceeds with the trial as if the accused were present, pronouncing judgment at its conclusion even in his continued absence."
+  resultKind="mandatory"
+  caveat="If the offender is later arrested or appears mid-trial, the trial does not restart, but he may be allowed to examine evidence already taken in his absence; if he appears only after judgment, he has no appeal at all unless he presents himself before the appellate Court, and never after three years from judgment."
+/>
+
+### In plain English
+
+This is a deliberate, carefully rationed departure from the ordinary rule that an accused must be present at his own trial. The Sanhita does not let a Court skip straight to trying an absent accused just because he is missing — it insists on a public, documented, multi-channel effort to actually reach him first (two warrants, a newspaper notice, word to family, a notice posted at his own home and at the police station), then insists on a further ninety-day pause even after all that is done, and then insists a lawyer stand in for him throughout. The logic is that a trial without the accused present is a serious departure from ordinary fairness, justified only when the accused has, by his own conduct of absconding, made his absence unavoidable — and even then, the appeal-rights restriction in sub-section (7) shows the law still wants him to eventually face the process in person if he ever resurfaces.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 356 is a substantially expanded and more structured successor to CrPC section 299 (which allowed recording evidence in the absence of an absconding accused, but did not provide for a full trial and judgment in absentia in the same detailed way). The ninety-day pre-commencement bar, the four-step notice-and-publication checklist, the State-funded-advocate guarantee, the audio-video deposition-recording option, the voluntary-absence-does-not-halt-trial rule, and the appeal-only-on-presentation restriction with its three-year outer limit all appear to be new or substantially reworked relative to the CrPC framework — this is one of the BNSS's more significant procedural innovations and deserves independent, careful verification before any practitioner relies on the comparison.
+
+### Test your instinct
+
+:::: instinct
+A proclaimed offender is served with only one arrest warrant, then the Court publishes the newspaper notice, informs a relative, and affixes notice at his residence and the police station. Ninety days pass after the charge is framed and the Court commences the trial in his absence. Is this trial validly conducted?
+::: ruling
+No. Section 356(2)(i) requires two consecutive warrants of arrest, issued at least thirty days apart, as one of the mandatory pre-conditions. A single warrant does not satisfy this requirement regardless of how thoroughly the other three steps were completed. The trial commenced without full compliance with sub-section (2) and is vulnerable to challenge on that basis.
+:::
+::::
+
+:::: instinct
+A proclaimed offender is arrested and produced before the Court on the final day of a trial conducted entirely in his absence under section 356, just before judgment is pronounced. He asks the Court to restart the trial from the beginning so he can be present throughout. Must the Court restart the trial?
+::: ruling
+No. Section 356(6) is explicit that voluntary absence after the trial has commenced does not prevent the trial from continuing, including pronouncement of judgment, even where the accused is arrested, produced, or appears before its conclusion. What he is entitled to, under the proviso to sub-section (4), is the Court's discretion — in the interest of justice — to let him examine evidence that was taken in his absence; he is not entitled to a restart as of right.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. Trial in absentia engages Article 21 fair-trial jurisprudence directly; independently verify current Supreme Court authority on the constitutional limits of in-absentia trial procedures before citing anything specific in relation to section 356 or its CrPC-era analogues.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **sword** for the prosecution, section 356 is the answer to a long-absconding accused who is deliberately using his own absence to stall prosecution indefinitely — it breaks that stalemate, but only after real effort to reach him. As a **shield** for the defence, every one of the sub-section (2) compliance steps, and the ninety-day proviso, is independently challengeable — a trial commenced even one day short of the ninety-day mark, or with any single notice step incomplete, is vulnerable to being set aside, and the sub-section (7) appeal-on-presentation gate is itself something to flag immediately if a client is arrested post-judgment and wants to appeal without first presenting himself.
+
+#### The limitation clock
+
+The ninety-day wait from the date of framing of charge is the operative clock in this cluster — the Court cannot commence the in-absentia trial before it runs. Separately, the sub-section (7) proviso imposes an outer three-year limit, from the date of judgment, on any appeal against conviction — once that period lapses, presentation before the appellate Court no longer revives the right to appeal.
+
+#### Interlocking matrix
+
+Section 356 interacts directly with the proclamation-of-offender machinery built in Chapter VI (the process-to-compel-appearance provisions) and with the absconder-extension power under section 84(1), which sub-section (8) allows the State to extend this section's provisions to. The State-funded advocate guarantee under sub-section (3) interacts with the legal-aid framework already built in this chapter's second cluster (section 341). The audio-video deposition option under sub-section (5) interacts with the electronic-attendance infrastructure built across sections 355 (previous cluster) and Chapter XXIV.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before conceding an in-absentia trial's validity, independently verify every sub-section (2) step against the record — two warrants at the required thirty-day interval, the newspaper publication's actual content and reach, the relative-or-friend notification, and both the residence-affixing and police-station-display steps.
+2. Calendar the ninety-day date from the framing of charge precisely — do not rely on the prosecution's own computation.
+3. If a client is arrested mid-trial, apply promptly under the proviso to sub-section (4) to examine evidence already taken in his absence — this is discretionary, not automatic, and needs to be affirmatively sought.
+4. If a client is arrested only after judgment and wants to appeal, advise him immediately that presentation before the appellate Court is a precondition to the appeal being heard at all, and that the right lapses entirely three years after the judgment date regardless of when he is eventually arrested.
+
+---
