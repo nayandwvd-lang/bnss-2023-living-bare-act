@@ -1277,3 +1277,102 @@ Section 362's committal cross-refers directly to Chapter XIX (Trial before a Cou
 4. On any transfer or succession, promptly assess whether any witness's earlier testimony would benefit from re-examination before the successor and invoke the section 365(1) proviso — this is the successor Judge or Magistrate's discretion, not the defence's automatic right, so a reasoned application is essential.
 
 ---
+
+## Section 366 — Flagship closer: the open Court default and mandatory in-camera trial
+
+### The dispute this solves
+
+::: oneminute
+Open justice is a foundational default — the public should generally be able to walk into a criminal court and watch it work. But some trials cause a second harm every time they are watched: rape trials and specified sexual-offence trials against children re-traumatise the very persons the process exists to protect if conducted in public, and if the details leak into print. Section 366 holds both truths together: courts are open by default, with the presiding Judge free to restrict access in any individual case for good reason, but rape trials, listed BNS sexual-offence trials, and specified POCSO trials must be conducted in camera as a matter of law — with a preference for a woman Judge or Magistrate, and a publication ban that can be selectively lifted only while still protecting the parties' identities.
+:::
+
+::: story
+A general criminal trial proceeds in an ordinary open courtroom, members of the public seated in the gallery as they please, until the presiding Judge — for a specific, case-particular reason — orders that a certain individual be excluded from the courtroom for a stage of the proceedings. That is the ordinary, discretionary sub-section (1) power. In a separate case, the charge is rape under BNS provisions covered by section 366(2)'s cross-reference list; the trial is conducted in camera as a matter of law, not judicial discretion, and the Court — as far as practicable — is presided over by a woman Judge. A journalist seeks permission to report on the proceedings; under sub-section (3), no one may print or publish any matter about an in-camera trial without the Court's prior permission, though the ban on reporting a rape trial can later be lifted so long as the parties' names and addresses stay confidential.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 366(1)** — the place where any Criminal Court sits to inquire into or try an offence [[!shall]] be deemed an open Court, to which the public generally may have access, so far as it can conveniently contain them. Proviso: the presiding Judge or Magistrate [[?may]], if he thinks fit, order at any stage that the public generally, or any particular person, shall not have access to or remain in the courtroom.
+>
+> **Section 366(2)** — notwithstanding sub-section (1), the inquiry into and trial of rape, or an offence under BNS 2023 sections 64, 65, 66, 67, 68, 70 or 71, or under sections 4, 6, 8 or 10 of the Protection of Children from Sexual Offences Act, 2012, [[!shall]] be conducted in camera. First proviso: the presiding Judge [[?may]], of his own motion or on either party's application, allow a particular person access to or presence in the courtroom. Second proviso: an in-camera trial [[!shall]], as far as practicable, be conducted by a woman Judge or Magistrate.
+>
+> **Section 366(3)** — where proceedings are held under sub-section (2), it [[!shall not]] be lawful for any person to print or publish any matter relating to those proceedings except with the Court's prior permission. Proviso: the ban on printing or publishing rape-trial proceedings [[?may]] be lifted, subject to maintaining confidentiality of the parties' name and address.
+>
+> ::: proviso
+> The gap between sub-sections (1) and (2) is the entire structure of this section: sub-section (1)'s restriction on public access is a case-by-case judicial discretion; sub-section (2)'s in-camera requirement for the listed offences is a mandatory rule of law that does not depend on any party asking for it or the Judge exercising discretion to impose it.
+> :::
+>
+> ::: proviso
+> Sub-section (3)'s publication ban and its rape-trial lifting proviso are not the same power as sub-section (2)'s access restriction — a Court could in principle permit a particular person's presence under sub-section (2)'s first proviso while the publication ban under sub-section (3) still holds, and vice versa; the two operate on different questions (who may be physically present versus what may be printed) and must be assessed separately.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="A criminal trial is about to begin — is the courtroom open to the public, restricted, or mandatorily in camera?"
+  :gates="[
+    { q: 'Is the offence rape, one of the listed BNS sections (64, 65, 66, 67, 68, 70, 71), or one of the listed POCSO sections (4, 6, 8, 10)?', note: 'If yes, sub-section (2) applies regardless of what any party requests', no: 'The trial defaults to an open Court under sub-section (1)' },
+    { q: 'For an in-camera trial: has the presiding Judge, of his own motion or on a partys application, allowed a particular person access?', no: 'No one beyond the Court and necessary participants has access to the room' },
+    { q: 'Is a woman Judge or Magistrate available to preside, as far as practicable?', note: 'The second proviso makes this the preferred, though not absolute, arrangement', no: 'A woman Judge or Magistrate is genuinely unavailable, and the trial proceeds before whoever is presiding' },
+    { q: 'Has anyone sought to print or publish any matter about the in-camera proceedings?', no: 'No publication issue arises' },
+    { q: 'Has the Court granted prior permission to print or publish (or, for a rape trial specifically, lifted the ban while preserving the parties confidentiality)?', no: 'Printing or publishing the matter is unlawful' }
+  ]"
+  result="An ordinary trial runs in open Court, subject to any case-specific access restriction the Judge orders; a rape or listed sexual-offence trial runs in camera by law, preferably before a woman Judge, with publication barred except by the Courts prior permission — and, for rape trials specifically, capable of being selectively lifted while the parties identities stay confidential."
+  resultKind="mandatory"
+  caveat="Sub-section (2)'s in-camera requirement is not discretionary once the offence falls within its list — it operates automatically, unlike sub-section (1)'s general access-restriction power, which always requires an actual order from the presiding Judge."
+/>
+
+### In plain English
+
+This section closes the chapter by returning to first principles: justice is normally done in public because public scrutiny is one of the strongest guarantees against arbitrary or unfair process. But the same openness that protects the public interest can, in a narrow category of cases, itself become a harm — a rape survivor or a child victim of a listed sexual offence should not have to relive the details of the offence before a public gallery, and should not have to see those details printed in a newspaper the next morning. Section 366 resolves the tension not by abandoning open justice generally, but by carving out a legally mandatory, narrowly defined exception for exactly the cases where the harm of openness is most acute — while still allowing the publication ban on rape-trial reporting to be lifted later, once the parties' identities can be protected, so that public accountability is not permanently sacrificed either.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 366 tracks CrPC section 327's open-Court/in-camera framework closely, including the mandatory in-camera requirement for rape and specified sexual-offence trials and the publication-ban structure. The **specific BNS 2023 section list in sub-section (2)** (ss.64, 65, 66, 67, 68, 70, 71) reflects the renumbered substantive offences and must be independently checked against the corresponding IPC provisions the CrPC referred to; the POCSO cross-references (ss.4, 6, 8, 10) appear consistent with the CrPC-era POCSO amendments but should likewise be verified. The woman-Judge-preference proviso and the confidentiality-preserving lifting proviso for rape trials both appear to track post-2013-amendment CrPC text, but this should be confirmed rather than assumed.
+
+### Test your instinct
+
+::::instinct
+A trial for an offence under one of the BNS sections listed in section 366(2) begins. Neither party applies for the trial to be conducted in camera, and the presiding Judge, assuming the default open-Court rule under sub-section (1) governs unless someone asks otherwise, allows the public to attend. Is this correct?
+::: ruling
+No. Sub-section (2) opens with "notwithstanding anything contained in sub-section (1)" and applies automatically to the listed offences — it is not conditional on either party applying for in-camera proceedings, unlike the first proviso to sub-section (2), which does require an application (or the Judge's own motion) only for the separate question of allowing a particular person access despite the in-camera order. The Judge's assumption that an application was needed to trigger in-camera proceedings at all is incorrect; the obligation is mandatory and self-executing.
+:::
+::::
+
+:::: instinct
+Two years after a rape trial concludes in camera, a documentary filmmaker applies to the Court for permission to report on the proceedings, proposing to use pseudonyms for the complainant and the accused throughout. Can the Court lift the publication ban on these terms?
+::: ruling
+Yes, in principle. The proviso to sub-section (3) specifically allows the ban on printing or publishing rape-trial proceedings to be lifted, subject to maintaining confidentiality of the parties' name and address — a proposal that genuinely preserves that confidentiality (through pseudonyms or equivalent means) is squarely within what the proviso contemplates, though the actual grant remains at the Court's discretion and would need to be satisfied that confidentiality is genuinely protected in substance, not merely in form.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC s.327 and its 2013-amendment in-camera/publication-ban provisions attracted substantial Supreme Court jurisprudence on victim identity protection and open-justice principles; independently verify current authority before citing, particularly on the standard for lifting a publication ban.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **shield** for a victim in a listed sexual-offence case, the mandatory in-camera requirement under sub-section (2) and the publication ban under sub-section (3) are protections that exist independent of any application — but the accused, the defence, or the prosecution can still apply under the first proviso to sub-section (2) to have a particular person present (an interpreter, a support person, a specific family member), and that application should be made explicitly rather than assumed. As a **sword** for open-justice advocates in an appropriate case, the proviso to sub-section (3) is the route to eventually securing public reporting on a matter of genuine public interest, provided a workable confidentiality-preserving proposal is put before the Court.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster; the in-camera requirement and publication ban both take effect automatically at the commencement of a qualifying trial and continue until the Court is asked, and agrees, to lift the ban under sub-section (3)'s proviso.
+
+#### Interlocking matrix
+
+Section 366(2)'s offence list interlocks directly with the BNS 2023 substantive provisions on rape and sexual offences against children, and with the POCSO Act, 2012's own trial-procedure provisions. The woman-Judge-preference proviso interlocks with the broader victim-protection architecture this guide has already flagged across earlier BNSS chapters. The publication ban under sub-section (3) interlocks with contempt-of-court and media-law considerations that sit outside the Sanhita entirely and should be checked independently in any case where a publication dispute actually arises.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm at the very first hearing whether the charge falls within section 366(2)'s list — if it does, in-camera proceedings should be arranged as a matter of course, not left to a party's request.
+2. Where a specific person's presence in an in-camera trial is needed for a legitimate reason, apply explicitly under the first proviso to sub-section (2) rather than assuming access will simply be granted.
+3. Before any media inquiry or reporting request on an in-camera trial, confirm that the Court's prior permission under sub-section (3) has actually been sought and obtained — publishing without it is unlawful regardless of the requesting party's intentions.
+4. If seeking to lift a rape-trial publication ban after the fact, come to the Court with a concrete confidentiality-preserving mechanism already proposed (redaction, pseudonymisation, sealed identifying details) rather than a bare request to lift the ban.
+
+---
