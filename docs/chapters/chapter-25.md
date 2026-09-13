@@ -754,3 +754,105 @@ Section 332's mandatory summons-on-application mechanism mirrors sections 326(2)
 4. Draft every affidavit under this cluster to section 333(2)'s separation requirement — personal knowledge apart from belief, with grounds of belief stated — to avoid a strike-out application and to preserve its persuasive weight.
 
 ---
+
+## Sections 334–336 — Proving a previous conviction, recording evidence against an absconding accused, and the successor-officer deposition rule (closes the chapter)
+
+### The dispute this solves
+
+::: oneminute This final cluster supplies three distinct evidentiary shortcuts, each solving a real practical problem at the end of a long chapter about how evidence gets onto the record in the first place. Section 334 gives extra, simplified modes of proving a previous conviction or acquittal beyond whatever other law already allows — a certified extract from the convicting court's own records, or, for a conviction specifically, a jail officer's certificate or the actual warrant of commitment — always coupled with identity evidence tying the accused before the Court to the person previously convicted or acquitted. Section 335 addresses the accused who cannot be found: where he has absconded and there is no immediate prospect of arrest, the trial or committing Court may examine prosecution witnesses in his absence and record their depositions now, for use later if he is ever arrested — and, for the gravest offences committed by persons unknown, the High Court or a Sessions Judge can direct a Magistrate to hold a parallel evidence-preserving inquiry, usable later against whoever is eventually accused, so long as the deponent is by then dead, incapable, or beyond India. Section 336 is the retirement-and-transfer problem: where the public servant, scientific expert, or medical officer who prepared a report has moved on, cannot be found, or producing him would delay the case, the Court must secure his successor in the post to depose on the report instead — but only if the report is actually disputed, and the successor's deposition may itself be given through audio-video electronic means.
+:::
+
+::: story A witness who will not live to see the accused arrested, and the deposition taken today for a trial that has not yet begun
+An accused facing a serious charge has absconded, and years pass with no arrest. The prosecution's key eyewitness is elderly and in failing health. Rather than let his evidence disappear entirely, the trial Court invokes section 335(1): it examines him now, in the accused's continued absence, and records his deposition. The witness dies before the accused is ever apprehended. When the accused is finally arrested and brought to trial, that recorded deposition — taken years earlier under exactly this provision — is given in evidence against him, precisely because section 335(1) anticipated this loss and built the mechanism to preserve the evidence regardless.
+:::
+
+> **334.** In any inquiry, trial or other proceeding under this Sanhita, a previous conviction or acquittal [[?may]] be proved, in addition to any other mode provided by any law for the time being in force,—
+> (a) by an extract certified under the hand of the officer having the custody of the records of the Court in which such conviction or acquittal was held, to be a copy of the sentence or order; or
+> (b) in case of a conviction, either by a certificate signed by the officer in charge of the jail in which the punishment or any part thereof was undergone, or by production of the warrant of commitment under which the punishment was suffered,
+> together with, in each of such cases, evidence as to the identity of the accused person with the person so convicted or acquitted.
+>
+> **335.** (1) If it is proved that an accused person has absconded, and that there is no immediate prospect of arresting him, the Court competent to try, or commit for trial, such person for the offence complained of [[?may]], in his absence, examine the witnesses (if any) produced on behalf of the prosecution, and record their depositions and any such deposition [[?may]], on the arrest of such person, be given in evidence against him on the inquiry into, or trial for, the offence with which he is charged, if the deponent is dead or incapable of giving evidence or cannot be found or his presence cannot be procured without an amount of delay, expense or inconvenience which, under the circumstances of the case, would be unreasonable.
+>
+> (2) If it appears that an offence punishable with death or imprisonment for life has been committed by some person or persons unknown, the High Court or the Sessions Judge [[?may]] direct that any Magistrate of the first class shall hold an inquiry and examine any witnesses who can give evidence concerning the offence and any depositions so taken [[?may]] be given in evidence against any person who is subsequently accused of the offence, if the deponent is dead or incapable of giving evidence or beyond the limits of India.
+>
+> **336.** Where any document or report prepared by a public servant, scientific expert or medical officer is purported to be used as evidence in any inquiry, trial or other proceeding under this Sanhita, and—
+> (i) such public servant, expert or officer is either transferred, retired, or died; or
+> (ii) such public servant, expert or officer cannot be found or is incapable of giving deposition; or
+> (iii) securing presence of such public servant, expert or officer is likely to cause delay in holding the inquiry, trial or other proceeding,
+> the Court [[!shall]] secure presence of successor officer of such public servant, expert, or officer who is holding that post at the time of such deposition to give deposition on such document or report:
+>
+> Provided that no public servant, scientific expert or medical officer [[!shall]] be called to appear before the Court unless the report of such public servant, scientific expert or medical officer is disputed by any of the parties of the trial or other proceedings:
+>
+> Provided further that the deposition of such successor public servant, expert or officer [[?may]] be allowed through audio-video electronic means.
+
+::: proviso Section 334's extra proof modes supplement, rather than replace, whatever other law already permits
+Section 334 expressly opens with "in addition to any other mode provided by any law for the time being in force" — the certified-extract and jail-certificate/commitment-warrant routes are additional tools, not the exclusive means of proving a previous conviction or acquittal. Whatever other statutory or common-law mode of proof already exists remains available; section 334 simply widens the toolkit, and identity evidence linking the accused to the previously convicted or acquitted person is required regardless of which mode is used.
+:::
+
+::: proviso Section 335 has two independent tracks — a known absconding accused, and an unknown offender in the gravest cases
+Section 335(1) operates once a specific accused person has absconded with no immediate prospect of arrest — his evidence-preservation deposition is taken for use against him specifically, once caught. Section 335(2) is triggered differently: an offence punishable with death or life imprisonment committed by a person or persons unknown, letting the High Court or a Sessions Judge direct a first-class Magistrate to hold an evidence-preserving inquiry usable later against whoever is eventually accused. The two tracks share the same underlying purpose — preserving evidence against the risk that a witness will not survive or remain available until a trial actually happens — but the second track does not require any specific accused to exist yet at all.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A previous conviction needs proving, an accused cannot be found, or a report-preparing officer has moved on — which of this cluster's shortcuts applies?"
+  :gates="[
+    { q: 'Is the issue proving a previous conviction or acquittal of the person now before the Court?', note: 'Section 334 permits a certified extract or, for a conviction, a jail certificate or commitment warrant, always with identity evidence, as additional modes of proof', no: 'Section 334 is not engaged; consider the remaining gates' },
+    { q: 'Has the accused absconded with no immediate prospect of arrest, or is this a grave unknown-offender case under section 335(2)?', note: 'Section 335(1) preserves prosecution evidence against a specific absconding accused; section 335(2) preserves it against whoever is later accused, for death or life-imprisonment offences by unknown persons', no: 'Section 335 does not apply; consider whether section 336 is engaged instead' },
+    { q: 'Has the officer, expert, or medical officer who prepared a disputed report been transferred, retired, died, become untraceable or incapable, or would producing him delay the case, under section 336?', note: 'The Court must then secure the successor officer to depose, but only if the report is actually disputed by a party; the successor may depose through audio-video electronic means', no: 'Section 336 is not engaged for this report' }
+  ]"
+  result="The relevant evidentiary shortcut applies and the previous conviction, absconding-accused deposition, or successor-officer deposition can be used in evidence exactly as this cluster provides"
+  resultKind="discretionary"
+  caveat="Section 336's successor-officer mechanism is available only where the underlying report is actually disputed by a party — an undisputed report needs no deposition from anyone, successor or otherwise." />
+
+### In plain English
+
+This closing cluster is really about what happens when the ordinary, everyone-shows-up-and-testifies model breaks down. A previous conviction is not always easy to prove the obvious way, so extra paper-based routes are provided. An accused who has vanished should not be able to make prosecution evidence vanish along with him, so his witnesses can be examined and locked into the record now, for use whenever he resurfaces. Serious unsolved crimes should not lose their evidence to time either, so a preservation inquiry against an unknown future accused is available for the worst offences. And when the specific official who wrote a report is no longer around to defend it and someone actually disputes it, the Sanhita does not let the report simply become unusable — it requires the Court to bring in whoever now holds that post instead.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 334 appears to track CrPC section 298 (previous conviction or acquittal how proved), BNSS section 335 appears to track CrPC section 299 (record of evidence in absence of accused), and BNSS section 336 appears to track CrPC section 299A or a similarly-numbered successor-officer provision — ⚠️ this last mapping is less certain than the others and needs a dedicated verification pass; section 336's successor-officer-deposition mechanism, including its audio-video proviso, reads as a plausible BNSS-era addition addressing the practical problem of long-pending trials outlasting the tenure of the officers who prepared their reports, but this has not been independently verified against the CrPC bare Act text in this repository.*
+
+### Test your instinct
+
+:::: instinct The defence argues that a deposition taken under section 335(1) against an absconding accused cannot later be used in evidence once he is arrested, because he had no opportunity to cross-examine the witness at the time it was recorded.
+::: ruling Section 335(1) expressly contemplates later use despite the absence of contemporaneous cross-examination
+Section 335(1) itself provides that the deposition taken in the accused's absence "may, on the arrest of such person, be given in evidence against him" — the section is built precisely around the reality that the accused was absconding and unavailable to cross-examine at the time. The absence of contemporaneous cross-examination is the premise of the provision, not a defect that defeats it; whatever weight that absence deserves is a matter for appreciation of the evidence, not a bar to its admission under this section.
+:::
+::::
+
+:::: instinct A report author under section 336 has simply been transferred to another posting, not retired or deceased, and the prosecution argues the section does not apply because the officer could still, in principle, be brought back to testify.
+::: ruling Transfer alone triggers section 336 — the officer need not be permanently unavailable
+Section 336(i) lists transfer as an independent triggering event, on the same footing as retirement or death — it does not require that the officer be permanently or absolutely unavailable. Once the report author has been transferred, the Court may secure the successor officer holding that post to depose instead, provided the report is genuinely disputed; there is no requirement to first attempt to recall the transferred officer from his new posting.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, an accused who has been the subject of a section 335(1) evidence-preservation deposition should, once arrested, focus challenge on the specific conditions the section imposes for later use — that the deponent is dead, incapable, untraceable, or unavailable without unreasonable delay, expense, or inconvenience — rather than on the mere fact that cross-examination did not occur contemporaneously, since the section itself anticipates that gap. As a **sword**, a party seeking to use section 334's simplified proof of a previous conviction should not neglect the identity-evidence requirement — the certified extract, jail certificate, or commitment warrant alone is not enough; evidence tying the accused before the Court to the previously convicted or acquitted person must accompany it.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.334-336; these are evidentiary mechanisms invoked as the relevant proof problem — a previous conviction, an absconding accused, or a transferred report author — actually arises during the proceeding.
+
+#### Interlocking matrix
+
+Section 336's forensic/scientific-expert-report context ties back to Chapter XIII's section 176(3) mandatory forensic investigation requirement (already built in this guide) and to section 329's Government scientific expert list from an earlier cluster in this chapter. Section 335's absconding-accused mechanism interlocks with the proclaimed-offender machinery elsewhere in the Sanhita (⚠️ not yet independently cross-referenced in this repository). This cluster closes Chapter XXV in full.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. When proving a previous conviction or acquittal under section 334, always pair the certified extract, jail certificate, or commitment warrant with clear identity evidence — the documentary proof alone does not establish that this accused is that convicted or acquitted person.
+2. Where an accused has absconded, consider promptly whether a section 335(1) evidence-preservation application is warranted for genuinely at-risk witnesses (elderly, ill, or otherwise unlikely to remain available) rather than waiting for arrest and risking the evidence altogether.
+3. For a grave offence by an unknown offender, be aware that a section 335(2) preservation inquiry may already exist in the file — check for one before assuming no evidence was gathered before a suspect was identified.
+4. Before objecting to a successor-officer deposition under section 336, confirm the report is actually disputed — the second proviso bars compelling any such appearance where it is not, regardless of which triggering event under clauses (i)-(iii) applies.
+
+---
