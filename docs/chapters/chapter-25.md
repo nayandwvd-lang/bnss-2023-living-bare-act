@@ -644,3 +644,113 @@ Section 327's proviso cross-refers to sections 19, 26, 27, 158, and 160 of the B
 4. Do not extend section 328(3)'s protection to a Government scientific expert examined under section 329 — the two categories are textually and substantively distinct on this point.
 
 ---
+
+## Sections 330–333 — The admit-or-deny document list, affidavits against public servants, formal-character affidavits, and who may administer them
+
+### The dispute this solves
+
+::: oneminute A trial generates documents faster than it generates witnesses, and this cluster is the machinery for handling that. Section 330 makes every party list the documents it files and forces the other side to admit or deny genuineness within thirty days of supply — a deliberately tight, but extendable-for-recorded-reasons, window — and where genuineness is not disputed, the document can be read in evidence without proving the signature at all, unless the Court itself insists on proof. Section 331 is narrower and specific: where an application to a Court contains allegations against a public servant, the applicant can support those allegations by affidavit rather than live testimony, if the Court thinks fit to allow it. Section 332 generalises that idea for a wider category — the evidence of any person whose evidence is merely formal in character can go in on affidavit too, subject to the same as-of-right summons-on-application mechanism seen for the previous cluster's medical witnesses and identification reports. Section 333 closes with the housekeeping: who can actually administer these affidavits (a Judge, a Judicial or Executive Magistrate, a Commissioner of Oaths, or a notary), what an affidavit must confine itself to (personal-knowledge facts stated separately from believed facts, with the grounds of belief stated), and the Court's power to strike out anything scandalous or irrelevant.
+:::
+
+::: story A stack of documents nobody actually disputes, and the thirty-day clock that decides whether their genuineness needs proving at all
+In a complex fraud trial, the prosecution files a bulky list of bank records and correspondence. Under section 330(1), the defence is called upon to admit or deny the genuineness of each document soon after supply, and in no case later than thirty days after that supply. Defence counsel, occupied with other pressing applications, lets the window run without responding to several entries. Because genuineness was never actually disputed within the time the section allows (and no extension was sought or granted under the first proviso), those documents can be read in evidence under section 330(3) without the prosecution ever having to formally prove who signed them — a consequence that follows directly from silence, not from any express admission.
+:::
+
+> **330.** (1) Where any document is filed before any Court by the prosecution or the accused, the particulars of every such document [[!shall]] be included in a list and the prosecution or the accused or the advocate for the prosecution or the accused, if any, [[!shall]] be called upon to admit or deny the genuineness of each such document soon after supply of such documents and in no case later than thirty days after such supply:
+>
+> Provided that the Court [[?may]], in its discretion, relax the time limit with reasons to be recorded in writing:
+>
+> Provided further that no expert [[!shall]] be called to appear before the Court unless the report of such expert is disputed by any of the parties to the trial.
+>
+> (2) The list of documents [[!shall]] be in such form as the State Government may, by rules, provide.
+>
+> (3) Where the genuineness of any document is not disputed, such document [[?may]] be read in evidence in any inquiry, trial or other proceeding under this Sanhita without proof of the signature of the person by whom it purports to be signed:
+>
+> Provided that the Court [[?may]], in its discretion, require such signature to be proved.
+>
+> **331.** When any application is made to any Court in the course of any inquiry, trial or other proceeding under this Sanhita, and allegations are made therein respecting any public servant, the applicant [[?may]] give evidence of the facts alleged in the application by affidavit, and the Court [[?may]], if it thinks fit, order that evidence relating to such facts be so given.
+>
+> **332.** (1) The evidence of any person whose evidence is of a formal character [[?may]] be given by affidavit and [[?may]], subject to all just exceptions, be read in evidence in any inquiry, trial or other proceeding under this Sanhita.
+>
+> (2) The Court [[?may]], if it thinks fit, and [[!shall]], on the application of the prosecution or the accused, summon and examine any such person as to the facts contained in his affidavit.
+>
+> **333.** (1) Affidavits to be used before any Court under this Sanhita [[?may]] be sworn or affirmed before—
+> (a) any Judge or Judicial or Executive Magistrate; or
+> (b) any Commissioner of Oaths appointed by a High Court or Court of Session; or
+> (c) any notary appointed under the Notaries Act, 1952.
+>
+> (2) Affidavits [[!shall]] be confined to, and [[!shall]] state separately, such facts as the deponent is able to prove from his own knowledge and such facts as he has reasonable ground to believe to be true, and in the latter case, the deponent [[!shall]] clearly state the grounds of such belief.
+>
+> (3) The Court [[?may]] order any scandalous and irrelevant matter in the affidavit to be struck out or amended.
+
+::: proviso Section 330's thirty-day window is an outer limit that runs from supply, not from filing — and silence has real consequences
+The clock in section 330(1) starts running from "supply of such documents," not from the date they were filed with the Court. If genuineness is neither admitted nor denied within that window (absent a recorded extension under the first proviso), section 330(3) allows the document to be read in evidence without proof of signature — a consequence triggered by inaction, not by any affirmative concession. The second proviso adds a further protection specifically for experts: a disputed report can force the expert's appearance, but an undisputed one cannot be used as a backdoor to compel attendance regardless.
+:::
+
+::: proviso Section 331 is narrow and permissive twice over — the applicant's choice and the Court's discretion both have to align
+Section 331 does not automatically let every applicant proceed by affidavit whenever a public servant is named — the applicant "may" give evidence by affidavit, and the Court separately "may, if it thinks fit," order that the evidence be given that way. Both the applicant's choice and the Court's own view of fitness have to line up before this route is actually used; neither party's preference alone controls.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A document has been filed, or a witness's evidence is being offered by affidavit — what procedure governs its use?"
+  :gates="[
+    { q: 'Is this a document filed by a party under section 330, requiring the other side to admit or deny genuineness within thirty days of supply?', note: 'The Court may relax this time limit for recorded reasons under the first proviso', no: 'The section 330 document-list procedure is not engaged for this item' },
+    { q: 'Was genuineness left undisputed within the applicable window?', note: 'An undisputed document may then be read in evidence without proof of signature, unless the Court itself requires such proof', no: 'The document remains disputed and signature proof may still be required' },
+    { q: 'Alternatively, is this evidence being offered by affidavit under section 331 (allegations against a public servant) or section 332 (formal-character evidence generally)?', note: 'Section 332 carries a mandatory summons-on-application right similar to the medical-witness and identification-report categories in the previous cluster; section 331 requires both the applicants choice and the Courts own view of fitness to align', no: 'Neither the document-list procedure nor the affidavit routes under ss.331-332 is in play for this item of evidence' }
+  ]"
+  result="The document or affidavit evidence is used according to the applicable procedure — admitted without signature proof if undisputed under section 330, or as validly sworn affidavit evidence under sections 331-333, subject to any summons-on-application right"
+  resultKind="discretionary"
+  caveat="Every affidavit under this cluster must still satisfy section 333's form requirements — sworn before an authorised person, confined to personal-knowledge and reasonable-belief facts stated separately, and free of scandalous or irrelevant matter." />
+
+### In plain English
+
+Three different situations, one underlying theme: not everything needs a live witness. A document nobody actually disputes does not need its signature formally proved — silence within the thirty-day window does the work. An allegation against a public servant can, if both the applicant and the Court agree, be supported by a sworn statement rather than testimony. And anything genuinely formal — routine, procedural, not really contested in substance — can go in on affidavit too, though either side can still force the deponent into the witness box to be examined on it. None of this is a free pass to smuggle in contested facts through paperwork, though: section 333 keeps affidavits honest by requiring the deponent to separate what he actually knows from what he merely believes, and by letting the Court strike out anything scandalous or beside the point.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 330 appears to track CrPC section 294 (no formal proof of certain documents), BNSS section 331 appears to track CrPC section 295 (affidavit in proof of conduct of public servants), BNSS section 332 appears to track CrPC section 296 (evidence of formal character by affidavit), and BNSS section 333 appears to track CrPC section 297 (authorities before whom affidavits may be sworn). The explicit thirty-day admit-or-deny window in section 330(1) is flagged as a likely BNSS-era addition tightening what may have been a more open-ended CrPC provision; this has not been independently verified against the CrPC bare Act text in this repository.*
+
+### Test your instinct
+
+:::: instinct Defence counsel, having let the thirty-day window under section 330(1) lapse without responding to the prosecution's document list, argues at trial that the documents are nonetheless inadmissible because genuineness was never expressly admitted.
+::: ruling Section 330(3) does not require an express admission — undisputed genuineness alone suffices
+Section 330(3) speaks of documents whose genuineness "is not disputed," not documents whose genuineness has been affirmatively admitted. Where the defence was called upon under section 330(1) and let the window (or any recorded extension of it) pass without disputing genuineness, the document falls within section 330(3) and may be read in evidence without proof of signature — the absence of an express admission does not revive a requirement the section does not impose.
+:::
+::::
+
+:::: instinct An applicant seeking to support serious allegations against a public servant insists on proceeding entirely by affidavit under section 331, and objects when the Court directs that the deponent also be examined orally.
+::: ruling Section 331 gives the Court, not the applicant alone, the final say
+Section 331 requires the Court to think the affidavit route fit, not merely the applicant to prefer it. Nothing in section 331 (or in section 332's summons-on-application mechanism for formal-character evidence generally) prevents the Court from directing oral examination in addition to, or in place of, an affidavit where it considers that necessary — the applicant's preference for affidavit alone does not bind the Court's own assessment of fitness.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, a party served with a section 330 document list should calendar the thirty-day window immediately and seek a recorded extension under the first proviso if more time is genuinely needed — missing the window without objection concedes genuineness by default, not by choice. As a **sword**, a party wanting to use affidavit evidence under sections 331-332 should draft it strictly to section 333(2)'s discipline — personal-knowledge facts and believed facts kept separate, with grounds of belief stated — since a sloppy affidavit invites a strike-out application under section 333(3) or undermines its own credibility on the merits.
+
+#### The limitation clock
+
+Section 330(1) fixes the one hard clock in this cluster: thirty days from supply of the documents, extendable only by the Court's own recorded-reasons order under the first proviso. No other filing deadline is fixed by ss.331-333.
+
+#### Interlocking matrix
+
+Section 332's mandatory summons-on-application mechanism mirrors sections 326(2)/327(2) from the previous cluster. Section 330's second proviso (no expert appearance unless disputed) interlocks with section 329's expert-summons discretion from the previous cluster. Section 333(1)(c)'s notary reference cross-refers to the Notaries Act, 1952 (external to this Sanhita).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Calendar the section 330(1) thirty-day window the moment a document list is served or filed, and seek a recorded extension promptly if more time is needed — do not let the window lapse by oversight.
+2. Where a document's genuineness is genuinely disputed, say so clearly and in time — section 330(3)'s no-proof-of-signature consequence follows from silence, and only an actual dispute avoids it.
+3. Before relying on section 331 for allegations against a public servant, anticipate that the Court may still direct oral examination — do not treat the affidavit route as guaranteed simply because the applicant prefers it.
+4. Draft every affidavit under this cluster to section 333(2)'s separation requirement — personal knowledge apart from belief, with grounds of belief stated — to avoid a strike-out application and to preserve its persuasive weight.
+
+---
