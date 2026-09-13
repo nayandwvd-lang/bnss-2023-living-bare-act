@@ -526,3 +526,121 @@ This cluster closes Part B ("Commissions for the examination of witnesses," ss.3
 4. Where a commission was issued by a non-extended-area or recognised foreign authority under section 325, do not assume different execution-and-return rules apply — the same sections 321-323 machinery governs, only the issuing authority differs.
 
 ---
+
+## Sections 326–329 — Documentary shortcuts for medical witnesses, identification reports, Mint/forensic officers, and Government scientific experts
+
+### The dispute this solves
+
+::: oneminute Some categories of witness testify so routinely, and to such a narrow, technical, or formal point, that requiring their personal attendance in every single case would grind the system to a halt without adding much real value. This cluster is the Sanhita's answer for four such categories. Section 326 lets a civil surgeon's or other medical witness's deposition — taken and attested by a Magistrate in the accused's presence, or taken on commission — go into evidence without the deponent being called, though the Court must summon him if either side applies. Section 327 does the same for an Executive Magistrate's identification report, with a specific proviso barring use of any suspect/witness statement embedded in that report except through the Bharatiya Sakshya Adhiniyam's own gateway sections. Section 328 covers reports from gazetted officers of Mints, Note/Security Printing Presses, and Forensic Science Laboratories or Questioned-Documents examiners — usable in evidence without calling the officer, summonable at the Court's discretion (not as of right for either party), but never compellable to produce the underlying unpublished records or disclose the test methodology, absent senior permission. Section 329 extends a broadly similar in-evidence-without-attendance rule to a named list of Government scientific experts — Chemical Examiners, the Chief Controller of Explosives, Finger Print Bureau Directors, Haffkine Institute Directors, Forensic Science Laboratory Directors, the Serologist to Government, and further notified experts — with a summons-and-depute mechanism letting a responsible, case-conversant officer stand in if the named expert cannot personally attend and the Court has not insisted otherwise.
+:::
+
+::: story A Chemical Examiner's report that never needs a courtroom appearance — until one side actually disputes it
+A poisoning trial relies heavily on a Chemical Examiner's report on a viscera sample. Under section 329(1), the report itself is admissible in evidence without the Chemical Examiner ever stepping into the witness box. The defence, however, genuinely disputes a specific finding in the report and applies under section 329(2) to have the Examiner summoned and examined on the subject-matter of his report. The Examiner is unavailable to attend personally due to an ongoing posting elsewhere; under section 329(3), he deputes a responsible officer from his own laboratory who is conversant with the case facts to attend and depose on his behalf — since the Court had not directed the Examiner himself to appear in person.
+:::
+
+> **326.** (1) The deposition of a civil surgeon or other medical witness, taken and attested by a Magistrate in the presence of the accused, or taken on commission under this Chapter, [[?may]] be given in evidence in any inquiry, trial or other proceeding under this Sanhita, although the deponent is not called as a witness.
+>
+> (2) The Court [[?may]], if it thinks fit, and [[!shall]], on the application of the prosecution or the accused, summon and examine any such deponent as to the subject-matter of his deposition.
+>
+> **327.** (1) Any document purporting to be a report of identification under the hand of an Executive Magistrate in respect of a person or property [[?may]] be used as evidence in any inquiry, trial or other proceeding under this Sanhita, although such Magistrate is not called as a witness:
+>
+> Provided that where such report contains a statement of any suspect or witness to which the provisions of section 19, section 26, section 27, section 158 or section 160 of the Bharatiya Sakshya Adhiniyam, 2023, apply, such statement [[!shall not]] be used under this sub-section except in accordance with the provisions of those sections. ⚠️ *These Bharatiya Sakshya Adhiniyam sections have not been independently verified in this repository.*
+>
+> (2) The Court [[?may]], if it thinks fit, and [[!shall]], on the application of the prosecution or of the accused, summon and examine such Magistrate as to the subject-matter of the said report.
+>
+> **328.** (1) Any document purporting to be a report under the hand of a gazetted officer of any Mint or of any Note Printing Press or of any Security Printing Press (including the officer of the Controller of Stamps and Stationery) or of any Forensic Department or Division of Forensic Science Laboratory or any Government Examiner of Questioned Documents or any State Examiner of Questioned Documents as the Central Government may, by notification, specify in this behalf, upon any matter or thing duly submitted to him for examination and report in the course of any proceeding under this Sanhita, [[?may]] be used as evidence in any inquiry, trial or other proceeding under this Sanhita, although such officer is not called as a witness.
+>
+> (2) The Court [[?may]], if it thinks fit, summon and examine any such officer as to the subject-matter of his report:
+>
+> Provided that no such officer [[!shall]] be summoned to produce any records on which the report is based.
+>
+> (3) Without prejudice to the provisions of sections 129 and 130 of the Bharatiya Sakshya Adhiniyam, 2023, no such officer [[!shall]], except with the permission of the General Manager or any officer in charge of any Mint or of any Note Printing Press or of any Security Printing Press or of any Forensic Department or any officer in charge of the Forensic Science Laboratory or of the Government Examiner of Questioned Documents Organisation or of the State Examiner of Questioned Documents Organisation be permitted—
+> (a) to give any evidence derived from any unpublished official records on which the report is based; or
+> (b) to disclose the nature or particulars of any test applied by him in the course of the examination of the matter or thing.
+>
+> **329.** (1) Any document purporting to be a report under the hand of a Government scientific expert to whom this section applies, upon any matter or thing duly submitted to him for examination or analysis and report in the course of any proceeding under this Sanhita, [[?may]] be used as evidence in any inquiry, trial or other proceeding under this Sanhita.
+>
+> (2) The Court [[?may]], if it thinks fit, summon and examine any such expert as to the subject-matter of his report.
+>
+> (3) Where any such expert is summoned by a Court, and he is unable to attend personally, he [[?may]], unless the Court has expressly directed him to appear personally, depute any responsible officer working with him to attend the Court, if such officer is conversant with the facts of the case and can satisfactorily depose in Court on his behalf.
+>
+> (4) This section applies to the following Government scientific experts, namely:—
+> (a) any Chemical Examiner or Assistant Chemical Examiner to Government;
+> (b) the Chief Controller of Explosives;
+> (c) the Director of the Finger Print Bureau;
+> (d) the Director, Haffkeine Institute, Bombay;
+> (e) the Director, Deputy Director or Assistant Director of a Central Forensic Science Laboratory or a State Forensic Science Laboratory;
+> (f) the Serologist to the Government;
+> (g) any other scientific expert specified or certified, by notification, by the State Government or the Central Government for this purpose.
+
+::: proviso Sections 326-327 give the Court no discretion to refuse a party's application to summon the deponent — sections 328-329 do
+Sections 326(2) and 327(2) both say the Court "shall, on the application of the prosecution or the accused" summon and examine the deponent — an entitlement, not a discretion, once either party applies. Section 328(2) and section 329(2), by contrast, use only "may, if it thinks fit" — summoning a Mint/forensic officer or a Government scientific expert is left to the Court's own discretion, with no equivalent as-of-right application mechanism for either party. This is a real, substantive difference in how forcefully each type of documentary shortcut can be tested.
+:::
+
+::: proviso Section 328(3)'s dual protection for Mint and forensic officers has no parallel for section 329's scientific experts
+Section 328(3) protects a Mint, Printing Press, Stamps-and-Stationery, or Forensic Science Laboratory officer from being compelled — absent senior institutional permission — to disclose either unpublished official records underlying the report or the particulars of the test methodology used. Section 329 contains no equivalent protection for the Government scientific experts it lists; a section 329 expert who is summoned and examined can be pressed on methodology in a way a section 328 officer cannot, absent the specific permission section 328(3) requires.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A document or deposition from one of these four categories of witness is offered in evidence without the deponent being called — is that permissible, and can either side force his attendance?"
+  :gates="[
+    { q: 'Is the deponent a civil surgeon/medical witness (s.326), an Executive Magistrate identification report (s.327), a Mint/Printing Press/forensic gazetted officer (s.328), or a listed Government scientific expert (s.329)?', note: 'Each of the four sections independently authorises using the document/deposition in evidence without calling the deponent', no: 'None of the ss.326-329 documentary shortcuts applies to this witness category' },
+    { q: 'For a s.326 medical deposition or a s.327 identification report, has either the prosecution or the accused applied to summon the deponent?', note: 'Sections 326(2) and 327(2) make summoning mandatory once either party applies — this is not discretionary for these two categories', no: 'No application has been made, so the deposition/report stands in evidence without further examination' },
+    { q: 'For a s.328 Mint/forensic report, is the officer being asked to produce underlying unpublished records or disclose test methodology without the required senior permission?', note: 'Section 328(3) bars this absent permission from the General Manager or the officer in charge of the relevant institution', no: 'No such demand is being made, so the section 328(3) protection is not in issue' }
+  ]"
+  result="The document or deposition is admissible without the deponent's personal attendance, subject to whatever summons-and-examine mechanism (mandatory or discretionary) applies to that particular category, and subject to section 328(3)'s protection where it is engaged"
+  resultKind="discretionary"
+  caveat="Section 329(3)'s delegation-to-a-responsible-officer mechanism applies only where the Court has not expressly directed the named expert himself to appear personally." />
+
+### In plain English
+
+Four different professionals, four slightly different rules, but the same underlying idea: their evidence is routine and technical enough that dragging them into court every single time is not worth it, so their written word can go into evidence on paper. But the strength of each side's ability to challenge that shortcut varies. For a medical witness or an identification report, either side has an absolute right to demand the deponent be produced for examination. For a Mint, Printing Press, or forensic officer, or for a Government scientific expert, it is the Court's own call whether to summon them — and even where summoned, the Mint/forensic officer gets an extra shield against being pressed on the underlying records or exact test methods, a shield the scientific experts under section 329 do not get in the same terms.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 326 appears to track CrPC section 291 (deposition of medical witness), BNSS section 327 appears to track CrPC section 291A (identification report of Magistrate), BNSS section 328 appears to track CrPC section 292 (evidence of officers of Mint), and BNSS section 329 appears to track CrPC section 293 (reports of certain Government scientific experts). This mapping has not been independently cross-verified against the CrPC bare Act text in this repository. The Bharatiya Sakshya Adhiniyam cross-references embedded in sections 327-328 replace what would have been Indian Evidence Act, 1872 cross-references in the CrPC-era provision — consistent with this guide's governing rule that the interlocks are BNS/BSA 2023, not the IPC/Evidence Act.*
+
+### Test your instinct
+
+:::: instinct The prosecution applies under section 328(2) to have a Forensic Science Laboratory officer summoned and examined on his report, and the Court declines, being satisfied the report is otherwise reliable and unchallenged.
+::: ruling The Court has discretion to decline — section 328(2) is not an as-of-right application mechanism
+Unlike sections 326(2) and 327(2), which make summoning mandatory once either party applies, section 328(2) uses only "may, if it thinks fit." The Court's discretion to decline a summons application for a Mint/forensic officer is genuine, and declining it where the report is otherwise unchallenged and reliable is a proper exercise of that discretion, not an error.
+:::
+::::
+
+:::: instinct Defence counsel cross-examining a summoned Government scientific expert under section 329(2) presses him to reveal the precise chemical test protocol used, and the expert refuses, citing section 328(3).
+::: ruling Section 328(3) does not apply to a section 329 expert — the refusal is misplaced
+Section 328(3)'s protection against disclosing test particulars is textually confined to the officers listed in section 328(1) — Mint, Printing Press, Stamps-and-Stationery, and Forensic Science Laboratory/Questioned-Documents officers. Section 329 contains no equivalent protection for the Government scientific experts it separately lists. An expert summoned under section 329 who is asked about his methodology cannot resist disclosure by invoking a protection that belongs to a different section covering a different category of witness.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, a party wanting to test a medical deposition or identification report should remember sections 326(2)/327(2) give an absolute right to demand the deponent's attendance — this is one of the few places in this cluster where the Court has no discretion to refuse. As a **sword**, a party relying on a Mint/forensic officer's report should resist any attempt to compel production of unpublished underlying records or disclosure of test methodology absent the specific institutional permission section 328(3) requires — and should note that this particular shield does not extend to a Government scientific expert examined under section 329.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.326-329; these are evidentiary-admissibility mechanisms invoked as the relevant document or deposition is tendered during the inquiry or trial.
+
+#### Interlocking matrix
+
+Section 327's proviso cross-refers to sections 19, 26, 27, 158, and 160 of the Bharatiya Sakshya Adhiniyam, 2023 (⚠️ not independently verified in this repository). Section 328(3) cross-refers to sections 129-130 of the same Adhiniyam (⚠️ not independently verified). Section 329's list of Government scientific experts interlocks with Chapter XIII's section 176(3) mandatory forensic investigation requirement (already built in this guide), since the reports these experts produce are frequently the same forensic reports that provision requires be obtained.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. For a medical deposition or identification report either side wants tested, apply promptly to summon the deponent — sections 326(2)/327(2) make this an entitlement, not a discretionary favour.
+2. Before applying to summon a Mint/forensic officer or Government scientific expert, weigh that the Court may decline under sections 328(2)/329(2) — build the case for why examination is necessary rather than assuming it will be granted.
+3. When a Mint/forensic officer resists disclosing underlying records or test methodology, confirm section 328(3)'s permission requirement has genuinely not been met before conceding the point.
+4. Do not extend section 328(3)'s protection to a Government scientific expert examined under section 329 — the two categories are textually and substantively distinct on this point.
+
+---
