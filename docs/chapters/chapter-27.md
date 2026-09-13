@@ -227,3 +227,112 @@ Section 369 operates only once section 367 or section 368 has produced a finding
 4. On recovery, apply promptly for resumption under section 370(1) and tender the supervising officer's certificate under section 370(2) — but be ready to support it with argument, since section 371(1) requires the Magistrate's own satisfaction on capacity, not mere production of the certificate.
 
 ---
+
+## Sections 372–374 — The finding of insanity, the acquittal it produces, and what happens to the accused afterwards
+
+### The dispute this solves
+
+::: oneminute Three provisions carry the unsoundness-of-mind inquiry to its logical end point. Section 372 is the reverse case from everything built so far in this chapter: the accused now appears to be of sound mind at the time of the inquiry or trial, but the Magistrate has reason to believe that, at the time the act was committed, he was — by reason of unsoundness of mind — incapable of knowing the nature of the act, or that it was wrong or contrary to law. Rather than any of the incapacity machinery of sections 367-371, the Magistrate simply proceeds with the case on that footing, committing to the Court of Session if the offence warrants it. Section 373 governs what an acquittal on that exact ground must say: not a bare acquittal, but a finding that states specifically whether the accused committed the act or not — because everything in section 374 turns on that finding. If the finding is that he did commit the act, section 374 requires the Magistrate or Court to choose between detaining him in safe custody or delivering him to a relative or friend, with detention in a public mental health establishment gated by the Mental Healthcare Act, 2017's own rules, and delivery gated by an application, a security undertaking to prevent self-harm or harm to others, and periodic production for inspection.
+:::
+
+::: story The acquittal that is not a simple acquittal
+An accused stands trial for causing grievous hurt. By the time of trial he is lucid, coherent, and plainly capable of following the proceedings — nothing in sections 367-368 is triggered. But the defence's case, accepted by the Court, is that at the moment he struck the blow he was, by reason of unsoundness of mind, incapable of knowing that what he was doing was wrong. The Court acquits him — but not on the ordinary ground of reasonable doubt about the act itself. Section 373 requires the finding to say so specifically: the accused did commit the act, but is not guilty of it by reason of the unsoundness of mind existing at that time. That single sentence in the judgment is what triggers section 374: the Court must now decide, not whether he is guilty, but whether he should be detained in safe custody or delivered to a relative who is prepared to give security that he will be properly cared for and prevented from causing harm.
+:::
+
+> **372.** When the accused appears to be of sound mind at the time of inquiry or trial, and the Magistrate is satisfied from the evidence given before him that there is reason to believe that the accused committed an act which, if he had been of sound mind, would have been an offence, and that he was, at the time when the act was committed, by reason of unsoundness of mind, incapable of knowing the nature of the act or that it was wrong or contrary to law, the Magistrate [[!shall]] proceed with the case, and, if the accused ought to be tried by the Court of Session, [[!shall]] commit him for trial before the Court of Session.
+>
+> **373.** Whenever any person is acquitted upon the ground that, at the time at which he is alleged to have committed an offence, he was, by reason of unsoundness of mind, incapable of knowing the nature of the act alleged as constituting the offence, or that it was wrong or contrary to law, the finding [[!shall]] state specifically whether he committed the act or not.
+>
+> **374. (1)** Whenever the finding states that the accused person committed the act alleged, the Magistrate or Court before whom or which the trial has been held, [[!shall]], if such act would, but for the incapacity found, have constituted an offence —
+>
+> (a) order such person to be detained in safe custody in such place and manner as the Magistrate or Court thinks fit; or
+>
+> (b) order such person to be delivered to any relative or friend of such person.
+>
+> **(2)** No order for the detention of the accused in a public mental health establishment [[!shall]] be made under clause (a) of sub-section (1) otherwise than in accordance with such rules as the State Government may have made under the Mental Healthcare Act, 2017.
+>
+> **(3)** No order for the delivery of the accused to a relative or friend [[!shall]] be made under clause (b) of sub-section (1) except upon the application of such relative or friend and on his giving security to the satisfaction of the Magistrate or Court that the person delivered shall —
+>
+> (a) be properly taken care of and prevented from doing injury to himself or to any other person;
+>
+> (b) be produced for the inspection of such officer, and at such times and places, as the State Government may direct.
+>
+> **(4)** The Magistrate or Court [[!shall]] report to the State Government the action taken under sub-section (1).
+
+::: proviso Section 372 is not a section 367/368 incapacity finding — it addresses unsoundness at the time of the act, not unsoundness at the time of the proceeding
+A practitioner should keep these two inquiries strictly apart. Sections 367-371 ask whether the accused is capable, right now, of following the proceeding and instructing his defence. Section 372 asks a historical question — was he, at the moment the act was committed, incapable by reason of unsoundness of mind of knowing the nature of the act, or that it was wrong or contrary to law? A person can be entirely fit to stand trial today (so sections 367-368 are never engaged) while the defence being run is precisely that he was not of sound mind when he acted. Section 372 routes that defence through the ordinary trial process, including committal to Sessions where warranted — it is not a variant of the incapacity-to-be-tried machinery.
+:::
+
+::: proviso Section 373's specific finding is the hinge the whole of section 374 turns on — an acquittal that omits it leaves nothing for section 374 to act on
+An acquittal on the ground of unsoundness of mind is a different kind of acquittal from an ordinary one, and section 373 makes the difference explicit: the finding must state specifically whether the accused committed the act or not. Without that express finding, section 374's detention-or-delivery machinery has no factual anchor to operate on — sub-section (1) is triggered only "whenever the finding states that the accused person committed the act alleged." A judgment that acquits on this ground without making the section 373 finding is incomplete for section 374 purposes.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person is acquitted on the ground of unsoundness of mind at the time of the offence, or the defence is being run at trial on that footing — what follows?"
+  :gates="[
+    { q: 'Does the accused appear of sound mind at the time of the inquiry or trial itself, with the unsoundness-of-mind claim relating only to his state of mind when the act was committed?',
+      note: 'If instead the accused is incapable right now of following the proceeding, sections 367-371 govern, not section 372',
+      no: 'This is a present-incapacity question governed by sections 367-371, not the historical section 372 inquiry' },
+    { q: 'Is the Magistrate or Court satisfied there is reason to believe the accused committed the act, and that at that time, by reason of unsoundness of mind, he was incapable of knowing its nature or that it was wrong or contrary to law?',
+      no: 'The ordinary trial proceeds without invoking section 372 at all' },
+    { q: 'Does the trial conclude in an acquittal on precisely that ground?',
+      no: 'Section 372 requires the Magistrate to proceed with the case on the ordinary footing, committing to the Court of Session if the offence warrants it' },
+    { q: 'Does the finding recorded under section 373 specifically state that the accused committed the act alleged?',
+      no: 'Section 374s detention-or-delivery machinery is not triggered; the acquittal stands without that further order' }
+  ]"
+  result="The Magistrate or Court must choose between detaining the accused in safe custody, or delivering him to a relative or friend who gives security for proper care and prevention of harm and periodic production for inspection — either way reporting the action taken to the State Government"
+  resultKind="mandatory"
+  caveat="Detention in a public mental health establishment is itself gated by rules the State Government must have made under the Mental Healthcare Act, 2017 — an order under section 374(1)(a) is not self-executing into any particular facility without those rules being followed." />
+
+### In plain English
+
+Section 372 handles the accused who is perfectly capable of standing trial today but whose defence is that he did not know what he was doing, or that it was wrong, at the moment he acted. That defence runs through the ordinary trial process, all the way to Sessions committal if the offence calls for it — the Magistrate does not divert into the incapacity-to-be-tried machinery just because unsoundness of mind is the defence being argued. If that defence succeeds, the acquittal it produces is not the end of the story: section 373 requires the Court to say, in so many words, whether the accused actually did the act. If he did, section 374 takes over — not to punish him, since he has been acquitted, but to decide what becomes of him: safe custody, or release to a relative or friend who is prepared to take real responsibility, backed by security and a commitment to produce him for inspection. Either path is reported up to the State Government, so the disposition of an acquitted-but-dangerous person is never simply left unrecorded.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis, this guide's working view is that BNSS section 372 corresponds to CrPC section 333, section 373 to CrPC section 334, and section 374 to CrPC section 335. This cluster sits closest to the M'Naghten-style test also found in the substantive criminal law — BNS section 22 (⚠️ successor to IPC section 84, itself unverified in this repository) — and a practitioner should be careful to keep the substantive defence (BNS s.22) distinct from this chapter's procedural consequences (what the trial court does once that defence succeeds). Nothing in the cross-referenced Mental Healthcare Act, 2017 gating language has been independently checked against the CrPC's own text for this cluster.*
+
+### Test your instinct
+
+:::: instinct At trial, the accused is alert, responsive, and clearly follows the proceedings without difficulty. His defence is that when he committed the act charged, he did not know it was wrong, by reason of unsoundness of mind at that time. The Magistrate considers diverting the case into the section 367 incapacity-determination procedure.
+::: ruling Wrong track — section 372 applies, not sections 367-371
+Sections 367-371 govern present incapacity to make a defence, which is not this accused's situation at all — he is plainly capable of following the trial. His defence concerns his state of mind at the time of the act, which is precisely what section 372 addresses. The Magistrate should proceed with the case under section 372, committing to the Court of Session if warranted, not open a section 367 inquiry.
+:::
+::::
+
+:::: instinct A Court acquits an accused "on the ground of unsoundness of mind" but the judgment does not state, one way or the other, whether the accused actually committed the act alleged.
+::: ruling Incomplete for section 374 purposes — section 373 requires the specific finding
+Section 373 requires the finding to "state specifically whether he committed the act or not." Without that express statement, there is nothing for section 374's detention-or-delivery machinery to act on, since sub-section (1) is triggered only "whenever the finding states that the accused person committed the act alleged." The acquittal itself may stand, but the judgment is incomplete against the statutory requirement, and a section 374 order cannot properly follow from it as recorded.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this cluster. Given the closeness of this procedural sequence to the substantive unsoundness-of-mind defence under BNS section 22 (successor to IPC section 84), a reader relying on this cluster in practice should independently locate and verify the leading Supreme Court authority on the CrPC predecessor provisions (sections 333-335) before citing one — this guide treats the gap as a research gap, not a citation to be guessed.*
+
+#### Sword and shield
+
+As a **shield**, defence counsel running an unsoundness-of-mind defence at trial should anticipate section 373 and specifically request that the Court's finding, if an acquittal follows, address in terms whether the accused committed the act — leaving this ambiguous invites later uncertainty about whether section 374 even applies. As a **sword**, the prosecution's residual interest after such an acquittal is public safety, not conviction — the realistic point of engagement is section 374(1)'s choice between safe custody and delivery to a relative or friend, where the prosecution can put before the Court any material bearing on the risk of harm if the accused is released to family custody.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 372-374. Section 372 operates within the ordinary trial timeline; the section 374 detention-or-delivery order, once made, continues until varied under the review-and-release mechanism the next cluster of this chapter builds (sections 375-378).
+
+#### Interlocking matrix
+
+Section 372's committal branch feeds into the same Sessions-committal architecture already built in earlier chapters of this guide. Section 374(2)'s public-mental-health-establishment gate cross-refers to rules under the Mental Healthcare Act, 2017 (⚠️ outside this guide's verified corpus). Section 374(4)'s reporting duty to the State Government is the same reporting obligation echoed in section 369(2) of this chapter, and both feed the review machinery in sections 375-378, built in the next cluster.
+
+#### Strategy and drafting
+
+**Model checklist for an unsoundness-of-mind defence and its aftermath:**
+
+1. Confirm at the outset whether the defence concerns present capacity to stand trial (sections 367-371) or the accused's state of mind at the time of the act (section 372) — they call for entirely different applications.
+2. Where the section 372 defence may succeed, prepare submissions in advance on the section 373 finding the Court will need to make, so the judgment does not leave the "did he commit the act" question unanswered.
+3. On a successful defence, be ready to address section 374(1)'s choice immediately — safe custody or delivery to a relative or friend — since the acquittal itself does not resolve what becomes of the accused.
+4. Where delivery to a relative or friend is sought, have the application and the proposed security undertaking (proper care, prevention of harm, periodic production for inspection) prepared before the hearing, not improvised at it.
+
+---
