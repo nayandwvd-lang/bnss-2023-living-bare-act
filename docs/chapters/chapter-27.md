@@ -336,3 +336,103 @@ Section 372's committal branch feeds into the same Sessions-committal architectu
 4. Where delivery to a relative or friend is sought, have the application and the proposed security undertaking (proper care, prevention of harm, periodic production for inspection) prepared before the hearing, not improvised at it.
 
 ---
+
+## Sections 375–378 — The exit machinery: certification, State Government review, and delivery to a relative or friend
+
+### The dispute this solves
+
+::: oneminute Sections 369(2) and 374 put a person into detention — pending psychiatric treatment before trial, or in safe custody after an acquittal on grounds of unsoundness of mind. Nothing about either detention is meant to be permanent by default, and sections 375-378 supply the exit machinery. Section 375 lets the State Government empower the jail's own officer in charge to do the certifying work that section 376 or section 377 would otherwise require of the Inspector-General of Prisons. Section 376 covers the person who becomes capable of making his defence: once certified, he goes back before the Magistrate or Court, which resumes the case under section 371 — the certificate itself is receivable as evidence, no further proof needed. Section 377 covers the person who is safe to be at large even if not necessarily fit to stand trial: certified as releasable without danger to himself or others, the State Government chooses between release, continued detention, or transfer to a public mental health establishment — with a three-member Commission available to inquire further before that choice is made. Section 378 offers a parallel, family-centred exit: delivery to a relative or friend who gives security for the person's care, and — if the delivered person was an accused whose trial had been postponed — the same section 371 resumption applies once the inspecting officer certifies capacity.
+:::
+
+::: story The certificate that ends a detention, and the family that steps in instead
+Two years into a section 369(2) treatment detention, the jail's medical officer — empowered by the State Government under section 375 to act in the Inspector-General's place for this case — certifies that the accused is now capable of making his defence. The certificate goes to the Magistrate, who calls the accused before the Court at the appointed time. No fresh capacity hearing from scratch is needed: section 376 makes the certificate itself receivable as evidence, and the Magistrate proceeds under section 371 to determine whether to resume the case. Contrast a second file: a person detained in safe custody under section 374(1) following an acquittal is certified by the Mental Health Review Board as releasable without danger of harm to himself or others. The State Government, on that certificate, does not have to simply set him free — it may order release, continued detention, or transfer to a public mental health establishment, and it may first appoint a Commission of a judicial officer and two medical officers to inquire further into his state of mind before making that choice. Meanwhile, in a third file, the detained person's sister applies to the State Government offering security that she will keep him from harming himself or others, produce him for inspection as directed, and — since he was originally detained under section 369(2) — produce him before the Magistrate whenever required. The State Government grants the application and delivers him into her custody; when the inspecting officer later certifies his capacity to make his defence, the Magistrate calls on the sister to produce him, and the case resumes under section 371 exactly as it would have on a section 376 certificate.
+:::
+
+### The Act, decompiled
+
+> **375. Power of State Government to empower officer in charge to discharge.** The State Government [[?may]] empower the officer in charge of the jail in which a person is confined under the provisions of section 369 or section 374 to discharge all or any of the functions of the Inspector-General of Prisons under section 376 or section 377.
+>
+> **376. Procedure where prisoner of unsound mind is reported capable of making his defence.** If a person is detained under the provisions of sub-section (2) of section 369, and — in the case of a person detained in a jail, the Inspector-General of Prisons, or, in the case of a person detained in a public mental health establishment, the Mental Health Review Board constituted under the Mental Healthcare Act, 2017 — [[!shall]] certify that, in his or their opinion, such person is capable of making his defence, he [[!shall]] be taken before the Magistrate or Court, as the case may be, at such time as the Magistrate or Court appoints, and the Magistrate or Court [[!shall]] deal with such person under the provisions of section 371; and the certificate of such Inspector-General or visitors as aforesaid [[!shall]] be receivable as evidence.
+>
+> **377. Procedure where person of unsound mind detained is declared fit to be released.** (1) If a person is detained under the provisions of sub-section (2) of section 369, or section 374, and such Inspector-General or visitors [[!shall]] certify that, in his or their judgment, he may be released without danger of his doing injury to himself or to any other person, the State Government [[?may]] thereupon order him to be released, or to be detained in custody, or to be transferred to a public mental health establishment if he has not been already sent to such establishment; and, in case it orders him to be transferred to a public mental health establishment, [[?may]] appoint a Commission, consisting of a Judicial and two medical officers.
+>
+> (2) Such Commission [[!shall]] make a formal inquiry into the state of mind of such person, take such evidence as is necessary, and [[!shall]] report to the State Government, which [[?may]] order his release or detention as it thinks fit.
+>
+> **378. Delivery of person of unsound mind to care of relative or friend.** (1) Whenever any relative or friend of any person detained under the provisions of section 369 or section 374 desires that he shall be delivered to his care and custody, the State Government [[?may]], upon the application of such relative or friend and on his giving security to the satisfaction of such State Government, that the person delivered shall —
+> (a) be properly taken care of and prevented from doing injury to himself or to any other person;
+> (b) be produced for the inspection of such officer, and at such times and places, as the State Government may direct;
+> (c) in the case of a person detained under sub-section (2) of section 369, be produced when required before such Magistrate or Court,
+> order such person to be delivered to such relative or friend.
+>
+> (2) If the person so delivered is accused of any offence, the trial of which has been postponed by reason of his being of unsound mind and incapable of making his defence, and the inspecting officer referred to in clause (b) of sub-section (1), certifies at any time to the Magistrate or Court that such person is capable of making his defence, such Magistrate or Court [[!shall]] call upon the relative or friend to whom such accused was delivered to produce him before the Magistrate or Court; and, upon such production the Magistrate or Court [[!shall]] proceed in accordance with the provisions of section 371, and the certificate of the inspecting officer [[!shall]] be receivable as evidence.
+
+::: proviso Section 375 is a delegation power, not a separate certifying track — the jail's officer in charge, once empowered, does exactly what the Inspector-General of Prisons would otherwise do under sections 376-377, no more and no less
+:::
+
+::: proviso Section 377's Commission is discretionary and only surfaces on a transfer-to-public-mental-health-establishment order — a straight release or continued-detention order under section 377(1) does not require one
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person is detained under section 369(2) (pre-trial psychiatric detention) or section 374 (post-acquittal safe custody), and a certifying authority is asked to review that detention."
+  :gates="[
+    { q: 'Is the person detained under section 369(2) or section 374?', no: 'Sections 375-378 review machinery has no application outside these two detention routes' },
+    { q: 'Has the Inspector-General of Prisons (jail) or the Mental Health Review Board (public mental health establishment) — or a jail officer empowered under section 375 in their place — certified the persons condition?', no: 'Detention continues unchanged; no certificate has issued to trigger any review' },
+    { q: 'Does the certificate address capacity to make a defence, rather than safety of release?', no: 'Route to section 377: the State Government decides release, continued detention, or transfer to a public mental health establishment, with a Commission inquiry available before a transfer order' }
+  ]"
+  result="Route to section 376: the person is produced before the Magistrate or Court, which proceeds under section 371 on the strength of the certificate alone — receivable as evidence, no further proof required."
+  resultKind="mandatory"
+  caveat="Section 378 offers a parallel exit at any point: a relative or friend may apply for delivery on security, and if the delivered person's trial had been postponed under section 369(2), the inspecting officer's later capacity certificate triggers the identical section 371 resumption, with the same evidentiary status for the certificate."
+/>
+
+### In plain English
+
+Detention under this chapter is never meant to be the end of the story. Someone is always checking — a jail's medical officer, the Inspector-General of Prisons, or a Mental Health Review Board — and the law gives that certifying authority's opinion real teeth: once it says "capable of making his defence," the case simply resumes, no fresh hearing on capacity required from a standing start. Once it says "safe to be at large," the State Government has three choices — release, continued detention, or transfer to a public mental health establishment — and can order a fuller inquiry by a small Commission before deciding, if a transfer is on the table. And a family member who wants to take over care and custody instead of leaving the person in institutional detention has an application route open to them, on giving security for proper care and cooperation with future inspection and production requirements.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis, this guide's working view is that BNSS section 375 corresponds to CrPC section 336, section 376 to CrPC section 337, section 377 to CrPC section 338, and section 378 to CrPC section 339. The Mental Health Review Board reference (constituted under the Mental Healthcare Act, 2017) updates what would have been an asylum-visitors-committee-era reference in the CrPC's own historical drafting — this guide has not independently verified what, if anything, the CrPC text said at the corresponding provision before this modernisation, and that comparison should not be assumed without checking a bare CrPC text directly.*
+
+### Test your instinct
+
+:::: instinct A jail's medical officer, empowered by the State Government under section 375 to act for the Inspector-General of Prisons, certifies that a section 369(2) detainee is now capable of making his defence. Defence counsel objects that only the Inspector-General himself, not a delegate, can issue a certificate with evidentiary effect under section 376.
+::: ruling The objection fails — section 375 delegation carries full section 376 effect
+Section 375 expressly empowers the officer in charge of the jail to discharge all or any of the functions of the Inspector-General of Prisons under section 376 or section 377. Once so empowered, that officer's certificate stands in exactly the same evidentiary position as the Inspector-General's own — the delegation is complete, not partial or merely advisory.
+:::
+::::
+
+:::: instinct The Mental Health Review Board certifies a section 374 detainee as releasable without danger of harm. The detainee's advocate argues the State Government must release him immediately since the Board has certified he is safe.
+::: ruling No automatic release — section 377(1) leaves the State Government a genuine choice
+Section 377(1) gives the State Government three options once the certificate issues: order release, order continued detention, or order transfer to a public mental health establishment. The certificate is a gateway to that decision, not a command compelling release — the State Government's discretion under this sub-section is real, not a formality to be rubber-stamped.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The certification-and-review machinery in sections 375-378 is administrative and evidentiary in character (delegation of certifying authority, admissibility of certificates, State Government discretion on release) rather than a doctrinal battleground that tends to generate reported Supreme Court authority; nothing in this guide's verified corpus should be cited on this specific mechanism without independent confirmation.
+
+#### Sword and shield
+
+As a **shield**, the detained person's family — or the person himself through counsel — should treat section 378 as a live alternative to institutional detention from the outset, not a fallback: an application on proper security terms can be filed early, in parallel with any section 376 or section 377 review, rather than waiting for the State Government to act first. As a **sword**, the prosecution's residual interest at the section 377 stage is the same public-safety interest as at section 374 — material bearing on the risk of harm if the person is released or delivered to family custody belongs before the State Government (and any Commission it appoints) at this stage, not only at the original detention order.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 375-378. Each of these provisions is triggered by an event — a certificate issuing, an application for delivery being made — rather than by the passage of time from the original detention order.
+
+#### Interlocking matrix
+
+Section 375's delegation feeds directly into sections 376 and 377 — it does not create an independent certifying track. Section 376 and section 378(2) both terminate in the same place: resumption of the case under section 371, with the certificate in each instance receivable as evidence. Section 377's Mental Health Review Board reference cross-refers to the Mental Healthcare Act, 2017 (⚠️ outside this guide's verified corpus). This cluster closes the exit-machinery arc that began with section 369's initial bail-or-detention choice, earlier in this chapter.
+
+#### Strategy and drafting
+
+**Model checklist for seeking release, resumption, or family delivery under sections 375-378:**
+
+1. Identify at the outset which detention route applies — section 369(2) pre-trial detention or section 374 post-acquittal safe custody — since it determines which certifying authority and which of sections 376-378 is in play.
+2. Where a jail officer purports to certify under a section 375 delegation, confirm the State Government's empowering order actually exists before relying on (or challenging) the certificate's evidentiary status.
+3. For a section 377 release application, prepare submissions addressing all three of the State Government's options — release, continued detention, transfer — rather than arguing only for outright release.
+4. Where family delivery under section 378 is the preferred outcome, have the security undertaking (proper care, prevention of harm, production for inspection, and — if applicable — production before the Magistrate or Court) drafted and ready before the application is filed.
+
+---
