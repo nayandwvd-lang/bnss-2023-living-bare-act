@@ -895,3 +895,172 @@ Section 357 interacts with the unsound-mind provisions found elsewhere in the Sa
 4. For a newly-added section 358 accused, insist on strict compliance with the re-hearing requirement and object to any shortcut that treats pre-addition testimony as already available against him.
 
 ---
+
+## Section 359 — Compounding of offences
+
+### The dispute this solves
+
+::: oneminute
+Not every criminal wrong needs to run its full course through trial, conviction and sentence — some offences are personal enough, and minor enough in their public dimension, that the law lets the very person wronged simply agree to let the matter drop. Section 359 is the Sanhita's compounding regime: a carefully graded system of two tables — one where the victim alone can compound freely, one where the victim needs the Court's permission first — plus a set of rules about who can compound on behalf of a child, a person of unsound mind, or someone who has died, and what compounding actually does to the case once it happens.
+:::
+
+::: story
+Two neighbours come to blows; one is convicted of voluntarily causing hurt under BNS section 115(2). Before sentencing, they patch things up — the injured neighbour wants no further proceedings. Because voluntarily causing hurt sits in section 359(1)'s Table, he can compound it himself, no Court permission needed, and composition operates as an acquittal. In a different case, an accused is charged with voluntarily causing grievous hurt under BNS section 117(2) — a more serious offence sitting in section 359(2)'s Table — and the injured party wants to settle, but here the Court's permission is a precondition; the parties cannot simply walk away from the case on their own say-so. In a third case, the person entitled to compound a theft has since died; his legal representative, as defined under the Code of Civil Procedure, 1908, steps into his shoes and compounds the offence with the Court's consent under sub-section (4)(b).
+:::
+
+> **The Act, decompiled**
+>
+> **Section 359(1)** — offences punishable under the BNS 2023 sections specified in the Table below [[?may]] be compounded, without the Court's permission, by the persons named in column 3:
+>
+> | Offence | BNS 2023 section | Person who may compound |
+> |---|---|---|
+> | Enticing/taking away/detaining a married woman with criminal intent | 84 | The husband of the woman, and the woman |
+> | Voluntarily causing hurt | 115(2) | The person hurt |
+> | Voluntarily causing hurt on provocation | 122(1) | The person hurt |
+> | Voluntarily causing grievous hurt on grave and sudden provocation | 122(2) | The person hurt |
+> | Wrongfully restraining or confining a person | 126(2), 127(2) | The person restrained or confined |
+> | Wrongfully confining a person for three days or more | 127(3) | The person confined |
+> | Wrongfully confining a person for ten days or more | 127(4) | The person confined |
+> | Wrongfully confining a person in secret | 127(6) | The person confined |
+> | Assault or use of criminal force | 131, 133, 136 | The person assaulted or on whom force is used |
+> | Words etc. with deliberate intent to wound religious feelings | 302 | The person whose feelings are intended to be wounded |
+> | Theft | 303(2) | The owner of the property stolen |
+> | Dishonest misappropriation of property | 314 | The owner of the property |
+> | Criminal breach of trust by a carrier, wharfinger, etc. | 316(3) | The owner of the property |
+> | Dishonestly receiving stolen property knowing it stolen | 317(2) | The owner of the property stolen |
+> | Assisting in concealment/disposal of stolen property | 317(5) | The owner of the property stolen |
+> | Cheating | 318(2) | The person cheated |
+> | Cheating by personation | 319(2) | The person cheated |
+> | Fraudulent removal/concealment of property to defeat creditors | 320 | The creditors affected |
+> | Fraudulently preventing a debt/demand from being available to creditors | 321 | The creditors affected |
+> | Fraudulent execution of a deed of transfer with a false statement of consideration | 322 | The person affected |
+> | Fraudulent removal or concealment of property | 323 | The person affected |
+> | Mischief causing loss only to a private person | 324(2), 324(4) | The person to whom loss is caused |
+> | Mischief by killing or maiming an animal | 325 | The owner of the animal |
+> | Mischief by wrongfully diverting water, injuring irrigation works, loss only to a private person | 326(a) | The person to whom loss is caused |
+> | Criminal trespass | 329(3) | The person in possession of the property |
+> | House-trespass | 329(4) | The person in possession of the property |
+> | House-trespass to commit an offence (other than theft) punishable with imprisonment | 332(c) | The person in possession of the house |
+> | Using a false trade or property mark | 345(3) | The person to whom loss/injury is caused |
+> | Counterfeiting a property mark used by another | 347(1) | The person to whom loss/injury is caused |
+> | Selling goods marked with a counterfeit property mark | 349 | The person to whom loss/injury is caused |
+> | Criminal intimidation | 351(2), 351(3) | The person intimidated |
+> | Insult intended to provoke a breach of the peace | 352 | The person insulted |
+> | Inducing a person to believe himself an object of divine displeasure | 354 | The person induced |
+> | Defamation (except the cases specified against s.356(2)'s own Table) | 356(2) | The person defamed |
+> | Printing or engraving matter known to be defamatory | 356(3) | The person defamed |
+> | Sale of printed/engraved matter known to contain defamatory matter | 356(4) | The person defamed |
+> | Criminal breach of contract of service | 357 | The person who contracted with the offender |
+>
+> **Section 359(2)** — the offences below [[?may]] be compounded only [[!with the permission of the Court]] before which the prosecution is pending:
+>
+> | Offence | BNS 2023 section | Person who may compound |
+> |---|---|---|
+> | Word, gesture or act intended to insult the modesty of a woman | 79 | The woman insulted or whose privacy was intruded upon |
+> | Marrying again during the lifetime of a husband or wife | 82(1) | The husband or wife of the person so marrying |
+> | Causing miscarriage | 88 | The woman to whom miscarriage is caused |
+> | Voluntarily causing grievous hurt | 117(2) | The person hurt |
+> | Causing hurt by a rash or negligent act endangering life or safety | 125(a) | The person hurt |
+> | Causing grievous hurt by the same rash or negligent act | 125(b) | The person hurt |
+> | Assault or criminal force in attempting wrongful confinement | 135 | The person assaulted or on whom force is used |
+> | Theft by a clerk or servant of property in the master's possession | 306 | The owner of the property stolen |
+> | Criminal breach of trust | 316(2) | The owner of the property |
+> | Criminal breach of trust by a clerk or servant | 316(4) | The owner of the property |
+> | Cheating a person the offender was bound (by law or contract) to protect | 318(3) | The person cheated |
+> | Cheating and dishonestly inducing delivery of property, or altering/destroying a valuable security | 318(4) | The person cheated |
+> | Defamation against the President, Vice-President, a Governor, an Administrator, or a Minister in respect of public functions, instituted on a Public Prosecutor's complaint | 356(2) | The person defamed |
+>
+> **Section 359(3)** — where an offence is compoundable under this section, abetment of it, an attempt to commit it (where the attempt is itself an offence), or liability under section 3(5) or section 190 of the BNS 2023, [[?may]] be compounded in like manner.
+>
+> **Section 359(4)(a)** — where the person otherwise competent to compound is a child or of unsound mind, any person competent to contract on his behalf [[?may]], with the Court's permission, compound the offence.
+>
+> **Section 359(4)(b)** — where that person is dead, his legal representative (as defined in the Code of Civil Procedure, 1908) [[?may]], with the Court's consent, compound the offence.
+>
+> **Section 359(5)** — where the accused has been committed for trial, or convicted with an appeal pending, no composition [[!shall]] be allowed without the leave of the committing Court or the appellate Court, as the case may be.
+>
+> **Section 359(6)** — a High Court or Court of Session, exercising revisional powers under section 442, [[?may]] allow a person to compound any offence he is competent to compound under this section.
+>
+> **Section 359(7)** — no offence [[!shall]] be compounded if the accused, by reason of a previous conviction, is liable to enhanced punishment or to a punishment of a different kind for it.
+>
+> **Section 359(8)** — composition of an offence under this section [[!has]] the effect of an acquittal of the accused with whom it is compounded.
+>
+> **Section 359(9)** — no offence [[!shall]] be compounded except as provided by this section.
+>
+> ::: proviso
+> The dividing line between Table 1 (sub-section (1), no Court permission needed) and Table 2 (sub-section (2), Court permission mandatory) is not arbitrary — it consistently tracks offence gravity. The more serious variant of an offence (e.g., grievous hurt under s.117(2) versus simple hurt under s.115(2)) is routed to the permission-required Table even where the underlying conduct is conceptually similar.
+> :::
+>
+> ::: proviso
+> Sub-section (9)'s closing words — "no offence shall be compounded except as provided by this section" — are a complete bar on ad hoc or judge-improvised compounding of any offence not actually listed in either Table. A Court cannot extend the compounding regime to an offence outside the schedule merely because the parties have privately settled.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="The victim and the accused want to settle a case and have the offence compounded — is section 359 available?"
+  :gates="[
+    { q: 'Is the specific BNS 2023 offence actually listed in either Table under section 359(1) or (2)?', note: 'Sub-section (9) bars compounding of any offence not listed', no: 'The offence cannot be compounded under section 359 at all' },
+    { q: 'Is the offence in Table 1 (no permission needed) rather than Table 2 (permission required)?', no: 'The Court’s permission must be obtained before composition under sub-section (2)' },
+    { q: 'Is the person seeking to compound the actual person named in column 3, or (where that person is a child, of unsound mind, or dead) the person competent to contract on his behalf or his legal representative, with the Court’s permission/consent under sub-section (4)?', no: 'The purported composition is not valid — the wrong person is attempting it' },
+    { q: 'Has the accused already been committed for trial, or convicted with an appeal pending?', note: 'This triggers the leave-of-court requirement under sub-section (5)', no: 'No additional leave is required beyond what sub-section (1) or (2) already demands' },
+    { q: 'Is the accused, by reason of a previous conviction, liable to enhanced or different-kind punishment for this offence?', note: 'Sub-section (7) is an absolute bar in this situation', no: 'No sub-section (7) bar applies' }
+  ]"
+  result="Once validly compounded, the composition operates as an acquittal of the accused for that offence under sub-section (8) — the case ends there, not with a conviction or a discharge."
+  resultKind="mandatory"
+  caveat="Sub-section (6)'s revisional-compounding route lets a High Court or Court of Session permit compounding even at the revision stage, for any offence the applying person is otherwise competent to compound."
+/>
+
+### In plain English
+
+Section 359 is essentially a graded permission slip. For the mildest, most personal offences, the law trusts the wronged person to decide for themselves whether to let the matter go — no judicial gatekeeping required. For a step up in seriousness, the same trust is extended, but only with a judicial check first, because these offences carry more public interest even though a private party is still the one deciding. For everything else, compounding simply is not available — the offence must run its ordinary course through trial regardless of what the parties privately agree. The child/unsound-mind and deceased-person provisions ensure the compounding right is not lost just because the person entitled to exercise it cannot exercise it personally. And the enhanced-punishment bar in sub-section (7) closes an obvious loophole: a repeat offender cannot buy his way out of the graver consequences his record has earned him.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 359 is the successor to CrPC section 320's compounding-of-offences table, restructured around the BNS 2023's substantive-offence numbering rather than the old IPC's. The overall two-table, gravity-graded architecture, the child/unsound-mind/deceased-person provisions, the committal/appeal leave requirement, the revisional-compounding power, the enhanced-punishment bar, and the composition-equals-acquittal effect all appear to track the CrPC's structure closely — but every individual offence-to-section mapping in both Tables must be independently re-verified, since the BNS renumbered every substantive offence relative to the IPC, and an error here is not a drafting nuance but a wrong citation in a settlement application.
+
+### Test your instinct
+
+:::: instinct
+An accused is charged with theft under BNS section 303(2), listed in section 359(1)'s Table as compoundable by the owner of the property without Court permission. The owner and the accused settle, and the owner files an application to compound. Does the Magistrate have any discretion to refuse to record the composition on the ground that theft is too serious an offence to let the parties settle privately?
+::: ruling
+No — not on that ground. Section 359(1) offences are, by the Legislature's own classification, compoundable without the Court's permission; the Magistrate's role is to verify that the applicant is the correct person under column 3 and that the offence is genuinely a Table 1 offence, not to substitute his own view of the offence's gravity for the classification the Table itself makes. Refusing to record a validly sought Table 1 composition on a generalised seriousness objection is not a proper exercise of the Magistrate's limited role under this sub-section.
+:::
+::::
+
+:::: instinct
+An accused with a prior conviction for the same offence is now liable, because of that prior conviction, to enhanced punishment on this occasion. The complainant wants to compound the present offence, which otherwise appears in section 359(1)'s Table. Can the composition be recorded?
+::: ruling
+No. Section 359(7) is an absolute bar: no offence shall be compounded if the accused, by reason of a previous conviction, is liable to enhanced punishment or to a punishment of a different kind for it — this overrides the fact that the offence would otherwise sit in Table 1 with no permission requirement. The Table's classification and the sub-section (7) bar operate independently, and the bar prevails whenever it is triggered.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC s.320 generated extensive Supreme Court jurisprudence on the limits of compounding (including on offences not listed in the schedule being addressed through quashing under inherent powers instead); independently verify current authority, and its continuing relevance under BNS's renumbering, before citing.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **shield** for an accused facing a Table 1 or Table 2 offence, compounding is often the fastest, cleanest route out of a prosecution — but only if pursued before any sub-section (7) enhanced-punishment bar is triggered by a prior conviction, which should be checked at the very outset of any settlement discussion. As a **sword** for a complainant who does not wish to settle, declining to compound is always available — composition requires the named person's own initiative; a Court cannot compel it.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster in the sense of a limitation period, but sub-section (5)'s leave requirement functions as a procedural gate that must be cleared before composition at the committal or appeal stage — leave should be sought promptly once the parties reach a settlement, since delay risks the case moving to a stage where practical considerations (sentencing having occurred, for instance) complicate the exercise.
+
+#### Interlocking matrix
+
+Section 359(6)'s revisional-compounding route interacts with the High Court's and Court of Session's revisional powers under section 442, to be built in a later chapter of this guide. The child/unsound-mind provision under sub-section (4)(a) interacts with the general competence-to-contract framework outside the Sanhita (the Indian Contract Act, 1872), and the deceased-person provision under sub-section (4)(b) expressly imports the Code of Civil Procedure, 1908's definition of "legal representative."
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before advising a client to pursue compounding, verify the specific BNS 2023 section against both Tables precisely — an offence just one sub-section away from the one actually charged may sit in a different Table, or in neither.
+2. Check the accused's prior conviction history early — a sub-section (7) bar discovered only after the parties have reached a settlement wastes both sides' time and creates false expectations.
+3. Where the person entitled to compound is a child, of unsound mind, or deceased, identify the correct substitute (person competent to contract on his behalf, or CPC-defined legal representative) and seek the Court's permission or consent before filing the composition application, not after.
+4. At the committal or appeal stage, seek leave under sub-section (5) as a discrete, early application — do not bundle it informally into the main proceeding's other applications.
+
+---
