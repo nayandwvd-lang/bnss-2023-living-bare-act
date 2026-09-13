@@ -356,3 +356,119 @@ Section 343(5) cross-refers to the ordinary committal machinery already built in
 4. Remember the false-evidence charge under section 345(1)'s second proviso cannot proceed without High Court sanction — confirm sanction is actually on record before that charge is allowed to proceed to trial.
 
 ---
+
+## Sections 346–348 — Flagship: the day-to-day trial mandate, local inspection, and the Court's own power to call witnesses
+
+### The dispute this solves
+
+::: oneminute Section 346 is this chapter's structural flagship: every inquiry or trial must proceed from day to day until every witness in attendance has been examined, and an adjournment beyond the following day needs the Court's own recorded reasons — with a hard two-month clock, running from the date the chargesheet is filed, for inquiries or trials of the grave sexual offences listed in its proviso (BNS 2023 sections 64, 65, 66, 67, 68, 70, and 71 ⚠️). Sub-section (2) then supplies the general adjournment framework: postponement or adjournment only for recorded reasons, no single remand exceeding fifteen days, no adjournment while witnesses are actually in attendance without examining them absent special recorded reasons, no adjournment for the sole purpose of letting the accused show cause against sentence, and a tightly rationed party-requested-adjournment regime — never more than two, only for circumstances genuinely beyond the party's control, with an advocate's engagement elsewhere expressly excluded as a ground. Section 347 gives any Judge or Magistrate the power to personally visit and inspect a relevant place, with notice to the parties, and to record a memorandum of what he observed that becomes part of the record. Section 348 closes the cluster with the Court's own evidence-gathering power — to summon any witness, examine anyone in attendance even if never summoned, or recall and re-examine anyone already examined — and turns that power into a duty wherever the evidence in question appears essential to the just decision of the case.
+:::
+
+::: story A trial that cannot wait, and a witness the Court called on its own
+A Sessions trial for an offence under section 64 of the Bharatiya Nyaya Sanhita, 2023 must, under section 346(1)'s proviso, be completed within two months of the chargesheet being filed. The Judge holds the trial to that clock, declining a defence request for a lengthy adjournment mid-trial where witnesses are present and ready to be examined — section 346(2)'s proviso bars exactly that kind of adjournment absent special recorded reasons. Midway through a separate, unrelated trial, the presiding Judge notices a gap in the evidence that neither side has addressed — a witness whose account could resolve a disputed fact was never called by either party. Invoking section 348, the Judge summons that witness himself; because the evidence appears essential to a just decision of the case, section 348's second half makes doing so not merely permissible but mandatory.
+:::
+
+> **346. (1)** In every inquiry or trial the proceedings [[!shall]] be continued from day-to-day basis until all the witnesses in attendance have been examined, unless the Court finds the adjournment of the same beyond the following day to be necessary for reasons to be recorded:
+>
+> Provided that when the inquiry or trial relates to an offence under section 64, section 65, section 66, section 67, section 68, section 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023 ⚠️ the inquiry or trial [[!shall]] be completed within a period of two months from the date of filing of the chargesheet.
+>
+> **(2)** If the Court, after taking cognizance of an offence, or commencement of trial, finds it necessary or advisable to postpone the commencement of, or adjourn, any inquiry or trial, it [[?may]], from time to time, for reasons to be recorded, postpone or adjourn the same on such terms as it thinks fit, for such time as it considers reasonable, and [[?may]] by a warrant remand the accused if in custody:
+>
+> Provided that no Court [[!shall]] remand an accused person to custody under this section for a term exceeding fifteen days at a time:
+>
+> Provided further that when witnesses are in attendance, no adjournment or postponement [[!shall]] be granted, without examining them, except for special reasons to be recorded in writing:
+>
+> Provided also that no adjournment [[!shall]] be granted for the purpose only of enabling the accused person to show cause against the sentence proposed to be imposed on him:
+>
+> Provided also that — (a) no adjournment [[!shall]] be granted at the request of a party, except where the circumstances are beyond the control of that party; (b) where the circumstances are beyond the control of a party, not more than two adjournments [[?may]] be granted by the Court after hearing the objections of the other party and for the reasons to be recorded in writing; (c) the fact that the advocate of a party is engaged in another Court, [[!shall]] not be a ground for adjournment; (d) where a witness is present in Court but a party or his advocate is not present or the party or his advocate though present in Court, is not ready to examine or cross-examine the witness, the Court [[?may]], if thinks fit, record the statement of the witness and pass such orders as it thinks fit dispensing with the examination-in-chief or cross-examination of the witness, as the case may be.
+>
+> *Explanation 1.* — If sufficient evidence has been obtained to raise a suspicion that the accused may have committed an offence, and it appears likely that further evidence may be obtained by a remand, this is a reasonable cause for a remand.
+>
+> *Explanation 2.* — The terms on which an adjournment or postponement may be granted include, in appropriate cases, the payment of costs by the prosecution or the accused.
+>
+> **347. (1)** Any Judge or Magistrate [[?may]], at any stage of any inquiry, trial or other proceeding, after due notice to the parties, visit and inspect any place in which an offence is alleged to have been committed, or any other place which it is in his opinion necessary to view for the purpose of properly appreciating the evidence given at such inquiry or trial, and [[!shall]] without unnecessary delay record a memorandum of any relevant facts observed at such inspection.
+>
+> **(2)** Such memorandum [[!shall]] form part of the record of the case and if the prosecutor, complainant or accused or any other party to the case, so desires, a copy of the memorandum [[!shall]] be furnished to him free of cost.
+>
+> **348.** Any Court [[?may]], at any stage of any inquiry, trial or other proceeding under this Sanhita, summon any person as a witness, or examine any person in attendance, though not summoned as a witness, or re-call and re-examine any person already examined; and the Court [[!shall]] summon and examine or re-call and re-examine any such person if his evidence appears to it to be essential to the just decision of the case.
+
+::: proviso The two-month clock is offence-specific, not a general trial-completion deadline
+Section 346(1)'s day-to-day default applies to every inquiry and trial, but the hard two-month clock in its proviso applies only to the named grave sexual offences under the Bharatiya Nyaya Sanhita, 2023 (sections 64, 65, 66, 67, 68, 70, and 71, all ⚠️ outside this guide's verified BNS corpus). An ordinary trial still benefits from the day-to-day continuity default, but without the fixed two-month outer limit.
+:::
+
+::: proviso Section 346(2)'s five provisos are cumulative, not alternative — a Court needs to clear all of them, not just one
+An adjournment sought at a party's request has to satisfy the "circumstances beyond the parties control" test of proviso (a), stay within the two-adjournment cap of proviso (b) if it does, avoid resting on an advocate's engagement elsewhere under proviso (c), and still not fall foul of the witnesses-in-attendance bar in the second proviso if witnesses happen to be present and ready. A single satisfied condition does not license an adjournment if another proviso in the same sub-section independently blocks it.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A party seeks an adjournment mid-trial, or the Court is considering exercising its own witness-calling power — what governs?"
+  :gates="[
+    { q: 'Does the inquiry or trial concern one of the grave sexual offences listed in section 346(1)s proviso, triggering the two-month completion clock from the chargesheet date?',
+      note: 'This clock is offence-specific, not a general default',
+      no: 'The ordinary day-to-day continuity default applies without a fixed two-month outer limit' },
+    { q: 'Are witnesses actually in attendance and ready to be examined at the time the adjournment is sought?',
+      note: 'The second proviso bars adjournment without examining them absent special recorded reasons',
+      no: 'This particular bar does not apply, though the remaining provisos in section 346(2) must still be checked' },
+    { q: 'Is the adjournment being sought at a partys request, and can that party show the circumstances are genuinely beyond its control?',
+      note: 'Proviso (a) is the gate; proviso (b) then caps such adjournments at two',
+      no: 'A party-requested adjournment resting on ordinary inconvenience, including counsel being engaged elsewhere under proviso (c), cannot be granted on that basis' },
+    { q: 'Separately, does evidence exist that the Court itself considers essential to the just decision of the case but that neither party has led?',
+      note: 'Section 348 turns the Courts calling power into a duty in exactly this situation',
+      no: 'Section 348s summon/examine/recall power remains discretionary rather than mandatory on the facts as they stand' }
+  ]"
+  result="The trial proceeds on a day-to-day basis, any adjournment granted clears every applicable proviso in section 346(2), and the Court exercises its own section 348 power as a duty wherever evidence appears essential to a just decision"
+  resultKind="mandatory"
+  caveat="The two-month clock in section 346(1)s proviso applies only to the specific grave sexual offences it lists — it is not a general trial-completion deadline for every inquiry or trial." />
+
+### In plain English
+
+Trials are not supposed to limp along one adjourned hearing at a time — the default is to keep going, day after day, until every witness present has been examined, and breaking that default needs the Court's own recorded reasons. For the gravest sexual offences, that default hardens into an outer limit: two months from the chargesheet, full stop. Adjournments generally are rationed hard — capped in number when a party asks for one, unavailable merely because counsel is busy elsewhere, and off the table entirely if witnesses are standing by ready to testify, unless something genuinely special justifies waiting. On top of everything the parties present, the Court is never limited to what the lawyers choose to put before it — if evidence exists that would actually matter to getting the decision right, the Court can call for it itself, and where that evidence is essential, calling for it stops being optional.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS sections 346 through 348 appear to track CrPC sections 309 through 311 respectively (power to postpone or adjourn, local inspection, and power to summon material witness or examine person present). The hard two-month proviso clock tied to a chargesheet-filing date for grave sexual offences, and the detailed party-requested-adjournment rationing in section 346(2)'s final proviso (the two-adjournment cap, the advocate-engaged-elsewhere exclusion, and the dispense-with-examination mechanism for an unready party), read as likely genuine, substantial BNSS-era additions — consistent with this guide's broader pattern of BNSS adding fixed clocks and stricter adjournment discipline throughout the trial chapters — but neither is independently verified against a bare CrPC text held in this repository.*
+
+### Test your instinct
+
+:::: instinct In a trial for an offence under section 64 of the Bharatiya Nyaya Sanhita, 2023, the chargesheet was filed on 1 January. As of 15 March, the trial remains incomplete, with no order recording reasons for exceeding the two-month clock.
+::: ruling The proviso has been breached on its face
+Section 346(1)'s proviso requires such a trial to be completed within two months of the chargesheet's filing date — here, by 1 March. The trial running past that date without any recorded justification is a departure from the section's mandatory language, and counsel should raise the delay on the record rather than treat it as a routine scheduling matter.
+:::
+::::
+
+:::: instinct A party seeks a third adjournment on grounds of circumstances beyond its control, having already been granted two such adjournments earlier in the same trial.
+::: ruling Barred — proviso (b) caps such adjournments at two
+Section 346(2)'s final proviso, clause (b), permits not more than two adjournments to be granted on the beyond-control-of-the-party ground. A third request on the same ground exceeds the cap regardless of how genuine the underlying circumstance is, though the Court retains its separate general power under section 346(2) itself for other, non-party-requested reasons.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this cluster. The day-to-day trial mandate and speedy-trial discipline generally engage well-known constitutional jurisprudence on Article 21 and the right to a speedy trial — a reader relying on this cluster should independently locate and verify the applicable authority before citing it.*
+
+#### Sword and shield
+
+As a **shield** against delay, section 346(2)'s witnesses-in-attendance proviso is a genuinely strong tool — counsel should object on the record whenever an adjournment is sought while witnesses stand ready, since the bar operates unless the Court records special reasons, not merely convenient ones. As a **sword** for the defence in a grave-sexual-offence trial running past the section 346(1) proviso's two-month mark, the delay itself is worth placing on the record at the earliest opportunity — not to argue the trial must be abandoned, but to preserve the point for any later challenge premised on the statute's own mandatory language.
+
+#### The limitation clock
+
+Section 346(1)'s proviso is itself a limitation clock — two months from the chargesheet's filing date for the listed grave sexual offences. Section 346(2)'s remand proviso caps any single custodial remand at fifteen days. No other clock runs under this cluster.
+
+#### Interlocking matrix
+
+Section 346(1)'s proviso cross-refers to BNS 2023 sections 64, 65, 66, 67, 68, 70, and 71 (⚠️ outside this guide's verified BNS corpus). Section 348's mandatory witness-calling duty interacts with the day-to-day continuity default of section 346(1) — a witness summoned under section 348 mid-trial must still be accommodated within whatever day-to-day or two-month framework already governs the proceeding.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. In any grave-sexual-offence trial, calendar the two-month clock from the chargesheet's filing date at the outset, and flag any slippage on the record as it occurs rather than only at the end.
+2. Object promptly whenever an adjournment is sought while witnesses are in attendance and ready — the burden is on the party seeking the adjournment to show special recorded reasons.
+3. Track the two-adjournment cap for party-requested, beyond-control adjournments across the whole trial, not just within a single hearing, to catch a request that would exceed it.
+4. If the Court appears to be overlooking evidence that could be essential to a just decision, consider inviting it to exercise its section 348 power directly, since the section makes doing so mandatory once that threshold is met.
+
+---
