@@ -220,3 +220,113 @@ Sections 310-313 form the verbatim-recording counterpart to section 309's lighte
 4. Where a witness's objection under section 313(2) is recorded as a memorandum rather than a correction, treat the underlying discrepancy as still live for argument — the memorandum does not resolve which version is accurate.
 
 ---
+
+## Sections 314–318 — Interpretation to the accused, demeanour, the accused's own examination record, the interpreter's duty, and the High Court's rule-making power
+
+### The dispute this solves
+
+::: oneminute An accused who does not understand the language the evidence is being given in cannot follow his own trial — so section 314 makes interpretation to him (or to his advocate, if the advocate is the one who does not follow the language) a running, open-Court obligation, not a one-off courtesy. Separately, when the accused himself is examined — not as a witness giving evidence, but in the distinctive sense of being questioned by the Court — section 316 imposes an even more exacting verbatim-plus-certification standard than sections 310-311 impose for ordinary witnesses: the whole examination, every question and every answer, recorded in full, read back, and certified by the Magistrate or Judge's own hand that it is a full and true account — with a special seventy-two-hour signature window where the accused is in custody and examined electronically. Section 315 adds a smaller but real safeguard: demeanour remarks, recorded at the time, because a transcript cannot show how a witness looked or hesitated. Section 317 makes the interpreter himself personally answerable for truthful interpretation. Section 318 lets every High Court supplement all of this with its own binding recording rules.
+:::
+
+::: story An accused who speaks only a regional language is being tried before a Sessions Court where the evidence is led in English. Defence counsel does understand English. Section 314(1) still requires the evidence to be interpreted to the accused himself in open Court in a language he understands — the fact that his own advocate follows the proceedings does not excuse the interpretation to the accused. Later, the accused is examined by the Judge directly. The whole exchange — the Judge's questions and the accused's answers — must be recorded in full under section 316(1), read back to him under section 316(3), and the Judge must certify under his own hand that it is a full and true account under section 316(4). If defence counsel later wants to argue that the accused's answers were mischaracterised, the first place to look is whether this certification and read-back actually happened.
+:::
+
+> **314.** (1) Whenever any evidence is given in a language not understood by the accused, and he is present in Court in person, it [[!shall]] be interpreted to him in open Court in a language understood by him.
+>
+> (2) If he appears by an advocate and the evidence is given in a language other than the language of the Court, and not understood by the advocate, it [[!shall]] be interpreted to such advocate in that language.
+>
+> (3) When documents are put for the purpose of formal proof, it [[?shall be in the discretion]] of the Court to interpret as much thereof as appears necessary.
+>
+> **315.** When a presiding Judge or Magistrate has recorded the evidence of a witness, he [[!shall]] also record such remarks (if any) as he thinks material respecting the demeanour of such witness whilst under examination.
+>
+> **316.** (1) Whenever the accused is examined by any Magistrate, or by a Court of Session, the whole of such examination, including every question put to him and every answer given by him, [[!shall]] be recorded in full by the presiding Judge or Magistrate himself or where he is unable to do so owing to a physical or other incapacity, under his direction and superintendence by an officer of the Court appointed by him in this behalf.
+>
+> (2) The record [[!shall]], if practicable, be in the language in which the accused is examined or, if that is not practicable, in the language of the Court.
+>
+> (3) The record [[!shall]] be shown or read to the accused, or, if he does not understand the language in which it is written, [[!shall]] be interpreted to him in a language which he understands, and he [[?shall be at liberty]] to explain or add to his answers.
+>
+> (4) It [[!shall]] thereafter be signed by the accused and by the Magistrate or presiding Judge, who [[!shall]] certify under his own hand that the examination was taken in his presence and hearing and that the record contains a full and true account of the statement made by the accused:
+>
+> Provided that where the accused is in custody and is examined through electronic communication, his signature [[!shall]] be taken within seventy-two hours of such examination.
+>
+> (5) Nothing in this section [[!shall]] be deemed to apply to the examination of an accused person in the course of a summary trial.
+>
+> **317.** When the services of an interpreter are required by any Criminal Court for the interpretation of any evidence or statement, he [[!shall]] be bound to state the true interpretation of such evidence or statement.
+>
+> **318.** Every High Court [[?may]], by general rule, prescribe the manner in which the evidence of witnesses and the examination of the accused shall be taken down in cases coming before it, and such evidence and examination [[!shall]] be taken down in accordance with such rule.
+
+::: proviso The 72-hour signature window is a BNSS-era accommodation for electronic examination
+Section 316(4)'s proviso exists because an accused examined in custody through electronic communication cannot always sign the record at the moment it is completed — the seventy-two-hour window is the mechanism that lets electronic-examination facilities actually work without breaking the signature-and-certification safeguard. ⚠️ *The general electronic-examination framework this proviso depends on has not yet been independently verified against every cross-referenced section in this guide.*
+:::
+
+::: proviso Section 316 is about the accused's own examination — a different act from "evidence" under ss.310-313
+The previous cluster's ss.310-313 govern how a witness's evidence is recorded. Section 316 is a separate, self-contained standard for a different event: the Magistrate or Judge's own examination of the accused. The two standards look similar (verbatim recording, read-over) but section 316 adds a certification-under-own-hand requirement that ss.310-311 do not impose on witness evidence, and section 316(5) expressly carves out summary trials, where a lighter regime applies instead.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="The accused is present at his trial or is being examined by the Court — what interpretation and recording obligations apply?"
+  :gates="[
+    { q: 'Is evidence being given in a language the accused (or his advocate) does not understand?', note: 'Section 314 requires interpretation in open Court to whichever of the two does not follow the language', no: 'No interpretation obligation arises under section 314 for that item of evidence' },
+    { q: 'Is the accused himself being examined by the Magistrate or Court, rather than merely a witness testifying?', note: 'Section 316 applies its own full-record-plus-certification standard, distinct from and stricter than the witness-recording standard', no: 'The witness-recording standard from the previous cluster applies instead, not section 316' },
+    { q: 'Was the record read back to the accused and certified by the Magistrate or Judge under his own hand as a full and true account?', note: 'Section 316(3)-(4); the 72-hour proviso applies only where the accused is in custody and examined electronically', no: 'The examination record is incomplete and vulnerable to challenge for want of certification' }
+  ]"
+  result="The examination stands as a properly interpreted, fully recorded, read-over, and certified record of the accused's own statement"
+  resultKind="mandatory"
+  caveat="Section 316(5) excludes summary trials from this entire standard; section 318 additionally lets a High Court prescribe its own supplementary recording rules for cases before it." />
+
+### In plain English
+
+Three separate people get three separate protections here. The accused gets a running right to understand, in his own language, what is being said against him — not just a translated summary at the end. A witness whose demeanour matters (hesitation, evasiveness, distress) gets that observation preserved in the record even though a transcript cannot show it. And the accused, when he himself is questioned by the Court, gets the most exacting standard in the chapter: a full verbatim record, read back to him, and certified in the Judge's or Magistrate's own hand — because this is his own statement, potentially the single most consequential piece of evidence in the case.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 314 appears to track CrPC section 279, section 315 appears to track CrPC section 280, section 316 appears to track CrPC section 281, section 317 appears to track CrPC section 282, and section 318 appears to track CrPC section 283. Section 316(4)'s seventy-two-hour electronic-signature proviso is flagged as a likely BNSS-era addition tracking the Sanhita's general accommodation of electronic means; this has not been independently verified against the CrPC text.*
+
+### Test your instinct
+
+:::: instinct A Magistrate examines the accused through video-conferencing while the accused is in judicial custody, reads the record back to him on screen, and notes that the accused will sign it "once he is produced back to the facility and paperwork is arranged" — four days later. Is this compliant with section 316?
+::: ruling No — the seventy-two-hour window is an outer limit, not a target
+Section 316(4)'s proviso fixes a seventy-two-hour outer limit for signature where the accused is examined electronically in custody. A signature obtained on the fifth day falls outside the window the Sanhita itself set, and defence counsel should treat the delay as a live point going to the record's certification, not a mere formality.
+:::
+::::
+
+:::: instinct A Sessions Judge, examining the accused personally, records the exchange in English (the language of the Court) even though the accused answered in a regional language the Judge also understands well, without any note explaining why the regional-language record under section 316(2) was not used. Is this a bare, incurable defect?
+::: ruling Not necessarily bare or automatically fatal, but a real irregularity worth flagging
+Section 316(2) prefers recording in the language in which the accused is examined where practicable, falling back to the language of the Court only where that is not practicable. A record that defaults straight to the Court's language without addressing practicability skips a step the section itself requires the Judge to consider, and defence counsel can press the point, particularly if a specific mistranslation or nuance is later disputed.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no Supreme Court authority specifically on sections 314-318 of the BNSS is asserted here; verify independently before citing any case for this cluster's propositions.*
+
+#### Sword and shield
+
+As a **shield**, defence counsel examining a certified section 316 record should check three things in sequence: was interpretation actually given where the language barrier existed (section 314), was the record read back and certified under the Judge's or Magistrate's own hand (section 316(3)-(4)), and — where the examination was electronic and the accused was in custody — was the signature taken within the seventy-two-hour window. As a **sword**, a demeanour remark recorded under section 315 that supports a witness's credibility (or undermines an opposing witness's) is a small but genuine record-based point available to be argued at the appreciation-of-evidence stage, precisely because it is contemporaneous rather than reconstructed from memory at argument.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.314-315, 317-318. Section 316(4)'s proviso fixes the one hard clock in this cluster: seventy-two hours for signature, running from an electronic examination of an accused in custody.
+
+#### Interlocking matrix
+
+Section 316 is the accused's-own-examination counterpart to the witness-recording standard built in the previous cluster (ss.310-311) — the two should be read together as parallel but textually distinct standards. Section 318's High Court rule-making power sits over both this cluster and the previous one, since it lets a High Court prescribe recording manner for any case before it. Section 316(5)'s summary-trial carve-out ties back to Chapter XXII (Summary trials, ss.283-288), already built in this guide.
+
+#### The authorities
+
+⚠️ *No specific case law is asserted for this cluster pending independent verification.*
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm interpretation was actually given in open Court wherever the accused (or his advocate) did not follow the language the evidence was given in — a silent record on this point is itself a flag.
+2. In any accused-examination record, check for the section 316(4) certification under the Judge's or Magistrate's own hand — its absence is a concrete, checkable defect.
+3. Where the examination was electronic and the accused was in custody, calculate the seventy-two-hour signature window precisely and flag any record signed outside it.
+4. Treat demeanour remarks under section 315 as a real, usable record-based resource at the appreciation-of-evidence stage — check whether they were recorded at all, and if so, whether they are being read fairly by the other side.
+
+---
