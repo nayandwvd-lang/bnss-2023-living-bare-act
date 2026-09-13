@@ -793,3 +793,105 @@ Section 356 interacts directly with the proclamation-of-offender machinery built
 4. If a client is arrested only after judgment and wants to appeal, advise him immediately that presentation before the appellate Court is a precondition to the appeal being heard at all, and that the right lapses entirely three years after the judgment date regardless of when he is eventually arrested.
 
 ---
+
+## Sections 357–358 — When the accused cannot understand the proceedings, and proceeding against other persons who appear guilty
+
+### The dispute this solves
+
+::: oneminute
+Two very different situations share this cluster because both are about the Court's power to keep a proceeding moving when the cast of characters is not exactly what it should be. Section 357 addresses an accused who — without being of unsound mind — simply cannot be made to understand what is happening (a language barrier, a hearing or communication impairment, or similar difficulty) and lets the trial or inquiry proceed anyway, with a High Court safety check if a subordinate court convicts. Section 358 addresses the opposite problem: evidence coming out during a trial suggests someone other than the person in the dock actually committed the offence, and lets the Court pull that other person into the same proceeding — but only by starting completely afresh for them.
+:::
+
+::: story
+An accused who speaks only a language for which no interpreter is readily available struggles through repeated attempts to explain the proceedings to him. He is plainly not of unsound mind — he simply cannot be made to understand what is being asked of him through the available means. The trial Magistrate, having exhausted reasonable efforts, proceeds under section 357; being a Magistrate and not a High Court, any resulting conviction must automatically go up to the High Court with a report, for the High Court to pass whatever order it thinks fit. In a separate case, a witness's evidence during an ongoing trial reveals, unexpectedly, that a third person — not currently an accused — appears to have played an equally culpable role in the offence. Under section 358, the Court can bring that third person in and try him too — but it cannot simply tack him onto the trial already underway; the witnesses must all be re-heard and the proceedings against him must start from scratch.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 357** — if the accused, though not a person of unsound mind, cannot be made to understand the proceedings, the Court [[?may]] proceed with the inquiry or trial. Where a Court other than a High Court convicts in such a case, the proceedings [[!shall]] be forwarded to the High Court with a report of the circumstances, and the High Court [[!shall]] pass such order as it thinks fit.
+>
+> **Section 358(1)** — where it appears from the evidence, during an inquiry or trial, that a person not being the accused has committed an offence for which he could be tried together with the accused, the Court [[?may]] proceed against that person for the offence he appears to have committed.
+>
+> **Section 358(2)** — if that person is not attending the Court, he [[?may]] be arrested or summoned as the circumstances require.
+>
+> **Section 358(3)** — any person attending the Court, even without arrest or summons, [[?may]] be detained by the Court for the purpose of the inquiry or trial of the offence he appears to have committed.
+>
+> **Section 358(4)** — where the Court proceeds against a person under sub-section (1): (a) the proceedings against him [[!shall]] be commenced afresh and the witnesses re-heard; and (b) subject to clause (a), the case [[?may]] proceed as if he had been an accused when the Court took cognizance of the offence on which the inquiry or trial was originally commenced.
+>
+> ::: proviso
+> Section 357's "cannot be made to understand" standard is deliberately distinct from unsound mind — it is a communication or comprehension barrier, not a mental-capacity finding, and the High Court's automatic review-on-conviction safeguard exists precisely because a subordinate court's own assessment that the accused could not understand the proceedings is inherently harder to test through ordinary appeal alone.
+> :::
+>
+> ::: proviso
+> Section 358(4)(a)'s "commenced afresh, and the witnesses re-heard" requirement is absolute — it is not satisfied by simply adding the new person's name to the existing proceeding's record. Every witness whose evidence is to be used against the newly-added person must testify again in a proceeding to which he is a party.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="An accused cannot be made to understand the proceedings, or the evidence points to a third person's guilt — how does the Court proceed?"
+  :gates="[
+    { q: 'Is the difficulty that the accused, though not of unsound mind, cannot be made to understand the proceedings?', no: 'Section 357 does not apply — check whether unsound-mind provisions elsewhere in the Sanhita apply instead' },
+    { q: 'Did a Court other than a High Court convict despite that difficulty?', note: 'This triggers the mandatory forwarding safeguard', no: 'No automatic High Court review is triggered' },
+    { q: 'Separately: does evidence in an ongoing inquiry or trial suggest a person not currently accused has committed an offence triable together with the present accused?', no: 'Section 358 does not apply to that person' },
+    { q: 'Has the Court decided to proceed against that other person under section 358(1)?', no: 'The other persons potential liability is not pursued in this proceeding' }
+  ]"
+  result="Where section 357 applies, the trial proceeds and any subordinate-court conviction is automatically forwarded to the High Court for orders; where section 358 applies, the newly-added person is brought in only through a proceeding commenced entirely afresh against him, with every witness re-heard."
+  resultKind="discretionary"
+  caveat="Section 358's fresh-commencement requirement means time and resource costs are real — the Court weighs this against the value of trying the newly-implicated person in the same proceeding rather than a wholly separate one."
+/>
+
+### In plain English
+
+Section 357 accepts a hard truth: sometimes a trial cannot wait for perfect comprehension, and the law's answer is not to halt the proceeding indefinitely but to let it continue while building in an automatic double-check — a High Court review — whenever a subordinate court actually convicts under these circumstances. Section 358 solves a different, common courtroom problem: witnesses do not always say what everyone expected, and sometimes their testimony points to a third party's guilt. Rather than forcing the prosecution to start an entirely separate case from zero in a different registry, section 358 lets the same Court pull that person in — but it insists on a clean slate for him specifically, so that his trial is never built on evidence he had no opportunity to test through cross-examination.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 357 tracks CrPC section 318's procedure-where-accused-does-not-understand-proceedings provision, and section 358 tracks CrPC section 319's power-to-proceed-against-other-persons-appearing-to-be-guilty provision — both appear to carry the substance of their CrPC predecessors forward largely intact, though the CrPC's section 319 generated extensive Supreme Court jurisprudence on the standard of evidence required before a Court exercises this power, none of which should be assumed to carry over without independent verification of whether it survives under the BNSS's re-numbering.
+
+### Test your instinct
+
+:::: instinct
+A Sessions Court convicts an accused after proceeding under section 357 because he could not be made to understand the proceedings despite not being of unsound mind. The convicted person does not file an appeal. Does the conviction still get reviewed by the High Court?
+::: ruling
+Yes. Section 357 makes forwarding to the High Court, with a report of the circumstances, mandatory wherever a court other than a High Court convicts under this provision — it is not conditional on the convicted person filing an appeal. This is an automatic safeguard built into the provision itself, independent of any appeal the accused chooses or fails to bring.
+:::
+::::
+
+:::: instinct
+During an ongoing trial, a witness's testimony makes clear that a bystander — never before named in the case — actively participated in the offence. The Court decides to proceed against him under section 358(1). To save time, the Court simply adds his name to the case and continues with the next scheduled witness, treating the testimony already given as evidence against him too. Is this permissible?
+::: ruling
+No. Section 358(4)(a) requires that proceedings against the newly-added person be commenced afresh and the witnesses re-heard. Evidence already given before he became a party to the proceeding cannot simply be treated as evidence against him — every witness relevant to his case must testify again, giving him the opportunity a fair trial requires to test that evidence through cross-examination.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC s.319 in particular attracted a substantial body of Supreme Court jurisprudence (including on the evidentiary threshold for invoking the power) that a reader should independently verify for continuing applicability under the BNSS's section 358 before citing.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **sword** for the prosecution, section 358 is a valuable tool the moment trial evidence implicates someone not presently in the dock — rather than waiting for a wholly fresh prosecution, the same Court can absorb that person into its own proceeding, subject to the fresh-commencement safeguard. As a **shield** for a newly-added section 358 accused, the fresh-commencement and re-hearing requirement under sub-section (4)(a) is non-negotiable — any attempt to rely on pre-addition testimony against him without re-examination is a clean, immediate objection.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster. Section 357's High Court forwarding obligation arises automatically on conviction, without a triggering application; section 358's power may be exercised at any stage of an inquiry or trial once the qualifying evidence emerges.
+
+#### Interlocking matrix
+
+Section 357 interacts with the unsound-mind provisions found elsewhere in the Sanhita's inquiries-and-trials framework — practitioners should confirm which provision actually governs a given accused's difficulty before invoking either. Section 358's fresh-commencement requirement interacts with the committal and cognizance provisions built in Chapter XV (ss.210-222) and Chapter XIV (ss.197-209), since the newly-added person's status is treated as if he had been an accused from the point cognizance was originally taken.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Where an accused's understanding of the proceedings is in genuine doubt, build a clear record of the specific communication barrier before the Court proceeds under section 357 — the High Court's later review will scrutinise exactly this record.
+2. If a subordinate court convicts under section 357 and the file has not been forwarded to the High Court, flag the omission immediately — it is a mandatory, not discretionary, step.
+3. When evidence at trial implicates a third person under section 358, move promptly — delay may prejudice the fresh-commencement proceeding against him, particularly where witnesses become harder to re-summon.
+4. For a newly-added section 358 accused, insist on strict compliance with the re-hearing requirement and object to any shortcut that treats pre-addition testimony as already available against him.
+
+---
