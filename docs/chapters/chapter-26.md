@@ -1162,3 +1162,118 @@ Section 360(b)'s acquittal consequence interlocks directly with section 337's au
 4. Where withdrawal is sought against one of several co-accused or in respect of only some charges, confirm precisely which offences and which persons the withdrawal actually covers — a partial withdrawal leaves the remaining charges or co-accused fully live.
 
 ---
+
+## Sections 361–365 — Jurisdiction failures, committal to Sessions, repeat property offenders, insufficient sentencing power, and succession between Judges
+
+### The dispute this solves
+
+::: oneminute
+Five provisions, one shared concern: what happens when the Magistrate actually seized of a case is not the right one to finish it, or cannot finish it properly. Section 361 handles a Magistrate who realises mid-case he lacks jurisdiction, or that a different Magistrate should hear it. Section 362 handles a Magistrate who realises the case actually belongs in the Court of Session. Section 363 forces committal for certain repeat property offenders unless the Magistrate can pass an adequate sentence himself. Section 364 lets a Magistrate who has heard the evidence but cannot pass a severe-enough sentence forward the case, evidence and all, to the Chief Judicial Magistrate. And section 365 answers the practical question of what happens to evidence already recorded when one Judge or Magistrate is replaced by another partway through a case.
+:::
+
+::: story
+A Magistrate hearing a case realises, as the evidence unfolds, that the offence actually falls outside his own territorial or subject-matter jurisdiction. Under section 361, he stays the proceedings and forwards the case, with a brief explanatory report, to the Chief Judicial Magistrate for redirection. In a different case, a Magistrate midway through an inquiry realises the matter is properly one for the Court of Session and commits it under section 362, triggering Chapter XIX's Sessions-trial machinery. A third case involves an accused with a prior conviction for a serious property offence under BNS Chapter X or XVII, now facing a similarly grave fresh charge — section 363 forces the case to the Chief Judicial Magistrate or the Court of Session unless the trial Magistrate is both competent to try it and confident he can pass an adequate sentence himself. In a fourth case, a Magistrate hears the full evidence and concludes the accused is guilty but deserves a punishment beyond his own sentencing power — under section 364 he forwards the case, and the accused, with his recorded opinion, to the Chief Judicial Magistrate, who may take further evidence before passing final judgment. And in a fifth, a trial part-heard by one Magistrate is completed by a successor Magistrate under section 365, who may act on the evidence already recorded rather than starting the whole trial over.
+:::
+
+> **The Act, decompiled**
+>
+> **Section 361(1)** — if the evidence before a Magistrate warrants a presumption that (a) he has no jurisdiction to try or commit the case, (b) it should be tried or committed by some other Magistrate in the district, or (c) it should be tried by the Chief Judicial Magistrate, he [[!shall]] stay the proceedings and submit the case, with a brief explanatory report, to the Chief Judicial Magistrate or such other Magistrate as the CJM directs.
+>
+> **Section 361(2)** — the Magistrate to whom the case is submitted [[?may]], if empowered, try it himself, refer it to a subordinate Magistrate with jurisdiction, or commit the accused for trial.
+>
+> **Section 362** — if it appears to a Magistrate, at any stage before signing judgment, that the case ought to be tried by the Court of Session, he [[!shall]] commit it to that Court, and Chapter XIX's provisions then apply to the commitment.
+>
+> **Section 363(1)** — where a person previously convicted of an offence under BNS Chapter X or Chapter XVII punishable with three years' imprisonment or more is again accused of an offence under either Chapter with the same punishment threshold, and the Magistrate is satisfied there is ground for presuming he committed it, he [[!shall]] be sent for trial to the CJM or committed to the Court of Session — unless the Magistrate is competent to try the case and considers he can himself pass an adequate sentence on conviction.
+>
+> **Section 363(2)** — where a person is sent or committed under sub-section (1), any co-accused jointly proceeded against in the same inquiry or trial [[!shall]] be similarly sent or committed, unless discharged under section 262 or section 268.
+>
+> **Section 364(1)** — whenever a Magistrate, after hearing prosecution and defence evidence, opines the accused is guilty and ought to receive a punishment different in kind from, or more severe than, what he is empowered to inflict — or, being a second-class Magistrate, that the accused ought to execute a bond or bail bond under section 125 — he [[?may]] record that opinion and forward his proceedings and the accused to the CJM to whom he is subordinate.
+>
+> **Section 364(2)** — where multiple accused are tried together and the Magistrate proceeds under sub-section (1) as to any of them, he [[!shall]] forward all the accused he considers guilty to the CJM.
+>
+> **Section 364(3)** — the CJM to whom proceedings are submitted [[?may]], if he thinks fit, examine the parties, recall and examine any witness already examined, call for and take further evidence, and [[!shall]] pass such judgment, sentence or order as he thinks fit and as is according to law.
+>
+> **Section 365(1)** — whenever a Judge or Magistrate, having heard and recorded all or part of the evidence in an inquiry or trial, ceases to exercise jurisdiction and is succeeded by another who has and exercises that jurisdiction, the successor [[?may]] act on the evidence so recorded by his predecessor, or partly by his predecessor and partly by himself. Proviso: if the successor considers further examination of any already-examined witness necessary in the interests of justice, he [[?may]] re-summon that witness, and after such further examination, cross-examination and re-examination as he permits, the witness [[!shall]] be discharged.
+>
+> **Section 365(2)** — when a case is transferred from one Judge or Magistrate to another under the Sanhita, the former is deemed to cease exercising jurisdiction and to be succeeded by the latter for the purposes of sub-section (1).
+>
+> **Section 365(3)** — this section does not apply to summary trials, or to cases where proceedings have been stayed under section 361, or submitted to a superior Magistrate under section 364.
+>
+> ::: proviso
+> Section 363's committal rule is not automatic even for a qualifying repeat property offender — it turns entirely on the trial Magistrate's own confidence that he "can himself pass an adequate sentence." A Magistrate who is competent to try the case but doubts his own sentencing power must still commit; the escape from committal exists only where both competence and adequate-sentencing confidence are present together.
+> :::
+>
+> ::: proviso
+> Section 365(3)'s carve-out is a hard boundary, not a general exception clause — it excludes only summary trials and cases already stayed under section 361 or submitted under section 364, precisely because those cases have their own dedicated succession or redirection mechanisms and do not need section 365's general witness-carryover rule layered on top.
+> :::
+
+### How this actually runs
+
+<MicroTree
+  input="A Magistrate hearing a case realises a jurisdictional, sentencing, or succession problem partway through — which of ss.361-365 applies?"
+  :gates="[
+    { q: 'Does the Magistrate think he simply lacks jurisdiction, or that a different Magistrate/the Chief Judicial Magistrate should hear it, before any judgment is signed?', note: 'This is the section 361 stay-and-submit route', no: 'Move to the next gate' },
+    { q: 'Does the Magistrate instead think the case ought to be tried by the Court of Session?', note: 'This is the section 362 committal route, triggering Chapter XIX', no: 'Move to the next gate' },
+    { q: 'Is the accused a repeat offender under BNS Chapter X/XVII with a fresh three-year-plus charge under the same Chapters, and is the Magistrate either not competent to try it or not confident of passing an adequate sentence himself?', note: 'Section 363 makes committal mandatory in this situation', no: 'Move to the next gate' },
+    { q: 'Has the Magistrate heard the full evidence and concluded the accused is guilty but deserving of a different-kind or more severe sentence than he can impose (or a second-class Magistrate thinks a bond/bail bond under section 125 is warranted)?', note: 'Section 364 forwarding to the CJM applies here', no: 'Move to the next gate' },
+    { q: 'Is a successor Judge or Magistrate simply continuing a part-heard trial after the predecessor ceased to exercise jurisdiction, in a case that is not a summary trial, a stayed section 361 case, or a submitted section 364 case?', no: 'None of ss.361-365 governs the situation as described' }
+  ]"
+  result="Depending on which gate is triggered, the case is stayed and redirected (s.361), committed to Sessions (s.362), sent up as a mandatory repeat-offender committal (s.363), forwarded with a recorded opinion for adequate sentencing (s.364), or simply continued by the successor on the existing record, with any witness re-summoned only if the successor considers it necessary (s.365)."
+  resultKind="mandatory"
+  caveat="These five routes are mutually exclusive procedural tracks for the same underlying problem — a Magistrate not in a position to finish the case as originally postured — and section 365(3) expressly keeps its own general rule out of the way of ss.361 and 364's dedicated mechanisms."
+/>
+
+### In plain English
+
+All five sections are administrative safety valves built into the Sanhita's trial machinery — they exist because the Magistrate who starts hearing a case is not always the one legally positioned to finish it, whether because of jurisdiction, gravity, sentencing power, or simple attrition of judicial officers over the life of a long case. Sections 361 and 362 are about the wrong forum — the case needs to move sideways (to another Magistrate) or upward (to Sessions). Section 363 is a legislative judgment that certain repeat property offenders deserve the more serious court's attention by default, carved back only where the trial Magistrate is confident he can already do the job properly. Section 364 is about the wrong sentencing ceiling — the facts and guilt-finding are settled, but the punishment needs a bigger court's hand. Section 365 is the most purely administrative of the five: it answers what happens to testimony already given when the person who heard it is no longer the one deciding the case, so that months of trial work are not wasted every time a transfer or a retirement intervenes.
+
+### What changed from the CrPC
+
+⚠️ *Provisional, unverified against a CrPC bare text (none in this repo) — confirm before relying on it.* Section 361 tracks CrPC section 322 (procedure in cases which a Magistrate cannot dispose of), section 362 tracks CrPC section 323 (procedure when a Magistrate finds a case should be committed), section 363 tracks CrPC section 325 (trial of persons previously convicted of coinage/stamp-law/property offences, adapted here to the BNS's Chapter X/Chapter XVII offence groupings), section 364 tracks CrPC section 325 read together with the second-class-Magistrate bond provisions (CrPC's own cross-reference chain), and section 365 tracks CrPC section 326 (conviction or commitment on evidence partly recorded by successive Magistrates). The substance appears to track the CrPC closely across all five, but the specific BNS Chapter X/XVII cross-references in section 363, and the section 125/262/268 cross-references throughout, all reflect the BNS/BNSS renumbering and must be independently checked before relying on any of them.
+
+### Test your instinct
+
+:::: instinct
+A Magistrate, midway through a trial, becomes convinced the case actually belongs in the Court of Session. He continues hearing evidence for several more weeks, intending to commit the case only if he ultimately convicts the accused, reasoning that an acquittal would make the committal unnecessary. Is this correct?
+::: ruling
+No. Section 362 requires commitment as soon as it appears to the Magistrate, at any stage before signing judgment, that the case ought to be tried by the Court of Session — the committal obligation is not deferred until after the Magistrate forms a view on guilt. Continuing to hear evidence and conduct what is, in substance, a trial before a forum the Magistrate himself believes lacks the appropriate jurisdiction risks vitiating the proceedings already held.
+:::
+::::
+
+:::: instinct
+A trial is transferred midway from one Magistrate to another under the Sanhita's transfer provisions. The successor Magistrate proceeds to act on the entire evidence recorded by the predecessor without re-examining any witness, reasoning that a transfer is different from a retirement or promotion and therefore section 365 does not apply. Is this reasoning correct?
+::: ruling
+No. Section 365(2) expressly deems a Judge or Magistrate to whom a case is transferred to have ceased exercising jurisdiction, and the transferee to have succeeded him, "within the meaning of sub-section (1)" — a transfer is treated exactly as a succession for this section's purposes. The successor Magistrate may act on the evidence already recorded, subject only to the proviso letting him re-summon a witness where he considers further examination necessary in the interests of justice.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+⚠️ *No citation promoted in this cluster — research gap. CrPC ss.322-326 generated meaningful jurisprudence on when a jurisdictional or sentencing defect vitiates proceedings already held; independently verify current authority before relying on any specific proposition in a submission.*
+
+#### The winning ratio
+
+*(Deliberately left unpromoted — see the flag above.)*
+
+#### Sword and shield
+
+As a **shield** for the defence, section 363's carve-out — a Magistrate confident of passing an adequate sentence need not commit even a qualifying repeat offender — is worth testing on the record; if the Magistrate's confidence appears to rest on an incomplete appreciation of the offence's gravity, that is a live point to raise before committal is finalised either way. As a **shield** again, section 365's proviso — the right to have a witness re-summoned for further examination when a successor takes over — should be affirmatively invoked wherever demeanour or nuance genuinely mattered to a witness's earlier testimony, since the successor Judge or Magistrate never personally observed that witness give evidence.
+
+#### The limitation clock
+
+No filing deadline runs under this cluster; each of ss.361-365 operates by reference to a procedural stage (before judgment is signed, after full evidence is heard, on transfer or succession) rather than a calendar date.
+
+#### Interlocking matrix
+
+Section 362's committal cross-refers directly to Chapter XIX (Trial before a Court of Session), already built earlier in this guide. Section 363's cross-references to section 262 and section 268 (discharge of a co-accused) interlock with the warrant-case and summons-case trial chapters (Chapters XX-XXI) built earlier. Section 364's forwarding mechanism interlocks with the second-class-Magistrate bond/bail-bond framework under section 125, built in Chapter VI of this guide. Section 365(3)'s carve-out interlocks directly with sections 361 and 364 within this very cluster, and with the summary-trials chapter (Chapter XXII) built earlier.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Flag a jurisdictional doubt to the Court at the earliest possible stage — sections 361 and 362 both contemplate action "at any stage before judgment," but the later the redirection, the more trial work is at risk of being reopened or repeated.
+2. For a client with a qualifying prior property conviction under BNS Chapter X/XVII, check section 363 exposure early — if committal to a higher court is likely, that changes bail strategy and sentencing exposure from the outset.
+3. Where a case is forwarded under section 364, review the Magistrate's recorded opinion carefully — the CJM's fresh examination of parties and witnesses under sub-section (3) is an opportunity to reopen points the original Magistrate may have treated as settled.
+4. On any transfer or succession, promptly assess whether any witness's earlier testimony would benefit from re-examination before the successor and invoke the section 365(1) proviso — this is the successor Judge or Magistrate's discretion, not the defence's automatic right, so a reasoned application is essential.
+
+---
