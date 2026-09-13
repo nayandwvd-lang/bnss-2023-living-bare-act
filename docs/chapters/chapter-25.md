@@ -330,3 +330,100 @@ Section 316 is the accused's-own-examination counterpart to the witness-recordin
 4. Treat demeanour remarks under section 315 as a real, usable record-based resource at the appreciation-of-evidence stage — check whether they were recorded at all, and if so, whether they are being read fairly by the other side.
 
 ---
+
+## Sections 319–321 — The commission power: when a witness's attendance can be excused, where the commission goes, and how it is executed
+
+### The dispute this solves
+
+::: oneminute Part B of this chapter opens with the escape valve for a genuine practical problem: a witness whose evidence is needed cannot always be brought to Court without unreasonable delay, expense, or inconvenience. Section 319 lets the Court or Magistrate dispense with that witness's attendance and instead issue a commission — a formal delegation of the power to take his evidence to another judicial officer, wherever the witness actually is. One category is treated differently in the opposite direction: where the President, the Vice-President, a Governor, or a Union territory Administrator needs to be examined as a witness, a commission is mandatory, not discretionary — the constitutional dignity of the office, not mere convenience, drives that rule. Section 320 then routes the commission to the right recipient depending on where the witness is: within India's ordinary jurisdiction, to the Chief Judicial Magistrate of that place; within India but outside the Sanhita's territorial reach, to whoever the Central Government has notified; and abroad, through whatever arrangement the Central Government has made with that country. Section 321 tells the receiving Chief Judicial Magistrate (or his appointee) exactly what to do: summon the witness or go to him, and take down the evidence exactly as in a warrant-case trial — meaning the heavier ss.310-312 standard from earlier in this chapter, not the summons-case memorandum.
+:::
+
+::: story A key witness who has moved abroad, and the commission that brings his evidence back without bringing him back
+A material prosecution witness has relocated to a country with which India has a standing arrangement for taking evidence in criminal matters. Producing him in person would mean months of delay and considerable expense. The trial Court, satisfied that his evidence is necessary for the ends of justice and that his attendance cannot be procured without unreasonable delay and expense, dispenses with his personal attendance under section 319(1) and issues a commission. Because the witness is outside India, section 320(3) routes the commission through the Central-Government-notified channel rather than directly to a Chief Judicial Magistrate. Once received abroad, the officer executing it takes down the witness's evidence exactly as section 321 requires — in the same manner, and with the same powers, as in a warrant-case — and the deposition eventually makes its way back into the trial record.
+:::
+
+> **319.** (1) Whenever, in the course of any inquiry, trial or other proceeding under this Sanhita, it appears to a Court or Magistrate that the examination of a witness is necessary for the ends of justice, and that the attendance of such witness cannot be procured without an amount of delay, expense or inconvenience which, under the circumstances of the case, would be unreasonable, the Court or Magistrate [[?may]] dispense with such attendance and [[?may]] issue a commission for the examination of the witness in accordance with the provisions of this Chapter:
+>
+> Provided that where the examination of the President or the Vice-President of India or the Governor of a State or the Administrator of a Union territory as a witness is necessary for the ends of justice, a commission [[!shall]] be issued for the examination of such a witness.
+>
+> (2) The Court [[?may]], when issuing a commission for the examination of a witness for the prosecution, direct that such amount as the Court considers reasonable to meet the expenses of the accused, including the advocate's fees, be paid by the prosecution.
+>
+> **320.** (1) If the witness is within the territories to which this Sanhita extends, the commission [[!shall]] be directed to the Chief Judicial Magistrate within whose local jurisdiction the witness is to be found.
+>
+> (2) If the witness is in India, but in a State or an area to which this Sanhita does not extend, the commission [[!shall]] be directed to such Court or officer as the Central Government may, by notification, specify in this behalf.
+>
+> (3) If the witness is in a country or place outside India and arrangements have been made by the Central Government with the Government of such country or place for taking the evidence of witnesses in relation to criminal matters, the commission [[!shall]] be issued in such form, directed to such Court or officer, and sent to such authority for transmission as the Central Government may, by notification, prescribe in this behalf.
+>
+> **321.** Upon receipt of the commission, the Chief Judicial Magistrate or such Magistrate as he may appoint in this behalf, [[!shall]] summon the witness before him or proceed to the place where the witness is, and [[!shall]] take down his evidence in the same manner, and [[?may]] for this purpose exercise the same powers, as in trials of warrant-cases under this Sanhita.
+
+::: proviso The constitutional-office proviso in section 319(1) flips discretion into a mandate
+For every other witness, dispensing with attendance and issuing a commission is discretionary — "may," twice over, in section 319(1)'s main text. The proviso for the President, Vice-President, a Governor, or a Union territory Administrator removes that discretion entirely: where examining one of these office-holders as a witness is necessary for the ends of justice, a commission "shall be issued." The rest of section 319(1)'s ordinary delay-expense-inconvenience test does not even need to be separately satisfied for this category — the office itself is the reason.
+:::
+
+::: proviso Section 321 imports the warrant-case recording standard, not the summons-case memorandum, into every commission
+Whichever Chief Judicial Magistrate or delegate actually executes the commission is bound to take down the witness's evidence "in the same manner... as in trials of warrant-cases" — meaning the full verbatim standard built in ss.310-312 earlier in this chapter applies to commission evidence, regardless of what kind of proceeding (summons-case or warrant-case) is actually pending back at the issuing Court.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A witness's evidence is needed, but producing him before the Court is impractical — can a commission be used, and if so, how is it executed?"
+  :gates="[
+    { q: 'Is the witness one of the constitutional office-holders named in section 319(1)\'s proviso (President, Vice-President, a Governor, or a Union territory Administrator)?', note: 'If so, a commission is mandatory once his examination is necessary for the ends of justice — the ordinary delay/expense/inconvenience test does not need separate satisfaction', no: 'The ordinary discretionary test applies: is procuring attendance impossible without unreasonable delay, expense, or inconvenience, per section 319(1)\'s main text?' },
+    { q: 'Has the Court or Magistrate correctly identified where the witness is, so the commission is directed to the right recipient under section 320?', note: 'Within India and within the Sanhita\'s reach goes to the local Chief Judicial Magistrate; within India but outside that reach goes to a Central-Government-notified officer; abroad goes through a Central-Government arrangement', no: 'The commission risks being misdirected under section 320, delaying or invalidating its execution' },
+    { q: 'Once received, did the executing Chief Judicial Magistrate (or his appointee) take down the evidence in the same manner as a warrant-case, per section 321?', no: 'The commission evidence has not been taken down to the standard section 321 actually requires' }
+  ]"
+  result="A validly issued and properly directed commission produces a warrant-case-standard deposition of the witness's evidence, taken without requiring his personal attendance before the issuing Court"
+  resultKind="discretionary"
+  caveat="Where the witness is a constitutional office-holder under section 319(1)'s proviso, issuance of the commission itself is mandatory rather than discretionary — only the execution mechanics under sections 320-321 remain the same either way." />
+
+### In plain English
+
+Think of the commission as a formal, structured way of saying: this witness's evidence matters, but dragging him physically into this courtroom isn't worth what it would cost in delay or expense — so let a judicial officer wherever he actually is take his evidence instead, to the same exacting standard the witness would have faced here. For almost every witness, that's a judgment call the Court or Magistrate makes case by case. For the President, the Vice-President, a Governor, or a Union territory Administrator, it isn't a judgment call at all — the Sanhita simply decides in advance that these offices are not going to be summoned to sit in a witness box, full stop.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 319 appears to track CrPC section 284 (when attendance of witness may be dispensed with and commission issued), BNSS section 320 appears to track CrPC section 285 (commission to whom to be issued), and BNSS section 321 appears to track CrPC section 286 (execution of commissions). This mapping has not been independently cross-verified against the CrPC bare Act text in this repository.*
+
+### Test your instinct
+
+:::: instinct The defence argues that a commission cannot be issued for a prosecution witness at all, since section 319(2) only speaks of the Court directing payment of the accused's expenses "when issuing a commission for the examination of a witness for the prosecution" — implying, they say, that commissions are really meant for defence witnesses.
+::: ruling Section 319(2) assumes commissions for prosecution witnesses are routine — it does not restrict them
+Section 319(1) is not limited to any side's witnesses; it applies whenever a witness's examination is necessary for the ends of justice and personal attendance is impractical, regardless of which party called him. Section 319(2) exists precisely because commissions for prosecution witnesses are expected to occur, and it addresses a fairness concern that arises specifically in that scenario: the accused should not bear the cost of participating in a commission proceeding he did not initiate. It is a cost-allocation provision, not a restriction on whose witnesses may be examined this way.
+:::
+::::
+
+:::: instinct A commission for a witness located in a Union territory to which the Sanhita fully extends is directed, by administrative error, to a Central-Government-notified officer under section 320(2) rather than to the local Chief Judicial Magistrate under section 320(1).
+::: ruling Misdirected under section 320(1) — the ordinary domestic route should have applied
+Section 320(2) is reserved for a witness "in a State or an area to which this Sanhita does not extend." A Union territory where the Sanhita fully applies falls under section 320(1)'s ordinary rule: direction to the Chief Judicial Magistrate of local jurisdiction. Routing the commission instead through the notified-officer channel meant for non-extended areas is a misapplication of section 320, and counsel encountering it should raise the point before the commission is executed, not after.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, an accused facing a prosecution commission should watch for the section 319(2) expense direction — where the Court has not addressed it, raising the point early protects against having to fund participation in a proceeding brought against him. As a **sword**, a party seeking a commission for a genuinely inconvenienced witness should build the section 319(1) record carefully — the specific delay, expense, or inconvenience relied on should be stated on the file, since the "unreasonable" threshold is a judgment call a reviewing court can revisit if it is not.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.319-321; the commission mechanism is invoked whenever the underlying inquiry, trial, or proceeding is pending and the practical need arises.
+
+#### Interlocking matrix
+
+Section 319 resolves the forward cross-reference flagged in Chapter XXIV's section 306 (already built), which preserved the Court's commission-examination power under section 319 as an exception to that chapter's prisoner-production mechanics. Section 321's warrant-case recording standard ties back to sections 310-312 earlier in this chapter.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before seeking a commission for an ordinary witness, build a specific record of the delay, expense, or inconvenience relied on under section 319(1) — a bare assertion of inconvenience is weaker than a particularised one.
+2. For a constitutional office-holder witness, do not argue discretion — section 319(1)'s proviso removes it; the only live question is whether examining that witness is necessary for the ends of justice.
+3. Check that the commission was directed to the correct recipient under section 320 before it is executed — a domestic witness within the Sanhita's reach should go to the local Chief Judicial Magistrate, not a notified officer meant for non-extended areas.
+4. Confirm the executing officer applied the warrant-case recording standard under section 321, not a lighter memorandum — commission evidence is held to the heavier standard regardless of the underlying proceeding's own classification.
+
+---
