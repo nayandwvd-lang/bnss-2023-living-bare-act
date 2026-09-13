@@ -100,7 +100,8 @@ export default defineConfig({
             { text: 'Chapter XXI — Trial of summons-cases by Magistrates (ss. 274–282)', link: '/chapters/chapter-21' },
             { text: 'Chapter XXII — Summary trials (ss. 283–288)', link: '/chapters/chapter-22' },
             { text: 'Chapter XXIII — Plea bargaining (ss. 289–300)', link: '/chapters/chapter-23' },
-            { text: 'Chapter XXIV — Attendance of persons confined or detained in prisons (ss. 301–306)', link: '/chapters/chapter-24' }
+            { text: 'Chapter XXIV — Attendance of persons confined or detained in prisons (ss. 301–306)', link: '/chapters/chapter-24' },
+            { text: 'Chapter XXV — Evidence in inquiries and trials (ss. 307–336)', link: '/chapters/chapter-25' }
           ]
         },
         {
