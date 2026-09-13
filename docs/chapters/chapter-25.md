@@ -427,3 +427,102 @@ Section 319 resolves the forward cross-reference flagged in Chapter XXIV's secti
 4. Confirm the executing officer applied the warrant-case recording standard under section 321, not a lighter memorandum — commission evidence is held to the heavier standard regardless of the underlying proceeding's own classification.
 
 ---
+
+## Sections 322–325 — Parties' rights during commission examination, the return of the commission, the adjournment it justifies, and foreign commissions (closes Part B)
+
+### The dispute this solves
+
+::: oneminute A commission is not a one-sided, closed-door affair — section 322 gives every party to the proceeding a real stake in how the witness is actually examined: written interrogatories they can put through the executing officer, and, for the party not in custody, the right to appear by advocate or in person and examine, cross-examine, and re-examine the witness exactly as if he were before the trial Court itself. Section 323 closes the loop on the paperwork: once executed, the commission, the return, and the deposition go back to the issuing Court, are open to inspection by the parties, and — subject to just exceptions — can be read in evidence and form part of the record; and if the deposition independently satisfies the conditions in section 27 of the Bharatiya Sakshya Adhiniyam, 2023, it can even be used at a later stage before a different Court. Section 324 supplies the practical accommodation this all needs: the underlying inquiry, trial, or proceeding may simply be adjourned while the commission is out being executed. Section 325 extends the whole execution-and-return machinery to two further categories of commission-issuing authority — non-extended-area Courts/Judges/Magistrates the Central Government notifies, and foreign Courts/Judges/Magistrates the Central Government recognises as having authority to issue commissions in criminal matters — so the same procedural safeguards apply regardless of which authority actually issued the commission.
+:::
+
+::: story A defence advocate cross-examining a witness he will never see argue before the trial Court itself
+A commission has been issued for a prosecution witness who cannot be produced without unreasonable expense. Under section 322(1), both sides forward written interrogatories they consider relevant. When the commission is executed, defence counsel — not in custody, so entitled to appear in person or by advocate under section 322(2) — attends before the executing officer and cross-examines the witness in full, exactly as he would have in the trial courtroom. Once the commission returns under section 323(1), the deposition is opened to inspection, and, subject to any just exception either side raises, is read into evidence at trial. Meanwhile, the trial itself has simply stood adjourned under section 324 for the time it took the commission to be executed and returned — no separate application or special order was needed to justify that pause.
+:::
+
+> **322.** (1) The parties to any proceeding under this Sanhita in which a commission is issued [[?may]] respectively forward any interrogatories in writing which the Court or Magistrate directing the commission may think relevant to the issue, and it [[!shall]] be lawful for the Magistrate, Court or officer to whom the commission is directed, or to whom the duty of executing it is delegated, to examine the witness upon such interrogatories.
+>
+> (2) Any such party [[?may]] appear before such Magistrate, Court or Officer by an advocate, or if not in custody, in person, and [[?may]] examine, cross-examine and re-examine the said witness.
+>
+> **323.** (1) After any commission issued under section 319 has been duly executed, it [[!shall]] be returned, together with the deposition of the witness examined thereunder, to the Court or Magistrate issuing the commission; and the commission, the return thereto and the deposition [[!shall]] be open at all reasonable times to inspection of the parties, and [[?may]], subject to all just exceptions, be read in evidence in the case by either party, and [[!shall]] form part of the record.
+>
+> (2) Any deposition so taken, if it satisfies the conditions specified by section 27 of the Bharatiya Sakshya Adhiniyam, 2023, [[?may]] also be received in evidence at any subsequent stage of the case before another Court. ⚠️ *Section 27 of the Bharatiya Sakshya Adhiniyam, 2023 has not been independently verified in this repository.*
+>
+> **324.** In every case in which a commission is issued under section 319, the inquiry, trial or other proceeding [[?may]] be adjourned for a specified time reasonably sufficient for the execution and return of the commission.
+>
+> **325.** (1) The provisions of section 321 and so much of section 322 and section 323 as relate to the execution of a commission and its return [[!shall]] apply in respect of commissions issued by any of the Courts, Judges or Magistrates hereinafter mentioned as they apply to commissions issued under section 319.
+>
+> (2) The Courts, Judges and Magistrates referred to in sub-section (1) are—
+> (a) any such Court, Judge or Magistrate exercising jurisdiction within an area in India to which this Sanhita does not extend, as the Central Government may, by notification, specify in this behalf;
+> (b) any Court, Judge or Magistrate exercising jurisdiction in any such country or place outside India, as the Central Government may, by notification, specify in this behalf, and having authority, under the law in force in that country or place, to issue commissions for the examination of witnesses in relation to criminal matters.
+
+::: proviso Section 322 gives a commission the same adversarial texture as a trial-Court examination — not a lesser, paper-only substitute
+The interrogatories mechanism in section 322(1) and the personal appearance/cross-examination right in section 322(2) together mean a commission is not merely a written-question exercise; a party not in custody can be physically present before the executing officer and conduct a full examination, cross-examination, and re-examination — the same three-stage structure that would apply if the witness were testifying before the trial Court itself.
+:::
+
+::: proviso Section 325 is a plumbing provision — it does not create new commission powers, it extends the existing ones
+Section 325 does not give non-extended-area or foreign Courts/Judges/Magistrates a freestanding power to issue commissions; that power still flows from section 319. What section 325 does is make sure that once such an authority issues a commission recognised under this section, the same execution-and-return machinery (sections 321, 322, and 323, so far as they deal with execution and return) applies to it as would apply to an ordinary section 319 commission — extending procedure, not creating jurisdiction.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A commission has been issued and is being executed — what rights do the parties have, and what happens once it comes back?"
+  :gates="[
+    { q: 'Have the parties been given the opportunity to forward written interrogatories under section 322(1), and can a party not in custody appear and examine/cross-examine/re-examine the witness under section 322(2)?', no: 'Section 322\'s participation rights have not yet been afforded to the parties' },
+    { q: 'Once executed, has the commission been returned to the issuing Court together with the deposition, and opened to inspection under section 323(1)?', note: 'The deposition may then be read in evidence subject to just exceptions, and a section-27-BSA-compliant deposition may even be used at a later stage before another Court', no: 'The commission has not yet completed the return-and-inspection step required by section 323(1)' },
+    { q: 'Was the underlying inquiry, trial, or proceeding adjourned under section 324 for a period reasonably sufficient to allow execution and return?', no: 'No adjournment was recorded, though section 324 does not itself invalidate a commission issued without one — it simply supplies the accommodation for the delay' }
+  ]"
+  result="The commission process is complete: parties have participated, the deposition has returned and been made available to both sides, and it can now be read in evidence as part of the record"
+  resultKind="discretionary"
+  caveat="Section 325 extends this entire execution-and-return sequence to commissions issued by non-extended-area or recognised foreign Courts, Judges, or Magistrates — the participation and return rights under sections 322-323 are not limited to section 319 commissions issued domestically." />
+
+### In plain English
+
+Once a commission is issued, it does not become a closed process running somewhere out of the parties' sight. Both sides get to put written questions through it, and whichever side is not in custody gets to actually show up and examine the witness in person — cross-examination included. When it is done, the paperwork comes back to the original Court, both sides get to look at it, and it becomes part of the trial record, sometimes even usable in a completely different, later case if it meets a specific evidentiary bar in the Bharatiya Sakshya Adhiniyam. And the trial itself does not have to sit in limbo without explanation while all this happens — an adjournment for exactly this purpose is expressly authorised. Section 325 is the closing, unglamorous but necessary provision that makes sure all of this — the execution, the return, the participation rights — works the same way whether the commission went to a Chief Judicial Magistrate down the road or to a recognised authority in another country.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS section 322 appears to track CrPC section 287 (parties may examine witnesses), BNSS section 323 appears to track CrPC section 288 (return of commission and deposition), BNSS section 324 appears to track CrPC section 289 (adjournment of proceeding), and BNSS section 325 appears to track CrPC section 290 (execution of foreign commissions). This mapping has not been independently cross-verified against the CrPC bare Act text in this repository.*
+
+### Test your instinct
+
+:::: instinct A party in custody insists on a right to appear in person before the executing officer to cross-examine a witness under commission, relying on section 322(2)'s cross-examination language.
+::: ruling Section 322(2) itself limits in-person appearance to a party not in custody
+Section 322(2) draws an explicit distinction: any party may appear "by an advocate," but personal appearance ("in person") is available only "if not in custody." A party in custody retains the right to examine, cross-examine, and re-examine the witness — but only through an advocate, not by insisting on personal attendance before the executing officer.
+:::
+::::
+
+:::: instinct The defence objects to a deposition taken on commission being read in evidence at trial, on the ground that the witness was never physically produced before the trial Court itself.
+::: ruling Section 323(1) expressly authorises reading a commission deposition in evidence, subject to just exceptions
+The entire point of the commission mechanism under sections 319-321 is to substitute for the witness's personal attendance where that attendance would involve unreasonable delay, expense, or inconvenience. Section 323(1) expressly makes the deposition readable in evidence, subject to "all just exceptions" — a specific, articulated objection going to a particular aspect of the deposition's reliability may succeed, but a bare objection that the witness was never physically before the trial Court cannot, since that is precisely what the commission mechanism is designed to permit.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this specific cluster. This is treated as a research gap, not filled with a guessed citation.*
+
+#### Sword and shield
+
+As a **shield**, a party in custody should ensure an advocate is briefed and available to attend the commission's execution — section 322(2) does not extend in-person attendance to a party in custody, so the advocate is the only channel for participation. As a **sword**, a party seeking to keep a commission deposition out of evidence should identify a specific "just exception" under section 323(1) — reliability of translation, incompleteness of the record, or a defect in how interrogatories were handled are the kind of concrete points that can succeed, where a generic objection to the commission process itself will not.
+
+#### The limitation clock
+
+No filing deadline is fixed by ss.322-325; the adjournment under section 324 is for "a specified time reasonably sufficient" for execution and return — a duration tied to practical necessity rather than a statutory number of days.
+
+#### Interlocking matrix
+
+This cluster closes Part B ("Commissions for the examination of witnesses," ss.319-325), resolving the second forward cross-reference flagged in Chapter XXIV's section 306. Section 323(2)'s cross-reference to section 27 of the Bharatiya Sakshya Adhiniyam, 2023 is flagged as not yet independently verified in this repository.
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Confirm both sides were given the opportunity to forward interrogatories under section 322(1) before the commission was executed — a commission executed without this opportunity is procedurally vulnerable.
+2. For a party in custody, arrange advocate representation at the commission's execution rather than assuming a right to personal attendance — section 322(2) does not extend that right to a party in custody.
+3. On return of the commission, inspect it, the return, and the deposition promptly under section 323(1) — a specific, timely "just exception" is a stronger objection than a late, generic one.
+4. Where a commission was issued by a non-extended-area or recognised foreign authority under section 325, do not assume different execution-and-return rules apply — the same sections 321-323 machinery governs, only the issuing authority differs.
+
+---
