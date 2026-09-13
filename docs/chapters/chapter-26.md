@@ -238,3 +238,121 @@ This cluster is largely self-contained but sets up the machinery the rest of the
 4. For a corporate accused, confirm a section 342(5) managing-director statement is filed early — it raises a presumption of proper representative appointment that spares the corporation from having to independently prove the appointment absent a genuine dispute under section 342(6).
 
 ---
+
+## Sections 343–345 — The approver's pardon: tender, timing, and what happens if the deal is broken
+
+### The dispute this solves
+
+::: oneminute Some offences can only be cracked from the inside, and sections 343-345 supply the mechanism: a conditional pardon offered to a person believed concerned in or privy to a grave offence, in exchange for a full and true disclosure of everything he knows about the offence and everyone else involved. Section 343 lets the Chief Judicial Magistrate tender it at any stage of investigation, inquiry, or trial, and a first-class Magistrate inquiring into or trying the case tender it at any stage of that inquiry or trial — but only for offences exclusively triable by a Court of Session or Special Judge, or punishable with seven years' imprisonment or more. The Magistrate must record his reasons and whether the tender was accepted, and once accepted, the approver becomes a prosecution witness and stays in custody (unless already on bail) until the trial ends. Section 344 extends the same power further down the timeline — even after commitment, before judgment, the trial Court itself may tender the same conditional pardon. Section 345 is the enforcement mechanism: if the Public Prosecutor certifies that the approver broke the bargain — by wilfully concealing something essential or giving false evidence — he can be tried for the original offence, any other offence he appears to have committed in the same matter, and for giving false evidence itself, though never jointly with the other accused, and never for the false-evidence charge without the High Court's sanction. His own accepted-pardon statement can be used against him at that trial, but he gets to plead compliance, and if he does, the burden shifts to the prosecution to prove he broke the deal.
+:::
+
+::: story The approver who kept his word, and the one who did not
+In a dacoity investigation, the Chief Judicial Magistrate tenders a conditional pardon to one of several persons believed involved, on condition of a full and true disclosure of everyone's role. He accepts, is examined as a witness at the trial that follows, and — since he was not already on bail — remains in custody until the trial concludes, exactly as section 343(4) requires. His testimony holds up, matches what he disclosed, and the case against the principal accused proceeds on the strength of it. In an unrelated case the same year, a different approver's testimony collapses under cross-examination — key facts he swore to disclose turn out to have been deliberately withheld. The Public Prosecutor certifies non-compliance under section 345(1). He is tried again, separately from his former co-accused, for the original offence and for giving false evidence — the latter only after the High Court sanctions it, as the proviso requires.
+:::
+
+> **343. (1)** With a view to obtaining the evidence of any person supposed to have been directly or indirectly concerned in or privy to an offence to which this section applies, the Chief Judicial Magistrate at any stage of the investigation or inquiry into, or the trial of, the offence, and the Magistrate of the first class inquiring into or trying the offence, at any stage of the inquiry or trial, [[?may]] tender a pardon to such person on condition of his making a full and true disclosure of the whole of the circumstances within his knowledge relative to the offence and to every other person concerned, whether as principal or abettor, in the commission thereof.
+>
+> **(2)** This section applies to — (a) any offence triable exclusively by the Court of Session or by the Court of a Special Judge appointed under any other law for the time being in force; (b) any offence punishable with imprisonment which may extend to seven years or with a more severe sentence.
+>
+> **(3)** Every Magistrate who tenders a pardon under sub-section (1) [[!shall]] record — (a) his reasons for so doing; (b) whether the tender was or was not accepted by the person to whom it was made, and [[!shall]], on application made by the accused, furnish him with a copy of such record free of cost.
+>
+> **(4)** Every person accepting a tender of pardon made under sub-section (1) — (a) [[!shall]] be examined as a witness in the Court of the Magistrate taking cognizance of the offence and in the subsequent trial, if any; (b) [[!shall]], unless he is already on bail, be detained in custody until the termination of the trial.
+>
+> **(5)** Where a person has accepted a tender of pardon made under sub-section (1) and has been examined under sub-section (4), the Magistrate taking cognizance of the offence [[!shall]], without making any further inquiry in the case — (a) commit it for trial to the Court of Session if the offence is triable exclusively by that Court or if the Magistrate taking cognizance is the Chief Judicial Magistrate, or to a Court of Special Judge appointed under any other law for the time being in force, if the offence is triable exclusively by that Court; (b) in any other case, make over the case to the Chief Judicial Magistrate who shall try the case himself.
+>
+> **344.** At any time after commitment of a case but before judgment is passed, the Court to which the commitment is made [[?may]], with a view to obtaining at the trial the evidence of any person supposed to have been directly or indirectly concerned in, or privy to, any such offence, tender a pardon on the same condition to such person.
+>
+> **345. (1)** Where, in regard to a person who has accepted a tender of pardon made under section 343 or section 344, the Public Prosecutor certifies that in his opinion such person has, either by wilfully concealing anything essential or by giving false evidence, not complied with the condition on which the tender was made, such person [[?may]] be tried for the offence in respect of which the pardon was so tendered or for any other offence of which he appears to have been guilty in connection with the same matter, and also for the offence of giving false evidence:
+>
+> Provided that such person [[!shall]] not be tried jointly with any of the other accused:
+>
+> Provided further that such person [[!shall]] not be tried for the offence of giving false evidence except with the sanction of the High Court, and nothing contained in section 215 or section 379 [[!shall]] apply to that offence.
+>
+> **(2)** Any statement made by such person accepting the tender of pardon and recorded by a Magistrate under section 183 or by a Court under sub-section (4) of section 343 [[?may]] be given in evidence against him at such trial.
+>
+> **(3)** At such trial, the accused [[!shall]] be entitled to plead that he has complied with the condition upon which such tender was made; in which case it [[!shall]] be for the prosecution to prove that the condition has not been complied with.
+>
+> **(4)** At such trial, the Court [[!shall]] — (a) if it is a Court of Session, before the charge is read out and explained to the accused; (b) if it is the Court of a Magistrate, before the evidence of the witnesses for the prosecution is taken, ask the accused whether he pleads that he has complied with the conditions on which the tender of pardon was made.
+>
+> **(5)** If the accused does so plead, the Court [[!shall]] record the plea and proceed with the trial and it [[!shall]], before passing judgment in the case, find whether or not the accused has complied with the conditions of the pardon, and, if it finds that he has so complied, it [[!shall]], notwithstanding anything contained in this Sanhita, pass judgment of acquittal.
+
+::: proviso The pardon power is capped at the gravity threshold — it is not a general-purpose bargaining tool
+Section 343(2) confines the whole mechanism to two categories: offences exclusively triable by a Court of Session or Special Judge, and offences carrying at least seven years' imprisonment. A Magistrate cannot tender a pardon under this section for a lesser offence merely because a co-accused's testimony would be useful — the gravity gate is a precondition, not a factor to be weighed against convenience.
+:::
+
+::: proviso Once the pardon is broken, the burden shifts — but only after the accused actually pleads compliance
+Section 345(1) lets the prosecution move once the Public Prosecutor certifies non-compliance, but section 345(3) then hands the accused a real opportunity: if he pleads that he did comply, the burden falls on the prosecution to prove otherwise, not on him to prove he complied. That plea has to be taken formally, at the specific procedural point section 345(4) fixes — before the charge is read in a Sessions trial, before prosecution evidence is taken before a Magistrate — not raised informally at any later, more convenient moment.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person concerned in a grave offence has accepted a conditional pardon under section 343 or 344 — what happens next?"
+  :gates="[
+    { q: 'Did the offence qualify under section 343(2) — exclusively Court-of-Session/Special-Judge triable, or punishable with seven years imprisonment or more?',
+      note: 'This gravity gate is a precondition for the whole mechanism',
+      no: 'No pardon could lawfully be tendered under section 343 for this offence in the first place' },
+    { q: 'Was the pardon accepted and was the person duly examined as a witness under section 343(4) or tendered again post-commitment under section 344?',
+      note: 'Acceptance and examination trigger the custody and cognizance-stage commitment consequences',
+      no: 'Without acceptance and examination, the case proceeds by its ordinary committal route rather than through this mechanism' },
+    { q: 'Has the Public Prosecutor certified under section 345(1) that the approver wilfully concealed something essential or gave false evidence?',
+      note: 'This certification is the trigger for a fresh trial of the approver himself',
+      no: 'Absent a certification of non-compliance, the approver remains simply a prosecution witness and section 345 is never engaged' },
+    { q: 'Once tried, has the approver pleaded compliance under section 345(3), shifting the burden onto the prosecution to prove non-compliance?',
+      note: 'The plea must be taken at the specific procedural point section 345(4) fixes',
+      no: 'Without a compliance plea, the prosecution proceeds to prove the case for the original or connected offence in the ordinary way' }
+  ]"
+  result="The approver either remains a protected prosecution witness for the life of the trial, or, once the Public Prosecutor certifies a broken bargain, stands trial separately for the original offence and, with High Court sanction, for giving false evidence"
+  resultKind="mandatory"
+  caveat="A person tried under section 345 can never be tried jointly with his former co-accused, and can never be tried for giving false evidence without the High Courts sanction — both limits are absolute, not discretionary." />
+
+### In plain English
+
+This is the deal the law offers an insider: tell the whole truth about the offence and everyone involved, and you walk away with a pardon instead of a conviction — but only for offences serious enough to justify the trade, and only if the disclosure is genuinely complete. Accept the deal, and you become a witness, held in custody until the trial that your own testimony helps build finishes. Break the deal — hide something essential, or lie on the stand — and the protection disappears: you can be tried for the very offence you were pardoned for, tried separately from everyone else, and, if the High Court agrees, tried for lying under oath too. But breaking the deal has to actually be proven; simply being accused of breaking it doesn't strip the protection — you get to say you kept your word, and then it's the prosecution's job to show you didn't.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, pending dedicated verification pass: BNSS sections 343 through 345 appear to track CrPC sections 306 through 308 respectively (tender of pardon to accomplice, power to direct tender of pardon, and trial of person not complying with conditions of pardon), preserving the CrPC's own three-section structure. The internal cross-references have been renumbered to this Sanhita's own section numbers (215, 379, 183) in place of what this guide believes were the corresponding CrPC provisions, but none of the five section-number correspondences in this cluster is independently verified against a bare CrPC text held in this repository.*
+
+### Test your instinct
+
+:::: instinct A first-class Magistrate tenders a conditional pardon under section 343 to a person believed concerned in a theft offence punishable with up to three years' imprisonment, hoping to secure his testimony against a co-accused.
+::: ruling Invalid tender — the offence does not meet section 343(2)s gravity threshold
+Section 343(2) confines the pardon power to offences exclusively triable by a Court of Session or Special Judge, or punishable with imprisonment of seven years or more. A theft offence carrying a maximum of three years falls outside both categories, so no valid tender could be made under this section regardless of how useful the testimony might be.
+:::
+::::
+
+:::: instinct An approver is tried under section 345 after the Public Prosecutor certifies non-compliance. At the appropriate procedural stage, he pleads that he fully complied with the pardon's conditions. The prosecution offers no independent evidence of non-compliance beyond the Public Prosecutor's own certificate.
+::: ruling The plea shifts the burden — the certificate alone will not carry it
+Once the accused pleads compliance under section 345(3), the burden falls on the prosecution to prove non-compliance. The Public Prosecutor's certificate under section 345(1) is what triggers the trial in the first place, but it is not itself proof of non-compliance at that trial — the prosecution must independently establish the breach.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ *Research gap: no citation meets this guide's confidence bar for this cluster.*
+
+#### Sword and shield
+
+As a **shield** for an approver facing a section 345 trial, the compliance plea under section 345(3) is the single most consequential procedural step available — taken correctly and at the right stage, it shifts the entire burden onto the prosecution, converting what looks like a certified breach into a contested factual issue the prosecution must affirmatively win. As a **sword** for the prosecution, section 343(2)'s gravity gate is worth checking before any pardon is tendered at all — a pardon tendered for an offence that does not meet the threshold is vulnerable to challenge from the moment it is offered, regardless of how valuable the resulting testimony turns out to be.
+
+#### The limitation clock
+
+No filing deadline is fixed for tendering a pardon — section 343 permits it at any stage of investigation, inquiry, or trial, and section 344 extends that to any point after commitment but before judgment. Section 345's own trial is triggered by the Public Prosecutor's certification, which carries no independent clock either.
+
+#### Interlocking matrix
+
+Section 343(5) cross-refers to the ordinary committal machinery already built in Chapter XVII. Section 345(2) cross-refers to section 183 (⚠️ not yet independently verified as built in this repository under that number) and section 345(1)'s proviso cross-refers to sections 215 (Chapter XV, already built — the complaint-standing bar for offences against public justice) and 379 (⚠️ not yet built — likely the false-evidence offence's own procedural home).
+
+#### Strategy and drafting
+
+**Model checklist for reviewing this cluster's provisions:**
+
+1. Before advising a client to accept a tender, confirm the underlying offence actually meets section 343(2)'s gravity threshold — a defective tender can be challenged later.
+2. Advise an approver candidly that the pardon's protection depends on a genuinely complete disclosure — partial or selective disclosure risks a section 345 certification even where the approver believes he complied.
+3. If defending an approver at a section 345 trial, plead compliance formally and at the correct procedural stage under section 345(4) — the burden-shifting benefit of section 345(3) depends on the plea being properly taken.
+4. Remember the false-evidence charge under section 345(1)'s second proviso cannot proceed without High Court sanction — confirm sanction is actually on record before that charge is allowed to proceed to trial.
+
+---
