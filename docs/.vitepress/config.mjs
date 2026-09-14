@@ -54,6 +54,7 @@ export default defineConfig({
           {
             text: 'Police powers',
             items: [
+              { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
               { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
               { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' }
             ]
@@ -137,6 +138,7 @@ export default defineConfig({
           text: 'Police powers',
           collapsed: false,
           items: [
+            { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
             { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
             { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' }
           ]
