@@ -300,3 +300,102 @@ This cluster's punishments feed into section 390 (built in the next cluster), wh
 4. Advise a client facing either route that submission or an apology remains available at any stage under section 387 — it is not foreclosed by a Court having already adjudged punishment or forwarded the case.
 
 ---
+
+## Sections 388–391 — Refusal to answer or produce, non-attendance of witnesses, appeals, and the bar on a Judge trying his own contempt
+
+### The dispute this solves
+
+A witness in the box simply refuses to answer, or a person holding a document under subpoena refuses to hand it over — and a witness who was properly summoned simply doesn't show up at all, or walks out before the Court excuses him. Chapter XXVIII's earlier sections dealt with offences committed *in* the Court's view; sections 388 and 389 deal with two specific, narrower failures — refusal to cooperate, and non-attendance — each with its own short, self-contained punishment mechanism. Section 390 then closes the loop that has been running since section 383: it gives a right of appeal against convictions recorded under this chapter's various summary powers, which would otherwise be unusually final for a criminal conviction. Section 391 closes the chapter with a structural safeguard: a Judge or Magistrate whose own authority was insulted, or who watched a section 215 offence happen before him, is generally barred from being the one who tries it — with this chapter's own summary sections carved out as the exceptions.
+
+### The Act, decompiled
+
+::: proviso Section 388 — Imprisonment or committal of person refusing to answer or produce document
+
+"388. If any witness or person called to produce a document or thing before a Criminal Court [[!refuses]] to answer such questions as are put to him or to produce any document or thing in his possession or power which the Court requires him to produce, and does not, after a reasonable opportunity has been given to him so to do, offer any reasonable excuse for such refusal, such Court [[?may]], for reasons to be recorded in writing, sentence him to simple imprisonment, or by warrant under the hand of the Presiding Magistrate or Judge commit him to the custody of an officer of the Court for any term not exceeding seven days, unless in the meantime, such person consents to be examined and to answer, or to produce the document or thing and in the event of his persisting in his refusal, he [[?may]] be dealt with according to the provisions of section 384 or section 385."
+:::
+
+::: proviso Section 389 — Summary procedure for punishment for non-attendance by a witness in obedience to summons
+
+"389. (1) If any witness being summoned to appear before a Criminal Court is legally bound to appear at a certain place and time in obedience to the summons and without just excuse neglects or refuses to attend at that place or time or departs from the place where he has to attend before the time at which it is lawful for him to depart, and the Court before which the witness is to appear is satisfied that it is expedient in the interests of justice that such a witness should be tried summarily, the Court [[?may]] take cognizance of the offence and after giving the offender an opportunity of showing cause why he should not be punished under this section, sentence him to fine not exceeding five hundred rupees.
+(2) In every such case the Court [[!shall]] follow, as nearly as may be practicable, the procedure prescribed for summary trials."
+:::
+
+::: proviso Section 390 — Appeals from convictions under sections 383, 384, 388 and 389
+
+"390. (1) Any person sentenced by any Court other than a High Court under section 383, section 384, section 388, or section 389 [[?may]], notwithstanding anything contained in this Sanhita appeal to the Court to which decrees or orders made in such Court are ordinarily appealable.
+(2) The provisions of Chapter XXXI [[!shall]], so far as they are applicable, apply to appeals under this section, and the Appellate Court may alter or reverse the finding, or reduce or reverse the sentence appealed against.
+(3) An appeal from such conviction by a Court of Small Causes shall lie to the Court of Session for the sessions division within which such Court is situate.
+(4) An appeal from such conviction by any Registrar or Sub-Registrar deemed to be a Civil Court by virtue of a direction issued under section 386 shall lie to the Court of Session for the sessions division within which the office of such Registrar or Sub-Registrar is situate."
+:::
+
+::: proviso Section 391 — the bar this chapter's own sections carve an exception into
+
+"391. Except as provided in sections 383, 384, 388 and 389, no Judge of a Criminal Court (other than a Judge of a High Court) or Magistrate shall try any person for any offence referred to in section 215, when such offence is committed before himself or in contempt of his authority, or is brought under his notice as such Judge or Magistrate in the course of a judicial proceeding."
+
+⚠️ No marginal heading survives for section 391 in the extracted bare-Act text used by this guide; the section is quoted here without an invented title.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A witness or a person called to produce a document or thing before a Criminal Court refuses to answer a question, or refuses to produce the document or thing."
+  :gates="[
+    { q: 'Was the person given a reasonable opportunity to comply, and did he fail to offer any reasonable excuse for the refusal?', no: 'Section 388 is not available — an unexplored refusal, or one accompanied by a reasonable excuse, does not trigger the power' },
+    { q: 'Does the Court record its reasons in writing before sentencing him?', no: 'The sentence is defective for want of the recorded reasons section 388 requires' },
+    { q: 'Does the person persist in his refusal even after the section 388 imprisonment or committal has been imposed?', no: 'The matter ends there — section 388 has run its course for this refusal' }
+  ]"
+  result="The Court may sentence the person to simple imprisonment, or commit him by warrant to the custody of a Court officer for up to seven days — subject at any time to the person consenting to comply, which ends the committal early."
+  resultKind="discretionary"
+  caveat="If the person persists in refusing even through the seven-day committal, he may then be dealt with under section 384 or section 385 instead — section 388 is a first-line tool, not necessarily the last word."
+/>
+
+### In plain English
+
+Sections 388 and 389 are the chapter's two smallest, most mechanical tools. Section 388 is for the witness or document-holder who is right there, refusing to cooperate — the Court can lock that up fast, for up to seven days, purely to break the deadlock, and the moment the person agrees to comply, the committal ends. Section 389 is for the opposite problem — the witness who was supposed to show up and didn't, or left early — and it lets the Court try that failure summarily on the spot, capped at a five-hundred-rupee fine. Section 390 is the safety net running underneath all of this chapter's fast, summary powers: because sections 383, 384, 388 and 389 let a Court convict and sentence someone with none of the usual procedural runway, section 390 makes sure that conviction is still appealable, just like any other. And section 391 is the chapter's own guardrail on itself: a Judge or Magistrate whose own courtroom authority was flouted is not, as a general rule, supposed to be the one who then sits in judgment on that very flouting — except for the four situations this chapter has just spent itself building the summary machinery for.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this chapter, this guide's working view is that BNSS sections 388–391 correspond to CrPC sections 349–352.*
+
+### Test your instinct
+
+:::: instinct A Court commits a document-holder to custody under section 388 for a full seven days without ever asking, during that period, whether he has changed his mind about producing the document.
+::: ruling Permissible, but avoidable — section 388 builds in an automatic off-ramp regardless
+The text itself provides that the committal ends "unless in the meantime, such person consents to be examined and to answer, or to produce the document or thing" — the consent operates whenever it is given, without needing the Court to solicit it. The Court is not obliged to check in, but a practitioner representing the committed person should press for immediate release the moment compliance is offered, rather than waiting out the full seven days.
+:::
+::::
+
+:::: instinct A Magistrate, having tried a witness summarily under section 389 and fined him three hundred rupees, is told the witness cannot appeal because the sentence was passed summarily.
+::: ruling Incorrect — section 390 gives an appeal regardless of the summary procedure used below
+Section 390(1) opens with "notwithstanding anything contained in this Sanhita," and lists section 389 among the four convicting sections it covers. The summary character of the trial below does not close off the appeal; it simply means the Chapter XXXI appellate procedure, applied "so far as applicable" under sub-section (2), is what governs the appeal itself.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. Sections 388–391 are short, largely self-executing procedural tools, and this guide has not matched their operation to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **shield**, a witness or document-holder facing section 388 committal should offer compliance, or a reasonable excuse, at the earliest possible moment — both end the Court's power immediately, and a recorded refusal followed by a later reasonable excuse is a ground to resist the committal in the first place. As a **sword**, counsel for a party whose witness has been thwarted by an obstructive opposing witness can press the Court to invoke section 388 promptly rather than merely noting the refusal on record and moving on — the seven-day custody is a real lever to unstick a stalled examination.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 388–391. Section 388's own internal clock is the seven-day cap on committal, not a limitation period; section 390 does not itself prescribe an appeal-filing period, so the ordinarily applicable limitation for appeals under the Limitation Act, 1963 — as read with this chapter's earlier BNSS limitation provisions — governs the appeal window; this point has not been independently verified in this cluster and should be checked before relying on it.
+
+#### Interlocking matrix
+
+Section 390 is the appellate spine for convictions under sections 383, 384, 388 and 389 — everything else this chapter builds feeds into it. Section 391's bar interacts with all four of those sections as its named exceptions; outside those four, a Judge or Magistrate whose own authority was the subject of the offence must, as a rule, step back and let another Judge or Magistrate try it, an interlock this guide has not yet traced to the specific transfer provisions that would apply.
+
+#### Strategy and drafting
+
+**Model checklist for the section 388–391 stage:**
+
+1. Before invoking section 388, build a clean record that a reasonable opportunity to comply was actually given, and that no reasonable excuse was offered — the section's own conditions are the first target of a challenge to the committal.
+2. When advising a client on a section 389 summons failure, check for a "just excuse" defence early — the section turns on the absence of one, and a credible excuse forecloses the summary route entirely.
+3. Where a client has been convicted under any of sections 383, 384, 388 or 389, calendar the section 390 appeal promptly — do not let the summary, fast-moving character of the trial below create a false impression that the matter is closed.
+4. If the offence was committed in contempt of a Judge's or Magistrate's own authority, check section 391 before assuming that Judge or Magistrate may simply try it himself outside the four excepted sections — raise the bar as a threshold objection where it applies.
+
+---
