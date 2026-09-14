@@ -104,3 +104,99 @@ Section 379 is the operative machinery for the standing restriction already buil
 4. Raise the question of costs under section 381 affirmatively at the hearing on the application or the appeal, rather than assuming the point will be addressed without being argued.
 
 ---
+
+## Sections 382–383 — The Magistrate's procedure on a section 379 complaint, and the summary trial for giving false evidence
+
+### The dispute this solves
+
+::: oneminute Once a Court has made a section 379 complaint, the case does not remain a special, Court-originated proceeding forever — section 382 puts it on the ordinary track: notwithstanding Chapter XVI's usual complaint procedure, the Magistrate deals with it as far as possible exactly as if it had come in on a police report, with a discretionary power to adjourn if an appeal is pending against the judgment out of which the whole matter arose. Section 383 offers something faster and narrower for one specific offence — a witness who gave or fabricated false evidence in the very proceeding the Court has just finished deciding. Rather than routing the matter through section 379's inquiry-and-complaint sequence at all, the Court of Session or a Magistrate of the first class can, at the moment of pronouncing judgment, form the opinion that the witness lied or fabricated evidence, and try him summarily on the spot — capped at three months' imprisonment or a thousand-rupee fine, or both — while expressly preserving the section 379 route as an alternative the Court can choose instead.
+:::
+
+::: story The witness caught out at the very moment judgment is delivered
+A commercial suit turns substantially on the testimony of a key witness for the plaintiff. In delivering judgment, the Sessions Judge — this being a matter with connected criminal proceedings — remarks that the witness's account was not merely unreliable but knowingly false, fabricated for the specific purpose of being used in that proceeding. Satisfied that it is necessary and expedient in the interests of justice, the Judge invokes section 383 there and then: takes cognizance of the false-evidence offence, gives the witness a reasonable opportunity to show cause, and — following, as nearly as practicable, the summary-trial procedure already built in Chapter XXII — convicts and sentences him to two months' simple imprisonment. Contrast a different case, decided by the same Judge a week later: the fabrication is real, but its extent and the identity of a possible co-conspirator remain unclear, better suited to a fuller inquiry than a summary disposal. The Judge instead proceeds under section 379, making a written complaint and sending it to a Magistrate of the first class — who, on receiving it, proceeds notwithstanding Chapter XVI as if the case had been instituted on a police report, and who elects to adjourn the hearing once he learns an appeal against the underlying judgment is pending.
+:::
+
+### The Act, decompiled
+
+> **382. Procedure of Magistrate taking cognizance.** (1) A Magistrate to whom a complaint is made under section 379 or section 380 [[!shall]], notwithstanding anything contained in Chapter XVI, proceed, as far as may be, to deal with the case as if it were instituted on a police report.
+>
+> (2) Where it is brought to the notice of such Magistrate, or of any other Magistrate to whom the case may have been transferred, that an appeal is pending against the decision arrived at in the judicial proceeding out of which the matter has arisen, he [[?may]], if he thinks fit, at any stage, adjourn the hearing of the case until such appeal is decided.
+>
+> **383. Summary procedure for trial for giving false evidence.** (1) If, at the time of delivery of any judgment or final order disposing of any judicial proceeding, a Court of Session or Magistrate of the first class expresses an opinion to the effect that any witness appearing in such proceeding had knowingly or wilfully given false evidence or had fabricated false evidence with the intention that such evidence should be used in such proceeding, it or he [[?may]], if satisfied that it is necessary and expedient in the interest of justice that the witness should be tried summarily for giving or fabricating, as the case may be, false evidence, take cognizance of the offence and [[?may]], after giving the offender a reasonable opportunity of showing cause why he should not be punished for such offence, try such offender summarily and sentence him to imprisonment for a term which may extend to three months, or to fine which may extend to one thousand rupees, or with both.
+>
+> (2) In every such case the Court [[!shall]] follow, as nearly as may be practicable, the procedure prescribed for summary trials.
+>
+> (3) Nothing in this section [[!shall]] affect the power of the Court to make a complaint under section 379 for the offence, where it does not choose to proceed under this section.
+>
+> (4) Where, after any action is initiated under sub-section (1), it is made to appear to the Court of Session or Magistrate of the first class that an appeal or an application for revision has been preferred or filed against the judgment or order in which the opinion referred to in that sub-section has been expressed, it or he [[!shall]] stay further proceedings of the trial until the disposal of the appeal or the application for revision, as the case may be, and thereupon the further proceedings of the trial [[!shall]] abide by the results of the appeal or application for revision.
+
+::: proviso Section 382's "notwithstanding Chapter XVI" language matters — the complaint here does not go through the ordinary examination-on-oath and pre-cognizance hearing procedure that would otherwise apply to any complaint to a Magistrate
+:::
+
+::: proviso Section 383 is an election, not a compulsion — sub-section (3) keeps section 379 open as an alternative for the very same false-evidence offence, and nothing requires the Court to choose the summary route
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court of Session or Magistrate of the first class is delivering judgment or a final order in a proceeding, and forms the opinion that a witness gave or fabricated false evidence in it."
+  :gates="[
+    { q: 'Is the Court satisfied it is necessary and expedient in the interest of justice to try the witness summarily, rather than routing the matter through section 379?', no: 'The Court may instead make a section 379 complaint for the same offence — nothing in section 383 forecloses that route' },
+    { q: 'Has the offender been given a reasonable opportunity to show cause why he should not be punished?', no: 'No summary conviction may follow; the opportunity to show cause is a precondition, not a formality' },
+    { q: 'Does an appeal or revision application later surface against the judgment or order in which the opinion was expressed?', no: 'The summary trial proceeds to its conclusion without any stay' }
+  ]"
+  result="The witness is tried summarily under the Chapter XXII procedure, followed as nearly as practicable, and — if convicted — sentenced to imprisonment up to three months, or fine up to one thousand rupees, or both."
+  resultKind="discretionary"
+  caveat="If an appeal or revision against the underlying judgment does surface after the section 383 action has already begun, the Court must stay the false-evidence trial until that appeal or revision is decided, and the further proceedings then abide by its result."
+/>
+
+### In plain English
+
+Section 382 is the connector between the Court's special complaint power in section 379 and the ordinary Magistrate's-court machinery: once the complaint lands with the Magistrate, he treats it like any police-report case, skipping the usual complaint procedure that would otherwise apply, though he can pause the case if an appeal against the underlying judgment is still pending. Section 383 is a shortcut for one specific, common scenario: a witness who was caught out lying, right there at the moment the Court is delivering its judgment. Instead of the longer section 379 route, the Court can deal with it on the spot — summarily, capped at three months or a thousand rupees — provided the witness gets a real chance to explain himself first. And if it later turns out the underlying judgment itself is under appeal, the false-evidence trial has to pause and wait for that appeal to be decided, since whether the witness's evidence was really "false" may itself depend on what the appellate court eventually says about the case.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis from this chapter's first cluster, this guide's working view is that BNSS section 382 corresponds to CrPC section 343, and BNSS section 383 to CrPC section 344.*
+
+### Test your instinct
+
+:::: instinct A Magistrate of the first class, having received a section 379 complaint, insists on first conducting the pre-cognizance examination-on-oath procedure ordinarily required for a complaint under Chapter XVI before proceeding further.
+::: ruling Incorrect — section 382 dispenses with the Chapter XVI procedure for this complaint
+Section 382(1) opens with an express non-obstante clause — "notwithstanding anything contained in Chapter XVI" — and directs the Magistrate to deal with the case as far as may be as if it were instituted on a police report. The ordinary complaint-case examination procedure has no application here; insisting on it is a misapplication of the section.
+:::
+::::
+
+:::: instinct A Sessions Judge, upon delivering judgment, forms the view that a witness fabricated evidence, and immediately convicts and sentences him under section 383 without first giving him any opportunity to explain himself.
+::: ruling The conviction is defective — section 383(1) makes the show-cause opportunity a precondition
+The text conditions the summary trial and sentence on "after giving the offender a reasonable opportunity of showing cause why he should not be punished for such offence." Proceeding straight to conviction without that opportunity does not satisfy section 383's own terms, regardless of how clear the fabrication appeared to the Judge.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The choice between the section 379 complaint route and the section 383 summary-trial shortcut, and the mechanics of the Magistrate's police-report-style procedure under section 382, are procedural design questions this guide has not matched to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **shield**, a witness facing an on-the-spot section 383 opinion from the Court should immediately press for the "reasonable opportunity of showing cause" the sub-section requires, rather than treating the Court's expressed opinion at judgment as itself a conviction — it is not. As a **sword**, a party who believes a witness has been caught out in false testimony at the moment of judgment can urge the Court to proceed under section 383 for speed, or under section 379 where the matter is more complicated or involves persons beyond the witness alone — the two routes are not mutually exclusive at the pleading stage, and section 383(3) preserves the choice.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 382–383. Section 383's own internal safeguard is not a limitation clock but a suspension mechanism: once an appeal or revision against the underlying judgment surfaces, the false-evidence trial must stay until that appeal or revision is decided, and its own outcome then follows the appellate result.
+
+#### Interlocking matrix
+
+Section 382 is the direct continuation of sections 379–380 built in this chapter's first cluster — it is what happens once the Magistrate actually receives the complaint. Section 383(2)'s "procedure prescribed for summary trials" cross-refers to Chapter XXII, already built in this guide. Section 383(3)'s preservation of the section 379 route keeps both mechanisms live for the same underlying false-evidence offence.
+
+#### Strategy and drafting
+
+**Model checklist for the section 382–383 stage:**
+
+1. On receiving a section 379/380 complaint as a Magistrate, proceed on the police-report-case track under section 382(1) rather than defaulting to the ordinary Chapter XVI complaint procedure.
+2. If an appeal is pending against the judgment out of which the matter arose, raise it promptly under section 382(2) — the adjournment is discretionary, not automatic, and needs to be brought to the Magistrate's notice.
+3. Where a witness is facing an on-the-spot section 383 opinion, immediately request the reasonable opportunity to show cause the sub-section requires, and be prepared to address both the fact of the false evidence and the appropriateness of a summary — as opposed to a section 379 — disposal.
+4. Monitor the status of any appeal or revision against the underlying judgment throughout a section 383 trial; a late-emerging appeal triggers a mandatory stay under sub-section (4), not merely a discretionary one.
+
+---
