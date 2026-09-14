@@ -56,7 +56,8 @@ export default defineConfig({
             items: [
               { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
               { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
-              { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' }
+              { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' },
+              { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' }
             ]
           },
           {
@@ -140,7 +141,8 @@ export default defineConfig({
           items: [
             { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
             { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
-            { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' }
+            { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' },
+            { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' }
           ]
         },
         { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] },
