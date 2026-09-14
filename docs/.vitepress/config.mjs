@@ -100,7 +100,8 @@ export default defineConfig({
             items: [
               { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' },
               { text: 'Chapter XXX — Submission of death sentences for confirmation (ss. 407–412)', link: '/chapters/chapter-30' },
-              { text: 'Chapter XXXIV — Execution, suspension, remission and commutation of sentences (ss. 453–477)', link: '/chapters/chapter-34' }
+              { text: 'Chapter XXXIV — Execution, suspension, remission and commutation of sentences (ss. 453–477)', link: '/chapters/chapter-34' },
+              { text: 'Chapter XXXVI — Disposal of property (ss. 497–505)', link: '/chapters/chapter-36' }
             ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
@@ -172,7 +173,8 @@ export default defineConfig({
           items: [
             { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' },
             { text: 'Chapter XXX — Submission of death sentences for confirmation (ss. 407–412)', link: '/chapters/chapter-30' },
-            { text: 'Chapter XXXIV — Execution, suspension, remission and commutation of sentences (ss. 453–477)', link: '/chapters/chapter-34' }
+            { text: 'Chapter XXXIV — Execution, suspension, remission and commutation of sentences (ss. 453–477)', link: '/chapters/chapter-34' },
+            { text: 'Chapter XXXVI — Disposal of property (ss. 497–505)', link: '/chapters/chapter-36' }
           ]
         },
         { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
