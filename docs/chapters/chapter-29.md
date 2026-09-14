@@ -325,3 +325,101 @@ Section 397 interlocks with BNS sections 64–71 and 124(1) (offences of sexual 
 4. Before assuming section 398's Witness Protection Scheme applies to a particular witness situation, check the specific State's notified scheme — the section obliges the State Government to notify a scheme but does not itself prescribe the scheme's content.
 
 ---
+
+## Section 401 — Release on probation of good conduct, or after admonition
+
+### The dispute this solves
+
+::: oneminute Not every conviction should end in a sentence. Section 401 is the Sanhita's own alternative-to-punishment mechanism, built around two distinct routes. The first, in sub-sections (1)-(2), lets a Court release a first offender — one convicted of a fine-only offence, or of an offence carrying seven years or less (or, for a woman or a person under twenty-one, anything short of death or life imprisonment) — on a bond to keep the peace and appear for sentence if called upon, instead of sentencing him at once; a Magistrate of the second class without special empowerment must instead refer the case up to a Magistrate of the first class. The second route, in sub-section (3), is narrower and blunter still: a first offender convicted of specific property offences, or of any offence punishable with fine only, may simply be released after a due admonition — a formal warning — with no bond and no punishment at all. Both routes sit alongside, not instead of, the Probation of Offenders Act and juvenile-justice legislation, and both come with teeth: a warrant can issue if the offender breaches his bond conditions.
+:::
+
+::: story A first-time shoplifter, admonished and sent home
+A young first offender is convicted of theft of goods worth a small sum from a shop, an offence within the property-offence list section 401(3) names, and no previous conviction is proved against him. The convicting Magistrate, having regard to his age, character, and the trivial nature of the offence, decides against any sentence at all, and instead releases him after due admonition — a formal, on-the-record warning, delivered in open Court, with no bond, no probation period, and no punishment. Contrast this with a second case before the same Magistrate the same day: an offender convicted of an offence punishable with up to five years' imprisonment, where the Magistrate instead directs release under sub-section (1) on a bond to appear for sentence if called upon within the next two years and to keep the peace meanwhile. Six months later, that second offender breaches his bond conditions; the Magistrate who convicted him issues a warrant under sub-section (8), and on his being brought in, remands him in custody pending disposal of the case for sentence under sub-section (9).
+:::
+
+### The Act, decompiled
+
+::: proviso Section 401 — Order to release on probation of good conduct or after admonition
+
+"401. (1) When any person not under twenty-one years of age is convicted of an offence punishable with fine only or with imprisonment for a term of seven years or less, or when any person under twenty-one years of age or any woman is convicted of an offence not punishable with death or imprisonment for life, and no previous conviction is proved against the offender, if it appears to the Court before which he is convicted, regard being had to the age, character or antecedents of the offender, and to the circumstances in which the offence was committed, that it is expedient that the offender should be released on probation of good conduct, the Court [[?may]], instead of sentencing him at once to any punishment, direct that he be released on his entering into a bond or bail bond to appear and receive sentence when called upon during such period (not exceeding three years) as the Court may direct, and in the meantime to keep the peace and be of good behavior:
+
+Provided that where any first offender is convicted by a Magistrate of the second class not specially empowered by the High Court, and the Magistrate is of opinion that the powers conferred by this section should be exercised, he [[!shall]] record his opinion to that effect, and submit the proceedings to a Magistrate of the first class, forwarding the accused to, or taking bail for his appearance before, such Magistrate, who shall dispose of the case in the manner provided by sub-section (2).
+
+(2) Where proceedings are submitted to a Magistrate of the first class as provided by sub-section (1), such Magistrate [[?may]] thereupon pass such sentence or make such order as he might have passed or made if the case had originally been heard by him, and, if he thinks further inquiry or additional evidence on any point to be necessary, he [[?may]] make such inquiry or take such evidence himself or direct such inquiry or evidence to be made or taken.
+(3) In any case in which a person is convicted of theft, theft in a building, dishonest misappropriation, cheating or any offence under the Bharatiya Nyaya Sanhita, 2023, punishable with not more than two years' imprisonment or any offence punishable with fine only and no previous conviction is proved against him, the Court before which he is so convicted [[?may]], if it thinks fit, having regard to the age, character, antecedents or physical or mental condition of the offender and to the trivial nature of the offence or any extenuating circumstances under which the offence was committed, instead of sentencing him to any punishment, release him after due admonition.
+(4) An order under this section [[?may]] be made by any Appellate Court or by the High Court or Court of Session when exercising its powers of revision.
+(5) When an order has been made under this section in respect of any offender, the High Court or Court of Session [[?may]], on appeal when there is a right of appeal to such Court, or when exercising its powers of revision, set aside such order, and in lieu thereof pass sentence on such offender according to law:
+
+Provided that the High Court or Court of Session shall not under this sub-section inflict a greater punishment than might have been inflicted by the Court by which the offender was convicted.
+
+(6) The provisions of sections 140, 143 and 414 [[!shall]], so far as may be, apply in the case of sureties offered in pursuance of the provisions of this section.
+(7) The Court, before directing the release of an offender under sub-section (1), [[!shall]] be satisfied that an offender or his surety (if any) has a fixed place of abode or regular occupation in the place for which the Court acts or in which the offender is likely to live during the period named for the observance of the conditions.
+(8) If the Court which convicted the offender, or a Court which could have dealt with the offender in respect of his original offence, is satisfied that the offender has failed to observe any of the conditions of his recognizance, it [[?may]] issue a warrant for his apprehension.
+(9) An offender, when apprehended on any such warrant, [[!shall]] be brought forthwith before the Court issuing the warrant, and such Court [[?may]] either remand him in custody until the case is heard or admit him to bail with a sufficient surety conditioned on his appearing for sentence and such Court may, after hearing the case, pass sentence.
+(10) Nothing in this section shall affect the provisions of the Probation of Offenders Act, 1958, or the Juvenile Justice (Care and Protection of Children) Act, 2015 or any other law for the time being in force for the treatment, training or rehabilitation of youthful offenders."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person with no previous conviction has just been convicted of an offence, and the Court is considering an alternative to sentencing him at once."
+  :gates="[
+    { q: 'Does the offender fall within sub-section (1)\'s eligible class — twenty-one or over convicted of a fine-only or seven-years-or-less offence, or under twenty-one or a woman convicted of anything short of death or life imprisonment?', no: 'Sub-section (1) probation-on-bond is not available; sub-section (3) admonition may still apply if the narrower property/fine-only conditions are met' },
+    { q: 'If the convicting Magistrate is of the second class and not specially empowered by the High Court, has he recorded his opinion and submitted the proceedings to a Magistrate of the first class, as the proviso to sub-section (1) requires?', no: 'The Magistrate of the second class has no power to himself release the offender under sub-section (1); the order is without jurisdiction absent the submission' },
+    { q: 'Before directing release under sub-section (1), is the Court satisfied the offender or his surety has a fixed place of abode or regular occupation as sub-section (7) requires?', no: 'Sub-section (7)\'s own precondition is not met; the release order does not comply with the section even if the offender is otherwise eligible' }
+  ]"
+  result="An eligible first offender may be released on a bond to appear for sentence if called upon within up to three years, and to keep the peace and be of good behaviour meanwhile — or, for the narrower list of property and fine-only offences under sub-section (3), released outright after due admonition with no bond at all."
+  resultKind="discretionary"
+  caveat="A breach of bond conditions under sub-section (1) does not end the matter with a mere warrant — sub-section (9) requires the apprehended offender to be brought before the Court, which may remand him in custody or admit him to bail pending sentence, and only then pass sentence after hearing the case."
+/>
+
+### In plain English
+
+Section 401 gives a convicting Court two ways to avoid punishing a genuinely first-time, low-culpability offender at all. The bigger route, sub-sections (1)-(2), is a supervised release: instead of a sentence, the offender promises — on a bond — to behave and to show up if called back for sentencing within up to three years; a junior Magistrate who thinks this is the right call has to hand the file up to a first-class Magistrate rather than order it himself. The smaller route, sub-section (3), is blunter: for a narrow list of minor property offences or anything punishable with fine only, the Court can just deliver a formal telling-off and send the offender home, with no bond, no supervision period, nothing hanging over him. Both routes assume the offender actually has a stable address — sub-section (7) makes that a precondition, not an afterthought — and both come with real consequences for a broken promise: sub-section (8)-(9) let the Court that convicted him issue a warrant, bring him back, and then actually sentence him for the original offence.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this guide, this guide's working view is that BNSS section 401 corresponds to CrPC section 360, which itself substantially overlapped with the Probation of Offenders Act, 1958's own release-on-probation machinery, referenced here in sub-section (10). This overlap between the Sanhita's own probation-adjacent power and the standalone Probation of Offenders Act is a longstanding feature carried forward, not a new complication introduced by the BNSS — but the precise CrPC section number should be checked against a bare CrPC text before being relied upon.*
+
+### Test your instinct
+
+:::: instinct A Magistrate of the second class, not specially empowered by the High Court, personally releases a first offender on a probation bond under section 401(1), without submitting the proceedings to any Magistrate of the first class.
+::: ruling The order is without jurisdiction — the proviso to sub-section (1) makes submission mandatory for this class of Magistrate
+The proviso states that where a Magistrate of the second class not specially empowered is of the opinion that section 401's powers should be exercised, he "shall record his opinion to that effect, and submit the proceedings to a Magistrate of the first class... who shall dispose of the case." The word "shall" leaves no room for the second-class Magistrate to instead dispose of the matter himself; doing so exceeds his jurisdiction under this section.
+:::
+::::
+
+:::: instinct An offender released on a probation bond under section 401(1) is later apprehended on a warrant for breaching his bond conditions, and the apprehending Court immediately proceeds to sentence him without any further hearing, on the view that the breach itself proves he deserves punishment.
+::: ruling Incorrect — sub-section (9) requires the case to actually be heard before sentence is passed
+The text provides that the Court "may either remand him in custody until the case is heard or admit him to bail... and such Court may, after hearing the case, pass sentence." Sentence follows a hearing on the original case, not an automatic consequence of the breach standing alone; the breach triggers the process, it does not substitute for it.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The interaction between section 401 and the standalone Probation of Offenders Act, 1958, and the jurisdictional limits on a second-class Magistrate's power under the section, are propositions this guide has not yet matched to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **shield**, defence counsel for a first offender facing sentencing on an eligible offence should affirmatively raise section 401 at the sentencing stage — courts do not always consider it sua sponte — and should marshal the age, character, antecedents and circumstances factors the section itself lists. As a **sword**, a prosecutor opposing a section 401 release should test whether the offender genuinely has no previous conviction proved against him, since the absence of any prior conviction is a threshold condition under both sub-sections (1) and (3), not merely a discretionary factor.
+
+#### The limitation clock
+
+No independent limitation period runs under section 401. The section's own internal clock is the "not exceeding three years" outer limit on the probation bond period under sub-section (1) — the offender remains liable to be called up for sentence at any point within that window, not merely at its end.
+
+#### Interlocking matrix
+
+Section 401(6) expressly draws in sections 140, 143 and 414 for the mechanics of any surety offered under this section. Section 401(10) preserves the Probation of Offenders Act, 1958 and the Juvenile Justice (Care and Protection of Children) Act, 2015 as independent, unaffected routes — a practitioner should consider all three regimes, not assume section 401 is the only door available. Section 402 (built in the next cluster) requires a Court that could have used section 401 but did not to record special reasons for declining to do so — making this section's availability a live issue even where the Court ultimately sentences instead.
+
+#### Strategy and drafting
+
+**Model checklist for the section 401 stage:**
+
+1. Before the sentencing hearing, confirm the offender's eligibility class under sub-sections (1) or (3) precisely — the age and offence-severity thresholds differ between the two routes, and conflating them risks arguing the wrong one.
+2. Where the convicting Magistrate is of the second class and not specially empowered, raise the sub-section (1) proviso's mandatory submission requirement proactively rather than assuming the Magistrate will recall it unprompted.
+3. Establish the offender's fixed place of abode or regular occupation on the record before the release order is made — sub-section (7) makes this a precondition, and its absence is a ready ground to resist an otherwise-favourable release order being finalised, or to support one being granted.
+4. Where a client has breached bond conditions, prepare for a full sentencing hearing under sub-section (9), not merely a formality — the breach opens the door to sentence on the original offence, and mitigation on the breach itself remains relevant.
+
+---
