@@ -63,6 +63,12 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Preventive and maintenance jurisdiction',
+            items: [
+              { text: 'Chapter IX — Security for keeping the peace and for good behaviour (ss. 125–143)', link: '/chapters/chapter-09' }
+            ]
+          },
+          {
             text: 'Information and investigation',
             items: [
               { text: 'Chapter XIII — Police powers to investigate (ss. 173–196)', link: '/chapters/chapter-13' }
@@ -149,7 +155,13 @@ export default defineConfig({
             { text: 'Chapter XII — Preventive action of the police (ss. 168–172)', link: '/chapters/chapter-12' }
           ]
         },
-        { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] },
+        {
+          text: 'Preventive and maintenance jurisdiction',
+          collapsed: false,
+          items: [
+            { text: 'Chapter IX — Security for keeping the peace and for good behaviour (ss. 125–143)', link: '/chapters/chapter-09' }
+          ]
+        },
         {
           text: 'Information and investigation',
           collapsed: false,
