@@ -200,3 +200,103 @@ Section 382 is the direct continuation of sections 379–380 built in this chapt
 4. Monitor the status of any appeal or revision against the underlying judgment throughout a section 383 trial; a late-emerging appeal triggers a mandatory stay under sub-section (4), not merely a discretionary one.
 
 ---
+
+## Sections 384–387 — Contempt committed in the Court's own view or presence
+
+### The dispute this solves
+
+::: oneminute Sections 379–383 all deal with offences the Court learns about after the fact — a witness who lied, a document that turns out to be forged. Sections 384–387 deal with the opposite situation: an offence the Court watches happen in front of it, right now, in its own courtroom. When a person refuses to answer, insults the Court, or interrupts a judicial proceeding — an offence within BNS sections 210, 213, 214, 215 or 267 — section 384 gives the Court an on-the-spot summary power to detain and punish the offender before the Court even rises for the day, capped at a thousand-rupee fine or a month's default imprisonment. Section 385 is the escape valve for the case too serious for that cap: if the Court thinks actual imprisonment (not just a default sentence) or a fine above two hundred rupees is warranted, it forwards the offender to a Magistrate instead, who then treats the case exactly as if it had come in on a police report. Section 386 extends the whole mechanism to Registrars and Sub-Registrars under the Registration Act, 1908, when the State Government so directs. Section 387 is the safety valve on the other side — the Court's own discretion to let the offender off entirely, on submission or apology.
+:::
+
+::: story The witness who refuses to answer, and the two ways it can go
+A witness in the box refuses point-blank to answer a question the trial Court has directed him to answer, and offers no excuse the Court finds reasonable. The presiding Judge, exercising the section 384 power, records the fact of the refusal and the witness's own statement, takes cognizance there and then, gives the witness a chance to show cause, and — satisfied a short, sharp sanction will do — sentences him to a fine of six hundred rupees, with a fortnight's simple imprisonment in default. Contrast a second witness, in an unrelated proceeding before the same Judge, whose refusal is coupled with a volley of abuse directed at the Court itself — conduct the Judge considers serious enough to warrant real imprisonment, not merely a default sentence. The Judge declines to dispose of it under section 384, instead recording the facts and the witness's statement and forwarding the case to the Magistrate having jurisdiction, taking security for his appearance. The Magistrate, on receiving the forwarded case, proceeds with it exactly as section 385(2) requires — as if it were instituted on a police report. In a third matter, the offender who refused to answer returns before the first Judge the following week and unreservedly apologises; the Judge, invoking section 387, remits what remains of the sentence.
+:::
+
+### The Act, decompiled
+
+> **384. Procedure in certain cases of contempt.** (1) When any such offence as is described in section 210, section 213, section 214, section 215 or section 267 of the Bharatiya Nyaya Sanhita, 2023 is committed in the view or presence of any Civil, Criminal, or Revenue Court, the Court [[?may]] cause the offender to be detained in custody, and [[?may]], at any time before the rising of the Court on the same day, take cognizance of the offence and, after giving the offender a reasonable opportunity of showing cause why he should not be punished under this section, sentence the offender to fine not exceeding one thousand rupees, and, in default of payment of fine, to simple imprisonment for a term which may extend to one month, unless such fine be sooner paid.
+>
+> (2) In every such case the Court [[!shall]] record the fact constituting the offence, with the statement (if any) made by the offender, as well as the finding and sentence.
+>
+> (3) If the offence is under section 267 of the Bharatiya Nyaya Sanhita, 2023, the record [[!shall]] show the nature and stage of the judicial proceeding in which the Court interrupted or insulted was sitting, and the nature of the interruption or insult.
+>
+> **385. Procedure where Court considers that case should not be dealt with under section 384.** (1) If the Court in any case considers that a person accused of any of the offences referred to in section 384 and committed in its view or presence should be imprisoned otherwise than in default of payment of fine, or that a fine exceeding two hundred rupees should be imposed upon him, or such Court is for any other reason of opinion that the case should not be disposed of under section 384, such Court, after recording the facts constituting the offence and the statement of the accused as hereinbefore provided, [[?may]] forward the case to a Magistrate having jurisdiction to try the same, and [[?may]] require security to be given for the appearance of such person before such Magistrate, or if sufficient security is not given, [[!shall]] forward such person in custody to such Magistrate.
+>
+> (2) The Magistrate to whom any case is forwarded under this section [[!shall]] proceed to deal with, as far as may be, as if it were instituted on a police report.
+>
+> **386. When Registrar or Sub-Registrar to be deemed a Civil Court.** When the State Government so directs, any Registrar or any Sub-Registrar appointed under the Registration Act, 1908, [[!shall]] be deemed to be a Civil Court within the meaning of sections 384 and 385.
+>
+> **387. Discharge of offender on submission of apology.** When any Court has under section 384 adjudged an offender to punishment, or has under section 385 forwarded him to a Magistrate for trial, for refusing or omitting to do anything which he was lawfully required to do or for any intentional insult or interruption, the Court [[?may]], in its discretion, discharge the offender or remit the punishment on his submission to the order or requisition of such Court, or on apology being made to its satisfaction.
+
+::: proviso Section 384's cap is on the fine, not on the default sentence's trigger — the moment the Court wants more than a thousand rupees or genuine imprisonment, section 384 is the wrong section
+The two-hundred-rupee and thousand-rupee figures do different work. Section 384(1) lets the Court impose a fine up to one thousand rupees, with imprisonment only as a default consequence of non-payment. Section 385(1) triggers the moment the Court wants either actual imprisonment (not tied to a payment default) or any fine above two hundred rupees — a materially lower threshold than section 384's own thousand-rupee cap. A Court that wants a six-hundred-rupee fine, for instance, is already past section 385's own two-hundred-rupee line even though it remains comfortably under section 384's thousand-rupee ceiling; the case has to go to the Magistrate.
+:::
+
+::: proviso Section 386 does not create a general "Registrar as Court" rule — it is confined to sections 384 and 385, and conditional on a State Government direction
+Absent that direction, a Registrar or Sub-Registrar under the Registration Act, 1908 has no section 384/385 power at all. The deeming fiction is narrow by its own terms — "within the meaning of sections 384 and 385" — and does not extend the Registrar's authority to any other provision of this Chapter.
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offence within BNS sections 210, 213, 214, 215 or 267 is committed in the view or presence of a Civil, Criminal, or Revenue Court."
+  :gates="[
+    { q: 'Does the Court consider that real imprisonment (not merely a default sentence) or a fine above two hundred rupees is warranted, or otherwise think the case unsuitable for on-the-spot disposal?', no: 'The Court may proceed under section 384 itself — detain the offender, take cognizance before the Court rises for the day, and after a show-cause opportunity, sentence him to a fine up to one thousand rupees (with default imprisonment up to one month)' },
+    { q: 'Has the Court recorded the facts constituting the offence and the accused\'s own statement, as section 385(1) requires before forwarding?', no: 'The forwarding is premature — the recording is a precondition to sending the case on to the Magistrate' },
+    { q: 'Does the offender, after either route, submit to the Court\'s order or requisition, or offer an apology the Court finds satisfactory?', no: 'The punishment or forwarding stands; section 387\'s discharge power is discretionary and is not triggered by submission or apology alone if the Court is unsatisfied' }
+  ]"
+  result="Under section 384: the Court itself sentences the offender to a fine up to one thousand rupees, with default imprisonment up to one month. Under section 385: the Magistrate to whom the case is forwarded tries it as if it were instituted on a police report."
+  resultKind="discretionary"
+  caveat="At any point after adjudication or forwarding, the Court retains a standing discretion under section 387 to discharge the offender or remit the punishment on submission or apology — this is not a one-time election and does not require the offender to have exhausted any other remedy first."
+/>
+
+### In plain English
+
+Think of sections 384–385 as two dials on the same machine, not two different machines. The Court watches an offence happen right in front of it — a witness stonewalling, someone hurling abuse at the bench — and has to decide, on the spot, how serious a response the moment calls for. If a fine up to a thousand rupees will do, section 384 lets the Court handle it itself, immediately, before the day is out. If the Court thinks the offender needs actual imprisonment, or a heavier fine than section 385's two-hundred-rupee line, the matter has to leave the Court's own hands and go to a Magistrate, who then runs it like any ordinary criminal case. Section 386 is a narrow plumbing provision — it lets the State Government treat Registration Act registrars as if they were Civil Courts for this one purpose, nothing more. And section 387 is the release valve that sits over both routes: however the case was handled, the Court can still let the offender go, or cut the punishment short, if he submits or apologises to the Court's satisfaction.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this chapter, this guide's working view is that BNSS sections 384–387 correspond to CrPC sections 345–348. This cluster's cross-references to BNS sections 210, 213, 214, 215 and 267 are reproduced as they appear in the BNSS text itself and have not been independently checked against a bare BNS text held in this repository — treat the specific BNS section numbers as flagged pending that verification, not as confirmed.*
+
+### Test your instinct
+
+:::: instinct A witness refuses to answer a question in open Court and offers no excuse. The presiding Judge, satisfied a fine of six hundred rupees is warranted, sentences him under section 384 without forwarding the case to a Magistrate.
+::: ruling Correct — six hundred rupees is within section 384's own ceiling
+Section 384(1) permits a fine "not exceeding one thousand rupees." Six hundred rupees is within that cap, and nothing about the offence as described triggers section 385's forwarding requirement, which activates only where the Court wants actual imprisonment or a fine exceeding two hundred rupees. The Judge does not need to forward this case.
+:::
+::::
+
+:::: instinct The same Judge, in a separate matter, wants to impose a fine of three hundred rupees on a different offender for a similar refusal, and proceeds to sentence him directly under section 384.
+::: ruling Incorrect — three hundred rupees exceeds section 385(1)'s two-hundred-rupee threshold
+Section 385(1) is triggered "where... a fine exceeding two hundred rupees should be imposed" — a materially lower figure than section 384's own thousand-rupee ceiling. A three-hundred-rupee fine crosses that line even though it remains within section 384's own cap; the case must be forwarded to a Magistrate under section 385, not disposed of directly under section 384.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The summary contempt-in-facie machinery of sections 384–387 is highly fact-specific and procedural in character; this guide's verified corpus does not hold a Supreme Court authority confident enough to promote as the single winning ratio for this cluster.
+
+#### Sword and shield
+
+As a **shield**, an offender facing an on-the-spot section 384 sanction should press the Court on whether it has actually recorded the facts constituting the offence and his own statement, as sub-section (2) requires — an undocumented on-the-spot punishment is vulnerable on that ground alone — and should raise submission or apology promptly to invite the Court's section 387 discretion. As a **sword**, a Court (or a party urging a particular course upon it) faced with conduct more serious than a simple refusal — genuine insult, disruption, or conduct the Court considers deserving of real imprisonment — should forward under section 385 rather than stretch section 384's thousand-rupee ceiling and default-imprisonment structure past what it was built to carry.
+
+#### The limitation clock
+
+Section 384(1) itself imposes a same-day clock on the Court's own summary power — cognizance under section 384 must be taken "at any time before the rising of the Court on the same day" the offence was committed in its view or presence. Once the Court rises for the day without acting, the section 384 route is closed for that offence; sections 385 (forwarding to a Magistrate) is not subject to the same same-day constraint.
+
+#### Interlocking matrix
+
+This cluster's punishments feed into section 390 (built in the next cluster), which gives a right of appeal from convictions under sections 383, 384, 388 and 389. Sections 384 and 385 cross-refer to BNS sections 210, 213, 214, 215 and 267 for the underlying offences — the Interlocking Matrix records this cross-reference as it appears in the BNSS text itself, flagged pending independent verification against a bare BNS text. Section 386's Registration Act, 1908 cross-reference is noted but not independently verified against that Act's own text in this repository.
+
+#### Strategy and drafting
+
+**Model checklist for the section 384–387 stage:**
+
+1. On the bench, before invoking section 384, decide in advance the ceiling of what a fair on-the-spot sanction looks like — the moment it approaches actual imprisonment or a fine above two hundred rupees, section 385 forwarding is required, not section 384 disposal.
+2. Insist on the section 384(2) recording — the fact constituting the offence, the offender's statement, the finding, and the sentence — as a matter of course, not as an afterthought; its absence is a ready ground of challenge.
+3. Where forwarding under section 385 is in play, confirm security for the offender's appearance before the Magistrate is actually taken, or that the custody route under sub-section (1) is followed where security is not furnished.
+4. Advise a client facing either route that submission or an apology remains available at any stage under section 387 — it is not foreclosed by a Court having already adjudged punishment or forwarded the case.
+
+---
