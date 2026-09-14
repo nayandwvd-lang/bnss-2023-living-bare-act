@@ -111,3 +111,108 @@ There is no limitation period on the section 407 reference itself — the Sessio
 - Track the appeal-period clock independently of the reference; a confirmation signed in violation of the section 409 proviso is a procedural infirmity worth raising immediately, not one to save for a later stage.
 
 ---
+
+## Sections 410–412 — Two signatures, a divided Bench, and getting the order back down to the trial court
+
+### The dispute this solves
+
+::: oneminute The confirmation power under section 409 is deliberately not a one-Judge decision: section 410 requires that where the High Court hearing the reference consists of two or more Judges, the confirmation or any new sentence or order must be made, passed, and signed by at least two of them — a single Judge's view, however clear, cannot dispose of a death reference alone. Section 411 addresses what happens when a Bench that does sit is evenly split: rather than leaving the case in limbo, it is decided the same way a divided appeal Bench is resolved under section 433 — referred to a third Judge, whose opinion becomes the judgment. Section 412 is the closing administrative step: once the High Court's order is made, its proper officer must send a sealed, signed copy down to the Court of Session without delay, physically or electronically, so the trial court can act on it.
+:::
+
+::: story A two-Judge Bench splits, and a third Judge breaks the tie
+A death reference under section 407 is heard by a Division Bench of two Judges. One Judge is satisfied the conviction and sentence should be confirmed; the other, reviewing the same record, would annul the conviction and order a retrial on the ground that a material prosecution witness's cross-examination was cut short. Because the two Judges are equally divided, section 411 takes over: the case, together with both Judges' recorded opinions, is laid before a third Judge of the High Court. That Judge hears the matter afresh — not bound by either original opinion — and delivers a decision; under the section 433 mechanism the reference incorporates, the final order follows the third Judge's opinion. Once signed — and, since the Bench that ultimately disposes of the matter still consists of at least two Judges' worth of adjudication within the meaning of section 410, properly authenticated — the High Court's registry, acting under section 412, transmits a sealed and signed copy of the order to the Court of Session without delay, using the portal for speed and following up with the physical copy for the record. Only once that copy reaches the Sessions Court can the trial court act on whatever the High Court has finally ordered.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 410 — Confirmation or new sentence to be signed by two Judges
+
+"410. In every case so submitted, the confirmation of the sentence, or any new sentence or order passed by the High Court, [[!shall]], when such Court consists of two or more Judges, be made, passed and signed by at least two of them."
+:::
+
+::: proviso Section 411 — Procedure in case of difference of opinion
+
+"411. Where any such case is heard before a Bench of Judges and such Judges are equally divided in opinion, the case [[!shall]] be decided in the manner provided by section 433."
+:::
+
+::: proviso Section 412 — Revision of sentence of death
+
+"412. In cases submitted by the Court of Session to the High Court for the confirmation of a sentence of death, the proper officer of the High Court [[!shall]], without delay, after the order of confirmation or other order has been made by the High Court, send either physically, or through electronic means, a copy of the order, under the seal of the High Court and attested with his official signature, to the Court of Session."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A High Court Bench has heard a section 407 death reference and is about to make, pass, and sign its order."
+  :gates="[
+    { q: 'Does the Bench hearing the reference consist of two or more Judges, and has the resulting order been made, passed, and signed by at least two of them?', no: 'Section 410 is not satisfied — a confirmation or new sentence signed by only one Judge of a multi-Judge Court does not comply with the section, whatever the substance of the decision' },
+    { q: 'If the Bench was equally divided in opinion, was the case referred onward and decided in the manner provided by section 433 — that is, laid before a further Judge whose opinion the final order follows?', no: 'An equally-divided Bench cannot simply resolve the tie by seniority, casting vote, or re-hearing among the same two Judges — section 411 mandates the section 433 route specifically' },
+    { q: 'Has the High Court\'s proper officer sent a sealed, signed copy of the final order to the Court of Session, physically or electronically, without delay?', no: 'Section 412 has not been completed — the Sessions Court cannot act on a confirmation, substitution, annulment, or acquittal it has not yet formally received' }
+  ]"
+  result="A death-reference order is properly made once it carries at least two Judges' signatures where the Bench has that many members, once any equal division has been resolved through the section 433 mechanism, and once a sealed, signed copy has actually reached the Court of Session."
+  resultKind="mandatory"
+  caveat="Sections 410-412 are entirely about authentication and transmission, not about the substance of what the High Court decides under section 409 — a procedurally perfect two-signature order can still be substantively wrong, and a substantively correct order signed by only one Judge of a multi-Judge Bench is still non-compliant."
+/>
+
+### In plain English
+
+These three sections are the machinery that makes a death-reference decision authentic and operative, as distinct from merely correct. Section 410 refuses to let a single Judge's signature carry the full weight of a death-sentence confirmation where the Court has more than one Judge available — at least two names must appear on the order. Section 411 solves the practical problem of what happens when those two Judges cannot agree: rather than a stalemate, or a rule that ties go to the prosecution or to the defence, the case is handed to a third Judge whose opinion becomes the Court's answer, using the same escalation route Chapter XXXI uses for divided appeal Benches. Section 412 is the unglamorous but essential last step — someone in the High Court's registry has to actually get a properly sealed and signed copy of the final order down to the trial court, because until that happens, the Sessions Court has nothing it can lawfully act on, whatever was decided in the High Court's own courtroom.
+
+### What changed from the CrPC
+
+::: info Verify before citing
+BNSS sections 410–412 are provisionally mapped to CrPC sections 369–371, continuing the same Chapter XXVIII (CrPC) correspondence noted for sections 407–409 above. This mapping is unverified against the CrPC bare-act text and must be independently confirmed before use in any filing.
+:::
+
+The two-Judge signature requirement, the equal-division reference mechanism, and the registry's duty to transmit a sealed copy all read as continuations of the pre-existing CrPC scheme. The one feature worth flagging as an update rather than a carryover is section 412's explicit "physically, or through electronic means" language — an express acknowledgment of electronic transmission that the CrPC-era provision, drafted well before routine e-transmission between courts, is unlikely to have contained in the same terms. Verify the exact CrPC 371 wording before asserting this as a genuine change rather than an interpretive gloss the courts had already read into the older provision.
+
+### Test your instinct
+
+:::: instinct A death reference is heard by a three-Judge Special Bench. Two of the three Judges agree the sentence should be confirmed; the third dissents, favouring acquittal. Since there is no equal division — it is two against one — does section 411 apply, and must the matter go to a further Judge before the order can be made?
+
+::: ruling No. Section 411 is triggered only where the Judges "are equally divided in opinion." A two-to-one split is not an equal division; it is a majority decision, and the order can be made, passed, and signed by the two Judges in the majority, satisfying section 410's at-least-two-signatures requirement on its own terms. The section 433 reference-to-a-further-Judge mechanism exists specifically for the tie-breaking scenario — an evenly split Bench — not for ordinary majority decisions on a Bench of three or more.
+:::
+::::
+
+:::: instinct The High Court confirms a death sentence, and the order is properly made and signed by two Judges as section 410 requires. The registry, however, is severely backlogged, and six weeks pass before a copy of the order is actually sent to the Court of Session under section 412. During those six weeks, does the confirmed sentence become executable, since the High Court has already validly made and signed its order?
+
+::: ruling The confirmed sentence is not something the Court of Session — or anyone else — can act on until the Sessions Court actually has the order in hand. Section 412 requires the High Court's proper officer to send the sealed, signed copy "without delay," and a six-week gap is difficult to reconcile with that language; the delay is itself a compliance failure by the registry. But more fundamentally, execution of a death sentence is a step for the Court of Session to take on receiving the High Court's order (see Chapter XXXIV on execution of sentences), and a court cannot execute an order it has not received. The backlog is an administrative failure worth flagging and, where it causes real prejudice or delay to the convict, worth raising before the High Court directly — but it does not make the sentence executable in the interim on the strength of the signed-but-untransmitted order alone.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+::: info Research gap — no case promoted
+No Supreme Court or High Court authority on sections 410–412 of the BNSS is cited here, for the same reason given in the first cluster of this chapter: the numbering is too recent for a settled line of authority to exist under it. The CrPC's own case law on the two-Judge signature requirement and on the section-433-equivalent reference mechanism for divided Benches remains substantively relevant, but every citation must be independently verified against the BNSS's renumbered provisions before it is pleaded.
+:::
+
+#### Sword and shield
+
+For the **defence**, an equally divided Bench under section 411 is not a loss — it is a fresh, independent look by a third Judge unbound by either original opinion, and it is worth drawing the third Judge's attention to both recorded opinions rather than treating the reference to a further Judge as a mere formality. For the **State**, sections 410 and 412 are compliance checkpoints rather than substantive battlegrounds: verifying that a confirmation order actually carries two signatures, and that the registry has in fact transmitted a sealed copy to the Sessions Court, is basic due diligence before treating a confirmation as final and actionable.
+
+#### The limitation clock
+
+None of sections 410–412 create an independent limitation period; they govern the authentication and transmission of an order already made within the section 409 process. The only clock-sensitive language is section 412's "without delay," which is a standard of promptness for the registry's transmission duty, not a fixed number of days — but an unreasonably long gap is itself a ground to raise with the High Court, particularly where a convict's execution timeline or a pending clemency process is affected by the delay.
+
+#### Interlocking matrix
+
+- **Section 409's proviso (previous cluster)** — the confirmation these sections authenticate and transmit cannot itself be made until the appeal-period or pending-appeal condition is satisfied; sections 410–412 presuppose a section 409 decision has already been validly reached.
+- **Section 433 (Chapter XXXI, Appeals)** — the actual mechanism section 411 borrows wholesale for resolving an equally divided Bench; read the two sections together, not section 411 in isolation.
+- **Chapter XXXIV (Execution, Suspension, Remission and Commutation of Sentences)** — governs what the Court of Session does once it actually receives the section 412 order, including the procedure for carrying out a confirmed death sentence.
+- **Article 72 and Article 161 of the Constitution (clemency powers)** — outside this Sanhita entirely, but practically relevant: a convict's clemency petition timeline is often reckoned from the point the death reference and any appeal stand finally disposed of, which is precisely the point sections 410–412 formalise and transmit.
+
+#### The authorities
+
+(No entries — see Research gap note above.)
+
+#### Strategy and drafting
+
+- Before treating a confirmation order as final, verify on the record that it in fact carries at least two Judges' signatures where the Bench had two or more members — a single-Judge-signed order from a multi-Judge Bench is a defect worth raising immediately, not one to discover later.
+- If a Bench you appeared before was evenly divided, request that both recorded opinions be placed before the referred Judge in full, and consider filing brief written submissions addressing both opinions directly rather than re-arguing the case from scratch.
+- Track whether the Court of Session has actually received the section 412 order before assuming any execution or further-proceedings timeline has started running at the trial-court end — a signed High Court order sitting in the registry is not yet operative at the Sessions Court.
+- Where clemency strategy is in play, calendar the clemency-petition timeline from the point of final disposal of both the reference and any connected appeal, cross-checking against when the section 412 transmission actually reached the Sessions Court, not merely when the High Court's order was signed.
+
+---
+
