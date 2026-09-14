@@ -615,3 +615,113 @@ Section 472 is dense with hard deadlines: thirty days from the Superintendent's 
 - Where section 472(7)'s finality clause is raised against a challenge, distinguish clearly between challenging the substance of the mercy decision (barred) and challenging a procedural failure in how the section 472 process itself was conducted (an open question meriting careful constitutional argument, not conceded by the section's text).
 
 ---
+
+## Sections 475–477 — The fourteen-year floor, Central Government's death-sentence powers, and Union-interest concurrence
+
+### The dispute this solves
+
+::: oneminute Section 475 is a hard floor beneath section 473's suspension/remission power and section 474's commutation power: where a life sentence is imposed for an offence for which death was itself an available punishment, or where a death sentence has been commuted to life under section 474, the person cannot be released from prison until he has served at least fourteen years — a minimum that section 473 cannot be used to undercut. Section 476 is a narrow extension: the suspension, remission, and commutation powers that sections 473-474 give to the State Government can, for death sentences specifically, also be exercised by the Central Government. Section 477 is the Union-interest safeguard: where a sentence stems from an offence investigated by a Central agency, involving Central Government property, or committed by a person acting in Central Government service, the State Government cannot exercise its section 473/474 powers without the Central Government's concurrence — and where a person convicted on offences spanning both Union and State matters has concurrent sentences, a State order suspending, remitting, or commuting those sentences has no effect unless the Central Government makes a matching order for the Union-linked offences.
+:::
+
+::: story A concurrence requirement that blocks a State-only remission order
+A person is convicted in a single trial of offences under a Central Act (investigated by a Central agency) and an ordinary State-law offence, receiving concurrent sentences of imprisonment for both. The State Government, moved by a general remission scheme it has announced, purports to remit his sentence in full. Because one of the offences was "investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita," section 477(1)(a) applies, and the State Government's power to remit cannot be exercised in relation to that offence except after concurrence with the Central Government. Separately, because the sentences run concurrently and cover both Union-linked and State matters, section 477(2) independently bars the State's remission order from having any effect at all unless the Central Government makes a matching remission order for the Union-linked offence. Until that concurrence and matching order are obtained, the person remains in custody notwithstanding the State's general remission scheme — a result that surprises State officials unfamiliar with section 477's specific reach, but one the section's text compels.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 475 — Restriction on powers of remission or commutation in certain cases
+
+"475. Notwithstanding anything contained in section 473, where a sentence of imprisonment for life is imposed on conviction of a person for an offence for which death is one of the punishments provided by law, or where a sentence of death imposed on a person has been commuted under section 474 into one of imprisonment for life, such person [[!shall]] not be released from prison unless he had served at least fourteen years of imprisonment."
+:::
+
+::: proviso Section 476 — Concurrent power with Central Government in cases of death sentence
+
+"476. The powers conferred by sections 473 and 474 upon the State Government [[?may]], in the case of sentences of death, also be exercised by the Central Government."
+:::
+
+::: proviso Section 477 — State Government to act after concurrence with Central Government in certain cases
+
+"477. (1) The powers conferred by sections 473 and 474 upon the State Government to remit or commute a sentence, in any case where the sentence is for an offence—
+(a) which was investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita; or
+(b) which involved the misappropriation or destruction of, or damage to, any property belonging to the Central Government; or
+(c) which was committed by a person in the service of the Central Government while acting or purporting to act in the discharge of his official duty,
+
+[[!shall]] not be exercised by the State Government except after concurrence with the Central Government.
+(2) No order of suspension, remission or commutation of sentences passed by the State Government in relation to a person, who has been convicted of offences, some of which relate to matters to which the executive power of the Union extends, and who has been sentenced to separate terms of imprisonment which are to run concurrently, [[!shall]] have effect unless an order for the suspension, remission or commutation, as the case may be, of such sentences has also been made by the Central Government in relation to the offences committed by such person with regard to matters to which the executive power of the Union extends."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An order of suspension, remission, or commutation under sections 473-474 is being considered or has been passed in relation to a sentence."
+  :gates="[
+    { q: 'Is the sentence in question a life sentence for a death-eligible offence, or a death sentence already commuted to life under section 474?', no: 'Section 475\'s fourteen-year floor does not apply to this sentence; sections 473-474 operate without that specific minimum-service overlay' },
+    { q: 'If section 475 applies, has the person served at least fourteen years before any release is contemplated?', no: 'No release may occur regardless of any section 473 suspension or remission order purporting to authorise it — section 475\'s \'notwithstanding\' clause overrides section 473 on this specific point' },
+    { q: 'Does the offence fall within section 477(1)(a)-(c) — Central-agency investigation, Central Government property, or a Central Government servant\'s official-duty conduct — or does it form part of concurrent sentences spanning Union and State matters under section 477(2)?', no: 'Section 477\'s concurrence requirement is not triggered; the State Government may exercise its section 473/474 powers without seeking Central Government concurrence' }
+  ]"
+  result="A suspension, remission, or commutation order is only fully effective once it respects section 475's fourteen-year floor where applicable, and, where the offence or sentence structure falls within section 477's categories, once the required Central Government concurrence or matching order has actually been obtained."
+  resultKind="mandatory"
+  caveat="Section 476 is a purely additive power — it lets the Central Government act on death sentences alongside the State Government's sections 473-474 powers; it does not itself impose any concurrence requirement, which is entirely the separate function of section 477."
+/>
+
+### In plain English
+
+These three sections are checks on how far the executive's suspension, remission, and commutation powers actually reach. Section 475 is the most consequential for an ordinary life-sentence prisoner: however generous a remission scheme or commutation order might otherwise be, if the underlying offence carried a possible death sentence, or if the sentence started as death and was commuted to life, fourteen years is the floor — no earlier release, full stop, regardless of what section 473 would otherwise permit. Section 476 simply widens the pool of authorities who can act on a death sentence, letting the Central Government step in alongside the State Government. Section 477 is a federalism safeguard: where an offence has a genuine Central Government interest — investigated by a Central agency, involving Central property, or committed by someone acting in Central Government service — the State cannot unilaterally remit or commute; and where a single person's concurrent sentences span both Union and State matters, a State-only order granting relief simply does not take effect until the Central Government makes a matching order on the Union-linked portion.
+
+### What changed from the CrPC
+
+::: info Verify before citing
+BNSS sections 475–477 are provisionally mapped to CrPC sections 433A, 434, and 435, continuing the Chapter XXXII (CrPC) correspondence used elsewhere in this chapter — note in particular that CrPC 433A was itself inserted by amendment rather than part of the original 1973 Code, so its BNSS successor's numbering and any drafting refinements deserve close comparison rather than an assumption of verbatim continuity. This mapping is unverified against the CrPC bare-act text and must be independently confirmed before use in any filing.
+:::
+
+The fourteen-year floor, the Central Government's concurrent death-sentence power, and the Union-interest concurrence requirement all read as continuations of the CrPC's existing scheme (itself the product of a significant amendment in the CrPC's own history for the fourteen-year rule). Nothing in the extracted text of sections 475-477 signals a further substantive departure beyond what the CrPC-era provisions already established; verify each specific numbering pair independently before relying on it in submissions, particularly given section 475's amendment-derived lineage.
+
+### Test your instinct
+
+:::: instinct A prisoner is serving a life sentence for an offence that, at the time of conviction, did not carry death as a possible punishment at all. After twelve years, the State Government considers remitting his sentence under section 473. Does section 475's fourteen-year floor block this remission?
+
+::: ruling No. Section 475 applies specifically to "a sentence of imprisonment for life... imposed on conviction of a person for an offence for which death is one of the punishments provided by law," or to a death sentence commuted under section 474. Where the offence in question never carried death as an available punishment, and the life sentence was not a commuted death sentence, section 475 has no application, and the ordinary section 473 remission power operates without the fourteen-year overlay. Counsel should verify, offence by offence, whether death was actually a statutorily available punishment for the specific offence of conviction before assuming section 475 applies — the floor is not a general rule for all life sentences, only for the two categories the section specifies.
+:::
+::::
+
+:::: instinct A State Government wishes to commute a death sentence to life imprisonment under section 474(a) in a case with no Central Government connection whatsoever — a purely State-law offence, no Central agency involvement, no Central property, no Central Government servant. Must the State Government still seek Central Government concurrence under section 477, simply because the sentence involved is a death sentence and section 476 lets the Central Government also act on death sentences?
+
+::: ruling No. Section 477's concurrence requirement is triggered by the specific categories in sub-section (1)(a)-(c) — Central-agency investigation, Central Government property, or a Central Government servant's official-duty offence — or by the concurrent-sentences-spanning-Union-and-State-matters scenario in sub-section (2). None of those categories is present on these facts; the case has no Central Government connection at all. Section 476 is a separate, independent provision that merely allows the Central Government to act concurrently with the State Government on death sentences generally — it does not import section 477's concurrence requirement into every death-sentence case. Where none of section 477's specific triggers is met, the State Government may exercise its section 474 commutation power (subject to section 475's fourteen-year floor once the commutation takes effect) without seeking Central Government concurrence.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+::: info Research gap — no case promoted
+No Supreme Court or High Court authority on sections 475–477 of the BNSS is cited here, given the recency of the numbering. The CrPC's substantial case law on the fourteen-year floor (arising from the CrPC's own amendment history) and on Union-State concurrence in remission cases remains substantively relevant, but every citation must be independently re-verified against the BNSS's renumbered provisions before it is pleaded.
+:::
+
+#### Sword and shield
+
+For **defence counsel** advising a life-sentence client on remission or parole prospects, section 475 is the threshold question to resolve first — offence-by-offence verification of whether death was an available punishment, or whether the sentence began as a commuted death sentence, determines whether the fourteen-year floor even applies before any remission-scheme eligibility analysis is worth doing. For counsel or officials handling a **remission or commutation application with any Central Government angle**, section 477 is a compliance gate to clear early — identifying whether the offence was Central-agency-investigated, Central-property-related, or committed by a Central servant in official duty (or whether concurrent Union-linked sentences exist) before assuming a State-only order will actually take effect.
+
+#### The limitation clock
+
+Section 475's fourteen-year figure is a minimum-service floor, not a limitation period running against any party — it simply fixes the earliest point at which release can be considered, without guaranteeing release at that point. Sections 476-477 create no independent timing requirements; the practical clock concern is the delay inherent in obtaining Central Government concurrence under section 477, which is worth building into any realistic timeline for a remission or commutation application with a Union-interest dimension.
+
+#### Interlocking matrix
+
+- **Section 473, section 474 (this Chapter, cluster 5)** — the suspension, remission, and commutation powers that sections 475-477 respectively floor, extend, and condition; this final cluster cannot be read sensibly without that one.
+- **Article 72, Article 161 of the Constitution** — the mercy powers whose relationship to sections 473-477's statutory remission/commutation scheme is distinct but related; a mercy petition outcome under section 472 commuting a death sentence still triggers section 475's fourteen-year floor once the commutation is to life imprisonment.
+- **State-specific remission policies/rules** — referenced generally by section 473(5)'s rule-making power; any State remission scheme must itself respect section 475's floor and section 477's concurrence requirement, and cannot be assumed to override either.
+- **Central legislation creating the investigating agency** — relevant to identifying whether section 477(1)(a)'s "agency empowered to make investigation into an offence under any Central Act" is actually engaged on the facts of a given case.
+
+#### The authorities
+
+(No entries — see Research gap note above.)
+
+#### Strategy and drafting
+
+- Before advising any life-sentence client on remission or parole timelines, determine definitively whether the offence of conviction carried death as an available punishment, or whether the sentence was a section 474 commutation from death — this single determination controls whether section 475's fourteen-year floor applies at all.
+- In any remission or commutation matter with a plausible Central Government connection, proactively identify which of section 477(1)(a)-(c)'s categories might apply, and build the Central Government concurrence process into the application timeline from the outset rather than discovering the requirement after a State order is challenged.
+- Where a client has concurrent sentences spanning Union-linked and State offences, flag section 477(2) explicitly in any submission seeking suspension, remission, or commutation, since a State-only order will not have effect on the Union-linked portion without a matching Central Government order.
+- Do not conflate section 476's concurrent Central Government power to act on death sentences generally with section 477's concurrence requirement — the two operate independently, and the presence of one does not imply the other applies.
+
+---
