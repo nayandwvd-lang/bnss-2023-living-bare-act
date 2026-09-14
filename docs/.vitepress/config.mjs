@@ -52,6 +52,12 @@ export default defineConfig({
         text: 'Chapters',
         items: [
           {
+            text: 'Preliminary and the machinery of criminal courts',
+            items: [
+              { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' }
+            ]
+          },
+          {
             text: 'Police powers',
             items: [
               { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
@@ -144,7 +150,13 @@ export default defineConfig({
     // group back to hypothesis-only chapter numbers.
     sidebar: {
       '/chapters/': [
-        { text: 'Preliminary and the machinery of criminal courts', collapsed: true, items: [] },
+        {
+          text: 'Preliminary and the machinery of criminal courts',
+          collapsed: false,
+          items: [
+            { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' }
+          ]
+        },
         {
           text: 'Police powers',
           collapsed: false,
