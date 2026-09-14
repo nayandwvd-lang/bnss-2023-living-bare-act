@@ -112,3 +112,115 @@ Section 392(8) expressly preserves section 511's inherent-type powers without li
 4. Where a death sentence or an unusually short sentence has been imposed, isolate the "special reasons" or "reasons" paragraph in the judgment and assess independently whether it actually engages with the sentencing question, rather than restating the conviction reasoning.
 
 ---
+
+## Sections 394–396 — Notifying a repeat offender's address, ordering compensation, and the victim compensation scheme
+
+### The dispute this solves
+
+::: oneminute A judgment doesn't just convict and sentence — it can also reach forward into the offender's post-release life and backward into the harm the offence caused. Section 394 lets a Court, when sentencing a repeat serious offender, order that his residence and any change of it be notified for up to five years after release — a surveillance-adjacent measure distinct from the sentence itself. Section 395 lets the Court direct that a fine actually recovered, or a compensation amount ordered even where no fine was imposed, go to defray prosecution costs or to compensate the person harmed — civil-remedy machinery folded into the criminal judgment itself. Section 396 goes further still: it obliges every State Government to run a standing victim compensation scheme, funded and administered through the Legal Services Authorities, that operates independently of whether the offender is ever convicted, or even identified.
+:::
+
+::: story A victim compensated though the accused was acquitted
+A prosecution for a serious assault ends in acquittal — the complainant's identification is found unreliable, and the Court gives the accused the benefit of the doubt. At the conclusion of the trial, the Court is nonetheless satisfied that the complainant, as the victim, requires rehabilitation for the injuries actually sustained, injuries not seriously disputed in the evidence. Because the case ended in acquittal, no compensation could be ordered under section 395, which depends on a sentence being passed. The Court instead makes a recommendation for compensation under section 396(3), forwarding it to the District Legal Services Authority, which decides the quantum and awards it under the State's victim compensation scheme within the two-month period sub-section (5) contemplates — entirely independent of the acquittal, because section 396 compensation is not a consequence of conviction at all.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 394 — Order for notifying address of previously convicted offender
+
+"394. (1) When any person, having been convicted by a Court in India of an offence punishable with imprisonment for a term of three years, or upwards, is again convicted of any offence punishable with imprisonment for a term of three years or upwards by any Court other than that of a Magistrate of the second class, such Court [[?may]], if it thinks fit, at the time of passing a sentence of imprisonment on such person, also order that his residence and any change of, or absence from, such residence after release be notified as hereinafter provided for a term not exceeding five years from the date of the expiration of such sentence.
+(2) The provisions of sub-section (1) shall also apply to criminal conspiracies to commit such offences and to the abetment of such offences and attempts to commit them.
+(3) If such conviction is set aside on appeal or otherwise, such order shall become void.
+(4) An order under this section [[?may]] also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision.
+(5) The State Government [[?may]], by notification, make rules to carry out the provisions of this section relating to the notification of residence or change of, or absence from, residence by released convicts.
+(6) Such rules may provide for punishment for the breach thereof and any person charged with a breach of any such rule may be tried by a Magistrate of competent jurisdiction in the district in which the place last notified by him as his place of residence is situated."
+:::
+
+::: proviso Section 395 — Order to pay compensation
+
+"395. (1) When a Court imposes a sentence of fine or a sentence (including a sentence of death) of which fine forms a part, the Court [[?may]], when passing judgment, order the whole or any part of the fine recovered to be applied—
+(a) in defraying the expenses properly incurred in the prosecution;
+(b) in the payment to any person of compensation for any loss or injury caused by the offence, when compensation is, in the opinion of the Court, recoverable by such person in a Civil Court;
+(c) when any person is convicted of any offence for having caused the death of another person or of having abetted the commission of such an offence, in paying compensation to the persons who are, under the Fatal Accidents Act, 1855, entitled to recover damages from the person sentenced for the loss resulting to them from such death;
+(d) when any person is convicted of any offence which includes theft, criminal misappropriation, criminal breach of trust, or cheating, or of having dishonestly received or retained, or of having voluntarily assisted in disposing of, stolen property knowing or having reason to believe the same to be stolen, in compensating any bona fide purchaser of such property for the loss of the same if such property is restored to the possession of the person entitled thereto.
+(2) If the fine is imposed in a case which is subject to appeal, no such payment shall be made before the period allowed for presenting the appeal has elapsed, or, if an appeal be presented, before the decision of the appeal.
+(3) When a Court imposes a sentence, of which fine does not form a part, the Court [[?may]], when passing judgment, order the accused person to pay, by way of compensation, such amount as may be specified in the order to the person who has suffered any loss or injury by reason of the act for which the accused person has been so sentenced.
+(4) An order under this section [[?may]] also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision.
+(5) At the time of awarding compensation in any subsequent civil suit relating to the same matter, the Court [[!shall]] take into account any sum paid or recovered as compensation under this section."
+:::
+
+::: proviso Section 396 — Victim compensation scheme
+
+"396. (1) Every State Government in co-ordination with the Central Government [[!shall]] prepare a scheme for providing funds for the purpose of compensation to the victim or his dependents who have suffered loss or injury as a result of the crime and who require rehabilitation.
+(2) Whenever a recommendation is made by the Court for compensation, the District Legal Service Authority or the State Legal Service Authority, as the case may be, [[!shall]] decide the quantum of compensation to be awarded under the scheme referred to in sub-section (1).
+(3) If the trial Court, at the conclusion of the trial, is satisfied, that the compensation awarded under section 395 is not adequate for such rehabilitation, or where the cases end in acquittal or discharge and the victim has to be rehabilitated, it [[?may]] make recommendation for compensation.
+(4) Where the offender is not traced or identified, but the victim is identified, and where no trial takes place, the victim or his dependents [[?may]] make an application to the State or the District Legal Services Authority for award of compensation.
+(5) On receipt of such recommendations or on the application under sub-section (4), the State or the District Legal Services Authority [[!shall]], after due enquiry award adequate compensation by completing the enquiry within two months.
+(6) The State or the District Legal Services Authority, as the case may be, to alleviate the suffering of the victim, [[?may]] order for immediate first-aid facility or medical benefits to be made available free of cost on the certificate of the police officer not below the rank of the officer in charge of the police station or a Magistrate of the area concerned, or any other interim relief as the appropriate authority deems fit.
+(7) The compensation payable by the State Government under this section shall be in addition to the payment of fine to the victim under section 65, section 70 and sub-section (1) of section 124 of the Bharatiya Nyaya Sanhita, 2023."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court is passing judgment and sentence in a criminal trial, or a victim is seeking rehabilitation for harm suffered by an offence."
+  :gates="[
+    { q: 'Is this a case of a repeat serious offender — a second conviction for a three-year-or-more offence, following an earlier such conviction?', no: 'Section 394 residence-notification is not available on this conviction; sections 395-396 compensation questions are assessed independently of section 394' },
+    { q: 'Did the sentence include a fine, or fine-forming sentence, that was actually recovered — or does the Court wish to order compensation even absent a fine?', no: 'Section 395(1) fine-application does not arise; section 395(3) direct-compensation-without-fine, or a section 396 recommendation, may still be available' },
+    { q: 'Did the trial end in conviction with adequate section 395 compensation, or does the case end in acquittal, discharge, or an untraced offender leaving the victim unrehabilitated?', no: 'No section 396 recommendation or application is triggered; the victim\'s rehabilitation, if needed, is not addressed by this cluster\'s machinery' }
+  ]"
+  result="A repeat serious offender may additionally face a five-year residence-notification order under section 394; recovered fines or direct compensation orders under section 395 can defray prosecution costs and compensate loss; and, wherever section 395 proves inadequate or unavailable — including in acquittal, discharge, or untraced-offender cases — the victim compensation scheme under section 396 remains independently available through the Legal Services Authorities."
+  resultKind="discretionary"
+  caveat="Section 396 compensation is not conditioned on conviction at all — sub-sections (3) and (4) expressly extend it to acquittals, discharges, and cases where no trial takes place because the offender was never traced, provided the victim is identified."
+/>
+
+### In plain English
+
+Section 394 is a narrow, opt-in surveillance tool aimed specifically at a person who has now been convicted twice of serious offences — it is not automatic, and it lapses the moment the second conviction is set aside on appeal. Sections 395 and 396 are where the chapter's real weight sits, and they work as a two-tier safety net: section 395 is the first tier, letting the sentencing Court itself direct that a recovered fine, or a freestanding compensation order even without a fine, go to the person actually harmed — but it depends on there being a conviction and a sentence to hang the order on. Section 396 is the second, wider tier — a State-run compensation scheme that does not care whether there was ever a conviction at all. An acquittal, a discharge, or an offender who was never even caught can all still end with the victim compensated, because rehabilitating the victim and punishing the offender are treated as two separate questions, not one.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this guide, this guide's working view is that BNSS section 394 corresponds to CrPC section 356, BNSS section 395 to CrPC section 357, and BNSS section 396 to CrPC section 357A. Section 396's cross-references to BNS sections 65, 70 and 124(1) are reproduced as they appear in the BNSS text itself and have not been independently checked against a bare BNS text held in this repository — treat the specific BNS section numbers as flagged pending that verification, not as confirmed.*
+
+### Test your instinct
+
+:::: instinct A trial Court convicts an accused of theft and sentences him to a fine, but does not order any part of the recovered fine to be paid as compensation to the person from whom the property was stolen, on the view that compensation is a civil-suit remedy and not the criminal Court's business.
+::: ruling A misreading of section 395 — the criminal Court has an express, discretionary power to compensate from the fine
+Section 395(1)(b) squarely contemplates the Court ordering the fine recovered to be applied "in the payment to any person of compensation for any loss or injury caused by the offence, when compensation is, in the opinion of the Court, recoverable by such person in a Civil Court." The power is discretionary, not mandatory — but declining to even consider it on the mistaken premise that compensation belongs exclusively to a civil suit misstates what section 395 does.
+:::
+::::
+
+:::: instinct A complainant, whose assailant is acquitted for want of reliable identification evidence, is told by the trial Court that no compensation of any kind is available to her because there is no conviction to hang an order on.
+::: ruling Incorrect — section 396(3) exists precisely for this situation
+Section 396(3) expressly empowers the trial Court, at the conclusion of a trial that "end[s] in acquittal or discharge," to make a recommendation for compensation where the victim needs rehabilitation. The absence of a conviction forecloses section 395, not section 396 — the two provisions are designed to cover different situations, not to duplicate each other.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The scope of the criminal Court's compensation power and its relationship to the State victim compensation scheme are propositions this guide has not yet matched to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **sword**, counsel for a complainant or victim should press for a section 395 compensation order at the sentencing stage as a matter of course wherever loss or injury is shown, and, where the trial ends adversely to the prosecution or the section 395 award proves inadequate, should pursue a section 396 recommendation or direct application rather than treating the criminal case's outcome as the end of the road. As a **shield**, an accused facing a section 394 residence-notification order should confirm both convictions genuinely carry a three-year-or-more sentence exposure and that the order is confined to the five-year outer limit — and should immediately move to have the order treated as void the moment the underlying conviction is set aside on appeal, since sub-section (3) makes that automatic rather than requiring a fresh application.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 394–396 for the making of these orders at judgment. Section 396(5)'s own internal clock binds the State or District Legal Services Authority, not the victim: the Authority must complete its enquiry and award adequate compensation "within two months" of receiving a recommendation or application. Section 394's own five-year clock runs from the expiration of the sentence, not from conviction.
+
+#### Interlocking matrix
+
+Section 395 interlocks with the Fatal Accidents Act, 1855 for death-causing offences, and with any subsequent civil suit on the same facts, which section 395(5) requires to account for compensation already paid or recovered. Section 396 interlocks with the Legal Services Authorities Act machinery (District and State Legal Services Authorities) and with BNS sections 65, 70 and 124(1) for fine-based victim payments that stack on top of, rather than substitute for, the section 396 scheme. Section 397 (built in the next cluster) supplies the parallel first-aid and treatment obligation on hospitals that this cluster's compensation machinery assumes exists.
+
+#### Strategy and drafting
+
+**Model checklist for the section 394–396 stage:**
+
+1. Before seeking a section 394 order, confirm on the record that both the present and the prior conviction independently carry three-year-or-more imprisonment exposure — the section does not apply to a first serious conviction, however grave.
+2. At every sentencing hearing involving a fine or provable loss, raise section 395 compensation affirmatively rather than leaving it to the Court's own initiative — the power is discretionary and easily overlooked if not pressed.
+3. Where a trial is heading toward acquittal, discharge, or has stalled because the offender cannot be traced, advise the victim early that a section 396 recommendation or direct application remains available, and identify the correct Legal Services Authority (District or State) to approach.
+4. Track the two-month enquiry clock under section 396(5) once a recommendation or application is filed, and escalate within the Legal Services Authority structure if that clock is not met.
+
+---
