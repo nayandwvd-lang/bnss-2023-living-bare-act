@@ -224,3 +224,104 @@ Section 395 interlocks with the Fatal Accidents Act, 1855 for death-causing offe
 4. Track the two-month enquiry clock under section 396(5) once a recommendation or application is filed, and escalate within the Legal Services Authority structure if that clock is not met.
 
 ---
+
+## Sections 397–400 — Emergency treatment of victims, witness protection, and two costs-shifting powers
+
+### The dispute this solves
+
+::: oneminute Four short, largely self-contained provisions close out the chapter's victim- and process-facing machinery before it turns to sentencing alternatives. Section 397 is an emergency-room rule, not a courtroom one: every hospital, public or private, must give free, immediate first-aid or treatment to victims of a defined list of serious BNS offences and to certain POCSO Act offences, and must inform the police at once — a duty that runs regardless of whether any criminal case has yet been registered. Section 398 requires every State Government to notify a Witness Protection Scheme. Sections 399 and 400 are both costs-shifting tools aimed at correcting a specific imbalance: section 399 compensates a person who was arrested on a complaint that turns out to have had no sufficient ground, and section 400 lets a Court order a convicted accused, in a non-cognizable case set in motion by a private complainant, to bear the complainant's prosecution costs.
+:::
+
+::: story The hospital that treats first and asks questions never
+A woman arrives at a private hospital's emergency department with injuries consistent with acid violence, an offence within section 397's list by cross-reference to the relevant BNS provision. No FIR has yet been registered, no police officer has yet arrived, and no one has yet determined which offence, if any, will ultimately be charged. Section 397 does not wait for any of that: the hospital is obliged to provide first-aid or medical treatment free of cost immediately, and only then inform the police of the incident. Weeks later, in the resulting prosecution, it emerges that the initial complaint naming a bystander as the assailant had no sufficient ground — the true assailant is someone else entirely. The Magistrate, satisfied that the bystander was arrested without sufficient cause, awards him compensation under section 399 for his lost time and expense, recoverable from the complainant as if it were a fine.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 397 — Treatment of victims
+
+"397. All hospitals, public or private, whether run by the Central Government, the State Government, local bodies or any other person, [[!shall]] immediately, provide the first-aid or medical treatment, free of cost, to the victims of any offence covered under section 64, section 65, section 66, section 67, section 68, section 70, section 71 or sub-section (1) of section 124 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012, and [[!shall]] immediately inform the police of such incident."
+:::
+
+::: proviso Section 398 — Witness protection scheme
+
+"398. Every State Government [[!shall]] prepare and notify a Witness Protection Scheme for the State with a view to ensure protection of the witnesses."
+:::
+
+::: proviso Section 399 — Compensation to persons groundlessly arrested
+
+"399. (1) Whenever any person causes a police officer to arrest another person, if it appears to the Magistrate by whom the case is heard that there was no sufficient ground for causing such arrest, the Magistrate [[?may]] award such compensation, not exceeding one thousand rupees, to be paid by the person so causing the arrest to the person so arrested, for his loss of time and expenses in the matter, as the Magistrate thinks fit.
+(2) In such cases, if more persons than one are arrested, the Magistrate [[?may]], in like manner, award to each of them such compensation, not exceeding one thousand rupees, as such Magistrate thinks fit.
+(3) All compensation awarded under this section may be recovered as if it were a fine, and, if it cannot be so recovered, the person by whom it is payable [[!shall]] be sentenced to simple imprisonment for such term not exceeding thirty days as the Magistrate directs, unless such sum is sooner paid."
+:::
+
+::: proviso Section 400 — Order to pay costs in non-cognizable cases
+
+"400. (1) Whenever any complaint of a non-cognizable offence is made to a Court, the Court, if it convicts the accused, [[?may]], in addition to the penalty imposed upon him, order him to pay to the complainant, in whole or in part, the cost incurred by him in the prosecution, and [[?may]] further order that in default of payment, the accused shall suffer simple imprisonment for a period not exceeding thirty days and such costs may include any expenses incurred in respect of process-fees, witnesses and advocate's fees which the Court may consider reasonable.
+(2) An order under this section [[?may]] also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A person requires emergency medical attention as a victim of a listed offence, or a person has been arrested, or a non-cognizable complaint has resulted in conviction."
+  :gates="[
+    { q: 'Is the injury a victim of an offence within section 397\'s list of BNS or POCSO provisions, requiring immediate hospital treatment?', no: 'Section 397\'s free, immediate-treatment obligation is not triggered by this injury; ordinary hospital admission and payment terms apply' },
+    { q: 'Was a person arrested by a police officer at the instance of a complainant, and does the Magistrate find no sufficient ground existed for that arrest?', no: 'Section 399 compensation is not available; the arrest, whether or not it led to a conviction, stands unchallenged on this ground' },
+    { q: 'Did a non-cognizable complaint result in a conviction, with the complainant having incurred prosecution costs?', no: 'Section 400 costs-shifting does not arise; the complainant bears his own prosecution costs regardless of the case\'s outcome' }
+  ]"
+  result="Victims of the listed offences receive free, immediate hospital treatment under section 397 regardless of case status; a groundlessly arrested person may recover compensation up to one thousand rupees per person under section 399; and a successful private complainant in a non-cognizable case may recover prosecution costs from the convicted accused under section 400."
+  resultKind="discretionary"
+  caveat="Section 397's treatment obligation is the one mandatory duty in this cluster running on hospitals directly — sections 399 and 400 are both discretionary powers vested in the Magistrate or Court, not entitlements that arise automatically from the underlying facts."
+/>
+
+### In plain English
+
+These four sections don't share a single theme so much as they mop up a set of practical gaps the chapter would otherwise leave open. Section 397 is aimed at hospitals, not courts — it exists so that a victim of serious violence is never turned away or billed while a criminal case is still being sorted out. Section 398 is a one-line institutional mandate: every State must have a witness protection scheme on the books. Section 399 and section 400 are mirror-image costs tools: 399 protects a person wrongly dragged into custody by someone else's baseless complaint, while 400 protects a private complainant who did the work of prosecuting a minor, non-cognizable offence and won, letting him recover what that effort cost him from the person who made him do it.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this guide, this guide's working view is that BNSS section 397 has no direct CrPC 1973 equivalent — mandatory hospital treatment of crime victims is new content, not a renumbered carryover, and this guide has not located an equivalent CrPC provision. BNSS section 398 similarly appears to be new; a witness protection scheme mandate did not exist as a Sanhita-level obligation before. BNSS section 399 corresponds, on the flat offset hypothesis, to CrPC section 358, and BNSS section 400 to CrPC section 359 — both subject to verification against a bare CrPC text. The cross-references in section 397 to BNS sections 64, 65, 66, 67, 68, 70, 71 and 124(1), and to sections 4, 6, 8 and 10 of the Protection of Children from Sexual Offences Act, 2012, are reproduced as they appear in the BNSS text itself and have not been independently checked against those Acts' own texts in this repository.*
+
+### Test your instinct
+
+:::: instinct A private hospital refuses to treat an acid-attack victim brought in without a police escort or a registered FIR, insisting that a First Information Report must be shown before treatment can begin.
+::: ruling The hospital is in breach of section 397
+The text imposes the treatment obligation "immediately," and requires the hospital itself to "immediately inform the police of such incident" — the obligation to treat comes first, and informing the police is the hospital's own downstream duty, not a precondition the victim or anyone else must satisfy before treatment begins. Demanding an FIR as a precondition inverts the section's own sequence.
+:::
+::::
+
+:::: instinct A Magistrate declines to award section 399 compensation to a groundlessly arrested person on the basis that he has already recovered a much larger sum through a separate civil suit for malicious prosecution against the complainant.
+::: ruling A permissible exercise of discretion, but not a legal bar — section 399 does not preclude concurrent civil relief
+Section 399(1) is phrased in discretionary terms — "the Magistrate may award such compensation... as the Magistrate thinks fit" — meaning that whether to award compensation, and how much within the one-thousand-rupee cap, is squarely within the Magistrate's judgment, and considering other relief already obtained is a legitimate factor. But nothing in the text makes a civil award a bar to section 399 compensation as a matter of law; the Magistrate could equally have made a token award or declined for reasons unrelated to the civil suit, and either course, properly reasoned, stays within the section.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The scope of the hospital treatment obligation under section 397, and the discretionary compensation powers under sections 399–400, are propositions this guide has not yet matched to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **shield**, a hospital or its counsel facing a section 397 non-compliance allegation should confirm whether the injury actually falls within the section's closed list of BNS and POCSO cross-references before conceding the obligation applied — the duty is not general to all injuries, only to the listed offences. As a **sword**, counsel for a client arrested on a complaint that collapses should raise section 399 compensation at the earliest hearing where the groundlessness of the arrest becomes apparent, rather than waiting for the case to conclude, since the Magistrate's satisfaction that there was "no sufficient ground" for the arrest is the operative trigger, not the case's ultimate disposal.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 397–400. Section 399(3)'s own internal clock is the thirty-day cap on simple imprisonment in default of payment of awarded compensation, not a limitation period for seeking the compensation itself.
+
+#### Interlocking matrix
+
+Section 397 interlocks with BNS sections 64–71 and 124(1) (offences of sexual violence and acid attacks) and with sections 4, 6, 8 and 10 of the Protection of Children from Sexual Offences Act, 2012 — the closed list defining which victims trigger the mandatory treatment duty. Section 398's Witness Protection Scheme interlocks with this chapter's own section 396 victim compensation scheme as parallel State-level protective machinery, though the two run through different institutional channels. Section 399 compensation, recoverable "as if it were a fine," draws on the same fine-recovery machinery used throughout this chapter's compensation provisions.
+
+#### Strategy and drafting
+
+**Model checklist for the section 397–400 stage:**
+
+1. Where a client has been denied free emergency treatment as a listed-offence victim, document the refusal and the hospital's stated reason immediately — section 397 compliance is fact-specific and time-sensitive evidence.
+2. Do not wait for the trial's conclusion to raise a section 399 compensation claim where the groundlessness of an arrest is already apparent on the record — raise it as soon as the Magistrate hearing the case can assess sufficiency of ground.
+3. In a non-cognizable prosecution run by a private complainant, keep a running record of process-fees, witness expenses and advocate's fees from the outset, so a section 400 costs application on conviction is supported by contemporaneous figures rather than reconstructed estimates.
+4. Before assuming section 398's Witness Protection Scheme applies to a particular witness situation, check the specific State's notified scheme — the section obliges the State Government to notify a scheme but does not itself prescribe the scheme's content.
+
+---
