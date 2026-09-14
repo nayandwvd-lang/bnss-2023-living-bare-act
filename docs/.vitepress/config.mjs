@@ -114,7 +114,8 @@ export default defineConfig({
           {
             text: 'Execution, transfer and miscellaneous',
             items: [
-              { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' }
+              { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' },
+              { text: 'Chapter XXXVII — Irregular proceedings (ss. 506–512)', link: '/chapters/chapter-37' }
             ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
@@ -202,7 +203,8 @@ export default defineConfig({
           text: 'Execution, transfer and miscellaneous',
           collapsed: false,
           items: [
-            { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' }
+            { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' },
+            { text: 'Chapter XXXVII — Irregular proceedings (ss. 506–512)', link: '/chapters/chapter-37' }
           ]
         }
       ],
