@@ -54,7 +54,8 @@ export default defineConfig({
           {
             text: 'Preliminary and the machinery of criminal courts',
             items: [
-              { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' }
+              { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' },
+              { text: 'Chapter II — Constitution of criminal courts and offices (ss. 6–20)', link: '/chapters/chapter-02' }
             ]
           },
           {
@@ -154,7 +155,8 @@ export default defineConfig({
           text: 'Preliminary and the machinery of criminal courts',
           collapsed: false,
           items: [
-            { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' }
+            { text: 'Chapter I — Preliminary (ss. 1–5)', link: '/chapters/chapter-01' },
+            { text: 'Chapter II — Constitution of criminal courts and offices (ss. 6–20)', link: '/chapters/chapter-02' }
           ]
         },
         {
