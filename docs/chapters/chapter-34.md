@@ -348,3 +348,140 @@ This cluster does not impose an external limitation period, but section 464(1)(a
 - Document any circumstance likely to cause a missed instalment (medical emergency, documented cash-flow disruption) contemporaneously, so it is available to argue against immediate execution of a suspended default sentence under section 464(1)(b) if a payment date is missed.
 
 ---
+
+## Sections 465–471 — Who signs the warrant, escaped convicts, consecutive sentences, set-off, and the paper trail
+
+### The dispute this solves
+
+::: oneminute Part D is the set of background rules that apply across every kind of execution in this chapter, not just one sentence-type. Section 465 says a warrant may issue from the sentencing Judge or Magistrate, or from whoever now holds that office as successor. Section 466 fixes when a fresh sentence on an escaped convict starts running — immediately for death, life imprisonment, or fine, and for a further prison term either immediately (if the new sentence is more severe in kind) or only after the unexpired portion of the old sentence is served (if it is not), with rigorous imprisonment deemed more severe than simple imprisonment. Section 467 is the default rule for someone already serving a sentence who gets a fresh one: consecutive by default, concurrent only if the Court says so, with a proviso protecting a person imprisoned in default of security under section 141 who is then sentenced for an earlier offence. Section 468 is the set-off: pre-conviction custody time is credited against the sentence finally imposed, with a special link to section 475's fourteen-year minimum in death-commutation cases. Section 469 stops sections 466 and 467 being read as an excuse from any part of a punishment, and adds a specific sequencing rule for stacked default-imprisonment awards. Section 470 is the paperwork close-out — a warrant, once fully executed, is returned to the issuing Court with an endorsement of how it was carried out. Section 471 sweeps in every other kind of money order under the Sanhita whose recovery method is not otherwise specified, treating it as if it were a fine for recovery purposes, with a specific textual patch for section 400 costs orders.
+:::
+
+::: story A convict's fresh sentence, and the clock that does not restart
+A convict serving a term of simple imprisonment escapes from custody. He is later recaptured, tried for the escape itself, and sentenced afresh to a further term of simple imprisonment for that offence. Because the new sentence is simple imprisonment — not severer in kind than the simple imprisonment he was already undergoing when he escaped — section 466(2)(b) requires the new sentence to take effect only after he has served a further period equal to whatever remained unexpired of his original sentence at the moment he escaped; it does not simply tack on, and it certainly does not let the escape itself erase the unserved balance. Meanwhile, at trial, this same convict's counsel establishes that he spent four months in pre-trial detention for the escape charge before conviction; under section 468, that period is set off against whatever term is now imposed for the escape offence, reducing the actual further time he must serve once the section 466(2)(b) waiting period ends. Section 469(1) makes clear that none of this — the escape rules, the set-off, the sequencing — excuses him from any part of either sentence; it only fixes the order and timing in which the two sentences are actually served out.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 465 — Who may issue warrant
+
+"465. Every warrant for the execution of a sentence [[?may]] be issued either by the Judge or Magistrate who passed the sentence, or by his successor-in-office."
+:::
+
+::: proviso Section 466 — Sentence on escaped convict when to take effect
+
+"466. (1) When a sentence of death, imprisonment for life or fine is passed under this Sanhita on an escaped convict, such sentence [[!shall]], subject to the provisions hereinbefore contained, take effect immediately.
+(2) When a sentence of imprisonment for a term is passed under this Sanhita on an escaped convict,—
+(a) if such sentence is severer in kind than the sentence which such convict was undergoing when he escaped, the new sentence [[!shall]] take effect immediately;
+(b) if such sentence is not severer in kind than the sentence which such convict was undergoing when he escaped, the new sentence [[!shall]] take effect after he has suffered imprisonment for a further period equal to that which, at the time of his escape, remained unexpired of his former sentence.
+(3) For the purposes of sub-section (2), a sentence of rigorous imprisonment [[!shall]] be deemed to be severer in kind than a sentence of simple imprisonment."
+:::
+
+::: proviso Section 467 — Sentence on offender already sentenced for another offence
+
+"467. (1) When a person already undergoing a sentence of imprisonment is sentenced on a subsequent conviction to imprisonment or imprisonment for life, such imprisonment or imprisonment for life [[!shall]] commence at the expiration of the imprisonment to which he has been previously sentenced, unless the Court directs that the subsequent sentence shall run concurrently with such previous sentence:
+
+Provided that where a person who has been sentenced to imprisonment by an order under section 141 in default of furnishing security is, whilst undergoing such sentence, sentenced to imprisonment for an offence committed prior to the making of such order, the latter sentence shall commence immediately.
+
+(2) When a person already undergoing a sentence of imprisonment for life is sentenced on a subsequent conviction to imprisonment for a term or imprisonment for life, the subsequent sentence [[!shall]] run concurrently with such previous sentence."
+:::
+
+::: proviso Section 468 — Period of detention undergone by accused to be set off against sentence of imprisonment
+
+"468. Where an accused person has, on conviction, been sentenced to imprisonment for a term, not being imprisonment in default of payment of fine, the period of detention, if any, undergone by him during the investigation, inquiry or trial of the same case and before the date of such conviction, [[!shall]] be set off against the term of imprisonment imposed on him on such conviction, and the liability of such person to undergo imprisonment on such conviction shall be restricted to the remainder, if any, of the term of imprisonment imposed on him:
+
+Provided that in cases referred to in section 475, such period of detention shall be set off against the period of fourteen years referred to in that section."
+:::
+
+::: proviso Section 469 — Saving
+
+"469. (1) Nothing in section 466 or section 467 [[!shall]] be held to excuse any person from any part of the punishment to which he is liable upon his former or subsequent conviction.
+(2) When an award of imprisonment in default of payment of a fine is annexed to a substantive sentence of imprisonment and the person undergoing the sentence is after its execution to undergo a further substantive sentence or further substantive sentences of imprisonment, effect [[!shall]] not be given to the award of imprisonment in default of payment of the fine until the person has undergone the further sentence or sentences."
+:::
+
+::: proviso Section 470 — Return of warrant on execution of sentence
+
+"470. When a sentence has been fully executed, the officer executing it [[!shall]] return the warrant to the Court from which it is issued, with an endorsement under his hand certifying the manner in which the sentence has been executed."
+:::
+
+::: proviso Section 471 — Money ordered to be paid recoverable as a fine
+
+"471. Any money (other than a fine) payable by virtue of any order made under this Sanhita, and the method of recovery of which is not otherwise expressly provided for, [[!shall]] be recoverable as if it were a fine:
+
+Provided that section 461 shall, in its application to an order under section 400, by virtue of this section, be construed as if in the proviso to sub-section (1) of section 461, after the words and figures 'under section 395', the words and figures 'or an order for payment of costs under section 400' had been inserted."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court needs to determine when a particular sentence of imprisonment actually commences, and how it interacts with any other sentence the person is already serving."
+  :gates="[
+    { q: 'Is the convict an escaped convict being sentenced afresh under section 466, rather than an ordinary offender under section 467?', no: 'Section 467 governs instead — the default rule is that a fresh sentence on someone already serving a term runs consecutively, commencing on expiry of the earlier sentence, unless the Court directs concurrency, or the section 141 default-security proviso applies' },
+    { q: 'Under section 466, is the new term-of-years sentence severer in kind (rigorous versus simple) than the sentence the convict was undergoing at the time of escape?', no: 'The new sentence does not take effect immediately; it commences only after the convict has served a further period equal to whatever remained unexpired of the former sentence at the time of escape' },
+    { q: 'Has any pre-conviction detention period for the same case been set off against the term now being imposed, as section 468 requires?', no: 'Section 468\'s mandatory set-off has not been applied — the person\'s custodial liability has not been correctly restricted to the true remainder of the imposed term' }
+  ]"
+  result="A fresh sentence of imprisonment commences according to section 466 (escaped convict) or section 467 (ordinary subsequent sentence) as applicable, is never treated as excusing any part of an earlier or later punishment per section 469(1), and is always net of any pre-conviction detention already set off under section 468."
+  resultKind="mandatory"
+  caveat="Section 465's who-may-issue-the-warrant rule and section 470's return-of-warrant duty are administrative bookends to this cluster, not substantive sentencing rules — a defect in either does not itself change when a sentence commences or how much of it remains to be served, though it can be a genuine procedural irregularity worth raising."
+/>
+
+### In plain English
+
+This cluster is the Sanhita's answer to the question "given everything else going on in a person's criminal history, when does this particular sentence actually start, and how much of it is left?" Section 466 handles the escaped-convict scenario with a logic that punishes escape without double-counting: a harsher new sentence starts at once, but a new sentence no harsher than the one the person fled from has to wait until the unserved balance of the old one is made up, so escaping never shortens the total time actually served. Section 467 sets the default assumption for anyone already in custody who picks up a new sentence — one sentence after another, not simultaneously, unless a Court positively decides otherwise — with a narrow carve-out protecting someone who was really just being held for want of a security bond, not for an offence, when an older, unrelated offence catches up with them. Section 468 is arguably the most practically important rule in the whole cluster for an ordinary defendant: time spent in custody before conviction is not wasted time — it comes directly off the sentence. Section 469 exists purely to close a potential loophole: none of this sequencing and set-off machinery is to be misread as forgiving any portion of any sentence. Sections 465, 470, and 471 are the connective tissue — who can sign a warrant, what happens on paper once a sentence is actually carried out, and how the Sanhita recovers other kinds of money orders that do not have their own dedicated recovery section.
+
+### What changed from the CrPC
+
+::: info Verify before citing
+BNSS sections 465–471 are provisionally mapped to CrPC sections 425–431, continuing the Chapter XXXII (CrPC) correspondence used elsewhere in this chapter. This mapping is unverified against the CrPC bare-act text and must be independently confirmed before use in any filing.
+:::
+
+The escaped-convict commencement rules, the consecutive-by-default/concurrent-by-order scheme for subsequent sentences, the mandatory pre-conviction set-off, the non-excusal saving clause, the warrant-return duty, and the fine-recovery sweep-up provision all read as continuations of the CrPC's existing scheme. The one item worth flagging for independent verification rather than assuming as a carryover is section 468's proviso tying the set-off explicitly to "the period of fourteen years referred to in that section" — i.e., section 475 — since that specific cross-reference depends on section 475 existing in its current BNSS form and number; confirm the CrPC's equivalent set-off provision uses the same or a differently structured link before treating this as unchanged.
+
+### Test your instinct
+
+:::: instinct A person serving a sentence of rigorous imprisonment escapes and is recaptured. At trial for the escape, he is sentenced to a further term of simple imprisonment. Since simple imprisonment is, in the everyday sense, a "lesser" or "lighter" sentence than what he was already serving, does the new sentence take effect immediately under section 466(2)(a), on the theory that a lighter sentence added to a heavier one poses no unfairness?
+
+::: ruling No — this gets the comparison backwards. Section 466(2)(a) asks whether the new sentence is "severer in kind than the sentence which such convict was undergoing when he escaped," and section 466(3) fixes the comparison: rigorous imprisonment is deemed severer in kind than simple imprisonment. Here the convict was undergoing rigorous imprisonment and the new sentence is simple imprisonment — the new sentence is not severer in kind than the old one; if anything it is milder. Section 466(2)(b) therefore applies: the new, milder sentence takes effect only after he has served the unexpired balance of the original rigorous-imprisonment term. The instinct that a "lighter" new sentence should simply run immediately conflates severity of the new sentence in isolation with the section's actual severer-than-the-old-one comparison, which is what triggers immediate effect.
+:::
+::::
+
+:::: instinct A person already serving a substantive sentence of imprisonment for offence A is convicted of offence B and sentenced to a further term, to run consecutively per the section 467(1) default. The sentence for offence B also carries a default-imprisonment component (for non-payment of an accompanying fine), and there is no order directing this default term to run concurrently with anything. Does the default-imprisonment component for offence B begin running immediately once the substantive sentence for offence A ends, alongside the substantive sentence for offence B?
+
+::: ruling Not necessarily immediately alongside the offence-B substantive sentence — section 469(2) requires a further sequencing step. Where imprisonment in default of a fine is "annexed to a substantive sentence of imprisonment," and the person is to undergo a further substantive sentence or sentences of imprisonment after the first is executed, "effect shall not be given to the award of imprisonment in default of payment of the fine until the person has undergone the further sentence or sentences." Read together with section 467(1)'s consecutive-by-default rule, the practical sequence is: offence A's substantive term, then offence B's substantive term, and only after both substantive terms are served does the default-imprisonment component for the unpaid fine on offence B potentially come into play (assuming the fine remains unpaid at that point) — the default term does not run in parallel with, or immediately upon expiry of, the offence-A sentence while a further substantive sentence for offence B is still outstanding.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+::: info Research gap — no case promoted
+No Supreme Court or High Court authority on sections 465–471 of the BNSS is cited here, given the recency of the numbering. The CrPC's substantial case law on set-off of pre-conviction detention (section 468's predecessor) and on the escaped-convict and consecutive-sentence rules remains substantively relevant, but every citation must be independently re-verified against the BNSS's renumbered provisions before it is pleaded.
+:::
+
+#### Sword and shield
+
+For the **defence**, section 468's set-off is not automatic bookkeeping to be assumed — it is worth affirmatively verifying at sentencing that the full period of pre-conviction detention for the same case has actually been credited, since an uncredited period directly extends actual custody time; this is one of the highest-value, lowest-effort checks available at every sentencing hearing. Section 467(1)'s concurrency option is also worth actively arguing for where the facts support it, since the Court's default is consecutive sentencing and concurrency requires a positive direction. For the **prosecution**, section 466's escaped-convict rules and section 469's non-excusal saving are the safeguards against an escape functionally shortening a convict's real total custody time — worth invoking explicitly in any escape-related sentencing to ensure the arithmetic is done correctly on the record.
+
+#### The limitation clock
+
+This cluster does not impose independent limitation periods; its content is entirely about sequencing and crediting time against sentences already imposed within other timelines. The one place a "clock" genuinely matters is section 468's set-off calculation itself, which requires precise dating of the pre-conviction detention period (investigation, inquiry, or trial custody for the same case) — getting the start and end dates right is a factual, not procedural, precision exercise.
+
+#### Interlocking matrix
+
+- **Section 141 (default security orders)** — expressly cross-referenced in the section 467(1) proviso protecting a person imprisoned in default of security when a later, earlier-committed offence sentence is imposed.
+- **Section 475 (this Chapter, cluster 6)** — expressly cross-referenced in the section 468 proviso for the fourteen-year minimum-service rule in death-commutation cases; the set-off there operates against the fourteen-year period, not the nominal life sentence.
+- **Section 395, section 400 (Chapter XXIX)** — both cross-referenced in section 471's fine-recovery sweep-up provision, which explicitly patches the section 461(1) proviso to cover section 400 costs orders as well as section 395 compensation orders.
+- **Section 461 (this Chapter, cluster 3)** — the fine-levy machinery that section 471 extends, by deeming, to other categories of money orders under the Sanhita.
+
+#### The authorities
+
+(No entries — see Research gap note above.)
+
+#### Strategy and drafting
+
+- At every sentencing hearing involving a term of imprisonment, affirmatively raise and confirm the section 468 set-off calculation on the record — do not assume the Court or the jail authorities will apply it correctly without prompting.
+- Where a client faces a subsequent sentence while already serving one, make a specific, reasoned application for concurrency under section 467(1) if the facts support it — silence on the point defaults to consecutive sentencing.
+- In escape-related matters, verify the "severer in kind" comparison under section 466(2)-(3) carefully before advising a client on when a fresh sentence will actually commence — the comparison is between the new sentence and the sentence being served at the moment of escape, not a general sense of which sentence is "worse."
+- Where a client faces stacked substantive and default-imprisonment sentences across multiple offences, map out the full sequencing under sections 467(1) and 469(2) before advising on a realistic release date — the default-imprisonment component for an earlier offence does not necessarily run before or alongside a later substantive sentence.
+
+---
