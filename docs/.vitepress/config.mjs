@@ -107,7 +107,8 @@ export default defineConfig({
           {
             text: 'Appeals, reference, revision and inherent powers',
             items: [
-              { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' }
+              { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' },
+              { text: 'Chapter XXXII — Reference and revision (ss. 436–445)', link: '/chapters/chapter-32' }
             ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
@@ -187,7 +188,8 @@ export default defineConfig({
           text: 'Appeals, reference, revision and inherent powers',
           collapsed: false,
           items: [
-            { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' }
+            { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' },
+            { text: 'Chapter XXXII — Reference and revision (ss. 436–445)', link: '/chapters/chapter-32' }
           ]
         },
         { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
