@@ -98,7 +98,8 @@ export default defineConfig({
           {
             text: 'Judgment, sentence and disposal of property',
             items: [
-              { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' }
+              { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' },
+              { text: 'Chapter XXX — Submission of death sentences for confirmation (ss. 407–412)', link: '/chapters/chapter-30' }
             ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
@@ -168,7 +169,8 @@ export default defineConfig({
           text: 'Judgment, sentence and disposal of property',
           collapsed: false,
           items: [
-            { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' }
+            { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' },
+            { text: 'Chapter XXX — Submission of death sentences for confirmation (ss. 407–412)', link: '/chapters/chapter-30' }
           ]
         },
         { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
