@@ -110,6 +110,12 @@ export default defineConfig({
               { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' },
               { text: 'Chapter XXXII — Reference and revision (ss. 436–445)', link: '/chapters/chapter-32' }
             ]
+          },
+          {
+            text: 'Execution, transfer and miscellaneous',
+            items: [
+              { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' }
+            ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
         ]
@@ -192,7 +198,13 @@ export default defineConfig({
             { text: 'Chapter XXXII — Reference and revision (ss. 436–445)', link: '/chapters/chapter-32' }
           ]
         },
-        { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
+        {
+          text: 'Execution, transfer and miscellaneous',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' }
+          ]
+        }
       ],
       '/drafts/': [
         { text: 'Drafting toolkit', collapsed: false, items: [] }
