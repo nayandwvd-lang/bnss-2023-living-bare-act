@@ -57,7 +57,8 @@ export default defineConfig({
               { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
               { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
               { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' },
-              { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' }
+              { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' },
+              { text: 'Chapter VIII — Reciprocal arrangements for assistance in certain matters and procedure for attachment and forfeiture of property (ss. 111–124)', link: '/chapters/chapter-08' }
             ]
           },
           {
@@ -142,7 +143,8 @@ export default defineConfig({
             { text: 'Chapter IV — Powers of superior officers of police and aid to the magistrates and the police (ss. 30–34)', link: '/chapters/chapter-04' },
             { text: 'Chapter V — Arrest of persons (ss. 35–62)', link: '/chapters/chapter-05' },
             { text: 'Chapter VI — Processes to compel appearance (ss. 63–93)', link: '/chapters/chapter-06' },
-            { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' }
+            { text: 'Chapter VII — Processes to compel the production of things (ss. 94–110)', link: '/chapters/chapter-07' },
+            { text: 'Chapter VIII — Reciprocal arrangements for assistance in certain matters and procedure for attachment and forfeiture of property (ss. 111–124)', link: '/chapters/chapter-08' }
           ]
         },
         { text: 'Preventive and maintenance jurisdiction', collapsed: true, items: [] },
