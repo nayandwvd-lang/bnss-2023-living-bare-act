@@ -116,7 +116,8 @@ export default defineConfig({
             items: [
               { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' },
               { text: 'Chapter XXXVII — Irregular proceedings (ss. 506–512)', link: '/chapters/chapter-37' },
-              { text: 'Chapter XXXVIII — Limitation for taking cognizance (ss. 513–519)', link: '/chapters/chapter-38' }
+              { text: 'Chapter XXXVIII — Limitation for taking cognizance (ss. 513–519)', link: '/chapters/chapter-38' },
+              { text: 'Chapter XXXIX — Miscellaneous (ss. 520–531)', link: '/chapters/chapter-39' }
             ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
@@ -206,7 +207,8 @@ export default defineConfig({
           items: [
             { text: 'Chapter XXXIII — Transfer of criminal cases (ss. 446–452)', link: '/chapters/chapter-33' },
             { text: 'Chapter XXXVII — Irregular proceedings (ss. 506–512)', link: '/chapters/chapter-37' },
-            { text: 'Chapter XXXVIII — Limitation for taking cognizance (ss. 513–519)', link: '/chapters/chapter-38' }
+            { text: 'Chapter XXXVIII — Limitation for taking cognizance (ss. 513–519)', link: '/chapters/chapter-38' },
+            { text: 'Chapter XXXIX — Miscellaneous (ss. 520–531)', link: '/chapters/chapter-39' }
           ]
         }
       ],
