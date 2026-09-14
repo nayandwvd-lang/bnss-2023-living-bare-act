@@ -103,6 +103,12 @@ export default defineConfig({
               { text: 'Chapter XXXIV — Execution, suspension, remission and commutation of sentences (ss. 453–477)', link: '/chapters/chapter-34' },
               { text: 'Chapter XXXVI — Disposal of property (ss. 497–505)', link: '/chapters/chapter-36' }
             ]
+          },
+          {
+            text: 'Appeals, reference, revision and inherent powers',
+            items: [
+              { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' }
+            ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
         ]
@@ -177,7 +183,13 @@ export default defineConfig({
             { text: 'Chapter XXXVI — Disposal of property (ss. 497–505)', link: '/chapters/chapter-36' }
           ]
         },
-        { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
+        {
+          text: 'Appeals, reference, revision and inherent powers',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XXXI — Appeals (ss. 413–435)', link: '/chapters/chapter-31' }
+          ]
+        },
         { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
       ],
       '/drafts/': [
