@@ -66,7 +66,8 @@ export default defineConfig({
             text: 'Preventive and maintenance jurisdiction',
             items: [
               { text: 'Chapter IX — Security for keeping the peace and for good behaviour (ss. 125–143)', link: '/chapters/chapter-09' },
-              { text: 'Chapter X — Order for maintenance of wives, children and parents (ss. 144–147)', link: '/chapters/chapter-10' }
+              { text: 'Chapter X — Order for maintenance of wives, children and parents (ss. 144–147)', link: '/chapters/chapter-10' },
+              { text: 'Chapter XI — Maintenance of public order and tranquillity (ss. 148–167)', link: '/chapters/chapter-11' }
             ]
           },
           {
@@ -161,7 +162,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Chapter IX — Security for keeping the peace and for good behaviour (ss. 125–143)', link: '/chapters/chapter-09' },
-            { text: 'Chapter X — Order for maintenance of wives, children and parents (ss. 144–147)', link: '/chapters/chapter-10' }
+            { text: 'Chapter X — Order for maintenance of wives, children and parents (ss. 144–147)', link: '/chapters/chapter-10' },
+            { text: 'Chapter XI — Maintenance of public order and tranquillity (ss. 148–167)', link: '/chapters/chapter-11' }
           ]
         },
         {
