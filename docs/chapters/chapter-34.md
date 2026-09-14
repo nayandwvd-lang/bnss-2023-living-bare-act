@@ -227,3 +227,124 @@ This cluster does not create an independent limitation period; its significance 
 - Where a client has spent time in a civil jail and is later moved to a criminal jail under section 457(2), calendar the three-year mark under section 457(3)(a) independently, since it operates as a deeming provision regardless of whether anyone applies for it.
 
 ---
+
+## Sections 461–464 — Collecting an unpaid fine: attachment, the Collector's route, and cross-territory recovery
+
+### The dispute this solves
+
+::: oneminute An offender sentenced to pay a fine who simply does not pay does not automatically go to jail the moment payment is missed — sections 461-464 are the machinery for actually getting the money (or the alternative custodial consequence) before, or instead of, imprisonment. Section 461 gives the sentencing Court two recovery routes, usable together or separately: attach and sell the offender's movable property directly, or send a warrant to the Collector to recover the amount as arrears of land revenue — with a specific brake on the Collector route where the offender has already served the full default-imprisonment term, unless the Court records special reasons or the fine funds a section 395 compensation order. Section 462 fixes the geographic reach of an attachment warrant: it works within the issuing Court's own jurisdiction automatically, and beyond it only once endorsed by the District Magistrate where the property actually sits. Section 463 handles the edge case of a fine imposed in a territory the Sanhita does not extend to, deeming a Collector's-route warrant sent into BNSS territory to be a proper section 461(1)(b) warrant. Section 464 is the humane pressure-valve: where a fine-plus-default-imprisonment sentence is not paid immediately, the Court may instead allow instalments, suspending the imprisonment on a bond, with the imprisonment only actually kicking in if a payment is missed.
+:::
+
+::: story An instalment order that keeps a shopkeeper out of jail
+A shopkeeper convicted of a regulatory offence is sentenced to a fine of forty thousand rupees, with two months' simple imprisonment in default. He cannot pay the full amount at once. Rather than committing him to jail immediately, the Magistrate invokes section 464(1)(a)-(b): the fine is made payable in three instalments over ninety days, and the default sentence of imprisonment is suspended on the shopkeeper's executing a bail bond conditioned on his appearing before the Court on each instalment date. He pays the first two instalments on time; the third, due to a genuine cash-flow problem, is missed. Under section 464(1)(b)'s closing words, the Court may now direct the sentence of imprisonment to be carried into execution at once — not automatically, but as a discretionary consequence of the missed instalment, and only for the unpaid balance's proportionate default term, following the ordinary principles governing fine-default sentences. In a separate, unrelated matter, a Court whose offender has already served his full default-imprisonment term still wants to recover the fine itself; section 461(1)'s proviso requires the Court to record special reasons before issuing a further Collector's-route warrant in that situation, precisely because sending someone who has already "paid" in custodial terms back into a further recovery process is not to be done routinely.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 461 — Warrant for levy of fine
+
+"461. (1) When an offender has been sentenced to pay a fine, but no such payment has been made, the Court passing the sentence [[?may]] take action for the recovery of the fine in either or both of the following ways, that is to say, it may—
+(a) issue a warrant for the levy of the amount by attachment and sale of any movable property belonging to the offender;
+(b) issue a warrant to the Collector of the district, authorising him to realise the amount as arrears of land revenue from the movable or immovable property, or both, of the defaulter:
+
+Provided that, if the sentence directs that in default of payment of the fine, the offender shall be imprisoned, and if such offender has undergone the whole of such imprisonment in default, no Court shall issue such warrant unless, for special reasons to be recorded in writing, it considers it necessary so to do, or unless it has made an order for the payment of expenses or compensation out of the fine under section 395.
+
+(2) The State Government [[?may]] make rules regulating the manner in which warrants under clause (a) of sub-section (1) are to be executed, and for the summary determination of any claims made by any person other than the offender in respect of any property attached in execution of such warrant.
+(3) Where the Court issues a warrant to the Collector under clause (b) of sub-section (1), the Collector [[!shall]] realise the amount in accordance with the law relating to recovery of arrears of land revenue, as if such warrant were a certificate issued under such law:
+
+Provided that no such warrant shall be executed by the arrest or detention in prison of the offender."
+:::
+
+::: proviso Section 462 — Effect of such warrant
+
+"462. A warrant issued under clause (a) of sub-section (1) of section 461 by any Court [[?may]] be executed within the local jurisdiction of such Court, and it [[!shall]] authorise the attachment and sale of any such property outside such jurisdiction, when it is endorsed by the District Magistrate within whose local jurisdiction such property is found."
+:::
+
+::: proviso Section 463 — Warrant for levy of fine issued by a Court in any territory to which this Sanhita does not extend
+
+"463. Notwithstanding anything in this Sanhita or in any other law for the time being in force, when an offender has been sentenced to pay a fine by a Criminal Court in any territory to which this Sanhita does not extend and the Court passing the sentence issues a warrant to the Collector of a district in the territories to which this Sanhita extends, authorising him to realise the amount as if it were an arrear of land revenue, such warrant [[!shall]] be deemed to be a warrant issued under clause (b) of sub-section (1) of section 461 by a Court in the territories to which this Sanhita extends, and the provisions of sub-section (3) of the said section as to the execution of such warrant shall apply accordingly."
+:::
+
+::: proviso Section 464 — Suspension of execution of sentence of imprisonment
+
+"464. (1) When an offender has been sentenced to fine only and to imprisonment in default of payment of the fine, and the fine is not paid forthwith, the Court [[?may]]—
+(a) order that the fine shall be payable either in full on or before a date not more than thirty days from the date of the order, or in two or three installments, of which the first shall be payable on or before a date not more than thirty days from the date of the order and the other or others at an interval or at intervals, as the case may be, of not more than thirty days;
+(b) suspend the execution of the sentence of imprisonment and release the offender, on the execution by the offender of a bond or bail bond, as the Court thinks fit, conditioned for his appearance before the Court on the date or dates on or before which payment of the fine or the installments thereof, as the case may be, is to be made; and if the amount of the fine or of any installment, as the case may be, is not realised on or before the latest date on which it is payable under the order, the Court [[?may]] direct the sentence of imprisonment to be carried into execution at once.
+(2) The provisions of sub-section (1) [[!shall]] be applicable also in any case in which an order for the payment of money has been made on non-recovery of which imprisonment may be awarded and the money is not paid forthwith; and, if the person against whom the order has been made, on being required to enter into a bond such as is referred to in that sub-section, fails to do so, the Court [[?may]] at once pass sentence of imprisonment."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="An offender has been sentenced to pay a fine, and payment has not been made forthwith."
+  :gates="[
+    { q: 'Has the offender already undergone the whole of the default-imprisonment term attached to the fine?', no: 'The section 461(1) proviso brake does not apply; the Court may issue an attachment warrant (clause a) or a Collector warrant (clause b), or both, in the ordinary course' },
+    { q: 'If the offender has served the full default term, has the Court recorded special reasons in writing, or is the warrant supporting a section 395 compensation/expenses order?', no: 'No further section 461(1)(b) Collector warrant may issue; a fine-default sentence that has been fully served in custodial terms is not to be chased by further recovery machinery absent one of these two justifications' },
+    { q: 'If the attachment route is used and the property lies outside the issuing Court\'s own jurisdiction, has the warrant been endorsed by the District Magistrate of the district where the property is found?', no: 'Section 462 is not satisfied — the warrant does not authorise attachment and sale of out-of-jurisdiction property without that endorsement' }
+  ]"
+  result="A fine may be recovered by attachment and sale of movable property, by a Collector's-route warrant treated as land-revenue arrears, or both — but a Collector's-route warrant after full service of the default term needs special recorded reasons or a section 395 tie-in, out-of-jurisdiction attachment needs a District Magistrate's endorsement, and neither route may itself be executed by arresting or detaining the offender."
+  resultKind="mandatory"
+  caveat="Section 464's instalment-and-suspension mechanism is a distinct, discretionary alternative to immediate recovery or immediate default-imprisonment — a Court that grants instalments under section 464 is not thereby required to also pursue attachment or Collector-route recovery under section 461, and a missed instalment triggers a fresh Court decision to execute the imprisonment, not an automatic committal."
+/>
+
+### In plain English
+
+An unpaid fine is not simply converted into jail time the moment the payment date passes — the Sanhita gives the Court real recovery tools first. Section 461 offers a choice: go after the offender's movable property directly through attachment and sale, or hand the job to the Collector, who recovers it the way any land-revenue arrear is recovered — and there is a deliberate brake on using the Collector route against someone who has already sat out the full default-imprisonment term, because at that point the person has, in a real sense, already paid the price the law set for non-payment. Section 462 is a jurisdictional plumbing rule — an attachment warrant works automatically inside the issuing Court's own turf, and needs a neighbouring District Magistrate's sign-off to reach property elsewhere. Section 463 solves an edge case for the rare fine imposed in a place the BNSS itself does not govern, treating a Collector warrant sent into BNSS territory as if it had been issued under section 461 to begin with. Section 464 is the section that actually keeps people out of jail for simple non-payment where possible: instead of immediate default imprisonment, the Court can let the offender pay in instalments, holding the custodial sentence in suspension on a bond — and only if a payment is actually missed does the Court get to decide, again, whether the suspended imprisonment should now be carried out.
+
+### What changed from the CrPC
+
+::: info Verify before citing
+BNSS sections 461–464 are provisionally mapped to CrPC sections 421–424, continuing the Chapter XXXII (CrPC) correspondence used elsewhere in this chapter. This mapping is unverified against the CrPC bare-act text and must be independently confirmed before use in any filing.
+:::
+
+The two-track recovery scheme (attachment versus Collector's route), the jurisdictional endorsement rule, the cross-territory deeming provision, and the instalment-and-suspension mechanism all read as continuations of the CrPC's existing fine-recovery scheme. Nothing in the extracted text of sections 461-464 signals a substantive policy departure; verify each specific numbering pair independently before relying on it in submissions.
+
+### Test your instinct
+
+:::: instinct A Court issues a warrant to the Collector under section 461(1)(b) to recover a fine as arrears of land revenue. The Collector, finding the defaulter uncooperative, proposes to have him arrested and briefly detained to pressure payment, intending to release him once the amount is realised. Is this permissible?
+
+::: ruling No. The proviso to section 461(3) is explicit and unqualified: "no such warrant shall be executed by the arrest or detention in prison of the offender." The Collector's-route recovery is confined to realising the amount from the offender's property, exactly as an ordinary land-revenue arrear would be recovered — it does not carry with it any power to arrest or detain the person as a recovery tactic. Any custodial consequence for non-payment of a fine has to come through the sentence's own default-imprisonment term (handled separately under sections 458 and 464), not through the Collector's land-revenue-recovery machinery.
+:::
+::::
+
+:::: instinct An offender granted instalments under section 464(1)(a) pays the first instalment on time but misses the second by three days due to a documented medical emergency, paying in full a week later, well before the third instalment date. Must the Court automatically direct the suspended imprisonment to be carried into execution the moment the second instalment's due date passed?
+
+::: ruling No. Section 464(1)(b) says the Court "may direct the sentence of imprisonment to be carried into execution at once" once an instalment is not realised by its due date — this is a discretionary power ("may"), not an automatic, self-executing consequence. A Court retains the discretion to decline to execute the suspended sentence where the default was brief, promptly cured, and explained by genuine circumstances such as a documented medical emergency, particularly where the offender otherwise continues to comply with the instalment schedule. The bond conditions the offender's continued liberty on appearance and payment as ordered, but the decision to actually execute the imprisonment on a missed instalment remains a considered judicial act, not a mechanical trigger.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+::: info Research gap — no case promoted
+No Supreme Court or High Court authority on sections 461–464 of the BNSS is cited here, given the recency of the numbering. The CrPC's case law on the fine-recovery machinery — particularly on the bar against using the Collector's route to arrest or detain a defaulter, and on the discretionary character of executing a suspended default sentence — remains substantively relevant, but every citation must be independently re-verified against the BNSS's renumbered provisions before it is pleaded.
+:::
+
+#### Sword and shield
+
+For the **defence**, section 464 is the section to invoke proactively for a client who cannot pay a fine in full immediately — requesting instalments and suspension of the default sentence is available as of right to be requested, even if granting it remains discretionary, and a documented, good-faith explanation for a missed instalment is a real argument against immediate execution of the suspended term. For the **prosecution/recovery authorities**, sections 461-463 are the toolkit for actually collecting fines rather than leaving them as paper orders — but section 461(3)'s proviso is an absolute limit worth internalising: the Collector's route never authorises arrest or detention as a means of pressuring payment.
+
+#### The limitation clock
+
+This cluster does not impose an external limitation period, but section 464(1)(a) itself creates internal timing discipline: full payment or the first instalment must fall due within thirty days of the order, and subsequent instalments at intervals of not more than thirty days each — a Court granting instalments outside these caps exceeds what section 464 authorises. The section 461(1) proviso's "already undergone the whole of such imprisonment in default" condition is a factual trigger, not a running clock, but it is worth tracking precisely, since it determines whether special reasons are required before further recovery action.
+
+#### Interlocking matrix
+
+- **Section 395 (Chapter XXIX)** — expressly cross-referenced in the section 461(1) proviso as one basis for issuing a Collector's-route warrant even after the offender has served the full default term, where the fine funds a compensation order.
+- **Section 458 (this Chapter, cluster 2)** — the ordinary warrant-of-imprisonment mechanics that apply once a section 464 suspended sentence is actually directed into execution.
+- **Section 471 (this Chapter, cluster 4)** — extends fine-recovery machinery to other money orders under the Sanhita whose recovery method is not otherwise specified, expressly including a modification tying it to section 400 costs orders.
+- **Revenue recovery law (land revenue arrears legislation)** — the substantive law the Collector applies when executing a section 461(1)(b) warrant; verify the applicable State's current arrears-of-land-revenue statute before advising on realistic recovery timelines.
+
+#### The authorities
+
+(No entries — see Research gap note above.)
+
+#### Strategy and drafting
+
+- For a client unable to pay a fine immediately, apply for section 464 instalments at the earliest opportunity — ideally at or immediately after sentencing — rather than waiting for a default-imprisonment warrant to issue first.
+- Where a Collector's-route warrant is sought after the offender has already served the full default term, scrutinise whether the Court has actually recorded special reasons in writing as section 461(1)'s proviso requires, or whether the warrant instead rests on an unstated section 395 compensation link that should be made explicit.
+- If a client faces attachment of property outside the issuing Court's jurisdiction, verify that a proper District Magistrate endorsement under section 462 exists before conceding the warrant's validity.
+- Document any circumstance likely to cause a missed instalment (medical emergency, documented cash-flow disruption) contemporaneously, so it is available to argue against immediate execution of a suspended default sentence under section 464(1)(b) if a payment date is missed.
+
+---
