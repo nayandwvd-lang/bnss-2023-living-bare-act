@@ -423,3 +423,122 @@ Section 401(6) expressly draws in sections 140, 143 and 414 for the mechanics of
 4. Where a client has breached bond conditions, prepare for a full sentencing hearing under sub-section (9), not merely a formality — the breach opens the door to sentence on the original offence, and mitigation on the breach itself remains relevant.
 
 ---
+
+## Sections 402–406 — Recording the road not taken, the finality of a signed judgment, and getting copies to the people who need them
+
+### The dispute this solves
+
+::: oneminute The chapter closes with five short administrative and finality provisions that keep the judgment honest and accessible after it is delivered. Section 402 is a discipline check on sections 401 and the Probation of Offenders Act: if the Court could have used either but chose an ordinary sentence instead, it must record special reasons for not doing so. Section 403 locks the judgment down once signed — no Court may alter or review its own signed judgment except to fix a clerical or arithmetical slip, subject to whatever else the Sanhita or other law separately allows. Sections 404 and 405 are about the judgment reaching the people entitled to see it — free copies to an imprisoned accused, certified copies on application, and translation into the accused's own language where practicable. Section 406 is a small administrative relay: the Court of Session or Chief Judicial Magistrate must forward a copy of its finding and sentence to the District Magistrate.
+:::
+
+::: story The judgment that could not be quietly rewritten
+A trial Court convicts and sentences an accused, signs the judgment, and the matter is listed to close. Days later, reviewing the file, the Judge notices the sentencing paragraph could have been more favourably worded, and is tempted to issue a revised version correcting the emphasis — not a clerical fix, but a substantive second look at language already signed and delivered. Section 403 forecloses this: once signed, the judgment may be altered or reviewed only to correct a clerical or arithmetical error, and reconsidering how a paragraph reads is neither. The accused, meanwhile, sentenced to imprisonment, is given a free copy of the judgment immediately under section 404(1); because the trial was conducted in English but the accused reads only Marathi, he applies for and receives a translation under section 404(2), and the Court of Session in due course forwards a copy of its finding and sentence to the District Magistrate under section 406, closing the chapter's own internal loop.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 402 — Special reasons to be recorded in certain cases
+
+"402. Where in any case the Court could have dealt with,—
+(a) an accused person under section 401 or under the provisions of the Probation of Offenders Act, 1958; or
+(b) a youthful offender under the Juvenile Justice (Care and Protection of Children) Act, 2015 or any other law for the time being in force for the treatment, training or rehabilitation of youthful offenders,
+but has not done so, it [[!shall]] record in its judgment the special reasons for not having done so."
+:::
+
+::: proviso Section 403 — Court not to alter judgment
+
+"403. Save as otherwise provided by this Sanhita or by any other law for the time being in force, no Court, when it has signed its judgment or final order disposing of a case, [[!shall]] alter or review the same except to correct a clerical or arithmetical error."
+:::
+
+::: proviso Section 404 — Copy of judgment to be given to accused and other persons
+
+"404. (1) When the accused is sentenced to imprisonment, a copy of the judgment [[!shall]], immediately after the pronouncement of the judgment, be given to him free of cost.
+(2) On the application of the accused, a certified copy of the judgment, or when he so desires, a translation in his own language if practicable or in the language of the Court, [[!shall]] be given to him without delay, and such copy shall, in every case where the judgment is appealable by the accused, be given free of cost:
+
+Provided that where a sentence of death is passed or confirmed by the High Court, a certified copy of the judgment [[!shall]] be immediately given to the accused free of cost whether or not he applies for the same.
+
+(3) The provisions of sub-section (2) shall apply in relation to an order under section 136 as they apply in relation to a judgment which is appealable by the accused.
+(4) When the accused is sentenced to death by any Court and an appeal lies from such judgment as of right, the Court [[!shall]] inform him of the period within which, if he wishes to appeal, his appeal should be preferred.
+(5) Save as otherwise provided in sub-section (2), any person affected by a judgment or order passed by a Criminal Court [[!shall]], on an application made in this behalf and on payment of the prescribed charges, be given a copy of such judgment or order or of any deposition or other part of the record:
+
+Provided that the Court [[?may]], if it thinks fit for some special reason, give it to him free of cost:
+
+Provided further that the Court [[?may]], on an application made in this behalf by the Prosecuting Officer, provide to the Government, free of cost, a certified copy of such judgment, order, deposition or record.
+
+(6) The High Court [[?may]], by rules, provide for the grant of copies of any judgment or order of a Criminal Court to any person who is not affected by a judgment or order, on payment, by such person, of such fees, and subject to such conditions, as the High Court may, by such rules, provide."
+:::
+
+::: proviso Section 405 — Judgment when to be translated
+
+"405. The original judgment [[!shall]] be filed with the record of the proceedings and where the original is recorded in a language different from that of the Court, and if either party so requires, a translation thereof into the language of the Court [[!shall]] be added to such record."
+:::
+
+::: proviso Section 406 — Court of Session to send copy of finding and sentence to District Magistrate
+
+"406. In cases tried by the Court of Session or a Chief Judicial Magistrate, the Court or such Magistrate, as the case may be, [[!shall]] forward a copy of its or his finding and sentence (if any) to the District Magistrate within whose local jurisdiction the trial was held."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A Court has just delivered and signed a judgment, and the question is what happens to that judgment next."
+  :gates="[
+    { q: 'Did the Court decline to use section 401 probation, the Probation of Offenders Act, or juvenile-justice legislation on an offender who could have qualified — and, if so, did it record special reasons for declining?', no: 'Section 402 is not satisfied; the judgment is deficient on this ground independent of the sentence actually imposed' },
+    { q: 'Has the judgment already been signed by the Court?', no: 'Section 403\'s bar on alteration or review has not yet engaged; the Court retains its ordinary pre-signature latitude' },
+    { q: 'Is the accused sentenced to imprisonment, or has he applied for a certified copy or translation of the judgment?', no: 'Sections 404-405\'s free-copy and translation obligations are not yet triggered on these facts' }
+  ]"
+  result="A judgment that records special reasons wherever probation or juvenile-justice treatment was available but not used, that is not altered or reviewed post-signature except for clerical or arithmetical correction, and that is promptly copied — free where imprisonment is imposed, translated where required, and relayed to the District Magistrate in Sessions and Chief Judicial Magistrate cases — satisfies sections 402 through 406."
+  resultKind="mandatory"
+  caveat="Section 403's bar is not absolute: it yields wherever the Sanhita or any other law for the time being in force otherwise expressly provides — for example, the review and revision powers found elsewhere in the Sanhita and in other statutes are not overridden by this section."
+/>
+
+### In plain English
+
+These five sections are the chapter's own bookkeeping — none of them decide guilt or sentence, but all of them make sure the judgment, once produced, is honest, final, and actually gets where it needs to go. Section 402 stops a Court from quietly skipping section 401 probation or the youthful-offender statutes without ever explaining why. Section 403 is finality: a signed judgment is not a draft the Court can keep polishing — only genuine clerical or arithmetic slips can be fixed, anything else needs a proper appeal or revision. Sections 404 and 405 make sure the judgment actually reaches the accused, in a form he can read, free where he's going to prison and on application otherwise. And section 406 is the smallest of all — a copy routed to the District Magistrate whenever the case was a Sessions or Chief Judicial Magistrate matter, so the local administrative machinery stays in the loop.
+
+### What changed from the CrPC
+
+⚠️ *Provisional mapping, not yet independently verified against a bare CrPC text held in this repository. Continuing the flat minus-39 offset hypothesis used elsewhere in this guide, this guide's working view is that BNSS section 402 corresponds to CrPC section 361, BNSS section 403 to CrPC section 362, BNSS section 404 to CrPC section 363, BNSS section 405 to CrPC section 364, and BNSS section 406 to CrPC section 365.*
+
+### Test your instinct
+
+:::: instinct A trial Court, three days after signing and pronouncing a conviction judgment, realises the sentencing paragraph incorrectly states the term of imprisonment as "three years" instead of the "two years" the Court actually intended and orally announced, and issues a corrected version of that paragraph.
+::: ruling Permissible — this is precisely the clerical-or-arithmetical-error exception section 403 preserves
+Section 403 bars alteration or review of a signed judgment "except to correct a clerical or arithmetical error." A mismatch between the sentence the Court actually pronounced and what the written judgment records is exactly this kind of transcription slip, not a substantive reconsideration of the decision — correcting it stays within the section's own carve-out.
+:::
+::::
+
+:::: instinct An accused sentenced to a fine only, who is not going to prison, is told he is not entitled to any copy of the judgment because section 404(1)'s free-copy obligation applies only to accused persons sentenced to imprisonment.
+::: ruling Incomplete — section 404(1) is narrower, but section 404(2) and (5) still apply
+Section 404(1)'s free-and-immediate copy obligation is indeed confined to an accused "sentenced to imprisonment." But section 404(2) separately entitles any accused, on application, to a certified copy or translation without delay — free of cost where the judgment is appealable by him — and section 404(5) extends a copy-on-application right more broadly still to any person affected by the judgment. A fine-only accused is not without a remedy; he simply has to apply rather than receive it automatically.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+⚠️ Research gap — no citation is promoted for this cluster. The scope of the clerical-or-arithmetical-error exception to judgment finality under section 403, and the special-reasons requirement under section 402, are propositions this guide has not yet matched to a specific promoted Supreme Court authority.
+
+#### Sword and shield
+
+As a **shield**, counsel facing a Court's attempt to substantively revise a signed judgment — beyond a genuine clerical or arithmetical correction — should invoke section 403's finality bar immediately, since the section leaves no discretion once the narrow exception is exceeded. As a **sword**, counsel for a client eligible for section 401 probation or juvenile-justice treatment, who nonetheless receives an ordinary sentence, should scrutinise the judgment for the special reasons section 402 requires — their absence is an independent appellate ground, separate from challenging the sentence's severity on the merits.
+
+#### The limitation clock
+
+No independent limitation period runs under sections 402–406. Section 404(4)'s own internal obligation — informing a death-sentenced accused of his appeal period — interacts with, but does not itself set, the separate limitation period for filing that appeal, which runs under the appeal provisions and the Limitation Act, 1963 rather than under this section.
+
+#### Interlocking matrix
+
+Section 402 interlocks directly with section 401 (built in the previous cluster) and with the standalone Probation of Offenders Act, 1958 and Juvenile Justice (Care and Protection of Children) Act, 2015. Section 403's finality bar interlocks with Chapter XXXI (Appeals) and Chapter XXXII (Reference and Revision) as the routes through which a signed judgment can still be disturbed, notwithstanding the general bar. Section 404(3)'s cross-reference to section 136 orders mirrors the same cross-reference already seen in section 393(6) in this chapter's first cluster.
+
+#### Strategy and drafting
+
+**Model checklist for the section 402–406 stage:**
+
+1. Where a client was sentenced despite apparent eligibility for section 401 probation or admonition, check the judgment for a recorded special-reasons paragraph under section 402 before advising on appeal grounds.
+2. Resist any post-signature revision to a judgment's substance by promptly invoking section 403, and distinguish clearly, on the record, between what is a genuine clerical or arithmetical slip and what is a substantive change dressed up as one.
+3. For an imprisoned client, confirm the free copy under section 404(1) was actually furnished immediately after pronouncement, not left to be requested; for a non-imprisoned client, file the section 404(2) application for a certified copy or translation promptly, particularly where an appeal clock is running.
+4. In Sessions and Chief Judicial Magistrate matters, do not assume section 406's forwarding to the District Magistrate has any bearing on the client's own appeal timeline — it is an inter-institutional administrative step, not a notice provision running in the client's favour.
+
+---
