@@ -485,3 +485,133 @@ This cluster does not impose independent limitation periods; its content is enti
 - Where a client faces stacked substantive and default-imprisonment sentences across multiple offences, map out the full sequencing under sections 467(1) and 469(2) before advising on a realistic release date — the default-imprisonment component for an earlier offence does not necessarily run before or alongside a later substantive sentence.
 
 ---
+
+## Sections 472–474 — Mercy petitions, and the executive's power to suspend, remit, or commute
+
+### The dispute this solves
+
+::: oneminute Section 472 is the BNSS's own codification of the death-row mercy petition process — a procedure that used to run almost entirely on executive practice and constitutional text alone. It fixes who may petition (the convict, or a legal heir or relative if he has not already), when the clock starts (from the jail Superintendent informing him of a Supreme Court dismissal, or of High Court confirmation with the Supreme Court appeal window having lapsed), the thirty-day window to file, the sequencing between the Governor and the President, the Superintendent's duty to chase co-convicts who have not filed, the Central Government's sixty-day processing obligation, the rule that multiple convicts in one case are decided together, the forty-eight-hour communication duty once the President decides, and the finality of the decision — unreviewable in any Court, including as to how the President or Governor arrived at it. Section 473 is a broader, non-death-specific power: the "appropriate Government" may suspend or remit any sentence, with or without conditions, subject to a procedural check (seeking the sentencing Judge's opinion) and a cancellation mechanism if conditions are breached. Section 474 is the power to commute one kind of sentence into a lesser one — without the convict's consent — following a fixed ladder from death down to fine.
+:::
+
+::: story A joint mercy petition, decided together, as section 472(5) requires
+Two co-convicts are sentenced to death for the same offence. One promptly exhausts his Supreme Court appeal and, on the Superintendent's information under section 472(1)(i), files a mercy petition within thirty days, first to the Governor and, on its rejection, to the President within the following sixty days as section 472(2) requires. The second convict, less engaged with his own case, files nothing. Under section 472(3), the Superintendent of the jail does not simply let the second convict's silence stand — he is required to ensure every convict in a multi-convict case files within sixty days, and on non-receipt, to forward the second convict's names, address, case record, and other details to the Government for consideration together with the first convict's petition. When the matter reaches the President, section 472(5) requires both petitions to be decided together, in the interests of justice, rather than allowing one convict's execution to proceed while his co-convict's petition remains outstanding on the same facts. Once the President decides, section 472(6) gives the Central Government forty-eight hours to communicate the order to the State's Home Department and the jail Superintendent — and under section 472(7), that decision, however it comes out, is not something either convict can challenge in any Court, nor can a Court inquire into how the President or Governor reached it.
+:::
+
+### The Act, decompiled
+
+::: proviso Section 472 — Mercy petition in death sentence cases
+
+"472. (1) A convict under the sentence of death or his legal heir or any other relative may, if he has not already submitted a petition for mercy, file a mercy petition before the President of India under article 72 or the Governor of the State under article 161 of the Constitution within a period of thirty days from the date on which the Superintendent of the jail,—
+(i) informs him about the dismissal of the appeal, review or special leave to appeal by the Supreme Court; or
+(ii) informs him about the date of confirmation of the sentence of death by the High Court and the time allowed to file an appeal or special leave in the Supreme Court has expired.
+(2) The petition under sub-section (1) [[?may]], initially be made to the Governor and on its rejection or disposal by the Governor, the petition [[!shall]] be made to the President within a period of sixty days from the date of rejection or disposal of such petition.
+(3) The Superintendent of the jail or officer in charge of the jail [[!shall]] ensure, that every convict, in case there are more than one convict in a case, also files the mercy petition within a period of sixty days and on non-receipt of such petition from the other convicts, Superintendent of the jail shall send the names, addresses, copy of the record of the case and all other details of the case to the Central Government or the State Government for consideration along with the said mercy petition.
+(4) The Central Government [[!shall]], on receipt of the mercy petition seek the comments of the State Government and consider the petition along with the records of the case and make recommendations to the President in this behalf, as expeditiously as possible, within a period of sixty days from the date of receipt of comments of the State Government and records from Superintendent of the Jail.
+(5) The President [[?may]], consider, decide and dispose of the mercy petition and, in case there are more than one convict in a case, the petitions shall be decided by the President together in the interests of justice.
+(6) Upon receipt of the order of the President on the mercy petition, the Central Government [[!shall]] within forty-eight hours, communicate the same to the Home Department of the State Government and the Superintendent of the jail or officer in charge of the jail.
+(7) No appeal shall lie in any Court against the order of the President or of the Governor made under article 72 or article 161 of the Constitution and it shall be final, and any question as to the arriving of the decision by the President or the Governor shall not be inquired into in any Court."
+:::
+
+::: proviso Section 473 — Power to suspend or remit sentences
+
+"473. (1) When any person has been sentenced to punishment for an offence, the appropriate Government [[?may]], at any time, without conditions or upon any conditions which the person sentenced accepts, suspend the execution of his sentence or remit the whole or any part of the punishment to which he has been sentenced.
+(2) Whenever an application is made to the appropriate Government for the suspension or remission of a sentence, the appropriate Government [[?may]] require the presiding Judge of the Court before or by which the conviction was had or confirmed, to state his opinion as to whether the application should be granted or refused, together with his reasons for such opinion and also to forward with the statement of such opinion a certified copy of the record of the trial or of such record thereof as exists.
+(3) If any condition on which a sentence has been suspended or remitted is, in the opinion of the appropriate Government, not fulfilled, the appropriate Government [[?may]] cancel the suspension or remission, and thereupon the person in whose favour the sentence has been suspended or remitted may, if at large, be arrested by any police officer, without warrant and remanded to undergo the unexpired portion of the sentence.
+(4) The condition on which a sentence is suspended or remitted under this section [[?may]] be one to be fulfilled by the person in whose favour the sentence is suspended or remitted, or one independent of his will.
+(5) The appropriate Government [[?may]], by general rules or special orders, give directions as to the suspension of sentences and the conditions on which petitions should be presented and dealt with:
+
+Provided that in the case of any sentence (other than a sentence of fine) passed on a person above the age of eighteen years, no such petition by the person sentenced or by any other person on his behalf shall be entertained, unless the person sentenced is in jail, and—
+(a) where such petition is made by the person sentenced, it is presented through the officer in charge of the jail; or
+(b) where such petition is made by any other person, it contains a declaration that the person sentenced is in jail.
+
+(6) The provisions of the above sub-sections [[!shall]] also apply to any order passed by a Criminal Court under any section of this Sanhita or of any other law, which restricts the liberty of any person or imposes any liability upon him or his property.
+(7) In this section and in section 474, the expression 'appropriate Government' means,—
+(a) in cases where the sentence is for an offence against, or the order referred to in sub-section (6) is passed under, any law relating to a matter to which the executive power of the Union extends, the Central Government;
+(b) in other cases, the Government of the State within which the offender is sentenced or the said order is passed."
+:::
+
+::: proviso Section 474 — Power to commute sentence
+
+"474. The appropriate Government [[?may]], without the consent of the person sentenced, commute—
+(a) a sentence of death, for imprisonment for life;
+(b) a sentence of imprisonment for life, for imprisonment for a term not less than seven years;
+(c) a sentence of imprisonment for seven years or more, for imprisonment for a term not less than three years;
+(d) a sentence of imprisonment for less than seven years, for fine;
+(e) a sentence of rigorous imprisonment, for simple imprisonment for any term to which that person might have been sentenced."
+:::
+
+### How this actually runs
+
+<MicroTree
+  input="A death-row convict's Supreme Court appeal has been dismissed, or the High Court's confirmation has become final with the Supreme Court appeal window lapsed, and the jail Superintendent has informed him accordingly."
+  :gates="[
+    { q: 'Has a mercy petition been filed within thirty days of the Superintendent\'s information, first to the Governor and then, on rejection, to the President within sixty days of that rejection?', no: 'The section 472(1)-(2) timeline has not been followed on these facts — though a legal heir or relative may still petition if the convict himself has not already done so, and the Superintendent has an independent duty under section 472(3) to chase non-filing co-convicts' },
+    { q: 'If there are multiple convicts in the same case, has the Superintendent ensured all of them file within sixty days, or forwarded the details of any non-filer for consideration alongside the filed petition?', no: 'Section 472(3) has not been satisfied — a joint case cannot proceed to final decision on only one convict\'s petition while a co-convict\'s position is neither filed nor forwarded' },
+    { q: 'Where multiple convicts\' petitions are before the President, are they being decided together, in the interests of justice, as section 472(5) requires?', no: 'Deciding one convict\'s mercy petition in isolation from a co-convict\'s petition on the same case, without the section 472(5) joint-decision safeguard, does not comply with the section' }
+  ]"
+  result="A mercy petition process that follows the thirty-day/sixty-day filing and escalation timeline, ensures every convict in a multi-convict case is brought into the process, and results in a joint decision for co-convicts, satisfies section 472 — and the President's or Governor's resulting decision is then final and unreviewable under section 472(7), including as to the reasoning behind it."
+  resultKind="mandatory"
+  caveat="Section 472(7)'s finality bar is narrower than it first appears — it bars review of the mercy decision itself and of the President's or Governor's reasoning process, but it does not on its own terms bar judicial review of antecedent procedural failures in how the section 472 process was conducted (for example, a Superintendent's failure to inform the convict at all, or a failure to bring a co-convict into a joint decision) — that is a live area of constitutional litigation, not something this section's plain text resolves definitively."
+/>
+
+### In plain English
+
+Section 472 takes something that used to live mostly in constitutional text and executive practice — the mercy petition — and gives it a concrete procedural skeleton: firm deadlines for filing, a fixed sequence running Governor first and then President, an obligation on the jail administration to actively make sure every convict in a multi-convict case is brought into the process rather than left behind by his own inaction, a processing deadline on the Central Government's side, a requirement that co-convicts' fates be decided together rather than piecemeal, a forty-eight-hour communication duty once a decision is made, and a broad finality clause insulating the ultimate decision from judicial second-guessing. Sections 473 and 474 step outside the death-penalty context entirely: section 473 gives the "appropriate Government" — Central or State, depending on whose executive power the offence falls under — a general power to pause or wipe out any sentence, with or without conditions, subject to consulting the trial Judge's opinion and a claw-back mechanism if a convict breaches the conditions he accepted. Section 474 is the ladder of commutation — death down to life, life down to a minimum seven-year term, seven-plus years down to a minimum three-year term, under-seven-year terms down to a fine, and rigorous down to simple imprisonment — all exercisable without needing the convict's consent, since it is by definition a reduction in what he is made to suffer.
+
+### What changed from the CrPC
+
+::: info Verify before citing
+BNSS sections 473–474 are provisionally mapped to CrPC sections 432 and 433, continuing the Chapter XXXII (CrPC) correspondence used elsewhere in this chapter. Section 472, however, has no clean CrPC-era equivalent in this codified form — the CrPC largely left mercy-petition procedure to constitutional practice and Supreme Court-evolved guidelines rather than a standalone statutory section. This entire mapping is unverified and must be independently confirmed before use in any filing.
+:::
+
+Section 472 appears to be a genuine, substantive addition rather than a renumbered carryover: codifying specific timelines (thirty days, sixty days, forty-eight hours), the jail Superintendent's proactive duty toward non-filing co-convicts, and the joint-decision requirement for multiple convicts in one case, are all more prescriptive than what existed as a standalone CrPC section. Much of this codifies practice that Supreme Court jurisprudence on death-row mercy petitions and execution delay had already developed — but reducing it to fixed statutory timelines, if that is indeed new, is a meaningful procedural shift worth flagging clearly rather than assuming as pre-existing law. Sections 473-474's suspension, remission, and commutation powers read as continuations of the CrPC's existing scheme.
+
+### Test your instinct
+
+:::: instinct A death-row convict's mercy petition is rejected by the Governor. His counsel, believing the case is now over, does not file anything further. Fifty-nine days after the Governor's rejection, realising the omission, counsel scrambles to file before the President. Is this within time?
+
+::: ruling Barely, but yes — section 472(2) allows sixty days from the date of the Governor's rejection or disposal to petition the President, so a filing on day fifty-nine is within the statutory window, though it leaves no margin for any delay in transmission or processing. This scenario is also a caution rather than a comfort: section 472 does not treat a Governor's rejection as the end of the road — the President petition is a distinct, sequential step that must be affirmatively taken, not one that happens automatically on a Governor's rejection. Counsel handling a death-row matter should calendar the President-petition deadline the moment the Governor's decision is received, not treat it as optional follow-up.
+:::
+::::
+
+:::: instinct A convict's sentence of simple imprisonment is suspended by the appropriate Government under section 473(1), conditioned on his regularly reporting to a local police station. He complies for several months, then stops reporting for reasons that are later found to be entirely outside his control (a medical emergency requiring hospitalisation far from the specified station). Can the appropriate Government cancel the suspension under section 473(3) purely because the condition was, as a factual matter, not fulfilled?
+
+::: ruling Section 473(3) is triggered where a condition is "not fulfilled" in the opinion of the appropriate Government, and on its plain text does not build in an excuse for good-cause non-compliance — the power to cancel exists once non-fulfilment is found. But this is precisely why section 473(3)'s "in the opinion of the appropriate Government" language matters: the decision to cancel remains a discretionary one, not an automatic consequence of non-fulfilment, and an appropriate Government exercising that discretion reasonably would ordinarily take genuine, well-documented good cause into account before cancelling and ordering the person's arrest and remand. A convict facing this situation should immediately bring the medical emergency to the appropriate Government's attention with documentary proof, both to forestall cancellation and, if cancellation nonetheless occurs, to support a representation against it — but the bare legal position is that section 473(3) does not itself guarantee an exception for good cause; it depends on how the appropriate Government exercises its discretion.
+:::
+::::
+
+### Practitioner HUD — operational realities
+
+#### The winning ratio
+
+::: info Research gap — no case promoted
+No Supreme Court or High Court authority on sections 472–474 of the BNSS is cited here, given the recency of the numbering. This is a particularly sensitive gap given section 472's apparent novelty as a codified mercy-petition procedure — practitioners should actively track emerging BNSS-specific jurisprudence on this section rather than relying solely on pre-existing constitutional-practice case law on mercy petitions, which was developed against a different (uncodified) procedural backdrop.
+:::
+
+#### Sword and shield
+
+For death-row **defence counsel**, section 472 is now a checklist, not just a constitutional entitlement to invoke informally — the thirty-day and sixty-day deadlines, the Governor-then-President sequence, and the jail Superintendent's duties toward co-convicts are all concrete compliance points that can be raised if the process goes off the rails. For the **State/Central Government**, section 473's suspension and remission power is a flexible tool for sentence management generally, not limited to death-penalty cases, but its conditional mechanism requires care in drafting enforceable, fair conditions, since section 473(3)'s cancellation-and-remand consequence is severe.
+
+#### The limitation clock
+
+Section 472 is dense with hard deadlines: thirty days from the Superintendent's information to file the first mercy petition; sixty days from a Governor's rejection to petition the President; sixty days for co-convicts to file, tracked by the Superintendent; sixty days for the Central Government to make recommendations to the President after receiving State Government comments and case records; forty-eight hours for the Central Government to communicate the President's final order downward. Every one of these is worth calendaring independently and immediately upon the triggering event, given the stakes involved.
+
+#### Interlocking matrix
+
+- **Article 72 and Article 161 of the Constitution** — the substantive source of the mercy power itself; section 472 is procedural scaffolding around these constitutional powers, not a replacement for them.
+- **Section 455 (this Chapter, cluster 1)** — the postponement-pending-Supreme-Court-appeal provisions whose exhaustion (dismissal of appeal, review, or special leave) is precisely what triggers the Superintendent's section 472(1)(i) information duty starting the mercy-petition clock.
+- **Section 475 (this Chapter, cluster 6)** — the fourteen-year minimum-service rule that applies specifically where a death sentence is commuted to life imprisonment under section 474(a), whether via mercy petition outcome or otherwise.
+- **Constitutional writ jurisdiction (articles 32/226)** — the practical avenue for challenging procedural failures in the section 472 process itself, distinct from (and not barred by) section 472(7)'s finality clause on the substance of the mercy decision.
+
+#### The authorities
+
+(No entries — see Research gap note above.)
+
+#### Strategy and drafting
+
+- In any death-row matter, prepare a section 472 compliance calendar the moment the Supreme Court appeal is dismissed or the confirmation-appeal window lapses — do not wait for the jail Superintendent's formal information to start informal preparation of the mercy petition itself.
+- Where a case involves multiple co-convicts, proactively confirm with the jail administration that every convict's position is being tracked under section 472(3), rather than assuming the process will surface a non-filing co-convict on its own.
+- For a section 473 suspension or remission application, request in advance that any conditions imposed be specific, practically achievable, and account foreseeably for circumstances (illness, distance, documented hardship) that might otherwise trigger a cancellation dispute under section 473(3).
+- Where section 472(7)'s finality clause is raised against a challenge, distinguish clearly between challenging the substance of the mercy decision (barred) and challenging a procedural failure in how the section 472 process itself was conducted (an open question meriting careful constitutional argument, not conceded by the section's text).
+
+---
