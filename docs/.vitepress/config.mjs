@@ -94,6 +94,12 @@ export default defineConfig({
             items: [
               { text: 'Chapter XXXV — Bail and bonds (ss. 478–496)', link: '/chapters/chapter-35' }
             ]
+          },
+          {
+            text: 'Judgment, sentence and disposal of property',
+            items: [
+              { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' }
+            ]
           }
           // Add further groups as their chapters are completed. Do not list a page before it exists.
         ]
@@ -158,7 +164,13 @@ export default defineConfig({
             { text: 'Chapter XXXV — Bail and bonds (ss. 478–496)', link: '/chapters/chapter-35' }
           ]
         },
-        { text: 'Judgment, sentence and disposal of property', collapsed: true, items: [] },
+        {
+          text: 'Judgment, sentence and disposal of property',
+          collapsed: false,
+          items: [
+            { text: 'Chapter XXIX — The judgment (ss. 392–406)', link: '/chapters/chapter-29' }
+          ]
+        },
         { text: 'Appeals, reference, revision and inherent powers', collapsed: true, items: [] },
         { text: 'Execution, transfer and miscellaneous', collapsed: true, items: [] }
       ],
