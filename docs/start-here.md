@@ -8,7 +8,7 @@ Start with any provision's **The dispute this solves** section. It puts a human 
 
 ## If you already know the CrPC
 
-Every provision carries a **What changed from the CrPC** section: the old section number, the new one, whether the text actually changed, and — most importantly — what you must now do differently. Start there, or go straight to the [CrPC → BNSS concordance](/concordance) for a running list.
+Every provision carries a **What changed from the CrPC** section: the old section number, the new one, whether the text actually changed, and — most importantly — what you must now do differently. Start there.
 
 ## How each provision is built
 
@@ -18,7 +18,7 @@ Every page in this guide follows the same six-stage structure, so once you know 
 2. **The Act, decompiled** — the verbatim text, with mandatory, discretionary and defined-term language marked inline.
 3. **How this actually runs** — the mechanical decision chain.
 4. **In plain English** — the doctrine taken apart, element by element.
-5. **What changed from the CrPC** — the concordance.
+5. **What changed from the CrPC** — the delta from the old Code, provision by provision.
 6. **Test your instinct** — scenarios you answer before the ruling is revealed.
 7. **Practitioner HUD** — the winning ratio, sword and shield, limitation clock, interlocking matrix, the remaining authorities, and drafting strategy.
 

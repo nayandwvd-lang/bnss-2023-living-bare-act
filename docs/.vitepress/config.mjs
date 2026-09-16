@@ -12,7 +12,7 @@ import { bnssContainers } from './markdown/containers.mjs'
 export default defineConfig({
   title: 'BNSS Practitioner & Academic Guide',
   description:
-    'Bharatiya Nagarik Suraksha Sanhita, 2023 — a living digital bare Act, with the CrPC concordance.',
+    'Bharatiya Nagarik Suraksha Sanhita, 2023 — a living digital bare Act.',
   lang: 'en-IN',
 
   // Local builds serve from '/'; the Pages workflow sets DOCS_BASE=/bnss/.
@@ -46,7 +46,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start here', link: '/start-here' },
-      { text: 'CrPC → BNSS', link: '/concordance' },
       { text: 'Glossary', link: '/glossary' },
       {
         text: 'Chapters',

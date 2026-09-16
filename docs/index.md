@@ -4,14 +4,14 @@ layout: home
 hero:
   name: BNSS Practitioner & Academic Guide
   text: A living digital bare Act
-  tagline: Bharatiya Nagarik Suraksha Sanhita, 2023 — with the CrPC concordance, for the student meeting it for the first time and the practitioner who has a hearing tomorrow.
+  tagline: Bharatiya Nagarik Suraksha Sanhita, 2023 — for the student meeting it for the first time and the practitioner who has a hearing tomorrow.
   actions:
     - theme: brand
       text: Start here
       link: /start-here
     - theme: alt
-      text: CrPC → BNSS concordance
-      link: /concordance
+      text: Drafting toolkit
+      link: /drafts/
 
 features:
   - title: Zero-presumption
