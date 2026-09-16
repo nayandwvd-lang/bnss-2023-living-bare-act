@@ -253,7 +253,15 @@ export default defineConfig({
         }
       ],
       '/drafts/': [
-        { text: 'Drafting toolkit', collapsed: false, items: [] }
+        { text: 'Drafting toolkit', collapsed: false, items: [
+          { text: 'Overview', link: '/drafts/' },
+          { text: 'Bail application', link: '/drafts/bail-application' },
+          { text: 'Anticipatory bail application', link: '/drafts/anticipatory-bail-application' },
+          { text: 'Discharge application', link: '/drafts/discharge-application' },
+          { text: 'Quashing petition', link: '/drafts/quashing-petition' },
+          { text: 'Revision application', link: '/drafts/revision-application' },
+          { text: 'Maintenance application', link: '/drafts/maintenance-application' }
+        ] }
       ]
     },
 
